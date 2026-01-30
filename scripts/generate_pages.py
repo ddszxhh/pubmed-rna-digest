@@ -121,6 +121,14 @@ def build_index_html(papers: list[dict], config: dict, date_str: str) -> str:
       color: #9ca3af;
       margin-top: .25rem;
     }}
+    .archive-top {{
+      margin-top: .5rem;
+      font-size: .9rem;
+    }}
+    .archive-top a {{
+      color: #a5b4fc;
+      text-decoration: none;
+    }}
     .paper-card {{
       background: #020617;
       border-radius: .75rem;
@@ -228,6 +236,7 @@ def build_index_html(papers: list[dict], config: dict, date_str: str) -> str:
     <p class=\"desc\">{desc}</p>
     <div class=\"date\">📅 {date_str}</div>
     <div class=\"count\">共 {len(papers)} 篇精选论文</div>
+    <div class=\"archive-top\"><a href=\"archive.html\">查看历史归档 →</a></div>
   </header>
 
   <main>
@@ -241,6 +250,7 @@ def build_index_html(papers: list[dict], config: dict, date_str: str) -> str:
 </body>
 </html>
 """
+
 
 def build_archive_html(dates: list[str], config: dict) -> str:
     site = config.get("site", {})
