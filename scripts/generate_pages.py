@@ -242,6 +242,66 @@ def build_index_html(papers: list[dict], config: dict, date_str: str) -> str:
 </html>
 """
 
+def build_archive_html(dates: list[str], config: dict) -> str:
+    site = config.get("site", {})
+    title = site.get("title", "PubMed RNA Editing Daily Digest")
+
+    links = "\n".join(
+        f'<a class="archive-link" href="{d}.html">{d}</a>' for d in dates
+    )
+
+    return f"""<!DOCTYPE html>
+<html lang=\"zh-CN\">
+<head>
+  <meta charset=\"UTF-8\" />
+  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />
+  <title>归档 - {title}</title>
+  <style>
+    body {{
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+      background: #050816;
+      color: #e5e7eb;
+      margin: 0;
+      padding: 1.5rem;
+      max-width: 600px;
+      margin-inline: auto;
+    }}
+    h1 {{
+      margin: 0 0 1.5rem;
+      font-size: 1.6rem;
+    }}
+    .archive-link {{
+      display: block;
+      padding: .75rem 1rem;
+      margin-bottom: .5rem;
+      border-radius: .5rem;
+      border: 1px solid #1f2937;
+      background: #020617;
+      color: #e5e7eb;
+      text-decoration: none;
+      font-size: .95rem;
+    }}
+    .archive-link:hover {{
+      border-color: #4f46e5;
+    }}
+    .back {{
+      margin-bottom: 1rem;
+      font-size: .9rem;
+    }}
+    .back a {{
+      color: #a5b4fc;
+      text-decoration: none;
+    }}
+  </style>
+</head>
+<body>
+  <div class=\"back\"><a href=\"index.html\">← 返回今日</a></div>
+  <h1>🧬 历史归档</h1>
+  {links}
+</body>
+</html>
+"""
+
 
 def main():
     config = load_config()
@@ -249,17 +309,25 @@ def main():
     today = datetime.now().strftime("%Y-%m-%d")
     papers_file = data_dir / f"{today}.json"
 
+    output_dir = Path(__file__).parent.parent / "public"
+    output_dir.mkdir(parents=True, exist_ok=True)
     papers: list[dict] = []
     if papers_file.exists():
         with open(papers_file, "r", encoding="utf-8") as f:
             papers = json.load(f)
 
-    output_dir = Path(__file__).parent.parent / "public"
-    output_dir.mkdir(parents=True, exist_ok=True)
-
+    # 今日页面：index.html + YYYY-MM-DD.html
     html = build_index_html(papers, config, today)
     (output_dir / "index.html").write_text(html, encoding="utf-8")
-    print(f"[pages] Generated index.html with {len(papers)} papers")
+    (output_dir / f"{today}.html").write_text(html, encoding="utf-8")
+    print(f"[pages] Generated index.html and {today}.html with {len(papers)} papers")
+
+    # 归档页面：扫描所有日期
+    dates = sorted([p.stem for p in data_dir.glob("*.json")], reverse=True)
+    if dates:
+        archive_html = build_archive_html(dates, config)
+        (output_dir / "archive.html").write_text(archive_html, encoding="utf-8")
+        print(f"[pages] Generated archive.html with {len(dates)} days")
 
 
 if __name__ == "__main__":
