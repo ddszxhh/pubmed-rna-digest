@@ -2,15 +2,17 @@ name: PubMed RNA Editing Daily Digest
 
 on:
   schedule:
-    # 每天北京时间 9:00 运行 (UTC 1:00)
-    - cron: '0 1 * * *'
+    # 每天北京时间 8:00 运行 (UTC 0:00)
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
-  update-pubmed-rna:
+  update:
     runs-on: ubuntu-latest
 
     steps:
@@ -36,23 +38,46 @@ jobs:
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
-          python pubmed-rna-digest/scripts/summarize.py
+          python scripts/summarize.py
 
       - name: Generate HTML pages
         run: |
-          python pubmed-rna-digest/scripts/generate_pages.py
+          python scripts/generate_pages.py
 
       - name: Send WeChat notification via Server酱 (PubMed RNA)
         if: success()
         env:
           SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
         run: |
-          python pubmed-rna-digest/scripts/notify_wechat.py
+          python scripts/notify_wechat.py
 
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add pubmed-rna-digest/data pubmed-rna-digest/public
+          git add -A
           git diff --staged --quiet || git commit -m "🧬 Update PubMed RNA digest for $(date +'%Y-%m-%d')"
           git push
+          
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './public'
+      
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+    
