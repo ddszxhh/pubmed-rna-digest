@@ -1,0 +1,58 @@
+name: PubMed RNA Editing Daily Digest
+
+on:
+  schedule:
+    # 每天北京时间 9:00 运行 (UTC 1:00)
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-pubmed-rna:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch + rank PubMed RNA papers
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: |
+          python pubmed-rna-digest/scripts/fetch_papers.py
+
+      - name: Summarize selected papers
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: |
+          python pubmed-rna-digest/scripts/summarize.py
+
+      - name: Generate HTML pages
+        run: |
+          python pubmed-rna-digest/scripts/generate_pages.py
+
+      - name: Send WeChat notification via Server酱 (PubMed RNA)
+        if: success()
+        env:
+          SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
+        run: |
+          python pubmed-rna-digest/scripts/notify_wechat.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add pubmed-rna-digest/data pubmed-rna-digest/public
+          git diff --staged --quiet || git commit -m "🧬 Update PubMed RNA digest for $(date +'%Y-%m-%d')"
+          git push

@@ -1,0 +1,58 @@
+# PubMed RNA Editing Daily Digest 配置文件
+
+pubmed:
+  # PubMed E-utilities 基础配置
+  db: pubmed
+  retmax: 300           # 每次最多抓取 300 篇
+  sort: pub+date
+
+  # 基础检索式：以 RNA 编辑工具 / gRNA 设计 / programmable RNA regulation 为核心
+  # 这里只是一个起点，你可以在日后根据需要自行微调。
+  base_query: >
+    (("RNA editing"[Title/Abstract]) OR ("programmable RNA"[Title/Abstract]) OR
+     ("guide RNA"[Title/Abstract]) OR (gRNA[Title/Abstract]) OR
+     ("RNA base editing"[Title/Abstract]) OR ("RNA deaminase"[Title/Abstract]) OR
+     ("ADAR"[Title/Abstract]) OR ("RNA-targeting CRISPR"[Title/Abstract]) OR
+     ("Cas13"[Title/Abstract]) OR ("Cas7-11"[Title/Abstract]))
+
+  # 时间窗口：最近 30 天（由代码层面再次过滤保证）
+  # 在 E-utilities 查询中也会加上类似 "last 30 days"[dp]
+
+
+# 每日最大论文数量
+max_papers_per_day: 5
+
+
+# DeepSeek API 配置
+deepseek:
+  model: deepseek-chat
+  max_tokens: 500
+  temperature: 0.2
+
+
+# 偏好配置: 用于 DeepSeek 打分时描述你的兴趣
+preference:
+  profile: >
+    我是一名从事 RNA 编辑工具开发的研究生，关注的核心问题是：如何通过设计工程化蛋白质/酶系统并结合 gRNA，
+    实现对特定 RNA 位点的 programmable 调控。优先感兴趣的方向包括但不限于：
+    1）将催化结构域（如 ADAR、deaminase、核糖核酸酶等）与 gRNA 识别模块融合，实现位点特异性的 RNA 碱基编辑、切割或剪接；
+    2）构建可编程的 RNA 调控系统，对目标 RNA 进行翻译抑制、翻译激活、RNA 稳定性调控；
+    3）可用于 RNA 检测、RNA 动态追踪、活细胞内 RNA 标记的分子工具；
+    4）针对上述方向的系统设计、模块化工程策略、结构优化与 delivery 策略。
+
+    更偏好有明确工程设计思路和工具属性的工作（如系统搭建、模块化设计、可推广的平台），而非纯粹的
+    生物学机制观察或与 RNA 编辑无关的通用分子生物学研究。
+
+    对于纯临床描述、与 RNA 编辑/programmable RNA 调控关系较弱的工作，应当给出较低分。
+
+
+# 站点配置
+site:
+  title: "🧬 PubMed RNA Editing Daily Digest"
+  description: "最近 30 天内可编程 RNA 编辑 / gRNA 工程工具相关论文精选"
+  author: "Graduate Student"
+  base_url: ""  # 部署后可填写 GitHub Pages URL
+
+
+# 时区设置 (用于显示日期)
+timezone: Asia/Shanghai
