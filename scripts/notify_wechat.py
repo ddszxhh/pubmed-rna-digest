@@ -40,7 +40,7 @@ def resolve_site_url(config: dict) -> str:
     repo = os.environ.get("GITHUB_REPOSITORY", "")
     if "/" in repo:
         owner, name = repo.split("/", 1)
-        return f"https://{owner}.github.io/{name}/pubmed-rna-digest/".replace("//pubmed", "/pubmed")
+        return f"https://{owner}.github.io/{name}/"
 
     return ""
 
