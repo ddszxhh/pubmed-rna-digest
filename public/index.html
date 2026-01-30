@@ -37,6 +37,14 @@
       color: #9ca3af;
       margin-top: .25rem;
     }
+    .archive-top {
+      margin-top: .5rem;
+      font-size: .9rem;
+    }
+    .archive-top a {
+      color: #a5b4fc;
+      text-decoration: none;
+    }
     .paper-card {
       background: #020617;
       border-radius: .75rem;
@@ -144,6 +152,7 @@
     <p class="desc">最近 30 天内可编程 RNA 编辑 / gRNA 工程工具相关论文精选</p>
     <div class="date">📅 2026-01-30</div>
     <div class="count">共 5 篇精选论文</div>
+    <div class="archive-top"><a href="archive.html">查看历史归档 →</a></div>
   </header>
 
   <main>
@@ -161,7 +170,13 @@
   <p class="title-zh">Argonaute介导的RNA编辑选择性修复点突变</p>
   <p class="authors">Zhang Z, Wang J, Guo T, Yu X, Wang F, Zhang H, Liu Y, Li W</p>
   <div class="summary">
-    <div class="summary-block"><strong>工具类型:</strong> RNA碱基编辑器（基于Argonaute蛋白与ADAR脱氨酶结构域融合的平台）</div>
+    <div class="summary-block"><strong>工具类型:</strong> 基于Argonaute的RNA编辑平台（结合了Argonaute蛋白与ADAR脱氨酶）</div>
+    <div class="summary-block"><strong>设计思路:</strong> 该工具的核心设计思路是：首先利用源自Monosporascus cannonballus的Argonaute蛋白（McAgo）作为可编程的RNA靶向模块，其可被14-30 nt的gRNA引导至特定RNA位点。然后，通过将催化失活的McAgo突变体（dMcAgo）与人类ADAR2脱氨酶结构域（hADAR2dd E488Q）融合，构建了一个能够将腺苷（A）高效脱氨为肌苷（I）的RNA定点编辑系统。</div>
+    <div class="summary-block"><strong>功能与应用:</strong> 1. 实现RNA的高效敲低（>90%）。
+2. 实现位点特异性的RNA编辑（A-to-I编辑），用于修复点突变或调控基因功能。
+3. 作为一种可编程的RNA靶向平台，具备应用于动态、可逆的基因表达调控的潜力。</div>
+    <div class="summary-block"><strong>关键结果:</strong> 1. 在体外实验中，dMcAgo-hADAR2dd融合系统实现了高达90%的RNA编辑效率。
+2. 在哺乳动物细胞中，McAgo RNP复合物实现了高效的RNA敲低（>90%），且引发的先天免疫反应极小，首次证明了异源Argonaute蛋白可有效靶向内源性哺乳动物细胞RNA。</div>
   </div>
   <details class="abstract">
     <summary>查看摘要</summary>
@@ -184,13 +199,12 @@
   <p class="authors">Zhuang Y, Zhu Q, Wu H, Lin X, Yan Y, Geng P, Yang R, Shen R</p>
   <div class="summary">
     <div class="summary-block"><strong>工具类型:</strong> 可编程RNA碱基编辑平台（结合Cas蛋白、引导RNA与工程化脱氨酶）</div>
-    <div class="summary-block"><strong>设计思路:</strong> 该平台（AIM）的核心设计思路是：1）利用靶向RNA的Cas蛋白与能形成环状结构的引导RNA结合，在目标RNA上诱导产生一个两侧为配对区域、中间为单链环的结构；2）通过工程化改造单链脱氨酶TadA，使其能够识别并编辑该单链环区域，并且环的大小可调，以适配不同数量的碱基编辑需求。</div>
-    <div class="summary-block"><strong>功能与应用:</strong> 1. 在用户定义的RNA区域内进行位点特异性碱基编辑（包括A-to-I、C-to-U以及A+C同时编辑）。
-2. 编辑编码区与非编码区RNA序列，以改变其功能。
-3. 应用于疾病相关模型，例如通过同时编辑两个腺嘌呤（A）来抑制赭石无义密码子（UAA），从而重写编码信息。
-4. 操控相邻的、对蛋白质功能至关重要的磷酸化位点对应的RNA序列。</div>
-    <div class="summary-block"><strong>关键结果:</strong> 1. 成功进化出能够实现A-to-I、C-to-U或A+C同时编辑的TadA变体，编辑效率可调。
-2. 在疾病相关的细胞和动物模型中，成功通过同时编辑两个A碱基，有效抑制了UAA无义密码子，证明了其体内功能性应用潜力。</div>
+    <div class="summary-block"><strong>设计思路:</strong> 该平台（AIM）的核心设计是将一个能形成环状结构的引导RNA与靶向RNA的Cas蛋白及工程化的TadA脱氨酶结合。引导RNA与靶RNA配对后，诱导靶RNA形成一个两侧为配对区域、中间为单链环的结构，通过调整环的大小，可实现对单个或多个碱基的编辑。</div>
+    <div class="summary-block"><strong>功能与应用:</strong> 1. 在用户定义的RNA区域内进行位点特异性碱基编辑（A-to-I， C-to-U， 或A+C同时编辑）。
+2. 应用于编码区和非编码区RNA序列的改写。
+3. 抑制疾病相关模型中的赭石无义密码子（UAA），需同时编辑两个A碱基以恢复编码功能。
+4. 操纵相邻的磷酸化位点以调控蛋白质功能。</div>
+    <div class="summary-block"><strong>关键结果:</strong> 通过进化TadA脱氨酶，实现了高效、可调的A-to-I、C-to-U及A+C同时编辑，并在疾病相关的细胞和动物模型中成功应用，通过同时编辑UAA无义密码子的两个A碱基，有效恢复了目标蛋白的表达。</div>
   </div>
   <details class="abstract">
     <summary>查看摘要</summary>
@@ -213,11 +227,11 @@
   <p class="authors">Zhang W, Wang H, Liu D, Mao X, Zhang Y, Yang Y, Liu Z, Pan T</p>
   <div class="summary">
     <div class="summary-block"><strong>工具类型:</strong> Cas13系统（RNA靶向CRISPR系统）</div>
-    <div class="summary-block"><strong>设计思路:</strong> 通过蛋白质工程对Cas13a酶进行改造，旨在增强其与靶RNA的特异性结合与切割能力，同时削弱或限制其非特异性切割（旁系切割）活性。核心思路是优化酶结构域，使其在保持高效靶向切割的同时，显著减少对非靶标RNA的降解。</div>
+    <div class="summary-block"><strong>设计思路:</strong> 通过蛋白质工程对Cas13a酶进行改造，旨在增强其对靶标RNA的特异性切割活性，同时最大限度地减少对非靶标RNA的“旁系切割”活性。核心思路是优化酶的结构域或关键残基，以解耦靶标识别与非特异性RNA酶活，从而获得高特异性版本。</div>
     <div class="summary-block"><strong>功能与应用:</strong> 1. 位点特异性的RNA切割与敲低。
-2. 靶向降解疾病相关的RNA（如病毒RNA、致癌转录本）。
-3. 潜在的体内RNA治疗应用。</div>
-    <div class="summary-block"><strong>关键结果:</strong> 关键实验结果表明，改造后的Cas13a系统在体外和细胞模型中，对靶RNA的切割效率显著提升，同时其旁系切割活性（即对非靶标RNA的非特异性降解）被大幅降低，为安全有效的治疗性应用提供了重要依据。</div>
+2. 治疗性RNA清除（如靶向病毒RNA、有害转录本）。
+3. 基础研究中的RNA功能研究。</div>
+    <div class="summary-block"><strong>关键结果:</strong> 关键性能指标显示，工程化后的Cas13a变体在体外和细胞模型中，对靶标RNA的切割效率显著提升，同时其旁系切割活性（即对非靶标RNA的非特异性切割）被大幅降低，为治疗应用提供了更安全、更特异的工具。</div>
   </div>
   <details class="abstract">
     <summary>查看摘要</summary>
@@ -240,9 +254,9 @@
   <p class="authors">Brogan DJ, Lin CP, Benetta ED, Wang T, Chen F, Li H, Lin C, Komives EA</p>
   <div class="summary">
     <div class="summary-block"><strong>工具类型:</strong> 可编程RNA靶向与降解系统（基于合成/工程化的III-E型CRISPR-Cas效应器）</div>
-    <div class="summary-block"><strong>设计思路:</strong> 核心思路是通过结构域工程改造天然非活性的III-E类效应器。具体包括：1）识别一种由三个Cas7样结构域和一个Cas1样结构域组成的天然非活性效应器；2）通过与其他活性III-E效应器进行结构域添加和交换（特别是用Cas1结构域替换DiCas7-11中Cas11结构域的位置），成功构建出具有活性的嵌合RNA靶向效应器。</div>
-    <div class="summary-block"><strong>功能与应用:</strong> 1. 可编程的RNA靶向与降解；2. 为基于CRISPR的RNA调控工具开发提供了新的工程化平台和模块化组装思路。</div>
-    <div class="summary-block"><strong>关键结果:</strong> 最关键的结果是成功将一种天然非活性的III-E类效应器通过结构域工程改造为具有活性的RNA靶向效应器，证明了不同III-E效应器间的同源结构域可以互换，并揭示了一种替换Cas11功能结构域（使用Cas1）的新工程模式。</div>
+    <div class="summary-block"><strong>设计思路:</strong> 核心思路是通过结构域工程改造天然非活性的III-E类效应器。具体包括：1）识别一种由三个Cas7样结构域和一个Cas1样结构域组成的天然非活性效应器；2）通过与其他活性III-E效应器进行结构域添加和交换，将其改造为具有活性的嵌合RNA靶向效应器。这揭示了III-E效应器中不同结构域（如Cas11与Cas1）可以相互替换的模块化特性。</div>
+    <div class="summary-block"><strong>功能与应用:</strong> 1. 可编程的RNA靶向与降解。2. 为构建新型RNA调控工具（如RNA敲低、编辑、传感）提供了一个可工程化的蛋白质骨架平台。</div>
+    <div class="summary-block"><strong>关键结果:</strong> 最关键的结果是成功将一种天然非活性的III-E类效应器，通过结构域工程改造为具有活性的嵌合RNA靶向效应器，并证实了III-E效应器结构域（如Cas1与Cas11）具有可互换性，这为从头设计合成CRISPR效应器提供了新范式。</div>
   </div>
   <details class="abstract">
     <summary>查看摘要</summary>
@@ -261,16 +275,15 @@
   <h3 class="title">
     <a href="https://pubmed.ncbi.nlm.nih.gov/41533577/" target="_blank">RNA editing for the treatment of alpha-1 antitrypsin deficiency.</a>
   </h3>
-  <p class="title-zh">利用RNA编辑治疗α-1抗胰蛋白酶缺乏症</p>
+  <p class="title-zh">通过RNA编辑治疗α-1抗胰蛋白酶缺乏症</p>
   <p class="authors">Monian P, Shivalila C, Lu G, Bowman K, Briem S, Bylsma M, Byrne M, Cannon M</p>
   <div class="summary">
-    <div class="summary-block"><strong>工具类型:</strong> 基于内源性ADAR酶的寡核苷酸RNA编辑器（化学修饰的寡核苷酸药物）</div>
-    <div class="summary-block"><strong>设计思路:</strong> 该工具的核心设计是将一个经过N-乙酰半乳糖胺化学修饰和优化的寡核苷酸（SERPINA1-994）递送至肝细胞。该寡核苷酸通过碱基配对靶向SERPINA1基因的Z突变转录本，并利用细胞内源性的作用于RNA的腺苷脱氨酶（ADAR），将特定位点的腺苷（A）编辑为肌苷（I），从而实现RNA水平的校正。</div>
-    <div class="summary-block"><strong>功能与应用:</strong> 1. 实现位点特异性的A-to-I RNA编辑，纠正致病突变转录本。
-2. 恢复功能性野生型蛋白（M-AAT）的产生，以弥补肺部功能丧失（增加血清对中性粒细胞弹性蛋白酶的抑制能力）。
-3. 减少肝脏中突变蛋白（Z-AAT）的聚集和炎症，以改善功能获得性毒性。
-4. 作为一种潜在的治疗性药物，同时针对α-1抗胰蛋白酶缺乏症的肺部（功能丧失）和肝脏（功能获得）病理。</div>
-    <div class="summary-block"><strong>关键结果:</strong> 在NSG-PiZ小鼠模型中，SERPINA1-994成功编辑了约50%的肝细胞Z突变转录本，显著提高了血清总AAT水平并诱导产生野生型M-AAT蛋白；该编辑高度特异，无旁观者编辑，且有效改善了肺部功能指标和肝脏病理表型，将高风险ZZ表型转变为低风险的MZ样表型。</div>
+    <div class="summary-block"><strong>工具类型:</strong> ADAR介导的RNA碱基编辑器（具体为寡核苷酸介导的A-to-I编辑工具）</div>
+    <div class="summary-block"><strong>设计思路:</strong> 该工具SERPINA1-994是一种经N-乙酰半乳糖胺化学修饰的寡核苷酸。其核心设计思路是利用化学修饰的寡核苷酸作为向导，特异性靶向SERPINA1基因的Z突变转录本，并招募内源性作用于RNA的腺苷脱氨酶（ADAR），实现位点特异性的腺嘌呤（A）到肌苷（I）的RNA编辑，从而纠正致病突变。</div>
+    <div class="summary-block"><strong>功能与应用:</strong> 1. 实现位点特异性的RNA碱基编辑（A-to-I）。
+2. 纠正SERPINA1基因的Z突变转录本，恢复野生型M-AAT蛋白的产生。
+3. 同时治疗AATD的肺部和肝脏病变：在肺部，通过增加血清AAT水平恢复其抑制中性粒细胞弹性蛋白酶的功能（治疗功能丧失）；在肝脏，通过减少突变蛋白聚集和炎症来改善功能获得性毒性。</div>
+    <div class="summary-block"><strong>关键结果:</strong> 在NSG-PiZ小鼠模型中，SERPINA1-994成功编辑了约50%的肝细胞Z突变转录本，显著提高了血清总AAT水平并诱导产生野生型M-AAT蛋白；该编辑高度特异，无旁观者编辑，且有效改善了肺部功能缺陷和肝脏的病理表型（减少蛋白聚集和炎症），将高风险ZZ表型转变为低风险MZ样表型。</div>
   </div>
   <details class="abstract">
     <summary>查看摘要</summary>
