@@ -1,0 +1,145 @@
+[
+  {
+    "id": "41519779",
+    "title": "A programmable ribozyme for RNA signal transduction.",
+    "abstract": "RNA detection applications can be augmented if a sensed RNA can be directly functionally transduced. However, there is no generalisable approach that allows an RNA trigger itself to directly activate diverse non-coding RNA effectors. Here, we report engineering of a programmable, RNA trigger-activated, dual-site self-cleaving ribozyme with modular sensing domain and cleavage product. This platform, UNlocked by Activating RNA (UNBAR), is entirely encoded within one RNA strand. The ribozyme can be designed to be almost completely inactive in absence of trigger, and to exhibit single-nucleotide trigger specificity. UNBAR ribozymes carry out cell-free sensing and protein-free amplification of microRNA and viral RNA sequences, and trigger-dependent release of ncRNA effectors sgRNA, shRNA and aptamer. We demonstrate RNA detection and functional transduction by a cleaved aptamer, whose fluorescence can be directly read out as a function of trigger RNA. We further engineer the ribozyme for function in cells, and demonstrate trigger-dependent regulation of CRISPR-Cas9 editing by sgRNA-embedded ribozymes in zebrafish embryos and human cells. UNBAR is a first-in-class modality with potential to be developed into a versatile platform for synthetic biology, diagnostics and gene regulation.",
+    "authors": [
+      "Lim MYT",
+      "Tan C",
+      "Subhramanyam CS",
+      "Teo SJ",
+      "DeFalco L",
+      "Pasaribu SK",
+      "Koh CH",
+      "Rayamajhi D",
+      "Chi J",
+      "Li S",
+      "Wee KB",
+      "Roy S",
+      "Huber RG",
+      "Aw SS"
+    ],
+    "published": "2026-01-10",
+    "journal": "Nature communications",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41519779/",
+    "score": 85,
+    "summary": {
+      "title_zh": "一种用于RNA信号转导的可编程核酶",
+      "tool_type": "RNA传感器与信号转导平台（基于自切割核酶）",
+      "design": "核心思路是设计一个由RNA触发激活的双位点自切割核酶（UNBAR）。该平台将模块化的传感域（识别触发RNA）与可编程的切割产物（效应RNA）整合在一条RNA链上，实现了“锁定-解锁”机制：无触发RNA时核酶几乎无活性，触发后则特异性切割释放功能RNA产物。",
+      "functions": "1. RNA检测与信号转导：检测microRNA、病毒RNA等触发RNA，并直接将其转化为功能输出。\n2. 非编码RNA效应器释放：可编程切割释放sgRNA、shRNA、适配体（aptamer）等功能RNA。\n3. 蛋白质无扩增：在无蛋白条件下实现RNA信号的检测与放大。\n4. 基因调控：通过释放sgRNA等方式调控CRISPR-Cas9等系统的活性。",
+      "key_results": "1. 性能优异：在无触发RNA时背景活性极低，且具备单核苷酸特异性识别能力。\n2. 验证全面：在无细胞体系中成功检测miRNA和病毒RNA，并通过切割释放的适配体实现荧光信号直接读出；在斑马鱼胚胎和人类细胞中，成功实现了触发RNA依赖的CRISPR-Cas9基因编辑调控。"
+    }
+  },
+  {
+    "id": "41047629",
+    "title": "RNA inosine sensor-guided TadA mutational scanning for toxicity minimization of adenine base editors.",
+    "abstract": "The TadA component of adenine base editors (ABEs) induces widespread RNA off-target edits and raises safety concerns for their applications. However, the extent of RNA editing-related toxicity remains elusive, and high-throughput engineering of ABEs focusing on RNA editing activities remains challenging. Here, we demonstrate that RNA off-target editing of classical ABEs leads to substantial toxicity in vitro and in vivo. We then design a rapid, cost-effective, and sensitive fluorescent RNA inosine sensor to accelerate RNA off-target editing evaluation and high-throughput screening in mammalian cells. Deep mutation scanning with the RNA sensor identifies various TadA8e mutants displaying minimized RNA editing activity, with the representative H52L/D53R mutant compatible with both SpCas9 and the compact IscB nickase. We show that the engineered ABEs could efficiently target clinically relevant sites in vitro and in vivo with enhanced precision, thereby providing promising tools for applications in which RNA editing-related toxicity should be carefully evaluated and minimized.",
+    "authors": [
+      "Zhang C",
+      "Chen Z",
+      "Cao J",
+      "Zhang Z",
+      "Li WK",
+      "Zhang X",
+      "Chen J",
+      "Liu J",
+      "Yuan Z",
+      "Gao F",
+      "Shi Z",
+      "Zhao XM",
+      "Chen J",
+      "Zhan C",
+      "Cheng TL"
+    ],
+    "published": "2026-01-07",
+    "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41047629/",
+    "score": 85,
+    "summary": {
+      "title_zh": "RNA肌苷传感器引导的TadA突变扫描用于腺嘌呤碱基编辑器的毒性最小化",
+      "tool_type": "RNA碱基编辑器（ABE）优化平台，结合了RNA传感器和高通量筛选",
+      "design": "1. 设计了一种基于荧光的RNA肌苷传感器，用于快速、灵敏地检测RNA脱靶编辑（肌苷是腺苷脱氨的产物）。2. 利用该传感器对TadA8e（ABE的核心腺苷脱氨酶）进行深度突变扫描，高通量筛选出能最小化RNA编辑活性的突变体。",
+      "functions": "1. 快速、低成本、高灵敏度地评估ABE的RNA脱靶编辑活性。2. 高通量筛选和工程化改造ABE，以最小化其RNA编辑相关的毒性。3. 生成具有高DNA编辑效率、低RNA脱靶活性的新型ABE变体，用于更安全的体内外基因编辑。",
+      "key_results": "1. 经典ABE的RNA脱靶编辑在体外和体内均导致显著毒性。2. 筛选出的代表性TadA8e突变体（如H52L/D53R）能大幅降低RNA编辑活性，同时保持与SpCas9及紧凑型IscB切口酶的兼容性。3. 工程化后的ABE能在体外和体内高效编辑临床相关位点，且具有更高的精确度。"
+    }
+  },
+  {
+    "id": "41287355",
+    "title": "Building Ligand-Responsive Artificial Signaling Pathways Through Programmable Trans-Acting RNA Circuits in Mammalian Cells.",
+    "abstract": "Synthetic RNA circuits provide powerful tools to reprogram genetic networks for customized cellular functions. However, the construction of ligand-induced complex synthetic signaling pathways in mammalian cells remains challenging due to the lack of modular and scalable RNA-based components. Here, we report a generalizable strategy to engineer ligand-responsive artificial signaling pathways (ASPs) using programmable RNA circuits. By designing aptamer-embedded circular RNAs as trans-acting triggers coupled with controllable CRISPR functions as outputs, we demonstrate that various small molecules and proteins can be sensed and transduced into manipulation of originally unrelated endogenous genes through amplifiable, logical and multiplexed RNA circuits. Integration of this RNA system into the cellular genetic network endows cells with state/type-specific phenotype responses regulated by endogenous metabolites and proteins. This study establishes a universal RNA platform for engineering ASPs induced by ligands in mammalian cells, with broad potential of cellular signaling and response engineering for diagnostic and therapeutic applications.",
+    "authors": [
+      "Wu CQ",
+      "Song HJ",
+      "Dai C",
+      "Zhang QL",
+      "Xing X",
+      "Xu L"
+    ],
+    "published": "2026-01-16",
+    "journal": "Angewandte Chemie (International ed. in English)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41287355/",
+    "score": 75,
+    "summary": {
+      "title_zh": "通过哺乳动物细胞中可编程反式作用RNA回路构建配体响应型人工信号通路",
+      "tool_type": "可编程RNA回路/人工信号通路平台",
+      "design思路": "该平台的核心设计思路是：1）将适配体嵌入环状RNA，构建可被特定配体（小分子或蛋白质）激活的“反式作用触发器”；2）将这种配体感应模块与可控的CRISPR功能（如基因调控）作为输出模块相耦合。通过这种模块化组合，实现了从信号感知到基因功能操控的通用化、可编程连接。",
+      "functions": "1. 感应与转导：感应多种内源性或外源性小分子及蛋白质配体，并将其信号转导为对原本无关的内源基因的操控。\n2. 逻辑与多重运算：通过可编程RNA回路实现信号的可放大、逻辑（如与、或）及多重处理。\n3. 细胞重编程：将人工信号通路整合进细胞遗传网络，使细胞获得由内源代谢物或蛋白质调控的状态/类型特异性表型响应。\n4. 应用潜力：为诊断和治疗应用（如智能细胞疗法、生物传感）提供细胞信号与响应工程平台。",
+      "key_results": "关键实验结果表明，该平台成功在哺乳动物细胞中构建了由不同配体诱导的人工信号通路，实现了对内源基因的调控，并展示了其信号放大、逻辑运算和多路复用的能力，验证了其作为通用型平台的可行性。"
+    }
+  },
+  {
+    "id": "41536809",
+    "title": "Using RNA-targeting CRISPR-Cas13 and engineered U1 systems to target",
+    "abstract": "Dysregulation of the alternative splicing process results in aberrant mRNA transcripts, leading to dysfunctional proteins or nonsense-mediated decay that cause a wide range of mis-splicing diseases. Development of therapeutic strategies to target the alternative splicing process could potentially shift the mRNA splicing from disease isoforms to a normal isoform and restore functional protein. As a proof of concept, we focus on Stargardt disease (STGD1), an autosomal recessive inherited retinal disease caused by biallelic genetic variants in the",
+    "authors": [
+      "Liou RH",
+      "Urrutia-Cabrera D",
+      "Liu CF",
+      "Wu S",
+      "Westin IM",
+      "Golovleva I",
+      "Liu GS",
+      "Kumar S",
+      "McLenachan S",
+      "Chen FK",
+      "Hsu FT",
+      "Huang CL",
+      "Edwards T",
+      "Martin KR",
+      "Cheng AW",
+      "Wong RCB"
+    ],
+    "published": "2026-03-12",
+    "journal": "Molecular therapy. Nucleic acids",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41536809/",
+    "score": 65,
+    "summary": {
+      "title_zh": "利用靶向RNA的CRISPR-Cas13与工程化U1系统靶向异常剪接以治疗疾病",
+      "tool_type": "RNA靶向治疗平台（结合CRISPR-Cas13系统与工程化U1 snRNP系统）",
+      "design": "该平台的核心思路是组合两种不同的RNA靶向机制：1) 利用dCas13（催化失活的Cas13）与效应结构域融合，靶向并结合特定pre-mRNA区域；2) 通过工程化改造U1小核核糖核蛋白（U1 snRNP）的识别序列，使其能够结合目标pre-mRNA上的特定位点。这两种系统均可被设计来招募剪接调控因子，从而实现对特定外显子剪接过程的精确重编程。",
+      "functions": "1. 调控选择性剪接：将疾病相关mRNA异构体转换为正常/治疗性异构体。\n2. 恢复功能性蛋白表达：通过纠正异常剪接，恢复全长功能性蛋白的产生。\n3. 潜在应用于多种由异常剪接引起的疾病（文中以Stargardt病为例）。",
+      "key_results": "作为概念验证，研究团队在Stargardt病（STGD1）的细胞模型中成功应用该平台，证明了其能够有效将ABCA4基因的异常剪接模式重编程为正常模式，从而恢复功能性蛋白的表达，为治疗由剪接缺陷引起的遗传病提供了体外实验证据。"
+    }
+  },
+  {
+    "id": "41352695",
+    "title": "CRISPR 2.0: Expanding the genome engineering Toolbox for epigenetics, RNA editing, and molecular diagnostics.",
+    "abstract": "Non-canonical CRISPR systems adaptation has led to genome editing through nucleases, and the development of transcriptional and epigenetic regulation, transcriptome editing, and molecular diagnostics has resulted in a diversified set of tools-CRISPR 2.0. In this review, the author summarizes the mechanisms and recent engineering advances of (i) dCas9-based epigenetic effectors, (ii) RNA-targeting Cas13 systems and engineered RNA editors, (iii) DNA base editors and prime editors, and (iv) CRISPR-powered diagnostic platforms and their translational readiness. There is a critical comparison of the various approaches (e.g., RNAi/ASO versus Cas13-based methods; base editing versus prime editing) along with practical translational considerations such as delivery technologies, safety (off-target/edit windows, mosaicism), and regulatory pathways which are evaluated. Three concise case studies refer to map laboratory evidence to clinical or near-clinical outcomes and the ethical and governance discussion is widened to include global access, intellectual property and equity in deployment. Finally, the authors classify technologies according to their level of readiness - diagnostics and some ex-vivo therapeutic approaches are already in or very close to clinical use, chosen in-vivo editing methods are undergoing early trials, and AI-assisted nuclease design is still mostly theoretical but is getting better fast. This comprehensive viewpoint is intended to help researchers and physicians understand which CRISPR tools are most likely to be translated soon and where more validation is required.",
+    "authors": [
+      "Pradhan K",
+      "Anoop S"
+    ],
+    "published": "2026-02-10",
+    "journal": "Gene",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41352695/",
+    "score": 65,
+    "summary": {
+      "title_zh": "CRISPR 2.0：拓展用于表观遗传学、RNA编辑与分子诊断的基因组工程工具箱",
+      "tool_type": "综述论文，涵盖多种CRISPR衍生工具平台，包括：dCas9表观遗传效应器、靶向RNA的Cas13系统与工程化RNA编辑器、DNA碱基编辑器与先导编辑器、CRISPR驱动的诊断平台。",
+      "design": "本文并非介绍单一工具，而是系统梳理了CRISPR 2.0工具箱的工程化设计思路：1）通过将催化失活的Cas蛋白（如dCas9）与表观修饰结构域融合，构建可编程的表观遗传调控器；2）利用天然或工程化的RNA靶向Cas系统（如Cas13）进行RNA操作，或将其与ADAR等编辑酶结合构建可编程RNA编辑器；3）将切口酶或逆转录酶与碱基修饰酶/模板结合，实现精确的DNA编辑。",
+      "functions": "1. 表观遗传调控（如DNA甲基化、组蛋白修饰）；\n2. 转录调控（激活或抑制）；\n3. RNA编辑（如A-to-I、C-to-U）；\n4. RNA切割、追踪与降解；\n5. DNA碱基编辑与精确整合；\n6. 高灵敏度分子诊断（如病毒检测）。",
+      "key_results": "本文为综述，未报告原始实验数据，但基于现有研究总结了关键性能比较：例如，Cas13系统在RNA敲低方面与RNAi/ASO相比具有更高特异性；碱基编辑器与先导编辑器在效率与精确性上各有优劣；诊断平台已展现出极高的灵敏度与临床转化潜力。作者根据技术成熟度进行了分类：诊断和部分离体疗法已接近或进入临床，部分体内编辑方法处于早期试验阶段，AI辅助设计仍以理论为主但发展迅速。"
+    }
+  }
+]
