@@ -1,0 +1,148 @@
+[
+  {
+    "id": "41129587",
+    "title": "Therapeutic base editing to generate a gain-of-function F9 variant for hemophilia B.",
+    "abstract": "The repair of pathological gene variants is an ultimate goal in treating genetic diseases; however, developing distinct therapeutic reagents for each of the numerous variants within a gene may not be scalable. Here, we investigated whether base editing to introduce a gain-of-function variant in blood coagulation factor IX (FIX) can increase FIX activity as a targeted therapeutic approach for hemophilia B. We engineered a G:C to A:T substitution at c.1151 of F9 by cytosine base editing to generate R338Q (the Shanghai F9 variant), which markedly increases coagulation factor activity. An adeno-associated virus vector harboring the base editor converted >60% of the target G:C to A:T and increased FIX activity in HEK293 cells harboring patient-derived F9 variants as well as in knock-in mice carrying a human F9 complementary DNA. Furthermore, administration of lipid nanoparticles containing the base-editor mRNA and guide RNA increased FIX activity in mice. These data indicate that cytosine base editing to generate R338Q in FIX is a broadly applicable genome-editing strategy for hemophilia B with residual FIX activity.",
+    "authors": [
+      "Baatartsogt N",
+      "Kashiwakura Y",
+      "Hiramoto T",
+      "Ito R",
+      "Sato R",
+      "Nagao Y",
+      "Naruoka H",
+      "Takata H",
+      "Hayakawa M",
+      "Batjargal K",
+      "Togashi T",
+      "Hoshino A",
+      "Shimizu T",
+      "Sato Y",
+      "Ishida T",
+      "Nureki O",
+      "Ohmori T"
+    ],
+    "published": "2026-01-22",
+    "journal": "Blood",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41129587/",
+    "score": 65,
+    "summary": {
+      "title_zh": "通过治疗性碱基编辑生成功能获得性F9变体以治疗B型血友病",
+      "tool_type": "RNA碱基编辑器（具体为胞嘧啶碱基编辑器，CBE）",
+      "design": "该工具的核心设计思路是，利用胞嘧啶碱基编辑器（CBE）系统，在F9基因的特定位点（c.1151）实现G:C到A:T的精确碱基替换。其工程化模块组合为：将能催化C-to-T转换的脱氨酶（如APOBEC）与nCas9（切口酶）融合，并搭配特异性靶向F9基因c.1151位点的向导RNA（gRNA）。",
+      "functions": "1. 实现位点特异性的基因组DNA碱基编辑（C-to-T）。\n2. 在B型血友病模型中，通过引入功能获得性R338Q突变（上海F9变体），提升凝血因子IX（FIX）的活性。\n3. 作为一种“通用型”治疗策略，理论上可适用于所有携带残余FIX活性的B型血友病基因变异，无需为每个特定突变开发单独疗法。",
+      "key_results": "1. 在体外和体内实验中，腺相关病毒（AAV）递送的碱基编辑器在靶位点的编辑效率超过60%，并显著提升了携带患者来源F9变异的HEK293细胞和携带人源F9 cDNA敲入小鼠模型中的FIX活性。\n2. 通过脂质纳米颗粒（LNP）递送碱基编辑器mRNA和gRNA，同样能在小鼠体内成功提高FIX活性，验证了非病毒递送途径的可行性。"
+    }
+  },
+  {
+    "id": "41554880",
+    "title": "Temporal dynamics of collateral RNA cleavage by LbuCas13a in human cells.",
+    "abstract": "CRISPR-Cas13 exclusively targets RNA. In prokaryotes, Cas13 cleaves both target and non-target RNA indiscriminately upon activation by a specific target RNA, but in eukaryotic cells collateral cleavage activity has been limited. Here we report that LbuCas13a exhibits strong collateral RNA cleavage activity in human cells when delivered as ribonucleoprotein, independent of cell line and targeting both exogenous and endogenous transcripts. Collateral RNA cleavage starts within 50 minutes of ribonucleoprotein delivery resulting in major alterations to the total RNA profile. In response to the collateral RNA cleavage, cells upregulate genes associated with the stress and innate immune response, ultimately leading to apoptotic cell death. This enables us to use LbuCas13a as a flexible and repeatable target-RNA-specific cell elimination tool. Finally, using both total RNA sequencing and Nanopore sequencing, we find that LbuCas13a activation leads to rapid and near-global depletion of cytoplasmic RNAs, and that cleavage occurs at specific nucleotide positions.",
+    "authors": [
+      "Bot JF",
+      "Zhao Z",
+      "Li M",
+      "Kammeron D",
+      "Shang P",
+      "Geijsen N"
+    ],
+    "published": "2026-01-19",
+    "journal": "Communications biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41554880/",
+    "score": 65,
+    "summary": {
+      "title_zh": "LbuCas13a在人细胞中附带RNA切割活性的时间动态研究",
+      "tool_type": "基于Cas13a的RNA靶向细胞消除工具/平台",
+      "design": "该工具的核心设计是利用LbuCas13a蛋白在结合特定靶标RNA后被激活时，会展现出非特异性的“附带切割”活性这一特性。通过将LbuCas13a以核糖核蛋白形式递送至人细胞，使其在识别目标RNA后，触发广泛的非靶标RNA降解。",
+      "functions": "1. 靶RNA特异性的细胞消除工具：通过识别特定的目标RNA（外源或内源转录本），触发广泛的RNA降解和细胞应激，从而可重复、灵活地清除特定细胞。\n2. RNA切割动态研究平台：可用于研究Cas13a激活后全局RNA降解的时间动态和分子后果。",
+      "key_results": "1. 在多种人细胞系中，LbuCas13a RNP递送后50分钟内即启动强烈的附带RNA切割，导致细胞质RNA近乎全局性耗竭，并引发细胞应激、先天免疫反应上调，最终导致细胞凋亡。\n2. 通过总RNA测序和纳米孔测序证实，切割发生在特定的核苷酸位点，且该细胞消除效果具有靶RNA特异性，可重复实现。"
+    }
+  },
+  {
+    "id": "41554741",
+    "title": "Engineering the MmeFz2-ωRNA system for efficient genome editing through an integrated computational-experimental framework.",
+    "abstract": "Eukaryotic Fanzor proteins are compact, programmable RNA-guided nucleases with substantial potential for genome editing, although their efficiency in mammalian cells remains suboptimal. Here, we present a combinatorial engineering strategy to optimize a representative Fanzor system, MmeFz2-ωRNA. AlphaFold3-powered rational redesign produced a minimized ωRNA scaffold that is 30% smaller while maintaining up to 82.2% efficiency. Synergistic structure-guided and AI-augmented protein engineering generated two variants, enMmeFz2 and evoMmeFz2, which exhibited an average ~32-fold increase in activity across 38 genomic loci. Moreover, fusion of the non-specific DNA-binding domain HMG-D further enhanced editing performance (enMmeFz2-HMG-D and evoMmeFz2-HMG-D). Notably, evoMmeFz2-HMG-D demonstrated robust in vivo genome editing activity, enabling dystrophin restoration in humanized male Duchenne muscular dystrophy mouse models via single adeno-associated virus (AAV) delivery. This study establishes Fanzor2 as a gene editing platform for genome engineering and therapeutic applications, and underscores the power of AI-guided engineering to accelerate genome editor development while reducing experimental burden.",
+    "authors": [
+      "Li S",
+      "Xu K",
+      "Li G",
+      "Jiang H",
+      "Wu Z",
+      "Gao P",
+      "Yue Y",
+      "Chen Y",
+      "Liu Z",
+      "Zhou B",
+      "Zhou M",
+      "Chen Y",
+      "Liu X",
+      "Wang X",
+      "Wu Z",
+      "Wei Y"
+    ],
+    "published": "2026-01-19",
+    "journal": "Nature communications",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41554741/",
+    "score": 65,
+    "summary": {
+      "title_zh": "通过集成计算-实验框架工程化MmeFz2-ωRNA系统以实现高效基因组编辑",
+      "tool_type": "RNA引导的核酸酶（Fanzor）基因组编辑平台",
+      "design": "1. 利用AlphaFold3对ωRNA支架进行理性重设计，使其尺寸缩小30%并保持功能。\n2. 采用结构引导与AI增强的蛋白质工程策略，对MmeFz2蛋白进行组合优化，并融合非特异性DNA结合结构域HMG-D以增强编辑性能。",
+      "functions": "1. 位点特异性基因组编辑。\n2. 用于基因治疗（如恢复杜氏肌营养不良症模型中的抗肌萎缩蛋白表达）。\n3. 可通过单次AAV递送实现体内基因编辑。",
+      "key_results": "1. 优化后的ωRNA支架保持高达82.2%的编辑效率；工程化蛋白变体（enMmeFz2和evoMmeFz2）在38个基因组位点的平均活性提高约32倍。\n2. 融合HMG-D结构域的evoMmeFz2-HMG-D在杜氏肌营养不良症人源化小鼠模型中通过单次AAV递送实现了有效的体内基因组编辑，成功恢复了抗肌萎缩蛋白表达。"
+    }
+  },
+  {
+    "id": "41352906",
+    "title": "Site accessibility-driven CRISPR/Cas13a activation for amplification-free RNA biosensing.",
+    "abstract": "CRISPR-Cas13a biosensing enables rapid, amplification-free RNA diagnostics, yet assay sensitivity varies widely because guide RNAs (gRNAs) differ in their ability to activate the enzyme. Two factors, including the gRNA-target binding affinity and the structural accessibility of the target site, have been proposed to govern activation efficiency, but their relative importance remains unclear. In this study, we systematically disentangle these contributions by measuring binding affinities for gRNAs that span a spectrum of site accessibilities and by comparing their Michaelis-Menten kinetic parameters. Three ciRS-7-specific gRNAs were designed with high, intermediate, and low spacer accessibility. Isothermal titration calorimetry (ITC) quantified site accessibility through entropy changes (ΔS = -862, -813, and -615 cal/mol/K), confirming greater structural exposure for less structured spacers, and also determined binding affinity for each gRNA-target pair. Michaelis-Menten analysis showed k Our data establish site accessibility as a critical determinant of Cas13a activation for amplification-free RNA sensing. Prioritizing unstructured spacer regions enables improved enzyme activation efficiency, providing a clear design rule for next-generation CRISPR diagnostics. This accessibility-driven strategy will facilitate the development of faster, simpler, and more sensitive point-of-care assays for diverse RNA biomarkers.",
+    "authors": [
+      "Fakhr ZA",
+      "Xie W",
+      "Zeng S",
+      "Cai S"
+    ],
+    "published": "2026-01-15",
+    "journal": "Analytica chimica acta",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41352906/",
+    "score": 65,
+    "summary": {
+      "title_zh": "基于靶点可及性驱动的CRISPR/Cas13a激活用于免扩增RNA生物传感",
+      "tool_type": "RNA传感器/CRISPR诊断平台",
+      "design": "该工具的核心设计思路是：通过系统性地解耦并量化引导RNA（gRNA）与靶RNA的结合亲和力以及靶位点的结构可及性这两个因素，明确其对Cas13a酶激活效率的相对贡献。研究提出，应优先选择靶RNA上结构松散、易于接近（高可及性）的区域来设计gRNA的间隔序列，以此作为优化Cas13a激活效率的关键设计规则。",
+      "functions": "1. 实现高灵敏度的免扩增RNA检测与生物传感。\n2. 用于快速、简单的即时检测（POCT），可针对多种RNA生物标志物进行诊断。",
+      "key_results": "关键实验结果表明：靶位点的结构可及性是决定Cas13a激活效率的关键因素，其重要性超过gRNA与靶标的结合亲和力。通过等温滴定量热法（ITC）量化了不同gRNA（对应高、中、低三种位点可及性）的熵变，证实了结构更暴露的间隔序列具有更高的可及性；米氏动力学分析进一步确立了高可及性位点能显著提升酶激活效率，为优化诊断工具提供了明确依据。"
+    }
+  },
+  {
+    "id": "41519994",
+    "title": "Transcriptomic signature-guided depletion of intermediate alveolar epithelial cells ameliorates pulmonary fibrosis in mice.",
+    "abstract": "Single-cell RNA sequencing (scRNA-seq) has identified intermediate epithelial states in pulmonary fibrosis, including KRT5-/KRT17+ aberrant basaloid cells in humans and Krt8+ alveolar differentiation intermediates (ADIs) in mice. Their functional contributions to fibrogenesis, however, remain unclear. Here, we introduce an RNA-sensing-dependent protein translation technology that enables selective targeting of Krt8+ ADI cells in vitro and in vivo. Transcriptomic analysis revealed Small Proline-Rich Protein 1 A (SPRR1A) mRNA as a shared marker of murine Krt8+ ADIs and human KRT5-/KRT17+ basaloid cells, distinguishing them from other lung cell populations. Using programmable RNA sensors, we demonstrated selective EGFP-labeling of Krt8+ ADI cells in vivo, which faithfully recapitulated their transcriptomic and phenotypic features. To test function, we developed an RNA-sensing-driven diphtheria toxin receptor (DTR) system for conditional ablation of Sprr1a+ cells. Targeted depletion markedly reduced fibrosis in bleomycin-injured mice, establishing transitional epithelial cells as pathogenic drivers and highlighting their potential as therapeutic targets in pulmonary fibrosis.",
+    "authors": [
+      "Peng F",
+      "Jiang CS",
+      "Zheng Z",
+      "Aliyari S",
+      "Shan D",
+      "Sabharwal A",
+      "Yin Q",
+      "Saito S",
+      "He C",
+      "Rosas IO",
+      "Lasky JA",
+      "Thannickal VJ",
+      "Zhou Y"
+    ],
+    "published": "2026-01-10",
+    "journal": "Nature communications",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41519994/",
+    "score": 65,
+    "summary": {
+      "title_zh": "转录组特征引导的中间肺泡上皮细胞耗竭可改善小鼠肺纤维化",
+      "tool_type": "RNA传感器驱动的蛋白质翻译调控平台（RNA-sensing-dependent protein translation technology）",
+      "design": "1. 核心思路是利用可编程RNA传感器识别特定的mRNA标志物（如SPRR1A），进而驱动下游效应蛋白的表达。\n2. 该系统采用模块化设计：RNA传感器作为识别模块，与效应蛋白（如报告蛋白EGFP或白喉毒素受体DTR）的表达模块耦合，实现对特定细胞群的标记或条件性消融。",
+      "functions": "1. **细胞特异性标记**：在体内外实现对特定细胞类型（如Krt8+ ADI细胞）的EGFP荧光标记与追踪。\n2. **细胞条件性消融**：通过诱导表达白喉毒素受体（DTR），实现对目标细胞（Sprr1a+细胞）的靶向清除。\n3. **功能研究与靶点验证**：用于研究特定细胞群在疾病（如肺纤维化）中的功能，并验证其作为治疗靶点的潜力。",
+      "key_results": "1. 在体实验证实，该系统能特异性标记小鼠Krt8+ ADI细胞，且标记细胞准确再现了其转录组和表型特征。\n2. 在博来霉素诱导的肺纤维化小鼠模型中，条件性消融Sprr1a+细胞能显著减轻纤维化，证明了这类过渡性上皮细胞是致病的驱动因素。"
+    }
+  }
+]
