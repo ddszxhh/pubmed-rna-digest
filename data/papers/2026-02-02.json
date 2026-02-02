@@ -1,0 +1,133 @@
+[
+  {
+    "id": "41505099",
+    "title": "Enhanced SfaTnpB enables single-base-specific, one-pot nucleic acid detection for high-sensitivity diagnostics.",
+    "abstract": "CRISPR/Cas12-based nucleic acid detection has revolutionized molecular diagnostics but shows limited single-nucleotide specificity, limited high-fidelity subtype discrimination, and limited compatibility with one-pot assays, restricting its broader clinical application. Here, we report a transposon-associated transposase B (TnpB) ortholog, SfaTnpB, with high trans-cleavage activity, robust single-base mismatch discrimination, and broad temperature tolerance. By stepwise engineering of its guide RNA (ωRNA), we developed an enhanced SfaTnpB (enSfaTnpB) system with markedly improved trans-cleavage efficiency. In combination with a TAM-independent split-activator strategy, this system enables precise detection of single-nucleotide polymorphisms. We further developed TOPIC (TnpB-based One-Pot nucleIC acid detection), a one-pot detection platform coupling enSfaTnpB with recombinase-aided amplification (RAA) or loop-mediated isothermal amplification that enables ultrasensitive detection of human papillomavirus (HPV) subtypes 16 and 18 (∼4 copies/μl) and African swine fever virus DNA (∼3 copies/μl). Finally, RAA-TOPIC accurately detected and genotyped 14 high-risk HPV subtypes with high-fidelity subtype discrimination, showing complete concordance with quantitative real-time PCR-based clinical diagnostics. These findings establish TOPIC as a compact, programmable, and scalable molecular detection tool with broad potential for precision diagnostics and point-of-care testing, particularly in resource-limited settings.",
+    "authors": [
+      "Xu B",
+      "Li S",
+      "Li Y",
+      "Zhao S",
+      "Li X",
+      "Han J",
+      "Wu D",
+      "Li S",
+      "Chen L",
+      "Xie S",
+      "Han X",
+      "Zhao C"
+    ],
+    "published": "2026-01-05",
+    "journal": "Nucleic acids research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41505099/",
+    "score": 65,
+    "summary": {
+      "title_zh": "增强型SfaTnpB实现单碱基特异性、一锅法核酸检测，用于高灵敏度诊断",
+      "tool_type": "基于TnpB的核酸检测平台（CRISPR-Cas12类似系统）",
+      "design": "1. 通过逐步工程化改造其向导RNA（ωRNA），显著提升了SfaTnpB的反式切割效率，开发出增强型enSfaTnpB系统。\n2. 结合不依赖TAM序列的分裂激活剂策略，实现了对单核苷酸多态性的精确识别。\n3. 将enSfaTnpB与重组酶辅助扩增（RAA）或环介导等温扩增（LAMP）耦合，构建了一体化检测平台TOPIC。",
+      "functions": "1. 高灵敏度核酸检测：可检测极低拷贝数的病毒DNA（如HPV、非洲猪瘟病毒）。\n2. 单核苷酸多态性（SNP）鉴别：具备单碱基错配分辨能力，可用于高保真亚型区分。\n3. 一体化（one-pot）检测：将扩增与检测步骤整合于单一反应体系，简化操作流程。\n4. 精准诊断与分型：适用于临床样本的高风险HPV亚型精确鉴定与分型。",
+      "key_results": "1. 性能指标：检测灵敏度极高（HPV 16/18亚型~4拷贝/μl，非洲猪瘟病毒~3拷贝/μl），且对14种高危HPV亚型的分型结果与临床qPCR检测完全一致。\n2. 特异性验证：系统展现出强大的单碱基错配区分能力，并在一体化反应中实现了高保真亚型鉴别。"
+    }
+  },
+  {
+    "id": "41505088",
+    "title": "Junction-targeting designs limit the application of CRISPR-Cas13d in circular RNA perturbation studies.",
+    "abstract": "Circular RNAs (circRNAs) are RNA molecules formed through the backsplicing of linear exons. Several thousand have been identified, yet relatively few are functionally characterized due to challenges in distinguishing effects of circular from linear RNA targets. Recently, CRISPR-Cas13 systems have been utilized to directly target unique junctions formed through backsplicing, potentially allowing for selective degradation of circular isoforms. Applying this approach in pooled screens has indeed identified circRNAs proposed to affect viability in several cancer cell lines. However, the design limitations of applying Cas13d to study circRNAs are not fully characterized. Here, we assessed the limitations of Cas13d-mediated circRNA knockdowns by performing essentiality screens on 900 highly expressed circRNAs in K562, an ENCODE tier 1 cell line. We observed consistent off-target knockdown of linear isoforms by certain circRNA-targeting single-guide RNAs (sgRNAs). Re-analysis of existing Cas13d screens in other cell types revealed similar off-target effects. Using machine learning models that predict Cas13d sgRNA efficacy, we further found that most circRNA-targeting sgRNAs are unlikely to induce strong knockdown. After accounting for these design constraints, 0 of 346 circRNAs testable in our screens had detectable effects on proliferation. Our findings highlight key limitations of junction-targeting strategies, with implications for future circRNA perturbation studies.",
+    "authors": [
+      "Lee-Yow YC",
+      "Valbuena RC",
+      "Richter CS",
+      "Chang HY",
+      "Engreitz JM"
+    ],
+    "published": "2026-01-05",
+    "journal": "Nucleic acids research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41505088/",
+    "score": 65,
+    "summary": {
+      "title_zh": "靶向连接区的设计限制了CRISPR-Cas13d在环状RNA扰动研究中的应用",
+      "tool_type": "基于CRISPR-Cas13d的RNA敲低工具/平台，用于环状RNA（circRNA）的功能研究",
+      "design": "该工具的核心设计思路是利用Cas13d系统靶向环状RNA特有的反向剪接连接区，通过设计特异性向导RNA（sgRNA）识别该独特序列，旨在实现对环状RNA亚型的特异性降解，从而将其与线性RNA亚型的功能区分开来。",
+      "functions": "1. 环状RNA的特异性敲低与功能扰动\n2. 用于高通量筛选，以鉴定影响细胞活力的功能性环状RNA\n3. 理论上可用于研究环状RNA在癌症等疾病模型中的功能",
+      "key_results": "关键实验发现，针对环状RNA连接区设计的sgRNA普遍存在脱靶敲低其同源线性RNA亚型的问题，且机器学习模型预测大部分此类sgRNA的敲低效率可能不高；在严格考虑设计限制后，本研究中测试的346个可评估环状RNA均未检测到对细胞增殖的显著影响，凸显了该策略的局限性。"
+    }
+  },
+  {
+    "id": "41456843",
+    "title": "Layer-by-layer coated chitosan-CRISPR/Cas9 mTOR nanoparticles: A novel approach to inhibit lens epithelial cell proliferation and migration for preventing posterior capsule opacification.",
+    "abstract": "Posterior capsular opacification (PCO) is the most common complication following cataract surgery and a significant cause of vision impairment. PCO arises from the proliferation, migration, and epithelial-mesenchymal transition (EMT) of residual lens epithelial cells (LECs), driven by an activated mTOR signalling pathway. Previous research has demonstrated that inhibiting mTOR activity effectively reduces LEC proliferation and EMT in rabbit models. However, achieving sustained mTOR inhibition remains a challenge. In this study, we encapsulated the CRISPR/Cas9 system targeting mTOR into chitosan nanoparticles (Chi-gRNA) with an average size of 135 nm. These nanoparticles exhibited resistance to DNase I digestion. To prolong release duration, we incorporated these Chi-gRNA nanoparticles onto the surface of intraocular lenses (IOLs) via layer-by-layer (LbL) assembly. The LbL coatings consisted of alternating layers of positively charged polyethyleneimine (PEI) and negatively charged heparin, interspersed with Chi-gRNA nanoparticles over five consecutive cycles. Spectral analysis confirmed the successful integration and coating of nanoparticles, with characteristic peaks validating the electrostatic assembly of the layers. In vitro assays demonstrated that Chi-gRNA-coated IOLs significantly inhibited the proliferation, migration, and adhesion of human lens epithelial cells (hLECs). These findings highlight the potential of LbL-coated IOLs to deliver CRISPR/Cas9 system-targeting mTOR nanoparticles as a novel and effective strategy to prevent PCO in patients undergoing cataract surgery. This approach offers a promising avenue for the long-term management of this prevalent postoperative complication.",
+    "authors": [
+      "Chang C",
+      "Yang J",
+      "Liu Z",
+      "Chen J",
+      "Wang B",
+      "Li J",
+      "Liu H"
+    ],
+    "published": "2026-03-01",
+    "journal": "Experimental eye research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41456843/",
+    "score": 45,
+    "summary": {
+      "title_zh": "基于壳聚糖-CRISPR/Cas9 mTOR纳米粒的层层组装涂层：一种抑制晶状体上皮细胞增殖与迁移以预防后囊膜混浊的新策略",
+      "tool_type": "基于CRISPR/Cas9的基因编辑递送平台（具体为CRISPR/Cas9基因敲除系统与纳米载体、医疗器械涂层的结合体）",
+      "design": "1. 将靶向mTOR基因的CRISPR/Cas9系统封装于带正电的壳聚糖纳米粒中，形成可抵抗核酸酶降解的递送载体。\n2. 通过层层自组装技术，将上述载药纳米粒与带正电的聚乙烯亚胺、带负电的肝素交替沉积于人工晶状体表面，构建具有缓释功能的智能涂层。",
+      "functions": "1. **基因编辑功能**：在晶状体上皮细胞中特异性敲除mTOR基因，抑制mTOR信号通路。\n2. **细胞表型调控**：抑制晶状体上皮细胞的增殖、迁移和粘附，从而预防上皮-间质转化。\n3. **医疗器械功能化**：将基因治疗与人工晶状体结合，实现术后长期、局部、缓释的治疗。\n4. **疾病预防应用**：用于预防白内障术后后囊膜混浊这一常见并发症。",
+      "key_results": "1. **体外性能**：成功制备了平均粒径135 nm、能抵抗DNase I消化的壳聚糖-CRISPR/Cas9纳米粒；光谱分析证实了层层组装涂层的成功构建。\n2. **功能验证**：携带该涂层的人工晶状体在体外能显著抑制人晶状体上皮细胞的增殖、迁移和粘附，证明了其预防后囊膜混浊的潜力。"
+    }
+  },
+  {
+    "id": "41506457",
+    "title": "CRISPR-based precise methylation of specific FUT8 promoter regions allows isolation of CHO cells with a fine-tuned glycoprofile.",
+    "abstract": "A major advantage of producing therapeutic proteins in mammalian cells is their ability to tailor proteins with human-like posttranslational modifications such as glycosylation, which ultimately defines aspects like stability, protein folding or immunogenicity. However, producing therapeutic proteins with a consistent and reproducible glycoprofile remains a major challenge for the biopharmaceutical industry, especially with biosimilar production. While the enzymes responsible for glycosylation of proteins have been the subject of various cell engineering approaches, tuning their gene expression to precise levels is still difficult to achieve. While CRISPR/Cas9 enabled the genetic engineering of cells to drastically overexpress or remove a target gene, CRISPR/dCas9-based epigenetic editing by targeted DNA methylation promises to stably change the expression pattern of target genes after transient transfection of the CRISPR-tool. Application of targeted DNA methylation so far has mostly been used to completely silence gene expression by fully methylating the corresponding promoter regions. Here, we aim to tune expression of the associated gene by DNA methylation of confined promoter regions and to apply this technique as a new glycoengineering approach. By coupling CRISPR-based targeted DNA methylation with lectin-FACS assisted sorting we obtained CHO cell lines with a fine-tuned phenotype. First, dCas9-DNMT3A3L in combination with one single gRNA is targeted to the FUT8 promoter to induce confined DNA methylation, resulting in a phenotypically diversified population. Next, a window sorting strategy based on lectin-stained cells using five different sorting gates spanning from low to high FUT8 expression was applied to isolate single clones with a defined phenotype. Isolated clones were phenotypically assessed and re-sorted to obtain a homogenous expression profile. The resulting clonal cell lines showed either tuned or knock-down phenotypes with varying gene expression levels. Two out of seven clones that showed tuned FUT8 gene expression were phenotypically stable over 60 days. Gene expression levels, on the other hand, showed a steady decline over time that in part, however, can be explained by the general variation of FUT8 expression in different growth phases. Importantly, glycan analysis of recombinant EpoFc produced in the tuned clonal cell lines showed ranges of 35-70 % fucosylation, demonstrating that isolated clones can produce recombinant proteins with a distinct glycosylation profile. To understand why some clones showed tuned FUT8 gene expression levels while others were completely knocked-down, we analyzed the DNA methylation status of their respective FUT8 promoter. Critical areas within the FUT8 promoter were identified, with some associated with general repression and others with the tuning of FUT8 gene expression when affected by DNA methylation. Additionally, a combination of histone marks associated with active and repressed promoters was found to potentially define clones with a fine-tuned expression. Combined, the data demonstrates that using targeted DNA methylation in a manner confined to specific promoter regions opens new engineering strategies to fine-tune gene expression in mammalian cells.",
+    "authors": [
+      "Jiménez Lancho V",
+      "Leitner K",
+      "Agarwal K",
+      "Krishnakumar A",
+      "Khetan A",
+      "Borth N",
+      "Marx N"
+    ],
+    "published": "2026-02-01",
+    "journal": "Journal of biotechnology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41506457/",
+    "score": 45,
+    "summary": {
+      "title_zh": "基于CRISPR的特定FUT8启动子区域精确甲基化可实现具有精细糖谱的CHO细胞分选",
+      "tool_type": "基于CRISPR/dCas9的表观遗传编辑工具（靶向DNA甲基化平台）",
+      "design": "该工具的核心设计是将催化失活的Cas9（dCas9）与DNA甲基转移酶结构域DNMT3A3L融合，形成dCas9-DNMT3A3L融合蛋白。通过设计单一的向导RNA（gRNA）将其靶向至目标基因（如FUT8）启动子的特定区域，从而在局部而非整个启动子范围内诱导DNA甲基化，实现对基因表达水平的精细调控。",
+      "functions": "1. 基因表达精细调控：通过靶向启动子特定区域进行DNA甲基化，可微调（而非完全敲除）哺乳动物细胞中目标基因的表达水平。\n2. 细胞工程与分选：与凝集素染色和流式细胞术分选（FACS）相结合，可从表型多样化的细胞群中分离出具有特定表达水平的单克隆细胞系。\n3. 糖工程应用：通过调控糖基化关键酶（如FUT8）的表达水平，获得能够生产具有特定糖型（如不同岩藻糖基化水平）重组蛋白的工程化细胞株。",
+      "key_results": "1. 成功获得了FUT8基因表达水平被精细调控（而非完全敲低）的CHO单克隆细胞系，其中两个克隆的表型在60天内保持稳定。\n2. 在这些工程细胞中生产的重组蛋白EpoFc，其岩藻糖基化水平可在35-70%的范围内调控，证明了该平台在定制重组蛋白糖谱方面的有效性。\n3. 通过分析启动子甲基化状态，鉴定出了与基因完全抑制和精细调控相关的不同关键区域，揭示了局部表观遗传修饰实现表达微调的机制。"
+    }
+  },
+  {
+    "id": "41062834",
+    "title": "Efficient and precise inversion of genomic DNA from large to chromosomal scale.",
+    "abstract": "Chromosomal inversion is a key structural variation impacting cellular fitness and genomic integrity. Here we developed prime-editing-based inversion with enhanced performance (PIE) to efficiently induce large-scale inversions in mammalian cells. PIEv1 uses a prime-editing guide RNA (pegRNA) pair but yields one imprecise junction. PIEv2 and PIEv3 add a second pegRNA pair for precise inversion, with PIEv3b further enhancing coupling precise inversion through improved plasmid design. PIEv3b achieves inversion efficiencies up to 61.7% for 1 Mb and 14.2% for 50 Mb segments and shows 4-20-fold higher efficiency compared to twin prime editing with integrase, across ranges of 100 kb to 30 Mb. Additionally, PIEv3b outperforms nuclease-based approaches in both inversion efficiency and precision. Using PIE, we convert human chromosomes from metacentric to telocentric configurations by inverting 30-Mb and 100-Mb chromosomal segments. Our work represents a powerful tool for engineering chromosomal structural variations, with broad implications for medicine and biotechnology.",
+    "authors": [
+      "Zhang A",
+      "Sun X",
+      "Wu Y",
+      "Gao P",
+      "Zhang R",
+      "Zhang M",
+      "Xie S",
+      "Fan W",
+      "Zhang Y",
+      "Yin H"
+    ],
+    "published": "2026-02-01",
+    "journal": "Nature chemical biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41062834/",
+    "score": 45,
+    "summary": {
+      "title_zh": "高效精确实现从大到染色体尺度的基因组DNA倒位",
+      "tool_type": "基于Prime Editing的基因组结构变异工程平台",
+      "design": "该工具（PIE）的核心设计思路是：1）利用成对的prime-editing向导RNA（pegRNA）在基因组目标区域的两端同时引入互补的编辑，从而驱动DNA片段倒位；2）通过迭代优化（PIEv2/v3），增加第二对pegRNA以确保倒位连接点的精确性；3）PIEv3b进一步通过改进质粒设计来增强两对pegRNA的协同作用，实现高效且精确的大片段倒位。",
+      "functions": "1. 在哺乳动物细胞中高效诱导大规模（从100 kb到100 Mb级别）的基因组DNA倒位；2. 实现染色体构型的重排（如将人类染色体从近着丝粒改为端着丝粒）；3. 作为一种研究染色体结构变异与基因组完整性的工具；4. 在合成生物学和基因治疗中具有潜在应用价值。",
+      "key_results": "1. PIEv3b对1 Mb片段的倒位效率高达61.7%，对50 Mb片段效率为14.2%；2. 在100 kb至30 Mb范围内，其效率比结合整合酶的双生Prime Editing（twin PE）高4-20倍；3. 在倒位效率和精确性上均优于基于核酸酶的方法；4. 成功在人类细胞中实现了30 Mb和100 Mb染色体片段倒位，改变了染色体形态。"
+    }
+  }
+]
