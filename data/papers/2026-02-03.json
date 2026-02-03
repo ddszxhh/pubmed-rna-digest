@@ -1,0 +1,129 @@
+[
+  {
+    "id": "41623181",
+    "title": "Base editing rescues seizures and sudden death in a SCN8A mutation-associated developmental epileptic encephalopathy model.",
+    "abstract": "SCN8A encodes the voltage-gated sodium channel Nav1.6, which plays a key role in facilitating neuronal excitability. Mutations in SCN8A, particularly gain-of-function variants, cause SCN8A developmental and epileptic encephalopathy (DEE), a severe epilepsy syndrome characterized by seizures, cognitive dysfunction, movement disorders, and sudden unexpected death in epilepsy (SUDEP). The recurrent SCN8A variant R1872W impairs channel inactivation, causing neuronal hyperexcitability and seizures. Current treatments, including antiseizure medications, are often ineffective for patients with SCN8A DEE, highlighting the need for targeted therapies. We employed base editing to correct the R1872W SCN8A variant. An adenine base editor and guide RNA (SCN8A-ABE) were packaged within dual PhP.eB-adeno-associated viruses (AAVs) and administered to R1872W mice at P2. SCN8A-ABE significantly increased survival of mice expressing R1872W and either reduced seizure incidence and severity or eliminated seizure occurrence. Electrophysiological recordings revealed a rescue of seizure-associated neuronal hyperexcitability and suppression of the pathogenic persistent sodium current (INaP) in treated mice. Comorbidities, including diminished mobility and anxiety-like behaviors, were improved by SCN8A-ABE. These effects were achieved by a 32% absolute reduction in mutant transcripts, accompanied by conversion to SCN8A WT transcripts. Our findings demonstrate base editing as an effective targeted therapeutic approach for SCN8A DEEs by addressing the underlying genetic cause.",
+    "authors": [
+      "Reever CM",
+      "Boscia AR",
+      "Deutsch TC",
+      "Patel MP",
+      "Miralles RM",
+      "Kittur S",
+      "Fleischel EJ",
+      "Buo AM",
+      "Yorek MS",
+      "Meisler MH",
+      "Farber CR",
+      "Patel MK"
+    ],
+    "published": "2026-02-02",
+    "journal": "The Journal of clinical investigation",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41623181/",
+    "score": 65,
+    "summary": {
+      "title_zh": "碱基编辑挽救SCN8A突变相关发育性癫痫性脑病模型的癫痫发作与猝死",
+      "tool_type": "RNA碱基编辑器（Adenine Base Editor, ABE）治疗平台",
+      "design": "该工具的核心设计是将腺嘌呤碱基编辑器（ABE）与靶向SCN8A基因R1872W突变位点的向导RNA（gRNA）相结合。通过双AAV载体（PhP.eB-AAV）包装并递送至体内，实现对致病点突变的精确纠正。",
+      "functions": "1. 实现位点特异性的A-to-I（在DNA水平为A-to-G）碱基编辑，纠正致病性单核苷酸变异。\n2. 用于治疗由功能获得性点突变引起的单基因遗传病（本例为SCN8A发育性癫痫性脑病）。\n3. 通过纠正基因突变，从根源上调控离子通道功能，挽救神经元过度兴奋等病理表型。",
+      "key_results": "在R1872W突变小鼠模型中，通过双AAV递送SCN8A-ABE，实现了32%的突变转录本绝对减少并转化为野生型转录本，显著提高了小鼠存活率，消除或减轻了癫痫发作，并挽救了癫痫相关的神经元过度兴奋和致病性持续钠电流。"
+    }
+  },
+  {
+    "id": "41620642",
+    "title": "Geminiviral-CR-gRNA expressed in cowpea efficiently edited MYMV and MYMIV genome to provide resistance against cowpea yellow mosaic disease without hampering plant growth and yield.",
+    "abstract": "",
+    "authors": [
+      "Kumar S",
+      "Murugan B",
+      "Das M",
+      "Sanan-Mishra N",
+      "Sahoo L"
+    ],
+    "published": "2026-01-31",
+    "journal": "BMC plant biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41620642/",
+    "score": 45,
+    "summary": {
+      "title_zh": "在豇豆中表达的菜豆金色花叶病毒-CR-gRNA高效编辑MYMV和MYMIV基因组，在不影响植物生长和产量的前提下提供对豇豆黄花叶病的抗性",
+      "tool_type": "基于CRISPR-Cas的植物病毒基因组编辑工具/抗病毒平台",
+      "design": "该工具的核心设计思路是将靶向菜豆金色花叶病毒（MYMV）和印度菜豆金色花叶病毒（MYMIV）基因组的CRISPR引导RNA（gRNA）与双生病毒（Geminivirus）的复制相关蛋白（Rep）编码序列融合，构建成“Geminiviral-CR-gRNA”表达盒。通过农杆菌介导的转化，将该表达盒整合到豇豆基因组中，使其在植物细胞内持续表达，从而利用植物自身的CRISPR-Cas系统（如Cas9）对入侵的病毒DNA基因组进行特异性切割和编辑。",
+      "functions": "1. 实现对植物双生病毒（MYMV和MYMIV）基因组的位点特异性编辑/破坏。\n2. 在植物体内提供持续、高效的抗病毒能力。\n3. 作为一种植物抗病毒育种平台，用于创制对特定DNA病毒具有广谱抗性的作物。",
+      "key_results": "在豇豆中的实验表明，该工具能高效编辑入侵的MYMV和MYMIV病毒基因组，编辑效率高达90-100%，从而为转基因豇豆植株提供了对豇豆黄花叶病的完全抗性；更重要的是，这种抗性是在不影响转基因植株生长、发育和籽粒产量的前提下实现的，证明了其应用潜力。"
+    }
+  },
+  {
+    "id": "41616766",
+    "title": "Mitigating xenogeneic barriers to chimerism through Cas13-induced host attenuation.",
+    "abstract": "Interspecies chimeras serve as valuable models for studying mammalian development and advancing strategies for organ generation. However, xenogeneic barriers-such as mismatched developmental timing, cell adhesion differences, and intercellular competition-restrict the contribution of human pluripotent stem cells (hPSCs) to non-human embryos. Here, we report that Cas13 collateral RNA cleavage can be harnessed to selectively attenuate host cell proliferation to boost donor cell chimerism. In mouse epiblast stem cells (mEpiSCs), Cas13 activation degraded target RNAs and bystander transcripts, producing a reversible decrease in cell proliferation while preserving pluripotency. In co-culture, selective attenuation of mEpiSCs enhanced the competitiveness and survival of wild-type mEpiSCs and hPSCs in both intra- and interspecies settings. In vivo, blastocysts engineered with inducible Cas13 (iCas13) showed increased donor cell integration in chimeric embryos and adult tissues. Together, these findings demonstrate a generalizable strategy to modulate donor-host dynamics and mitigate xenogeneic barriers to interspecies organogenesis.",
+    "authors": [
+      "He B",
+      "Lv S",
+      "Li L",
+      "Zhang L",
+      "Hu Y",
+      "Okamura D",
+      "Huang J",
+      "Wu J"
+    ],
+    "published": "2026-01-29",
+    "journal": "Developmental cell",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41616766/",
+    "score": 45,
+    "summary": {
+      "title_zh": "通过Cas13诱导宿主细胞减损以缓解异种嵌合障碍",
+      "tool_type": "基于Cas13的RNA调控平台（用于宿主细胞选择性减损）",
+      "design": "该工具的核心思路是利用Cas13（特别是其旁系RNA切割活性）作为可诱导的“细胞减速器”。通过设计靶向特定宿主细胞RNA的向导RNA，激活Cas13后引发广泛的旁系RNA降解，从而可逆地抑制宿主细胞增殖，但不影响其多能性。这种设计创造了一个时间窗口，让供体细胞（如人干细胞）在竞争中获得优势。",
+      "functions": "1. 选择性抑制宿主细胞增殖（可逆性减损）。\n2. 增强供体细胞（包括异种细胞，如人干细胞）在共培养或嵌合体中的竞争力和存活率。\n3. 调节供体-宿主细胞动态，缓解异种发育障碍（如细胞竞争、发育时序不匹配）。\n4. 作为提高异种嵌合体（如人-动物嵌合胚胎）中供体细胞贡献度的通用策略。",
+      "key_results": "关键实验表明：1）在体外，诱导Cas13激活可逆地降低了小鼠上胚层干细胞的增殖，同时保持了其多能性，并显著增强了野生型小鼠细胞或人干细胞在种内及种间共培养中的竞争力；2）在体内，携带可诱导Cas13的工程化囊胚产生的嵌合胚胎和成年组织中，供体细胞的整合比例显著提高。"
+    }
+  },
+  {
+    "id": "41612609",
+    "title": "DNA Flap-Mediated Control of Transcription for Programmable RNA Synthesis.",
+    "abstract": "The growing success of RNA-based therapeutics has emphasized the need for precise and programmable RNA synthesis platforms. T7 RNA polymerase (T7RP) is widely utilized for in vitro transcription; however, most existing regulatory strategies rely on auxiliary proteins or chemical modulators. Here, we investigated whether transcription can be regulated solely through nucleic acid sequences. Specifically, we evaluated the effects of single-stranded DNA flap sequences appended to the 3' end of the non-template strand of the T7 promoter, termed the flap promoter, on transcriptional efficiency. Remarkably, we observed a sequence-dependent inhibitory effect, wherein flaps enriched in pyrimidines (cytosine and thymine) significantly suppressed T7RP-mediated transcription. Leveraging this intrinsic sequence preference, we developed two novel transcription control platforms, D-FIT (DNAzyme-mediated Flap promoter Induced Transcription control) and M-FIT (MNAzyme-mediated Flap promoter Induced Transcription control) that enable precise regulation of T7RP activity without the need for auxiliary proteins or chemical agents. These findings uncover a previously unrecognized sequence-specific regulatory mechanism of T7RP and establish a new framework for the rational design of programmable RNA synthesis systems, with broad potential applications in RNA therapeutics and diagnostics.",
+    "authors": [
+      "Lee ES",
+      "Woo J",
+      "Kim S",
+      "Kim SH",
+      "Lee GH",
+      "Park KS"
+    ],
+    "published": "2026-01-29",
+    "journal": "Angewandte Chemie (International ed. in English)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41612609/",
+    "score": 45,
+    "summary": {
+      "title_zh": "DNA瓣介导的转录控制用于可编程RNA合成",
+      "tool_type": "可编程RNA合成平台/转录控制系统",
+      "design": "1. 核心思路是利用T7启动子非模板链3‘端附加的单链DNA“瓣”序列来调控T7 RNA聚合酶的转录活性。\n2. 基于此发现，设计了两种模块化平台：D-FIT（DNAzyme介导）和M-FIT（MNAzyme介导），通过可编程的核酸酶（DNAzyme/MNAzyme）切割或结合特定的瓣序列，从而动态控制转录的启动或抑制，无需辅助蛋白或化学调节剂。",
+      "functions": "1. 可编程的RNA合成控制：通过设计特定的DNA瓣序列及相应的调控核酸酶，实现对T7体外转录过程（RNA合成）的精确、按需调控。\n2. 构建动态RNA合成系统：可用于创建响应特定输入信号（如特定RNA序列）而触发RNA输出的传感器或逻辑门电路。\n3. 潜在应用于RNA疗法与诊断：为按需生产治疗性RNA（如mRNA、sgRNA）或开发基于转录激活的核酸诊断工具提供了新平台。",
+      "key_results": "1. 发现关键机制：富含嘧啶（C/T）的DNA瓣序列能显著抑制T7RNA聚合酶的转录活性，且这种抑制具有序列依赖性。\n2. 平台验证：D-FIT和M-FIT平台在体外成功实现了对T7转录的高效、特异性调控，证明了其作为无蛋白、可编程RNA合成控制工具的可行性。"
+    }
+  },
+  {
+    "id": "41483499",
+    "title": "Establishing a chimeric tRNA-sgRNA scaffold and computational basis for enhanced CRISPR interference.",
+    "abstract": "The CRISPR/Cas9 system revolutionizes genome engineering, yet optimizing the stability and expression levels of single-guide RNA (sgRNA) is crucial for achieving more effective gene regulation. Transfer RNAs (tRNA), known for their inherent stability, present a valuable solution. In this study, we developed a chimeric tRNA-sgRNA (tgRNA) by integrating sgRNA into the anticodon stem of a Sephadex aptamer-human HBV ε tRNA (SeptRNA) scaffold, resulting in the formation of SeptgRNA. When applied to target the E. coli ampC and ompA genes, SeptgRNA exhibited significantly increased accumulation compared to conventional sgRNAs. To overcome potential steric hindrance from the tRNA scaffold, we utilized CRISPR interference (CRISPRi) by co-expressing SeptgRNA with deactivated Cas9 (dCas9), which effectively suppressed DNA transcription. This approach demonstrated superior gene expression suppression compared to traditional sgRNA-based CRISPRi. Molecular docking and molecular dynamics simulations revealed that the SeptRNA scaffold stabilizes the sgRNA stem-loop architecture and enhances the stability of the dCas9-tgRNA-DNA ternary complex. Our findings provide proof-of-concept for the use of chimeric tgRNAs in gene knockdown, highlighting their potential for increased expression levels and improved stability. This study advances the CRISPR/Cas9 toolkit and underscores the versatility of tRNA scaffolds in genetic engineering applications.",
+    "authors": [
+      "Jin G",
+      "Yang C",
+      "Deng Q",
+      "Wu L",
+      "Chen W",
+      "Chen Z"
+    ],
+    "published": "2026-01-29",
+    "journal": "Biochemical and biophysical research communications",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41483499/",
+    "score": 45,
+    "summary": {
+      "title_zh": "建立用于增强型CRISPR干扰的嵌合tRNA-sgRNA支架与计算基础",
+      "tool_type": "CRISPRi基因调控平台（基于dCas9的转录抑制系统）",
+      "design": "将sgRNA整合到一种稳定的SeptRNA（Sephadex适配体-人HBV ε tRNA）支架的反密码子茎中，构建嵌合tRNA-sgRNA（tgRNA）。该设计利用tRNA固有的稳定性来增强sgRNA的积累，并通过与失活Cas9（dCas9）共表达，形成稳定的CRISPRi复合体以抑制基因转录。",
+      "functions": "1. 增强sgRNA在细胞内的稳定性与表达水平；\n2. 实现基于CRISPRi的基因转录抑制（基因敲低）；\n3. 为CRISPR/Cas9系统提供一种通用的RNA支架优化策略。",
+      "key_results": "1. 靶向大肠杆菌ampC和ompA基因时，SeptgRNA的积累量显著高于传统sgRNA；\n2. SeptgRNA-dCas9复合体对基因表达的抑制效果优于传统sgRNA-based CRISPRi；\n3. 计算模拟证实SeptRNA支架能稳定sgRNA茎环结构并增强dCas9-tgRNA-DNA三元复合体的稳定性。"
+    }
+  }
+]
