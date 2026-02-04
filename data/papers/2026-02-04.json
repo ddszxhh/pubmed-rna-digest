@@ -1,0 +1,132 @@
+[
+  {
+    "id": "41528842",
+    "title": "Structure of the MIWI endoribonuclease bound to pachytene piRNAs from mouse testes.",
+    "abstract": "PIWI-interacting RNAs (piRNAs) guide PIWI endoribonucleases to destroy transposon transcripts, ensuring animal fertility. Here, we report the cryo-electron microscopy structure of the MIWI-pachytene piRNA complex isolated from mouse testes. The piRNA is held via non-specific charge-based interactions with the RNA backbone and by specific recognition of the first nucleotide uridine by residues within the MID and PIWI domains. The first six nucleotides of the guide RNA take up the A-form conformation to facilitate pairing with the target. The RNA channel is wider than that observed in insect PIWI proteins, explaining the tolerance for piRNA seed:target mismatches. The PIWI endonuclease domain is in an inactive \"un-plugged\" state, with the loop containing a catalytic residue (E671) requiring structural re-orientation for activity. Furthermore, the PIWI domain reveals a conserved pre-formed pocket that may serve to accommodate a conserved tryptophan from the interacting factor GTSF1 to promote small RNA-guided endoribonuclease activity.",
+    "authors": [
+      "Raad N",
+      "Fernandez-Rodriguez C",
+      "Pandey RR",
+      "Mohammed I",
+      "Uchikawa E",
+      "Burger F",
+      "Homolka D",
+      "Pillai RS"
+    ],
+    "published": "2026-01-27",
+    "journal": "Cell reports",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41528842/",
+    "score": 45,
+    "summary": {
+      "title_zh": "小鼠睾丸粗线期piRNA与MIWI内切核糖核酸酶复合物的结构解析",
+      "tool_type": "RNA调控系统（PIWI-piRNA内切核糖核酸酶复合物）的结构解析与机制研究",
+      "design": "本研究并非从头设计一个工具，而是通过解析内源性MIWI-piRNA复合物的冷冻电镜结构，揭示了其作为天然RNA调控系统的工程设计原理。核心思路在于：1）通过MID和PIWI结构域中的残基特异性识别piRNA5‘端的尿苷，同时通过非特异性电荷相互作用稳定RNA骨架；2）引导RNA的前六个核苷酸采取A型构象以促进与靶标RNA的配对；3）RNA通道较宽，可容忍种子区错配；4）内切酶结构域处于非活性的“未插入”状态，需要构象重排才能激活。",
+      "functions": "该研究阐明的天然MIWI-piRNA系统可实现以下功能：1）**序列特异性RNA切割**：通过piRNA引导，靶向并切割转座子转录本等RNA靶标。2）**基因沉默与调控**：在动物生殖细胞中沉默转座子，维持基因组稳定性，确保生育能力。3）**对错配的耐受性**：较宽的RNA通道允许种子区存在错配，可能影响其靶向特异性。",
+      "key_results": "关键实验结果包括：1）成功解析了从小鼠睾丸中分离的天然MIWI-粗线期piRNA复合物的高分辨率冷冻电镜结构，揭示了piRNA结合、靶标识别及酶活性调控的详细分子机制。2）结构分析表明其内切酶结构域处于非活性状态，并发现了一个保守的预成型口袋，可能用于结合辅助因子GTSF1以促进酶活，这为理解该系统的体内激活机制提供了关键结构基础。"
+    }
+  },
+  {
+    "id": "41511442",
+    "title": "Differential Allosteric Modulation of Cas9 Specificity.",
+    "abstract": "Both RNA- and protein-based strategies have been developed to mitigate off-target cleavage by CRISPR-Cas9, yielding noncanonical guide RNAs (gRNAs) and Cas9 variants with enhanced gene-editing precision. However, the molecular mechanisms by which such PAM-distal alterations─remote from the nuclease centers─modulate Cas9 activity and specificity remain incompletely understood. Here, we performed",
+    "authors": [
+      "Li Y",
+      "Li X",
+      "Chen Y",
+      "Wang Y",
+      "Zuo Z"
+    ],
+    "published": "2026-01-27",
+    "journal": "Journal of chemical theory and computation",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41511442/",
+    "score": 45,
+    "summary": {
+      "title_zh": "对Cas9特异性的差异性变构调节",
+      "tool_type": "Cas9变构调节机制研究平台/分析工具",
+      "design": "本研究并非直接设计一个新的编辑工具，而是构建了一个用于解析Cas9变构调节机制的分析平台。其核心思路是通过系统性地分析PAM远端（远离核酸酶中心）的蛋白质或gRNA修饰，来探究这些远程变化如何通过变构效应影响Cas9的活性和特异性。",
+      "functions": "1. 机制解析功能：阐明非经典gRNA和工程化Cas9变体如何远程调节Cas9的切割特异性。\n2. 指导设计功能：为未来设计更高特异性的CRISPR-Cas9工具（如高保真Cas9变体或调控型gRNA）提供分子机制层面的见解和指导原则。",
+      "key_results": "关键实验结果表明，PAM远端的改变（如gRNA修饰或Cas9蛋白突变）能够通过变构通讯途径，差异性且可预测地调节Cas9的活性与脱靶切割倾向，这为理性设计高特异性基因编辑工具奠定了机制基础。"
+    }
+  },
+  {
+    "id": "41411128",
+    "title": "Muscle satellite cell editing by LNP-CRISPR-Cas9 to resist muscle injury.",
+    "abstract": "Muscle satellite cells are essential for skeletal muscle regeneration and represent an attractive therapeutic target for gene delivery in Duchenne muscular dystrophy (DMD). However, efficient in vivo transduction of these cells has remained challenging. Here, we demonstrate that lipid nanoparticle (LNP)-mediated delivery of Streptococcus pyogenes CRISPR-Cas9 mRNA and guide RNA (LNP-CRISPR) induces exon skipping in Pax7-positive satellite cells more efficiently than adeno-associated virus (AAV) vectors following intramuscular or intravenous administration in a DMD mouse model. Furthermore, unlike AAV-CRISPR, LNP-CRISPR-mediated genome editing showed greater resistance to repeated muscle injuries, indicating successful editing of regenerative satellite cells. These results highlight the potential of LNPs as a non-viral platform for durable genome editing in skeletal muscle and lay the foundation for developing safe and sustainable genome-editing therapies for DMD.",
+    "authors": [
+      "Mochida T",
+      "Fujimoto N",
+      "Asahina M",
+      "Asano S",
+      "Araki S",
+      "Inukai N",
+      "Hotta A"
+    ],
+    "published": "2026-01-27",
+    "journal": "Cell reports",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41411128/",
+    "score": 45,
+    "summary": {
+      "title_zh": "利用LNP-CRISPR-Cas9编辑肌肉卫星细胞以抵抗肌肉损伤",
+      "tool_type": "基于脂质纳米颗粒的非病毒递送平台，用于递送CRISPR-Cas9系统（具体为SpCas9 mRNA与gRNA）进行基因组编辑。",
+      "design思路": "该平台的核心设计是将CRISPR-Cas9系统的关键组分（Cas9 mRNA和gRNA）封装在脂质纳米颗粒中。这种非病毒递送方式旨在高效、瞬时地将基因编辑工具递送至难以转导的肌肉卫星细胞，并避免病毒载体可能存在的免疫原性和基因组整合风险。",
+      "functions": "1. 实现体内（肌肉内或静脉注射）对特定细胞类型（Pax7阳性肌肉卫星细胞）的高效基因组编辑。\n2. 诱导靶向基因的外显子跳跃（在本文中用于治疗杜氏肌营养不良症模型）。\n3. 为骨骼肌提供持久性的基因编辑治疗效果，特别是在肌肉反复损伤再生的条件下。",
+      "key_results": "1. 在DMD小鼠模型中，LNP递送CRISPR-Cas9系统诱导外显子跳跃的效率高于腺相关病毒载体，并成功编辑了具有再生能力的卫星细胞。\n2. 经LNP-CRISPR编辑的肌肉在经历反复损伤后，仍能保持治疗效果，而AAV-CRISPR的效果则下降，证明了该平台对再生性干细胞编辑的有效性和持久性优势。"
+    }
+  },
+  {
+    "id": "41588875",
+    "title": "Advances in Precision Editing Therapies for Alpha-1 Antitrypsin Deficiency.",
+    "abstract": "Genome and RNA editing modalities have revolutionized precision gene therapy, offering a safer alternative to traditional gene replacement approaches. Alpha-1 antitrypsin deficiency (AATD) is a compelling model for precision medicine because the disease mechanism is well defined-mutations in a single gene are responsible for both liver and lung pathology. In this review, we summarize the current preclinical and clinical efforts for AATD, with an emphasis on genome and RNA editing strategies.",
+    "authors": [
+      "Gao J",
+      "Sontheimer E",
+      "Flotte TR",
+      "Xue W"
+    ],
+    "published": "2026-01-26",
+    "journal": "Human gene therapy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41588875/",
+    "score": 45,
+    "summary": {
+      "title_zh": "α-1抗胰蛋白酶缺乏症精准编辑治疗研究进展",
+      "tool_type": "综述论文（非单一工具，涵盖基因组与RNA编辑平台）",
+      "design": "本文未提出新的工程设计，而是系统综述了针对AATD的现有编辑策略。核心思路是：1）利用基因组编辑工具（如CRISPR/Cas）对致病突变基因进行永久性校正；2）利用RNA编辑工具（如ADAR或Cas13系统）在转录本水平进行可逆性修复，避免基因组永久改变的风险。",
+      "functions": "综述中涵盖的编辑工具/平台可实现以下功能：1）对AATD致病突变（如Z等位基因）进行位点特异性基因组校正；2）在RNA水平实现A→I或C→U等精准编辑以恢复功能性蛋白表达；3）作为治疗AATD相关肝病和肺病的潜在精准基因疗法。",
+      "key_results": "本文为综述，未报告原创实验结果。关键结论是：基于基因组和RNA编辑的策略在AATD临床前模型中已展示出治疗潜力，部分疗法已进入早期临床试验阶段，为这种单基因疾病提供了比传统基因替代更安全的精准治疗选择。"
+    }
+  },
+  {
+    "id": "41588195",
+    "title": "De novo design of potent CRISPR-Cas13 inhibitors.",
+    "abstract": "CRISPR-Cas systems are transformative tools for gene editing that can be tuned or controlled by anti-CRISPRs (Acrs)-phage-derived inhibitors that regulate CRISPR-Cas activity. However, Acrs that can inhibit biotechnologically relevant CRISPR systems are relatively rare and challenging to discover. To overcome this limitation, we describe a highly successful and rapid approach that leverages de novo protein design to develop new-to-nature proteins for controlling CRISPR-Cas activity. Here, using Leptotrichia buccalis CRISPR-Cas13a as a representative example, we demonstrate that Acrs designed using artificial intelligence (AIcrs) are capable of highly potent and specific inhibition of CRISPR-Cas13a nuclease activity. We present a comprehensive workflow for design validation and demonstrate AIcr functionality in controlling CRISPR-Cas13 activity in bacterial and human cells. The ability to design bespoke inhibitors of Cas effectors will contribute to the ongoing development of CRISPR-Cas tools in diverse applications across research, medicine, agriculture and microbiology.",
+    "authors": [
+      "Taveneau C",
+      "Chai HX",
+      "D'Silva J",
+      "Bamert RS",
+      "Chen H",
+      "Hayes BK",
+      "Calvert RW",
+      "Purcell J",
+      "Curwen DJ",
+      "Munder F",
+      "Martin LL",
+      "Barr JJ",
+      "Rosenbluh J",
+      "Fareh M",
+      "Grinter R",
+      "Knott GJ"
+    ],
+    "published": "2026-01-26",
+    "journal": "Nature chemical biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41588195/",
+    "score": 45,
+    "summary": {
+      "title_zh": "从头设计强效CRISPR-Cas13抑制剂",
+      "tool_type": "CRISPR-Cas13抑制剂设计平台",
+      "design": "该平台的核心思路是利用人工智能驱动的从头蛋白质设计方法，创造出自然界不存在的新型蛋白质，以特异性抑制CRISPR-Cas13的活性。其工作流程整合了计算设计、验证与功能测试，旨在快速生成针对特定Cas效应器（如Cas13a）的定制化抑制剂。",
+      "functions": "1. 生成强效且特异性的CRISPR-Cas13核酸酶活性抑制剂。\n2. 在细菌和人类细胞中实现对CRISPR-Cas13活性的可控调控。\n3. 作为CRISPR-Cas工具箱的补充，为研究、医学、农业和微生物学等领域的应用提供安全开关或调控手段。",
+      "key_results": "针对Leptotrichia buccalis Cas13a设计的AI抑制剂（AIcrs）表现出高效且特异的抑制活性。关键实验验证了AIcrs在细菌和人类细胞中均能有效控制Cas13a的活性，证明了其作为调控工具的可行性。"
+    }
+  }
+]
