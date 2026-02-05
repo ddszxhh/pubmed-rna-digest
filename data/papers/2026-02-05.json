@@ -1,0 +1,144 @@
+[
+  {
+    "id": "41631487",
+    "title": "Specificity of DNA targeting by RNA-guided pAgo nucleases.",
+    "abstract": "Argonautes are an evolutionarily conserved family of proteins that use guide oligonucleotides for specific recognition of nucleic acid targets. While eukaryotic Argonautes share a conserved structure and act in RNA interference, prokaryotic Argonautes (pAgos) display remarkable structural and functional variations, including various guide and target specificities. Most studied catalytically active pAgos use 5'-phosphorylated DNA guides to recognize and cleave DNA targets. Here, we describe a new group of pAgos from mesophilic bacteria that use RNA guides to cleave DNA targets and are active at physiological temperatures. In contrast to most characterized pAgo nucleases, these proteins can utilize guides of varying lengths containing either a 5'-phosphate or a 5'-hydroxyl group with similar efficiencies. Measurements of the kinetics of target DNA binding show that the annealing of the guide-target duplex in pAgo occurs in an ordered way and that pAgo increases the rate of guide-target interaction in the seed region. We show that the analyzed pAgos can produce alternative DNA products depending on the structure of guide RNA and the cleavage conditions. The results demonstrate that RNA-guided pAgo nucleases are more widespread than previously anticipated and that these pAgos have a relaxed specificity for target DNA cleavage.",
+    "authors": [
+      "Lisitskaya L",
+      "Kuznetsova A",
+      "Petushkov I",
+      "Alieva M",
+      "Zaitseva Y",
+      "Olina A",
+      "Kropocheva E",
+      "Lavrova M",
+      "Musabirov A",
+      "Kuznetsov N",
+      "Agapov A",
+      "Gelfenbein D",
+      "Kulbachinskiy A"
+    ],
+    "published": "2026-01-22",
+    "journal": "Nucleic acids research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41631487/",
+    "score": 45,
+    "summary": {
+      "title_zh": "RNA引导的原核Argonaute核酸酶靶向DNA的特异性研究",
+      "tool_type": "原核Argonaute (pAgo) 核酸酶系统 / RNA引导的DNA靶向与切割工具",
+      "design": "该研究聚焦于一类来自嗜温细菌的新型pAgo核酸酶，其核心设计是利用RNA作为引导链（guide RNA）来特异性识别并切割DNA靶标。这些pAgo在生理温度下具有活性，并且对引导RNA的5‘端修饰（磷酸化或羟基）和长度表现出宽松的识别要求，这为其工程化应用提供了灵活性。",
+      "functions": "1. RNA引导的DNA靶向与切割：实现位点特异性的DNA切割。\n2. 产生可调控的DNA切割产物：通过改变引导RNA的结构和切割条件，可以产生不同的DNA产物（如平末端或粘性末端）。\n3. 潜在应用：作为新型的基因组编辑或核酸操作工具平台，用于DNA检测、体外DNA操作或开发新的基因编辑系统。",
+      "key_results": "关键实验结果表明，这类RNA引导的pAgo核酸酶在生理温度下能有效切割DNA靶标，其引导RNA与靶标DNA的退火遵循有序模式，并显著提高了种子区的结合速率；同时，其切割产物具有可编程性，能根据引导RNA结构和反应条件产生不同的DNA末端。"
+    }
+  },
+  {
+    "id": "41555077",
+    "title": "An anti-CRISPR targets the sgRNA to block Cas9 and guides the design of enhanced genome editors.",
+    "abstract": "Bacteriophages have evolved anti-CRISPR (Acr) proteins to combat the adaptive immunity provided by bacterial CRISPR-Cas systems. Here, we report the cryo-electron microscopy structure of an anti-Cas9 protein AcrIIA27 bound to SpyCas9-sgRNA (single guide RNA) complex. Our structure reveals that AcrIIA27 binds the solvent-exposed phosphate backbone of the sgRNA, acting as a potent inhibitor of diverse Cas9 orthologs. AcrIIA27 in the structure is positioned near the protospacer-adjacent motif DNA-binding pocket on SpyCas9, causing steric hindrance that prevents substrate DNA recognition. This mechanism suggests solvent-exposed regions of sgRNAs (PTP RNAs), prone to nonspecific binding of positively charged components, may compromise CRISPR-Cas genome-editing efficiency. Indeed, truncations of the PTP RNAs in different editing systems significantly enhance genome-editing efficiency in human cells. Overall, our findings reveal a previously uncharacterized inhibition mechanism of an anti-Cas protein and offers a general strategy for developing more efficient genome-editing tools.",
+    "authors": [
+      "Yu L",
+      "Yin M",
+      "Zhu Y",
+      "Lu Z",
+      "Xiao B",
+      "Zhou F",
+      "Yu Y",
+      "Huang Z"
+    ],
+    "published": "2026-01-19",
+    "journal": "Nature structural & molecular biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41555077/",
+    "score": 45,
+    "summary": {
+      "title_zh": "一种靶向sgRNA的抗CRISPR蛋白可阻断Cas9并指导增强型基因组编辑工具的设计",
+      "tool_type": "基于抗CRISPR蛋白（Acr）的sgRNA工程化平台/增强型基因组编辑工具设计策略",
+      "design": "1. 通过解析AcrIIA27与SpyCas9-sgRNA复合物的冷冻电镜结构，发现该抗CRISPR蛋白通过结合sgRNA溶剂暴露区的磷酸骨架（PTP RNA区域）来抑制Cas9活性。\n2. 基于此抑制机制，提出了一种通用设计思路：通过截短或改造sgRNA中易发生非特异性结合的PTP区域，可以减少干扰，从而提升CRISPR-Cas系统的编辑效率。",
+      "functions": "1. **揭示新型抑制机制**：阐明了一种通过靶向sgRNA（而非直接作用于Cas9酶）来阻断CRISPR-Cas9功能的新型抗CRISPR机制。\n2. **指导工具优化**：为设计高效、低脱靶的增强型基因组编辑工具（如CRISPR-Cas9编辑器）提供了一种通用的sgRNA工程化策略。\n3. **潜在应用拓展**：该机制提示sgRNA的溶剂暴露区域可能成为调控CRISPR系统活性的新靶点，可用于开发可调控的编辑系统或传感器。",
+      "key_results": "1. 结构生物学证实AcrIIA27通过结合sgRNA的PTP区域并产生空间位阻，阻止底物DNA识别，从而广泛抑制多种Cas9同源蛋白。\n2. 在人类细胞中，对不同编辑系统（如CRISPR-Cas9）的sgRNA进行PTP区域截短后，基因组编辑效率均得到显著提升，验证了该策略的普适性和有效性。"
+    }
+  },
+  {
+    "id": "41554631",
+    "title": "Targeting ADAR1-mediated RNA editing inhibits hepatic stellate cell activation and liver fibrosis by enhancing HSC-intrinsic innate immunity.",
+    "abstract": "The pathogenesis of liver fibrosis centres on the activation of hepatic stellate cells (HSCs). Adenosine-to-inosine RNA editing, primarily catalysed by adenosine deaminase acting on RNA1 (ADAR1), is the most prevalent post-transcriptional modification that increases transcriptome diversity. This study aims to elucidate the role of ADAR1-imposed RNA editome in HSC activation and to determine the therapeutic potential of targeting ADAR1 for liver fibrosis. ADAR1 expression was measured in fibrotic human and mouse livers, as well as in primary human and mouse HSCs. Adar1 loss-of-function effect was evaluated in ADAR1 is decreased in human and mouse fibrotic livers and activated HSCs. HSC-specific ablation or pharmacological inhibition of ADAR1 ameliorated HSC activation and liver fibrosis. In contrast, forced expression of ADAR1, but not its editing-deficient mutant, exacerbated HSC activation. Mechanistically, ADAR1 ablation accumulated double-stranded RNA and activated HSC-intrinsic innate immunity in a melanoma differentiation-associated gene 5-dependent manner. Interferon-β was identified as a key antifibrotic effector via the activation of the JAK1/2 pathway. RNA editome analysis revealed the ADAR1-imposed RNA editome suppresses HSC-intrinsic innate immunity and promotes collagen production, leading to aggravated HSC activation and liver fibrosis. Targeting ADAR1 with its pharmacological inhibitor or HSC-selective RNAi shows great promise in treating liver fibrosis.",
+    "authors": [
+      "Xi Y",
+      "Liu L",
+      "Kim JW",
+      "Zhang M",
+      "Wang X",
+      "Abdirassil A",
+      "Xu M",
+      "Ren S",
+      "Wang Q",
+      "Yang D",
+      "Xu P",
+      "Xie W"
+    ],
+    "published": "2026-01-19",
+    "journal": "Gut",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41554631/",
+    "score": 45,
+    "summary": {
+      "title_zh": "靶向ADAR1介导的RNA编辑通过增强肝星状细胞固有先天免疫抑制其活化与肝纤维化",
+      "tool_type": "ADAR1靶向治疗平台（包含遗传学干预与药理学抑制）",
+      "design": "本研究并非构建新的可编程编辑工具，而是将内源性ADAR1酶及其介导的RNA编辑组（editome）本身作为一个可干预的“治疗靶点平台”。核心思路是通过遗传学（HSC特异性敲除）或药理学（小分子抑制剂、选择性RNAi）手段，抑制ADAR1在特定细胞（肝星状细胞，HSC）中的编辑活性，从而改变其下游的免疫与纤维化相关通路。",
+      "functions": "1. 功能：特异性抑制肝星状细胞（HSC）中ADAR1的RNA编辑活性，导致双链RNA积累，进而激活HSC固有的MDA5依赖性先天免疫通路（如产生干扰素-β），最终抑制HSC活化和胶原蛋白产生。\n2. 应用：作为一种潜在的治疗策略，用于预防或逆转肝纤维化。展示了通过靶向RNA编辑过程进行疾病治疗的可行性。",
+      "key_results": "关键实验结果表明：1. 在肝纤维化模型中，HSC特异性敲除Adar1或使用ADAR1药理抑制剂，能显著改善HSC活化和肝纤维化；而过表达有编辑活性的ADAR1（而非编辑缺陷突变体）则会加剧纤维化。2. 机制上，ADAR1缺失通过积累dsRNA激活MDA5依赖性固有免疫，诱导干扰素-β产生，并通过JAK1/2通路发挥抗纤维化作用。"
+    }
+  },
+  {
+    "id": "41549280",
+    "title": "TSniffer: unbiased de novo identification of RNA editing sites and quantification of editing activity in RNA-seq data.",
+    "abstract": "RNA editing by adenosine deaminases acting on RNA (ADARs) is an essential cellular process performed by three enzymes in mammals: ADAR1-p150, ADAR1-p110, and ADAR2, demonstrating different target specificity and selectivity. Here we describe TSniffer, a novel tool to analyze RNA editing in RNA-sequencing datasets. TSniffer uses a rolling window approach to identify editing sites and operates in two modes allowing identification and quantification in single samples, and quantification in predefined regions across multiple datasets. Using wild type and ADAR-deficient datasets, we provide strategies for identification of ADAR editing sites and verify the accuracy and biological relevance of our findings.",
+    "authors": [
+      "Herrmann M",
+      "Krebs Y",
+      "Acosta FM",
+      "Parusel S",
+      "Siering O",
+      "Andres FGM",
+      "Taye B",
+      "Miskey C",
+      "Pfaller CK"
+    ],
+    "published": "2026-01-19",
+    "journal": "Genome biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41549280/",
+    "score": 45,
+    "summary": {
+      "title_zh": "TSniffer：RNA-seq数据中RNA编辑位点的无偏从头识别及编辑活性的定量分析",
+      "tool_type": "RNA编辑生物信息学分析工具/平台",
+      "design": "TSniffer的核心设计思路是采用一种“滚动窗口”的计算方法，对RNA测序数据进行扫描分析。它提供两种运行模式：一种用于在单个样本中同时进行编辑位点的识别与定量，另一种则用于在预先定义的区域（如已知编辑位点）中对多个数据集进行编辑活性的批量定量。",
+      "functions": "1. 从RNA测序数据中无偏倚地从头识别由ADAR酶介导的RNA编辑位点。\n2. 对单个样本中识别出的编辑位点的编辑水平进行定量。\n3. 在多个样本或数据集中，对已知或预定义的RNA编辑区域的编辑活性进行批量定量和比较。",
+      "key_results": "利用野生型和ADAR缺陷型数据集进行验证，结果表明TSniffer能够准确识别ADAR依赖的编辑位点，其发现具有高度的生物学相关性，证实了该工具在分析RNA编辑事件中的准确性和可靠性。"
+    }
+  },
+  {
+    "id": "41414712",
+    "title": "Investigating and correcting a rare pathogenic mutation in GDF11.",
+    "abstract": "Single-nucleotide variants (SNVs) and small insertions or deletions (indels) underlie most rare monogenic disorders, yet therapeutic strategies to precisely correct these mutations remain limited. Prime editing enables the repair of such pathogenic variants without introducing double-stranded breaks. Here, we applied CRISPR prime editing to model and correct a de novo GDF11 nonsense mutation (Tyr336∗) identified in a participant from the Undiagnosed Diseases Network with growth delay and multisystem abnormalities. Using HEK293T cells, we generated heterozygous (HET) GDF11 Tyr336∗ clones, which exhibited reduced GDF11 protein levels due to post-translational degradation likely mediated by endoplasmic reticulum- and Golgi-associated quality control pathways. These cells displayed marked Golgi abnormalities, including an increased number of compact, irregularly shaped Golgi structures, findings consistent with Golgi fragmentation and stress. Transcriptomic profiling of HET cells revealed a broad dysregulation of gene networks, including downregulation of metabolic and Golgi-linked biosynthetic genes, and upregulation of cell-adhesion and extracellular matrix genes. These transcriptional shifts paralleled the participant's developmental, neural, and cardiovascular phenotypes. To correct the mutation, we tested multiple bespoke prime editing strategies and identified PE7, in combination with a prime editing guide RNA designed by Pridict, as the most effective ribonucleoprotein complex for rescue. Editing efficiency was further enhanced by introducing an additional silent protospacer-adjacent motif-disrupting mutation, likely preventing both Cas9 re-binding and mismatch repair. Together, these findings support a haploinsufficiency mechanism for the GDF11 Tyr336∗ allele and establish a generalizable framework for disease modeling and allele-specific correction of pathogenic variants in human cells.",
+    "authors": [
+      "Congdon ST",
+      "Bennett J",
+      "Opinya R",
+      "Agosto AR",
+      "Dossias O",
+      "Kokko C",
+      "Levesque AA",
+      "Koob AO",
+      "Silver AC",
+      "Thomas-Charles CA"
+    ],
+    "published": "2026-01-15",
+    "journal": "HGG advances",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41414712/",
+    "score": 45,
+    "summary": {
+      "title_zh": "研究与纠正GDF11中一种罕见致病突变",
+      "tool_type": "CRISPR引导的Prime Editing（先导编辑）系统",
+      "design": "本研究采用Prime Editing（PE）系统，其核心设计是将工程化的逆转录酶与切口酶Cas9（H840A）融合，并由pegRNA（prime editing guide RNA）引导至靶点。研究通过测试多种定制化的pegRNA（由Pridict算法设计）和不同版本的PE蛋白（如PE7），并引入额外的沉默突变以破坏PAM序列，优化了编辑复合物（核糖核蛋白复合物）的设计，旨在防止Cas9重新结合并逃逸错配修复，从而高效、精确地纠正点突变。",
+      "functions": "1. 位点特异性基因纠正：无需引入DNA双链断裂，即可精确修复致病性单核苷酸变异（SNVs）或小片段插入缺失（indels）。\n2. 疾病建模：在人类细胞（HEK293T）中构建杂合致病等位基因，用于模拟疾病表型和研究致病机制。\n3. 等位基因特异性校正：实现对特定致病等位基因的靶向修复，为单倍体不足等机制的研究提供工具。",
+      "key_results": "1. 成功在HEK293T细胞中建模了GDF11 Tyr336*杂合突变，该模型细胞表现出Golgi体结构异常和广泛的转录组失调，模拟了患者的表型。\n2. 通过优化PE系统和pegRNA，实现了对致病突变的高效纠正。关键性能指标是找到了最有效的救援方案（PE7 + Pridict设计的pegRNA），并通过引入额外的沉默PAM破坏突变进一步提升了编辑效率。"
+    }
+  }
+]
