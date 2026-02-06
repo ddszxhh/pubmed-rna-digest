@@ -1,0 +1,130 @@
+[
+  {
+    "id": "41538311",
+    "title": "Illuminating the genome: emerging approaches in CRISPR-Cas live-cell imaging.",
+    "abstract": "CRISPR-Cas-based live-cell imaging has rapidly become a central technology for studying genome dynamics with high specificity and flexibility. By coupling nuclease-deactivated Cas (dCas) with programmable guide RNAs, genomic loci can be tracked in living cells, providing direct insights into nuclear organization and chromatin behavior. While repetitive regions such as telomeres and centromeres are readily visualized, labeling non-repetitive loci remains more challenging due to weak signals and high background. Recent advances, including multicolor labeling strategies, innovative amplification systems based on dCas9 and single-guide RNA (sgRNA) engineering, and integration with novel fluorescent reporters, have markedly expanded the applicability of CRISPR imaging across the genome. These developments have expanded the multiplexing capacity of CRISPR imaging, improved signal-to-background ratios, and even enabled the visualization of non-repetitive genomic loci. Nonetheless, key challenges remain, including cellular toxicity, replication stress, and genomic instability associated with prolonged CRISPR expression. In this review, we summarize recent advances in CRISPR live-cell imaging and highlight key design trade-offs and biological constraints.",
+    "authors": [
+      "Xiao Z",
+      "Sun Y"
+    ],
+    "published": "2026-01-14",
+    "journal": "Nucleic acids research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41538311/",
+    "score": 45,
+    "summary": {
+      "title_zh": "照亮基因组：CRISPR-Cas活细胞成像的新兴方法",
+      "tool_type": "CRISPR-Cas活细胞成像平台（基于dCas的RNA引导基因组定位与可视化系统）",
+      "design思路": "该平台的核心设计是将核酸酶失活的Cas蛋白（dCas）与可编程的向导RNA（gRNA）结合，形成靶向特定基因组位点的复合物。通过进一步将dCas与荧光报告系统（如荧光蛋白或信号放大模块）偶联，实现在活细胞中对基因组位点的实时标记与追踪。",
+      "functions": "1. 活细胞中基因组位点的特异性标记与可视化；\n2. 研究核内空间组织与染色质动态行为；\n3. 实现多色标记以提高多重成像能力；\n4. 通过信号放大策略对非重复性基因组位点进行成像。",
+      "key_results": "关键进展包括通过工程化dCas9、sgRNA及新型荧光报告系统，显著提升了成像的信噪比和多重标记能力，并成功实现了对非重复性基因位点的可视化。然而，长期表达CRISPR组件仍存在细胞毒性、复制应激和基因组不稳定性等挑战。"
+    }
+  },
+  {
+    "id": "41106392",
+    "title": "Structural and functional bases of F. rodentium Cas9 provide insights into CRISPR-Cas protein engineering.",
+    "abstract": "The Faecalibaculum rodentium (Fr) CRISPR-Cas9 system exhibits enhanced gene-editing precision and efficiency compared to SpCas9, with distinctive advantages in targeting the TATA box in eukaryotic promoters. However, the underlying molecular mechanisms remained unexplored. Here, we present cryo-electron microscopy structures of the FrCas9-single guide RNA (sgRNA)-DNA complex in both the R-loop expansion and pre-catalytic states, shedding light on its specialized recognition of the 5'-NRTA-3' protospacer adjacent motif (PAM) and the unusual overwinding of the sgRNA-DNA heteroduplex. Our investigations into the structure and extensive mutational analyses reveal that the phosphate lock loop plays a pivotal role in finely adjusting FrCas9's off-target sensitivity and catalytic efficiency. Remarkably, targeted residue substitutions in the phosphate lock loop and the PAM-distal region were found to synergistically enhance both the editing precision and efficiency of FrCas9. These findings advance our understanding of Cas9's accuracy and potency mechanisms while providing a molecular foundation for the rational design and development of next-generation CRISPR technologies.",
+    "authors": [
+      "Yang M",
+      "Liu S",
+      "Chen G",
+      "Liu X",
+      "Sun D",
+      "Zhang J",
+      "Wang Y",
+      "Chen S",
+      "Tian R",
+      "Hu Z"
+    ],
+    "published": "2026-01-14",
+    "journal": "Cell genomics",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41106392/",
+    "score": 45,
+    "summary": {
+      "title_zh": "粪杆菌Cas9的结构与功能基础为CRISPR-Cas蛋白工程提供见解",
+      "tool_type": "CRISPR-Cas9基因编辑系统（具体为Faecalibaculum rodentium来源的FrCas9）",
+      "design": "本研究并非从头设计新工具，而是通过解析FrCas9-sgRNA-DNA复合物的冷冻电镜结构，揭示了其高精度与高效率的分子机制。核心工程设计思路在于，基于对关键结构域（如磷酸锁环）和PAM识别区的深入理解，通过定点氨基酸替换来理性改造和优化Cas9蛋白的性能。",
+      "functions": "1. 位点特异性基因编辑（切割DNA）。\n2. 相较于SpCas9，在靶向真核生物启动子TATA盒区域时具有独特优势。\n3. 通过蛋白工程改造，可进一步提升编辑的精准度和效率，为开发下一代高保真CRISPR工具提供基础。",
+      "key_results": "1. 结构生物学与突变分析表明，磷酸锁环是精细调控FrCas9脱靶敏感性和催化效率的关键。\n2. 对磷酸锁环和PAM远端区域的靶向残基替换，能协同增强FrCas9的编辑精度和效率，实现了性能的理性优化。"
+    }
+  },
+  {
+    "id": "41512020",
+    "title": "ADAR-GPT: A continually fine-tuned language model for predicting A-to-I RNA editing sites.",
+    "abstract": "Adenosine-to-inosine (A-to-I) RNA editing by ADAR enzymes shapes transcript fate and underpins emerging RNA editing therapeutics, yet predicting which adenosines are edited remains difficult. We introduce ADAR-GPT, a model-agnostic fine-tuning framework that adapts a GPT-class language model to classify editing at candidate sites using sequence context in standardized 201 nt windows with the target adenosine explicitly marked. We train and evaluate on GTEx liver data ([Formula: see text] samples) at a clinically relevant 15% editing threshold, using a two-stage continual fine-tuning approach where lower thresholds serve as curriculum data to progressively sharpen decision boundaries. Using sequence data, ADAR-GPT demonstrates competitive or superior performance when benchmarked against established computational approaches, including convolutional and foundation model architectures, achieving a better balance of recall, precision, and specificity alongside stronger operating-curve metrics. The approach is reproducible and portable across GPT backbones without architectural changes. Beyond accurate site classification, ADAR-GPT provides practical adenosine scoring to prioritize experimental targets and inform guide RNA design, with a framework adaptable to new datasets and model architectures.",
+    "authors": [
+      "Rosenwasser Z",
+      "Cohen-Fultheim R",
+      "Levitt M",
+      "Levanon EY",
+      "Oren G"
+    ],
+    "published": "2026-01-13",
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41512020/",
+    "score": 45,
+    "summary": {
+      "title_zh": "ADAR-GPT：一个用于预测A-to-I RNA编辑位点的持续微调语言模型",
+      "tool_type": "RNA编辑位点预测工具（基于语言模型的生物信息学平台）",
+      "design": "该工具采用模型无关的微调框架，将GPT类语言模型适配于RNA编辑位点分类任务。其核心设计是：1) 使用标准化的201 nt序列窗口，并明确标记目标腺苷作为输入；2) 采用两阶段持续微调策略，以较低编辑阈值的样本作为课程数据，逐步锐化模型的决策边界。",
+      "functions": "1. 对候选位点进行A-to-I RNA编辑分类预测；2. 提供实用的腺苷评分，用于优先排序实验靶点；3. 为引导RNA（gRNA）设计提供信息支持；4. 框架可适配新数据集和模型架构，具有良好的可移植性。",
+      "key_results": "在GTEx肝脏数据（n=191个样本）上，以临床相关的15%编辑阈值为标准进行评估，ADAR-GPT在仅使用序列数据的情况下，相比包括卷积神经网络和基础模型在内的现有计算方法，展现出具有竞争力或更优的性能，在召回率、精确度和特异性之间取得了更好的平衡，并拥有更强的操作曲线指标。"
+    }
+  },
+  {
+    "id": "41524478",
+    "title": "FAST-CRISPR: Fusogenic Association and Secured Transfection of CRISPR/Cas9 Ribonucleoproteins Using Lipid-Silica Hybrid Nanoparticles for Therapeutic Genome Editing.",
+    "abstract": "Clinical translation of CRISPR/Cas9 therapeutics is challenged by inefficient cytosolic delivery and toxicity issues associated with viral vectors and nanoparticle-based carriers. To overcome these concerns, herein we report a lipid-silica hybrid nanoparticle platform for fusogenic association and secured transfection of CRISPR/Cas9 (FAST-CRISPR), designed for rapid cytosolic delivery of CRISPR/Cas9 ribonucleoproteins, followed by efficient gene editing. Through direct fusion with the plasma membrane and bypassing conventional endocytic barriers, FAST-CRISPR nanoparticles displayed superior intracellular delivery efficacy. Optimizing lipid compositions, we discovered that a 1:1 weight mixture of cationic DOTAP and ionizable DODMA lipids, combined with tailored large-pore silica nanoparticles, enables enhanced loading capacity, rapid cytosolic dispersion, and significant nuclear transport of Cas9/gRNA complexes. FAST-CRISPR nanoparticles efficiently delivered multiplex genome-targeting ribonucleoproteins to induce targeted double-strand DNA breaks, triggering apoptosis in cancer cells and significantly suppressing tumor growth in a mouse xenograft model without systemic toxicity. Our findings demonstrate the therapeutic efficacy and translational potential of FAST-CRISPR nanoparticles as a safe and versatile non-viral delivery platform for precision genome editing.",
+    "authors": [
+      "Kim M",
+      "Kim K",
+      "Lee J",
+      "Lee S",
+      "Choi S",
+      "Park SA",
+      "Jeong E",
+      "Choi SY",
+      "Park HH",
+      "Park TE",
+      "Kwon T",
+      "Myung K",
+      "Yoo J",
+      "Cho SW",
+      "Joo J"
+    ],
+    "published": "2026-01-12",
+    "journal": "Small (Weinheim an der Bergstrasse, Germany)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41524478/",
+    "score": 45,
+    "summary": {
+      "title_zh": "FAST-CRISPR：利用脂质-二氧化硅杂化纳米颗粒实现CRISPR/Cas9核糖核蛋白的融合性结合与安全转染，用于治疗性基因组编辑",
+      "tool_type": "非病毒递送平台（用于CRISPR/Cas9 RNP的递送）",
+      "design": "该平台的核心设计思路是构建一种脂质-二氧化硅杂化纳米颗粒（FAST-CRISPR），通过优化脂质成分（阳离子DOTAP与可电离DODMA以1:1重量比混合）并与定制的大孔二氧化硅纳米颗粒结合，旨在实现：1）高效装载Cas9/gRNA核糖核蛋白复合物；2）通过与细胞膜直接融合（而非传统内吞途径）实现快速、高效的胞质递送；3）促进Cas9复合物的胞质分散及后续的核转运。",
+      "functions": "1. 高效、快速地将CRISPR/Cas9核糖核蛋白复合物递送至细胞质。\n2. 实现多重基因组靶向，诱导靶向DNA双链断裂。\n3. 应用于治疗性基因组编辑，例如诱导癌细胞凋亡、抑制肿瘤生长。",
+      "key_results": "1. 体外/体内验证：FAST-CRISPR纳米颗粒能高效递送多重靶向RNP，在癌细胞中诱导DNA双链断裂并触发凋亡；在小鼠异种移植模型中显著抑制肿瘤生长，且未观察到系统性毒性。\n2. 性能指标：该平台通过膜融合机制实现了优越的细胞内递送效率，并促进了Cas9/gRNA复合物的核转运，最终实现了有效的基因编辑。"
+    }
+  },
+  {
+    "id": "41265646",
+    "title": "Genome editing of Spp1 by inhalable CRISPR/Cas9 formulation for treating pulmonary fibrosis.",
+    "abstract": "Secreted phosphoprotein 1 (Spp1) encoding osteopontin (OPN), a matrix cell protein with pro-inflammatory and pro-necrotic tissue properties, plays a crucial role in the onset and progression of idiopathic pulmonary fibrosis (IPF). In order to treat IPF by taking advantage of Spp1, we herein developed an inhalable system composed of calcium phosphate/ poly (lactic-co-glycolic acid) (PLGA) core-shell nanoparticles which are loaded with CRISPR/Cas9 system targeting Spp1 to investigate its therapeutic potential. Specifically, the plasmid encoding Cas9 and single-guide RNA (sgRNA) selectively targeting Spp1 gene was first condensed by calcium phosphate to form Cas9 complexes, which was then encapsulated by PLGA to formulate into a gene-editing inhalable delivery system (termed CaP/Cas9/PLGA). Interestingly, the aerosolized inhaled delivery of CaP/Cas9/PLGA nanoparticles results in the effective traverse of mucosal barriers to fibrotic lungs, where they are internalized by lung cells without inducing noticeable cytotoxicity. Following endo/lysosomal escape and gene expression of CRISPR system, the disruption of Spp1 gene by Cas9/sgRNA induces the mutation frequency exceeding 30 %, resulting in efficient down-regulation of OPN level. In a bleomycin-induced pulmonary fibrosis mouse model, the inhalation of aerosolized CaP/Cas9/PLGA complexes significantly attenuates fibrosis development and improves lung function with undetectable systemic toxicity. This current study defines an innovative inhalable gene-editing formulation and offers a promising gene therapy modality for treating IPF.",
+    "authors": [
+      "Bao W",
+      "Ji P",
+      "Xi W",
+      "Chimed G",
+      "Liu Z",
+      "Ping Y"
+    ],
+    "published": "2026-01-10",
+    "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41265646/",
+    "score": 45,
+    "summary": {
+      "title_zh": "通过吸入式CRISPR/Cas9制剂进行Spp1基因组编辑以治疗肺纤维化",
+      "tool_type": "基于CRISPR/Cas9的体内基因编辑递送平台",
+      "design": "该平台的核心设计思路是构建一种可吸入的、具有核壳结构的纳米颗粒递送系统。首先，用磷酸钙（CaP）凝聚编码Cas9和靶向Spp1基因的sgRNA的质粒，形成核心复合物；然后，用聚乳酸-羟基乙酸共聚物（PLGA）对其进行包封，形成CaP/Cas9/PLGA纳米颗粒，旨在实现肺部靶向递送和细胞内有效释放。",
+      "functions": "1. 实现肺部组织（特别是纤维化肺）的靶向基因递送。\n2. 在体内对特定基因（如Spp1）进行基因组编辑（敲除）。\n3. 通过编辑致病基因，下调其蛋白产物（如骨桥蛋白OPN）的表达水平。\n4. 应用于治疗基因相关的肺部疾病，如特发性肺纤维化（IPF）。",
+      "key_results": "1. 在博来霉素诱导的肺纤维化小鼠模型中，吸入该制剂后，在肺细胞中实现了超过30%的Spp1基因突变频率，并有效下调了OPN蛋白水平。\n2. 体内治疗实验表明，吸入该制剂能显著减轻肺纤维化发展、改善肺功能，且未检测到明显的细胞毒性和全身毒性。"
+    }
+  }
+]
