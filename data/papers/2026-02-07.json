@@ -1,0 +1,136 @@
+[
+  {
+    "id": "41649900",
+    "title": "CRISPR-Cas13a-Powered Electrochemical Biosensor for Label-Free Detection of Chikungunya Virus RNA Using a Ceria-Modified Screen-Printed Carbon Electrode.",
+    "abstract": "This study aims to develop a label-free electrochemical biosensor for the detection of chikungunya virus (CHIKV) RNA, based on CRISPR-Cas13a integrated with a cerium oxide (ceria)-modified screen-printed carbon electrode (SPCE). The ceria film was deposited through cathodic electrodeposition, forming a uniform, needle-like film, as observed by SEM, and a crystalline fluorite structure was confirmed by XRD with characteristic (111), (200), and (220) reflections. The results showed that Raman spectroscopy demonstrated a dominant F2g band at ∼463 cm",
+    "authors": [
+      "Zakiyyah SN",
+      "Irkham",
+      "Wulandari DA",
+      "Zein MIHL",
+      "Gaffar S",
+      "Ozsoz M",
+      "Ogata G",
+      "Einaga Y",
+      "Hartati YW"
+    ],
+    "published": "2026-02-06",
+    "journal": "ACS sensors",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41649900/",
+    "score": 45,
+    "summary": {
+      "title_zh": "基于CRISPR-Cas13a与氧化铈修饰电极的免标记电化学生物传感器用于基孔肯雅病毒RNA检测",
+      "tool_type": "RNA传感器（CRISPR-Cas13a驱动的电化学生物传感器）",
+      "design": "该平台的核心设计思路是：1）利用CRISPR-Cas13a系统的RNA靶向与反式切割活性，当识别到目标CHIKV RNA时，其非特异性切割活性被激活；2）将Cas13a系统与电化学传感界面（氧化铈修饰的丝网印刷碳电极）集成，通过氧化铈薄膜的电化学信号变化来间接、免标记地报告目标RNA的存在。",
+      "functions": "1. 免标记、高特异性检测基孔肯雅病毒（CHIKV）RNA。\n2. 作为一种电化学检测平台，可用于病原体RNA的快速、灵敏诊断。",
+      "key_results": "关键实验结果表明：1）成功制备了具有均匀针状形貌和晶体结构的氧化铈修饰电极；2）该集成传感器能够实现对目标CHIKV RNA的特异性检测，并通过电化学信号变化进行报告，证明了其作为免标记检测工具的可行性。"
+    }
+  },
+  {
+    "id": "41649152",
+    "title": "A Streamlined CRISPRa Architecture with Dual Pol II/Pol III Promoter and Optimized scRNA Enables Robust and Tunable Gene Activation.",
+    "abstract": "CRISPR activation (CRISPRa) offers a powerful approach to upregulate endogenous genes; yet, existing systems in plants can be complex or difficult to integrate with CRISPR interference (CRISPRi). Here, we present a streamlined and flexible CRISPRa platform that enables robust gene activation. Using a dual-luciferase reporter, we benchmarked a range of guide RNA scaffolds, effector proteins, and promoters. We developed a novel single-guide RNA (sgRNA) architecture, harboring two MS2 aptamers inserted into the tetraloop and driven by a composite Pol II/Pol III promoter, as the most efficient configuration. This scaffold outperformed gR2.0- and SunTag-based constructs, reaching up to 100-fold activation of a minimal 35S promoter and up to 215-fold induction of three endogenous rice genes in protoplast assays. In contrast, scaffold RNAs (scRNAs) with aptamers at the 3' end or in excessive copy numbers were ineffective. Exploratory AlphaFold modeling supports a possible role for aptamer positioning and MCP-VP64 dimerization, although this remains a working hypothesis. This modular design enables tunable gene regulation in rice protoplasts and provides a practical platform for high-throughput screening and synthetic gene circuit prototyping in plants. Given that scRNA geometry and promoter architecture are universal features of CRISPR-based transcriptional modulation, the system is expected to be broadly portable across species. While the architecture is intended to be compatible with CRISPRi, future studies will be needed to establish its practical use in combined CRISPRa/i settings.",
+    "authors": [
+      "Gallo D",
+      "Bes M",
+      "Mounier T",
+      "Calatayud C",
+      "Meunier AC",
+      "Périn C"
+    ],
+    "published": "2026-02-06",
+    "journal": "The CRISPR journal",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41649152/",
+    "score": 45,
+    "summary": {
+      "title_zh": "一种具有双Pol II/Pol III启动子和优化scRNA的简化CRISPRa架构，可实现稳健且可调的基因激活",
+      "tool_type": "CRISPR激活（CRISPRa）系统 / 基于CRISPR的转录调控平台",
+      "design": "1. 设计了一种新型单向导RNA（sgRNA）架构，将两个MS2适配体插入到tetraloop结构中，并由一个复合的Pol II/Pol III启动子驱动。\n2. 通过模块化组合思路，将优化的sgRNA支架（scRNA）与转录激活效应蛋白（如MCP-VP64）结合，旨在实现高效且可调的基因激活。",
+      "functions": "1. 对内源基因进行高效、稳健的转录激活（上调表达）。\n2. 实现可调的基因调控，适用于高通量筛选。\n3. 为植物中的合成基因回路原型构建提供实用平台。\n4. 设计上旨在与CRISPR干扰（CRISPRi）兼容，以实现组合式转录调控（未来应用）。",
+      "key_results": "1. 在原生质体实验中，该优化架构对最小35S启动子的激活效果高达100倍，对三个内源水稻基因的诱导高达215倍，性能优于gR2.0和SunTag基准系统。\n2. 关键设计验证：将适配体置于scRNA的3‘末端或使用过多拷贝数则无效，表明适配体在tetraloop中的精确定位对高效激活至关重要。"
+    }
+  },
+  {
+    "id": "41645897",
+    "title": "Harnessing S. cerevisiae to advance the engineering of pentatricopeptide repeat proteins.",
+    "abstract": "Heterologous expression systems have been instrumental in furthering our understanding of plant RNA editing proteins. In this commentary, we discuss how the establishment of yeast as a model for studying plant RNA editing by Ramanathan et al. could advance the engineering of pentatricopeptide repeat proteins, and how in return pentatricopeptide repeat proteins might be used to advance yeast engineering.",
+    "authors": [
+      "Kwok van der Giezen FM",
+      "Small I"
+    ],
+    "published": "2026-02-06",
+    "journal": "The FEBS journal",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41645897/",
+    "score": 45,
+    "summary": {
+      "title_zh": "利用酿酒酵母推进五肽重复序列蛋白的工程化",
+      "tool_type": "蛋白质工程平台/异源表达系统",
+      "design": "该评论文章的核心思路是建立一个双向工程平台：1. 利用酿酒酵母作为异源表达系统，来研究和改造源自植物的五肽重复序列蛋白；2. 反过来，利用改造后的PPR蛋白作为可编程RNA结合模块，对酵母细胞进行工程化改造。其设计本质是构建一个“酵母-PPR蛋白”相互促进的工程化循环。",
+      "functions": "1. 作为研究平台：在酵母中异源表达和功能分析植物RNA编辑蛋白（如PPR蛋白）。2. 作为工程平台：改造PPR蛋白，使其成为可编程的RNA结合工具。3. 作为应用工具：将工程化PPR蛋白导入酵母，实现对酵母内源RNA的靶向识别与调控（如编辑、剪接、稳定性控制等），从而推进酵母合成生物学。",
+      "key_results": "本文是一篇评论（Commentary），未报告具体的实验数据。它重点总结了Ramanathan等人的研究，指出在酵母中成功建立植物RNA编辑研究模型是关键前提，这为后续高效工程化PPR蛋白并应用于酵母改造奠定了基础。"
+    }
+  },
+  {
+    "id": "41648576",
+    "title": "Co-option of ILF2/3 in primates restrains Alu hyper-editing to enable cell fate transitions.",
+    "abstract": "Primate genomes harbor over a million Alu retrotransposons, yet how cells limit their impact on transcriptome stability during lineage specification remains unclear. Here, we show that the chromatin-associated ILF2/3 complex suppresses Alu hyper-editing, a function required for gastrulation and adult stem-cell differentiation in primates but not mice. Mechanistically, ILF2/3 directly binds Alu elements in nascent RNAs and shields them from ADAR1-mediated adenosine-to-inosine (A-to-I) editing. Acute ILF2/3 degradation increases A-to-I editing at Alu elements, but not murine retrotransposons, leading to aberrant splicing and nonsense-mediated decay of transcripts encoding key chromatin regulators in primate cells. This in turn destabilizes the epigenetic landscape and blocks lineage commitment across all three germ layers. Re-expression of correctly spliced chromatin regulators rescues differentiation defects in ILF2/3-deficient cells, functionally linking Alu editing control to chromatin regulation and cell fate. These findings define an evolutionary mechanism that restrains retrotransposon-associated RNA editing to preserve proteome integrity and enable primate-specific developmental programs.",
+    "authors": [
+      "Park EJ",
+      "Cui Y",
+      "Levin-Ferreyra F",
+      "Soriano VL",
+      "Wu H",
+      "Lupión-Garcia N",
+      "Sands CM",
+      "Pessina P",
+      "Guerra MC",
+      "Botas J",
+      "Chen LY",
+      "Cermakova K",
+      "Hodges HC",
+      "Morey L",
+      "Coon JJ",
+      "Wu J",
+      "Warmflash A",
+      "Van Nostrand E",
+      "Hoetker MS",
+      "Di Stefano B"
+    ],
+    "published": "2026-01-15",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41648576/",
+    "score": 45,
+    "summary": {
+      "title_zh": "灵长类中ILF2/3的协同作用抑制Alu过度编辑以支持细胞命运转换",
+      "tool_type": "内源性RNA编辑调控系统（非人工设计工具，但揭示了可编程RNA调控的潜在靶点与机制）",
+      "design": "本研究揭示了一种内源性的、由染色质相关蛋白ILF2/3复合物构成的天然“屏蔽”系统。其核心设计思路是：ILF2/3复合物直接结合新生RNA中的Alu元件，通过物理遮蔽机制，阻止ADAR1酶接近并对其进行A-to-I编辑，从而维持转录组稳定性。",
+      "functions": "1. **抑制过度RNA编辑**：特异性抑制灵长类Alu反转录转座子元件的A-to-I过度编辑。\n2. **维持转录组与蛋白质组完整性**：防止因Alu过度编辑导致的异常剪接和 nonsense-mediated decay (NMD)。\n3. **保障细胞命运决定**：通过稳定编码关键染色质调控因子的转录本，维持表观遗传景观，支持多胚层谱系分化。\n4. **揭示物种特异性调控机制**：该机制为灵长类特有，是小鼠等非灵长类动物所不具备的。",
+      "key_results": "1. **功能验证**：急性降解ILF2/3会显著增加灵长类细胞（而非小鼠细胞）中Alu元件的A-to-I编辑，导致关键染色质调控因子转录本发生异常剪接和降解，从而破坏表观遗传稳定并阻断所有三个胚层的谱系分化。\n2. **挽救实验**：重新表达正确剪接的染色质调控因子，可以挽救ILF2/3缺陷细胞的谱系分化缺陷，直接证明了Alu编辑控制、染色质调控与细胞命运决定之间的功能联系。"
+    }
+  },
+  {
+    "id": "41230494",
+    "title": "CRISPy-web 3.0: A unified platform for multi-modal guide RNA design for CRISPR and TnpB genome editing applications.",
+    "abstract": "CRISPy-web is an interactive web-based platform designed for rational guide RNA design in CRISPR-Cas9-based genome editing systems. Here, we present CRISPy-web 3.0 (https://crispy.secondarymetabolites.org/), an upgraded and versatile version that extends its functionality beyond classical Cas9-based systems. This version integrates support for diverse genome editing systems, including Cas9, CRISPR interference (CRISPRi), and TnpB/ωRNA. The redesigned interface enables users to toggle between multiple editing modes, select target regions such as ORFs or 5' UTRs, and visualize strand orientation, off-targets, and predicted mutation outcomes. It also incorporates scoring systems that evaluate guide RNA efficiency and specificity based on mismatch tolerance, positional context, and PAM requirements for CRISPR-Cas9-based applications. With an improved user interface design, enhanced backend scalability, and modular support for customizable inputs, CRISPy-web 3.0 provides a comprehensive and extensible platform for guide RNA design, enabling genome editing across a broader range of prokaryotic systems, including both CRISPR and TnpB.",
+    "authors": [
+      "Yang S",
+      "Cai Z",
+      "Chia N",
+      "Luo J",
+      "Weber T",
+      "Blin K",
+      "Tong Y"
+    ],
+    "published": "2026-03-01",
+    "journal": "Synthetic and systems biotechnology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41230494/",
+    "score": 35,
+    "summary": {
+      "title_zh": "CRISPy-web 3.0：用于CRISPR和TnpB基因组编辑应用的多模态向导RNA设计统一平台",
+      "tool_type": "基于Web的向导RNA（gRNA）设计平台",
+      "design": "1. 平台采用模块化设计，通过统一的后端接口整合了CRISPR-Cas9、CRISPRi和TnpB/ωRNA等多种基因组编辑系统的gRNA设计规则。\n2. 通过可切换的编辑模式界面，将PAM序列要求、错配容忍度、位置上下文等参数转化为可视化评分系统，实现多模态设计的无缝切换。",
+      "functions": "1. 支持多系统gRNA设计：涵盖Cas9基因编辑、CRISPRi基因干扰及TnpB转座子相关编辑系统。\n2. 靶向区域定制：可针对ORF、5‘ UTR等特定基因组区域进行设计。\n3. 设计分析与可视化：展示链取向、脱靶位点及预测突变结果。\n4. 效率与特异性评估：通过整合错配容忍度、位置权重和PAM序列要求的评分系统优化gRNA选择。",
+      "key_results": "1. 平台升级后实现了对原核生物CRISPR和TnpB系统的广泛兼容性，通过模块化架构验证了多编辑模式的可扩展性。\n2. 新版界面与后端可扩展性提升，能处理定制化输入并实时可视化脱靶分析与突变预测，但论文未提供具体的编辑效率实验数据（作为设计平台主要验证功能完整性）。"
+    }
+  }
+]
