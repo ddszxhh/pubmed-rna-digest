@@ -1,0 +1,139 @@
+[
+  {
+    "id": "41608661",
+    "title": "Identification of ADAR1i-124: The first effective A-to-I RNA editing inhibitor with promising cancer therapeutic potential.",
+    "abstract": "Two ADAR1 isoforms, p150 and p110, are involved in adenosine-to-inosine RNA editing. ADAR1p150-mediated hyper-editing of endogenous dsRNAs prevents their activation of type I interferon signaling-mediated via Melanoma Differentiation-Associated Protein 5 (MDA5), which enables cancer resistance to immune checkpoint blockade. ADAR1p150 also inhibits Z-RNA-mediated activation of Z-DNA Binding Protein 1 (ZBP1) and induction of necroptosis. ADAR1p110 suppresses the formation of telomeric repeat R-loops, which would otherwise induce apoptosis in telomerase-reactivated cancer cells. Together, ADAR1 inhibitors could serve as novel cancer therapeutics. Here, we identified, ADAR1i-124, which inhibits the catalytic activities of both ADAR1p150 and ADAR1p110. ADAR1i-124 activated MDA5 and ZBP1 pathways and dose-dependently inhibited viability across different types of cancer cell lines. Some cancer cell lines, unresponsive to ADAR1i-124 alone, became responsive when co-treated with 5-Aza-CdR. The DNA methylase inhibitor reactivated endogenous retroviruses, leading to the formation of retrovirus dsRNAs and the emergence of a new ADAR1 dependency. Our study establishes the potential of ADAR1i-124 as a future cancer therapeutic.",
+    "authors": [
+      "Minakuchi M",
+      "Zhang H",
+      "Cassel J",
+      "Shiromoto Y",
+      "Villanueva J",
+      "Skordalakes E",
+      "Salvino JM",
+      "Li Q",
+      "Nishikura K"
+    ],
+    "published": "2026-02-20",
+    "journal": "iScience",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41608661/",
+    "score": 35,
+    "summary": {
+      "title_zh": "发现ADAR1i-124：首个具有癌症治疗潜力的有效A-to-I RNA编辑抑制剂",
+      "tool_type": "小分子抑制剂（RNA编辑抑制剂）",
+      "design": "本研究并非设计一个可编程的RNA调控工具，而是通过筛选和鉴定，发现了一个能够抑制ADAR1酶催化活性的小分子化合物ADAR1i-124。其核心思路是靶向ADAR1蛋白的催化功能域，从而阻断其介导的腺苷（A）到肌苷（I）的RNA编辑活性。",
+      "functions": "1. 抑制ADAR1的催化活性：同时抑制ADAR1的两种亚型（p150和p110）的RNA编辑功能。\n2. 激活先天免疫通路：通过抑制ADAR1p150，解除其对内源性双链RNA（dsRNA）的编辑，从而激活MDA5介导的I型干扰素信号通路。\n3. 激活细胞死亡通路：抑制ADAR1p150可解除其对Z-RNA的编辑，从而激活ZBP1介导的细胞坏死性凋亡（necroptosis）。\n4. 诱导端粒R环相关凋亡：抑制ADAR1p110可促进端粒重复序列R环的形成，从而在端粒酶再激活的癌细胞中诱导凋亡。\n5. 潜在的癌症治疗：作为单一疗法或与DNA甲基化抑制剂（如5-Aza-CdR）联用，抑制多种癌细胞系的活力，具有癌症治疗的应用前景。",
+      "key_results": "1. ADAR1i-124能有效抑制ADAR1p150和p110的催化活性，并剂量依赖性地抑制多种癌细胞系的活力。\n2. 该抑制剂能激活MDA5和ZBP1通路，且与DNA甲基化抑制剂5-Aza-CdR联用可产生协同效应，使原本不敏感的癌细胞系变得敏感，这通过重新激活内源性逆转录病毒产生新的ADAR1依赖性得以实现。"
+    }
+  },
+  {
+    "id": "41615660",
+    "title": "Species-Specific Variations of A-to-I RNA Editing in Three Tegulidae Gastropods.",
+    "abstract": "RNA editing is a post-transcriptional modification in metazoans and plays a crucial role in environmental adaptation. To elucidate the species specificity of RNA editing in marine mollusks and advance the comprehension of their post-transcriptional modifications, we selected three Tegulidae gastropods, Rochia conus, R. maxima, and Tectus pyramis, from coral reefs in the South China Sea and performed transcriptome-wide RNA editing analysis. The results showed that adenosine-to-inosine (A-to-I) RNA editing was the most prevalent editing type among these three Tegulidae species. The number of A-to-I editing sites (per Gb) and the editing level of these sites varied significantly among species (p < 0.05). Notably, the A-to-I editing density (number of A-to-I edited sites per Gb) of R. conus clustered with that of R. maxima, consistent with their clustering in the adenosine deaminases acting on RNA (ADAR) phylogeny. Furthermore, Gene Ontology analysis revealed that the edited coding genes of R. conus, R. maxima, and T. pyramis were mainly enriched in \"neuron projection membrane,\" \"cellular response to toxic substance,\" and \"threonine catabolic process,\" respectively. These results suggest that the RNA editing patterns of the family Tegulidae are species-specific and that A-to-I RNA editing density is correlated with the ADAR phylogenetic history.",
+    "authors": [
+      "Zhu YJ",
+      "Zhu PJ",
+      "Liao ML",
+      "Ma LX",
+      "Zhang XL",
+      "Dong YW"
+    ],
+    "published": "2026-02-15",
+    "journal": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41615660/",
+    "score": 35,
+    "summary": {
+      "title_zh": "三种马蹄螺科腹足动物中A-to-I RNA编辑的物种特异性变异",
+      "tool_type": "非工具/平台类研究；这是一项关于内源性RNA编辑现象的物种比较分析研究。",
+      "design": "本研究并非工程化工具设计，而是采用比较转录组学分析策略。核心思路是：选择亲缘关系相近的三种海洋腹足动物，通过全转录组测序，系统鉴定并比较其内源性A-to-I RNA编辑事件，并将编辑密度、编辑水平等特征与物种的系统发育关系进行关联分析。",
+      "functions": "本研究本身不开发新工具，其发现为未来工具开发提供生物学见解：1）揭示了海洋软体动物中内源性ADAR酶活性与系统发育的关联性；2）鉴定了物种特异性的编辑靶基因，为理解RNA编辑在环境适应中的功能提供线索；3）为未来设计基于特定物种ADAR特性的编辑工具或调控系统提供潜在参考。",
+      "key_results": "关键实验结果：1）三种马蹄螺科物种的A-to-I编辑位点数量（每Gb）和编辑水平存在显著物种差异；2）R. conus与R. maxima的编辑密度聚类，且与它们在ADAR系统发育树上的聚类关系一致，表明编辑密度与ADAR的进化历史相关；3）不同物种的编辑基因富集于不同的生物学过程，提示编辑功能具有物种特异性。"
+    }
+  },
+  {
+    "id": "40920008",
+    "title": "Microgliosis and aberrant interferon response in Adar Mavs brain are rescued by PKR removal.",
+    "abstract": "Mutations in the human ADAR gene, encoding adenosine deaminase acting on RNA 1 (ADAR1), cause Aicardi-Goutières syndrome 6, which is a severe auto-inflammatory encephalopathy with aberrant interferon (IFN) induction. AdarΔ2-13 null mutant mouse embryos lacking ADAR1 protein die with high levels of IFN-stimulated gene (ISG) transcripts. In Adar Mavs double mutants also lacking the Mitochondrial antiviral signalling (MAVS) adaptor, the aberrant IFN induction is prevented. Live pups are born and survive for 2 weeks, allowing ADAR1 function to be investigated. We have shown that early death of Adar Mavs mutants is rescued by the deletion of the Eif2ak2 gene encoding the antiviral dsRNA sensor protein kinase R (PKR). Here, we focused on characterizing the brain defects in Adar Mavs mutants and their dependencies on PKR. Mouse brains were collected on postnatal Days 8 and 14, then analysed by mass spectrometry, immunohistochemistry and RT-qPCR. The proteomic analyses showed upregulation of ISG-encoded proteins in the Adar Mavs double mutant, and the morphological analyses confirmed aberrant microgliosis in the brains. Both are prevented in Adar Mavs Eif2ak2 triple mutants, indicating the key role of aberrant PKR activation; PKR expression is also increased by IFN signalling. Altered expression levels of transcripts encoding differentially expressed proteins and of ADAR-edited transcripts were confirmed by RT-qPCR. Analysis of the expression levels of transcripts in the brains of mutants expressing a catalytically inactive ADAR E861A protein revealed that the levels of some but not all altered transcripts are restored. A further group of proteins, downregulated in Adar Mavs double mutants, are not rescued by removal of PKR and might result from effects of loss of the widespread ADAR1 RNA editing known to occur in brain transcripts. This group includes several motor proteins, some of which have been reported to be encoded by ADAR-edited transcripts. In this study, we show that Adar Mavs double mutants exhibit an aberrant IFN response in the brain, probably attributable to reactive microglia and astrocytes. Microgliosis, which is rescued in the triple mutant, is mostly dependent on aberrant PKR activation and is partly dependent on RNA editing.",
+    "authors": [
+      "Lacovich V",
+      "Stejskal S",
+      "Locker Kovačovicova K",
+      "Potěšil D",
+      "Pustka V",
+      "Vukić D",
+      "Texlova K",
+      "Linhartova P",
+      "Melicherova J",
+      "Sinigaglia K",
+      "Havas D",
+      "Keegan LP",
+      "O'Connell MA"
+    ],
+    "published": "2026-02-07",
+    "journal": "Brain : a journal of neurology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40920008/",
+    "score": 35,
+    "summary": {
+      "title_zh": "通过敲除PKR挽救Adar Mavs双突变体大脑的小胶质细胞增生与异常干扰素反应",
+      "tool_type": "遗传学模型/研究平台（非直接可编程工具，但作为揭示ADAR1-PKR通路功能的“发现工具”）",
+      "design": "本研究并非设计一个工程化编辑工具，而是构建了一套用于解析ADAR1功能及其与先天免疫通路相互作用的遗传学模型。其核心思路是通过组合敲除Adar（编码RNA编辑酶ADAR1）、Mavs（线粒体抗病毒信号蛋白）和Eif2ak2（编码PKR）基因，创建一系列小鼠突变体，从而在体内解耦ADAR1缺失触发的RNA编辑缺陷、异常dsRNA感应（通过PKR）和干扰素信号传导（通过MAVS）这三种关键生物学过程。",
+      "functions": "该遗传模型平台可实现以下研究功能：1) 在活体动物中剖析ADAR1缺失导致神经炎症与死亡的核心通路；2) 区分ADAR1的编辑依赖性功能与非编辑依赖性功能（如dsRNA屏蔽）；3) 明确PKR激酶在ADAR1缺失引发的异常干扰素反应和小胶质细胞增生中的关键作用；4) 鉴定哪些大脑转录本和蛋白表达变化依赖于PKR激活，哪些可能直接源于RNA编辑缺失。",
+      "key_results": "关键实验结果表明：1) Adar Mavs双突变体大脑出现显著的小胶质细胞增生和干扰素刺激基因（ISG）蛋白上调，而这些异常在Adar Mavs Eif2ak2（PKR敲除）三突变体中均被完全挽救，证明PKR是ADAR1缺失引发大脑炎症表型的关键效应器。2) 部分（而非全部）在双突变体中表达异常的转录本，在仅表达催化失活ADAR1（E861A）蛋白的突变体中得以恢复，提示ADAR1的部分功能独立于其编辑活性，可能通过其dsRNA结合域实现。"
+    }
+  },
+  {
+    "id": "41641699",
+    "title": "Dual-single-guide RNA strategy improves CRISPR-mediated homology-directed repair in Aspergillus.",
+    "abstract": "CRISPR-Cas9 knock-in efficiency is often limited by geometric misalignment between donor DNA and the endogenous strand-invasion path. In Aspergillus nidulans, we found that integration drops sharply when the insertion site is offset from the invasion entry point, producing premature annealing or unsupported 3' ends that stall DNA synthesis. Chromatin immunoprecipitation-based profiling shows directional loading of the RAD51 homolog UvsC around Cas9-induced double-strand breaks, thereby defining the spatial origin of strand invasion. Guided by this insight, we introduce a dual-single-guide RNA design that places two cuts flanking the insertion site to create a geometry-matched strand-invasion window. This alignment consistently and markedly increases homology-directed-repair-mediated integration across insert sizes and editing tasks-including C-terminal tagging, bidirectional promoter rewiring, and long-distance dual-site mutagenesis-and generalizes across multiple fungal species. We propose a structural-docking model in which pairing fidelity between the resected chromosomal strand and donor homology arms governs knock-in outcomes, providing a practical design principle for efficient and precise genome engineering at structurally constrained loci.",
+    "authors": [
+      "Fu M",
+      "Wang J",
+      "Li J",
+      "Zhou Y",
+      "Huang X",
+      "Jia Z",
+      "Luo Y",
+      "Tan X",
+      "Gao Y",
+      "Yu B",
+      "Duan Y",
+      "Bu Q",
+      "Li X",
+      "Wang Y",
+      "Takaya N",
+      "Zhou S"
+    ],
+    "published": "2026-02-05",
+    "journal": "Nucleic acids research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41641699/",
+    "score": 35,
+    "summary": {
+      "title_zh": "双单向导RNA策略提高CRISPR介导的曲霉同源定向修复效率",
+      "tool_type": "CRISPR-Cas9基因组编辑优化平台（专注于同源定向修复/HDR）",
+      "design": "1. 基于对RAD51同源物UvsC在Cas9诱导双链断裂点周围定向加载的发现，明确了链入侵的空间起点。\n2. 设计双单向导RNA，在目标插入位点两侧各引入一个切割，创建一个几何匹配的链入侵窗口，使供体DNA与内源性链入侵路径对齐。",
+      "functions": "1. 提高CRISPR-Cas9介导的同源定向修复（HDR）效率，特别是在结构受限的基因组位点。\n2. 实现多种基因组编辑任务，包括C末端蛋白标记、双向启动子重编程和长距离双位点诱变。\n3. 作为一种通用的设计原则，用于高效、精确的基因组工程。",
+      "key_results": "1. 双单向导RNA策略能一致且显著地提高HDR介导的整合效率，且对不同插入片段大小和编辑任务均有效。\n2. 该策略在多种真菌物种中具有通用性，验证了其作为优化平台的广泛适用性。"
+    }
+  },
+  {
+    "id": "41626798",
+    "title": "Impacts of DNA Supercoiling on the Sequence-Dependent Nuclease Activity of CRISPR-Cas9 with Truncated Guides.",
+    "abstract": "CRISPR-Cas9 is natively present in the adaptive immune systems of a multitude of bacteria and has been adapted as an effective genome engineering tool. The Cas9 effector enzyme, which is composed of a single Cas9 protein and a single-guide RNA (sgRNA), identifies and cleaves double-stranded DNA targets through a series of conformational changes that require DNA distortion and unwinding. While most studies of Cas9 specificity have focused on the DNA sequence, the role of intrinsic DNA physical properties (\"DNA shape\") in modulating Cas9 activity remains insufficiently defined. We previously showed that with a 16-nucleotide (-nt) truncated guide, the intrinsic DNA duplex dissociation energy at the PAM+(17-20) segment beyond the RNA-DNA hybrid tunes Cas9 cleavage rates of linear substrates. Here, we examined the impact of DNA supercoiling on Cas9 cleavage with the 16-nt truncated guide. Enzyme kinetic analysis revealed that PAM+(17-20) DNA sequences beyond the RNA/DNA hybrid preserve their effects on Cas9 cleavage in the supercoiled state. Furthermore, combining a novel asymmetric hairpin construct with a parallel-sequential kinetics model, rates for first-step nicking and second-step cleavage by Cas9 were obtained for both supercoiled and linear substrates. With both topologies, it was found that first-step nicking is clearly impacted by PAM+(17-20) DNA sequences, and the effects can be correlated with DNA unwinding, which dictates R-loop dynamics. This work expands our understanding of DNA target recognition by Cas9, and the methods developed, in particular those for analyzing the progression of Cas9-induced nicks, will aid in further in-depth mechanistic investigation.",
+    "authors": [
+      "Schuster I",
+      "Shlipak KK",
+      "Qin PZ"
+    ],
+    "published": "2026-02-02",
+    "journal": "Biochemistry",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41626798/",
+    "score": 35,
+    "summary": {
+      "title_zh": "DNA超螺旋对使用截短向导RNA的CRISPR-Cas9序列依赖性核酸酶活性的影响",
+      "tool_type": "CRISPR-Cas9基因组编辑工具的机制研究平台/分析方法",
+      "design": "本研究并非设计新工具，而是构建了一套用于深入剖析Cas9工作机制的分析平台。其核心思路是结合一种新型的不对称发夹DNA底物构建体，与平行-序贯动力学模型相配合，从而能够分别解析Cas9在切割超螺旋和线性DNA底物时，第一步切口和第二步切割的速率。",
+      "functions": "该研究建立的分析方法平台主要实现以下功能：1. 在体外精确量化Cas9对超螺旋和线性DNA底物的切割动力学；2. 分别测量Cas9催化的第一步切口和第二步完全切割的速率；3. 用于研究DNA拓扑结构（如超螺旋）和PAM远端序列如何通过影响DNA解旋和R-loop动力学来调控Cas9的活性。",
+      "key_results": "关键实验结果表明：1. 在使用16-nt截短向导RNA时，位于RNA-DNA杂交区之外的PAM+(17-20)序列，其影响Cas9切割速率的效应在超螺旋DNA底物中依然存在；2. 无论是超螺旋还是线性底物，Cas9催化的第一步切口步骤都明显受到PAM+(17-20)序列的影响，且这种影响与DNA解旋程度相关，从而调控R-loop的形成动力学。"
+    }
+  }
+]
