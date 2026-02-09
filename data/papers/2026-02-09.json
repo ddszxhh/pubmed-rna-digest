@@ -1,0 +1,126 @@
+[
+  {
+    "id": "41653923",
+    "title": "RBPscan: A quantitative in vivo tool for profiling RNA-binding protein interactions.",
+    "abstract": "RNA-binding proteins (RBPs) are essential regulators of gene expression at the post-transcriptional level, yet obtaining quantitative insights into RBP-RNA interactions in vivo remains challenging. Here, we developed RBP specificity and contextual analysis via nucleotide editing (RBPscan), which integrates RNA editing with massively parallel reporter assays to profile RBP binding in vivo. In RBPscan, fusion of an RBP to the adenosine deaminase acting on RNA (ADAR) catalytic domain induces RNA editing of a recorder mRNA carrying the tested RBP-binding site, serving as a readout of the RBP-RNA interaction. We demonstrate the utility of RBPscan in zebrafish embryos, human cells, and yeast, showing that it quantifies binding strength, resolves dissociation constants, identifies binding motifs for various RBPs, and links binding affinities to their impact on mRNA stability. RBPscan also provides positional mapping of Pumilio-binding sites in the long non-coding RNA NORAD. With its simplicity, scalability, and cross-system compatibility, RBPscan is a versatile tool for investigating protein-RNA interactions and complements established methods for studying post-transcriptional regulatory networks.",
+    "authors": [
+      "Kretov DA",
+      "Sanborn O",
+      "McIsaac T",
+      "Park E",
+      "Imrat I",
+      "Wu S",
+      "Régis M",
+      "Harvey LM",
+      "Cifuentes D"
+    ],
+    "published": "2026-02-06",
+    "journal": "Molecular cell",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41653923/",
+    "score": 85,
+    "summary": {
+      "title_zh": "RBPscan：一种用于分析RNA结合蛋白相互作用的定量体内工具",
+      "tool_type": "RNA结合蛋白（RBP）相互作用定量分析平台（基于ADAR编辑的传感器系统）",
+      "design": "该工具的核心设计是将待研究的RNA结合蛋白（RBP）与ADAR的催化结构域融合。当该融合蛋白结合到报告mRNA上的特定RBP结合位点时，会招募ADAR催化域在邻近位置引发腺苷（A）到肌苷（I）的RNA编辑，编辑水平作为RBP-RNA相互作用的定量读数。",
+      "functions": "1. 定量分析RBP与RNA在体内的结合强度。\n2. 解析RBP-RNA相互作用的解离常数（Kd）。\n3. 鉴定未知RBP的结合基序。\n4. 将结合亲和力与mRNA稳定性等下游功能影响相关联。\n5. 对长链非编码RNA（如NORAD）中的RBP结合位点进行定位作图。",
+      "key_results": "该工具在斑马鱼胚胎、人类细胞和酵母系统中均得到验证，能够成功量化多种RPP的结合，并精确定位了Pumilio蛋白在NORAD RNA上的结合位点，证明了其跨物种的兼容性和体内应用的可靠性。"
+    }
+  },
+  {
+    "id": "41653914",
+    "title": "Rewriting endogenous human transcripts with dual CRISPR-guided 3' trans-splicing.",
+    "abstract": "Unlike genome editing, RNA editing offers the ability to transiently alter cells with minimal risk from off-target effects. While exon-skipping technologies can influence splice site selection, many desired perturbations to the transcriptome require replacement or addition of exogenous exons to target mRNAs, such as replacing disease-causing exons, repairing truncated proteins, or engineering protein fusions. Here, we report the development of RNA-guided trans-splicing with Cas editor (RESPLICE). RESPLICE uses two orthogonal RNA-targeting CRISPR effectors to co-localize a trans-splicing pre-mRNA and to inhibit the cis-splicing reaction, respectively. We demonstrate efficient, specific, and programmable trans-splicing of RNA cargo (up to 2.1 kb) into 11 endogenous transcripts across 3 cell types, achieving up to 45% trans-splicing efficiency in bulk or 90% when sorting for high effector expression. Our results present RESPLICE as a mode of RNA editing that could provide fine-tuned and transient control of cellular programs.",
+    "authors": [
+      "Chandrasekaran SS",
+      "Tau C",
+      "Fu BXH",
+      "Nemeth M",
+      "Bartie L",
+      "Pawluk A",
+      "Konermann S",
+      "Hsu PD"
+    ],
+    "published": "2026-02-06",
+    "journal": "Cell systems",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41653914/",
+    "score": 85,
+    "summary": {
+      "title_zh": "利用双CRISPR引导的3'反式剪接重写内源性人类转录本",
+      "tool_type": "RNA反式剪接编辑平台（基于CRISPR-Cas系统）",
+      "design": "该平台的核心设计是使用两种正交的RNA靶向CRISPR效应器（Cas蛋白）进行模块化组合。其中一个效应器负责将携带外源外显子的反式剪接前体mRNA共定位到目标转录本上，另一个效应器则特异性抑制目标转录本的内源性顺式剪接反应，从而引导外源序列通过反式剪接整合到目标mRNA中。",
+      "functions": "1. 对内源性mRNA进行位点特异性的外显子替换或添加。\n2. 修复因截短突变导致的蛋白功能缺失。\n3. 构建蛋白质融合体（如标记蛋白）。\n4. 通过替换致病外显子，实现对疾病相关转录本的潜在治疗性修复。",
+      "key_results": "在三种细胞系中对11种内源性转录本实现了高效、特异且可编程的反式剪接，最大编辑效率在群体水平达45%，在高表达效应器的分选细胞中可达90%，并能成功整合长达2.1 kb的外源RNA序列。"
+    }
+  },
+  {
+    "id": "41653634",
+    "title": "Highly efficient gene editing via targeted Cas9 insertion into chicken housekeeping gene.",
+    "abstract": "Achieving stable and efficient transgene expression is a key challenge in advancing avian genome engineering. Although viral vector-based and piggyBac-mediated transgenesis have been widely used in chickens, both approaches are prone to epigenetic silencing, leading to inconsistent, tissue-specific, and often diminished expression over time. This variability limits used of transgenes requiring robust and long-term expression across multiple tissues. In mammals, site-specific integration into genomic safe harbor loci, such as Rosa26, has enabled stable and predictable transgene expression without disrupting endogenous gene function; however, such strategy has not been established in birds. In this research, we hypothesized that integrating Cas9 into endogenous housekeeping genes (the ACTB and GAPDH) could achieve efficient gene editing in chickens through stable and ubiquitous transgene expression. Using two different approaches, 3'-targeted gene insertion and gene tagging, we inserted Cas9 and GFP cassettes into defined genomic loci in chicken DF-1 cells. Both approaches exhibited stable expression of transgenes in the cells, and functional assays confirmed that Cas9 showed highly efficient nuclease activity following guide RNA delivery. Additionally, we derived single-cell clones stably expressing Cas9, enabling uniform and reproducible genome editing in downstream applications. Targeted insertion of transgenes into active housekeeping genes as candidate safe harbor loci mitigates the limitations of random integration and promoter silencing, offering a robust platform for consistent transgene expression in poultry biotechnology and genome engineering.",
+    "authors": [
+      "Jung KM",
+      "Klein R",
+      "Mony SI",
+      "Chen PR",
+      "Lee K",
+      "Lee HJ"
+    ],
+    "published": "2026-02-01",
+    "journal": "Poultry science",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41653634/",
+    "score": 35,
+    "summary": {
+      "title_zh": "通过靶向Cas9插入鸡持家基因实现高效基因编辑",
+      "tool_type": "基于CRISPR-Cas9的稳定转基因表达平台/基因编辑工具递送系统",
+      "design": "该平台的核心设计思路是将Cas9表达框靶向插入到鸡的持家基因（如ACTB和GAPDH）位点，利用持家基因自身强而稳定的启动子驱动Cas9的持续、泛在表达。具体通过两种精确的基因靶向策略（3‘端靶向插入和基因标签化）来实现Cas9和GFP表达盒在基因组特定位点的整合。",
+      "functions": "1. 实现稳定、持久的转基因（如Cas9）表达，克服传统随机整合方法中的表观遗传沉默问题。\n2. 为下游应用提供一个持续表达功能性Cas9蛋白的细胞平台，从而实现高效、可重复的基因组编辑。\n3. 作为禽类生物技术和基因组工程中，实现一致、可预测转基因表达的通用型平台。",
+      "key_results": "在鸡DF-1细胞中，将Cas9-GFP表达盒靶向插入持家基因位点后，转基因实现了稳定表达，且功能实验证实该Cas9在向导RNA递送后仍保持高效的核酸酶活性；此外，分离出的稳定表达Cas9的单细胞克隆，能在下游应用中实现均一且可重复的基因组编辑。"
+    }
+  },
+  {
+    "id": "41338106",
+    "title": "Rapid and specific detection of Babesia vogeli using RPA/CRISPR-Cas12a: A feasible field-friendly diagnostic for canine babesiosis.",
+    "abstract": "Babesia vogeli is a protozoan parasite causing canine babesiosis, a tick-borne disease prevalent in tropical and subtropical regions. Its microscopic identification is challenging due to morphological similarity with other Babesia spp., and serological assays often yield inaccurate results. To address this issue, we developed a rapid, equipment-minimal diagnostic method combining recombinase polymerase amplification (RPA) with CRISPR/Cas12a (RPA/CRISPR-cas12a) for B. vogeli-specific detection. The RPA assay enables DNA amplification for both B. vogeli and Hepatozoon canis, while CRISPR/Cas12a using gRNA_Bab ensures specificity for B. vogeli, even in co-infections and other pathogens. This approach detects as few as 10⁵ copies within two hours for both readout platforms such as fluorescence and lateral flow dipstick (LFD). Forty canine blood samples were detected by RPA/CRISPR-cas12a to examine its performance. Results showed high concordance with qPCR-high resolution melting (HRM) (Cohen's kappa: 0.93 for fluorescence, 0.81 for LFD), outperforming conventional PCR. The clinical sensitivity and specificity of RPA/CRISPR-cas12a were 100 % and 96.8 %, respectively and the concordance with qPCR-HRM was 97.5 %. RPA/CRISPR-cas12a for Babesia spp. detection provided a simple, rapid, and accurate method, demonstrating promise for point-of-care diagnosis of canine babesiosis in resource-limited settings. This method showed high potential as a practical diagnostic tool in veterinary clinics, with accelerated surveillance to control outbreaks of Babesia-associated canine babesiosis.",
+    "authors": [
+      "Paenkaew S",
+      "Euppayo T",
+      "Tungtrakanpoung R",
+      "Teapunvong W",
+      "Nganvongpanit K",
+      "Buddhachat K"
+    ],
+    "published": "2026-02-01",
+    "journal": "Veterinary parasitology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41338106/",
+    "score": 35,
+    "summary": {
+      "title_zh": "利用RPA/CRISPR-Cas12a快速特异性检测犬巴贝斯虫：一种可行的现场友好型诊断方法",
+      "tool_type": "基于CRISPR-Cas12a的核酸分子诊断平台（结合等温扩增的CRISPR-Cas检测系统）",
+      "design": "该工具采用模块化设计，将重组酶聚合酶扩增（RPA）与CRISPR-Cas12a系统串联。首先利用RPA对靶标DNA进行快速等温扩增，然后通过特异性设计的gRNA_Bab引导Cas12a对扩增产物进行识别，触发其反式切割活性，从而产生检测信号。",
+      "functions": "1. 特异性检测：能够高特异性地鉴别犬巴贝斯虫（Babesia vogeli），即使在与犬肝簇虫（Hepatozoon canis）等病原体共感染的情况下也能准确区分。\n2. 快速现场诊断：适用于资源有限环境下的现场即时检测，整个检测过程可在约两小时内完成。\n3. 多平台读值：检测结果可通过荧光读数或侧向流动试纸条（LFD）两种方式可视化，适应不同场景需求。",
+      "key_results": "1. 性能优异：在40份临床犬血样本检测中，与qPCR-HRM方法相比，荧光读值的一致性系数（Cohen's kappa）达0.93，LFD读值为0.81，临床敏感性和特异性分别为100%和96.8%。\n2. 灵敏度高：最低可检测至10^5拷贝数的靶标DNA，且检测性能优于传统PCR方法。"
+    }
+  },
+  {
+    "id": "41176953",
+    "title": "Molecular biology of Cotton Leafroll Dwarf Virus (CLRDV) and potential application of CRISPR-Cas technology for developing virus-resistant cotton.",
+    "abstract": "Cotton leafroll dwarf virus (CLRDV) poses an increasing threat to global cotton production. Transmitted by the cotton aphid (Aphis gossypii) in a persistent, circulative manner, CLRDV exhibits a wide geographical distribution, with documented presence in South America, Africa, Asia, and the USA. Infection can result in either cotton blue disease (CBD) in South America or cotton leafroll dwarf disease (CLRDD) in the USA, both of which are associated with CLRDV. The considerable genetic diversity and frequent recombination events within CLRDV populations contribute to this symptom variability and complicate both diagnosis and management. While resistant cultivars have reduced disease impact in South America, these lines remain susceptible to emerging US strains, underscoring the urgent need for region-specific resistance breeding. Current molecular diagnostics rely on RT-PCR, but there is a need for rapid, field-deployable detection tools. Recent advances, such as CRISPR-Cas13a based SHERLOCK assays, offer sensitive and specific detection of CLRDV, with potential for on-site applications. Efficient screening techniques, supported by next-generation sequencing and transcriptomics, are essential for identifying novel resistance sources and elucidating virus-host interactions. CRISPR-based genome editing holds significant promise, as demonstrated in other crops. Targeted disruption of host susceptibility genes using CRISPR-Cas9, or direct degradation of viral genomes with RNA-targeting systems such as Cas12/Cas13, could offer durable, broad-spectrum resistance. By integrating molecular virology, high-throughput genomics, and precision gene editing, this review outlines a roadmap for translating these advances into sustainable, field-level solutions for CLRDV management and long-term cotton productivity.",
+    "authors": [
+      "Lankireddy SV",
+      "Lekkala S",
+      "Khadgi A",
+      "Sripathi VR",
+      "Janga MR"
+    ],
+    "published": "2026-02-01",
+    "journal": "Virology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41176953/",
+    "score": 35,
+    "summary": {
+      "title_zh": "棉花卷叶矮缩病毒（CLRDV）的分子生物学及利用CRISPR-Cas技术开发抗病毒棉花的潜在应用",
+      "tool_type": "综述论文（非单一工具），重点讨论了CRISPR-Cas系统（特别是Cas9、Cas12、Cas13）作为抗病毒工具/平台的潜在应用，并提及了基于Cas13a的SHERLOCK检测工具。",
+      "design思路": "本文未提出新的工程设计，而是综述了两种主要的抗病毒策略设计思路：1）利用CRISPR-Cas9靶向编辑棉花宿主自身的易感基因，使其丧失功能，从而获得对病毒的遗传抗性；2）利用RNA靶向的CRISPR系统（如Cas12/Cas13）直接识别并切割入侵的CLRDV病毒RNA基因组，从而降解病毒。",
+      "functions": "1. **病毒检测**：基于CRISPR-Cas13a的SHERLOCK检测技术，可实现CLRDV的灵敏、特异性检测，适用于现场快速诊断。\n2. **赋予植物抗病毒性**：通过CRISPR-Cas9编辑宿主基因，可创造对CLRDV具有持久、广谱抗性的棉花品种。\n3. **直接抗病毒**：通过Cas12/Cas13系统直接靶向并降解病毒RNA基因组，提供一种直接的抗病毒防御机制。",
+      "key_results": "本文是一篇综述，未报告具体的实验数据。它总结了领域内关键进展，指出基于Cas13a的SHERLOCK检测法已展现出对CLRDV高灵敏度和特异性的检测潜力，并且CRISPR介导的抗病毒策略（包括宿主基因编辑和病毒RNA靶向）在其他作物中已得到验证，为在棉花中应用提供了概念证明和路线图。"
+    }
+  }
+]
