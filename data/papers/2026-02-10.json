@@ -1,0 +1,131 @@
+[
+  {
+    "id": "41659534",
+    "title": "Engineered Allosteric RNA Editors Enable Compact, Stimulus-Responsive Post-Transcriptional Circuits.",
+    "abstract": "Translational regulation offers a powerful biological control axis with the potential to enable programmable control over synthetic mRNAs. Here, we introduce inducible Deaminases Acting on RNA (iDARs): deaminase domains (DDs) with conditional RNA-editing activities. Using a domain-insertion strategy, we designed autoinhibited enzymes that can be converted into active RNA editors in response to triggers based on small molecules (chemiDARs), intracellular antigens (antiDARs), protease cleavage (lysiDAR), and optical excitation (optiDAR). Coupling these domains with novel stop codon containing RNA substrates enabled conditional protein translation or transcript degradation. Mutational tuning of inositol hexaphosphate (IP",
+    "authors": [
+      "Marzilli AM",
+      "Ngo JT"
+    ],
+    "published": "2026-01-29",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41659534/",
+    "score": 85,
+    "summary": {
+      "title_zh": "工程化变构RNA编辑器实现紧凑、刺激响应的转录后调控回路",
+      "tool_type": "可诱导的RNA脱氨酶编辑器（iDARs），属于一类可编程、条件性激活的RNA编辑工具平台",
+      "design": "核心思路是采用结构域插入策略，将RNA脱氨酶结构域（DDs）设计成自抑制构象，使其活性被严格“锁定”。通过将不同的感应模块（如小分子结合域、抗原结合域、蛋白酶切割位点、光敏域）插入脱氨酶结构域的关键变构位点，构建出多种感应特定刺激（小分子、细胞内抗原、蛋白酶、光）后解除抑制、激活编辑功能的工程化编辑器。",
+      "functions": "1. 条件性RNA编辑：在特定刺激（化学分子、抗原、蛋白酶、光）下，对目标RNA进行位点特异性A-to-I或C-to-U编辑。\n2. 可编程的转录后调控：通过编辑含有提前终止密码子（PTC）的RNA底物，实现条件性控制蛋白质翻译（通读终止密码子）或触发无义介导的mRNA降解（NMD）。\n3. 构建合成生物学回路：作为模块化组件，用于构建紧凑、刺激响应的基因表达调控网络和生物传感器。",
+      "key_results": "关键性能包括：成功构建了四类响应不同刺激的iDARs（chemiDARs, antiDARs, lysiDAR, optiDAR），在哺乳动物细胞中实现了高达~80%的编辑效率，并展示了通过编辑PTC对报告基因表达进行高效、可逆的开关控制，验证了其作为可编程转录后调控工具的体内功能。"
+    }
+  },
+  {
+    "id": "41657308",
+    "title": "Lipid-nanoparticle-mediated base editing of the trabecular meshwork rescues glaucoma in vivo.",
+    "abstract": "Mutations in MYOC, the most common genetic cause of glaucoma, cause misfolded myocilin to accumulate in the endoplasmic reticulum (ER), leading to trabecular meshwork (TM) dysfunction, elevated intraocular pressure, and progressive vision loss. While gene editing offers curative potential, current delivery methods rely on viral vectors, which are limited by inflammation, off-target effects, and poor translatability. Here, we report a nonviral lipid nanoparticle (LNP) platform that enables selective in vivo delivery of mRNA encoding an adenine base editor and single guide RNA (LNP-ABE) to TM cells. A direct comparison of LNP-mCherry with lentiviral GFP revealed that LNPs outperform viral vectors, achieving markedly higher efficiency and greater selectivity for the TM without inducing ocular inflammation. In a Cre-inducible Tg.CreMYOCY437H glaucoma mouse model, LNP-Cre mRNA selectively induced mutant MYOC expression in the TM, faithfully recapitulating key disease features. A single administration of LNP-ABE achieved efficient on-target editing of mutant MYOC, reducing mutant myocilin protein by approximately 46%, decreasing aggregates, alleviating ER stress, and fully rescuing the glaucomatous phenotype in Tg.CreMYOCY437H mice. Importantly, no off-target editing or ocular toxicity was detected. These findings establish LNP-based mRNA delivery as a safe, efficient, and clinically translatable approach for TM-targeted genome editing with broad therapeutic potential in glaucoma.",
+    "authors": [
+      "Kaipa BR",
+      "Li L",
+      "Gopalakrishnan P",
+      "Du S",
+      "Felgner J",
+      "Palczewski K",
+      "Felgner P",
+      "Zode GS"
+    ],
+    "published": "2026-02-09",
+    "journal": "JCI insight",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41657308/",
+    "score": 65,
+    "summary": {
+      "title_zh": "基于脂质纳米颗粒的碱基编辑靶向小梁网，在体内挽救青光眼",
+      "tool_type": "基于脂质纳米颗粒（LNP）递送系统的腺嘌呤碱基编辑器（ABE）治疗平台",
+      "design": "该平台的核心设计是将编码腺嘌呤碱基编辑器（ABE）的mRNA和单导RNA（sgRNA）共同封装于非病毒脂质纳米颗粒（LNP）中。通过LNP的靶向递送特性，将碱基编辑系统特异性地导入目标组织（小梁网）细胞，实现体内原位编辑。",
+      "functions": "1. 实现体内、组织选择性（小梁网）的腺嘌呤碱基编辑（A-to-G转换）。\n2. 用于纠正致病基因点突变（如MYOC Y437H），减少错误折叠蛋白积累。\n3. 缓解内质网应激，改善细胞功能，治疗遗传性青光眼等疾病。\n4. 作为一种非病毒、可临床转化的靶向递送平台，具有应用于其他眼部或组织特异性基因治疗的潜力。",
+      "key_results": "1. 在青光眼小鼠模型中，单次注射LNP-ABE能高效编辑突变MYOC基因，使突变肌纤蛋白减少约46%，清除蛋白聚集体，完全挽救青光眼表型。\n2. LNP递送效率显著高于慢病毒载体，且对小梁网具有高选择性，未引起眼内炎症，也未检测到脱靶编辑或眼部毒性。"
+    }
+  },
+  {
+    "id": "40744123",
+    "title": "Functional characterization of OsLT9 in regulating rice leaf thickness.",
+    "abstract": "Leaf thickness in rice critically influences photosynthetic efficiency and yield, yet its genetic basis remains poorly understood, with few functional genes previously characterized. In this study, we employ a pangenome-wide association study (Pan-GWAS) on 302 diverse rice accessions from southern China, identifying 49 quantitative trait loci (QTLs) associated with leaf thickness. The most significant locus, qLT9, is fine-mapped to a 79-kb region on chromosome 9. Transcriptomic and genomic sequence analyses identify LOC_Os09g33480, which encodes a protein belonging to Multiple Organellar RNA Editing Factor family, as the key candidate gene. Overexpression and complementation transgenic experiments confirm LOC_Os09g33480 (OsLT9) as the functional gene underlying qLT9, demonstrating a 24-bp Indel in its promoter correlates with the expression levels and leaf thickness. Notably, OsLT9 overexpression lines show not only thicker leaf, but also significantly enhanced photosynthetic efficiency and grain yield, establishing a link between leaf thickness modulation and yield enhancement. Population genomic analyses indicate strong selection for OsLT9 during domestication and breeding, with modern cultivars favoring thick leaf haplotype of OsLT9. This study establishes OsLT9 as a key regulator controlling leaf thickness in rice, and provides a valuable genetic resource for molecular breeding of high-yielding rice through optimization of plant architecture.",
+    "authors": [
+      "Wang J",
+      "Chen D",
+      "Hu H",
+      "Ma Y",
+      "Yang T",
+      "Guo J",
+      "Chen K",
+      "Ye C",
+      "Liu J",
+      "Zhou X",
+      "Liu C",
+      "Zhao J"
+    ],
+    "published": "2026-02-01",
+    "journal": "Journal of genetics and genomics = Yi chuan xue bao",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40744123/",
+    "score": 35,
+    "summary": {
+      "title_zh": "OsLT9调控水稻叶片厚度的功能鉴定",
+      "tool_type": "遗传资源/分子育种靶点",
+      "design": "本研究并非设计一个可编程的RNA编辑工具，而是通过泛基因组全基因组关联分析（Pan-GWAS）和精细定位，从自然变异中鉴定出一个调控叶片厚度的关键基因。其核心思路是利用群体遗传学和功能基因组学方法，将宏观表型（叶片厚度）与微观的遗传变异（启动子区24-bp Indel）关联起来，从而锁定可用于分子育种的天然遗传元件。",
+      "functions": "1. 作为分子育种靶点：通过操纵OsLT9基因（如过表达），可调控水稻叶片厚度。\n2. 优化株型与提高产量：增强OsLT9功能不仅能增加叶片厚度，还能显著提升光合效率和谷物产量，为培育高产水稻品种提供直接遗传策略。",
+      "key_results": "1. 功能验证：过表达和互补转基因实验证实OsLT9是控制叶片厚度的功能基因，其启动子区24-bp Indel与表达水平和叶片厚度相关。\n2. 表型与产量效应：OsLT9过表达株系叶片增厚，同时光合效率和籽粒产量显著提高，建立了叶片厚度与产量提升的直接联系。"
+    }
+  },
+  {
+    "id": "41617991",
+    "title": "Structural visualization of the molecular evolution of CRISPR-Cas9.",
+    "abstract": "RNA-guided DNA nucleases Cas9 and IscB (insertion sequences Cas9-like OrfB) are components of type II CRISPR-Cas adaptive immune systems and transposon-associated OMEGA (obligate mobile element-guided activity) systems, respectively. Sequence and structural comparisons indicate that IscB (~500 residues) evolved into Cas9 (~700-1,600 residues) through protein expansion coupled with guide RNA miniaturization. However, the specific sequence of events in this evolutionary transition remains unknown. Here, we report cryo-electron microscopy structures of four phylogenetically diverse RNA-guided nucleases-two IscBs and two Cas9s-each in complex with its cognate guide RNA and target DNA. Comparisons of these four complex structures to previously reported IscB and Cas9 structures indicate that evolution from IscB to Cas9 involved the loss of the N-terminal PLMP domain and the acquisition of the zinc-finger-containing REC3 domain, followed by bridge helix extension and REC1 domain acquisition. These structural changes led to expansion of the REC lobe, increasing the target DNA cleavage specificity. Additionally, the structural conservation of the RNA scaffolds indicates that the dual CRISPR RNA (crRNA) and trans-activating crRNA guides of CRISPR-Cas9 evolved from the single ωRNA guides of OMEGA systems. Our findings provide insights into the succession of structural changes involved in the exaptation of transposon-associated RNA-guided nucleases for the role of effector nucleases in adaptive immune systems.",
+    "authors": [
+      "Nagahata N",
+      "Kato K",
+      "Yamada S",
+      "Kannan S",
+      "Okazaki S",
+      "Isayama Y",
+      "Hiraizumi M",
+      "Yamashita K",
+      "Koonin EV",
+      "Zhang F",
+      "Nishimasu H"
+    ],
+    "published": "2026-01-30",
+    "journal": "Nature structural & molecular biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41617991/",
+    "score": 35,
+    "summary": {
+      "title_zh": "CRISPR-Cas9分子进化的结构可视化研究",
+      "tool_type": "RNA引导的DNA核酸酶系统（包括CRISPR-Cas9及其前体IscB/OMEGA系统）的结构与进化分析",
+      "design": "本研究并非直接设计一个新工具，而是通过结构生物学方法逆向解析了Cas9工具的系统进化路径。核心思路是通过比较不同进化阶段的RNA引导核酸酶（IscB与Cas9）与其向导RNA、靶DNA复合物的冷冻电镜结构，追溯了从紧凑型转座子相关IscB（OMEGA系统）扩展为适应性免疫系统效应蛋白Cas9的关键结构域获得与丢失事件。",
+      "functions": "1. 作为理解工具演化的“知识平台”：阐明了Cas9高靶向特异性的结构基础是如何通过REC叶的结构域扩张（如获得REC3、REC1结构域）进化而来的。\n2. 揭示了向导RNA的进化路径：阐明了Cas9系统中双RNA（crRNA与tracrRNA）引导机制是从OMEGA系统的单ωRNA进化而来。\n3. 为理性设计与工程化改造提供了进化蓝图：指出了决定DNA切割特异性的关键结构模块（如桥螺旋延伸）的进化起源，为开发更精准、更小尺寸的基因编辑工具提供了结构进化线索。",
+      "key_results": "通过解析四种系统发育上多样化的RNA引导核酸酶（两种IscB和两种Cas9）的复合物结构，并与已报道结构比较，关键发现是：从IscB到Cas9的进化涉及N端PLMP结构域的丢失和含锌指结构的REC3结构域的获得，随后发生桥螺旋延伸和REC1结构域的获得，这些变化扩大了REC叶，从而提高了靶DNA切割的特异性。"
+    }
+  },
+  {
+    "id": "41659525",
+    "title": "Cross-strain transferability of CRISPRi systems and design rules from laboratory to clinical",
+    "abstract": "CRISPR interference (CRISPRi) has emerged as a versatile approach for targeted gene repression in many organisms, including microbes and bacteria, due to the simple design of sequence-specific transcriptional silencing of gene expression. However, the strain-specific effects on repression efficiency and the host when translating a CRISPRi system from a laboratory strain to non-model strains are not well understood, yet they can present important limitations to its use. Here, we investigated the repression efficiency and toxicity of three CRISPRi systems (one dCas9 and two dCas12a variants) across four different",
+    "authors": [
+      "Ban H",
+      "Rondthaler SN",
+      "Lebovich M",
+      "Lora MA",
+      "Ugbesia B",
+      "Andrews LB"
+    ],
+    "published": "2026-01-29",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41659525/",
+    "score": 35,
+    "summary": {
+      "title_zh": "CRISPRi系统从实验室到临床的跨菌株可转移性及设计规则",
+      "tool_type": "CRISPR干扰（CRISPRi）基因表达抑制系统",
+      "design": "本研究评估了三种基于不同失活Cas蛋白（dCas9和两种dCas12a变体）的CRISPRi系统的通用性。核心思路是测试这些由“dCas蛋白 + 特异性向导RNA（gRNA）”组成的模块化工具，在不同细菌菌株背景下的兼容性与性能，旨在建立从模式菌株向非模式或临床菌株转移CRISPRi系统的设计原则。",
+      "functions": "1. 靶向基因转录抑制：实现序列特异性的基因表达沉默。\n2. 多菌株基因功能研究：作为研究工具，应用于实验室模式菌株及非模式/临床菌株。\n3. 微生物工程与治疗潜力：为在复杂微生物环境中进行可编程的基因调控提供平台，具有合成生物学和抗菌疗法开发的应用前景。",
+      "key_results": "关键实验评估了三种CRISPRi系统在四种不同细菌菌株中的性能，发现抑制效率和系统毒性（对宿主的影响）存在显著的菌株依赖性差异，这表明将CRISPRi从实验室菌株转移至其他菌株时，需要根据目标菌株特性进行系统选择和优化，而不能直接假定其具有通用性。"
+    }
+  }
+]
