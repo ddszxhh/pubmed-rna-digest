@@ -1,0 +1,130 @@
+[
+  {
+    "id": "41612335",
+    "title": "8-Chloro-adenosine inhibits breast cancer progression by inducing ferroptosis via the ADAR1/miR-101-3p/SLC7A11 axis.",
+    "abstract": "8-Chloro-adenosine (8-Cl-Ado) is a promising antitumor agent, and ferroptosis plays a critical role in breast cancer progression. Our previous work demonstrated that 8-Cl-Ado inhibits breast cancer cell proliferation by targeting adenosine deaminase acting on RNA 1 (ADAR1), an RNA-editing enzyme. However, whether 8-Cl-Ado exerts its anti-tumor effects through the modulation of ferroptosis remains largely unknown. The effects of 8-Cl-Ado on ferroptosis were assessed in vitro and in vivo. The molecular mechanisms of 8-Cl-Ado were investigated by performing bioinformatics analysis, RNA immunoprecipitation assay (RIP), luciferase reporter assay, fluorescence in situ hybridization (FISH), qRT-PCR, and western blotting. 8-Cl-Ado significantly inhibited the proliferation, migration, and invasion of MCF-7 and MDA-MB-231 breast cancer cells, while promoting ferroptosis, as evidenced by elevated levels of intracellular Fe Our study identifies a novel pathway by which 8-Cl-Ado promotes ferroptosis through the ADAR1/miR-101-3p/SLC7A11 axis to suppress breast cancer progression. These findings highlight the therapeutic potential of 8-Cl-Ado as a ferroptosis-inducing agent by targeting ADAR1.",
+    "authors": [
+      "Hao M",
+      "Li Y",
+      "Zhang MM",
+      "Yin C",
+      "Gao ZD",
+      "Yang J",
+      "Jiang JN",
+      "Tu Z",
+      "Yang SY"
+    ],
+    "published": "2026-01-29",
+    "journal": "Cancer cell international",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41612335/",
+    "score": 35,
+    "summary": {
+      "title_zh": "8-氯-腺苷通过ADAR1/miR-101-3p/SLC7A11轴诱导铁死亡抑制乳腺癌进展",
+      "tool_type": "ADAR1靶向小分子抑制剂（非可编程工具，但作为研究ADAR1功能的化学探针）",
+      "design": "本文并非设计一个可编程的工程化工具，而是利用已知小分子化合物8-Cl-Ado作为化学探针，探究其通过靶向RNA编辑酶ADAR1，进而调控下游miRNA与靶基因通路，最终诱导铁死亡的生物学机制。其思路是验证“化合物—靶点（ADAR1）—下游信号轴—表型（铁死亡）”的因果关系链。",
+      "functions": "1. 作为研究ADAR1生物学功能及其在铁死亡中作用的化学工具。\n2. 作为诱导乳腺癌细胞铁死亡的潜在先导化合物。\n3. 揭示了通过抑制ADAR1来激活miR-101-3p、抑制SLC7A11，从而触发铁死亡的新通路。",
+      "key_results": "在体外和体内实验中，8-Cl-Ado能有效抑制乳腺癌细胞（MCF-7, MDA-MB-231）增殖、迁移和侵袭，并通过上调细胞内铁离子、脂质过氧化物等标志物显著促进铁死亡；关键机制是8-Cl-Ado靶向抑制ADAR1，解除其对miR-101-3p的抑制，从而下调铁死亡关键负调控因子SLC7A11的表达。"
+    }
+  },
+  {
+    "id": "41659408",
+    "title": "Identification a Compact Promoter using a New Promoter Selection Strategy and Engineering Hybrid Pol II/III Enable Efficient Genome Editing in Human Retinal Ganglion Cells.",
+    "abstract": "Promoters and vectors are critical components of gene therapy, enabling the delivery and expression of therapeutic genes to correct both loss- and gain-of-function mutations. Adeno-associated virus (AAV) vectors are the leading platform for in vivo gene delivery; however, the widely used Streptococcus pyogenes Cas9 (SpCas9, 4.1 kb) approaches the AAV packaging limit of 4.7 kb. This constraint often necessitates dual-vector systems, which reduce therapeutic efficiency, or the use of smaller nucleases such as SaCas9 (3.2 kb) and AacCas12b (3.4 kb), which have lower PAM site frequencies. To enhance promoter selection for gene therapy applications, we developed a strategy to identify compact, cell-preferred RNA polymerase II (Pol II) promoters. Analysis of approximately 300 compact Pol II promoters revealed that exogenous expression levels in one cell type correlate more strongly with those in other cell types than with endogenous expression, underscoring the importance of exogenous expression efficiency in promoter selection. Using this approach, we identified a compact Pol II promoter #2 (Pro2, 133 bp) that drives robust transgene expression in human retinal ganglion cells (RGCs). To enable single-AAV delivery of SpCas9, we analyzed three commonly used Pol III promoters (H1, 7SK and U6) and determined their minimal functional lengths using a CRISPR/Cas9 reporter assay. We further engineered three compact hybrid Pol II/III promoters which combined pro2 with minimal H1, 7SK and U6 (276, 294, and 323 bp) capable of co-expressing SpCas9 and gRNA, enabling efficient genome editing in both transfected HEK293 cells (approaching 100%) and human RGCs (up to 55.9%) from human stem cell-derived retinal ganglion cells (RGCs). Together, these findings establish a framework for developing single-AAV CRISPR-based gene therapy strategies. PWZ and DJZ conceived the study, designed the experiments, performed data analysis and interpretation, and were the primary contributors to manuscript writing. STZ played a key role in data collection and correlation analysis. YYC, SL, LF, CJK, YD, CAB, JC, and DW contributed to the execution of essential experiments and subsequent data analysis. All authors have read and approved the final manuscript. The authors declare no conflicts of interest.",
+    "authors": [
+      "Zhang PW",
+      "Zhang SH",
+      "Chang YY",
+      "Li S",
+      "Fan L",
+      "Li W",
+      "Duan Y",
+      "Cheng J",
+      "Keuthan CJ",
+      "Berlinicke CA",
+      "Welsbie DS",
+      "Zack DJ"
+    ],
+    "published": "2026-01-28",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41659408/",
+    "score": 35,
+    "summary": {
+      "title_zh": "通过新型启动子筛选策略鉴定紧凑型启动子并设计杂合Pol II/III系统实现人视网膜神经节细胞的高效基因组编辑",
+      "tool_type": "基因治疗递送平台（紧凑型启动子筛选策略 + 杂合Pol II/III启动子系统）",
+      "design": "1. 开发了一种筛选策略，通过分析约300个紧凑型Pol II启动子在不同细胞中的外源表达效率（而非内源表达水平），来鉴定细胞偏好性的高效小尺寸启动子。\n2. 将筛选出的高效紧凑型Pol II启动子（Pro2）与截短至最小功能长度的常用Pol III启动子（H1, 7SK, U6）进行工程化融合，构建出能共表达SpCas9蛋白和gRNA的杂合Pol II/III启动子系统。",
+      "functions": "1. 提供一种通用的紧凑型、高效启动子筛选策略，用于基因治疗载体设计。\n2. 实现单个AAV载体递送大型核酸酶（如SpCas9）进行基因组编辑，克服AAV包装容量限制。\n3. 在目标细胞（如人视网膜神经节细胞）中驱动治疗性基因（如CRISPR-Cas9组件）的高效共表达，用于基因敲除或编辑。",
+      "key_results": "1. 鉴定出一个仅133 bp的紧凑型Pol II启动子Pro2，能在人视网膜神经节细胞（RGCs）中驱动强效转基因表达。\n2. 构建的杂合Pol II/III启动子（最小仅276 bp）能在转染的HEK293细胞中实现接近100%，在人多能干细胞来源的RGCs中实现高达55.9%的基因组编辑效率，证明了其单AAV递送SpCas9进行高效编辑的能力。"
+    }
+  },
+  {
+    "id": "41605411",
+    "title": "Prime editing for ocular gene therapy and disease modeling: a narrative review of advances, delivery, and translational readiness.",
+    "abstract": "Prime editing is a versatile \"search-and-replace\" genome-editing technology that enables precise and flexible genome correction of genetic sequences by reverse-transcribing an RNA template encoded at the 3' end of a prime editing guide RNA (pegRNA). It supports the introduction of nucleotide substitutions, and insertions or/and deletions (indels) in living cells without requiring double-stranded DNA breaks or exogenous donor templates. Since its introduction in 2019, prime editing has advanced rapidly-from the first-generation prime editor (PE1) to PE7 and other next-generation variants-with editing efficiencies increasing from 0.7 to 5.5 % to more than 50 % in vitro. Optimization strategies including engineering of the Cas9 and reverse transcriptase domains, refinement of pegRNA architecture, recruitment of auxiliary proteins, and modulation of DNA repair pathways have substantially enhanced editing efficiency, product purity, and target scope across diverse cell types and tissues. These developments are particularly relevant to ophthalmology, where many blinding disorders arise from point mutations or small indels ideally suited for prime editing-based correction. Recent work in retinal cells and animal models has demonstrated the growing feasibility of prime editing to treat inherited retinal diseases, modulate pathological angiogenesis, and achieve precise gene repair in post-mitotic photoreceptors and retinal pigment epithelial cells. As delivery vectors and newer PE variants improve, prime editing is a plausible next-generation platform for a wide range of ocular diseases.",
+    "authors": [
+      "Zhang Q",
+      "Yang Y",
+      "Huang X",
+      "Ma J",
+      "Duan Y",
+      "Ma G",
+      "Lei H"
+    ],
+    "published": "2026-01-26",
+    "journal": "Experimental eye research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41605411/",
+    "score": 35,
+    "summary": {
+      "title_zh": "先导编辑用于眼科基因治疗与疾病建模：进展、递送与转化准备度的综述",
+      "tool_type": "基因组编辑器（先导编辑器，Prime Editor），属于“搜索-替换”式精准基因编辑工具",
+      "design": "该工具的核心设计是将一个工程化的逆转录酶（RT）结构域与一个切口酶型Cas9（nCas9）融合。通过设计pegRNA（先导编辑向导RNA），其3‘端编码有包含目标编辑序列的RNA模板，引导系统靶向特定基因组位点，并利用RT将模板信息逆转录为DNA，实现精准的“搜索与替换”编辑，无需造成DNA双链断裂或提供外源供体DNA模板。",
+      "functions": "1. 实现精准的“搜索-替换”式基因编辑，包括所有12种可能的碱基替换、小片段的插入或缺失（indels）。\n2. 适用于遗传性眼病的基因治疗，特别是由点突变或小indel引起的致盲性疾病（如遗传性视网膜疾病）。\n3. 用于构建眼科疾病模型，在视网膜细胞及动物模型中实现精确的基因修复与功能研究。\n4. 调控病理性血管生成等病理过程。",
+      "key_results": "1. 编辑效率从第一代（PE1）的0.7%-5.5%显著提升至最新变体（如PE7）在体外超过50%的效率。\n2. 已在视网膜细胞（如有丝分裂后的光感受器细胞、视网膜色素上皮细胞）和动物模型中成功验证其编辑功能，展现出治疗遗传性眼病的可行性。"
+    }
+  },
+  {
+    "id": "41586841",
+    "title": "An improved CRISPR-Cas9 protein-based method for knocking out insect Sf9 cell genes.",
+    "abstract": "Insect cells are one of the uprising expression systems in the biopharmaceutical industry to produce vaccines and gene therapy vectors, but cell line development has been limited by the lack of established genetic engineering tools and genomic characterization. CRISPR-Cas9 has arisen as a powerful tool for gene editing but has seen little application in insect cells. In this work, a gene editing pipeline for the delivery of a ribonucleoprotein (RNP) complex comprised of a guide RNA and the enzyme Cas9 to insect Sf9 cells was implemented and then applied to knockout caspase initiator Sf-Dronc, aiming at alleviating cell apoptosis during an infection process. The resulting engineered cell lines were characterized as per their phenotype and production of three different product modalities. Utilizing the established workflow, a knockout rate of 68% was achieved with the implemented protocol (vs. the 12% presumed efficiency of a previously reported system) when targeting the fdl gene. When applied to Sf-Dronc, mutants containing deletions in several alleles of the host genome were identified and confirmed by next-generation sequencing. Generated clones exhibited higher apoptosis resistance and delayed onset of cell viability drop following infection with baculovirus. While Sf-Dronc deletion was shown to have negligible impact on the production of rAAV and PfRipr5, production of iVLPS showed an > twofold increase over wild-type Sf9. Overall, this study showcases the successful implementation of an efficient CRISPR-Cas9 pipeline, further leveraging the usage of genetic engineering in insect Sf9 cells towards the development of enhanced cell hosts for biopharmaceutical production. KEY POINTS: • Implementation of an efficient CRISPR-Cas9 RNP complex delivery strategy to insect cells. • Establishment of the genome editing pipeline demonstrated through Sf-Dronc knockout, resulting in increased apoptosis resistance and delayed loss of viability upon baculovirus infection. • Sf-Dronc deletion led to over a twofold increase in the production of influenza VLPs compared to wild-type Sf9 cells.",
+    "authors": [
+      "Graça M",
+      "Virgolini N",
+      "Correia R",
+      "Escandell J",
+      "Roldão A"
+    ],
+    "published": "2026-01-26",
+    "journal": "Applied microbiology and biotechnology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41586841/",
+    "score": 35,
+    "summary": {
+      "title_zh": "一种改进的基于CRISPR-Cas9蛋白的昆虫Sf9细胞基因敲除方法",
+      "tool_type": "CRISPR-Cas9基因编辑递送平台/工作流程",
+      "design": "该工具的核心设计是建立一个向昆虫细胞递送核糖核蛋白复合物的基因编辑流程。具体思路是将向导RNA与Cas9酶在体外预组装成RNP复合物，然后将其直接递送至Sf9细胞，从而实现对目标基因的编辑。",
+      "functions": "1. 在昆虫Sf9细胞中实现高效的基因敲除。\n2. 用于构建具有特定表型（如抗凋亡）的工程化细胞系。\n3. 应用于生物制药生产，旨在开发增强型细胞宿主以提高病毒样颗粒等产品的产量。",
+      "key_results": "1. 针对fdl基因的敲除效率达到68%，远高于先前报道系统的12%。\n2. 敲除凋亡起始因子Sf-Dronc的细胞克隆表现出更高的抗凋亡能力，感染后细胞活力下降延迟，并且流感病毒样颗粒的产量比野生型Sf9细胞提高了两倍以上。"
+    }
+  },
+  {
+    "id": "41577687",
+    "title": "CRISPR-Cas9 trans-cleavage is hindered by a flanked R-loop, an elongated spacer, and an inactive HNH domain.",
+    "abstract": "Cas9 can process poly(T) single-stranded DNA molecules upon activation in an RNA-guided manner. Here, we uncover key determinants underlying this function. First, we show that unflanked R-loops in the RNA 5' side favor trans-cleavage activity, which occur when targeting short double-stranded DNA molecules. Second, we show that elongated guide RNA spacers beyond the canonical 20 bases, even by a few bases, severely impair this collateral activity. Third, although trans-cleavage is mediated by the RuvC domain, we show that a catalytically active HNH domain contributes to an efficient process. Analysis of structural models provides tentative mechanistic insights. Together, these findings illustrate that fine modulation of Cas9 function can be achieved.",
+    "authors": [
+      "Montagud-Martínez R",
+      "Ruiz R",
+      "Baldanta S",
+      "Delicado-Mateo R",
+      "Rodrigo G"
+    ],
+    "published": "2026-01-24",
+    "journal": "Nature communications",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41577687/",
+    "score": 35,
+    "summary": {
+      "title_zh": "CRISPR-Cas9反式切割活性受侧翼R环、延长间隔序列及失活HNH结构域抑制",
+      "tool_type": "Cas9系统功能调控机制研究",
+      "design": "本研究并非直接设计新工具，而是通过系统性分析Cas9反式切割活性的关键决定因素，为理性设计或调控Cas9工具提供工程指导。核心思路是通过改变靶DNA长度、gRNA间隔序列长度及HNH结构域活性，探究其对Cas9反式切割功能的影响。",
+      "functions": "1. 阐明如何通过调控靶标结构（如R-loop状态）、gRNA设计（间隔序列长度）及酶结构域活性来精确调控Cas9的反式切割活性。\n2. 为开发基于Cas9反式切割活性的高灵敏度核酸检测工具（如SHERLOCK-like系统）提供优化策略，避免非特异性切割。\n3. 为设计条件性激活或抑制Cas9 collateral activity的调控开关提供理论依据。",
+      "key_results": "关键实验发现：1）当靶向短双链DNA形成无侧翼R-loop时，Cas9反式切割活性最强；2）gRNA间隔序列长度即使仅比标准20个碱基延长几个碱基，也会严重削弱其反式切割活性；3）尽管反式切割由RuvC结构域介导，但HNH结构域的催化活性对其效率有重要贡献。"
+    }
+  }
+]
