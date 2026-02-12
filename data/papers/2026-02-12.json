@@ -1,0 +1,133 @@
+[
+  {
+    "id": "41671402",
+    "title": "Versatile CRISPR-Cas Tools for Gene Regulation in Zebrafish via an Enhanced Q Binary System.",
+    "abstract": "CRISPR-Cas systems revolutionize gene regulation across diverse organisms, including zebrafish. However, most zebrafish studies still rely on transient delivery of CRISPR components, with limited use of transgenic models, primarily restricted to Cas9-mediated knockouts. This limitation arises from challenges in achieving sustained, tissue-specific, and efficient expression of transgenic CRISPR effectors. To address these challenges, we introduce CRISPR-Q, a transgenic system that combines the QFvpr/QUAS binary expression platform with CRISPR-Cas technologies. CRISPR-Q overcomes the drawbacks of transient mRNA or protein delivery and circumvents the toxicity and transgene silencing issues associated with other binary systems, such as Gal4/UAS. The system enables robust and spatiotemporal expression of CasRx or dCas9vpr, allowing precise transcript knockdown (CRISPR-Q",
+    "authors": [
+      "Shi M",
+      "Ge W",
+      "Li C",
+      "Liu B",
+      "Deng X",
+      "Liu C",
+      "Zheng M",
+      "Zhang P",
+      "Li L",
+      "Guo Y",
+      "Han Y",
+      "Yang Y",
+      "Yu YV",
+      "Jin YN"
+    ],
+    "published": "2026-02-11",
+    "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41671402/",
+    "score": 65,
+    "summary": {
+      "title_zh": "用于斑马鱼基因调控的多功能CRISPR-Cas工具：增强型Q二元系统",
+      "tool_type": "基于二元表达系统的转基因CRISPR基因调控平台",
+      "design": "该系统将增强型QFvpr/QUAS二元表达平台与CRISPR-Cas技术（如CasRx或dCas9vpr）相结合。核心思路是利用QFvpr/QUAS系统驱动CRISPR效应子的稳定、时空特异性表达，以克服传统瞬时递送方法的局限，并规避其他二元系统（如Gal4/UAS）的毒性和转基因沉默问题。",
+      "functions": "1. 实现CRISPR效应子（如CasRx或dCas9vpr）在斑马鱼体内的稳定、时空特异性转基因表达。\n2. 实现精确的转录本敲低（CRISPR干扰，CRISPRi）。\n3. 支持组织特异性或可诱导的基因调控。",
+      "key_results": "CRISPR-Q系统在斑马鱼中实现了稳健的CRISPR效应子表达，克服了传统瞬时递送方法的局限，并成功规避了其他二元系统的毒性与沉默问题，为在体内进行持续、高效的基因调控提供了验证。"
+    }
+  },
+  {
+    "id": "41648250",
+    "title": "Efficient transgene-free multiplexed genome editing via viral delivery of an engineered TnpB.",
+    "abstract": "Virus-induced genome editing (VIGE) using compact RNA-guided endonucleases is a transformational new approach in plant biotechnology, enabling tissue-culture-independent and transgene-free genome editing (Hu et al. 2025; Weiss et al. 2025; Liu et al. 2025). We recently established a VIGE approach for heritable editing at single loci in",
+    "authors": [
+      "Weiss T",
+      "Kamalu M",
+      "Shi H",
+      "Wirnowski G",
+      "Ingelsson A",
+      "Amerasekera J",
+      "Vohra K",
+      "Trinidad MI",
+      "Li Z",
+      "Freitas E",
+      "Steinmetz N",
+      "Ambrose C",
+      "Chen K",
+      "Doudna JA",
+      "Jacobsen SE"
+    ],
+    "published": "2026-01-23",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41648250/",
+    "score": 35,
+    "summary": {
+      "title_zh": "通过病毒递送工程化TnpB实现高效、无转基因的多重基因组编辑",
+      "tool_type": "基于TnpB的病毒诱导基因组编辑（VIGE）平台",
+      "design": "该平台的核心设计思路是将紧凑型RNA引导的核酸酶TnpB进行工程化改造，使其适用于病毒递送系统。通过将工程化的TnpB与引导RNA（gRNA）通过病毒载体递送至植物细胞，实现了无需组织培养、不依赖转基因的基因组编辑。",
+      "functions": "1. 实现高效、无转基因的植物基因组编辑。\n2. 支持在单一位点进行可遗传的编辑。\n3. 能够进行多重基因组编辑（同时编辑多个位点）。\n4. 适用于病毒诱导基因组编辑（VIGE）场景，简化了传统植物基因编辑流程。",
+      "key_results": "关键实验结果表明，该平台能够通过病毒递送在植物中实现高效的基因组编辑，并且编辑是可遗传的。研究验证了其在单一位点和多重编辑中的有效性，为植物生物技术提供了一种变革性的新方法。"
+    }
+  },
+  {
+    "id": "41596696",
+    "title": "In Silico Design and Characterization of a Rationally Engineered Cas12j2 Gene Editing System for the Treatment of HPV-Associated Cancers.",
+    "abstract": "CRISPR-Cas9 systems have enabled unprecedented advances in genome engineering, particularly in developing treatments for human diseases, like cancer. Despite potential applications, limitations of Cas9 include its relatively large size and strict targeting requirements. Cas12j2, a variant ofCasΦ-2, shows promise for overcoming these limitations. However, its effectiveness in mammalian cells remains relatively unexplored. This study sought to develop an optimized CRISPR-Cas12j2 system for targeted knockout of the E6 oncogene in HPV-associated cancers. A combination of computational tools (ColabFold, CCTop, Cas-OFFinder, HADDOCK2.4, and Amber for Molecular Dynamics) was utilized to investigate the impact of engineered modifications on structural integrity and gRNA binding of Cas12j2 fusion constructs, in potential intracellular conditions. Cas12j2_F2, a Cas12j2 variant designed and evaluated in this study, behaves similarly to the wild-type Cas12j2 structure in terms of RMSD/RMSF profiles, compact Rg values, and minimal electrostatic perturbation. The computationally validated Cas12j2 variant was incorporated into a custom expression vector, co-expressing the engineered construct along with a dual gRNA for packaging into a viral vector for targeted knockout of HPV-associated cancers. This study provides a structural and computational foundation for the rational design of Cas12j2 fusion constructs with enhanced stability and functionality, supporting their potential application for precise genome editing in mammalian cells.",
+    "authors": [
+      "Boren C",
+      "Kumar R",
+      "Gollahon L"
+    ],
+    "published": "2026-01-21",
+    "journal": "International journal of molecular sciences",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41596696/",
+    "score": 35,
+    "summary": {
+      "title_zh": "用于治疗HPV相关癌症的理性工程化Cas12j2基因编辑系统的计算机设计与表征",
+      "tool_type": "CRISPR-Cas12j2基因编辑系统（一种紧凑型CasΦ家族变体）",
+      "design": "本研究采用计算机辅助理性设计思路，通过计算工具（如ColabFold、HADDOCK2.4、Amber等）对Cas12j2融合构建体进行结构分析和工程化改造，旨在优化其结构稳定性与gRNA结合能力，以适应哺乳动物细胞内环境。核心是将计算验证的Cas12j2变体（Cas12j2_F2）与双gRNA共同包装到定制表达载体中，构建用于靶向治疗的病毒递送系统。",
+      "functions": "1. 靶向基因敲除：特异性敲除HPV相关癌症中的致癌基因（如E6）。\n2. 精确基因组编辑：在哺乳动物细胞中进行位点特异性的基因组编辑。\n3. 治疗应用：开发针对HPV相关癌症的基因治疗平台。",
+      "key_results": "计算设计的Cas12j2_F2变体在结构动力学（RMSD/RMSF）、紧凑性（Rg值）和静电扰动方面与野生型Cas12j2相似，表明其保持了结构完整性与稳定性，为后续在哺乳动物细胞中进行高效、特异的基因编辑提供了理论基础。"
+    }
+  },
+  {
+    "id": "41588889",
+    "title": "Targeting Non-coding RNAs in Neurodegeneration: Advances in Therapeutic RNA Modalities and Next-Gen Delivery Technologies.",
+    "abstract": "Non-coding RNA (ncRNA)-based therapies represent an emerging and transformative approach in the treatment of neurodegenerative diseases (NDs), such as Alzheimer's disease (AD), Parkinson's disease (PD), Huntington's disease (HD), and amyotrophic lateral sclerosis (ALS)/Motor Neuron Disease (MND). This review explored the potential for targeting microRNAs (miRNAs), long non-coding RNAs (lncRNAs), and exosomal RNAs, reinforced by promising results from clinical trials demonstrating their capacity to modulate disease pathways. The incorporation of cutting-edge computational methodologies, including RNA structure prediction and gene regulatory network analysis, has been at the forefront in enhancing the efficacy of ncRNA-based treatments. Moreover, chemical methods have improved RNA molecules' stability, accuracy, and directed delivery, enhancing their therapeutic effects. Moreover, cutting-edge RNA editing technologies like Clustered Regularly Interspaced Short Palindromic Repeats/CRISPRassociated protein 13 (CRISPR/Cas13) are advancing our ability to directly manipulate ncRNA expression, offering a powerful avenue for addressing the molecular origins of neurodegeneration. Despite these advances, challenges persist, particularly in ensuring the specificity, delivery efficiency, and long-term efficacy of these treatments. Nanotechnology provides innovative solutions to these obstacles, facilitating more efficient and precise RNA delivery, especially to neuronal tissue. In conclusion, ncRNA-based therapies, while still in nascent stages, represent a hopeful frontier in the fight against NDs. With ongoing research and technological advancements, these therapies could not only halt disease progression but also redefine the future of ND treatment, offering new avenues for patients' care and clinical success.",
+    "authors": [
+      "Thakur A",
+      "Chowdhury KR",
+      "Kumar A",
+      "Sharma VV",
+      "Bhatia R"
+    ],
+    "published": "2026-01-21",
+    "journal": "Current Alzheimer research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41588889/",
+    "score": 35,
+    "summary": {
+      "title_zh": "靶向非编码RNA治疗神经退行性疾病：治疗性RNA技术与新一代递送技术的进展",
+      "tool_type": "综述论文（非单一工具），涵盖多种RNA治疗平台与技术，包括：RNA编辑工具（如CRISPR/Cas13）、RNA靶向/调控工具（如靶向miRNA/lncRNA的寡核苷酸）、RNA递送平台（如纳米技术载体）",
+      "design": "本文未提出单一工程设计，而是综述了领域内多种平台的设计思路：1) 利用化学修饰（如稳定化核苷酸）和计算工具（如RNA结构预测、基因调控网络分析）来设计和优化治疗性RNA分子（如ASO、siRNA）。2) 整合CRISPR/Cas13等可编程系统，通过其crRNA引导实现对特定非编码RNA的直接操纵。3) 采用纳米技术等递送平台，设计能够高效、特异靶向神经组织的载体，以克服体内递送障碍。",
+      "functions": "综述中讨论的各类工具/平台可实现以下功能：\n1. **RNA干扰与敲低**：使用siRNA、ASO等靶向并降解或抑制致病性miRNA或lncRNA。\n2. **RNA编辑与操纵**：利用CRISPR/Cas13等系统直接编辑或调控非编码RNA的表达水平。\n3. **通路调控**：通过调节非编码RNA来影响神经退行性疾病相关的分子通路。\n4. **靶向递送**：使用纳米载体等技术，将治疗性RNA分子特异性地递送至大脑神经元。\n5. **诊断与生物标志物**：利用外泌体RNA等非编码RNA进行疾病检测与追踪。",
+      "key_results": "本文是一篇综述，未报告原创性实验结果。文中总结的关键进展包括：1) **临床前/临床试验证据**：部分靶向非编码RNA的疗法（如针对miRNA的疗法）已在临床试验中显示出调节疾病通路的潜力。2) **技术性能提升**：通过化学修饰和计算设计，提高了RNA分子的稳定性、准确性和疗效；纳米递送技术提升了向神经组织递送的效率和精确性。"
+    }
+  },
+  {
+    "id": "41571029",
+    "title": "Overview of gene editing strategies against HBV.",
+    "abstract": "254 million people currently live with chronic hepatitis B virus (HBV) infection, with over 1 million deaths annually due to complications such as cirrhosis and hepatocellular carcinoma. Although current direct-acting antivirals suppress HBV replication, they do not eliminate the virus and rarely lead to HBV functional cure, defined as the loss of serum hepatitis B surface antigen (HBsAg) and DNA. A major barrier to achieving HBV functional cure is the HBV covalently closed circular DNA minichromosome (cccDNA), which hides from the immune system in the nucleus of an infected cell, and is very stable. Another barrier is integration of incomplete HBV genomes into the host genome, which is the main source of HBsAg in later disease stages, and is difficult to target without impacting the human genome. New direct-acting antivirals are required that target different stages of the HBV replication cycle, including the HBV cccDNA and integrated DNA to improve rates of functional cure. The development of gene editing tools provides an opportunity to develop novel therapies that target the HBV cccDNA, integrated DNA and HBV RNA. This review explores the different gene editing tools that have been used to target the HBV cccDNA, integrated DNA and RNA.",
+    "authors": [
+      "Janetzki ZT",
+      "McCoullough LC",
+      "Revill PA",
+      "Littlejohn M"
+    ],
+    "published": "2026-01-20",
+    "journal": "Antiviral research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41571029/",
+    "score": 35,
+    "summary": {
+      "title_zh": "靶向HBV的基因编辑策略概述",
+      "tool_type": "综述论文（非单一工具，而是对多种基因编辑工具应用于HBV治疗的策略性总结）",
+      "design": "本文并非介绍单一工具的设计，而是系统性地综述了如何利用CRISPR/Cas、锌指核酸酶、TALEN等基因编辑平台，通过设计特异性向导RNA或DNA结合结构域，靶向HBV生命周期的关键遗传物质。其核心思路是将这些可编程的核酸酶或编辑器，导向并破坏或修饰HBV的共价闭合环状DNA、整合DNA及RNA，以实现病毒清除。",
+      "functions": "1. 靶向切割或编辑HBV共价闭合环状DNA，以消除病毒转录模板。\n2. 靶向切割或编辑宿主基因组中整合的HBV DNA片段，以消除HBsAg的来源。\n3. 靶向HBV RNA，干扰病毒基因表达。\n4. 为开发旨在实现HBV功能性治愈的新型疗法提供策略指导。",
+      "key_results": "本文是一篇综述，未报告具体的原创实验结果。其关键结论在于总结了各类基因编辑工具（如CRISPR/Cas9, base editors）在体外和动物模型中已被验证能够有效破坏HBV cccDNA和整合DNA，并指出这是实现功能性治愈的潜力方向，但同时也强调了脱靶风险、递送效率等挑战仍需解决。"
+    }
+  }
+]
