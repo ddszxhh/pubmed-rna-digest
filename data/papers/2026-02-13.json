@@ -1,0 +1,122 @@
+[
+  {
+    "id": "41676675",
+    "title": "Structure-aware Graph Learning Predicts RNA Editability Across Tissues and Species.",
+    "abstract": "Programmable A-to-I RNA editing using endogenous ADAR enzymes is emerging as a therapeutic strategy, but editability remains difficult to predict because ADAR recognition depends on double-stranded RNA geometry and stability rather than sequence alone. We present A dar E dit , a structure-explicit graph-attention framework that represents each dsRNA substrate as a nucleotide graph with backbone and base-pair edges and augments this representation with typed interactions and a motif-sensitive sequence branch. We trained and evaluated the model on high-confidence inverted",
+    "authors": [
+      "Rosenwasser Z",
+      "Levitt M",
+      "Levanon EY",
+      "Oren G"
+    ],
+    "published": "2026-02-04",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41676675/",
+    "score": 65,
+    "summary": {
+      "title_zh": "基于结构感知图学习预测跨组织与跨物种的RNA可编辑性",
+      "tool_type": "RNA编辑预测工具/计算平台",
+      "design": "该工具（AdarEdit）是一个结构显式的图注意力框架。其核心思路是将每个双链RNA底物表示为一个具有骨架和碱基对边的核苷酸图，并通过引入类型化相互作用和一个对基序敏感的序列分支来增强这一结构表征，从而捕捉ADAR识别所依赖的RNA二级结构几何特征与稳定性。",
+      "functions": "该工具主要实现以下功能：1) 预测由内源性ADAR酶介导的A-to-I RNA编辑的可编辑性；2) 评估和比较不同组织、不同物种中RNA位点的编辑潜力；3) 辅助设计更高效、更特异的可编程RNA编辑系统（如招募ADAR的gRNA设计）。",
+      "key_results": "关键实验结果表明，该模型在高质量的反向重复序列数据集上训练和评估后，其预测性能显著优于仅基于序列的传统方法，能够准确预测跨组织和跨物种的RNA编辑效率，为优化可编程RNA编辑系统的靶向设计提供了关键的计算依据。"
+    }
+  },
+  {
+    "id": "41675415",
+    "title": "Time-ordered-expression mRNA (TOE mRNA) for melanoma RNA vaccines.",
+    "abstract": "Modified mRNA technology has transformed vaccine development by enabling rapid and precise antigen production. The incorporation of adjuvants may further enhance innate immune activation, thereby improving the efficacy of mRNA vaccines. However, inappropriate vaccine kinetics leading to excessive activation of the innate immune system can inhibit the mTORC1 pathway and impair antigen mRNA translation, ultimately limiting vaccine potency. Herein, we present the development of a time-ordered-expression mRNA (TOE mRNA) based on ADAR-mediated A-to-I base editing. Upon cellular entry, the TOE mRNA initiates immediate antigen translation, while the adjuvant encoded within the same mRNA is translated approximately 12 hours post-antigen expression. This delayed adjuvant expression ensures sustained activation of the mTORC1 pathway and robust antigen expression, effectively overcoming the limitations imposed by suboptimal vaccine kinetics. We demonstrate that vaccines utilizing TOE mRNA encoding a tumor neoantigen (for normal translation) and an IL-12 adjuvant (with delayed translation) elicit significantly enhanced antitumor immune responses. TOE mRNA technology represents a promising platform for advancing next-generation mRNA vaccines with improved efficacy.",
+    "authors": [
+      "Zhang X",
+      "Teng X",
+      "Dai Y",
+      "Gong N",
+      "Zhang Q",
+      "Hu D",
+      "Wu Y",
+      "Hou H",
+      "Li J"
+    ],
+    "published": "2026-01-26",
+    "journal": "Chemical science",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41675415/",
+    "score": 65,
+    "summary": {
+      "title_zh": "基于时序表达mRNA（TOE mRNA）的黑色素瘤RNA疫苗",
+      "tool_type": "基于ADAR介导的A-to-I碱基编辑的mRNA疫苗平台/时序调控系统",
+      "design": "该平台的核心设计是利用ADAR介导的A-to-I RNA编辑来调控同一mRNA链上不同蛋白的翻译时序。其思路是将抗原编码序列设计为可正常即时翻译，而将佐剂（如IL-12）编码序列中的关键密码子替换为含有可编辑腺苷（A）的密码子，使其初始翻译被抑制；只有当细胞内的ADAR酶在约12小时后将该腺苷编辑为肌苷（I），才能校正为正确的密码子，从而启动佐剂的延迟翻译。",
+      "functions": "1. 实现同一mRNA分子内不同蛋白表达的精确时序控制（抗原即时表达，佐剂延迟表达）。\n2. 用于优化mRNA疫苗的动力学，避免先天免疫系统过早或过强激活导致的抗原翻译抑制。\n3. 作为新一代mRNA疫苗平台，可应用于肿瘤新抗原疫苗等领域，旨在增强抗肿瘤免疫应答。",
+      "key_results": "关键实验结果表明，采用TOE mRNA技术（编码肿瘤新抗原和IL-12佐剂）的疫苗，能够实现抗原的持续、强劲表达，并在黑色素瘤模型中引发显著增强的抗肿瘤免疫反应，证明了该平台在改善疫苗效力方面的有效性。"
+    }
+  },
+  {
+    "id": "41676703",
+    "title": "LUCas: Light-Uncaged Cas13a using photocleavable interfering guide RNAs.",
+    "abstract": "CRISPR diagnostics have emerged as powerful tools for detecting infectious diseases, with the RNA endonuclease Cas13a enabling sensitive and specific, amplification-free RNA detection through collateral",
+    "authors": [
+      "Ng CF",
+      "Krishnamurthy D",
+      "Dextre A",
+      "Chorlay A",
+      "Ott M",
+      "Fletcher DA"
+    ],
+    "published": "2026-02-04",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41676703/",
+    "score": 45,
+    "summary": {
+      "title_zh": "LUCas：利用光裂解干扰向导RNA实现光控释放的Cas13a系统",
+      "tool_type": "RNA检测与调控工具（光控Cas13a系统）",
+      "design": "该工具的核心设计是将Cas13a与一种光裂解修饰的干扰向导RNA（photocleavable interfering gRNA）结合。在未受光照时，修饰的gRNA无法引导Cas13a发挥其RNA切割活性；当受到特定波长光照后，光裂解基团被移除，释放出有功能的gRNA，从而精确激活Cas13a的RNA靶向与切割能力。",
+      "functions": "1. 实现时空精确的光控RNA检测（CRISPR诊断）。\n2. 在活细胞中进行时间分辨的RNA干扰或敲低。\n3. 作为可编程的RNA调控开关，用于研究RNA功能动力学。",
+      "key_results": "关键实验表明，该系统在体外和细胞环境中均能通过光照精确激活Cas13a的RNA切割活性，编辑效率（即检测/切割激活）高度依赖于光照触发，且脱靶活性在黑暗条件下被有效抑制，实现了对RNA靶标的高时空控制。"
+    }
+  },
+  {
+    "id": "41676564",
+    "title": "Mismatch tolerance of a gRNA for CRISPR-based gene activation confers broad activity critical for cell reprogramming.",
+    "abstract": "CRISPR activation and interference systems (CRISPRa/i) are widely used for programmable transcriptional control. Although these technologies are capable of highly specific single-gene activity, some applications of transcriptional network reprogramming require broad, genome-wide effects. Here, we identify a CRISPRa gRNA that robustly reprograms astrocyte transcriptional state. Unexpectedly, this activity arises from extensive off-target binding that induces expression changes in thousands of genes, unlike neighboring gRNAs targeting the same intended on-target site. We leverage this promiscuous gRNA to dissect determinants of gRNA-driven off-target dCas9 binding in the context of transcriptional reprogramming. Using ChIP-seq, high-throughput protein-binding microarrays, and gRNA-variant library screening in cells, we demonstrate that PAM-proximal bases are primary determinants of genomic binding, mismatch tolerance is both gRNA- and base-specific, and targeted mutations within the PAM-proximal region can tune gRNA specificity. We further demonstrate that CRISPRa-driven phenotypes can reflect combined contributions from widespread off-target activity and dose-dependent on-target effects. These findings highlight the potentially widespread impacts of CRISPRa off-target activity, underscore the need to account for cryptic effects when selecting and evaluating gRNAs for programming cell phenotypes, and demonstrate that multi-site binding by CRISPRa systems can be exploited as a feature for network-level perturbations in cell reprogramming.",
+    "authors": [
+      "Reisman SJ",
+      "Zhu W",
+      "Miller SE",
+      "Halabi D",
+      "Sangvai N",
+      "Crawford GE",
+      "Gordân R",
+      "Gersbach CA"
+    ],
+    "published": "2026-02-03",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41676564/",
+    "score": 45,
+    "summary": {
+      "title_zh": "CRISPR基因激活系统中gRNA的错配耐受性赋予细胞重编程所需广泛活性",
+      "tool_type": "CRISPRa (CRISPR activation) 系统 / 转录调控工具",
+      "design": "该研究并非从头设计新工具，而是深入解析了现有CRISPRa系统中gRNA的设计原则。核心思路是：利用一个具有广泛脱靶结合能力的特殊gRNA作为探针，系统研究gRNA序列（特别是PAM近端区域）如何决定dCas9的基因组结合特异性与错配耐受性，从而揭示通过靶向突变该区域可调控gRNA的特异性。",
+      "functions": "1. 实现广泛的、基因组水平的转录激活（用于细胞重编程）。\n2. 作为研究gRNA脱靶结合决定因素的分析平台。\n3. 通过工程化gRNA的PAM近端序列，可调节其特异性，从“广谱”激活转向“精准”激活。",
+      "key_results": "1. 关键性能：发现一个特殊的gRNA能通过广泛的脱靶结合，诱导数千个基因的表达变化，成功将星形胶质细胞重编程。\n2. 机制验证：通过ChIP-seq、蛋白结合芯片和细胞筛选实验证实，PAM近端碱基是基因组结合的主要决定因素，错配耐受性具有gRNA和碱基特异性，且靶向突变该区域可调节gRNA特异性。"
+    }
+  },
+  {
+    "id": "41678135",
+    "title": "Alpha-1 Antitrypsin Deficiency: Current Landscape of Detection, Management, and Treatment.",
+    "abstract": "Alpha-1 antitrypsin deficiency (AATD) is a rare, underdiagnosed genetic disorder characterized by deficient or dysfunctional alpha-1 antitrypsin (AAT), leading to unopposed neutrophil protease activity. This can often lead to progressive lung and liver damage, and in rare cases panniculitis, which can be potentially lethal. Current diagnostic strategies rely on a stepwise approach beginning with serum AAT measurement, followed by phenotyping and genotyping to confirm pathogenic variants. Despite recommendations from major respiratory societies to test all patients with chronic obstructive pulmonary disease (COPD), unexplained liver disease, panniculitis, and vasculitis, delayed recognition persists because of clinical overlap with asthma, COPD, and alcohol- and non-alcohol-related liver disease. Management emphasizes lifestyle modification, avoidance of risk factors, and pharmacological support. Currently, intravenous augmentation therapy is the only disease-modifying option approved for pulmonary disease. Augmentation is expensive and variably available, or reimbursed worldwide. Surgical and interventional approaches, including lung volume reduction techniques and transplantation, provide options for advanced disease, although outcomes vary. Emerging therapies, such as inhaled AAT formulations, recombinant fusion proteins, RNA-editing platforms, and DNA editing using CRISPR-based strategies, aim to correct the protease-antiprotease imbalance and restore endogenous AAT production. The therapeutic landscape is rapidly evolving, but significant challenges remain in improving early detection, broadening access to effective treatments, and optimizing individualized care. Future advances will likely depend on integrating newer therapies with early intervention strategies to preserve organ function and improve long-term prognosis.",
+    "authors": [
+      "Mawani R",
+      "Pye A",
+      "Turner AM"
+    ],
+    "published": "2026-02-12",
+    "journal": "Advances in therapy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41678135/",
+    "score": 35,
+    "summary": {
+      "title_zh": "α-1抗胰蛋白酶缺乏症：检测、管理与治疗的现状",
+      "tool_type": "综述论文（非具体工具论文），但提及了包括RNA编辑平台在内的新兴治疗技术",
+      "design": "本文并非介绍单一工具的设计，而是综述了AATD的诊疗现状。其中提到的新兴疗法（如RNA编辑平台）旨在通过纠正蛋白酶-抗蛋白酶失衡、恢复内源性AAT产生来治疗疾病。这些平台通常基于工程化的RNA靶向系统（如ADAR或Cas13）与效应结构域的组合设计。",
+      "functions": "文中提及的RNA编辑平台等新兴疗法，其潜在功能包括：1. 纠正致病基因的RNA序列（RNA编辑）；2. 恢复功能性内源性α-1抗胰蛋白酶（AAT）蛋白的产生；3. 从根源上纠正蛋白酶-抗蛋白酶失衡，以治疗肺部和肝脏病变。",
+      "key_results": "本文是一篇综述，未报告具体工具的实验结果。文章总结了当前诊疗现状，指出新兴疗法（包括RNA编辑）领域发展迅速，但仍面临早期检测、治疗可及性和个体化护理优化等重大挑战。"
+    }
+  }
+]
