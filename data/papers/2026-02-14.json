@@ -1,0 +1,117 @@
+[
+  {
+    "id": "41679990",
+    "title": "Highly fluorescent copper nanoclusters as programmable reporters for CRISPR/Cas12a-based detection of bacterial DNA.",
+    "abstract": "Early and accessible pathogen detection is crucial for global health security and demands diagnostic assays that are rapid, affordable, and suitable for Point-of-Care use. This study presents a cost-effective, rapid, one-pot fluorescence assay for bacterial DNA detection that exploits the unique optical properties of DNA-templated copper nanoclusters (CuNCs). These nanoclusters offer a sustainable alternative to conventional fluorophores, thanks to their eco-friendly synthesis, high photostability, and large Stokes shift. The assay integrates CuNCs with the CRISPR/Cas12a system to achieve programmable and highly specific target recognition. Upon target binding, activation of the Cas12a/gRNA complex triggers collateral cleavage of rationally designed DNA templates that normally support CuNCs formation, resulting in a marked fluorescence decrease. A panel of hairpin and poly-thymine DNA structures was systematically evaluated to maximize both CuNCs fluorescence and responsiveness to Cas12a/gRNA trans-cleavage, ultimately identifying an AT-rich stem-loop reporter that provided strong signal intensity and complete signal shutdown upon target recognition. The final CRISPR-CuNCs assay achieved picomolar sensitivity, accurately detected E. coli DNA from reference strains, clinical isolates, and serum-spiked samples, and required no fluorophore-quencher probes or multistep procedures. Overall, this work demonstrated that combining the programmability of CRISPR/Cas12a with the versatility and low-cost of DNA-templated CuNCs enables a robust and accessible platform for molecular diagnostics, with strong potential for Point-of-Care deployment.",
+    "authors": [
+      "Carota AG",
+      "Spiaggia F",
+      "Poma N",
+      "Palladino P",
+      "Cuffaro D",
+      "Vivaldi F",
+      "Ravelet C",
+      "Di Francesco F",
+      "Minunni M"
+    ],
+    "published": "2026-02-12",
+    "journal": "Biosensors & bioelectronics",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41679990/",
+    "score": 45,
+    "summary": {
+      "title_zh": "基于CRISPR/Cas12a和铜纳米簇的高荧光可编程细菌DNA检测报告系统",
+      "tool_type": "RNA传感器/CRISPR诊断平台（具体为DNA检测工具，但核心依赖于CRISPR/Cas12a的RNA引导编程性）",
+      "design思路": "该工具的核心设计是将CRISPR/Cas12a系统的可编程靶向识别与DNA模板铜纳米簇（CuNCs）的荧光特性相结合。其思路是：1）利用Cas12a/gRNA复合物在识别靶标DNA后被激活，产生非特异性反式切割活性；2）通过合理设计一段富含AT的茎环结构DNA作为报告模板，该模板既能高效引导合成高荧光CuNCs，又能被激活的Cas12a切割，从而导致荧光信号关闭。",
+      "functions": "1. **可编程的核酸分子检测**：通过设计gRNA序列，可特异性检测不同的靶标细菌DNA。\n2. **荧光信号报告**：利用DNA模板CuNCs的荧光变化（信号关闭模式）来直观报告检测结果。\n3. **适用于即时检测**：该平台具有成本低、步骤简单（一锅法）、无需荧光基团-淬灭基团探针的特点，适合现场部署。",
+      "key_results": "1. **性能优异**：该检测平台达到了皮摩尔级别的灵敏度，并能准确检测来自参考菌株、临床分离株以及血清加标样本中的大肠杆菌DNA。\n2. **信号响应显著**：优化后的富含AT茎环报告模板能产生强荧光信号，并在靶标识别后被Cas12a完全切割，实现荧光信号的完全关闭，信噪比高。"
+    }
+  },
+  {
+    "id": "41684938",
+    "title": "Genome-wide screening reveals producer-cell modifications that improve virus-like particle production and delivery potency.",
+    "abstract": "Engineered virus-like particles (eVLPs) are promising vehicles for transient delivery of gene editing agents. While extensive particle engineering has yielded efficient eVLPs, it remains underexplored whether engineering the cells used to produce eVLPs could further improve eVLP properties. We developed a genome-wide screening approach to systematically investigate how genetic perturbations in producer cells influence eVLP production. This approach generates eVLPs loaded with guide RNAs that identify the genetic perturbation in the cell that produced a particular particle; the abundance of each guide RNA in eVLPs therefore reflects how the corresponding genetic perturbation influences eVLP production or cargo loading. We applied this approach to identify several genes that regulate eVLP cargo expression and loading into particles during the production process. Leveraging these insights, we engineered producer cells that support increased eVLP cargo packaging and a 2- to 9-fold increase in eVLP delivery potency across several cargo, particle, and target-cell types in cultured cells and in mice. Our findings suggest the potential of producer-cell engineering as a useful strategy for improving the utility of eVLPs and related delivery methods.",
+    "authors": [
+      "Ly D",
+      "Jang H",
+      "Goel A",
+      "Singh A",
+      "Raguram A"
+    ],
+    "published": "2026-02-02",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41684938/",
+    "score": 45,
+    "summary": {
+      "title_zh": "全基因组筛选揭示提高病毒样颗粒生产与递送效力的生产者细胞改造策略",
+      "tool_type": "病毒样颗粒（eVLP）生产平台优化工具 / 生产者细胞工程筛选平台",
+      "design": "1. 开发了一种全基因组筛选方法，通过让生产者细胞携带不同的遗传扰动（如基因敲除/过表达），并生产装载有对应gRNA的eVLP。\n2. 利用gRNA作为“条形码”，通过测定eVLP中不同gRNA的丰度，反向推算出生产者细胞中特定的遗传扰动对eVLP产量或货物装载效率的影响。",
+      "functions": "1. **高通量筛选功能**：系统性鉴定能优化eVLP生产的宿主细胞基因靶点。\n2. **平台优化功能**：指导对生产者细胞进行工程化改造，以提升eVLP的货物包装效率和递送效力。\n3. **应用扩展功能**：作为通用策略，可用于改善基于eVLP的基因编辑剂或其他货物的递送系统。",
+      "key_results": "1. 成功鉴定出多个在eVLP生产过程中调控货物表达与装载的宿主基因。\n2. 基于筛选结果改造生产者细胞后，使eVLP的货物包装增加，并在多种货物、颗粒及靶细胞类型中，将eVLP的递送效力（在培养细胞和小鼠体内）提高了2至9倍。"
+    }
+  },
+  {
+    "id": "41338874",
+    "title": "BAR-CAT: Targeted Recovery of Synthetic Genes via Barcode-Directed CRISPR-dCas9 Enrichment.",
+    "abstract": "Modern gene synthesis platforms enable investigations of protein function and genome biology at an unprecedented scale. Yet, the proportion of error-free constructs in diverse gene libraries decreases with length due to the propagation of oligo synthesis errors. To rescue these error-free constructs, we developed Barcode-Assisted Retrieval CRISPR-Activated Targeting (BAR-CAT), an",
+    "authors": [
+      "Villegas NK",
+      "Tran MH",
+      "Keller A",
+      "Plesa C"
+    ],
+    "published": "2026-02-01",
+    "journal": "The CRISPR journal",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41338874/",
+    "score": 45,
+    "summary": {
+      "title_zh": "BAR-CAT：通过条形码引导的CRISPR-dCas9富集实现合成基因的靶向回收",
+      "tool_type": "基于CRISPR-dCas9的基因文库筛选与回收平台",
+      "design": "该工具的核心设计思路是将合成基因与独特条形码（Barcode）进行物理连接，并利用dCas9蛋白与条形码特异性gRNA的靶向结合，实现对文库中携带正确条形码（即对应无错误合成基因）的DNA分子进行特异性富集与回收。其模块化组合包括：合成基因-条形码关联模块、dCas9-gRNA靶向识别模块以及后续的富集/扩增回收模块。",
+      "functions": "1. 从包含合成错误的复杂基因文库中，高效、特异性地回收序列正确的完整合成基因。\n2. 作为高通量基因合成工作流的质控与纯化环节，提升长片段基因合成的成功率与文库质量。\n3. 可用于功能性基因筛选实验中，对目标表型对应的完整基因序列进行定向分离与获取。",
+      "key_results": "关键实验表明，BAR-CAT能够从错误率随长度增加的合成基因文库中，将无错误全长基因的回收率提高超过100倍；在针对长度为1.5 kb的绿色荧光蛋白（GFP）基因的回收实验中，成功富集并恢复了具有完整功能的GFP序列，验证了其在体外应用中的高效性与特异性。"
+    }
+  },
+  {
+    "id": "41683838",
+    "title": "A Translational Roadmap for Neurological Nonsense Mutation Disorders.",
+    "abstract": "Nonsense mutations, responsible for ~11% of gene lesions causing human monogenic diseases, introduce premature termination codons (PTCs) that lead to truncated proteins and nonsense-mediated mRNA decay (NMD). In the central nervous system (CNS), these mutations drive severe, progressive neurological conditions such as spinal muscular atrophy, Rett syndrome, and Duchenne muscular dystrophy. Readthrough therapies-strategies to override PTCs and restore full-length protein expression-have evolved from early aminoglycosides to modern precision tools including suppressor tRNAs, RNA editing, and CRISPR-based platforms. Yet clinical translation remains hampered by inefficient CNS delivery, variable efficacy, and the absence of personalized stratification. In this review, we propose a translational framework-the 4 Ds of Readthrough Therapy-to systematically address these barriers. The framework dissects the pipeline into Detection (precision patient identification and biomarker profiling), Delivery (engineered vectors for CNS targeting), Decoding (context-aware molecular correction), and Durability (long-term safety and efficacy). By integrating advances in machine learning, nanocarriers, base editing, and adaptive trial designs, this roadmap provides a structured strategy to bridge the translational gap. We advocate that a synergistic, modality-tailored approach will transform nonsense suppression from palliative care to durable, precision-based cures for once-untreatable neurological disorders.",
+    "authors": [
+      "Li J",
+      "Zhu Z",
+      "Xu S"
+    ],
+    "published": "2026-01-30",
+    "journal": "International journal of molecular sciences",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41683838/",
+    "score": 45,
+    "summary": {
+      "title_zh": "神经性无义突变疾病的转化路线图",
+      "tool_type": "转化框架/综述（非单一工具，而是整合了多种RNA靶向治疗平台的策略性路线图）",
+      "design": "本文提出一个名为“通读疗法的4D框架”的转化策略，其核心设计思路是将复杂的治疗流程模块化为四个关键环节：检测、递送、解码和持久性。该框架旨在系统性地整合机器学习、纳米载体、碱基编辑和适应性临床试验设计等多种前沿技术，以克服从基础研究到临床应用的障碍。",
+      "functions": "该框架旨在指导和优化针对无义突变（PTCs）的各类治疗工具的应用，其整合的工具平台可实现以下功能：\n1. 精准患者识别与生物标志物分析（Detection）。\n2. 中枢神经系统靶向递送（Delivery）。\n3. 基于情境感知的分子矫正，包括通读无义密码子以恢复全长蛋白表达（Decoding）。\n4. 评估长期安全性与疗效（Durability）。",
+      "key_results": "本文是一篇综述，未报告具体的实验数据。其核心贡献在于提出了一个结构化的转化策略框架，旨在系统性地解决当前无义突变疗法（如抑制性tRNA、RNA编辑、CRISPR平台等）在临床转化中面临的递送效率低、疗效不一和缺乏个性化分层等关键瓶颈。"
+    }
+  },
+  {
+    "id": "41673115",
+    "title": "RNA editing in cardiovascular health and disease.",
+    "abstract": "Post-transcriptional RNA modifications can alter RNA structure, stability, localization, and function. Adenosine-to-inosine (A-to-I) RNA editing is a post-transcriptional modification that converts adenosine nucleotides in RNA to inosine nucleotides, catalyzed by adenosine-deaminase-acting-on-RNA (ADAR) enzymes. Recent studies have shown that A-to-I RNA editing is required for cardiovascular development and homeostasis whilst aberrant RNA editing plays a role in cardiovascular diseases. This article provides an overview of A-to-I RNA editing events that have been implicated in cardiovascular biology and disease. It also discusses harnessing RNA editing for cardiovascular disease biomarker development and engineering RNA editing for cardiovascular disease treatment.",
+    "authors": [
+      "Huang X",
+      "Solomon C",
+      "McVey DG",
+      "Ye S"
+    ],
+    "published": "2026-02-11",
+    "journal": "Communications biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41673115/",
+    "score": 35,
+    "summary": {
+      "title_zh": "RNA编辑在心血管健康与疾病中的作用",
+      "tool_type": "综述/展望文章（非具体工具，但探讨了基于ADAR的RNA编辑作为治疗平台的潜力）",
+      "design": "本文并非介绍一个具体的工程化工具，而是综述了内源性ADAR酶介导的A-to-I RNA编辑在心血管系统中的生物学作用，并展望了将其工程化为治疗平台的思路。核心思路是利用或改造ADAR酶（或类似机制），通过特异性靶向（如使用互补寡核苷酸）来重编程RNA编辑事件，从而纠正疾病相关的异常编辑或引入治疗性编辑。",
+      "functions": "1. **基础研究工具**：解析内源性A-to-I RNA编辑在心血管发育、稳态和疾病（如心肌病、动脉粥样硬化、心力衰竭）中的功能。\n2. **疾病生物标志物开发平台**：利用异常RNA编辑谱作为心血管疾病的诊断或预后标志物。\n3. **潜在治疗平台**：通过工程化手段（如导向RNA设计）实现位点特异性RNA编辑，以纠正致病性突变或调节基因表达，用于心血管疾病治疗。",
+      "key_results": "本文是一篇综述，未报告具体的实验数据。其关键结论在于系统总结了**内源性A-to-I编辑在心血管系统中的关键作用**，并论证了**将RNA编辑技术平台化用于心血管疾病诊断和治疗具有巨大潜力**，为后续工具开发提供了理论依据和应用方向。"
+    }
+  }
+]
