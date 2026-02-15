@@ -1,0 +1,156 @@
+[
+  {
+    "id": "41285174",
+    "title": "The DYW-type pentatricopeptide repeat protein DEK618 interacts with ZmMORFs to modulate mitochondrial RNA editing and kernel development in maize.",
+    "abstract": "C-to-U editing is a critical post-transcriptional modification process in plant mitochondrial RNAs, involving the conversion of specific cytidine (C) residues to uridine (U). Pentatricopeptide repeat (PPR) proteins serve as site-specific recognition factors in this process. Although certain DYW-type PPR proteins (DYW-PPR) are known to participate in the post-transcriptional processing of mitochondrial RNAs, the functions of more than 60 DYW-PPR proteins in maize remain uncharacterized. In this study, we identify a novel DYW-PPR protein, DEK618, which is associated with defective kernel development and dwarfism in maize. A 254 bp insertion in the Dek618 gene disrupted protein expression and resulted in abnormal mitochondrial morphology. Loss of DEK618 function altered the editing efficiency at 88 C-to-U sites. Notably, editing at cob-298, ccmC-184, ccmB-428, and ccmFC-1219 was completely abolished in the dek618 mutant, likely due to impaired mitochondrial function affecting the assembly and activity of mitochondrial complex III. Furthermore, DEK618 was found to physically interact with ZmMORF1 and ZmMORF8, suggesting that these proteins collaborate to facilitate C-to-U RNA editing as part of a complex within mitochondria.",
+    "authors": [
+      "Zhang S",
+      "Wang Z",
+      "Wang Z",
+      "Zhang Y",
+      "Chen W",
+      "Xie Y",
+      "Du X",
+      "Wang J",
+      "Fu J",
+      "Gu R",
+      "Cui Y"
+    ],
+    "published": "2026-03-01",
+    "journal": "Plant science : an international journal of experimental plant biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41285174/",
+    "score": 35,
+    "summary": {
+      "title_zh": "DYW型PPR蛋白DEK618与ZmMORFs互作调控玉米线粒体RNA编辑与籽粒发育",
+      "tool_type": "天然RNA编辑系统解析（非人工设计工具，但揭示了植物线粒体中由PPR蛋白介导的C-to-U RNA编辑复合物的天然工作机制）",
+      "design": "本研究并非设计人工工具，而是解析了自然界中一个由DYW型PPR蛋白（DEK618）作为核心识别与催化模块，通过与多个线粒体RNA编辑因子（ZmMORF1/8）形成蛋白质复合物，共同实现位点特异性C-to-U编辑的天然系统。其核心思路是：DEK618通过其PPR结构域识别特定RNA序列，其DYW结构域可能提供催化活性，并与MORF蛋白协同组装成功能复合体。",
+      "functions": "1. 实现植物线粒体RNA上特定位点的C-to-U编辑。\n2. 调控线粒体基因的正常表达与功能。\n3. 影响线粒体形态、呼吸链复合体（尤其是复合体III）的组装与活性。\n4. 最终调控玉米的籽粒发育与植株生长（矮化表型）。",
+      "key_results": "1. DEK618功能缺失导致88个线粒体C-to-U编辑位点的效率发生改变，其中cob-298等4个位点的编辑被完全消除，证明了其对编辑位点的广泛且关键的影响。\n2. DEK618与ZmMORF1和ZmMORF8发生物理互作，揭示了其通过形成多蛋白复合物来行使功能的机制，并在线粒体功能缺陷和植株发育异常的突变体中得到了体内验证。"
+    }
+  },
+  {
+    "id": "41687686",
+    "title": "ADARB1 inhibits glycolysis and progression of cervical cancer through the HMGB1/PFKFB3 axis.",
+    "abstract": "Cervical cancer (CC) remains one of the most prevalent gynecological malignancies worldwide, with patients diagnosed at advanced stages often facing poor prognoses due to the lack of effective therapeutic options. ADARB1 (Adenosine Deaminase Acting on RNA 1), an RNA-editing enzyme, has been implicated in the pathogenesis of various cancers; however, its functional role in cervical cancer remains largely unexplored. In this study, we observed a significant downregulation of ADARB1 expression in both cervical cancer tissues and cell lines, which was associated with unfavorable clinical outcomes. Functional assays revealed that ADARB1 overexpression markedly inhibited the proliferation, migration, invasion, and glycolytic activity of cervical cancer cells, whereas ADARB1 knockdown exerted the opposite effects. Mechanistically, we found that ADARB1 mRNA binds to HMGB1 (High Mobility Group Box 1) protein and regulates its expression via the ubiquitin-proteasome pathway, thereby modulating the malignant phenotype of cervical cancer. Notably, ectopic expression of HMGB1 partially reversed the suppressive effects of ADARB1 on cell proliferation and glycolysis. Further investigation revealed that HMGB1 interacts with PFKFB3 (6-Phosphofructo-2-Kinase/Fructose-2,6-Bisphosphatase 3), a key regulatory enzyme in glycolysis, and modulates its protein stability, suggesting the presence of a critical HMGB1/PFKFB3 signaling axis in cancer metabolism. ADARB1 exerts its anti-tumor effects primarily through the HMGB1/PFKFB3 pathway. Collectively, these findings identify ADARB1 as a novel tumor suppressor in cervical cancer and a promising therapeutic target for clinical intervention.",
+    "authors": [
+      "Liu X",
+      "Wang A",
+      "Su M",
+      "Liang Z",
+      "Ren H",
+      "Yao S",
+      "Wan S",
+      "Gao Y",
+      "Wang H",
+      "Cai H"
+    ],
+    "published": "2026-02-11",
+    "journal": "Biochimica et biophysica acta. Molecular basis of disease",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41687686/",
+    "score": 35,
+    "summary": {
+      "title_zh": "ADARB1通过HMGB1/PFKFB3轴抑制宫颈癌糖酵解及进展",
+      "tool_type": "ADAR家族RNA编辑酶（ADARB1）作为肿瘤抑制因子与潜在治疗靶点",
+      "design": "本研究并非设计新型工程化工具，而是揭示了内源性ADARB1酶通过其RNA编辑活性或RNA结合能力，调控下游信号通路的天然机制。其核心思路是发现ADARB1通过结合HMGB1 mRNA并调控其蛋白稳定性，进而影响PFKFB3的稳定性，构成一个调控肿瘤代谢的级联轴心。",
+      "functions": "1. 作为肿瘤抑制因子，抑制宫颈癌细胞的增殖、迁移、侵袭。\n2. 调控肿瘤细胞代谢，显著抑制糖酵解活性。\n3. 通过HMGB1/PFKFB3信号轴发挥抗肿瘤功能，揭示了ADARB1在癌症代谢重编程中的新角色。\n4. 其表达水平与患者临床预后相关，具备作为预后生物标志物和治疗靶点的潜力。",
+      "key_results": "关键实验表明，在宫颈癌中ADARB1表达显著下调且与不良预后相关；功能上，过表达ADARB1能有效抑制癌细胞恶性表型和糖酵解，而敲低则促进这些表型；机制上，ADARB1通过泛素-蛋白酶体途径下调HMGB1，进而降低糖酵解关键酶PFKFB3的稳定性，外源性回补HMGB1可部分逆转ADARB1的抑制效应。"
+    }
+  },
+  {
+    "id": "41560319",
+    "title": "Depletion of the RNA-Editing Enzyme ADAR1 Invigorates the Antitumor Immunity of NK Cells.",
+    "abstract": "Functional exhaustion and inefficient tumor infiltration rates limit the effectiveness of natural killer (NK) cell-based cancer immunotherapy. Although the role of adenosine deaminase acting on RNA 1 (ADAR1) in immune cells and tumorigenesis is gradually gaining attention, its role in NK cells is elusive. In this study, we find that ADAR1 expression level is increased in peripheral blood (PB)-NK cells from patients with melanoma, concurrently exhibiting impaired tumor killing capacity. ADAR1-knockdown NK cells show enhanced antitumor activity in vitro and in vivo. Compared with ADAR1",
+    "authors": [
+      "Chen S",
+      "Lu D",
+      "Liang R",
+      "Tan W",
+      "Zhao E",
+      "Wu S",
+      "Li X",
+      "Song Y",
+      "Wan M",
+      "Xie X",
+      "Zhang Q",
+      "Liu Q"
+    ],
+    "published": "2026-01-20",
+    "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41560319/",
+    "score": 35,
+    "summary": {
+      "title_zh": "耗竭RNA编辑酶ADAR1可增强NK细胞的抗肿瘤免疫活性",
+      "tool_type": "基于内源性ADAR1的RNA编辑调控工具（通过基因敲低/敲除实现功能抑制）",
+      "design": "本研究并非设计一个全新的可编程工具，而是利用ADAR1基因敲低（knockdown）这一遗传干预手段，将其作为一种“功能抑制工具”来研究ADAR1在NK细胞中的生物学作用。核心思路是通过抑制内源性ADAR1的表达，解除其对NK细胞功能的负向调控。",
+      "functions": "1. 功能研究工具：用于揭示ADAR1在NK细胞抗肿瘤功能中的关键抑制作用。\n2. 免疫治疗策略探索：通过靶向ADAR1，可能作为一种增强NK细胞免疫疗法效力的潜在策略。\n3. 细胞功能调控：增强NK细胞的肿瘤杀伤能力，改善其功能耗竭状态。",
+      "key_results": "关键实验结果表明，在黑色素瘤患者外周血NK细胞中ADAR1表达升高且功能受损；在体外和体内模型中，敲低ADAR1能显著增强NK细胞的抗肿瘤活性，证明了靶向ADAR1可有效提升NK细胞的免疫治疗效果。"
+    }
+  },
+  {
+    "id": "41565063",
+    "title": "Development and Evaluation of a one-pot CRISPR/Cas13-Based Assay for Syphilis Detection Across Multiple Clinical Sample Types.",
+    "abstract": "To develop and evaluate a rapid, one-pot molecular assay for the detection of Treponema pallidum subspecies pallidum (TPA), addressing the limitations of current diagnostic methods influenced by sample type and pathogen load. A one-pot assay integrating recombinase polymerase amplification (RPA) and Cas13a-based collateral cleavage activity was established for isothermal detection of TPA. The assay targeted the tpp47/tp0574 gene and was validated using 186 clinical specimens, including whole blood, lesion exudate, and cerebrospinal fluid (CSF) samples. The one-pot RPA-Cas13a assay demonstrated high analytical sensitivity and specificity for TPA detection. Clinical sensitivities were 58.97% in whole blood, 84.21% in lesion exudate, and 57.14% in CSF, with 100% specificity across all sample types. This one-pot isothermal assay enables rapid and accurate detection of T. pallidum directly from diverse clinical samples. Its high specificity and field-friendly format make it a promising complementary tool to conventional diagnostic approaches, particularly for point-of-care testing and screening in resource-limited or high-risk settings.",
+    "authors": [
+      "Wu Q",
+      "Du F",
+      "Zhang X",
+      "Lu Z",
+      "Zheng X",
+      "Li A",
+      "Zhang X",
+      "Zhang R",
+      "Wang Q"
+    ],
+    "published": "2026-01-19",
+    "journal": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41565063/",
+    "score": 35,
+    "summary": {
+      "title_zh": "用于多种临床样本类型梅毒检测的一锅式CRISPR/Cas13检测方法的开发与评估",
+      "tool_type": "基于Cas13的RNA检测与诊断平台（CRISPR诊断工具）",
+      "design": "该工具采用一锅式等温检测设计，将重组酶聚合酶扩增（RPA）与Cas13a的旁切活性整合。其核心思路是先通过RPA等温扩增靶标DNA，再利用Cas13a-crRNA复合物特异性识别扩增产物中的RNA序列，触发Cas13a的非特异性RNA切割（旁切）活性，从而通过报告分子产生可读信号。",
+      "functions": "1. 实现病原体（梅毒螺旋体）的高特异性分子检测。\n2. 可直接对多种复杂临床样本（全血、病灶渗出液、脑脊液）进行检测，无需复杂的核酸提取。\n3. 适用于现场快速检测和资源有限环境下的筛查，作为传统诊断方法的补充工具。",
+      "key_results": "该一锅式RPA-Cas13a检测方法在所有样本类型中均表现出100%的特异性；临床灵敏度因样本类型而异，病灶渗出液最高（84.21%），全血和脑脊液分别为58.97%和57.14%，表明其对高病原体载量样本检测性能更优。"
+    }
+  },
+  {
+    "id": "41549181",
+    "title": "Multi-Tissue Genetic Regulation of RNA Editing in Pigs.",
+    "abstract": "RNA editing introduces transcriptomic variation and may contribute to complex trait regulation. However, its genetic determination in pigs remains unclear. Here, using 5457 PigGTEx RNA-seq samples across 34 porcine tissues, we construct a comprehensive RNA editome and map 49 614 cis-editing quantitative trait loci (edQTLs). These edQTLs define a distinct regulatory layer, with over 32% acting independently of expression or splicing QTLs (eQTLs/sQTLs). Crucially, edQTLs are significantly enriched in GWAS loci for 33 complex traits and show a superior contribution to heritability over eQTLs/sQTLs in some traits like growth and reproduction. Colocalization analyses pinpoint diverse causal mechanisms, revealing both edQTL-specific effects (e.g., ERCC5) and coordinated events where single variants pleiotropically modulate RNA editing, splicing, and gene expression. Human-pig comparative analysis identifies hundreds of evolutionarily conserved editing events linked to fundamental neurological pathways. This study provides the first comprehensive multi-tissue porcine RNA editome and edQTL map, establishing RNA editing as a key mechanism linking genetic variation to phenotypic diversity in a major agricultural species and offering a valuable resource for future functional genomics research.",
+    "authors": [
+      "Pan X",
+      "Gong W",
+      "Cai X",
+      "Teng J",
+      "Cai J",
+      "Zeng H",
+      "Ayalew W",
+      "Shen Q",
+      "Zhong Z",
+      "Wang Y",
+      "Zhang W",
+      "Tian Y",
+      "Xu D",
+      "Gao Y",
+      "Yin H",
+      "Zhang Y",
+      "Hou J",
+      "Zhou T",
+      "Li J",
+      "Fang L",
+      "Yuan X",
+      "Zhang Z"
+    ],
+    "published": "2026-01-18",
+    "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41549181/",
+    "score": 35,
+    "summary": {
+      "title_zh": "猪多组织RNA编辑的遗传调控图谱",
+      "tool_type": "遗传调控图谱与资源平台（非实验性工具，而是用于发现和解析RNA编辑调控规律的数据资源与分析框架）",
+      "design": "本研究通过整合多组织转录组数据与基因组变异信息，构建了一个系统性的分析平台。其核心思路是：1）利用大规模（5457个样本，34种组织）猪RNA-seq数据构建全面的RNA编辑图谱（编辑组）；2）通过遗传关联分析（edQTL定位）系统鉴定调控RNA编辑的顺式遗传变异。",
+      "functions": "1. 识别与定位调控RNA编辑的遗传位点（edQTLs）。\n2. 解析RNA编辑与复杂性状（如生长、繁殖）之间的遗传关联。\n3. 比较RNA编辑调控与基因表达（eQTL）、可变剪接（sQTL）调控的异同。\n4. 通过共定位分析揭示遗传变异通过影响编辑、剪接或表达来影响表型的多效性机制。\n5. 提供跨物种（人-猪）进化保守性分析，用于识别关键生物学通路。",
+      "key_results": "1. 成功构建了首个全面的猪多组织RNA编辑图谱与edQTL图谱，定位了49,614个顺式edQTLs，其中超过32%独立于eQTLs/sQTLs，代表一个独特的调控层。\n2. edQTLs在33个复杂性状的GWAS位点中显著富集，并且在某些性状（如生长和繁殖）中对遗传力的贡献优于eQTLs/sQTLs，确立了RNA编辑是连接猪遗传变异与表型多样性的关键机制。"
+    }
+  }
+]
