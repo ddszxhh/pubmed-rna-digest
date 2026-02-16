@@ -1,0 +1,136 @@
+[
+  {
+    "id": "41391262",
+    "title": "Ribosome occupancy and miRNA-mediated silencing of upregulated genes in attention deficit hyperactivity disorder.",
+    "abstract": "This study investigates the regulatory role of microRNAs (miRNAs) in suppressing the overexpression of genes associated with Attention-Deficit Hyperactivity Disorder (ADHD), a genetically influenced neurodevelopmental disorder. A computational framework based on the 7mer-m8 seed match model was used to predict miRNA interactions with nine upregulated genes, aiming to identify miRNAs capable of binding to their coding sequences (CDS) and regulating gene expression. Coding sequences were retrieved from NCBI and analyzed for miRNA binding sites using established bioinformatics tools. Multiple miRNAs were found to target individual genes, including 36 for CHRNA4 and 17 for ADRA2C. Key parameters-such as GC and GC3 content, AMFE, COSM, translational frequency, RNA editing, mRNA stability, and ribosome residence time (RRT)-were assessed. Results indicated high GC (59.2 %) and GC3 (75.0 %) content at target regions, favoring miRNA binding. Notably, miR-4488 targeted the ADRA2C gene at two CDS positions (734-751 and 820-837). High RRT values (e.g., 1.17 for ADRA2C) and low compAI scores suggested slow translation and effective gene repression by miRNAs. The study concludes that specific miRNAs can bind within the CDS of overexpressed genes in ADHD, potentially suppressing their translation. These findings support the therapeutic potential of miRNAs in regulating gene expression in ADHD and lay the groundwork for future research on miRNA-based interventions in neurodevelopmental disorders.",
+    "authors": [
+      "Roy B",
+      "Bharadaj S",
+      "Bharadaj SK",
+      "Sharma D",
+      "Chakraborty S"
+    ],
+    "published": "2026-04-01",
+    "journal": "Computational biology and chemistry",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41391262/",
+    "score": 25,
+    "summary": {
+      "title_zh": "注意力缺陷多动障碍中核糖体占据与miRNA介导的上调基因沉默研究",
+      "tool_type": "基于生物信息学的miRNA预测与调控分析平台/计算框架",
+      "design": "本研究采用基于7mer-m8种子匹配模型的标准化计算框架，系统预测miRNA与上调基因编码序列的结合位点。通过整合GC含量、密码子使用偏好、翻译频率、mRNA稳定性及核糖体驻留时间等多维参数，评估miRNA对靶基因的调控潜力。",
+      "functions": "1. 预测miRNA与特定基因编码序列的结合位点；\n2. 评估miRNA介导的翻译抑制效率；\n3. 为神经发育疾病的miRNA靶向治疗提供候选分子与理论依据。",
+      "key_results": "关键发现包括：ADRA2C基因编码区存在miR-4488的两个高亲和力结合位点；靶标区域的高GC含量（59.2%）与高GC3含量（75.0%）有利于miRNA结合；高核糖体驻留时间（如ADRA2C的RRT=1.17）与低翻译效率评分共同表明miRNA能有效抑制靶基因翻译。"
+    }
+  },
+  {
+    "id": "41553775",
+    "title": "Structural basis for inhibition of SpyCas9 by the anti-CRISPR protein AcrIIA26.",
+    "abstract": "CRISPR-Cas9 systems provide adaptive immunity in prokaryotes by targeting and cleaving invading phage DNA. In response, phages have evolved anti-CRISPR (Acr) proteins to inhibit Cas9 and evade this immune response. AcrIIA26 is a type II-A anti-CRISPR protein that inhibits Streptococcus pyogenes Cas9 (SpyCas9) DNA binding, but its molecular mechanism remains unclear. Here, we determined the 3.0 Å resolution cryo-EM structure of AcrIIA26 in complex with SpyCas9-single-guide RNA, revealing a dual inhibition mechanism. AcrIIA26 adopts a novel fold comprising a central β-sheet flanked by two α-helical bundles. The 5-helix bundle, which features a negatively charged surface whose shape mimics duplex DNA, occupies the same position as the protospacer adjacent motif (PAM) duplex in target-bound Cas9. This directly blocks PAM recognition by burying critical residues R1333 and R1335 in the PAM-interacting domain. Mutagenesis confirmed that residues E49 and D50 in AcrIIA26 are essential for this interaction. Simultaneously, the 4-helix bundle binds the Cas9 REC lobe and sterically prevents the conformational changes required for Cas9 activation, with mutation of AcrIIA26 F121 completely eliminating inhibitory activity. Structural comparisons reveal that despite diverse folds, multiple anti-CRISPRs convergently evolved to block PAM recognition, highlighting this as a critical vulnerability in Cas9 function. Our findings provide mechanistic insights into AcrIIA26 inhibition and offer a foundation for engineering improved Cas9 off-switches for genome editing applications.",
+    "authors": [
+      "Zheng I",
+      "Learn B",
+      "Bailey S"
+    ],
+    "published": "2026-03-04",
+    "journal": "The Biochemical journal",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41553775/",
+    "score": 25,
+    "summary": {
+      "title_zh": "抗CRISPR蛋白AcrIIA26抑制SpyCas9的结构基础",
+      "tool_type": "Cas9抑制工具（CRISPR-Cas9“关闭开关”）",
+      "design": "该研究并非直接设计一个新工具，而是通过解析AcrIIA26蛋白与SpyCas9-sgRNA复合物的冷冻电镜结构，揭示了一种天然存在的、高效的Cas9双重抑制机制。其核心思路在于AcrIIA26通过两个结构模块协同作用：一个模拟DNA双链的5螺旋束占据PAM识别位点，另一个4螺旋束结合REC叶并阻止Cas9激活所需的构象变化。",
+      "functions": "1. 作为研究工具：用于解析Cas9的抑制机制和构象变化。\n2. 作为工程化平台：为设计和改造更精准、可控的Cas9“关闭开关”（off-switches）提供结构基础，以应用于需要时空控制或安全关闭的基因组编辑场景中，提高编辑的安全性和可控性。",
+      "key_results": "关键实验结果表明：1. 结构解析揭示了AcrIIA26通过模拟PAM双链（关键残基E49/D50）和锁定REC叶（关键残基F121）的双重机制抑制SpyCas9；2. 定点突变实验证实了上述关键残基对抑制功能至关重要，其中F121突变可完全消除抑制活性，验证了结构-功能关系。"
+    }
+  },
+  {
+    "id": "41492471",
+    "title": "Integrative high-throughput studies to develop novel targets and drugs for the treatment of advanced prostate cancer.",
+    "abstract": "Androgen deprivation therapies targeting the androgen receptor (AR) signaling pathway are the primary treatment strategy for prostate cancer. However, these therapies often lead to castration resistance. Developing novel agents targeting AR-independent oncogenes is critical to address this challenge, particularly for advanced castration-resistant prostate cancer. This study identified three potential tumor drivers of advanced prostate cancer, including CDC20, DTL, and RRM2, through integrative bioinformatic screening that considered gene dependency using CRISPRi/RNAi database, clinical relevance, and experimental validation with CRISPR-Cas13-mediated gene ablation. Further mechanistic studies revealed that CDC20, DTL, and RRM2 were transcriptionally regulated by the RB1/E2F1 axis, mediating cell cycle progression in prostate cancer. Additionally, we identified novel agents targeting these candidates through virtual screening and drug-sensitive tests, utilizing our established small-molecule library. These agents exhibited superior anti-tumor efficacy compared with AR antagonists",
+    "authors": [
+      "Li X",
+      "Shen Y",
+      "Zhang N",
+      "Lu D",
+      "Ding S",
+      "Wu F",
+      "Song X",
+      "Zhou X",
+      "Lin S",
+      "Xu H",
+      "Wang Z",
+      "Yuan F"
+    ],
+    "published": "2026-03-01",
+    "journal": "Genes & diseases",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41492471/",
+    "score": 25,
+    "summary": {
+      "title_zh": "通过整合高通量研究开发治疗晚期前列腺癌的新靶点与药物",
+      "tool_type": "整合性靶点发现与验证平台（结合CRISPR-Cas13基因敲除、生物信息学筛选与药物虚拟筛选）",
+      "design": "1. 整合CRISPRi/RNAi基因依赖性数据、临床相关性分析及CRISPR-Cas13介导的基因敲除实验，构建多维度靶点筛选验证流程。\n2. 利用已建立的小分子化合物库，通过虚拟筛选与药物敏感性测试，实现从靶点发现到候选药物开发的连贯平台化研究。",
+      "functions": "1. 靶点发现：通过整合生物信息学与功能基因组学数据识别疾病关键驱动基因。\n2. 靶点验证：利用CRISPR-Cas13系统进行基因功能缺失验证。\n3. 机制解析：研究靶点上游调控通路（如RB1/E2F1轴）与生物学功能。\n4. 药物开发：通过虚拟筛选与实验验证获得靶向候选基因的小分子抑制剂。",
+      "key_results": "1. 鉴定出CDC20、DTL和RRM2三个前列腺癌潜在治疗靶点，并通过CRISPR-Cas13敲除实验验证其必要性。\n2. 针对这些靶点筛选出的小分子化合物在体外表现出优于雄激素受体拮抗剂的抗肿瘤效果。"
+    }
+  },
+  {
+    "id": "41609009",
+    "title": "RNA Processing in Cardiac Hypertrophy: Coordinating Physiological Adaptation and Pathological Remodeling.",
+    "abstract": "Cardiac hypertrophy represents a complex remodeling process involving extensive reprogramming of gene expression. While transcriptional regulation has been well characterized, post-transcriptional RNA processing has recently emerged as a crucial determinant of cardiac homeostasis. This review summarizes current knowledge of RNA modifications, alternative splicing, mRNA stability, and RNA editing in physiological and pathological hypertrophy. We highlight key epitranscriptomic marks such as N6-methyladenosine (m",
+    "authors": [
+      "Peng M",
+      "Fu Y",
+      "Qin C",
+      "Jin J",
+      "Zhou S"
+    ],
+    "published": "2026-02-15",
+    "journal": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41609009/",
+    "score": 25,
+    "summary": {
+      "title_zh": "心脏肥大中的RNA加工：协调生理适应与病理性重塑",
+      "tool_type": "综述论文（非具体工具/平台）",
+      "design": "本文是一篇综述，未提出新的工程化工具设计。其核心思路是系统梳理和整合心脏肥大背景下已知的RNA加工机制（如RNA修饰、可变剪接、mRNA稳定性、RNA编辑），旨在构建一个理解这些过程如何共同协调生理与病理重塑的概念框架。",
+      "functions": "本文本身不直接实现功能，而是总结和评述了相关RNA加工机制在心脏中的潜在功能与应用，包括：基因表达的转录后调控、通过m6A等修饰影响mRNA命运、通过可变剪接产生蛋白质异构体、以及RNA编辑对蛋白质功能的影响等。",
+      "key_results": "本文未报告具体的实验性能指标。作为一篇综述，其关键结论是强调了RNA加工过程（特别是m6A修饰、可变剪接和ADAR介导的RNA编辑）在心脏肥大从生理适应向病理性衰竭转变中的核心调控作用，并指出靶向这些过程具有治疗潜力。"
+    }
+  },
+  {
+    "id": "41676498",
+    "title": "A Large Animal Model of Heritable Pulmonary Arterial Hypertension Using Gene-edited BMPR2 Sheep.",
+    "abstract": "Pulmonary Arterial Hypertension (PAH) is a rare vascular disorder characterized by elevated pressure in pulmonary arteries, eventually leading to right ventricular failure. Approximately 50% of pediatric disease and 20% of adult disease can be linked to a genetic mutation, with nearly 70% of these cases involving mutations in the bone morphogenetic protein receptor type 2 (BMPR2) locus. Investigations using rodent models have made significant advances in our understanding of BMPR2 signaling; however, limited data exist regarding the onset and course of PAH, and etiologies for phenotypic expression in these patients remain unknown. In this work, we describe the development of a novel ovine model of heritable PAH. Because homozygous disruption of BMPR2 is embryonic lethal, we developed heterozygous BMPR2 sheep by using a PAM-disrupting synonymous single stranded oligodeoxyribonucleotide alongside a single guide RNA and Cas9 mediated gene editing strategy. The resulting BMPR2(+/-) lambs demonstrated cardiac and pulmonary vascular pathology that are consistent with BMPR2 mutation-driven PAH observed in humans. Given the genetic and physiological similarities of BMPR2(+/-) sheep to humans with heritable PAH, this large animal model will serve as a vital platform for mechanistic molecular studies and will provide a much-needed pre-clinical model for extensive treatment evaluations.",
+    "authors": [
+      "Datar SA",
+      "Werry N",
+      "Brown AR",
+      "Fitzpatrick DS",
+      "Falade O",
+      "Trott JF",
+      "Hutchings R",
+      "Amin EK",
+      "Morgan JM",
+      "Nawaytou H",
+      "Deutsch GH",
+      "Johnson EG",
+      "Gonzales Viera OA",
+      "Bishop TF",
+      "Urbino T",
+      "McNabb BR",
+      "Austin ED",
+      "Fineman JR",
+      "Van Eenennaam AL"
+    ],
+    "published": "2026-02-07",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41676498/",
+    "score": 25,
+    "summary": {
+      "title_zh": "利用基因编辑BMPR2绵羊构建遗传性肺动脉高压的大型动物模型",
+      "tool_type": "大型动物疾病模型平台（基于CRISPR-Cas9基因编辑技术）",
+      "design": "核心思路是使用CRISPR-Cas9基因编辑系统，通过设计靶向BMPR2基因的单向导RNA（sgRNA），并配合一个破坏PAM位点的同义单链寡脱氧核糖核苷酸（ssODN），实现对BMPR2基因的杂合性敲除。该策略旨在模拟人类遗传性PAH中常见的BMPR2杂合突变，同时避免纯合敲除导致的胚胎致死。",
+      "functions": "1. 作为研究遗传性肺动脉高压（PAH）发病机制的平台。\n2. 作为临床前药物测试和广泛治疗评估的模型。\n3. 模拟人类BMPR2突变驱动的PAH心脏和肺血管病理。",
+      "key_results": "成功培育出BMPR2(+/-)杂合基因编辑绵羊，其表现出与人类BMPR2突变驱动PAH一致的心脏和肺血管病理特征，验证了该大型动物模型在表型上的相关性。"
+    }
+  }
+]
