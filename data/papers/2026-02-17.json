@@ -1,0 +1,116 @@
+[
+  {
+    "id": "41693565",
+    "title": "Engineering a human-based translational activator for targeted protein expression restoration.",
+    "abstract": "Therapeutic modalities to programmably increase protein production are in critical need to address diseases caused by deficient gene expression via haploinsufficiency. Restoring physiological protein levels by increasing translation of their cognate messenger RNA (mRNA) would be an advantageous approach to correct gene expression but has not been evaluated in an in vivo disease model. Here, we investigated whether a translational activator could improve phenotype in a Dravet syndrome mouse model, a severe developmental and epileptic encephalopathy caused by SCN1a haploinsufficiency, by increasing translation of the SCN1a mRNA. We identify and engineer human proteins capable of increasing mRNA translation using the CRISPR-Cas-inspired RNA-targeting system (CIRTS) platform to enable programmable, guide RNA-directed translational activation with entirely engineered human proteins. We identify a compact (601 amino acid) CIRTS translational activator (CIRTS-4GT3) that can drive targeted, sustained translation increases up to 100% from three endogenous transcripts relevant to epilepsy and neurodevelopmental disorders. AAV-delivery of CIRTS-4GT3 targeting SCN1a mRNA to a Dravet syndrome mouse model led to increased SCN1a translation and improved survivability and seizure threshold-key phenotypic indicators of Dravet syndrome. This work validates a strategy to address SCN1a haploinsufficiency and emphasizes the preclinical potential of targeted translational activation to address neurological haploinsufficiency.",
+    "authors": [
+      "Sinnott RW",
+      "Solanki A",
+      "Govind AP",
+      "Green WN",
+      "Dickinson BC"
+    ],
+    "published": "2026-02-05",
+    "journal": "Nucleic acids research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41693565/",
+    "score": 85,
+    "summary": {
+      "title_zh": "工程化一种基于人类蛋白的翻译激活剂用于靶向恢复蛋白质表达",
+      "tool_type": "基于CRISPR-Cas启发的RNA靶向系统（CIRTS）的翻译激活平台",
+      "design": "该工具的核心设计思路是：1）利用完全工程化的人类蛋白质构建CIRTS平台，实现程序化、向导RNA（gRNA）导向的调控；2）通过筛选和工程化，将特定的人类蛋白功能域与RNA靶向模块组合，构建出能够特异性结合并激活目标mRNA翻译的紧凑型融合蛋白（CIRTS-4GT3）。",
+      "functions": "1. 实现位点特异性、程序化的mRNA翻译激活。\n2. 恢复由单倍体不足（haploinsufficiency）引起的基因表达缺陷。\n3. 在疾病模型中（如Dravet综合征）恢复内源性靶蛋白的生理水平。\n4. 作为治疗性平台，潜在应用于由基因表达不足引起的神经系统疾病及其他疾病。",
+      "key_results": "1. 构建的CIRTS-4GT3（601个氨基酸）能持续将三种与癫痫和神经发育障碍相关的内源性转录本的翻译水平提高高达100%。\n2. 在Dravet综合征小鼠模型中，AAV递送靶向SCN1a mRNA的CIRTS-4GT3，成功增加了SCN1a蛋白翻译，并显著改善了小鼠的存活率和癫痫发作阈值这两个关键表型指标。"
+    }
+  },
+  {
+    "id": "41693568",
+    "title": "Toehold-VISTA: a machine learning approach to decipher programmable RNA sensor-target interactions.",
+    "abstract": "RNA-based biosensors have emerged as essential tools in synthetic biology and diagnostics, enabling precise and programmable responses to diverse RNA inputs. However, the time to design, produce, and screen high-performance RNA sensors remains a critical challenge. The fundamental rules governing RNA-RNA interactions-specifically the structure-function relationships that determine sensor performance-remain poorly understood. Here, we present a method enabling versatile in-silico RNA-targeting analysis (VISTA), a machine learning-guided framework for the rapid design of RNA sensors. VISTA integrates biophysical modeling of both sensor and target RNAs with a partial least squares discriminant analysis machine learning framework. Using high-throughput experimental measurements with sequence-structure feature extraction to train predictive models, we capture the key determinants of RNA sensor performance. By using toehold switches as a model RNA sensor, we find that Toehold-VISTA successfully designs RNA sensors with improved performance against SARS-CoV-2 RNA. These findings establish a broadly applicable, target-aware design strategy for accelerating RNA sensor engineering across biotechnology and diagnostic applications.",
+    "authors": [
+      "Robson JM",
+      "Green AA"
+    ],
+    "published": "2026-02-05",
+    "journal": "Nucleic acids research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41693568/",
+    "score": 65,
+    "summary": {
+      "title_zh": "Toehold-VISTA：一种解析可编程RNA传感器-靶标相互作用的机器学习方法",
+      "tool_type": "RNA传感器设计平台（机器学习辅助设计框架）",
+      "design": "该平台整合了传感器与靶标RNA的生物物理建模，并采用偏最小二乘判别分析的机器学习框架。通过高通量实验测量结合序列-结构特征提取来训练预测模型，从而捕捉决定RNA传感器性能的关键因素。",
+      "functions": "1. 快速设计针对特定RNA靶标的高性能RNA传感器（如toehold开关）\n2. 用于合成生物学中的可编程RNA响应系统\n3. 应用于生物技术与诊断领域的RNA传感器工程",
+      "key_results": "以toehold开关为模型系统，Toehold-VISTA成功设计出针对SARS-CoV-2 RNA且性能提升的RNA传感器，验证了该计算设计框架的有效性。"
+    }
+  },
+  {
+    "id": "41652115",
+    "title": "Optimization of functional genetics tools for a model tetraploid Capsella bursa-pastoris, with focus on homoeolog-aware gene editing.",
+    "abstract": "Capsella bursa-pastoris is a recent allotetraploid and a promising model for studying early consequences of polyploidy. One of the intriguing questions in polyploid research is how new functions arise from initially identical or nearly identical homoeologous genes. Functional genetics tools, including genetic editing, can help to understand this process, but they have not been developed for C. bursa-pastoris yet. We present here the results of our study aimed at filling this gap. In particular, we compared the efficiency of floral dip transformation in six accessions of C. bursa-pastoris representing distant populations. The Asian clade accession PGL0025 had the highest efficiency of transformation (~ 1.1%). Comparison of Agrobacterium tumefaciens strains EHA105 and GV3101 (pMP90) showed that the latter is more effective. Also, we created a genome-wide gRNA database for all pairs of homoeologs of the PGL0001 accession of C. bursa-pastoris and integrated it into publicly available genome browser: https://t2e.online/igv_capsella_bursa-pastoris/ . We assessed the possibility of differential editing for two pairs of homoeologous genes with high sequence similarity (> 90%) both in vitro and in silico. Despite the test results that indicated off-target activity, we have succeeded in obtaining lines of plants with homozygous frameshift mutations in each of the homoeologs separately in vivo. We expect that these findings and resources will promote the use of C. bursa-pastoris as a model in functional genetics experiments, in particular, the studies of the fate of duplicated gene after polyploidization event.",
+    "authors": [
+      "Omelchenko DO",
+      "Barkovskaya AM",
+      "Omelchenko LV",
+      "Klepikova AV",
+      "Penin AA",
+      "Logacheva MD"
+    ],
+    "published": "2026-02-07",
+    "journal": "Transgenic research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41652115/",
+    "score": 25,
+    "summary": {
+      "title_zh": "优化功能遗传学工具用于四倍体荠菜模型，重点关注同源基因特异性编辑",
+      "tool_type": "同源基因特异性CRISPR-Cas基因编辑平台",
+      "design": "1. 通过比较不同生态型和农杆菌菌株，优化了四倍体荠菜的遗传转化体系。2. 构建了覆盖全基因组所有同源基因对的gRNA数据库，并整合至公共基因组浏览器，以指导针对高度相似同源基因的特异性gRNA设计。",
+      "functions": "1. 在四倍体植物模型（荠菜）中实现高效的遗传转化。2. 实现对高度相似（>90%）同源基因的差异化编辑，用于研究多倍化后重复基因的命运。3. 提供公开的gRNA设计资源，支持功能遗传学研究。",
+      "key_results": "1. 成功筛选出转化效率最高的生态型（PGL0025，~1.1%）和农杆菌菌株（GV3101）。2. 尽管存在脱靶风险，但成功在体内获得了分别对两个同源基因进行纯合移码突变的植物株系，证明了差异化编辑的可行性。"
+    }
+  },
+  {
+    "id": "41649621",
+    "title": "CRISPR-Based Therapy for Ischemic Stroke: A Narrative Review.",
+    "abstract": "Ischemic stroke (IS) is one of the most common neurological diseases worldwide and is caused by the blockage of cerebral blood vessels, leading to reduced blood flow and neuronal damage. Given the limitations of existing treatments, CRISPR gene-editing technology has emerged as a promising strategy to precisely target the molecular pathways underlying IS pathophysiology. By enabling intervention in genes regulating inflammation, apoptosis, and repair, CRISPR enables more precise and effective therapies. Various CRISPR delivery systems, including viral vectors, nanocarriers, and extracellular vesicles, play crucial roles in the effective access of this tool to neural cells. Studies have shown that the use of CRISPR-Cas9 to modulate key pathogenic pathways, including those governing inflammation, oxidative stress, and cell death, can prevent neuronal damage and improve neurological function. Additionally, targeting ncRNAs and RNA methylation with CRISPR-based systems plays a role in regulating oxidative stress and stress granule formation. The use of CRISPR to modulate cell communication and organelle transfer and correct mitochondrial mutations has also been considered a neuroprotective mechanism. Despite persistent challenges in targeted and safe delivery, substantial preclinical advances, primarily in rodent models, underscore the potential for CRISPR-based therapies to transform future stroke treatment. These findings suggest that CRISPR-based strategies could evolve into precision neurotherapeutics that address root molecular pathologies, potentially complementing or surpassing current stroke interventions.",
+    "authors": [
+      "Alavian F",
+      "Ghasemi S"
+    ],
+    "published": "2026-02-06",
+    "journal": "Cellular and molecular neurobiology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41649621/",
+    "score": 25,
+    "summary": {
+      "title_zh": "基于CRISPR的缺血性卒中疗法：一篇叙述性综述",
+      "tool_type": "CRISPR基因编辑系统（以CRISPR-Cas9为主）及其递送平台",
+      "design": "该综述并非介绍单一新工具，而是系统评述了将CRISPR基因编辑技术作为治疗平台应用于缺血性卒中的整体思路。其核心工程设计思路是利用CRISPR-Cas系统的可编程性，通过设计特定的向导RNA（gRNA）来精确靶向调控卒中病理生理学中的关键分子通路基因。同时，结合多种递送系统（如病毒载体、纳米载体、细胞外囊泡）以实现该工具对神经细胞的有效递送。",
+      "functions": "1. 基因调控：精确干预调控炎症、细胞凋亡、氧化应激和修复过程的基因。\n2. 非编码RNA与RNA修饰调控：靶向ncRNAs和RNA甲基化，以调控氧化应激和应激颗粒形成。\n3. 细胞通讯与细胞器调控：调节细胞间通讯和细胞器（如线粒体）转移。\n4. 基因校正：纠正线粒体突变等。\n5. 神经保护与功能恢复：通过上述分子层面的干预，旨在预防神经元损伤并改善神经功能。",
+      "key_results": "关键的临床前实验（主要在啮齿类动物模型中）表明，使用CRISPR-Cas9调控关键的致病通路（如炎症、氧化应激、细胞死亡）能够有效预防神经元损伤并改善神经功能，这为其治疗潜力提供了原理性验证。然而，在靶向性和安全性递送方面仍存在持续挑战。"
+    }
+  },
+  {
+    "id": "41246891",
+    "title": "A temperature-sensitive complex formed by OsDYW2 is required for chloroplast RNA editing and splicing under high temperature in rice.",
+    "abstract": "Chloroplast gene expression and regulation are essential for plant growth, development, and environmental adaptation, in which post-transcriptional RNA editing and splicing processing play an important role. This study demonstrates that OsDYW2, a rice DYW domain-containing protein, is crucial for both chloroplast RNA editing and splicing, particularly under high temperature. Mutants lacking OsDYW2 exhibit a high-temperature-sensitive albino lethal phenotype, characterized by defective chloroplast biogenesis and suppressed expression of chloroplast development and photosynthesis-associated genes. The loss of OsDYW2 function impairs the RNA editing of matK-1258, ndhA-473, ndhA-563, ndhA-1070, ndhB-586, ndhB-611, ndhB-737, ndhB-830, ndhD-878, ndhG-5-UTR-10, ndhG-347, rpl2-2, rpoC2-4106, and rps14-80 sites as well as the RNA splicing of atpF, ndhA, ndhB, petB, rpl2, rps12, and rps16 under high-temperature conditions. Mechanistically, OsDYW2 interacts with core RNA processing factors, including several rice multiple organellar RNA editing factor (OsMORF) proteins, to form a temperature-sensitive complex. These interactions are modulated by high temperature, suggesting a direct link between high-temperature response and chloroplast RNA processing. Our findings demonstrate that OsDYW2 is essential for coordinating chloroplast post-transcriptional gene expression regulation with the high-temperature stress response in rice, providing new insights into the molecular mechanisms underlying chloroplast adaptation to environmental challenges.",
+    "authors": [
+      "Su K",
+      "Sun X",
+      "Sun Y",
+      "Jiang Y",
+      "Ali NA",
+      "Song W",
+      "Zhang Y",
+      "Cai Q",
+      "Zhao X"
+    ],
+    "published": "2026-02-01",
+    "journal": "The New phytologist",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41246891/",
+    "score": 25,
+    "summary": {
+      "title_zh": "OsDYW2形成温度敏感复合体是水稻高温下叶绿体RNA编辑与剪接所必需的",
+      "tool_type": "天然RNA编辑与剪接调控系统（非人工设计工具，但作为理解与潜在改造的分子平台）",
+      "design": "本研究揭示了一个由OsDYW2蛋白（含DYW结构域）与多个叶绿体RNA编辑因子（OsMORFs）等核心RNA加工因子相互作用形成的天然蛋白质复合体。该复合体的组装与功能受温度调控，构成了一个将高温信号与叶绿体RNA转录后加工直接偶联的分子机制。",
+      "functions": "1. 协调叶绿体RNA的位点特异性编辑（如matK、ndhB等多个位点）。\n2. 调控叶绿体RNA的内含子剪接（如atpF、ndhA、petB等）。\n3. 整合环境温度信号，调控叶绿体基因表达，以适应高温胁迫。",
+      "key_results": "1. OsDYW2功能缺失突变体在高温下表现出白化致死表型，叶绿体发育和光合基因表达严重受损。\n2. 在高温条件下，突变体中至少14个RNA编辑位点的编辑效率和7个内含子的剪接被显著破坏，证明了OsDYW2复合体对高温下RNA加工的关键作用。"
+    }
+  }
+]
