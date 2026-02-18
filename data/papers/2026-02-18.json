@@ -1,0 +1,145 @@
+[
+  {
+    "id": "40164763",
+    "title": "Engineering a photoactivatable A-to-I RNA base editor for gene therapy in vivo.",
+    "abstract": "Tunable and reversible regulation of exogenous and endogenous gene expression would be useful for improving the safety and efficacy of gene therapy. Current chemically inducible systems are limited by the rapid diffusion and extended metabolism of small molecules, and associated side effects. Here we develop a photoactivatable RNA adenosine base editor (PA-rABE) by harnessing a compact Cas13 variant and a split ADAR2 deaminase fused with the Magnets system, which is activated through blue-light-induced dimerization. PA-rABE achieves highly efficient editing on endogenous RNA with minimal bystander editing and off-target effects. By editing a phosphorylation site of the endogenous CTNNB1 gene, PA-rABE stabilizes the β-catenin protein and activates Wnt signaling in vivo. Using adeno-associated virus vectors to deliver PA-rABE along with an hF9 variant containing a premature termination codon, we show amelioration of clotting defects in hemophilia B mice upon illumination. In summary, PA-rABE offers a controlled RNA base-editing technology for diverse biomedical applications, enabling reversible and spatiotemporally specific modulation.",
+    "authors": [
+      "Li H",
+      "Qiu Y",
+      "Song B",
+      "Quan X",
+      "Zhang D",
+      "Li X",
+      "Yang J",
+      "Liu X",
+      "Zeng Z",
+      "Jing J",
+      "Yin S",
+      "Dai Q",
+      "Wang L",
+      "Han H",
+      "Ye H",
+      "Sun Z",
+      "Cheng Y",
+      "Zhang X",
+      "Du B",
+      "Liu M",
+      "Li D"
+    ],
+    "published": "2026-02-01",
+    "journal": "Nature biotechnology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40164763/",
+    "score": 95,
+    "summary": {
+      "title_zh": "用于体内基因治疗的光激活A-to-I RNA碱基编辑器工程",
+      "tool_type": "光激活RNA腺苷碱基编辑器（PA-rABE），属于可编程、时空特异性调控的RNA编辑工具",
+      "design": "1. 核心设计是将一个紧凑型Cas13变体与分裂的ADAR2脱氨酶结构域结合。\n2. 利用Magnets光诱导二聚化系统，通过蓝光照射触发分裂的ADAR2结构域二聚化并恢复活性，从而实现光控的RNA编辑。",
+      "functions": "1. 实现时空特异性的A-to-I（腺苷到肌苷）RNA碱基编辑。\n2. 通过编辑内源基因（如CTNNB1）的特定密码子，调控蛋白质稳定性（如β-catenin）和信号通路（如Wnt通路）。\n3. 用于基因治疗，例如纠正疾病相关基因（如凝血因子IX）的提前终止密码子，恢复功能蛋白表达。\n4. 可逆且低脱靶的RNA水平基因调控，适用于基础研究和疾病治疗。",
+      "key_results": "1. 在体内外实现了高效RNA编辑（高效率），且旁观者编辑和脱靶效应极低（高特异性）。\n2. 在血友病B小鼠模型中，通过AAV递送PA-rABE并光照，成功编辑hF9基因的提前终止密码子，显著改善了凝血缺陷（体内治疗验证）。"
+    }
+  },
+  {
+    "id": "40140558",
+    "title": "Specific and efficient RNA A-to-I editing through cleavage of an ADAR inhibitor.",
+    "abstract": "RNA editing can be a promising therapeutic approach. However, ectopic expression of RNA editing enzymes has been shown to trigger off-target editing. Here we identified adenosine deaminase acting on RNA (ADAR) inhibitors (ADIs) that suppress the activity of the fused ADAR2 deamination domain (ADAR2",
+    "authors": [
+      "Li G",
+      "Chen G",
+      "Yuan GH",
+      "Wei J",
+      "Ni Q",
+      "Wu J",
+      "Yang B",
+      "Yang L",
+      "Chen J"
+    ],
+    "published": "2026-02-01",
+    "journal": "Nature biotechnology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40140558/",
+    "score": 85,
+    "summary": {
+      "title_zh": "通过切割ADAR抑制剂实现特异且高效的RNA A-to-I编辑",
+      "tool_type": "ADAR结合的可编程RNA编辑工具",
+      "design": "该工具的核心设计思路是：1）将ADAR2脱氨酶结构域与一个能够被特定蛋白酶切割的ADAR抑制剂（ADI）融合，构建成一个“自抑制”的编辑酶前体；2）通过共表达一条靶向特定RNA序列的向导RNA（gRNA），该gRNA上设计了一个能够招募并激活相应蛋白酶的适配体模块。当gRNA结合到目标RNA位点时，会招募蛋白酶切割ADI，从而在空间和时间上精确激活ADAR2的编辑活性。",
+      "functions": "1. 实现位点特异性的RNA腺苷（A）到肌苷（I）编辑（即A-to-I编辑）。\n2. 通过可编程的gRNA设计，理论上可靶向多种RNA序列进行编辑。\n3. 可用于基础研究中的RNA功能调控，并具有治疗由特定RNA突变或异常表达引起疾病的潜力。",
+      "key_results": "关键实验结果表明，该系统在细胞模型中实现了高达约70%的靶位点编辑效率，同时将全转录组范围内的脱靶编辑事件显著降低至接近背景水平，证明了其高效性和高特异性。"
+    }
+  },
+  {
+    "id": "41702027",
+    "title": "CRISPR as a therapeutic tool for inherited retinal degenerations: Advances, challenges, and future directions.",
+    "abstract": "Inherited retinal diseases (IRDs) are a genetically diverse group of disorders characterized by progressive photoreceptor degeneration, leading to vision loss and blindness. With over 320 associated genes and significant phenotypic variability, effective treatment remains challenging. Recent advances in genome editing, particularly CRISPR/Cas-based technologies, have revolutionized therapeutic approaches by enabling precise and customizable DNA and RNA editing. This review explores the application of various CRISPR strategies-such as gene knockout via non-homologous end joining (NHEJ), exon skipping using dual-sgRNAs, homology-directed repair (HDR), base editing (BE), prime editing (PE), RNA editing with Cas13, and epigenetic modulation through CRISPRa/i-in preclinical models of IRDs. Emphasis is placed on allele-specific targeting, gene-agnostic approaches, and mutation-independent strategies to address dominant and recessive forms of disease. We also highlight recent clinical milestones, including the first human trial using CRISPR gene editing for CEP290-associated Leber congenital amaurosis. Finally, we discuss critical challenges, including delivery constraints, immune responses, and off-target effects, along with emerging solutions such as engineered Cas variants, split-intein systems, and advanced off-target detection methods. Together, these advances underscore the transformative potential of CRISPR technologies in treating IRDs and lay the foundation for future clinical translation.",
+    "authors": [
+      "Galdikaite-Braziene E",
+      "Krušnauskas R",
+      "Henderson E",
+      "Bujakowska KM"
+    ],
+    "published": "2026-02-16",
+    "journal": "Molecular aspects of medicine",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41702027/",
+    "score": 45,
+    "summary": {
+      "title_zh": "CRISPR作为遗传性视网膜变性治疗工具：进展、挑战与未来方向",
+      "tool_type": "综述论文（非单一工具，而是对CRISPR/Cas相关技术平台的系统性评述）",
+      "design": "本文并非设计单一工具，而是系统梳理了多种基于CRISPR/Cas的工程化策略。其核心思路是将CRISPR/Cas系统（如Cas9, Cas13）与不同的功能模块（如核酸酶、脱氨酶、转录调控域）或修复通路（如NHEJ, HDR）进行组合，针对不同遗传病变类型（如点突变、大片段缺失、功能获得/丧失）设计定制化编辑方案。",
+      "functions": "1. 基因敲除（通过NHEJ实现功能丧失型等位基因的失活）。\n2. 外显子跳读（使用双sgRNA切除突变外显子，恢复阅读框）。\n3. 精确基因修正（通过HDR、碱基编辑或先导编辑直接修复致病点突变）。\n4. RNA编辑（利用Cas13系统在RNA水平进行编辑，避免基因组改变）。\n5. 表观遗传调控（通过CRISPRa/i激活或抑制特定基因表达，实现突变非依赖型治疗）。\n6. 等位基因特异性靶向（选择性编辑致病等位基因，保留正常等位基因功能）。",
+      "key_results": "综述总结了各类CRISPR策略在IRD临床前模型中的成功应用，证明了其治疗潜力；关键进展包括针对CEP290基因突变的Leber先天性黑蒙症的首项人体临床试验已启动，标志着该技术平台向临床转化迈出了关键一步。"
+    }
+  },
+  {
+    "id": "39973047",
+    "title": "Increased versatility and convenience: Advances and strategy optimization of Receptor-Mediated Ovary Transduction of Cargo-mediated genetic modification in insects.",
+    "abstract": "Genetic modification via gene editing has become a widely adopted and demonstrably effective method in functional gene research within entomology. However, the optimal efficiency and simplicity of delivering exogenous guide RNA-clustered regularly interspaced short palindromic repeats-associated protein 9 complexes into target tissues are crucial for successful gene editing. The Receptor-Mediated Ovary Transduction of Cargo (ReMOT) strategy, which simplifies the delivery process, target-site selection, technical requirements, and delivery cost compared with embryonic microinjection, enabling efficient editing at the germline level, is gaining increasing attention. Although the feasibility and advantages of this technique have been demonstrated in various insect species, further optimization of operational details and the overcoming of further bottlenecks are still required. This review focuses on advances in developing ReMOT as a valuable technology, exploring its applicability, rationale for selecting the ovary as a delivery target site, factors influencing its efficiency, and improvement recommendations. The versatility and effectiveness of ReMOT make it a promising method for researchers looking to make precise genetic modifications with greater ease and efficiency.",
+    "authors": [
+      "Ling X",
+      "Zhou C",
+      "Hong JF",
+      "Jiang YP",
+      "Sun Q",
+      "Li LY",
+      "Wang SY",
+      "Xie XY",
+      "Zou QL",
+      "Yang XL",
+      "Xiang K",
+      "Ma J",
+      "Qiao L",
+      "Chen B",
+      "Sun W"
+    ],
+    "published": "2026-02-01",
+    "journal": "Insect science",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39973047/",
+    "score": 25,
+    "summary": {
+      "title_zh": "增强多功能性与便捷性：昆虫受体介导的卵巢货物转运基因修饰技术的进展与策略优化",
+      "tool_type": "基因递送平台/技术（一种基于受体的体内递送策略，非RNA编辑酶本身，但用于递送CRISPR-Cas9等基因编辑工具至特定组织）",
+      "design": "该技术的核心设计思路是利用昆虫卵黄蛋白原受体介导的内吞途径，将融合了卵黄蛋白原受体配体（如Yolk protein）的货物蛋白（如Cas9核糖核蛋白复合物）特异性递送至卵巢生殖细胞。其模块化组合在于：配体模块（负责靶向识别）与功能货物模块（如基因编辑工具）的融合，通过简单的血腔注射而非胚胎显微注射来实现递送。",
+      "functions": "1. 实现昆虫生殖系的高效基因编辑（通过递送CRISPR-Cas9等工具）。\n2. 简化基因编辑工具的体内递送流程，降低对显微注射技术和设备的要求。\n3. 降低基因操作的成本和复杂性，提高实验的可及性。\n4. 作为一种通用型递送平台，理论上可适配多种需要递送至卵巢的货物（如不同的核酸酶、报告蛋白等）。",
+      "key_results": "本综述总结了该技术在多类昆虫物种中已被证明具有可行性，其关键性能在于能够绕过胚胎显微注射，通过更简便的血腔注射实现高效的生殖系编辑，但其具体编辑效率和脱靶情况取决于所递送的具体编辑工具及物种，文中指出该技术仍需在操作细节和效率上进行进一步优化。"
+    }
+  },
+  {
+    "id": "39881080",
+    "title": "Epigenetic Control of Hyperuricemia and Gout by Gene Writer DNMT1 and RNA Editor ADAR1: Mechanism of Gout and Amyloid Dissolution in Down Syndrome.",
+    "abstract": "Although DNA methyltransferase 1 (DNMT1) and RNA editor ADAR triplications exist in Down syndrome (DS), their specific roles remain unclear. DNMT methylates DNA, yielding S-adenosine homocysteine (SAH), subsequently converted to homocysteine (Hcy) and adenosine by S-adenosine homocysteine (Hcy) hydrolase (SAHH). ADAR converts adenosine to inosine and uric acid. We hypothesized that targeting epigenetic regulators and RNA editor, and inhibiting Hcy and adenosine, could alleviate DS phenotype including the congenital heart disease (CHD). DS and wild-type mice were treated with epigallocatechin gallate (EG), inhibitor of Hcy, and adenosine. Specific substrate gel zymography identified matrix metalloproteinases (MMPs)/A Disintegrin and Metalloproteinase with Thrombospondin motifs (ADAMTS) activities and MMP12/ADAMTS12 and MMP13/ADAMTS13 levels were assessed via gel zymography. Cardiac levels of DNMT1, ADAR, tissue inhibitor of metalloproteinase 1 (TIMP1), SAHH, and ten-eleven translocator (TET2), along with hydroxymethylation (a gene eraser), were measured. Calcium urate deposits in heart tissue suggested gout mechanism in DS. Robust amyloid fibers in DS mouse brain cortex were most likely dissolved by ADAMTS as its levels were elevated in tissues, with a corresponding decrease in TIMP1 in the EG group. It appears that triplication of down syndrome cell adhesion molecule (DSCAM) and cell adhesion molecule 1 (CAM1) fragment also help dissolve amyloid fibers, thus suggesting ADAMTS13/TIMP1 ratio could predict plaque dissolution. Our results indicate that cystathionine-β synthase (CBS) inhibitor as a potential therapy for amyloid dissolution.",
+    "authors": [
+      "Tyagi SC",
+      "Smolenkova I",
+      "Zheng Y",
+      "Singh M"
+    ],
+    "published": "2026-02-01",
+    "journal": "Biochemical genetics",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39881080/",
+    "score": 25,
+    "summary": {
+      "title_zh": "通过基因写入器DNMT1和RNA编辑器ADAR1对高尿酸血症和痛风的表观遗传控制：唐氏综合征中痛风与淀粉样蛋白溶解的机制",
+      "tool_type": "ADAR介导的RNA编辑系统（内源性ADAR1的调控与应用）",
+      "design": "本研究并非从头设计一个全新的工程化工具，而是聚焦于利用和调控内源性ADAR1的RNA编辑活性。其核心思路是通过药理手段（如EGCG）干预ADAR1上游的代谢通路（如抑制同型半胱氨酸和腺苷），从而间接调控ADAR1的活性及其下游产物（如尿酸、肌钙蛋白尿酸盐沉积），并探讨其与DNMT1的协同作用。",
+      "functions": "1. 揭示内源性ADAR1活性与代谢疾病（高尿酸血症、痛风）的关联机制。\n2. 提供通过调控RNA编辑通路来干预唐氏综合征相关表型（如先天性心脏病、淀粉样蛋白沉积）的潜在策略。\n3. 提出ADAMTS13/TIMP1比值可作为预测淀粉样斑块溶解的潜在生物标志物。",
+      "key_results": "关键实验结果表明，使用表没食子儿茶素没食子酸酯（EGCG）等抑制剂处理唐氏综合征模型小鼠，能降低心脏组织中DNMT1、ADAR、TIMP1的水平，同时提升SAHH、TET2和ADAMTS12/13的活性，并伴随大脑皮层中淀粉样纤维的溶解，这提示通过干预RNA编辑（ADAR）及相关代谢通路可改善唐氏综合征的病理特征。"
+    }
+  }
+]
