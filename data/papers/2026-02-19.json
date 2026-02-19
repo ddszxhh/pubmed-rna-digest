@@ -1,0 +1,134 @@
+[
+  {
+    "id": "41707278",
+    "title": "Recent advances in understanding the roles of PPR proteins in plant responses to biotic and abiotic stresses.",
+    "abstract": "Pentatricopeptide repeat (PPR) proteins, one of the largest families of RNA-binding proteins in higher plants, play essential roles in the post-transcriptional regulation of RNA metabolism in organelles. PPR proteins are predominantly localized in mitochondria and/or chloroplasts, and participate in various post-transcriptional processes, including RNA editing (C-to-U conversion), intron splicing, RNA stabilization, cleavage, and translation. Although the importance of PPR proteins in organellar biogenesis and plant development are well established, recent studies have revealed their critical roles in plant's response to biotic and abiotic stresses. In this review, recent advances in understanding how distinct subclasses of P- and PLS-class PPR proteins mediate organellar RNA metabolism and influence stress signaling networks in plant's response to biotic and abiotic stresses are summarized. In particular, this review focuses on their functional relevance in responses to drought, salinity, extreme temperatures, heavy metal stress response, as well as pathogen infection, with emphasis on mechanisms involving reactive oxygen species homeostasis and organelle-to-nucleus retrograde signaling. Furthermore, recent progress in the synthetic redesign of PPR motifs, which enables programmable RNA recognition, is discussed. These advances provide valuable insights into the regulatory roles of PPR proteins and highlight the potential applications of synthetic PPR systems as tools to improve plant performance and resilience to environmental stress in changing climate conditions.",
+    "authors": [
+      "Lee K"
+    ],
+    "published": "2026-02-12",
+    "journal": "Journal of plant physiology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41707278/",
+    "score": 55,
+    "summary": {
+      "title_zh": "PPR蛋白在植物响应生物与非生物胁迫中作用的最新研究进展",
+      "tool_type": "综述论文（非具体工具），但讨论了基于PPR蛋白的合成生物学平台潜力",
+      "design": "本文未直接设计具体工具，但总结了PPR蛋白的天然模块化结构（如P类和PLS类）及其在RNA识别中的作用。核心思路在于利用其可编程的RNA结合特性（通过合成重设计PPR基序），为构建人工RNA调控系统提供基础。",
+      "functions": "1. 作为潜在的合成生物学工具平台：通过工程化PPR蛋白实现可编程的RNA识别与结合。\n2. 调控细胞器RNA代谢：包括RNA编辑（C-to-U转换）、内含子剪接、RNA稳定与切割、翻译调控。\n3. 应用于植物抗逆性改良：通过调控胁迫相关基因的RNA代谢，增强植物对干旱、盐碱、极端温度、重金属胁迫及病原体感染的耐受性。",
+      "key_results": "本文为综述，未报告具体实验数据，但总结了领域关键进展：天然PPR蛋白通过维持活性氧稳态和细胞器-细胞核逆行信号参与胁迫响应；合成PPR基序的重设计已证明可实现程序化RNA识别，为开发新型RNA调控工具奠定基础。"
+    }
+  },
+  {
+    "id": "41705210",
+    "title": "Structural and mechanistic basis of ADAR1-mediated RNA editing and immune regulation.",
+    "abstract": "Adenosine deaminase acting on RNA 1 (ADAR1) is a central regulator of innate immunity. By binding to and catalyzing adenosine-to-inosine deamination within double-stranded RNAs, ADAR1 mitigates the immunogenicity of self-derived RNAs and preserves cellular homeostasis. In this review, we summarize recent structural and mechanistic advances that illuminate key features of ADAR1 architecture, including how its multi-domains engage dsRNA substrates and contribute to substrate selectivity. Integrated with decades of biochemical and genetic studies, these insights refine our understanding of ADAR1's catalytic mechanism, domain-specific activities, and roles in suppressing immune signaling. We further highlight emerging knowledge on ADAR1's RNA substrate landscape, its interactions with protein partners, and the mechanistic principles that underlie its broad RNA editing and immune regulatory functions, with implications for disease pathogenesis and therapeutic RNA editing.",
+    "authors": [
+      "Deng X",
+      "Elsharkawy M",
+      "Gao Y"
+    ],
+    "published": "2026-04-01",
+    "journal": "Cell insight",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41705210/",
+    "score": 45,
+    "summary": {
+      "title_zh": "ADAR1介导的RNA编辑与免疫调控的结构与机制基础",
+      "tool_type": "ADAR1 RNA编辑系统综述（非新型工具，但为工具开发提供基础）",
+      "design": "本文并非介绍一个新设计的工具，而是系统综述了内源性ADAR1蛋白作为天然RNA编辑系统的核心设计原理。其核心思路在于：ADAR1通过其多个结构域（如dsRNA结合域、催化域）协同识别并结合双链RNA底物，催化腺苷（A）脱氨变为肌苷（I），从而改变RNA序列信息。其底物选择性和编辑效率受结构域间协作、RNA二级结构及蛋白质互作伙伴的精密调控。",
+      "functions": "1. **位点特异性RNA编辑**：催化双链RNA区域中的A-to-I编辑。\n2. **免疫调控**：通过编辑自身RNA，防止其被先天免疫系统（如MDA5）识别为“非我”物质，从而抑制干扰素反应，维持细胞稳态。\n3. **基础研究平台**：对ADAR1结构与机制的深入理解，为设计基于ADAR的**可编程RNA编辑器**（如将ADAR催化域与向导RNA结合）提供了关键的工程化蓝图和原理指导。",
+      "key_results": "本文是一篇综述，未报告新的实验数据。其核心价值在于整合并总结了关键历史与近期研究成果，阐明了ADAR1的**结构基础**（如各结构域如何结合dsRNA）、**催化机制**和**在免疫抑制中的关键作用**，这些知识是开发高效、特异性RNA编辑工具不可或缺的理论基础。"
+    }
+  },
+  {
+    "id": "41702895",
+    "title": "Exogenous Epstein-Barr virus nuclear antigen 1 induces ADAR1-driven tumor resistance against immunotherapy.",
+    "abstract": "Immune checkpoint blockade (ICB) therapy continues to face limitations due to tumor resistance linked to suppressed interferon (IFN) signaling. This suppression can be attributed to multiple mechanisms, among which viral pathogens represent a compelling though not yet fully elucidated factor. Here, we demonstrate that exogenous Epstein-Barr virus-encoded EBNA1 drives immunosuppression via enhanced RNA-editing enzyme ADAR1-mediated RNA editing. Comparative tumor model analyses revealed that EBNA1 overexpression reduced CD8",
+    "authors": [
+      "Liu C",
+      "Sun Z",
+      "Li C",
+      "Zhou Y",
+      "Gao X",
+      "Zhong Y",
+      "Luo X",
+      "Wang C",
+      "Zhang Y",
+      "Ni C",
+      "Peng M",
+      "Jian W",
+      "Yang Y",
+      "Zhang X",
+      "Ren Y",
+      "Gong X",
+      "Zhao M",
+      "Guo X",
+      "Cheng C",
+      "Chen J",
+      "Li X"
+    ],
+    "published": "2026-02-18",
+    "journal": "Signal transduction and targeted therapy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41702895/",
+    "score": 35,
+    "summary": {
+      "title_zh": "外源性EB病毒核抗原1通过诱导ADAR1驱动的肿瘤免疫治疗抵抗",
+      "tool_type": "ADAR1介导的RNA编辑机制研究模型/致病机制研究平台",
+      "design": "本研究并非直接设计一个可编程的RNA编辑工具，而是将外源性病毒蛋白EBNA1的引入作为一个“扰动工具”，用于研究其如何通过上调内源性RNA编辑酶ADAR1的活性，进而驱动肿瘤免疫抵抗。其核心思路是利用EBNA1过表达模型，剖析“病毒蛋白→ADAR1激活→异常RNA编辑→干扰素信号抑制→免疫逃逸”这一因果链条。",
+      "functions": "1. **机制研究工具**：用于揭示病毒蛋白如何通过劫持宿主RNA编辑系统（ADAR1）来抑制抗肿瘤免疫反应。\n2. **靶点验证平台**：验证了ADAR1及其介导的异常RNA编辑是连接病毒感染与ICB治疗抵抗的关键节点，为联合治疗策略（ICB + ADAR1抑制）提供了理论依据。\n3. **生物标志物发现模型**：提示EBNA1和ADAR1活性可作为预测ICB疗效的潜在生物标志物。",
+      "key_results": "关键实验结果表明，在肿瘤模型中过表达EBNA1可显著上调ADAR1的p150亚型及其介导的A-to-I RNA编辑（特别是在与干扰素反应相关的基因转录本中），导致肿瘤微环境中CD8+ T细胞浸润减少，并使肿瘤对PD-1抑制剂治疗产生抵抗；而敲低ADAR1则可逆转这种免疫抑制表型，恢复ICB疗效。"
+    }
+  },
+  {
+    "id": "41640466",
+    "title": "Engineering delivery platforms for CRISPR-Cas and their applications in healthcare, agriculture and beyond.",
+    "abstract": "Clustered regularly interspaced short palindromic repeats (CRISPR)-Cas systems have transformed genome editing through unprecedented precision, and next-generation variants (base and prime editors) further enhance specificity by enabling targeted nucleotide changes without introducing double-strand DNA breaks. These technologies have unlocked broad applications in therapeutic gene correction, functional genomics, infectious disease management, diagnostics, agricultural engineering, environmental biotechnology, and synthetic biology. However, the targeted delivery of these systems remains a major challenge due to the large and chemically distinct nature of their components, including Cas protein or its base/prime editor fusions, guide RNA, and in some cases, DNA repair templates-which complicate packaging, stability, and cellular uptake. Additional hurdles arise from tissue and cell-type specificity, differential intracellular environments, variable editing efficiencies, and the persistent risk of off-target genome modifications. This review outlines the key challenges in the delivery of CRISPR technologies as well provides a comprehensive overview of both current and emerging delivery strategies, including viral vectors (adenovirus, adeno-associated virus, and lentivirus), non-viral physical approaches (microinjection, electroporation, ultrasound, and hydrodynamic tail-vein injection), and nanoparticle-based modalities (lipid and polymeric nanoparticles, gold nanoparticles, DNA nanostructures, and extracellular vesicles). We also discussed the diverse applications of CRISPR-Cas9 in gene therapy, immune cell engineering for cancer therapies, and agricultural innovation.",
+    "authors": [
+      "Bharti N",
+      "Modi U",
+      "Bhatia D",
+      "Solanki R"
+    ],
+    "published": "2026-02-17",
+    "journal": "Nanoscale advances",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41640466/",
+    "score": 35,
+    "summary": {
+      "title_zh": "用于CRISPR-Cas系统的递送平台工程及其在医疗、农业等领域的应用",
+      "tool_type": "综述论文（非单一工具，而是对CRISPR-Cas系统递送平台的全面评述）",
+      "design": "本文未设计单一新工具，而是系统性地梳理和分类了现有及新兴的递送策略。其核心思路是：针对CRISPR-Cas系统（包括Cas蛋白、碱基编辑器、先导编辑器及其gRNA等）大分子、化学性质多样的特点，通过工程化改造各类载体，以解决其包装、稳定性、细胞摄取和组织特异性递送等挑战。",
+      "functions": "本文综述的递送平台旨在实现以下功能：1. 将CRISPR-Cas系统（包括基因编辑、碱基编辑、先导编辑等）安全、高效、特异性地递送至目标细胞或组织。2. 支持CRISPR-Cas系统在基因治疗（如基因校正）、癌症免疫细胞工程、农业创新（如作物育种）、功能基因组学、传染病管理、诊断、环境生物技术和合成生物学等领域的广泛应用。",
+      "key_results": "本文是一篇综述，未报告具体的实验数据。其关键贡献在于系统性地总结了各类递送平台（包括病毒载体、非病毒物理方法、纳米颗粒等）在解决CRISPR-Cas系统递送挑战方面的现状与潜力，并指出了组织/细胞靶向性、编辑效率、脱靶风险等仍是需要持续优化的关键性能指标。"
+    }
+  },
+  {
+    "id": "41703264",
+    "title": "Protective mutations associated with APOE in Alzheimer's disease.",
+    "abstract": "Alzheimer' s disease (AD) is a progressive neurodegenerative disorder characterized by a spectrum of cognitive impairments, ranging from mild memory loss to severe cognitive decline and, ultimately, death. The global incidence of AD is projected to increase significantly, with late-onset AD being predominantly sporadic in nature. Over the past three decades, the Apolipoprotein E (APOE) gene has been recognized as the most important single genetic determinant of sporadic AD risk. The APOE4 allele is a major risk factor for AD and is known to exacerbate the pathological process for AD. Identifying protective variants that may reduce the risk or delay the onset of AD is of great significance for the development of effective treatments. This review comprehensively examines the protective effects of APOE and its related protective mutations. It also explores the impact of these unique protective variants at the cellular level during the pathological progression of AD. Furthermore, the review compiles new insights for AD treatment offered by these protective mutations, exploring the potential applications of APOE and its related protective variants in advanced therapeutic strategies, including gene editing, RNA editing, and stem cell therapy.",
+    "authors": [
+      "Ma Y",
+      "Li Y",
+      "Wu G",
+      "Liu L",
+      "Tian M",
+      "Han X",
+      "Chen X",
+      "Xuan X",
+      "Zheng T",
+      "Gao X",
+      "Xia Q",
+      "Li F",
+      "Wang D"
+    ],
+    "published": "2026-02-17",
+    "journal": "Molecular psychiatry",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41703264/",
+    "score": 25,
+    "summary": {
+      "title_zh": "与阿尔茨海默病APOE相关的保护性突变综述",
+      "tool_type": "综述论文（非具体工具/平台，而是关于基因/RNA编辑治疗策略的知识总结与展望）",
+      "design": "本文并非介绍一个具体的工程化工具，而是通过系统综述，梳理了APOE基因及其保护性突变在AD中的作用。其核心思路是：1）总结APOE等位基因（尤其是保护性变异）如何影响AD病理进程；2）基于这些遗传学发现，展望如何将其转化为治疗策略，例如通过基因编辑、RNA编辑或干细胞疗法来模拟或引入保护性功能。",
+      "functions": "本文主要功能是提供知识基础和策略展望，而非直接实现技术操作。其应用导向包括：1）为开发靶向APOE的基因治疗（如CRISPR介导的基因编辑）提供靶点依据；2）为利用可编程RNA编辑系统（如ADAR介导的A-to-I编辑）调控APOE表达或功能提供理论支持；3）为基于干细胞的疗法设计提供遗传背景信息。",
+      "key_results": "本文是一篇综述，未报告原始实验数据。其关键结论是：APOE基因（特别是ε4等位基因）是散发性AD最重要的遗传风险因子，而某些保护性突变能降低风险或延迟发病；这些发现为开发基于基因编辑、RNA编辑等先进治疗策略提供了潜在的分子靶点和理论框架。"
+    }
+  }
+]
