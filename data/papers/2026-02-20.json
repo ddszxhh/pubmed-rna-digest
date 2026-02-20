@@ -1,0 +1,130 @@
+[
+  {
+    "id": "41712528",
+    "title": "Polyvalent Guide RNAs Enhance the CRISPR-Mediated Suppression of a Human Coronavirus.",
+    "abstract": "While CRISPR enzymes have become important tools for targeted gene editing in mammalian cells, they can also be used to specifically target and deplete viral nucleic acids to treat infections; this can be accomplished by delivering an RNA-targeting CRISPR effector like Cas13 along with a guide RNA (gRNA) that recognizes sequences from the genomes of single-stranded RNA (ssRNA) viruses. Previously, we hypothesized that by designing individual gRNAs able to target multiple, similar-but-not-identical viral sequences simultaneously (\"polyvalent\" guide RNAs or pgRNAs), gRNA's polyvalency would overcome any deficits caused by mispairing between the gRNA and the viral targets and, hence, still increase Cas13's antiviral potency and prevent mutagenic escape. We subsequently demonstrated this was the case using a model of viral infection in plants; however, it was not determined whether this strategy would also work against a human virus. Here, pgRNAs were designed to target multiple RNA sequences within human coronavirus 229E (hCoV-229E) and delivered along with Cas13 into a human lung epithelial cell line infected by hCoV-229E. CRISPR antiviral treatments using pgRNAs exhibited significant viral suppression in a CRISPR-dependent manner─more so than their single-target gRNA counterparts, even when multiple single-target gRNAs were used simultaneously. This improvement was also observed even as Cas13 with those same pgRNAs exhibited less \"collateral\" or nonspecific RNase activity relative to their single-target counterparts, which could imply that they may have greater specificity and safety profiles as therapeutic agents. Our findings demonstrate a computational and experimental pipeline by which pgRNAs, created using an unconventional gRNA design strategy, can be generated and validated to target human viruses using CRISPR antiviral biotechnologies more effectively.",
+    "authors": [
+      "Magdy M",
+      "Tinker-Kulberg R",
+      "Josephs EA"
+    ],
+    "published": "2026-02-19",
+    "journal": "ACS synthetic biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41712528/",
+    "score": 65,
+    "summary": {
+      "title_zh": "多价向导RNA增强CRISPR介导的人类冠状病毒抑制",
+      "tool_type": "CRISPR-Cas13抗病毒系统（RNA靶向CRISPR工具）",
+      "design": "核心思路是设计一种“多价向导RNA”（pgRNA），其序列能够同时靶向病毒基因组中多个相似但不完全相同的RNA序列。这种设计通过容忍gRNA与病毒靶标之间的错配，旨在提高Cas13对病毒序列的识别广度，从而克服病毒突变逃逸问题。",
+      "functions": "1. 特异性靶向并切割单链RNA病毒（如人类冠状病毒）的基因组RNA。\n2. 抑制病毒感染，作为潜在的抗病毒治疗工具。\n3. 通过多价设计，理论上可同时应对病毒序列的多样性，预防病毒逃逸。",
+      "key_results": "在感染人类冠状病毒229E的人肺上皮细胞系中，与传统的单靶点gRNA（即使组合使用多个）相比，pgRNA与Cas13联用能更有效地抑制病毒，且表现出更低的非特异性RNase“附带”活性，表明其可能具有更高的特异性和安全性。"
+    }
+  },
+  {
+    "id": "41712125",
+    "title": "Miniaturized CRISPR: Ultra Compact Systems for In Vivo Delivery and Portable Diagnostics.",
+    "abstract": "Reduced-size CRISPR systems have become a possible remedy to the delivery and size constraints of the traditional SpCas9 (~ 1368 Å). Recently described small nucleases, including Cas12f (400-700 Å) or CasX (~ 980 Å), along with designed mini-Cas9 versions, can efficiently be used in vivo to edit cells as well as to perform point-of-care diagnostics because of their lower molecular weight and less complex structures. This review will sum up progress in compact Cas protein engineering, guide RNA optimization, and delivery vector miniaturization, and point to their influence in therapeutic gene editing and portable diagnostic platforms. We additionally cover the contemporary issues of interest, such as off-target activity, delivery barriers and regulatory requirements, and future opportunities provided through AI-assisted protein design and synthetic biology. The miniaturized CRISPR technology is bound to substantially transform the translational arena of gene editing and world diagnostics.",
+    "authors": [
+      "Saxena S",
+      "Saxena S",
+      "Gupta D"
+    ],
+    "published": "2026-02-19",
+    "journal": "Annals of biomedical engineering",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41712125/",
+    "score": 35,
+    "summary": {
+      "title_zh": "微型化CRISPR：用于体内递送与便携式诊断的超紧凑系统",
+      "tool_type": "微型化CRISPR基因编辑与诊断系统平台（涵盖Cas12f、CasX、mini-Cas9等）",
+      "design": "核心思路是通过发掘或工程化改造天然的小尺寸Cas核酸酶（如Cas12f、CasX），或对传统SpCas9进行结构精简（mini-Cas9），以克服其大尺寸带来的递送难题。同时，通过优化向导RNA（gRNA）设计和匹配微型化递送载体（如AAV），构建一套完整的、尺寸超紧凑的CRISPR工具包。",
+      "functions": "1. 基因编辑：在体内进行高效、尺寸受限环境（如使用AAV载体）下的基因编辑。\n2. 便携式诊断：利用其小尺寸和高效切割活性，开发用于即时检测（POCT）的便携式诊断平台。\n3. 作为可编程的RNA/DNA靶向工具平台，为治疗性基因编辑和现场诊断应用提供基础。",
+      "key_results": "本综述总结指出，这些微型化CRISPR系统（如Cas12f、CasX）因其分子量小、结构相对简单，已被证明能够在体内有效编辑细胞，并成功应用于即时诊断。然而，其脱靶活性、体内递送障碍以及监管要求仍是当前需要关注和优化的关键问题。"
+    }
+  },
+  {
+    "id": "41708996",
+    "title": "Two codes of RNA editing by deamination in human diseases.",
+    "abstract": "RNA editing is a post-transcriptional modification that expands transcriptomic and proteomic diversity. Advances in high-throughput sequencing across a broad range of biological and pathological contexts have enabled systematic identification of editing events driven by two major RNA deaminase families: ADAR and APOBEC, which catalyze adenosine-to-inosine (A-to-I) and cytidine-to-uridine (C-to-U) substitution, respectively. Genome-wide profiling of RNA editing has uncovered a substantial number of differentially edited loci in various conditions, implicating the post-transcriptional events in physiological and pathological regulation. Aberrant RNA editing alters the functional information of coding and noncoding transcripts, perturbing protein activity, RNA stability and other gene expression programs, which contributes to immune imbalance, viral infection, neurological impairment, metabolic disorders and tumorigenesis. The two codes of A-to-I and C-to-U RNA editing harbor common potential for single base conversion with varied expression of responsible enzymes across many physiological and pathological conditions. Here we provide a comprehensive and parallel overview on ADAR-mediated A-to-I and APOBEC-mediated C-to-U editing, with emphasis on their molecular mechanisms, physiological roles and pathological dysregulation in human health and disease.",
+    "authors": [
+      "Min DJ",
+      "Lee S",
+      "Lee YS",
+      "Cho J"
+    ],
+    "published": "2026-02-18",
+    "journal": "Experimental & molecular medicine",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41708996/",
+    "score": 35,
+    "summary": {
+      "title_zh": "人类疾病中脱氨介导的两种RNA编辑密码",
+      "tool_type": "综述论文（非具体工具，但系统梳理了ADAR与APOBEC两类天然RNA编辑系统的机制与应用潜力）",
+      "design": "本文并非介绍新工程设计，而是对自然界存在的两种主要RNA脱氨编辑系统（ADAR介导的A-to-I和APOBEC介导的C-to-U）进行平行综述。核心思路是系统比较这两类酶家族的分子机制、表达调控及其在生理与病理条件下的编辑“密码”特性。",
+      "functions": "1. 实现转录组与蛋白质组多样性扩展（通过A-to-I和C-to-U单碱基转换）。\n2. 调控编码与非编码RNA功能（影响蛋白质活性、RNA稳定性、基因表达程序）。\n3. 参与生理调控与疾病发生（涉及免疫平衡、病毒感染、神经功能、代谢紊乱、肿瘤生成等）。\n4. 作为潜在疾病生物标志物或治疗靶点（通过全基因组编辑谱鉴定差异编辑位点）。",
+      "key_results": "本文为综述，未报告具体实验数据，但总结关键发现：全基因组编辑谱分析揭示了多种生理与病理条件下存在大量差异编辑位点，异常编辑通过改变转录本功能信息参与人类疾病发生；两类编辑系统在不同情境中具有酶表达差异，共同构成单碱基转换的编辑潜力。"
+    }
+  },
+  {
+    "id": "41507603",
+    "title": "Redox-driven ADAR1 activation promotes Okazaki fragment maturation and DNA replication integrity.",
+    "abstract": "Okazaki fragment maturation requires efficient removal of RNA primers to form a continuous lagging strand, yet how mismatched primers introduced by error-prone primase are corrected remains unresolved. Here, we show that physiological levels of reactive oxygen species (ROS) initiate a redox-dependent mechanism that drives ADAR1-mediated adenosine-to-inosine (A-to-I) editing. Oxidation triggers ADAR1 dimerization at replication forks, enhancing RNA editing of mismatched primers-particularly those caused by ATP misincorporation on d(T+C)-rich centromeric DNA. This A-to-I editing step facilitates more efficient RNA primer degradation by RNase H2, thereby ensuring proper Okazaki fragment maturation. Disruption of ADAR1 oxidation results in increased unligated Okazaki fragments, single-stranded gaps and double-strand breaks, most prominently at centromeres. These findings reveal a role for ROS in safeguarding lagging-strand synthesis by coupling ADAR1 oxidation-induced A-to-I RNA editing to replication fork stability.",
+    "authors": [
+      "Chen B",
+      "Sun G",
+      "Kloeber JA",
+      "Xiao H",
+      "Ouyang Y",
+      "Zhao F",
+      "Li Y",
+      "Xu S",
+      "Dragojevic S",
+      "Wu Z",
+      "Zhu S",
+      "Han Y",
+      "Yin P",
+      "Tu X",
+      "Qin H",
+      "Zhou X",
+      "Luo K",
+      "Peterson KL",
+      "Huang J",
+      "Hitosugi T",
+      "Dai H",
+      "Deng M",
+      "Mutter RW",
+      "Lou Z"
+    ],
+    "published": "2026-02-01",
+    "journal": "Nature structural & molecular biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41507603/",
+    "score": 35,
+    "summary": {
+      "title_zh": "氧化还原驱动的ADAR1激活促进冈崎片段成熟与DNA复制完整性",
+      "tool_type": "内源性RNA编辑机制（ADAR1介导的A-to-I编辑）",
+      "design": "该研究揭示了一种由生理水平活性氧（ROS）触发的、氧化还原依赖的ADAR1激活机制。核心思路是：ROS氧化驱动ADAR1在复制叉处发生二聚化，从而增强其对错配RNA引物（特别是富含d(T+C)的着丝粒DNA上由ATP错配引入的引物）的腺苷到肌苷（A-to-I）编辑活性。",
+      "functions": "1. 实现位点特异性（错配RNA引物）的A-to-I RNA编辑。\n2. 通过编辑促进RNase H2对RNA引物的降解。\n3. 确保冈崎片段成熟，维护复制叉稳定性和DNA复制完整性。",
+      "key_results": "关键实验表明，ADAR1氧化激活机制显著提高了对错配RNA引物的编辑效率，从而促进其被RNase H2清除；破坏ADAR1氧化会导致未连接的冈崎片段、单链缺口和双链断裂显著增加，尤其在着丝粒区域最为明显，这验证了该机制在体内对DNA复制完整性的关键作用。"
+    }
+  },
+  {
+    "id": "41619003",
+    "title": "Mitochondrial genomes of Mentha reveal structural complexity and evolutionary diversity.",
+    "abstract": "Mitochondrial genomes play essential roles in plant energy metabolism and evolution, yet their structural complexity and diversity in plants remain poorly understood. This study aims to address the question by analyzing four newly assembled Mentha mitochondrial genomes (M. longifolia, M. suaveolens, M. pulegium, and M. requienii), which serve as valuable genomic resources for phylogenetic and evolutionary studies. Comparative analyses revealed structural diversity, codon usage bias, extensive RNA editing, and abundant repetitive sequences driving genomic rearrangements in the four mitochondrial genomes. Chloroplast-derived DNA fragments were dynamically integrated into the four Mentha mitochondrial genomes, highlighting ongoing interorganellar DNA transfer between plastids and mitochondria. Phylogenetic reconstructions based on mitochondrial, nuclear, and chloroplast genomes exhibit considerable discordance, reflecting complex evolutionary processes such as hybridization, introgression, and allopolyploidization within the genus. In conclusion, the structural diversity, codon usage bias, and ongoing interorganellar DNA transfer observed in Mentha mitochondrial genomes underscore their dynamic evolutionary nature. The discordance among mitochondrial, plastid, and nuclear phylogenies reflects complex evolutionary processes (possibly hybridization and allo-polyplodization) of Mentha species. These findings enhance the understanding of the mechanisms underlying the complexity and diversity of Mentha species and provide broader insights into the evolution of plant mitochondrial genomes.",
+    "authors": [
+      "Shao BY",
+      "Liu SJ",
+      "Zhang TQ",
+      "Xue JY"
+    ],
+    "published": "2026-01-31",
+    "journal": "Molecular genetics and genomics : MGG",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41619003/",
+    "score": 25,
+    "summary": {
+      "title_zh": "薄荷属线粒体基因组揭示结构复杂性与进化多样性",
+      "tool_type": "这不是一个RNA编辑工具或可编程RNA调控系统，而是一项关于植物线粒体基因组的比较基因组学与进化研究。",
+      "design": "本研究未设计工程化工具，其核心思路是通过对薄荷属四个物种进行线粒体基因组从头组装和比较分析，利用生物信息学方法揭示其结构特征与进化动态。",
+      "functions": "本研究不涉及工具开发，其功能在于：1) 提供高质量的薄荷属线粒体基因组资源；2) 解析线粒体基因组的结构多样性、RNA编辑事件和细胞器间DNA转移；3) 基于多基因组数据（线粒体、叶绿体、核基因组）进行系统发育分析，推断复杂的进化历史。",
+      "key_results": "关键实验结果包括：1) 在四个薄荷属线粒体基因组中发现了广泛的结构多样性、密码子使用偏好和大量的RNA编辑事件；2) 多基因组系统发育树之间存在显著不一致，揭示了薄荷属内可能存在的杂交、渐渗和异源多倍化等复杂进化过程。"
+    }
+  }
+]
