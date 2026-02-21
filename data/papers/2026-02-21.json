@@ -1,0 +1,143 @@
+[
+  {
+    "id": "41719393",
+    "title": "Glomerular routing of tumor-derived extracellular vesicles substantiates urinary biopsy.",
+    "abstract": "Urinary small extracellular vesicles (sEVs), which can reflect systemic conditions, hold great promise for noninvasive cancer diagnostics, yet the mechanism by which tumor-derived sEVs reach urine remains unclear. Here, we demonstrate that the glomerulus actively transcytoses circulating tumor-derived sEVs into urine. Using CRISPR guide RNA-tagged glioma sEVs and bioluminescent/fluorescent green-enhanced nano-lantern (GeNL)-tagged lung and pancreatic cancer sEVs, we tracked their journey from tumors to urine in multiple mouse models. In vivo and in vitro analyses revealed endocytic uptake and transcytotic release by glomerular cells, accompanied by changes in sEV size and surface composition. GeNL-tagged sEVs consistently showed higher signals in urine than plasma, indicating selective excretion. These findings redefine the glomerulus as a dynamic regulator of sEV processing and establish a mechanistic foundation for urinary liquid biopsy.",
+    "authors": [
+      "Kawaguchi S",
+      "Ajiri T",
+      "Mitsuya R",
+      "Tsuchiya R",
+      "Kunitake K",
+      "Tanaka Y",
+      "Yokoyama T",
+      "Sato K",
+      "Sato Y",
+      "Zhu Z",
+      "Chattrairat K",
+      "Kobayashi Y",
+      "Inoue K",
+      "Imaeda K",
+      "Ueno K",
+      "Ryuzaki S",
+      "Kato A",
+      "Kimura Y",
+      "Natsume A",
+      "Kojima R",
+      "Yasui T"
+    ],
+    "published": "2026-02-20",
+    "journal": "Science advances",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41719393/",
+    "score": 45,
+    "summary": {
+      "title_zh": "肿瘤来源细胞外囊泡的肾小球路径证实尿液活检的可行性",
+      "tool_type": "RNA标记与示踪系统（CRISPR gRNA标记系统 + 生物发光/荧光GeNL标记系统）",
+      "design思路": "本研究构建了两种用于示踪肿瘤来源小细胞外囊泡（sEVs）的标记系统：1）利用CRISPR gRNA作为可遗传的RNA条形码，标记并追踪胶质瘤sEVs；2）利用绿色增强型纳米灯笼（GeNL，一种生物发光/荧光融合报告蛋白）标记肺癌和胰腺癌sEVs。这两种系统共同构成了一个多模态、可遗传的sEVs体内示踪平台。",
+      "功能与应用": "1. **体内示踪**：实时、多模态（生物发光/荧光）示踪sEVs从肿瘤到尿液的完整体内路径。\n2. **机制解析**：阐明肾小球细胞通过内吞和跨细胞转运主动处理循环sEVs的机制。\n3. **诊断验证**：为利用尿液sEVs进行无创癌症诊断（液体活检）提供直接的机制依据和验证工具。",
+      "重要实验结果": "关键性能指标包括：1）在多种小鼠模型中，成功追踪到肿瘤来源的gRNA标记或GeNL标记的sEVs从原发肿瘤进入尿液；2）GeNL标记的sEVs在尿液中的信号持续高于血浆，证明其被选择性排泄；3）体外和体内实验证实肾小球细胞对内源性sEVs进行内吞、跨细胞转运并改变其大小和表面组成。"
+    }
+  },
+  {
+    "id": "40804123",
+    "title": "GenomePAM directs PAM characterization and engineering of CRISPR-Cas nucleases using mammalian genome repeats.",
+    "abstract": "Characterizing the protospacer adjacent motif (PAM) requirements of different Cas enzymes is a bottleneck in the discovery of Cas proteins and their engineered variants in mammalian cell contexts. Here, to overcome this challenge and to enable more scalable characterization of PAM preferences, we develop a method named GenomePAM that allows for direct PAM characterization in mammalian cells. GenomePAM leverages genomic repetitive sequences as target sites and does not require protein purification or synthetic oligos. GenomePAM uses a 20-nt protospacer that occurs ~16,942 times in every human diploid cell and is flanked by nearly random sequences. We demonstrate that GenomePAM can accurately characterize the PAM requirement of type II and type V nucleases, including the minimal PAM requirement of the near-PAMless SpRY and extended PAM for CjCas9. Beyond PAM characterization, GenomePAM allows for simultaneous comparison of activities and fidelities among different Cas nucleases on thousands of match and mismatch sites across the genome using a single gRNA and provides insight into the genome-wide chromatin accessibility profiles in different cell types.",
+    "authors": [
+      "Yu M",
+      "Ai L",
+      "Wang B",
+      "Lian S",
+      "Ip L",
+      "Liu J",
+      "Li L",
+      "Tsai SQ",
+      "Kleinstiver BP",
+      "Zheng Z"
+    ],
+    "published": "2026-02-01",
+    "journal": "Nature biomedical engineering",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40804123/",
+    "score": 35,
+    "summary": {
+      "title_zh": "GenomePAM：利用哺乳动物基因组重复序列指导CRISPR-Cas核酸酶的PAM表征与工程化",
+      "tool_type": "CRISPR-Cas PAM表征与筛选平台",
+      "design": "该平台的核心设计是利用人类基因组中广泛存在的重复序列作为天然靶点库。具体而言，它选取一个在人类二倍体细胞中出现约16,942次的20-nt原型间隔序列，其侧翼为近乎随机的序列，从而无需蛋白纯化或合成寡核苷酸，即可在哺乳动物细胞内直接、高通量地表征Cas酶的PAM偏好性。",
+      "functions": "1. 在哺乳动物细胞中直接、规模化地表征不同类型CRISPR-Cas核酸酶（如II型和V型）的PAM需求。\n2. 用于Cas酶变体的PAM工程化与评估（如鉴定近乎无PAM限制的SpRY的最小PAM需求，或扩展CjCas9的PAM）。\n3. 使用单一gRNA同时比较不同Cas核酸酶在基因组数千个匹配与错配位点上的活性和保真度。\n4. 揭示不同细胞类型中全基因组范围的染色质可及性图谱。",
+      "key_results": "实验证明，GenomePAM能够准确表征多种核酸酶的PAM需求，并成功应用于SpRY和CjCas9等酶的PAM特性分析；同时，该平台通过单次实验即可在全基因组范围内评估Cas酶的活性和特异性，并反映出细胞类型特异的染色质可及性差异。"
+    }
+  },
+  {
+    "id": "41601402",
+    "title": "Recombination and Retroprocessing in Broomrapes Reveal RNA-Mediated Gene Transfer Mechanism and a Generalizable Model for Mitochondrial Evolution in Heterotrophic Plants.",
+    "abstract": "The altered life history strategies of heterotrophic organisms often leave a profound genetic footprint on energy metabolism related functions. In parasitic plants, the reliance on host-derived nutrients and loss of photosynthesis in holoparasites have led to highly degraded to absent plastid genomes, but its impact on mitochondrial genome (mitogenome) evolution has remained controversial. By examining mitogenomes from 45 Orobanchaceae species including three independent transitions to holoparasitism and key evolutionary intermediates, we identified measurable and predictable genetic alterations in genomic shuffling, RNA editing, and intracellular (IGT) and horizontal gene transfer (HGT) en route to a nonphotosynthetic lifestyle. In-depth comparative analyses revealed DNA recombination and repair processes, especially conversion of RNA-mediated retroprocessing, as significant drivers for genome structure evolution. In particular, we identified a novel RNA-mediated IGT and HGT mechanism, which has not been demonstrated previously in cross-species and inter-organelle transfers. We propose a dosage effect mechanism to explain the biased transferability of plastid DNA to mitochondria across green plants, especially in heterotrophic lineages like parasites and mycoheterotrophs. Evolutionary rates scaled with these genomic changes, but the direction and strength of selection varied substantially among genes and clades, resulting in high contingency in mitochondrial genome evolution. Finally, we summarize mitochondrial evolutionary trends in Orobanchaceae that are potentially generalizable to other heterotrophic plants: increased recombination and repair activities, rather than relaxed selection alone, lead to differentiated genome structure compared to free-living species.",
+    "authors": [
+      "Cai L",
+      "Havird JC",
+      "Jansen RK"
+    ],
+    "published": "2026-01-31",
+    "journal": "Genome biology and evolution",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41601402/",
+    "score": 25,
+    "summary": {
+      "title_zh": "寄生植物线粒体进化中RNA介导的基因转移机制与通用模型",
+      "tool_type": "这不是一个工程化的RNA编辑工具或调控平台，而是一项关于自然界中RNA介导的基因转移（RNA-mediated gene transfer, RGT）机制的基础发现研究。它揭示了一种潜在的、天然的“RNA介导的跨物种/细胞器基因转移工具”的机制原型。",
+      "design": "本研究并非人工工程设计，而是通过比较基因组学分析，揭示了自然界中一种由RNA编辑和逆转录（retroprocessing）过程驱动的基因转移机制。其核心思路是：细胞内的RNA编辑事件产生序列变异，这些RNA经逆转录后，其cDNA通过DNA重组与修复途径整合到线粒体基因组中，从而实现基因在细胞器间或物种间的转移。",
+      "functions": "该研究揭示的自然机制本身并非可直接编程的工具，但其阐明的原理（RNA编辑 → 逆转录 → 重组整合）为未来开发新型合成生物学工具提供了灵感，潜在功能方向包括：1. 理解并模拟跨细胞器或跨物种的基因转移；2. 为利用RNA中间体进行定向基因组改写提供自然模型参考。",
+      "key_results": "通过对45个列当科物种（包含三次独立进化的全寄生谱系）的线粒体基因组进行深度比较分析，关键发现：1. 明确鉴定出一种全新的、由RNA介导的基因在细胞器间（IGT）和物种间（HGT）转移的机制；2. 揭示了DNA重组与修复（特别是RNA编辑产物的逆转录转换）是驱动寄生植物线粒体基因组结构进化的主要力量，并提出了一个可推广至其他异养植物的进化模型。"
+    }
+  },
+  {
+    "id": "41659616",
+    "title": "Multiplexed enrichment and tracking of lineages with CloneSweeper.",
+    "abstract": "A fundamental challenge in studying therapy resistance is understanding whether it results from pre-existing cellular states (\"priming\") or drug-induced changes (\"adaptation\"). While lineage barcoding enables retrospective analysis of cells before and after treatment, current methods struggle to efficiently capture rare lineages in single-cell RNA sequencing (scRNA-seq) or isolate multiple specific lineages simultaneously for functional study. To overcome these limitations, we developed CloneSweeper, a multiplexed lineage tracking platform that pools enrichment libraries to isolate or enrich multiple rare lineages. CloneSweeper utilizes a dual-function barcode expressed as both a Cas9 gRNA for live-cell sorting and a 3' UTR transcript for high-recovery detection in 10x Genomics scRNA-seq. We applied CloneSweeper to a model of BRAF V600E melanoma, where we identified that resistance to targeted therapy emerges from a polyclonal population of rare, pre-existing lineages. By simultaneously targeting and enriching 21 distinct rare lineages prior to treatment, we defined a heritable, primed state characterized by de-differentiation and elevated mesenchymal markers. We demonstrate that these primed cells are not quiescent but instead exhibit upregulated inflammatory and stress response signaling, specifically via the AP-1 and NF-κB1 pathways. CloneSweeper thus provides a robust framework for dissecting the molecular mechanisms of rare biological phenomena through simultaneous, multiplexed lineage isolation.",
+    "authors": [
+      "Vander Velde RJ",
+      "Ng RWS",
+      "Coté C",
+      "Shaffer SM"
+    ],
+    "published": "2026-01-30",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41659616/",
+    "score": 25,
+    "summary": {
+      "title_zh": "通过CloneSweeper实现谱系的多重富集与追踪",
+      "tool_type": "多重谱系追踪与富集平台（结合CRISPR-Cas9筛选与单细胞转录组学）",
+      "design": "CloneSweeper的核心设计是使用一种双功能条形码：该条形码既可作为Cas9的gRNA用于活细胞分选，又可作为3‘ UTR转录本用于10x Genomics单细胞RNA测序中的高回收率检测。通过将富集文库进行混合，该平台能够同时分离或富集多个稀有细胞谱系。",
+      "functions": "1. 多重谱系追踪：在单细胞水平上同时追踪多个细胞谱系在治疗前后的变化。\n2. 稀有谱系富集：高效捕获并分离单细胞RNA测序中难以检测的稀有细胞谱系。\n3. 功能研究：能够同时针对多个特定谱系进行分离，以用于后续的分子机制研究。",
+      "key_results": "在BRAF V600E黑色素瘤模型中，CloneSweeper成功同时靶向并富集了21个不同的稀有谱系，证实靶向治疗耐药性源于预先存在的、去分化且间充质标志物升高的稀有谱系多克隆群体，并揭示了这些细胞通过AP-1和NF-κB1通路上调炎症与应激反应信号。"
+    }
+  },
+  {
+    "id": "41614578",
+    "title": "Strain, procedures, and tools for reproducible genetic transformation and genome editing of the emerging plant model Spirodela polyrhiza.",
+    "abstract": "Duckweeds (Lemnaceae) have excellent potential for fundamental and applied research due to ease of cultivation, small size, and continuous fast clonal growth. However, their usage as model organisms and platforms for biotechnological applications is often limited by the lack of universal genetic manipulation methods necessary for transgene expression, gene editing, and other methods to modify gene expression. To identify suitable strains for genetic manipulation of the giant duckweed, Spirodela polyrhiza, we screened several genotypes for callus induction and regeneration and established genetic transformation. We identified SP162 to be amenable to Agrobacterium-mediated transformation via tissue culture. The procedure is robust and reproducible across laboratories, allowing stable expression of different reporter genes and selectable markers, enabling CRISPR/Cas9-mediated genome editing. In addition, due to a weak small RNA-based silencing response, S. polyrhiza sustains prolonged periods of transgene activity in transient expression assays. To promote duckweed research and encourage the adoption of S. polyrhiza, we have made SP162 (ID#: 5676) and its genome publicly available and provide here detailed procedures for its cultivation and transformation. Furthermore, we created a web server to explore its genome, retrieve gene sequences, and implement orthologous gene search and a gRNA design function for diverse CRISPR/Cas-based applications (https://agxu.uni-mainz.de/SP162/).",
+    "authors": [
+      "Barragán-Borrero V",
+      "de Santana Lopes A",
+      "Rodrigues Batista ED",
+      "Höfer M",
+      "Elias R",
+      "Chakraborty A",
+      "Ponce-Mañe A",
+      "Descombes C",
+      "Diezma-Navas L",
+      "Petraki L",
+      "Huber M",
+      "Xu S",
+      "Marí-Ordóñez A"
+    ],
+    "published": "2026-01-30",
+    "journal": "The New phytologist",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41614578/",
+    "score": 25,
+    "summary": {
+      "title_zh": "用于新兴植物模型紫萍（Spirodela polyrhiza）可重复遗传转化与基因组编辑的品系、流程与工具",
+      "tool_type": "植物遗传转化与基因组编辑平台（包含稳定转化品系、标准化操作流程及配套生物信息学工具）",
+      "design": "1. 通过筛选紫萍不同基因型，鉴定出适合农杆菌介导转化和再生的品系SP162。\n2. 围绕该品系，建立了标准化的组织培养、遗传转化和CRISPR/Cas9基因组编辑流程。\n3. 配套开发了包含基因组浏览、基因序列检索、同源基因搜索及gRNA设计功能的在线服务器，形成一套完整的工具集。",
+      "functions": "1. 实现紫萍的稳定遗传转化，用于外源基因（如报告基因、选择标记）的稳定表达。\n2. 支持CRISPR/Cas9介导的基因组编辑，用于基因敲除等研究。\n3. 利用其较弱的RNA沉默特性，支持较长时间的瞬时表达分析。\n4. 通过在线平台辅助基因序列分析和gRNA设计，服务于多种基于CRISPR/Cas的应用。",
+      "key_results": "1. 成功鉴定出紫萍品系SP162，其农杆菌介导的遗传转化流程稳健且在不同实验室间可重复，实现了稳定转化和CRISPR/Cas9编辑。\n2. 该品系在瞬时表达实验中能维持较长时间的转基因活性，且相关品系、基因组数据及操作流程均已公开，以促进该模型植物的广泛应用。"
+    }
+  }
+]
