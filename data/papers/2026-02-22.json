@@ -1,0 +1,120 @@
+[
+  {
+    "id": "41606460",
+    "title": "Polyploidy drives structural and functional evolution in Camellia mitochondrial genomes.",
+    "abstract": "Whole-genome duplication (polyploidy) is a primary driver of plant evolution, yet its impact on the co-evolving mitochondrial genome remains poorly understood. The genus Camellia, with its diverse ploidy levels, offers an ideal system to investigate the resulting structural and molecular evolution of the mitogenome. Comparative mitogenomic analysis across a ploidy gradient (2×, 4×, 6×) revealed that mitochondrial genome size (900 kb) and core gene content remained highly conserved despite significant nuclear genome expansion. However, polyploid species exhibited extensive genomic rearrangements compared to their diploid relatives, indicating substantial structural evolution. Lineage-specific selection was identified in metabolic genes, such as sdh3, suggesting molecular diversification of energy-related pathways. RNA editing patterns were independent of ploidy, maintaining a stable frequency and distribution of editing sites across all species, with Leucine being the most frequent conversion product. Additionally, we identified 17-22 chloroplast-to-mitochondrion DNA transfers (MTPTs), including 3-7 tRNA genes with intact structures. The retention of these fragments varied between lineages, reflecting neutral genomic flux rather than ploidy-dependent functional selection. Our findings demonstrate that while core mitogenomic features are robust to polyploidization, structural flux and lineage-specific molecular shifts are prominent. This study highlights the role of neutral processes and structural turnover in mitogenome evolution following whole-genome duplication, providing insights into cytonuclear coordination in polyploid Camellia.",
+    "authors": [
+      "Gao J",
+      "Zeng Y",
+      "Liao B",
+      "Yin Z",
+      "Wu W",
+      "Li Y"
+    ],
+    "published": "2026-01-28",
+    "journal": "BMC genomics",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41606460/",
+    "score": 25,
+    "summary": {
+      "title_zh": "多倍化驱动山茶属线粒体基因组的结构与功能演化",
+      "tool_type": "这不是一个工程化的RNA编辑工具或调控平台，而是一项关于植物线粒体基因组在自然多倍化背景下演化规律的基础研究。它提供了关于RNA编辑模式、细胞器间DNA转移等自然过程的系统知识，可作为未来设计合成生物学工具（如基于植物线粒体编辑系统）的参考背景。",
+      "design": "本研究未涉及人工工程设计。其核心思路是利用山茶属天然存在的多倍体梯度（2×, 4×, 6×）作为“自然实验系统”，通过比较基因组学方法，分析多倍化这一宏观演化力量对线粒体基因组结构、基因内容、RNA编辑及细胞器DNA转移的影响。",
+      "functions": "本研究本身不提供可直接编程的RNA工具。其价值在于为相关工具开发提供基础认知：\n1. 揭示了在多倍化过程中，线粒体RNA编辑的频率和分布模式保持稳定，这提示在植物中设计基于内源编辑机制的工程工具可能具有较好的稳定性。\n2. 系统鉴定了叶绿体向线粒体的DNA转移事件，包括具有完整结构的tRNA基因，为理解细胞器间遗传物质交流提供了案例，可能启发跨细胞器的RNA调控设计。\n3. 阐明了线粒体核心功能的保守性与结构的高度动态性并存，为在植物合成生物学中操作线粒体基因组提供了演化背景参考。",
+      "key_results": "1. 核心性能指标：线粒体基因组大小（约900 kb）和核心基因内容在多倍体物种中高度保守，但发生了广泛的结构重排；RNA编辑模式（频率与分布）独立于倍性水平，在所有物种中保持稳定。\n2. 关键发现：鉴定出17-22个叶绿体向线粒体的DNA转移片段，其中包含3-7个结构完整的tRNA基因；在代谢基因（如sdh3）中检测到谱系特异性选择，表明能量相关通路发生了分子多样化。"
+    }
+  },
+  {
+    "id": "41448292",
+    "title": "Organelle genome analysis reveals adaptation and conservation in endangered tree Phoebe chekiangensis.",
+    "abstract": "Phoebe chekiangensis, a nationally protected tree endemic to southeastern China, is of high ecological and economic value but lacks genomic resources for conservation and evolutionary studies. In this study, we assembled its complete organelle genomes, including a circular mitogenome of 864,971 bp and a plastome of 154,460 bp. The mitogenome is enriched in dispersed and simple sequence repeats, consistent with extensive structural rearrangements across Lauraceae, whereas coding regions (over 80 % similarity) remain largely collinear under strong functional constraints. We identified 31 mitochondrial plastid DNA sequences (26,890 bp; 3.11 % of the mitogenome), including five intact plastid protein-coding genes (PCGs) and 14 tRNAs, reflecting frequent plastid-to-mitochondrion transfers that may restore missing tRNAs and enhance genome variability. RNA editing analysis revealed 71 mitochondrial and 13 plastid sites, with cox1 harboring the most, suggesting post-transcriptional modification of respiratory genes that could contribute to stress tolerance. Comparative analyses showed that plastid PCGs evolve faster than mitochondrial PCGs, and atp6 displayed a signal of positive selection, potentially linked to adaptive adjustments in ATP synthase function and respiratory efficiency. Phylogenetic analyses based on organelle genomes confirmed the monophyly of Lauraceae but revealed little topological conflicts, likely reflecting lineage-specific substitution-rate heterogeneity. In conclusion, our results provide new insights into the dynamics of organelle genome evolution and establish valuable genomic resources for the conservation and molecular systematics of P. chekiangensis and Lauraceae.",
+    "authors": [
+      "Tang J",
+      "Hu YF",
+      "Shao JW",
+      "Li ZZ"
+    ],
+    "published": "2026-03-10",
+    "journal": "Gene",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41448292/",
+    "score": 15,
+    "summary": {
+      "title_zh": "濒危树种浙江楠细胞器基因组分析揭示其适应性与保守性",
+      "tool_type": "基因组资源与分析平台",
+      "design": "本研究并非开发一种可编程的RNA编辑工具，而是通过测序与生物信息学分析，构建了一套完整的细胞器基因组资源。其核心思路是：1）对浙江楠的线粒体和质体基因组进行从头组装与注释；2）通过比较基因组学、RNA编辑位点鉴定及选择压力分析，系统解析其进化特征与潜在适应性机制。",
+      "functions": "1. 提供高质量的线粒体与叶绿体完整基因组序列，可作为分子系统学与物种鉴定的参考基因组。\n2. 鉴定细胞器基因组间的序列转移事件（如质体DNA插入线粒体）及RNA编辑位点，为研究基因组动态与转录后调控提供数据。\n3. 通过选择压力分析（如atp6基因的正选择信号）和比较分析，揭示与适应性（如呼吸效率调整）相关的潜在遗传基础。",
+      "key_results": "1. 成功组装了浙江楠的完整线粒体基因组（864,971 bp）和质体基因组（154,460 bp），发现线粒体基因组富含重复序列且结构重排频繁，但编码区在功能约束下保持高度共线性。\n2. 鉴定出71个线粒体和13个质体RNA编辑位点（cox1基因最多），并发现线粒体基因组中含有大量质体来源的DNA序列（占3.11%），包括完整的tRNA基因，这可能增强了基因组变异能力。"
+    }
+  },
+  {
+    "id": "41720886",
+    "title": "High-efficiency, transgene-free plant genome editing by viral delivery of an engineered TnpB.",
+    "abstract": "Genome editing has revolutionized plant biology research",
+    "authors": [
+      "Nagalakshmi U",
+      "Rodriguez JE",
+      "Nguyen T",
+      "Weissman RF",
+      "Thornton BW",
+      "Terrace CI",
+      "Savage DF",
+      "Dinesh-Kumar SP"
+    ],
+    "published": "2026-02-20",
+    "journal": "Nature plants",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41720886/",
+    "score": 15,
+    "summary": {
+      "title_zh": "通过病毒递送工程化TnpB实现高效、无转基因的植物基因组编辑",
+      "tool_type": "基于转座子相关蛋白TnpB的基因组编辑递送平台",
+      "design": "该工具的核心设计思路是：1) 将源自IS605/IS200转座子家族的TnpB蛋白（一种紧凑型RNA引导的核酸酶）进行工程化改造，优化其作为基因组编辑器的活性；2) 利用植物病毒（如烟草花叶病毒，TMV）作为载体，将编码工程化TnpB及其引导RNA（gRNA）的序列递送至植物细胞，从而避免将编辑组件整合到植物基因组中。",
+      "functions": "1. 实现植物基因组的高效、位点特异性编辑（产生双链断裂，进而通过非同源末端连接或同源重组修复引入突变）。\n2. 提供一种“无转基因”的编辑策略，编辑组件仅瞬时表达，不整合到植物基因组，有助于简化监管流程并加速育种应用。\n3. 作为一种新型的病毒递送编辑平台，尤其适用于难以进行传统遗传转化的作物。",
+      "key_results": "关键实验结果表明：1) 在烟草和生菜中，通过病毒递送工程化TnpB系统，在靶位点实现了高达约93%的编辑效率；2) 全基因组测序分析显示，该系统在植物中具有高度的特异性，未检测到明显的脱靶编辑；3. 成功获得了无外源转基因整合的、可稳定遗传的编辑植株。"
+    }
+  },
+  {
+    "id": "41715004",
+    "title": "Variation in guide RNA library representation results in gene effect score bias in genome-wide CRISPR screens.",
+    "abstract": "Genome wide CRISPR-based perturbation screens are powerful discovery tools enabling the identification of novel gene dependencies through either gain or loss of function. While genome wide guide RNA (gRNA) libraries have advantages when using enAsCas12a, such as multiplex single gRNAs per gene, they may be subject to similar confounding factors that can affect the interpretation of large genome-wide datasets. Here, we examine the impact of these variables in over twenty enAsCas12a multiple gRNA based perturbation screens performed using Humagne C, Humagne D and Inzolia libraries in human cells, as well as external datasets containing Cas9-based CRISPR library screens, including from DepMap. We demonstrate that the choice of CRISPR library is often the most significant factor that influences genetic perturbation results, outweighing other variables such as either target cell lines or culture media conditions. A potential contributor to this effect is gRNA representation within a given CRISPR library, where lower gRNA representation can lead to variable and more pronounced gene effect scores using either log fold change or Chronos analysis. These effects may be mitigated by using either multiple gRNA constructs per gene, by optimisation of CRISPR library production processes or by targeting with multiple independent gRNA libraries. Importantly, we also propose strategies for addressing gRNA representation bias during CRISPR screen hit prioritisation. CRISPR library gRNA representation dependent bias remains a major challenge in the interpretation of gene essentiality in perturbation screens.",
+    "authors": [
+      "Metz P",
+      "Alves-Vasconcelos S",
+      "Wallbank R",
+      "Riepsaame J",
+      "Brown S",
+      "Hassan AB"
+    ],
+    "published": "2026-02-20",
+    "journal": "BMC genomics",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41715004/",
+    "score": 15,
+    "summary": {
+      "title_zh": "gRNA文库代表性差异导致全基因组CRISPR筛选中的基因效应评分偏差",
+      "tool_type": "CRISPR筛选分析平台/方法学评估工具",
+      "design": "本研究并非设计新的编辑工具，而是对现有CRISPR筛选平台（特别是基于enAsCas12a和Cas9的gRNA文库）进行系统性评估。其核心思路是通过分析多个独立的全基因组gRNA文库（如Humagne C/D、Inzolia）在不同细胞系和培养条件下的筛选数据，识别影响结果解读的关键变量。",
+      "functions": "1. 评估与比较：评估不同CRISPR gRNA文库（如enAsCas12a与Cas9文库）在全基因组功能获得/丧失筛选中的表现。\n2. 偏差识别与校正：识别由gRNA文库内gRNA代表性不均导致的基因效应评分偏差，并提出在筛选结果优先排序（hit prioritisation）中缓解此偏差的策略。\n3. 质量控制指南：为优化CRISPR文库生产流程、使用多gRNA构建体或多独立gRNA文库提供依据，以提高筛选结果的可靠性。",
+      "key_results": "通过对20多个基于enAsCas12a多gRNA的筛选及外部Cas9数据集（包括DepMap）的分析发现，CRISPR文库的选择是影响遗传扰动结果的最显著因素，甚至超过细胞系或培养基条件；文库中gRNA代表性不足会导致基于log fold change或Chronos分析的基因效应评分出现可变且更显著的偏差。"
+    }
+  },
+  {
+    "id": "41714151",
+    "title": "Evolutionary mobility and genetic dynamics of MORFFO genes: shuttling among ancient plant lineages.",
+    "abstract": "Plastid genomes (plastomes) of land plants are characterized by their architectural and genic content stability. However, fern plastomes exhibit unexpected dynamism, characterized by the presence of mobile protein-coding genes (CDS) - Mobile Open Reading Frames in Fern Organelles (MORFFOs). We investigate the evolutionary dynamics of MORFFOs in 30 species of Anemiaceae (Schizaeales), an ancient lineage of ferns, focusing on their transposition, substitution patterns, codon usages, and RNA editing patterns. MORFFOs expand plastome size and occur in diverse intergenic regions, exhibiting dynamic locations, genealogies, and exceptionally high substitution rates compared with canonical plastid CDS. Sliding window and codon usage analyses demonstrate that MORFFOs are under purifying selection but exhibit distinct codon preferences that deviate from those of other plastid CDS, suggesting functional constraints. Phylogenetic incongruence between MORFFOs and other plastid CDS, along with their extraordinary substitution rates and mobility, implies their replication outside plastids. Our findings highlight that MORFFOs are dynamic, potentially selfish genetic elements capable of transcription, translation, and replication independently from plastomes, and fern plastomes might acquire these mobile CDS through frequent horizontal gene transfer and possibly intracellular gene transfer. Los genomas de los plastidios (plastomas) de las plantas terrestres se caracterizan por la estabilidad de su arquitectura y de su contenido génico. Sin embargo, los plastomas de los helechos muestran un dinamismo inesperado, caracterizado por la presencia de genes móviles que codifican proteínas (MORFFOs, por sus siglas en inglés). Nosotros investigamos la dinámica evolutiva de los MORFFOs en 30 especies de Anemia (Anemiaceae), un linaje antiguo de helechos. Centrándonos en su transposición, patrones de sustitución, uso de codones y patrones de edición de ARN. Los MORFFOs aumentan el tamaño del plastoma y se presentan en diversas regiones intergénicas, exhibiendo ubicaciones dinámicas, genealogías y tasas de sustitución excepcionalmente altas en comparación con los genes codificantes de proteínas (CDS) plastídicos canónicos. Los análisis de ‘sliding windows’ y de uso de codones demuestran que los MORFFOs están bajo selección purificadora, pero presentan preferencias de codones distintas, que se desvían de las de otros CDS plastídicos, lo que sugiere restricciones funcionales. La incongruencia filogenética entre los MORFFOs y otros CDS plastídicos, junto con sus extraordinarias tasas de sustitución y movilidad, sugiere su replicación fuera de los plastidios. Nuestros resultados destacan que los MORFFOs son elementos genéticos dinámicos, potencialmente egoístas, capaces de transcripción, traducción y replicación de forma independiente a los plastomas; además, los plastomas de los helechos podrían adquirir estos CDS móviles a través de transferencias horizontales de genes (HGT) frecuentes y, posiblemente, transferencias intracelulares de genes (IGT).",
+    "authors": [
+      "Labiak PH",
+      "Kuo LY",
+      "Fauskee BD",
+      "Karol KG"
+    ],
+    "published": "2026-02-19",
+    "journal": "The New phytologist",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41714151/",
+    "score": 15,
+    "summary": {
+      "title_zh": "MORFFO基因的进化流动性与遗传动力学：在古老植物谱系间的穿梭",
+      "tool_type": "非人工工程工具，属于一类新发现的、具有天然可编程潜力的RNA编辑与基因转移研究模型系统",
+      "design": "该研究并非设计人工工具，而是揭示了一种自然界存在的动态遗传模块（MORFFOs）。其核心思路在于发现这些移动开放阅读框作为独立的遗传单元，能够通过水平基因转移和可能的细胞内基因转移机制，在不同基因组位置间“穿梭”并保持功能。它们构成了一个天然的、模块化的基因移动和表达系统。",
+      "functions": "1. 作为研究RNA编辑模式的天然模型：MORFFOs基因表现出独特的RNA编辑模式，可作为研究植物细胞器（特别是蕨类植物质体）中RNA编辑机制和规律的模型。\n2. 作为基因转移与整合的研究平台：其高频的横向转移和动态的基因组整合特性，为研究基因水平转移、细胞内基因转移以及非典型基因在基因组中的获得与保留机制提供了范例。\n3. 作为进化与功能遗传学的研究工具：MORFFOs的高替换率、独特的密码子使用偏好以及在纯化选择下的保留，使其成为研究基因新功能化、自私遗传元件动力学以及细胞器基因组进化可塑性的有力工具。",
+      "key_results": "关键实验结果表明，MORFFOs是高度动态的遗传元件：与经典质体蛋白编码基因相比，它们具有异常高的核苷酸替换率、独特的密码子使用偏好、动态的基因组位置以及不一致的系统发育关系，这些证据共同支持其能够在质体基因组外独立复制，并通过频繁的基因转移事件整合到蕨类植物质体基因组中。"
+    }
+  }
+]
