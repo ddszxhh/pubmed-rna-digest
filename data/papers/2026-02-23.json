@@ -1,0 +1,125 @@
+[
+  {
+    "id": "41723531",
+    "title": "tRNA-based polycistronic CRISPR/Cas9 system boosts efficiency of multi-gene deletion in the moss Physcomitrella.",
+    "abstract": "CRISPR/Cas9-based genome editing in the model bryophyte Physcomitrium patens (commonly known as Physcomitrella) is widely used for gene knockout via small insertions or deletions (indels). In this study, we developed an efficient dual-gRNA system capable of producing large, targeted deletions across multiple genes, enabling straightforward detection by gel electrophoresis and simultaneous multi-gene knockout. We first compared the efficiency of polycistronic tRNA-gRNA arrays to conventional gRNA constructs expressed under individual promoters, using the checkpoint protein gene MAD2 as a target. We found that a polycistronic construct doubled the frequency of large gene deletions compared to a conventional design. We then demonstrated that simultaneous deletion of two or four genes, targeting the katanin and TPX2 gene families, respectively, can be achieved in a single transformation event. The polycistronic system also increased deletion frequencies in the multiplex context, with up to 42% efficiency for individual genes and successful recovery of quadruple mutants. As a drawback, we confirmed that deletion efficiency varied substantially among individual gRNA pairs, indicating that gRNA design remains a critical factor in multiplex editing. This study establishes a fast and efficient framework for simultaneous removal of multiple genes in Physcomitrella, providing a practical alternative to homologous recombination-based methods for functional and applied studies.",
+    "authors": [
+      "Kozgunova E"
+    ],
+    "published": "2026-02-22",
+    "journal": "Plant methods",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41723531/",
+    "score": 35,
+    "summary": {
+      "title_zh": "基于tRNA的多顺反子CRISPR/Cas9系统提升苔藓多基因敲除效率",
+      "tool_type": "基于CRISPR/Cas9的多基因编辑平台（具体为多顺反子tRNA-gRNA阵列系统）",
+      "design": "该工具的核心设计思路是构建多顺反子tRNA-gRNA阵列，将多个gRNA序列通过tRNA间隔序列串联在单个启动子下表达，然后利用细胞内源的tRNA加工酶将其切割释放为独立的成熟gRNA。与传统的每个gRNA使用独立启动子的设计相比，这种模块化阵列简化了载体构建，并旨在提高多基因编辑的效率。",
+      "functions": "1. 实现多位点、大片段（可达整个基因）的靶向删除。\n2. 支持在单次转化事件中同时敲除多个基因（如双基因或四基因）。\n3. 产生的基因大片段缺失可通过凝胶电泳直接、便捷地检测，简化了突变体筛选流程。\n4. 为苔藓（小立碗藓）等生物中的功能基因组学研究和应用研究提供了一个高效的、基于非同源末端连接（NHEJ）的多基因敲除替代方案。",
+      "key_results": "1. 关键性能指标：针对MAD2基因，多顺反子tRNA-gRNA阵列设计将产生大片段基因缺失的效率提升了一倍；在多重编辑中，对单个基因的缺失效率最高可达42%，并成功获得了四基因突变体。\n2. 验证情况：该系统在苔藓（小立碗藓）体内得到了有效验证，但实验结果也表明，编辑效率在不同gRNA组合间差异显著，gRNA设计仍是影响效率的关键因素。"
+    }
+  },
+  {
+    "id": "41665197",
+    "title": "Dimerization Mechanism of HIV-1 RNA Hairpins to Extended Duplex Structures.",
+    "abstract": "Genomic RNA (gRNA) dimerization is essential for retroviral replication. In the gRNA of human immunodeficiency virus (HIV-1), the hairpin-like dimerization initiation sequence (DIS) forms a kissing-complex (KC) with the DIS sequence in another gRNA, which later converts into a stable extended-duplex (ED). Using coarse-grained simulations, we mapped the transition of HIV-1 DIS RNA hairpins (HPs) to ED and identified multiple intermediates beyond the KC. The KC has an anionic pocket stabilized through the condensation of Mg",
+    "authors": [
+      "Mondal D",
+      "Habibullah S",
+      "Reddy G"
+    ],
+    "published": "2026-02-19",
+    "journal": "The journal of physical chemistry. B",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41665197/",
+    "score": 15,
+    "summary": {
+      "title_zh": "HIV-1 RNA发夹结构二聚化为延伸双链结构的机制研究",
+      "tool_type": "RNA结构与动力学分析平台/计算模型",
+      "design": "本研究并非直接设计一个可编程的RNA调控工具，而是构建了一个用于解析RNA结构动态转变的计算模拟平台。其核心思路是利用粗粒度模拟方法，对HIV-1基因组RNA中关键的“二聚化起始序列”发夹结构从“吻式复合体”向稳定“延伸双链”转变的全过程进行高分辨率映射。",
+      "functions": "该研究平台/模型的功能主要在于：1. **RNA结构转变路径解析**：揭示RNA二级结构重排的详细动力学路径与中间态。2. **RNA-RNA相互作用机制阐明**：阐明病毒RNA通过特定序列和结构实现二聚化的分子机制。3. **作为药物靶点发现的基础工具**：通过揭示关键过渡态和稳定因素，为设计干扰病毒RNA二聚化的小分子或寡核苷酸药物提供理论靶点。",
+      "key_results": "最关键的研究结果是：通过计算模拟，成功绘制了HIV-1 DIS发夹结构从吻式复合体到延伸双链的完整转变路径，并发现了多个此前未知的中间态结构；同时，研究揭示了二价镁离子（Mg²⁺）通过静电稳定作用在吻式复合体特定阴离子口袋的形成和整个结构转变过程中的关键作用。"
+    }
+  },
+  {
+    "id": "41720278",
+    "title": "The complex and dynamic mitochondrial genome of garlic (Allium sativum): Insights from structural and evolutionary analysis.",
+    "abstract": "Garlic (Allium sativum) is an important crop with significant value in both agriculture and medicine, yet its mitochondrial genome remains uncharacterized. This gap has limited understanding of organellar evolution and genomic diversity. The mitogenome assembled with Illumina and PacBio revealed a complex, multipartite architecture spanning 548,160 bp with six contigs, a size that is within the common range for angiosperm mitochondrial genomes. The structure demonstrated considerable plasticity, and was characterized by abundant repetitive sequences. Annotation identified 25 protein-coding genes, 14 tRNAs, and three rRNAs, representing a conserved gene set. Extensive chloroplast-to-mitochondrion DNA transfer was observed, with 38 homologous fragments totaling 33.6 kb that included functionally intact genes. Codon usage analysis revealed a pronounced A/U-ending preference in synonymous codons. Additionally, 494C-to-U RNA editing sites were predicted, indicating significant concentrations in NADH dehydrogenase genes. Phylogenetic analysis based on 23 conserved mitochondrial genes robustly resolved A. sativum as sister to Allium fistulosum. This study presents the first complete mitochondrial genome of A. sativum, which reveals substantial structural complexity and dynamic evolution. This genome provides a foundational resource for further investigation into organellar genome evolution within the Allium genus.",
+    "authors": [
+      "Shen H",
+      "Liu W",
+      "Zhao L",
+      "Guo Y",
+      "Li Y",
+      "Wu T",
+      "Han S"
+    ],
+    "published": "2026-02-18",
+    "journal": "Genomics",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41720278/",
+    "score": 15,
+    "summary": {
+      "title_zh": "大蒜（Allium sativum）线粒体基因组的复杂动态结构与进化分析",
+      "tool_type": "基因组资源平台（非RNA编辑工具，属于基础基因组学数据资源）",
+      "design": "本研究并非工程化工具，而是通过Illumina与PacBio测序技术相结合，组装并注释了大蒜的线粒体基因组。其分析思路聚焦于解析基因组的多部分结构、重复序列、基因含量以及通过比较基因组学揭示进化关系。",
+      "functions": "本研究提供的完整线粒体基因组序列主要作为基础研究资源，其功能与应用包括：1) 为葱属植物细胞器基因组进化研究提供参考数据；2) 为线粒体基因功能、RNA编辑（如预测的494个C-to-U位点）及细胞器间DNA转移研究奠定基础；3) 辅助进行物种系统发育分析。",
+      "key_results": "关键实验结果包括：成功组装出548,160 bp、由6个contig组成的复杂多部分线粒体基因组，预测了494个C-to-U RNA编辑位点（主要集中在NADH脱氢酶基因中），并通过23个保守基因的系统发育分析明确了大蒜与葱的亲缘关系。"
+    }
+  },
+  {
+    "id": "41706533",
+    "title": "Upper bound on the mutational burden imposed by a CRISPR-Cas9 gene-drive element.",
+    "abstract": "Homing-based CRISPR-Cas9 gene drives (CCGDs) are powerful tools for genetic control of wild populations, with applications from disease eradication to species conservation. However, Cas9 alone and in a complex with guide RNA can cause double-stranded DNA breaks at off-target sites, which could increase the mutational load and lead to unintended loss-of-heterozygosity (LOH) events. These undesired effects raise potential concerns about the long-term evolutionary safety of CCGDs, but the magnitude of these effects is unknown. To measure how the presence of a CCGD or a Cas9 alone in the genome affects the rates of LOH events and de novo mutations, we carried out a mutation accumulation experiment in yeast Saccharomyces cerevisiae. We found no detectable effects on the genome-wide rates of mutations or LOH events. Our power calculations suggest that CCGD or Cas9 affect these rates by less than 30%, which is much less than natural variation for these traits in yeast. A more detailed examination shows that CCGD or Cas9 may alter the lengths and genomic distributions of LOH events, but the statistical support for these effects is weak. Thus, our results demonstrate that CCGDs impose at most a weak additional mutational burden in the yeast model. Although mutagenic effects of gene drives need to be further evaluated in other systems, our results add credence to the proposition that the evolutionary risks posed by well-designed gene drives may be acceptable.",
+    "authors": [
+      "Overton MS",
+      "Guy SE",
+      "Chen X",
+      "Martsul A",
+      "Carolino K",
+      "Akbari OS",
+      "Meyer JR",
+      "Kryazhimskiy S"
+    ],
+    "published": "2026-02-18",
+    "journal": "G3 (Bethesda, Md.)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41706533/",
+    "score": 15,
+    "summary": {
+      "title_zh": "CRISPR-Cas9基因驱动元件所致突变负担的上限研究",
+      "tool_type": "基因驱动系统评估平台",
+      "design": "本研究并非设计新的RNA编辑工具，而是对现有CRISPR-Cas9基因驱动（CCGD）这一遗传控制工具的安全性进行评估。核心思路是通过在酿酒酵母中建立突变积累实验模型，系统比较引入CCGD（或单独Cas9）的品系与对照品系在长期传代过程中基因组突变率的变化。",
+      "functions": "该研究本身不直接提供新的RNA编辑或调控功能，而是作为一项**安全性评估研究**，其价值在于：\n1.  **评估基因驱动工具的潜在风险**：量化CCGD可能导致的脱靶突变和杂合性丢失事件的发生率。\n2.  **为基因驱动平台的应用提供安全依据**：通过实验数据评估其“进化风险”，为将该工具应用于种群遗传控制（如疾病媒介根除、物种保护）的决策提供关键的安全性参考。",
+      "key_results": "在酵母模型中，CCGD或单独Cas9的存在对全基因组范围的突变率或LOH事件发生率均未产生可检测的影响；统计功效计算表明，其影响幅度小于30%，远低于酵母这些性状的自然变异范围，证明CCGD施加的额外突变负担至多非常微弱。"
+    }
+  },
+  {
+    "id": "41589909",
+    "title": "MPXV RNA-seq data provide evidence for protection of viral transcripts from APOBEC3 editing.",
+    "abstract": "The 2022 outbreak of monkeypox virus (MPXV), a double-stranded DNA virus, is remarkable for an unusually high number of single-nucleotide substitutions compared to earlier strains, with a strong bias toward C→T and G→A transitions consistent with the APOBEC3 cytidine deaminase activity. While APOBEC3-induced mutagenesis is well documented at the DNA level, its potential impact on MPXV RNA transcripts remains unclear. To assess whether APOBEC3 enzymes act on MPXV RNA, we analyzed RNA-seq data from infected samples. The enrichment of APOBEC signature substitutions among high-frequency mismatched positions led us to consider two possibilities: RNA editing at hotspots or fixed DNA mutations. Multiple lines of evidence support the conclusion that these substitutions arise from DNA-level mutagenesis rather than RNA editing. These include a substantial number of G→A substitutions remaining after normalization by gene strand direction, a largely neutral impact of substitutions on protein-coding sequences, the lack of positional correlation with transcriptional features or RNA secondary structure typically associated with APOBEC action hotspots, and an overlap with known genomic mutations in MPXV strains. Analysis of the nucleotide context of observed substitutions indicated that APOBEC3A or APOBEC3B was likely a driver of DNA-level mutagenesis.IMPORTANCEThe 2022 monkeypox virus (MPXV) outbreak showed an unusually high number of mutations thought to result from human antiviral enzymes of the APOBEC3 family. While such mutations have been clearly documented in the viral DNA, whether APOBEC3 also edits viral messenger RNA molecules remained unclear. In this study, we analyzed multiple publicly available MPXV RNA sequencing datasets to address this question. We found that the apparent APOBEC-like changes in RNA are best explained by fixed DNA mutations rather than active RNA editing. This finding helps clarify how MPXV evolves and adapts, suggesting that APOBEC3's role in shaping the virus likely operates at the DNA level. Understanding where and how these mutations occur provides insight into the virus's interaction with the human immune system and informs future studies on viral evolution and antiviral defenses.",
+    "authors": [
+      "Lyskova AO",
+      "Abasov RK",
+      "Pavlova A",
+      "Matveev EV",
+      "Madorskaya AV",
+      "Kazanov FM",
+      "Garshina DV",
+      "Smolnikova AE",
+      "Ponomarev GV",
+      "Sharova EI",
+      "Ivankov DN",
+      "Adebali O",
+      "Gelfand MS",
+      "Kazanov MD"
+    ],
+    "published": "2026-02-17",
+    "journal": "Journal of virology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41589909/",
+    "score": 15,
+    "summary": {
+      "title_zh": "MPXV RNA-seq数据为病毒转录本免受APOBEC3编辑提供证据",
+      "tool_type": "分析平台/方法学",
+      "design": "本研究并非开发新的工程化工具，而是利用现有的RNA-seq数据分析平台，通过多证据链比较分析策略，系统性地鉴别RNA序列变异是源于DNA水平的固定突变还是活跃的RNA编辑过程。核心思路是通过分析错配位点的序列特征、对编码序列的影响、与转录特征/RNA二级结构的相关性，以及与已知基因组突变的关联性，构建一个综合判别框架。",
+      "functions": "1. 鉴别机制：能够区分病毒RNA序列中的变异是源自DNA水平的固定突变，还是由APOBEC3等酶介导的活跃RNA编辑。\n2. 进化分析：解析病毒（如猴痘病毒）在宿主免疫压力（如APOBEC3）下的进化轨迹和适应机制。\n3. 互作研究：阐明宿主抗病毒因子（APOBEC3家族）与病毒相互作用的分子层面（DNA vs. RNA）。",
+      "key_results": "关键实验结果表明，在MPXV感染样本的RNA-seq数据中观察到的富含APOBEC特征（C→T/G→A）的错配，最有可能由DNA水平的突变导致，而非活跃的RNA编辑。支持这一结论的多条证据包括：经基因链方向标准化后仍存在大量G→A替换、替换对蛋白质编码序列的影响总体呈中性、缺乏与APOBEC作用热点相关的转录特征或RNA二级结构位置相关性，以及与MPXV毒株中已知基因组突变的重叠。"
+    }
+  }
+]
