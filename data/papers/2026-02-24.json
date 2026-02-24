@@ -1,0 +1,141 @@
+[
+  {
+    "id": "41726936",
+    "title": "Programmable and Switchable RNA Scaffolds for Synthetic Condensate Engineering in Mammalian Cells.",
+    "abstract": "The ability to engineer synthetic biomolecular condensates in living cells offers new opportunities to control intracellular organization, yet robust and programmable RNA-based systems have remained limited. Here, we introduce genetically encoded, modular platforms that generate RNA-driven condensates using nanostar-derived scaffolds. Systematic comparison of repeat-based and",
+    "authors": [
+      "Xue Z",
+      "Mukherjee O",
+      "Mi L",
+      "Guo Y",
+      "Zheng R",
+      "Yuan C",
+      "You M"
+    ],
+    "published": "2026-02-15",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41726936/",
+    "score": 65,
+    "summary": {
+      "title_zh": "用于哺乳动物细胞合成凝聚体工程的可编程与可切换RNA支架",
+      "tool_type": "RNA驱动的合成生物分子凝聚体工程平台",
+      "design": "该平台的核心设计思路是：1）利用纳米星衍生的RNA支架作为模块化骨架，通过编程其序列和结构来驱动凝聚体的形成；2）系统比较了基于重复序列和纳米星支架的不同设计策略，以优化凝聚体的可编程性和稳定性。",
+      "functions": "1. 在活细胞内工程化合成生物分子凝聚体；2. 通过可编程RNA支架控制细胞内空间组织；3. 实现凝聚体的可切换调控（如形成与解离）；4. 为研究细胞区室化和调控提供合成生物学工具。",
+      "key_results": "关键实验表明，该RNA支架平台能够在哺乳动物细胞中高效形成合成凝聚体，并通过设计实现可编程的组装与解离，验证了其在活细胞内调控空间组织的功能。"
+    }
+  },
+  {
+    "id": "41728952",
+    "title": "Characterization of gRNA-dependent and gRNA-independent off-target binding sites of PspCas13b and RfxCas13d in mammalian cells.",
+    "abstract": "CRISPR-Cas13 systems, harnessed for RNA-guided transcriptome editing, hold significant promise for clinical and in vivo therapeutic applications. However, understanding their in vivo target specificity and recognition rules remains a challenge. In this study, we employed the uSpyCLIP method, which enhances sensitivity and specificity for identifying RNA-binding protein (RBP) binding sites, to map the transcriptome-wide binding sites of catalytically inactive PspCas13b (dPspCas13b) and RfxCas13d (dRfxCas13d) in HEK293T cells, using a variety of single guide RNAs (gRNAs). Surprisingly, we identified both gRNA-dependent and gRNA-independent off-target binding sites for both dCas13 complexes. These gRNA-independent off-target sites exhibited distinct RNA structural and sequence signatures: dPspCas13b's gRNA-independent binding was associated with specific RNA structural features, while dRfxCas13d's was linked to unique sequence motifs. Analysis of gRNA-dependent off-target sites revealed the crucial role of the DR-distal and middle regions of the gRNA in determining binding specificity. Further analysis demonstrated that some off-target binding events led to changes in gene expression at the messenger RNA and/or protein level. Collectively, our findings provide important insights into the characteristics of gRNA-dependent and gRNA-independent off-target binding for PspCas13b and RfxCas13d, offering valuable guidance for optimizing Cas13 and gRNA design in future applications.",
+    "authors": [
+      "Feng H",
+      "Li Z",
+      "Zhang H",
+      "Zheng Y",
+      "Xu B",
+      "Zhang Y",
+      "Zou L",
+      "Wu L"
+    ],
+    "published": "2026-02-05",
+    "journal": "Nucleic acids research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41728952/",
+    "score": 65,
+    "summary": {
+      "title_zh": "在哺乳动物细胞中表征PspCas13b与RfxCas13d的gRNA依赖性与非依赖性脱靶结合位点",
+      "tool_type": "Cas13系统脱靶效应分析平台/方法",
+      "design": "本研究并非设计新的编辑工具，而是采用优化的uSpyCLIP方法（一种增强型RNA结合蛋白结合位点鉴定技术）作为分析平台。其核心思路是利用催化失活的dPspCas13b和dRfxCas13d，结合多种向导RNA，在全转录组范围内系统性地绘制Cas13蛋白的RNA结合图谱，以区分gRNA依赖与非依赖的脱靶结合模式。",
+      "functions": "1. 全转录组范围鉴定Cas13系统的RNA结合位点。\n2. 区分并表征gRNA依赖性与gRNA非依赖性的脱靶结合事件。\n3. 分析脱靶结合对基因表达（mRNA和蛋白水平）的影响。\n4. 为优化Cas13系统（包括gRNA设计）提供指导原则，以提高其特异性。",
+      "key_results": "关键发现包括：1. 首次系统鉴定出dPspCas13b和dRfxCas13d均存在gRNA依赖性和gRNA非依赖性两类脱靶结合位点；2. gRNA非依赖性脱靶具有独特特征：dPspCas13b与特定RNA结构特征相关，而dRfxCas13d与独特序列基序相关；3. gRNA的DR-distal和中间区域对结合特异性至关重要；4. 部分脱靶结合会导致基因表达水平发生改变。"
+    }
+  },
+  {
+    "id": "41727079",
+    "title": "HAMMER: Hairpin-based APOBEC3A-mediated mRNA editing reporter.",
+    "abstract": "APOBEC3A catalyzes cytosine-to-uracil deamination in single-stranded DNA and RNA. Physiologically, APOBEC3A functions in innate immunity and aberrant deamination is associated with cytosine mutations in enzymatically preferred YTCW substrate motifs in multiple cancers. Much less is known about the potential contribution of APOBEC3A-catalyzed RNA editing to virus and cancer evolution. Here, we present HAMMER (hairpin-based APOBEC3A-mediated mRNA editing reporter), a rapid luminescence-based cellular assay for measuring RNA editing by APOBEC3A. HAMMER reports APOBEC3A activity as a reduction in the ratio of firefly to renilla luciferase activity. Briefly, tandem renilla and firefly luciferase open reading frames are separated by an optimal APOBEC3A hairpin substrate, in which C-to-U editing of a CGA motif yields a UGA stop codon thus preventing translation of the downstream firefly luciferase reporter, without impacting the upstream renilla reporter. HAMMER activation is dose-responsive, catalytic activity-dependent, and specific to human APOBEC3A. A panel of herpesviral ribonucleotide reductase constructs was used to show that direct inhibition of APOBEC3A results in a dose-responsive recovery of firefly luciferase expression. HAMMER is therefore a scalable and easy-to-use method for quantifying cellular APOBEC3A RNA editing activity and characterizing inhibitors.",
+    "authors": [
+      "Chen Y",
+      "Mullally CD",
+      "Stefanovska B",
+      "Harris RS"
+    ],
+    "published": "2026-02-15",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41727079/",
+    "score": 55,
+    "summary": {
+      "title_zh": "HAMMER：基于发夹结构的APOBEC3A介导的mRNA编辑报告系统",
+      "tool_type": "RNA编辑活性报告与筛选平台（基于APOBEC3A的RNA编辑活性检测工具）",
+      "design": "该工具的核心设计是将一个优化的APOBEC3A发夹底物（含CGA基序）置于串联的海肾萤光素酶和萤火虫萤光素酶开放阅读框之间。当APOBEC3A对发夹底物中的CGA进行C-to-U编辑后，会产生UGA终止密码子，从而特异性阻止下游萤火虫萤光素酶的翻译，而上游海肾萤光素酶的表达不受影响。通过双荧光素酶活性的比值变化即可报告APOBEC3A的RNA编辑活性。",
+      "functions": "1. 定量检测细胞内的APOBEC3A RNA编辑活性。\n2. 筛选和表征APOBEC3A的抑制剂。\n3. 研究APOBEC3A介导的RNA编辑在病毒（如疱疹病毒）和癌症进化中的潜在作用。",
+      "key_results": "1. HAMMER系统对APOBEC3A活性具有剂量依赖性和催化活性依赖性响应，且特异性针对人APOBEC3A。\n2. 利用一组疱疹病毒核糖核苷酸还原酶构建体证明，直接抑制APOBEC3A可导致萤火虫萤光素酶表达的剂量依赖性恢复，验证了该系统可用于抑制剂表征。"
+    }
+  },
+  {
+    "id": "41726872",
+    "title": "APOBEC3A is the predominant global editor of cytosines in human mRNAs and in single-strand RNA viruses.",
+    "abstract": "APOBEC cytidine deaminases can convert cytosines to uracils in DNA as well as in RNA. The knowledge of DNA deamination motifs preferred by individual APOBECs revealed APOBEC3A as a major source of hypermutation in cancer. However, the extent and relative contribution of specific APOBECs into RNA editing remains unclear as their preferred RNA-editing motifs have not been defined. Here, using a parallel DNA and RNA sequencing strategy, coupled with motif-centered statistical analyses, we sought to identify mRNA edits and diagnostic editing motifs in yeast and human cells overexpressing individual APOBEC enzymes. This approach revealed a prevailing global enrichment for the uCg trinucleotide motif with even greater preference to the motif's cytosines located in 3' base of a loop within a hairpin-loop secondary structure when APOBEC3A, but not any other tested APOBEC, was overexpressed. Further analysis revealed the APOBEC3A-like diagnostic motif enrichment in editing calls from human cancers and blood cells. The APOBEC3A-like editing motif also prevailed in the RNA genomes of SARS-CoV-2 pandemic isolates, as well as in infectious persistent rubella viruses, and in polioviruses emerging from live-attenuated vaccine strains. Together, our results indicate that APOBEC3A is the predominant global APOBEC RNA editor with a potential to impact cell physiology and viral evolution.",
+    "authors": [
+      "Kockler ZW",
+      "Bostan H",
+      "Klimczak LJ",
+      "Hsiao YC",
+      "Dennen MS",
+      "Cook ME",
+      "Mertz TM",
+      "Perelygina L",
+      "Kazanov MD",
+      "Li JL",
+      "Roberts SA",
+      "Gordenin DA"
+    ],
+    "published": "2026-02-12",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41726872/",
+    "score": 45,
+    "summary": {
+      "title_zh": "APOBEC3A是人体mRNA和单链RNA病毒中胞嘧啶的主要全局编辑器",
+      "tool_type": "内源性RNA编辑酶（APOBEC胞苷脱氨酶）的鉴定与表征研究",
+      "design": "本研究并非从头设计一个工具，而是通过一种“反向工程”策略来鉴定和表征内源性RNA编辑工具。核心思路是：1）通过平行DNA和RNA测序策略，结合以序列基因为中心的统计分析，系统性地鉴定过表达单个APOBEC酶时产生的mRNA编辑事件；2）通过分析编辑位点的序列和二级结构偏好性，定义出特定APOBEC酶的“诊断性编辑基序”。",
+      "functions": "1. **基础研究工具**：用于鉴定细胞和病毒RNA中由特定APOBEC酶（尤其是APOBEC3A）介导的编辑事件。\n2. **分子标志物**：其定义的“APOBEC3A样编辑基序”可作为生物标志物，用于追踪APOBEC3A在癌症、正常细胞生理及病毒感染过程中的活性。\n3. **理解编辑机制**：揭示了APOBEC3A对RNA编辑具有强烈的序列（uCg三核苷酸）和二级结构（发夹环的3‘端胞嘧啶）偏好性，这为理解其编辑特异性提供了关键信息。",
+      "key_results": "1. **特异性与效率**：过表达APOBEC3A（而非其他测试的APOBEC酶）在人类和酵母细胞中导致全局性的、富含uCg基序的RNA编辑，且编辑位点强烈偏好位于发夹环二级结构3‘端的胞嘧啶。\n2. **广泛适用性验证**：在人类癌症、血液细胞以及多种单链RNA病毒（如SARS-CoV-2、风疹病毒、脊髓灰质炎疫苗株病毒）的RNA中，均检测到显著的APOBEC3A样编辑基序富集，证明APOBEC3A是体内外主要的全局性APOBEC RNA编辑器。"
+    }
+  },
+  {
+    "id": "41659633",
+    "title": "Chemical control of 2'-hydroxyl-dependent Cas9 target engagement enables CRISPR RNA ribose replacement.",
+    "abstract": "Advanced CRISPR-based therapies benefit from CRISPR RNA (crRNA) with high nuclease resistance and enhanced drug-like properties, which is primarily achieved through chemical replacement of the RNA ribose moiety. However, for gene editing enzymes like CRISPR-Cas9 a handful of residues cannot be replaced with chemical ribose analogues, limiting the scope of therapeutic strategies. The mechanism underlying this restriction has remained unclear. Here, using nucleic acid chemistry, biochemistry, cryo-EM, and molecular dynamics simulations, we show that the ribose 2'-hydroxyl group at specific crRNA residues is required to achieve a conformational state competent for Cas9 target DNA binding. Based on the mechanistic principles uncovered, we combined site-specific phosphorothioate linkage chemistry with ribose replacement chemistry to restore binding and activity, resulting in high Cas9 editing efficiency and fidelity with a ribose-free crRNA. This study offers novel mechanistic insight and crRNAs with full chemical stabilization, making rational design of guide RNAs with complete nuclease protection for CRISPR-based medicines possible.",
+    "authors": [
+      "Pater AA",
+      "Barber HM",
+      "Sudhakar S",
+      "Chilamkurthy R",
+      "Jana SK",
+      "Parasrampuria MA",
+      "Bosmeny MS",
+      "Graczyk-Marrs JA",
+      "Eddington SB",
+      "Blazier CA",
+      "Abdullahu L",
+      "Malek-Adamian E",
+      "Barkau CL",
+      "O'Reilly D",
+      "Korolev S",
+      "Pradeepkumar PI",
+      "Damha MJ",
+      "Gagnon KT"
+    ],
+    "published": "2026-01-26",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41659633/",
+    "score": 45,
+    "summary": {
+      "title_zh": "通过化学控制2'-羟基依赖的Cas9靶标结合实现CRISPR RNA核糖替换",
+      "tool_type": "化学修饰的CRISPR-Cas9系统 / 化学增强型向导RNA（crRNA）设计平台",
+      "design": "1. 通过机制研究，发现Cas9与靶DNA结合的关键构象状态依赖于crRNA特定残基的核糖2'-羟基。\n2. 基于此机制，将位点特异性的硫代磷酸酯连接化学与核糖替换化学相结合，以恢复crRNA的结合能力和活性。",
+      "functions": "1. 实现crRNA的完全化学稳定化（全核糖替换），赋予其极高的核酸酶抗性。\n2. 为基于CRISPR的疗法提供具有类药性质的、可理性设计的向导RNA。\n3. 提升Cas9基因编辑系统的治疗适用性和稳定性。",
+      "key_results": "1. 使用完全不含核糖的crRNA，实现了高效的Cas9编辑效率和保真度。\n2. 通过生物化学、冷冻电镜和分子动力学模拟，在机制上验证了设计策略的有效性，为完全化学保护的向导RNA的理性设计奠定了基础。"
+    }
+  }
+]
