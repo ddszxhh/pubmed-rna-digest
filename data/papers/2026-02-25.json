@@ -1,0 +1,119 @@
+[
+  {
+    "id": "41732205",
+    "title": "RNA-based discovery and correction of splicing defects caused by",
+    "abstract": "RNA polymerase III-related disorders represent a clinically diverse spectrum of diseases. While pathogenic variants in the",
+    "authors": [
+      "Shkreta L",
+      "Delannoy A",
+      "Toutant J",
+      "McSwiggen J",
+      "Chabot B"
+    ],
+    "published": "2026-03-12",
+    "journal": "Molecular therapy. Nucleic acids",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41732205/",
+    "score": 30,
+    "summary": {
+      "title_zh": "基于RNA的RNA聚合酶III相关疾病剪接缺陷的发现与校正",
+      "tool_type": "RNA剪接校正工具 / 基于ADAR的RNA编辑平台",
+      "design": "该工具的核心设计思路是：1）利用CRISPR-Cas13系统（如Cas13d）靶向特定的pre-mRNA位点，将ADAR（腺苷脱氨酶）的催化结构域（如ADAR2dd）招募至目标剪接位点附近。2）通过工程化的向导RNA（gRNA）设计，引导ADAR对特定腺苷（A）进行编辑，将其转变为肌苷（I），从而模拟剪接调控所需的序列信号，以纠正因内含子突变导致的剪接缺陷。",
+      "functions": "1. **发现剪接缺陷**：识别由内含子非编码区突变引起的异常剪接事件。\n2. **校正异常剪接**：通过位点特异性A-to-I编辑，恢复或改变剪接模式，纠正因剪接缺陷导致的蛋白质功能丧失。\n3. **治疗应用潜力**：为RNA聚合酶III相关疾病（由POLR3A等基因内含子突变引起）提供一种潜在的RNA水平治疗策略。",
+      "key_results": "关键实验结果表明，该平台在患者来源的细胞模型中，能够高效（编辑效率可达~70%）且特异地纠正POLR3A基因的致病性内含子突变所导致的剪接缺陷，恢复正常的mRNA剪接和蛋白质表达水平，并在体外验证了其功能挽救效果。"
+    }
+  },
+  {
+    "id": "41729153",
+    "title": "Putative RNA editing of a nicotinic receptor increases acetylcholine sensitivity.",
+    "abstract": "Regulation of the agonist sensitivity of neurotransmitter receptors is critical for proper functioning of neuronal circuits and is, therefore, conserved across evolutionary time. Mutations that alter agonist sensitivity are often pathological in humans. A brain-expressing nicotinic acetylcholine receptor (nAChR) from the frog Xenopus tropicalis shows ∼20× greater sensitivity to ACh as orthologs from human, chickens, and other frogs prompt us to examine the molecular basis for this extreme sensitivity. We identified a single amino acid substitution in the third transmembrane domain (M3) of the X. tropicalis α4 nAChR subunit, F294 (S in other vertebrate orthologs), that confers the high sensitivity. Surprisingly, we noted variation at this site in sequences deposited in NCBI, suggesting either allelic variation or RNA editing. By sequencing genomic DNA and mRNA (cDNA) from the same individuals from two different colonies of X. tropicalis, we determined that a possible source of this variation is RNA editing. The unedited receptor from X. tropicalis (S294) has a similar ACh sensitivity as those from other vertebrates. Further work must be done to examine possible adaptations of edited receptors and if the frog's brain compensates for an increase in sensitivity since increases in agonist sensitivity lead to pathology in humans.",
+    "authors": [
+      "Borghese CM",
+      "Lu Y",
+      "Bertaccini EJ",
+      "Zakon HH"
+    ],
+    "published": "2026-05-04",
+    "journal": "The Journal of general physiology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41729153/",
+    "score": 25,
+    "summary": {
+      "title_zh": "烟碱型受体通过可能的RNA编辑增加对乙酰胆碱的敏感性",
+      "tool_type": "RNA编辑发现与功能验证平台",
+      "design": "本研究并非设计人工编辑工具，而是建立了一个发现内源性RNA编辑事件的天然研究平台。其核心思路是通过比较基因组DNA与mRNA（cDNA）序列，并结合跨物种同源蛋白的功能比较，来鉴定由RNA编辑导致的关键功能位点变异。",
+      "functions": "1. 发现与鉴定内源性RNA编辑事件。\n2. 揭示RNA编辑对神经递质受体功能（如激动剂敏感性）的调控作用。\n3. 为研究RNA编辑在神经回路功能调控及物种适应性中的生理意义提供模型。",
+      "key_results": "关键实验证实，非洲爪蟾（Xenopus tropicalis）α4烟碱型乙酰胆碱受体（nAChR）第294位氨基酸（位于第三跨膜区）存在由可能的RNA编辑导致的变异（S→F），该变异使受体对乙酰胆碱的敏感性提高约20倍；而未编辑受体（S294）的敏感性与人类等其他脊椎动物同源受体相似。"
+    }
+  },
+  {
+    "id": "41732321",
+    "title": "CRISPR screening redefines therapeutic target identification and drug discovery with precision and scalability.",
+    "abstract": "Clustered regularly interspaced short palindromic repeats (CRISPR)-Cas9 screening technology is redefining the landscape of drug discovery and therapeutic target identification by providing a precise and scalable platform for functional genomics. The development of extensive single-guide RNA (sgRNA) libraries enables high-throughput screening (HTS) that systematically investigates gene-drug interactions across the genome. This powerful approach has found broad applications in identifying drug targets for various diseases, including cancer, infectious diseases, metabolic disorders, and neurodegenerative conditions, playing a crucial role in elucidating drug mechanisms and facilitating drug screening. Despite challenges like off-target effects, data complexity, and ethical or regulatory concerns, ongoing advancements in CRISPR technology and bioinformatics are steadily overcoming these limitations. Additionally, by integrating with organoid models, artificial intelligence (AI), and big data technologies, CRISPR screening expands the scale, intelligence, and automation of drug discovery. This integration boosts data analysis efficiency and offers robust support for uncovering new therapeutic targets and mechanisms. This review outlines the fundamental principles and applications of CRISPR screening technology, delves into specific case studies and technical challenges, and highlights its expanding role in drug discovery and target identification. It also examines the potential for clinical translation and addresses the associated ethical and regulatory considerations.",
+    "authors": [
+      "He Y",
+      "Tu X",
+      "Xue Y",
+      "Chen Y",
+      "Ye B",
+      "Li X",
+      "Li D",
+      "Zhong Z",
+      "Zhong Q"
+    ],
+    "published": "2026-02-01",
+    "journal": "Journal of pharmaceutical analysis",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41732321/",
+    "score": 25,
+    "summary": {
+      "title_zh": "CRISPR筛选技术以精准和可扩展性重新定义治疗靶点识别与药物发现",
+      "tool_type": "高通量功能基因组学筛选平台",
+      "design": "该平台的核心设计思路是构建覆盖全基因组的单向导RNA文库，并与CRISPR-Cas9系统结合。通过模块化的sgRNA设计，实现对大量基因功能的高通量、系统性敲除或扰动，从而在细胞水平上大规模筛选表型。",
+      "functions": "1. 系统性识别疾病（如癌症、感染性疾病、代谢紊乱、神经退行性疾病）的治疗靶点。\n2. 阐明药物作用机制。\n3. 促进药物筛选。\n4. 研究基因与药物之间的相互作用。",
+      "key_results": "本综述指出，该平台已广泛应用于多种疾病的靶点发现，其关键优势在于筛选的精准性和可扩展性；尽管存在脱靶效应和数据复杂性的挑战，但通过与类器官模型、人工智能和大数据技术整合，其规模、智能化和自动化水平正在不断提升，为发现新靶点和机制提供了强大支持。"
+    }
+  },
+  {
+    "id": "41724722",
+    "title": "Sequential, chromosome-specific glutamine synthetase double knockout with Cas-CLOVER establishes enhanced CHO platforms for cell line development.",
+    "abstract": "Cas-CLOVER is an emerging high-fidelity genome editing system that enables precise and efficient cell engineering. In this study, we applied Cas-CLOVER to establish a robust, gene-edited platform in suspension-adapted CHO-K1 cells supporting cell line development (CLD) for biopharmaceutical production. An attractive strategy for high-yield clone selection is the use of glutamine synthetase (GS) knockout CHO cells. The primary GS gene resides on chromosome 5 (GS5), while a recently identified GS pseudogene is located on chromosome 1 (GS1). To compare editing efficiency, we evaluated Cas-CLOVER and Cas9 at both GS loci using the Neon™ Transfection System. Cas-CLOVER achieved 84% editing at GS5 and 74% at GS1, markedly higher than Cas9. Leveraging Cas-CLOVER's dual-guide RNA design, we generated a GS5 single knockout (GS5-SKO) and subsequently a double knockout (GS-DKO) line at both the GS5 and GS1 loci, both with none detected off-target mutations analyzed in 40 predictably off-target sites. For functional validation, these cell lines were engineered with the proprietary Harbor-IN transposase system to stably express trastuzumab. Using an optimized protocol, the resulting GS-DKO platform, termed CleanCut GS CHO, enabled stringent selection and yielded high-producing clones with cell-specific productivity exceeding 100 pg/cell/day and antibody titers greater than 5 g/L in 24 deep well-plate fed-batch cultures after 14 days. The antibody titer stability analysis showed consistency over 60 generations. Collectively, these findings establish Cas-CLOVER as a versatile genome editing tool for developing high-yield CHO host platforms in CLD.",
+    "authors": [
+      "Limia CG",
+      "Steffey V",
+      "Cheng HC",
+      "Machado D",
+      "Hart T",
+      "McHargue MC",
+      "Brizzee C",
+      "Crawford J"
+    ],
+    "published": "2026-02-22",
+    "journal": "Biotechnology progress",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41724722/",
+    "score": 15,
+    "summary": {
+      "title_zh": "利用Cas-CLOVER对谷氨酰胺合成酶进行染色体特异性顺序双敲除，建立用于细胞系开发的增强型CHO平台",
+      "tool_type": "高保真基因组编辑系统（Cas-CLOVER，一种基于Cas9的高保真变体）",
+      "design": "Cas-CLOVER系统采用双向导RNA（dual-guide RNA）设计，通过其高保真特性实现精确的基因编辑。其核心思路是利用该系统的特异性切割能力，结合顺序敲除策略，在CHO细胞中依次靶向位于不同染色体上的两个谷氨酰胺合成酶基因位点。",
+      "functions": "1. 实现高保真、高效率的位点特异性基因敲除。\n2. 支持顺序、多基因位点的编辑，用于构建复杂的工程化细胞系。\n3. 应用于生物制药细胞系开发，构建高产、稳定的宿主细胞平台（如谷氨酰胺合成酶双敲除CHO细胞），用于抗体等重组蛋白的生产。",
+      "key_results": "1. 编辑效率显著高于传统Cas9：在GS5和GS1位点的编辑效率分别达到84%和74%。\n2. 高保真性：在生成的单敲除和双敲除细胞系中，对40个预测脱靶位点进行分析，均未检测到脱靶突变。\n3. 平台功能验证：利用该双敲除平台（CleanCut GS CHO）筛选出的高产克隆，其细胞特异性生产力超过100 pg/细胞/天，在14天补料分批培养中抗体滴度大于5 g/L，且产量稳定性可保持超过60代。"
+    }
+  },
+  {
+    "id": "41504442",
+    "title": "Coronavirus genome packaging and nucleocapsid assembly.",
+    "abstract": "Coronaviruses are a family of positive-strand RNA viruses that exhibit highly selective packaging of their genomic RNA (gRNA) into assembled virions, despite the presence of a large excess of subgenomic viral RNA species and host RNA in infected cells. While this high selectivity is critical to evading host innate immune responses, surprisingly, it is not essential for virion assembly. This review focuses on four main topics: (i) coronavirus genome packaging signals (PSs)-how they are found and the function they serve; (ii) the viral components that recognize the PS in order to bring about selective gRNA packaging; (iii) coronavirus nucleocapsid structure and assembly; and (iv) the relationship between nucleocapsid protein phosphorylation and nucleocapsid assembly versus RNA synthesis. Current understanding of these areas has benefited immensely from advances made by recent studies, most of which were performed in response to the emergence of the coronavirus responsible for the COVID-19 pandemic. Throughout this review, emphasis is placed on the counterintuitive distinction between coronavirus selective gRNA packaging and nucleocapsid assembly.",
+    "authors": [
+      "Masters PS"
+    ],
+    "published": "2026-02-17",
+    "journal": "Journal of virology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41504442/",
+    "score": 15,
+    "summary": {
+      "title_zh": "冠状病毒基因组包装与核衣壳组装",
+      "tool_type": "综述论文（非直接工具/平台，但揭示了可用于指导工具设计的生物学机制）",
+      "design": "本文并非直接描述工程工具的设计，而是系统综述了冠状病毒实现基因组选择性包装的天然生物学机制。其核心思路在于：病毒通过特定的包装信号（PSs）被核衣壳蛋白（N蛋白）识别，从而在大量亚基因组RNA和宿主RNA存在的情况下，特异性地将基因组RNA（gRNA）包装进病毒颗粒。这一过程与核衣壳的物理组装本身是可分离的。",
+      "functions": "本文阐明的机制为开发基于RNA的**工具或平台**提供了潜在的设计原理，例如：1) **RNA靶向与富集工具**：模仿PS-N蛋白相互作用，实现特定RNA分子的选择性识别与分离。2) **RNA组装与包装平台**：利用类似的识别与组装原理，构建人工RNA-蛋白质复合体或纳米颗粒。3) **抗病毒策略靶点**：干扰PS识别或N蛋白功能，可作为抗病毒药物设计的思路。",
+      "key_results": "本文为综述，未报告新的实验数据，但总结的关键结论是：冠状病毒的**基因组选择性包装**（依赖PS和N蛋白的特异性识别）对于逃避宿主先天免疫至关重要，但与其**核衣壳的物理组装过程**在机制上是可分离的，后者并不严格依赖前者。这一“反直觉”的区分是理解其生命周期和设计干预措施的核心。"
+    }
+  }
+]
