@@ -1,0 +1,130 @@
+[
+  {
+    "id": "41721389",
+    "title": "Towards the development of a CRISPR-Cas9 based kill switch for Saccharomyces cerevisiae.",
+    "abstract": "Advancements in synthetic genetic circuits have enabled programmable and condition-dependent control of microbial cell growth. CRISPR-Cas9-based kill switches, genetic systems that program cells to lose viability in response to specific conditions, have recently been demonstrated for bacterial cell factories but not yet in yeast. In this study, we present a foundational demonstration for a CRISPR-based This work highlights the potential of harnessing a CRISPR-based kill switch in The online version contains supplementary material available at 10.1186/s12934-026-02959-2.",
+    "authors": [
+      "Umashankar P",
+      "Choi B",
+      "Nygård Y"
+    ],
+    "published": "2026-02-20",
+    "journal": "Microbial cell factories",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41721389/",
+    "score": 35,
+    "summary": {
+      "title_zh": "面向酿酒酵母的CRISPR-Cas9基础型致死开关开发",
+      "tool_type": "基于CRISPR-Cas9的合成基因电路/细胞生长调控系统",
+      "design": "该工具的核心设计思路是构建一个可编程的、条件依赖性的遗传控制系统。其工程化思路是将CRISPR-Cas9系统与特定的诱导条件相结合，通过表达Cas9和靶向细胞生存必需基因的向导RNA（gRNA），在特定条件触发下切割基因组DNA，从而导致细胞死亡。",
+      "functions": "1. 条件依赖性细胞生长抑制或清除（致死开关功能）。\n2. 为酿酒酵母细胞工厂提供生物安全控制机制。\n3. 实现对外部信号或特定环境条件的程序化响应，控制细胞存亡。",
+      "key_results": "本研究提供了在酿酒酵母中实现CRISPR-Cas9基础致死开关的原理性验证，证明了该系统具备在酵母中条件性触发细胞死亡的能力，为在真核细胞工厂中应用此类生物安全工具奠定了基础。"
+    }
+  },
+  {
+    "id": "41697162",
+    "title": "Alphaherpesvirus UL48 homologs degrade STING1 by selective autophagy.",
+    "abstract": "Alpha-herpesviruses have evolved strategies to break through immune defenses and cause severe host damage. Here, we demonstrate that the tegument protein UL48 in pseudorabies virus (PRV) inhibits type I interferon signaling by triggering STING1 degradation via a selective macroautophagy/autophagy pathway. Mechanistically, UL48 recruits the E3 ligase TRIM21 (tripartite motif containing 21), which catalyzes the ubiquitination of STING1 to form a K33/K63 linkage and is captured by the cargo receptor CALCOCO2/NDP52 for lysosomal degradation. In addition, multiple α-herpesvirus tegument protein UL48 homologs also target STING1 for degradation. Importantly, this phenotype was also observed in other herpesviruses driven by PRV UL48 homologs (herpes simplex virus-1 [HSV-1] and cercopithecine alphaherpesvirus 2 [CHV-2]). In addition, UL48-deficient PRV and HSV-1 mutant viruses attenuated pathogenicity in mice. In conclusion, this study describes a novel mechanism by which α-herpesviruses utilize UL48 proteins to promote viral escape from the host immune response.",
+    "authors": [
+      "Kong Z",
+      "Sun X",
+      "Zhai X",
+      "Fan S",
+      "Liu R",
+      "Hu W",
+      "Guan K",
+      "Zhang Y",
+      "He W",
+      "Zhang Y",
+      "Wan B",
+      "Li N",
+      "Kong Z",
+      "Zhang G"
+    ],
+    "published": "2026-02-16",
+    "journal": "Autophagy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41697162/",
+    "score": 15,
+    "summary": {
+      "title_zh": "α疱疹病毒UL48同源蛋白通过选择性自噬降解STING1",
+      "tool_type": "病毒免疫逃逸机制研究模型/天然免疫抑制工具",
+      "design": "本研究并非人工设计的工程工具，而是揭示了一种由病毒天然编码的、模块化的免疫逃逸“工具”。其核心思路是：病毒蛋白UL48作为适配器，招募宿主E3连接酶TRIM21对STING1进行特定类型的泛素化修饰（K33/K63连接），进而被货物受体CALCOCO2识别，从而将STING1靶向至自噬-溶酶体途径进行降解。",
+      "functions": "1. 免疫信号抑制：特异性降解天然免疫信号通路中的关键接头蛋白STING1，从而抑制I型干扰素信号通路。\n2. 病毒致病机制研究：作为研究α疱疹病毒（如伪狂犬病毒PRV、单纯疱疹病毒HSV-1）免疫逃逸策略的分子模型。\n3. 潜在的反向应用：理解该机制有助于开发针对该通路的激动剂或抑制剂，可能用于抗病毒或自身免疫性疾病治疗。",
+      "key_results": "1. 关键性能：PRV UL48及其在HSV-1、CHV-2中的同源蛋白均能有效介导STING1的降解，证明了该机制在α疱疹病毒中的保守性。\n2. 体内验证：缺失UL48的PRV和HSV-1突变病毒在小鼠模型中的致病性显著减弱，直接证明了该“工具”在病毒体内感染和致病过程中的关键作用。"
+    }
+  },
+  {
+    "id": "41688928",
+    "title": "Multipartite mitochondrial genome evolution in Halophila seagrasses: repeat-driven structural plasticity and selection signatures of marine adaptation.",
+    "abstract": "The degradation of seagrass beds, which serve as pivotal indicators of coastal ecosystem health, has emerged as a critical reflection of global nearshore environmental stress. In this study, we employed two closely related seagrass species, Halophila beccarii and H. ovalis, as case studies to investigate the structural and evolutionary dynamics of their mitochondrial genomes through comparative genomics and evolutionary analyses. Our findings reveal striking structural disparities in the mitochondrial genomes of the two species: H. beccarii comprises 28 free circular elements totaling 1.98 Mb, whereas H. ovalis harbors 12 circular units spanning 0.58 Mb. Codon usage analysis demonstrated a significant A/U preference at the third position of high-frequency codons. Analyses of relative substitution rates (Ka/Ks) showed that the nad3 gene consistently exhibited ratios greater than 1 in both marine-freshwater pairwise comparisons and across the phylogeny, distinguishing it from other mitochondrial genes. Halophila species showed a reduced complement of RNA editing sites. Specifically, genes nad3 and nad6 in H. beccarii, and cox1, nad3, and nad6 in H. ovalis completely lacked RNA editing under the experimental conditions employed. Collectively, this work characterizes the diverse mitogenomic architecture in seagrasses, offering a genomic foundation for future studies on seagrass evolution and environmental response.",
+    "authors": [
+      "Jia S",
+      "Zhang J",
+      "Wang Y",
+      "Cai Z",
+      "Shen J",
+      "Chen S"
+    ],
+    "published": "2026-02-13",
+    "journal": "BMC plant biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41688928/",
+    "score": 15,
+    "summary": {
+      "title_zh": "海神草属海草多部线粒体基因组进化研究：重复序列驱动的结构可塑性及海洋适应选择特征",
+      "tool_type": "这不是一篇关于工程化RNA编辑工具或可编程RNA调控系统的论文。它是一篇关于海草线粒体基因组比较与进化分析的基因组学研究。",
+      "design": "本研究未涉及工程化工具的设计。其核心研究思路是：1）选取亲缘关系相近的两种海草（贝克海神草与卵叶海神草）作为比较对象；2）通过比较基因组学和进化分析，解析其线粒体基因组的结构与进化动态。",
+      "functions": "本研究不提供可编程的RNA工具或平台。其功能在于：1）描述和比较海草线粒体基因组的复杂多部结构；2）分析密码子使用偏好和基因（如nad3）的进化选择压力；3）评估RNA编辑位点的存在与缺失情况。这些结果为理解海草进化与环境适应提供了基因组学基础。",
+      "key_results": "关键发现包括：1）两种海草线粒体基因组结构差异巨大（贝克海神草为28个环状单元共1.98 Mb，卵叶海神草为12个单元共0.58 Mb）；2）nad3基因在海洋-淡水比较及系统发育中均显示Ka/Ks > 1，表明受到正选择；3）部分基因（如贝克海神草的nad3、nad6，卵叶海神草的cox1、nad3、nad6）在实验条件下完全缺失RNA编辑位点。"
+    }
+  },
+  {
+    "id": "41678668",
+    "title": "Enhancing the specificity of gene editing outcomes by using Cas9 variants in porcine embryos.",
+    "abstract": "The CRISPR/Cas9 technology has improved the ability to introduce targeted modifications in cells and embryos in diverse species. The use of this technology enables the establishment of genetically modified livestock models to study human diseases or improve food production. However, one of the main concerns with employing this technology is the possibility of introducing unintended genome modifications induced by the Streptococcus pyogenes Cas9 (SpCas9), a commonly used Cas9 protein. Recent advancements in CRISPR/Cas9 technology offer Cas9 variants that are designed to improve gene editing specificity. Here, three high-fidelity SpCas9 variants (eSpCas9, HiFi Cas9 and LZ3 Cas9) were employed to examine their efficacy and specificity in pig embryos. To introduce targeted modifications, mRNA coding for each Cas9 variant was mixed with IGH single guide RNA (sgRNA) and were injected into fertilized pig zygotes. The frequency of on- and off-targeting was calculated by amplifying IGH, AR, and RBFOX1 regions from genomic DNA derived from the injected embryos at the blastocyst stage and sent for Sanger sequencing. The sgRNA targeting IGH locus resulted in a 100% on-target editing rate using SpCas9. However, SpCas9 introduced off-targeting events in AR and RBFOX1 at a high frequency (> 60%) in embryos. Injecting each Cas9 variant at 20 ng/µl could modify the target gene (IGH) at 100% efficiency except for LZ3 Cas9 (59.1%). Importantly, off-target events on AR and RBFOX1 were not detected in any Cas9 variant groups. Gradually reducing the concentration of Cas9 mRNAs lowered the efficacy of on-targeting in all groups; however, the reduction was more dramatic in HiFi Cas9 and LZ3 Cas9 injected embryos. No embryonic toxicity was identified in embryo injected with Cas9 variants and more embryos reached blastocyst stage when injected with either eSpCas9 or HiFiCas9 mRNA. In vivo competency of embryos receiving eSpCas9 was examined by embryo transfer and fetuses recovered from a pregnant sow presented 100% on-target editing efficiency without any detectable off-target events. In summary, among the Cas9 variants examined, eSpCas9 presented the highest specificity with no detectable off-target events and supported the development of gene-edited fetuses. Our findings indicate that the use of Cas9 variants can advance the field of gene editing in livestock models. Pigs are an important food animal species and a translational model for human disease. The development of gene editing systems such as the CRISPR/Cas9 system has greatly improved the efficiency of introducing precise genetic modifications in pigs. Although efficient, the system can introduce random DNA break in the genome and cause toxicity. To minimize the toxicity, diverse CRISPR/Cas9 systems have been developed. In this study, the efficiency and specificity of selected Cas9 variants (eSpCas9, HiFi Cas9, and LZ3 Cas9) were evaluated using swine embryos as a model. The efficiency of eSpCas9 was comparable to conventional Cas9 and could effectively suppress DNA mutations at non-target locations. In summary, the fidelity of different Cas9 variants was investigated to reduce toxicity of gene editing events without compromising on-target success in swine embryos. The findings indicate that the use of Cas9 variants can advance the field of gene editing in the livestock.",
+    "authors": [
+      "Kim J",
+      "Yoon J",
+      "Chen J",
+      "Lee J",
+      "Lee HJ",
+      "Whitworth K",
+      "Redel B",
+      "Prather RS",
+      "Lee K"
+    ],
+    "published": "2026-02-12",
+    "journal": "Journal of animal science",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41678668/",
+    "score": 15,
+    "summary": {
+      "title_zh": "在猪胚胎中使用Cas9变体增强基因编辑结果的特异性",
+      "tool_type": "高保真CRISPR/Cas9基因编辑系统（具体为SpCas9的三种高保真变体：eSpCas9、HiFi Cas9和LZ3 Cas9）",
+      "design": "本研究并非从头设计新工具，而是对已开发的三种高保真SpCas9变体（eSpCas9、HiFi Cas9和LZ3 Cas9）进行系统性评估。其核心思路是利用这些变体经过工程化改造、旨在减少与非靶标DNA相互作用的能力，在大型动物胚胎模型中验证其能否在保持高效靶向编辑的同时，显著降低脱靶效应。",
+      "functions": "1. 实现猪胚胎中位点特异性的基因敲除/编辑。\n2. 在大型动物（猪）模型中建立遗传修饰，用于人类疾病研究或农业生产改良。\n3. 通过使用高保真变体，最大限度地减少基因编辑过程中的脱靶突变和潜在毒性，提高编辑结果的安全性。",
+      "key_results": "1. 在猪胚胎中，三种高保真Cas9变体（尤其是eSpCas9和HiFi Cas9）在20 ng/µl浓度下均能实现高效的靶向编辑（eSpCas9和HiFi Cas9为100%），且关键的是，在检测的脱靶位点（AR和RBFOX1）上均未检测到脱靶事件，而野生型SpCas9的脱靶率>60%。\n2. 体内胚胎移植实验证实，使用eSpCas9编辑的胚胎能发育成胎儿，且胎儿呈现100%的靶向编辑效率，无任何可检测的脱靶事件，证明了其在高价值大型动物模型中应用的有效性与安全性。"
+    }
+  },
+  {
+    "id": "41605789",
+    "title": "High-Resolution Ion Mobility Mass Spectrometry for Separation of Oligonucleotide Phosphorothioate Diastereomers.",
+    "abstract": "Phosphorothioate (PS) modifications are important chemical modifications across oligonucleotide therapeutics. However, the introduction of PS linkages significantly increases analytical complexity due to the generation of diastereomers. Here, we extend beyond the limited studies of PS diastereomer ion mobility mass spectrometry (IM-MS) through the comprehensive and systematic analysis of model poly-dT PS oligonucleotides using structures for lossless ion manipulation (SLIM) high-resolution IM (HRIM) coupled to high-resolution mass spectrometry (HRMS). For the first time, we thoroughly investigate the impact of charge state, adduct state, oligonucleotide length, sequence composition/symmetry, and the number and location of PS modifications on HRIM-MS separation. Our data showcase that increased sequence asymmetry and lower oligonucleotide",
+    "authors": [
+      "Blevins MS",
+      "Du J",
+      "Aderorho R",
+      "Lieu R",
+      "Crittenden CM",
+      "Chen T"
+    ],
+    "published": "2026-02-10",
+    "journal": "Analytical chemistry",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41605789/",
+    "score": 15,
+    "summary": {
+      "title_zh": "用于分离寡核苷酸硫代磷酸酯非对映异构体的高分辨率离子淌度质谱技术",
+      "tool_type": "分析表征平台/工具（具体为基于高分辨率离子淌度质谱的分析方法）",
+      "design": "该平台的核心设计思路是将“无损离子操控结构”高分辨率离子淌度分离技术与高分辨率质谱联用，构建一个高分辨率的分析系统。其模块化组合在于利用离子淌度技术根据离子的大小、形状和电荷进行气相分离，再结合质谱进行精确质量测定，从而实现对复杂混合物的高分辨率分离与鉴定。",
+      "functions": "1. 分离与鉴定：能够高效分离和鉴定硫代磷酸酯修饰寡核苷酸中的非对映异构体。\n2. 结构分析：系统性地分析电荷状态、加合物状态、寡核苷酸长度、序列组成/对称性以及PS修饰的数量和位置对分离的影响，为理解PS修饰的物理化学性质提供工具。\n3. 质量控制：作为寡核苷酸治疗药物（如反义寡核苷酸、siRNA）研发与生产过程中，对关键质量属性（如立体化学纯度）进行深入分析的有力工具。",
+      "key_results": "关键实验结果表明，该高分辨率离子淌度质谱平台能够有效分离PS非对映异构体，并且发现序列不对称性增加和寡核苷酸长度降低有助于改善分离效果，首次系统揭示了多种因素对分离的影响，证明了其作为高分辨率分析工具的卓越性能。"
+    }
+  }
+]
