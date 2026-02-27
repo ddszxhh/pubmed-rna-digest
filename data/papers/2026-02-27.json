@@ -1,0 +1,131 @@
+[
+  {
+    "id": "41741438",
+    "title": "Target-stabilized base editors enable robust high-fidelity RNA editing.",
+    "abstract": "RNA base editing using engineered deaminases represents a powerful tool to correct mutations at the RNA level. However, widespread off-target effects, primarily arising from dissociated free deaminases, remain a significant challenge. Here, we devise the RECODE (RNA editing with conditionally stable and enhanced ADAR1 deaminase variants) system, which employs designer degron-tagged ADAR1 deaminase (ADAR1d) with guide RNA (gRNA)-regulated stability. By promoting degradation of gRNA-unbound ADAR1d, RECODE markedly reduces transcriptome-wide edits while maintaining high on-target efficacy. Engineering gRNA for target RNA-induced conformational switching confines ADAR1d stabilization to intended editing sites, further enhancing editing precision. With structure-guided rational engineering of ADAR1d, RECODE efficiently corrects an Amyotrophic Lateral Sclerosis-relevant FUS mutation and installs a therapeutic mutation to Angptl3 in vivo, which mitigate FUS mislocalization to neuronal axons and lower plasma lipids, respectively. These findings establish RECODE as a highly stringent and efficient RNA editing technology and underscore a general principle for enhancing the specificity of RNA-guided protein effectors.",
+    "authors": [
+      "Liu T",
+      "Lin Y",
+      "Liu Q",
+      "Liao W",
+      "Lin Y",
+      "Zhang Y",
+      "Zhang J",
+      "Cao W",
+      "Yang L",
+      "Hong Z",
+      "Lu Z"
+    ],
+    "published": "2026-02-25",
+    "journal": "Nature communications",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41741438/",
+    "score": 95,
+    "summary": {
+      "title_zh": "靶标稳定的碱基编辑器实现稳健且高保真的RNA编辑",
+      "tool_type": "RNA碱基编辑器（基于ADAR脱氨酶的工程化系统）",
+      "design": "1. 核心思路是构建一个向导RNA（gRNA）调控稳定性的ADAR1脱氨酶（ADAR1d）系统。通过给ADAR1d添加可设计的降解决定子标签，使其在未与gRNA结合时被快速降解。\n2. 进一步工程化gRNA，使其在与靶标RNA结合时发生构象转换，从而仅在目标编辑位点稳定ADAR1d，将酶活性严格限制在预定位置。",
+      "functions": "1. 实现位点特异性的A-to-I（腺苷到肌苷）RNA碱基编辑。\n2. 纠正疾病相关的RNA点突变（如肌萎缩侧索硬化症相关的FUS突变）。\n3. 在体内引入治疗性突变（如Angptl3基因突变以降低血脂）。\n4. 通过高精度编辑调控基因功能（如纠正FUS蛋白的错误定位）。",
+      "key_results": "1. RECODE系统显著降低了全转录组范围内的脱靶编辑，同时保持了高效的靶向编辑效率，实现了高保真度。\n2. 在体内实验中，成功纠正了ALS相关的FUS突变（缓解了FUS在神经元轴突的错误定位）并在Angptl3中引入治疗性突变（有效降低了血浆脂质水平），验证了其治疗潜力。"
+    }
+  },
+  {
+    "id": "41746212",
+    "title": "Amplification-Free Ribonucleic Acid Detection via Cas13-Csm6-Horseradish Peroxidase Cascade with Single-Molecule Sensitivity.",
+    "abstract": "Achieving a single-molecule level for RNA detection remains a significant challenge in point-of-care settings. We present CCHP, a Cas13-Csm6-horseradish peroxidase three-step enzymatic cascade assay that enables amplification-free RNA detection with a simple colorimetric readout at 450 nm within 1 h under standard conditions. Across diverse viral and non-coding targets, CCHP spans a dynamic range of 10-10",
+    "authors": [
+      "Zhong H",
+      "Zhang X",
+      "Zhou J",
+      "Gong R",
+      "Chen M",
+      "Men D",
+      "Feng X",
+      "Zhang XE"
+    ],
+    "published": "2026-02-26",
+    "journal": "ACS sensors",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41746212/",
+    "score": 65,
+    "summary": {
+      "title_zh": "基于Cas13-Csm6-辣根过氧化物酶级联反应实现单分子灵敏度的无扩增RNA检测",
+      "tool_type": "RNA检测平台（基于Cas13与Csm6的酶级联信号放大系统）",
+      "design": "该平台的核心设计是将Cas13的靶标RNA激活特性、Csm6的次级信号放大能力与辣根过氧化物酶（HRP）的显色输出功能进行三级级联。首先，靶标RNA激活Cas13的反式切割活性，切割特定RNA报告分子；其次，被切割的报告分子激活Csm6蛋白，使其切割另一个携带HRP模拟DNA酶的RNA报告分子；最后，释放的DNA酶催化显色反应，实现信号的多级放大与可视化输出。",
+      "functions": "1. 高灵敏度、无扩增的RNA检测（无需PCR或等温扩增步骤）。\n2. 适用于病毒RNA（如SARS-CoV-2）及非编码RNA等多种靶标的检测。\n3. 提供简单的比色法读数（450 nm吸光度），便于在即时检测（POCT）场景下使用。",
+      "key_results": "在标准条件下1小时内即可完成检测，动态范围跨越10个数量级（10^-10 M至10^-20 M），并成功在单分子水平检测到RNA，实现了极高的灵敏度与宽泛的检测范围。"
+    }
+  },
+  {
+    "id": "41744067",
+    "title": "Adenosine-to-Inosine (A-to-I) RNA Editing by ADAR1 to Control RNA Sensing in Cardiovascular Disease.",
+    "abstract": "Across biology, organisms have retained a mechanism to diversify the RNA transcriptome through RNA editing. Mediated by ADAR (adenosine deaminase acting on RNA) enzymes, Adenosines in double-stranded RNA (dsRNA) structures can be edited to Inosines (adenosine-to-inosine edit). Although this can change the amino acid sequence if it occurs in a coding sequence of mRNA, the majority of RNA editing in mammalian cells is found in noncoding repetitive elements. These repetitive elements have a predisposition to form long dsRNA structures that can mimic a dsRNA virus. Since the initial discoveries of RNA editing over 30 years ago, investigators have now identified ADAR1 to play a crucial role in suppressing innate immune activation and type I interferon signaling. Through adenosine-to-inosine editing, these dsRNA change their conformational structures and evade activation of the innate immune dsRNA sensor, MDA5. In human disease, although rare loss-of-function variants of ADAR1 have been associated with severe autoimmune disease, there has also been a rapid advance in our understanding of this molecular pathway in common complex diseases. We now understand that common genetic variants can impact RNA editing frequencies, and variants that decrease RNA editing are associated with an increase in risk of numerous autoinflammatory disorders as well as coronary artery disease. This rapid advance in our understanding of the genetic determinants of RNA editing and coronary artery disease has been mirrored by new discoveries in molecular biology, where deficient RNA editing within the vascular wall and smooth muscle cell now highlights endogenous RNA sensing by MDA5 as a causal mechanism of coronary artery disease and other vascular disorders. Here, in this review, we provide a focused look at major advances in RNA editing and cardiovascular disease and put these discoveries into historical context with a goal to map the next steps to advance these molecular pathways to new therapeutic discovery.",
+    "authors": [
+      "Weldy CS",
+      "Li JB",
+      "Quertermous T"
+    ],
+    "published": "2026-02-26",
+    "journal": "Arteriosclerosis, thrombosis, and vascular biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41744067/",
+    "score": 35,
+    "summary": {
+      "title_zh": "ADAR1介导的腺苷至肌苷（A-to-I）RNA编辑在心血管疾病中调控RNA感知的作用",
+      "tool_type": "综述论文（非工具开发论文），聚焦于内源性ADAR1酶及其生物学通路作为潜在治疗靶点的价值。",
+      "design": "本文并非介绍新设计的工程工具，而是综述了内源性ADAR1系统的天然‘设计’：ADAR1酶通过识别双链RNA（dsRNA）结构，将腺苷（A）脱氨基转化为肌苷（I），从而改变dsRNA的构象。这一天然机制被机体用来标记自身RNA，以区别于外源病毒RNA。",
+      "functions": "1. **免疫耐受调控**：通过编辑富含重复元件的内源性dsRNA，使其构象改变，从而逃避先天免疫传感器MDA5的识别，防止自身免疫反应。\n2. **疾病机制关联**：ADAR1编辑功能缺失与自身炎症性疾病及冠状动脉疾病的风险增加相关。\n3. **潜在治疗靶点**：该通路揭示了通过调控RNA编辑或MDA5感知来治疗心血管疾病和自身免疫疾病的新策略。",
+      "key_results": "关键研究发现（非工具性能指标）：1. 常见遗传变异会影响RNA编辑频率，编辑频率降低与冠状动脉疾病等多种疾病风险升高相关。2. 在血管壁和平滑肌细胞中，RNA编辑缺陷会激活MDA5介导的内源性RNA感知，这是冠状动脉疾病的一个因果机制。"
+    }
+  },
+  {
+    "id": "40779358",
+    "title": "Adenosine-to-inosine editing of miR-200b-3p is associated with the progression of high-grade serous ovarian cancer.",
+    "abstract": "Deamination of adenosine to inosine (A-to-I) in double-stranded microRNAs (miRNAs) has been demonstrated to affect their function as suppressors or oncogenes in various cancers. Nevertheless, the functional impact of miRNA editing in high-grade serous ovarian cancer (HGSOC) remains largely unexplored. Here, we identified A-to-I editing in miRNAs in 60 HGSOC tissues and 48 ovarian tissues received in nononcological procedures using small RNA sequencing (RNA-Seq). To investigate the functional impact of A-to-I modifications, we tested the effect of edited RNA mimics and small interfering RNA (siRNA)-mediated downregulation of the RNA-editing enzyme double-stranded RNA-specific editase Adar (ADAR1) on cell proliferation, migration and three-dimensional (3D) growth of HGSOC cells in vitro. Tumour suppressor miR-200b-3p was the most overedited miRNA in HGSOC tumours, and the increased editing level was associated with statistically significant worse overall survival (OS). Mechanistically, in contrast to wild-type miRNA, edited miR-200b-3p promoted cell proliferation, migration and formation of 3D spheroids. Loss of function of ADAR1 profoundly repressed proliferation, migration and 3D growth of HGSOC cells. RNA-Seq and Gene Set Enrichment Analysis (GSEA) analysis revealed that, whereas wild-type miR-200b-3p induced the apoptosis pathway, edited miR-200b-3p substantially inhibited cell-cycle-related pathways. Bioinformatic prediction revealed that edited miR-200b-3p gained the function to repress the expression of new targets, including tumour suppressor MAX interactor 1, dimerisation protein (MXI1), which was associated with a statistically significantly worse OS time in HGSOC patients. Our study reports the potential contribution of edited miR-200b-3p in HGSOC progression, and highlights its potential as a new therapeutic target.",
+    "authors": [
+      "Niemira M",
+      "Skwarska A",
+      "Chwialkowska K",
+      "Ostrowska A",
+      "Sokolowska G",
+      "Zeller A",
+      "Erol A",
+      "Eljaszewicz A",
+      "Hanczaruk B",
+      "Michalska-Falkowska A",
+      "Tarasik A",
+      "Reszec-Gielazyn J",
+      "Knapp P",
+      "Moniuszko M",
+      "Kretowski A"
+    ],
+    "published": "2026-02-01",
+    "journal": "Molecular oncology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40779358/",
+    "score": 35,
+    "summary": {
+      "title_zh": "miR-200b-3p的腺苷至肌苷编辑与高级别浆液性卵巢癌进展相关",
+      "tool_type": "RNA编辑功能研究平台（非工程化工具，但提供了一种基于内源性ADAR1和编辑特异性模拟物的研究范式）",
+      "design": "本研究并非设计一个全新的工程化工具，而是构建了一个用于探究内源性A-to-I编辑功能的研究体系。其核心思路是：1）利用小RNA测序在临床样本中鉴定出关键编辑事件（如miR-200b-3p）；2）通过合成“编辑型”miRNA模拟物与“野生型”模拟物进行功能对比；3）结合siRNA敲低内源性编辑酶ADAR1，双向验证编辑事件的功能影响。",
+      "functions": "该研究体系可实现以下功能：1）鉴定与疾病相关的内源性RNA编辑事件；2）通过合成编辑型/野生型RNA模拟物，在细胞模型中解析特定编辑位点的功能增益或丧失效应；3）通过调控内源性编辑酶（ADAR1）水平，反向验证编辑事件在癌细胞表型（增殖、迁移、3D生长）中的作用；4）结合转录组测序与生物信息学分析，揭示编辑导致的miRNA靶标谱改变及下游通路变化。",
+      "key_results": "关键性能指标包括：1）在HGSOC肿瘤中，miR-200b-3p的编辑水平升高与患者总生存期显著恶化相关；2）功能上，编辑型miR-200b-3p模拟物（而非野生型）能促进癌细胞增殖、迁移和3D球体形成，并抑制细胞周期相关通路；3）敲低ADAR1可显著抑制HGSOC细胞的恶性表型，证实了编辑酶的功能依赖性；4）编辑使miR-200b-3p获得了抑制新靶标（如肿瘤抑制因子MXI1）的能力，这与其促癌功能相关。"
+    }
+  },
+  {
+    "id": "41744490",
+    "title": "ADAR-mediated tolerance and SOS splicing-mediated excision of transposable elements.",
+    "abstract": "Transposable elements (TEs) threaten genomic integrity, yet their pervasive presence indicates the limitations of existing silencing mechanisms. A recent paper in",
+    "authors": [
+      "Cao Q",
+      "Duan Y"
+    ],
+    "published": "2026-02-26",
+    "journal": "Transcription",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41744490/",
+    "score": 30,
+    "summary": {
+      "title_zh": "ADAR介导的耐受性与SOS剪接介导的转座子元件切除",
+      "tool_type": "内源性RNA编辑与剪接调控系统（非人工设计工具，但揭示了可编程RNA调控的潜在原理）",
+      "design": "该研究并非设计人工工具，而是揭示了细胞利用内源性ADAR编辑系统和“SOS”剪接机制来应对转座子元件的天然策略。其核心思路是：1）通过ADAR对转座子来源的双链RNA进行A-to-I编辑，降低其免疫原性并实现“耐受”；2）当编辑不足时，触发由内含子两侧的隐蔽剪接位点介导的“拯救性剪接”，将转座子序列作为“有毒外显子”从成熟mRNA中切除。",
+      "functions": "该系统展示了细胞天然具备的两种关键RNA调控功能：1）**RNA编辑介导的免疫耐受**：通过A-to-I编辑修饰转座子转录本，避免被细胞固有免疫系统识别为外源物。2）**备份性RNA剪接清除**：当编辑失败时，通过特异性剪接将有害的转座子序列从转录本中物理移除，保证基因功能的完整性。这为人工设计基于ADAR编辑或可编程剪接的RNA修复工具提供了原理参考。",
+      "key_results": "关键实验证实：1）在果蝇模型中，ADAR缺失会导致转座子双链RNA积累并激活免疫通路，而SOS剪接机制可作为备份通路被激活；2）SOS剪接能有效从成熟mRNA中切除未编辑的转座子序列，证明了这两种机制在体内共同维持RNA稳态和基因组完整性的功能。"
+    }
+  }
+]
