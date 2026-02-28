@@ -1,0 +1,153 @@
+[
+  {
+    "id": "41751993",
+    "title": "Evolution of Engineered ADAR-Based RNA Editing Systems.",
+    "abstract": "RNA editing is a way to diversify, regulate expression, and expand the cell transcriptome. The most common RNA editing is the reversible conversion of adenosine (A) to inosine (I) driven by double-stranded RNA-binding adenosine deaminases (ADARs). As inosine is recognized as guanosine (G) during translation, the RNA editing may result in non-synonymous codon changes. For this reason, ADARs have gained attention as promising enzymes to rewrite mRNA. Many efforts were undertaken to engineer a precise, effective, and controllable ADAR-based system to target certain Adenines on RNA to repair pathological mutations. This review summarizes the advances in ADAR-mediated RNA editing, evolving from systems using antisense oligonucleotides as guide RNA to recruit endogenous or overexpressed ADARs, through more complex setups additionally expressing other RNA-binding proteins, to rational designs harnessing ADARs to convert other nucleotides and amplify the low initial signal. Increasing the specificity and yield of RNA editing, expanding the number of targetable sites, and reducing off-target and bystander activity remain key challenges for these technologies. Improving delivery efficiency across a broad range of cell types, as well as optimizing delivery routes in in vivo studies are also critical to harness them as advantageous tools for both research and therapy.",
+    "authors": [
+      "Borkiewicz L"
+    ],
+    "published": "2026-02-14",
+    "journal": "International journal of molecular sciences",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41751993/",
+    "score": 85,
+    "summary": {
+      "title_zh": "工程化ADAR RNA编辑系统的演进",
+      "tool_type": "基于ADAR的RNA碱基编辑器（可编程RNA编辑平台）",
+      "design": "该综述总结了ADAR编辑系统的核心设计演进思路：1）从使用反义寡核苷酸作为向导RNA招募内源性或过表达的ADAR酶，到2）设计更复杂的系统，额外表达其他RNA结合蛋白以增强招募和特异性，再到3）通过理性设计改造ADAR酶以转换其他核苷酸并放大初始编辑信号。",
+      "functions": "1. 实现位点特异性的A-to-I（读作G）RNA编辑，以修复致病性点突变。\n2. 通过编辑mRNA，实现非同义密码子改变，从而调控蛋白质功能。\n3. 作为研究工具，用于探索RNA编辑的生物学功能。\n4. 作为潜在的治疗平台，用于纠正由G-to-A突变等引起的遗传疾病。",
+      "key_results": "本文是一篇综述，未报告具体的实验数据。文章总结了该领域的关键性能挑战与目标：提高编辑的特异性和效率、增加可靶向位点数量、减少脱靶和旁观者编辑活性，以及在广泛细胞类型中提高递送效率、优化体内递送途径，是将其转化为研究和治疗优势工具的关键。"
+    }
+  },
+  {
+    "id": "41755633",
+    "title": "A novel Dual-guide CRISPR-Cas13 strategy improves specificity for single-nucleotide variant detection.",
+    "abstract": "The emergence of CRISPR-Cas systems has transformed nucleic acid detection and manipulation. Cas13, a type VI CRISPR effector, targets RNA with high sensitivity through both cis (target RNA) and trans (collateral RNA) cleavage. This property enables the use of fluorescent reporters for sensitive diagnostics. However, Cas13's heightened sensitivity also leads to reduced specificity due to its susceptibility to single-nucleotide mismatches, potentially causing off-target effects. To overcome this limitation, we developed the first Dual-guide RNA system for Cas13 that improves mismatch discrimination and enhances target specificity. This system employs two distinct RNAs-dcrRNA and dtracrRNA-which cooperatively recognize the target and reduce off-target activity. In vitro experiments demonstrated robust cis- and trans-RNase activity, indicating efficient and specific cleavage. The system accurately detected SARS-CoV-2 RNA, distinguished KRAS G12D and G12C mutations, and differentiated mucocutaneous from cutaneous Leishmania sequences in analytical assays, with clinical validation confirming accurate detection of positive and negative samples. These results highlight the Dual-guide Cas13 platform's potential for precise, rapid, and reliable RNA detection. Overall, this approach represents a substantial advance over conventional Cas13 systems, offering improved specificity while maintaining clinically relevant sensitivity, and provides a generalizable tool for next-generation molecular diagnostics and precision RNA targeting and regulation.",
+    "authors": [
+      "Aguilar-González A",
+      "Martos-Jamai I",
+      "Ramos-Hernández I",
+      "Molina-Estévez FJ",
+      "Villao NV",
+      "Puig-Serra P",
+      "Rodríguez-Perales S",
+      "Torres R",
+      "Labun K",
+      "Sánchez-Martín RM",
+      "Díaz-Mochón JJ",
+      "Martín F"
+    ],
+    "published": "2026-02-24",
+    "journal": "Nucleic acids research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41755633/",
+    "score": 65,
+    "summary": {
+      "title_zh": "一种新型双引导CRISPR-Cas13策略提高单核苷酸变异检测的特异性",
+      "tool_type": "RNA检测与诊断平台（基于CRISPR-Cas13的分子诊断工具）",
+      "design": "该工具的核心设计是构建了一个双引导RNA系统，通过使用两种不同的RNA（dcrRNA和dtracrRNA）协同识别目标RNA。这种设计利用两个独立的引导RNA共同作用，提高了对目标序列的识别精度，从而增强了对单核苷酸错配的区分能力，减少了脱靶效应。",
+      "functions": "1. 高特异性RNA检测：能够精确检测特定RNA序列，如病毒RNA（如SARS-CoV-2）。\n2. 单核苷酸变异鉴别：可区分高度相似的序列变异，例如KRAS基因的G12D和G12C突变。\n3. 病原体分型：能够鉴别密切相关的病原体序列，如区分皮肤利什曼原虫与黏膜皮肤利什曼原虫。\n4. 分子诊断：为下一代快速、可靠的临床分子诊断和精准RNA靶向调控提供通用平台。",
+      "key_results": "体外实验证实，该系统保持了强大的顺式和反式RNase活性，实现了高效且特异的切割。在分析检测中，它成功检测了SARS-CoV-2 RNA，准确区分了KRAS突变，并鉴别了利什曼原虫亚型；临床验证进一步确认了其对阳性和阴性样本的准确检测能力，在保持临床相关灵敏度的同时显著提高了特异性。"
+    }
+  },
+  {
+    "id": "41756253",
+    "title": "RNA Regulatory Networks: Key Hubs in the Panorama of Cancer and Emerging Therapeutic Targets.",
+    "abstract": "Cancer is a global health challenge. The initiation and progression of cancer are correlated with dynamic dysregulation of RNA regulatory networks. This review systematically explains how contending RNAs (including mRNA, miRNA, lncRNA, circRNA, etc.) remold gene expression programs across multiple dimensions. They do this primarily through the competing endogenous RNA sponge effect, RNA-protein complex assembly, RNA editing (A-to-I editing, m6A modification, etc.), tumorigenesis, heterogeneous evolution, and therapeutic resistance. RNA regulatory networks do not only help one to decode cancer biology but because they are dynamic in nature, they are now also being looked at as good precision targets for diagnosis and treatment. This article integrates recent findings on the emerging functions of RNA networks in tumor metabolic reprogramming, tumor immune microenvironment shaping, and cancer stem cell property maintenance, while highlighting their clinical application prospects as liquid biopsy biomarkers. Our therapies focus on assessing the potential and clinical translation bottlenecks of novel RNA-targeted interventions, including antisense oligonucleotides, RNA aptamers, and the CRISPR-Cas13 system. A dynamic adjustability made the RNA-targeted therapies promising intervention nodes in precision medicine even if most of them are still in a preclinical state.",
+    "authors": [
+      "Yin X",
+      "Du Z",
+      "Jiang S",
+      "Liao Y",
+      "Wang C",
+      "Li J",
+      "Zhang H",
+      "Wei TT",
+      "Zhang W",
+      "Zou Z"
+    ],
+    "published": "2026-03-01",
+    "journal": "MedComm",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41756253/",
+    "score": 45,
+    "summary": {
+      "title_zh": "RNA调控网络：癌症全景中的关键枢纽与新兴治疗靶点",
+      "tool_type": "综述论文（非单一工具，而是对多种RNA靶向干预策略的评估，包括反义寡核苷酸、RNA适配体、CRISPR-Cas13系统等）",
+      "design": "本文并非介绍单一工程设计，而是从系统生物学角度，综述了RNA调控网络（由mRNA、miRNA、lncRNA、circRNA等构成）通过竞争性内源RNA海绵效应、RNA-蛋白质复合物组装、RNA编辑（如A-to-I编辑、m6A修饰）等多种机制，在多维度重塑基因表达程序的整体思路。",
+      "functions": "1. 解码癌症生物学：阐明RNA网络在肿瘤代谢重编程、肿瘤免疫微环境塑造和癌症干细胞特性维持中的功能。\n2. 作为诊断生物标志物：例如作为液体活检的靶标。\n3. 作为治疗干预靶点：评估了以RNA网络为靶点的多种干预策略（如反义寡核苷酸、RNA适配体、CRISPR-Cas13系统）在癌症精准治疗中的应用潜力。",
+      "key_results": "本文是一篇综述，未报告具体的实验数据。其核心结论是：RNA调控网络因其动态可调的特性，已成为极具前景的精准医学干预节点，但大多数相关的RNA靶向疗法（如基于Cas13的系统）目前仍处于临床前研究阶段，面临临床转化的瓶颈。"
+    }
+  },
+  {
+    "id": "41757025",
+    "title": "Mechanistic machine learning enables interpretable and generalizable prediction of prime editing outcomes.",
+    "abstract": "Although prime editing (PE) can effect virtually any specified local change to genomic DNA in living systems, its efficient application currently requires extensive optimization of prime editing guide RNA (pegRNA) sequences. We present OptiPrime, a machine learning model of PE efficiency based on our current understanding of the mechanism of prime editing. OptiPrime achieves state-of-the-art accuracy on PE efficiency prediction and also enables prediction of nicking guide RNA (PE3) and dual pegRNA (twinPE) outcomes. We validated that OptiPrime has learned the determinants of mammalian mismatch repair (MMR), and is therefore well suited for nominating MMR-evasive silent edits that improve PE efficiency. We demonstrate the utility of OptiPrime in a variety of prospective therapeutic contexts, including in primary human and mouse cells. Finally, we show how OptiPrime can be used to achieve highly streamlined and efficient",
+    "authors": [
+      "Hsu A",
+      "Chen PJ",
+      "Li AH",
+      "Hemez CF",
+      "Gao XD",
+      "Terrey M",
+      "Nelson C",
+      "Selvam V",
+      "Cristian A",
+      "McElroy AN",
+      "Steinbeck BJ",
+      "Mahadeshwar GK",
+      "Pandey S",
+      "Barsdale Z",
+      "Chen PZ",
+      "Sousa AA",
+      "Sakai HA",
+      "Silverstein RA",
+      "Morad I",
+      "Krueger RK",
+      "Shen MW",
+      "Kleinstiver BP",
+      "Lutz CM",
+      "Tolar J",
+      "Blazar BR",
+      "Osborn MJ",
+      "Liu DR"
+    ],
+    "published": "2026-02-20",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41757025/",
+    "score": 45,
+    "summary": {
+      "title_zh": "机制性机器学习实现可解释且可泛化的先导编辑结果预测",
+      "tool_type": "机器学习预测模型/先导编辑（PE）优化平台",
+      "design": "该工具（OptiPrime）的核心设计思路是：1）基于当前对先导编辑（Prime Editing）分子机制的理解，构建一个机制驱动的机器学习模型。2）将编辑效率预测与对哺乳动物错配修复（MMR）机制的学习相结合，使模型不仅能预测结果，还能理解背后的生物学决定因素。",
+      "functions": "1. **预测编辑效率**：高精度预测先导编辑向导RNA（pegRNA）的编辑效率。2. **预测复杂编辑策略结果**：可扩展应用于预测切口向导RNA（PE3）和双pegRNA（twinPE）策略的编辑结果。3. **优化编辑设计**：通过识别决定MMR的因子，能够推荐可逃避MMR的“沉默编辑”位点，从而优化pegRNA设计以提高编辑效率。4. **辅助治疗性应用**：用于在各种前瞻性治疗场景（包括原代人类和小鼠细胞）中高效设计编辑方案。",
+      "key_results": "1. **预测性能优异**：OptiPrime在先导编辑效率预测上达到了最先进的准确度。2. **机制理解验证**：验证了模型确实学习到了哺乳动物错配修复（MMR）的关键决定因素，其推荐的“沉默编辑”能有效提高PE效率。3. **应用验证广泛**：在多种细胞类型（包括原代人类和小鼠细胞）和治疗相关背景下成功验证了其预测和优化能力，实现了高度简化和高效的编辑方案设计。"
+    }
+  },
+  {
+    "id": "41756256",
+    "title": "Inhibiting ADAR1-Mediated Excessive Epigenetic A-to-I RNA Editing Improves the Immune Microenvironment and Increases Sensitivity to Immunotherapy in Lung Adenocarcinoma.",
+    "abstract": "Adenosine-to-inosine (A-to-I) RNA editing, predominantly catalyzed by the enzyme adenosine deaminase acting on RNA 1 (ADAR1), has attracted interest due to its essential functions in regulating immune response and cancer progression. This research investigates ADAR1 inhibition as a promising strategy aimed at improving immunotherapy efficacy in lung adenocarcinoma (LUAD) and explores the underlying mechanisms. Findings from murine models demonstrate that ADAR1 suppression within tumors notably improves the immune microenvironment, marked by increased PD-L1 expression and enhanced CD8",
+    "authors": [
+      "Wang S",
+      "Zheng S",
+      "Liu C",
+      "Zhang C",
+      "Wang X",
+      "Wang Z",
+      "Wang Y",
+      "Feng X",
+      "Xue Q",
+      "Sun N",
+      "He J"
+    ],
+    "published": "2026-03-01",
+    "journal": "MedComm",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41756256/",
+    "score": 35,
+    "summary": {
+      "title_zh": "抑制ADAR1介导的过度表观遗传A-to-I RNA编辑可改善肺腺癌免疫微环境并增强免疫治疗敏感性",
+      "tool_type": "治疗策略/靶点（基于ADAR1抑制的RNA编辑调控工具）",
+      "design": "本研究并非设计一个新的工程化编辑工具，而是将内源性ADAR1酶及其介导的A-to-I RNA编辑过程本身视为一个可调控的“系统”。其核心思路是：通过药理或遗传手段抑制ADAR1的活性，从而系统性降低肿瘤细胞中过度的A-to-I编辑水平，以此作为一种干预肿瘤免疫微环境的治疗策略。",
+      "functions": "1. 功能：调控全局性（非位点特异性）的A-to-I RNA编辑水平。\n2. 应用：a) 改善肿瘤免疫微环境（如增加PD-L1表达、增强CD8+ T细胞浸润）；b) 增强肿瘤对免疫检查点抑制剂治疗的敏感性；c) 作为研究RNA编辑在癌症免疫中功能的探针或模型。",
+      "key_results": "关键实验结果表明，在肺腺癌小鼠模型中抑制ADAR1，能显著改善肿瘤免疫微环境（表现为PD-L1表达增加和CD8+ T细胞浸润增强），并最终提高动物对免疫治疗的响应和生存获益。"
+    }
+  }
+]
