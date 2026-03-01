@@ -1,0 +1,121 @@
+[
+  {
+    "id": "41756010",
+    "title": "Enhancement of prime editing by recruiting engineered or evolved components and implementing novel strategies.",
+    "abstract": "Prime editing has recently gained attention for its promising potential in treating genetic disorders caused by different types of mutations. This method, based on Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR), has led to the development of new strategies that offer improved editing efficiency. Additionally, the components of prime editing-namely, the prime editor (PE) and the prime editing guide RNA (PegRNA)-have been enhanced through rational design and direct evolution of structural modifications. These improvements have resulted in better performance and new capabilities, driven by novel mutations or components. In this review, we compare various studies that report enhanced versions of PE or PegRNA, which achieve more efficient results. These advancements hold the potential to accelerate and simplify the development of gene therapies for a range of genetic disorders.",
+    "authors": [
+      "Arabi M",
+      "Alizadeh F",
+      "Yousefi Y",
+      "Afarandeh H",
+      "Mozaffari Jovin S",
+      "Eslahi A",
+      "Mojarrad M"
+    ],
+    "published": "2026-03-01",
+    "journal": "Biochemistry and biophysics reports",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41756010/",
+    "score": 35,
+    "summary": {
+      "title_zh": "通过招募工程化/进化组件及实施新策略增强先导编辑",
+      "tool_type": "先导编辑器增强平台/策略综述",
+      "design": "核心思路是通过对先导编辑器（PE）和先导编辑向导RNA（PegRNA）两大组件进行理性设计或直接进化，引入新的突变或结构修饰，并开发新的招募或递送策略，以模块化方式提升系统整体性能。",
+      "functions": "1. 实现更高效的位点特异性基因编辑（包括点突变、小片段插入与缺失）。\n2. 提升对多种遗传疾病的基因治疗潜力。\n3. 通过增强的编辑能力，为开发更简化的基因疗法提供工具基础。",
+      "key_results": "本文是一篇综述，未报告原始实验数据，但总结并比较了多项研究，指出通过上述增强策略，多个改进版先导编辑器在编辑效率等关键性能指标上取得了显著提升，为体内外应用奠定了基础。"
+    }
+  },
+  {
+    "id": "41759295",
+    "title": "Comparative thermodynamic and kinetic properties governing the nucleic acid interactions of CRISPR-Cas9 and Cas12a.",
+    "abstract": "Clustered Regularly Interspaced Short Palindromic Repeat-associated proteins (CRISPR-Cas) biochemistry has been leveraged in genome editing applications in biochemical research and therapeutics. CRISPR-Cas9 and CRISPR-Cas12a are the two most widely used RNA-guided endonucleases and while Cas9 and Cas12a have a shared function, both have unique biophysical properties that alter their specificity and efficiency. The thermodynamic and kinetic properties governing their molecular interactions, recognition and binding of target DNA, and R-loop formation can differ. In some cases, these critical biophysical metrics have not been resolved. Distinctions between Cas9 and Cas12a enzymes are also prevalent in RNA:DNA hybrid binding affinities, DNA localization relative to the preferred PAM site and DNA cleavage mechanism. In this review, we examine the biophysical properties of both endonucleases, focused on the nucleic acid interactions that confer specificity and function. Complementing this biophysical overview, we discuss case studies in disparate model organisms that compare the genome editing and fidelity of Cas9 and Cas12a.",
+    "authors": [
+      "Molina C",
+      "Knight AL",
+      "Lisi GP"
+    ],
+    "published": "2026-02-27",
+    "journal": "Physical biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41759295/",
+    "score": 35,
+    "summary": {
+      "title_zh": "CRISPR-Cas9与Cas12a核酸相互作用的热力学与动力学特性比较",
+      "tool_type": "综述/比较分析（非直接工具，但为工具优化提供指导）",
+      "design": "本文并非直接设计新工具，而是通过系统比较Cas9和Cas12a两种核心CRISPR系统在热力学和动力学层面的特性差异，为理性设计或选择编辑工具提供理论框架。其思路是剖析两者在靶标识别、R-loop形成、DNA定位及切割机制等关键步骤的异同，从而理解其编辑效率和特异性的分子基础。",
+      "functions": "本文作为一篇综述，其价值在于为优化或选择CRISPR工具提供指导，以支持以下应用：1) 基因组编辑（提高效率与特异性）；2) 基于对PAM偏好、结合动力学和切割机制的理解，进行工具改造或条件优化；3) 在不同模型生物中根据具体需求（如对保真度的要求）选择合适的Cas酶（Cas9或Cas12a）。",
+      "key_results": "本文总结了关键研究发现：Cas9与Cas12a在靶标DNA识别、结合亲和力、R-loop形成动力学及DNA切割机制上存在显著差异，这些差异直接影响其编辑效率和脱靶倾向。文中讨论的在不同模型生物中的案例研究，直接比较了二者在基因组编辑效率和保真度方面的表现，为工具选择提供了实证参考。"
+    }
+  },
+  {
+    "id": "41419195",
+    "title": "Dynamic and extensive A-to-I RNA recoding in immunoglobulin shapes myeloid neoplasm transcriptome.",
+    "abstract": "Functional adenosine-to-inosine mRNA editing sites are continuously identified in cellular organisms. Despite that several editing sites have been linked to various human cancers, the dynamic RNA editing in the progression of myeloid neoplasms remains less known, preventing a clearer understanding of the functional repertoire of RNA editing in blood diseases. By analyzing transcriptomes from healthy controls, low-risk myelodysplastic syndrome, high-risk myelodysplastic syndrome, and acute myeloid leukemia, we reveal widespread and dynamic RNA editing events accompanying disease progression. Immunoglobulin genes are enriched for nonsynonymous editing sites with significantly altered editing levels in myeloid neoplasms, and such recoding sites often show genomic substitutions to hardwired G during mammalian evolution. Collectively, our findings broaden the functional spectrum of RNA editing in human and highlight its potential as a driver, responsor, or biomarker of myeloid neoplasms, underscoring its significance in human disease evolution.",
+    "authors": [
+      "Cao Q",
+      "Wang Y",
+      "Duan Y"
+    ],
+    "published": "2026-02-01",
+    "journal": "The Journal of biological chemistry",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41419195/",
+    "score": 35,
+    "summary": {
+      "title_zh": "免疫球蛋白中动态且广泛的A-to-I RNA重编程塑造髓系肿瘤转录组",
+      "tool_type": "RNA编辑分析平台/生物信息学发现工具",
+      "design": "本研究并非设计一个新的工程化编辑工具，而是构建了一个基于转录组测序数据的分析平台，用于系统性发现和追踪疾病进程中的内源性A-to-I RNA编辑事件。其核心思路是通过比较健康对照、不同风险等级的骨髓增生异常综合征和急性髓系白血病样本的转录组，识别伴随疾病进展的动态编辑位点。",
+      "functions": "1. 发现与鉴定：在全转录组范围内发现功能性的A-to-I mRNA编辑位点。\n2. 动态追踪：监测RNA编辑水平在疾病（髓系肿瘤）进展过程中的动态变化。\n3. 生物标志物挖掘：识别与疾病状态相关的特异性编辑事件，评估其作为疾病驱动因子、响应因子或生物标志物的潜力。",
+      "key_results": "关键实验结果表明，在髓系肿瘤进展过程中存在广泛且动态的RNA编辑事件，其中免疫球蛋白基因富集了非同义编辑位点，且这些位点的编辑水平在疾病中发生显著改变；进化分析进一步发现，这些重编程位点在哺乳动物进化中常被基因组上的固定G碱基所替代，提示了其潜在的功能重要性。"
+    }
+  },
+  {
+    "id": "41139982",
+    "title": "Evaluation of Transgenerational Gene Editing Efficiency and Inheritance of Edits Using a Split Cas9/gRNA Crossing System in Zea mays.",
+    "abstract": "",
+    "authors": [
+      "Lorenzo CD",
+      "Impens L",
+      "Sanches M",
+      "Vandeputte W",
+      "Wytynck P",
+      "Aesaert S",
+      "Coussens G",
+      "Inzé D",
+      "Nelissen H",
+      "Pauwels L"
+    ],
+    "published": "2026-03-01",
+    "journal": "Plant biotechnology journal",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41139982/",
+    "score": 25,
+    "summary": {
+      "title_zh": "利用分裂Cas9/gRNA杂交系统评估玉米跨代基因编辑效率与编辑遗传性",
+      "tool_type": "跨代基因编辑效率评估平台/系统",
+      "design": "该系统采用“分裂Cas9/gRNA杂交”策略，将Cas9蛋白与gRNA分别构建于独立的转基因株系中。通过杂交使Cas9与gRNA在F1代组合，从而在子代中激活编辑，并追踪编辑事件在后续世代（F2及以后）中的遗传模式与稳定性。",
+      "functions": "1. 评估植物（玉米）中CRISPR/Cas9介导的基因编辑的跨代效率。\n2. 分析编辑事件在后代中的遗传模式与稳定性。\n3. 为研究基因编辑在作物育种中的可遗传性与应用潜力提供工具。",
+      "key_results": "关键实验结果表明，该系统在F1代成功诱导了靶向编辑，并且这些编辑能够稳定地遗传给F2及后续世代，为量化编辑的跨代传递效率提供了可靠数据。"
+    }
+  },
+  {
+    "id": "41749968",
+    "title": "Antigen Remodeling in Colorectal Cancer: How Radiotherapy and Chemotherapy Enhance Immunotherapy Responsiveness.",
+    "abstract": "Colorectal cancer (CRC) is traditionally considered a \"cold tumor\" characterized by low immunogenicity and limited responsiveness to immune checkpoint inhibitors (ICIs). However, recent findings reveal that cytotoxic modalities can reprogram this immunologically inert landscape. This review integrates these evolving concepts to guide the optimization of future treatments. Radiotherapy induces extensive DNA double-strand breaks, which may generate de novo mutations through error-prone repair while simultaneously exposing cryptic antigens via increased transcriptional instability, alternative splicing, and enhanced proteasomal processing. Chemoradiation also amplifies epigenetic and epitranscriptomic sources of neoepitope diversity, including RNA editing and stress-induced splicing alterations, expanding the immunopeptidome beyond canonical mutation-driven neoantigens. These changes collectively enhance antigen presentation and facilitate T-cell priming. Chemotherapy further reduces immunosuppressive cell populations and promotes dendritic cell activation, creating a permissive milieu for subsequent immune engagement. Clinically, the VOLTAGE studies demonstrated that long-course chemoradiotherapy can sensitize even mismatch repair-proficient rectal cancers to PD-1 blockade, yielding clinically meaningful pathological responses. In contrast, mismatch repair-deficient rectal tumors may respond completely to ICIs alone. Short-course radiotherapy combined with chemotherapy and ICIs has also shown encouraging activity in the setting of total neoadjuvant therapy. Collectively, these findings support a paradigm in which radiotherapy, chemotherapy, and epigenetic/epitranscriptomic alterations-including RNA editing-act as potent modulators of tumor antigenicity. By expanding the neoantigen repertoire and reshaping the tumor microenvironment, these strategies can transform CRC from a cold tumor into one that is increasingly responsive to immunotherapy.",
+    "authors": [
+      "Matsumi Y",
+      "Shigeyasu K",
+      "Takahashi T",
+      "Moriwake K",
+      "Kayano M",
+      "Fujiwara T"
+    ],
+    "published": "2026-02-23",
+    "journal": "Cancers",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41749968/",
+    "score": 25,
+    "summary": {
+      "title_zh": "结直肠癌中的抗原重塑：放疗与化疗如何增强免疫治疗应答",
+      "tool_type": "综述论文（非具体工具/平台，但涉及RNA编辑等表观转录组学机制作为抗原来源的调节器）",
+      "design": "本文并非描述一个具体的工程化工具，而是整合了现有研究，提出了一种治疗策略的设计思路：利用放疗和化疗诱导的DNA损伤、转录不稳定性、RNA编辑和应激性剪接改变等机制，共同扩大肿瘤新抗原库（包括表观转录组来源的新抗原），并重塑肿瘤微环境，从而将“冷肿瘤”转化为对免疫检查点抑制剂敏感的“热肿瘤”。",
+      "functions": "本文阐述的机制和策略可实现以下功能：\n1. 诱导产生新抗原：通过DNA损伤修复错误、RNA编辑、异常剪接等机制，增加肿瘤细胞的免疫原性。\n2. 重塑肿瘤免疫微环境：减少免疫抑制细胞，促进树突状细胞活化，增强抗原呈递和T细胞启动。\n3. 增强免疫治疗应答：将传统上对免疫检查点抑制剂不敏感的结直肠癌，转化为可响应免疫治疗的肿瘤类型。",
+      "key_results": "关键的临床研究证据包括：\n1. VOLTAGE研究表明，长程放化疗可以使错配修复功能完整（pMMR）的直肠癌对PD-1抑制剂敏感，产生有临床意义的病理学缓解。\n2. 错配修复缺陷（dMMR）的直肠肿瘤可能单独对免疫检查点抑制剂产生完全应答。\n3. 短程放疗联合化疗及免疫检查点抑制剂在新辅助治疗中也显示出鼓舞人心的活性。"
+    }
+  }
+]
