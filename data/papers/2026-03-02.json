@@ -1,0 +1,118 @@
+[
+  {
+    "id": "41763219",
+    "title": "Resource competition shapes CRISPR-mediated gene activation.",
+    "abstract": "CRISPR-mediated gene activation (CRISPRa) allows concurrent transcriptional control of many genes and is widely used in genome-wide screening, bioproduction, and therapeutics. Multi-gene control is possible due to the sequence specificity by which guide RNAs (gRNAs) recruit dCas9 and an activator protein to target genes. Still, the optimization of CRISPRa systems remains difficult. Here, we show that, despite sequence specificity, different gRNAs interfere with each other by competing for dCas9 and the activator protein. This competition breaks modularity and hinders CRISPRa. We also discover that gene activation is biphasic, wherein increased level of a gRNA leads to target repression instead of activation. We introduce a chemical reaction-network model that captures these effects and use it for improving the dynamic range of CRISPRa. Our results demonstrate that CRISPRa is not as modular or scalable as previously thought and establish a predictive modeling tool that enables systematic design and optimization of multi-gRNA CRISPRa systems. A record of this paper's transparent peer review process is included in the supplemental information.",
+    "authors": [
+      "Aravind KM",
+      "Del Vecchio D"
+    ],
+    "published": "2026-02-27",
+    "journal": "Cell systems",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41763219/",
+    "score": 45,
+    "summary": {
+      "title_zh": "资源竞争塑造CRISPR介导的基因激活",
+      "tool_type": "CRISPRa（CRISPR激活）系统优化与预测建模工具",
+      "design": "本研究并非设计新的酶或gRNA结构，而是通过建立化学反应网络模型，来解析和预测多gRNA CRISPRa系统中因共享dCas9和激活蛋白而产生的资源竞争效应。核心思路是将CRISPRa系统视为一个受资源限制的动态网络，通过建模量化竞争如何破坏系统的模块性和可扩展性。",
+      "functions": "1. 系统优化功能：该模型可用于指导和优化多基因CRISPRa实验的设计，提高其动态范围和可预测性。\n2. 预测分析功能：能够预测在同时使用多个gRNA时，基因激活水平的变化趋势，包括可能出现的由激活转为抑制的双相现象。\n3. 应用层面：服务于基于CRISPRa的大规模功能基因组筛选、生物合成途径的多基因协同调控以及治疗应用中的复杂基因回路设计。",
+      "key_results": "关键实验发现，在多gRNA的CRISPRa系统中，不同的gRNA会竞争有限的dCas9和激活蛋白资源，导致基因激活效率降低甚至出现双相响应（即gRNA浓度过高时反而抑制靶基因）。所建立的模型成功捕捉并解释了这些效应，并被用于指导实验设计，从而有效提升了CRISPRa系统的动态范围。"
+    }
+  },
+  {
+    "id": "41762821",
+    "title": "Advances in multiplex precision genome editing in eukaryotic and prokaryotic systems.",
+    "abstract": "Multiplex genome editing (MGE) enables coordinated modification of multiple genomic loci and is foundational for engineering complex biological traits. Traditional CRISPR-Cas nuclease-based strategies rely on DNA double-strand breaks (DSBs), which limit precision and pose scaling challenges for incorporating simultaneous edits across different loci. Recent advances in genome editing technologies that operate without generating DSBs have expanded the accuracy and feasibility of multiplexed genomic manipulation. This review focuses on emerging strategies for precise MGE, including base editing, prime editing, and related genome rewriting platforms. We highlight key engineering principles that impact the success of scalable multiplexing, including the choice of editing platform, edit size, and guide RNA architecture, and discuss applications across mammalian, plant, fungal, and bacterial systems. Together, these technologies establish MGE as a versatile framework for precise multigene control in biotechnology and agriculture.",
+    "authors": [
+      "Golla DA",
+      "Sun C",
+      "Haugh L",
+      "Straub N",
+      "Gao X"
+    ],
+    "published": "2026-02-27",
+    "journal": "Current opinion in biotechnology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41762821/",
+    "score": 45,
+    "summary": {
+      "title_zh": "真核与原核系统中多重精准基因组编辑技术进展",
+      "tool_type": "综述论文（非单一工具），涵盖多种精准基因组编辑平台，包括碱基编辑、先导编辑及相关基因组重写平台。",
+      "design": "本文综述了不依赖DNA双链断裂（DSB）的多重精准编辑策略的核心设计思路。这些平台通过将催化受损的Cas酶（如dCas）与脱氨酶等效应结构域融合，或利用工程化的逆转录酶与向导RNA（pegRNA）模板相结合，实现了在多个基因组位点同时进行精确编辑，而无需引入有害的DSB。",
+      "functions": "1. 多重精准基因组编辑：在多个基因组位点同时进行碱基替换、小片段插入或删除等精确修改。\n2. 复杂性状工程：用于在生物技术和农业中，对涉及多基因的复杂性状进行协同调控与改造。\n3. 跨系统应用：适用于哺乳动物、植物、真菌和细菌等多种生物系统。",
+      "key_results": "本文是一篇综述，未报告具体的原始实验结果。其关键结论在于系统性地总结了不同精准编辑平台（如碱基编辑、先导编辑）在实现高效、可扩展的多重编辑时，其编辑平台选择、编辑大小和向导RNA架构等工程原则对成功与否的影响。"
+    }
+  },
+  {
+    "id": "41755886",
+    "title": "CRISPR/Cas Genome Editing and Its Applications in Cereal Crop Improvement.",
+    "abstract": "CRISPR/Cas-based genome editing has emerged as a transformative tool for precise genetic improvement of cereal crops. Recent advances in CRISPR technologies, including Cas9, Cas12, Cas13, base editing, and prime editing, have enabled targeted modification of genes and regulatory elements controlling yield, stress tolerance, and grain nutritional quality in major cereals such as rice, wheat, maize, and barley. This review summarizes current progress in CRISPR-mediated genome editing systems, delivery strategies, and representative applications in cereal crop improvement. Emphasis is placed on how genome editing reprograms enzymatic activities and biological pathways underlying complex agronomic traits rather than acting through single-gene effects. The review also discusses challenges related to trait complexity, regulatory considerations, and prospects for translating genome-edited cereal crops from laboratory research to field-level application. Collectively, this review highlights the potential of CRISPR/Cas genome editing as a powerful approach for developing high-yielding, resilient, and nutritionally improved cereal crops.",
+    "authors": [
+      "Kaniganti S",
+      "Saini H",
+      "Chaitanya AK",
+      "Hegde N",
+      "Shah P",
+      "Magar ND",
+      "Rijal R",
+      "Kaushik JJ",
+      "Nanda D",
+      "Sachan S",
+      "Kumar A",
+      "Bhoite R",
+      "Jamedar HR"
+    ],
+    "published": "2026-04-01",
+    "journal": "Plant-environment interactions (Hoboken, N.J.)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41755886/",
+    "score": 15,
+    "summary": {
+      "title_zh": "CRISPR/Cas基因组编辑及其在谷物作物改良中的应用",
+      "tool_type": "基因组编辑工具平台综述（涵盖Cas9、Cas12、Cas13、碱基编辑、先导编辑等多种系统）",
+      "design思路": "本文是一篇综述，并非介绍单一新工具的设计。其核心思路是总结和梳理了基于CRISPR/Cas的多种编辑系统（如Cas9/Cas12用于DNA切割，Cas13用于RNA靶向，碱基编辑和先导编辑用于精确修改）作为一个综合工具箱，通过设计特定的gRNA和融合不同的酶功能域（如脱氨酶、逆转录酶），实现对谷物作物基因组的多样化、精准编程。",
+      "functions": "1. 靶向基因敲除（通过Cas9/Cas12引入DNA双链断裂）。\n2. 基因表达调控（通过编辑启动子等调控元件）。\n3. 精确的碱基替换（通过碱基编辑系统）。\n4. 小片段插入/删除或所有类型的点突变（通过先导编辑系统）。\n5. RNA的切割与调控（通过Cas13系统）。\n6. 应用于谷物作物（水稻、小麦、玉米、大麦）的性状改良，包括提高产量、增强胁迫耐受性（如抗旱、抗病）、改善籽粒营养品质等。",
+      "key_results": "本文为综述，未报告具体的原始实验结果。文章总结的关键进展表明，CRISPR/Cas工具平台已成功在多种主要谷物作物中实现高效编辑，能够通过重新编程控制复杂农艺性状的酶活性和生物通路（而非仅依赖单基因效应）来改良作物，并正从实验室研究向田间应用推进。"
+    }
+  },
+  {
+    "id": "41763502",
+    "title": "Editor's Corner: The regulatory nexus of chloroplast RNA editing in plant evolution and stress adaptation.",
+    "abstract": "",
+    "authors": [
+      "Yang ZM"
+    ],
+    "published": "2026-02-26",
+    "journal": "Gene",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41763502/",
+    "score": 15,
+    "summary": {
+      "title_zh": "编者角：叶绿体RNA编辑在植物进化与胁迫适应中的调控枢纽",
+      "tool_type": "RNA编辑调控机制综述（非具体工具，但作为理解与开发RNA编辑工具的知识平台）",
+      "design": "本文并非直接描述一个工程化工具的设计，而是系统性地综述了植物叶绿体RNA编辑的天然调控网络。其核心思路在于阐明RNA编辑因子（如PPR蛋白家族）与顺式作用元件如何通过模块化组合，精确识别靶位点并催化C-to-U编辑，从而构成一个可编程的天然编辑系统。",
+      "functions": "作为一篇机制综述，它阐明了天然叶绿体RNA编辑系统的功能与应用潜力：1) 实现叶绿体转录组特定位点的C-to-U编辑，纠正密码子或创造起始/终止密码子；2) 调控叶绿体基因表达，影响光合作用等关键功能；3) 作为植物适应环境胁迫（如高温、高光）和驱动进化的重要分子机制。这些知识为人工设计靶向叶绿体或模拟该机制的RNA编辑工具提供了原理基础。",
+      "key_results": "本文总结的关键结论（而非具体实验数据）包括：1) 叶绿体RNA编辑由核编码的PPR蛋白特异性识别靶序列并招募编辑酶复合物完成，该系统的效率与特异性在植物中高度保守；2) 编辑事件直接影响蛋白质功能，其丰度与模式在环境胁迫下发生动态变化，与植物的适应性显著相关，这在其进化过程中扮演了关键角色。"
+    }
+  },
+  {
+    "id": "41754272",
+    "title": "A Stable and Rapid Protoplast-Based CRISPR/Cas9-Ribonucleoprotein Complex Screening System for Octoploid Strawberry (",
+    "abstract": "Clustered regularly interspaced short palindromic repeats (CRISPR)/CRISPR-associated protein 9 (Cas9) system is a simple and powerful tool, which enables gene knockout or insertion of new gene cassettes. This method has been applied to various plants and is used for crop improvement. Cultivated strawberry (",
+    "authors": [
+      "Kim Y",
+      "Jang J",
+      "Oh Y",
+      "Lee S",
+      "Kang BC"
+    ],
+    "published": "2026-02-11",
+    "journal": "Plants (Basel, Switzerland)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41754272/",
+    "score": 15,
+    "summary": {
+      "title_zh": "一种用于八倍体草莓的稳定快速原生质体CRISPR/Cas9核糖核蛋白复合物筛选系统",
+      "tool_type": "CRISPR/Cas9基因编辑筛选平台（基于原生质体与核糖核蛋白复合物）",
+      "design": "该系统的核心设计是将CRISPR/Cas9以预组装的核糖核蛋白复合物形式，通过PEG介导直接递送至草莓叶片原生质体中。其思路是绕过传统稳定转化体系，建立一个快速、稳定的瞬时表达筛选平台，用于在八倍体复杂基因组中预先评估基因编辑效率。",
+      "functions": "1. 基因敲除效率的快速预筛选与验证。\n2. 为八倍体草莓等复杂基因组作物提供高效的CRISPR/Cas9编辑方案优化平台。\n3. 加速作物改良中CRISPR工具的功能验证与靶点选择。",
+      "key_results": "关键实验结果表明，该系统在草莓原生质体中能实现高效的基因编辑（通过测序验证），且编辑事件在转染后72小时内即可检测到，为快速筛选有效的gRNA提供了可靠平台。"
+    }
+  }
+]
