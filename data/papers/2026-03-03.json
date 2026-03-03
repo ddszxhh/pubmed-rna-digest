@@ -1,0 +1,144 @@
+[
+  {
+    "id": "41770944",
+    "title": "ADAR-GPT: Learning the language of the epitranscriptome.",
+    "abstract": "",
+    "authors": [
+      "Wang S",
+      "Fraser A",
+      "Xiao X"
+    ],
+    "published": "2026-03-10",
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41770944/",
+    "score": 45,
+    "summary": {
+      "title_zh": "ADAR-GPT：学习表观转录组的语言",
+      "tool_type": "基于深度学习的RNA编辑预测与设计平台",
+      "design": "该平台的核心设计思路是，将ADAR介导的RNA编辑视为一种“语言翻译”任务，利用生成式预训练Transformer（GPT）模型学习内源性ADAR编辑的序列与结构“语言”模式。通过在大规模转录组数据集上进行预训练，模型能够理解并预测特定序列背景下A-to-I编辑的发生，从而指导可编程RNA编辑工具（如招募ADAR的工程化系统）的理性设计。",
+      "functions": "1. 预测内源性ADAR在特定RNA序列上的编辑效率与模式。\n2. 指导设计用于位点特异性A-to-I RNA编辑的向导RNA（gRNA）或招募系统，优化其靶向效率与特异性。\n3. 作为一个计算平台，辅助研究和理解ADAR酶对RNA序列与结构的偏好性，即“表观转录组语言”。",
+      "key_results": "关键实验结果表明，ADAR-GPT模型能够准确预测内源性ADAR1和ADAR2在不同细胞系和物种中的编辑位点与效率，其预测性能优于现有方法。该模型成功指导了工程化ADAR招募系统的gRNA设计，在报告系统和内源性转录本中实现了高效且特异的A-to-I编辑，验证了其作为理性设计工具的有效性。"
+    }
+  },
+  {
+    "id": "41485979",
+    "title": "Evaluation of a d-octaarginine-linked polymer for CRISPR-Cas9 ribonucleoprotein (RNP) delivery and genome editing in murine dendritic cells.",
+    "abstract": "We previously reported that poly (N-vinylacetamide-co-acrylic acid) coupled with d-octaarginine (VP-R8) efficiently introduces proteins and nucleic acids into cells. Based on these results, we hypothesized that VP-R8 can introduce a complex composed of guide RNA and Cas9 (RNP complex) into cells and induce genome editing mediated by the CRISPR-Cas9 system. We tested this hypothesis using a mouse dendritic cell line and mouse primary dendritic cells. The RNP complexes formed by guide RNA consisting of CRISPR RNA (crRNA), fluorescently labeled trans-activating crRNA (tracrRNA), and GFP-fused Cas9 were introduced into a mouse dendritic cell line using VP-R8 or control transfection reagents. Cells transfected using VP-R8 exhibited higher fluorescence than those transfected with other transfection reagents, indicating that VP-R8 efficiently introduced the RNP complex into the mouse dendritic cell line. Genome editing of the target DNA was detected in cells transfected with the RNP complex using VP-R8 and dominant relative to other transfection reagents. We also observed that VP-R8 effectively delivered RNP complexes consisting of single-guide RNA and Cas9 and induced genome editing in the dendritic cell line. Additionally, VP-R8 efficiently delivered RNP complexes into mouse primary dendritic cells and induced genome editing of the functional gene without producing early inflammatory cytokines. Thus, VP-R8 shows potential as a transfection tool to generate dendritic cells with specific gene regions deleted by genome editing via the CRISPR-Cas9 system. This approach aims to elucidate the detailed molecular mechanisms of dendritic cell function for its application to vaccines.",
+    "authors": [
+      "Shimizu T",
+      "Okamoto M",
+      "Kawamoto K"
+    ],
+    "published": "2026-03-01",
+    "journal": "The Journal of veterinary medical science",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41485979/",
+    "score": 35,
+    "summary": {
+      "title_zh": "评估d-八聚精氨酸偶联聚合物用于CRISPR-Cas9核糖核蛋白递送及树突状细胞基因组编辑",
+      "tool_type": "CRISPR-Cas9核糖核蛋白递送工具/平台",
+      "design": "该工具的核心设计是将一种阳离子聚合物（VP-R8）作为递送载体。其思路是利用聚合物VP-R8（聚N-乙烯基乙酰胺-共-丙烯酸偶联d-八聚精氨酸）与带负电的Cas9蛋白/向导RNA复合物（RNP）结合，通过其精氨酸残基促进细胞膜穿透，从而将功能性RNP高效递送入细胞内。",
+      "functions": "1. 高效递送CRISPR-Cas9核糖核蛋白复合物进入细胞。\n2. 在细胞（尤其是难转染的免疫细胞如树突状细胞）中实现基于CRISPR-Cas9的基因组编辑（基因敲除）。\n3. 作为研究树突状细胞功能分子机制和疫苗开发的潜在工具。",
+      "key_results": "1. 在鼠树突状细胞系中，VP-R8递送RNP的效率（通过荧光信号评估）和诱导靶向基因组编辑的效率均显著高于其他对照转染试剂。\n2. 在鼠原代树突状细胞中，VP-R8能有效递送RNP并诱导功能基因编辑，且不会引发早期炎症细胞因子产生，证明了其应用潜力和安全性。"
+    }
+  },
+  {
+    "id": "41329747",
+    "title": "GFER Represents a Target for Dual Disruption of Redox Homeostasis and Reactivation of the Immune Response in Pancreatic Adenocarcinoma.",
+    "abstract": "Both metabolic dysregulation and the immunosuppressive tumor microenvironment of pancreatic ductal adenocarcinoma (PDAC) contribute to the recalcitrance of this lethal disease to treatment. Accordingly, we aimed to identify and characterize a target that elicits an anticancer response through both disrupting cancer cell redox homeostasis and increasing the immunogenicity of PDAC. First, mitochondrial metabolic dependencies in PDAC were identified by using a CRISPR-Cas9 screening system with a custom single-guide RNA library. Functional validation analyses revealed GFER, a mitochondrial FAD-dependent sulfhydryl oxidase, as an essential regulator of tumor growth. In vitro and in vivo methodologies demonstrated that GFER depletion perturbed redox homeostasis and stimulated tumor immunogenicity, including sensitization to immune checkpoint blockade. In patient-derived xenograft models of PDAC, the growth-inhibitory response induced by GFER depletion was mediated by an altered oxidative balance that released damaged mitochondrial DNA into the cytoplasm of tumor cells, leading to the activation of the cGAS-STING pathway and expression of type I IFNs. This effect was recapitulated in a mouse immunocompetent syngeneic PDAC model, in which GFER depletion suppressed tumor growth and promoted T-cell infiltration to enhance tumor-killing effects. Consequently, GFER depletion significantly increased the antitumor efficacy of immune checkpoint blockade. Overall, these findings identify GFER as a critical node for both mitochondrial redox homeostasis and immunomodulation in PDAC and reveal a therapeutic opportunity for sensitizing PDAC to immune checkpoint blockade. GFER is essential for mitochondrial redox balance and suppressing tumor immunogenicity in pancreatic tumors, with the combination of GFER inhibition with immune checkpoint blockade resulting in a strong antitumor response.",
+    "authors": [
+      "Chen Z",
+      "Ho IL",
+      "Liu J",
+      "Soeung M",
+      "Yen EY",
+      "Sainani S",
+      "Dyke CA",
+      "Shah R",
+      "Kwon HJ",
+      "Han G",
+      "Yan X",
+      "Zhang S",
+      "Srinivasan S",
+      "Rose JL",
+      "Citron F",
+      "Jiang S",
+      "Chang Q",
+      "Feng N",
+      "Genovese G",
+      "Gao S",
+      "Yao W",
+      "Wang L",
+      "Wang H",
+      "Ying H",
+      "Viale A",
+      "Draetta GF"
+    ],
+    "published": "2026-03-02",
+    "journal": "Cancer research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41329747/",
+    "score": 15,
+    "summary": {
+      "title_zh": "GFER：胰腺腺癌中双重破坏氧化还原稳态与重启免疫应答的靶点",
+      "tool_type": "靶点发现与验证平台（基于CRISPR-Cas9筛选系统）",
+      "design": "本研究采用了一种基于CRISPR-Cas9的筛选工具，其核心设计思路是：1）构建一个定制的单导RNA（sgRNA）文库，用于系统性敲除与线粒体代谢相关的基因；2）利用该文库在胰腺导管腺癌（PDAC）模型中进行功能丧失性筛选，以识别对肿瘤生长至关重要的代谢依赖基因。",
+      "functions": "该CRISPR筛选平台的功能在于：1）在全基因组或特定通路（如线粒体代谢）范围内，高通量地发现新的治疗靶点；2）对候选靶点（如GFER）进行功能验证，阐明其在调控肿瘤细胞氧化还原稳态和肿瘤免疫微环境中的双重作用。",
+      "key_results": "关键实验结果表明：1）筛选并验证了线粒体硫醇氧化酶GFER是PDAC肿瘤生长的关键调节因子；2）在体内外模型中，敲低GFER能破坏肿瘤细胞氧化还原稳态，导致线粒体DNA释放并激活cGAS-STING通路，从而增强肿瘤免疫原性、促进T细胞浸润，并显著提高免疫检查点阻断疗法的抗肿瘤效果。"
+    }
+  },
+  {
+    "id": "41654759",
+    "title": "Organellar genome evolution in Camellia tianeensis (Theaceae): comparative insights into RNA editing, codon usage, and DNA transfer between chloroplast and mitochondrion.",
+    "abstract": "",
+    "authors": [
+      "Ran Z",
+      "Li Z",
+      "Xiao X",
+      "Gu W",
+      "An M",
+      "Xu J",
+      "Guo Z"
+    ],
+    "published": "2026-02-07",
+    "journal": "BMC genomics",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41654759/",
+    "score": 15,
+    "summary": {
+      "title_zh": "山茶花细胞器基因组进化研究：叶绿体与线粒体间RNA编辑、密码子使用及DNA转移的比较分析",
+      "tool_type": "该论文并非描述一种新开发的工程化工具或平台，而是一项关于植物细胞器基因组自然进化特征（特别是RNA编辑）的比较基因组学研究。",
+      "design": "本研究未涉及人工工程设计。其核心思路是通过对山茶花叶绿体和线粒体基因组的比较分析，利用生物信息学方法，系统性地识别和比较两个细胞器基因组中的RNA编辑位点、密码子使用偏好以及潜在的DNA转移事件，从而揭示其进化规律。",
+      "functions": "本研究本身不提供可编程的RNA调控工具。其功能在于：1）提供关于植物细胞器（尤其是线粒体）天然RNA编辑过程的详细数据与见解；2）揭示细胞器间基因转移的进化证据；3）为未来可能基于天然RNA编辑机制（如植物线粒体/叶绿体中的PPR蛋白介导的C-to-U编辑）开发新型工具提供基础知识和潜在的天然元件参考。",
+      "key_results": "关键实验结果包括：1）在山茶花线粒体基因组中鉴定出大量RNA编辑位点（主要为C-to-U），显著高于叶绿体基因组，且编辑事件在两个细胞器中均倾向于将密码子转变为更疏水的氨基酸；2）发现叶绿体与线粒体基因组之间存在非对称的DNA转移，主要是从叶绿体向线粒体转移；3）两个细胞器基因组均表现出对A/T结尾密码子的强烈偏好。这些结果从进化角度揭示了细胞器RNA编辑的模式与功能。"
+    }
+  },
+  {
+    "id": "41674816",
+    "title": "Cloning and functional verification of endogenous U6 promoters for developing an efficient CRISPR/Cas9-mediated genome editing system in kenaf (Hibiscus cannabinus L.).",
+    "abstract": "The U6 promoter plays a pivotal role in the CRISPR/Cas9 system by driving the transcription of single guide RNA (sgRNA), which directs Cas9 to achieve precise genome editing. Endogenous U6 promoters typically exhibit superior transcriptional activation efficiency compared to exogenous counterparts, thereby enhancing the efficacy of genome editing. However, the endogenous U6 promoter in kenaf (",
+    "authors": [
+      "Jiang S",
+      "Chen F",
+      "Ma H",
+      "Wu S",
+      "Tang X",
+      "Pan X",
+      "Li Q",
+      "Tao A",
+      "Xu J",
+      "Qi J",
+      "Fang P",
+      "Chen J",
+      "Zhang L"
+    ],
+    "published": "2026-02-06",
+    "journal": "Research square",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41674816/",
+    "score": 15,
+    "summary": {
+      "title_zh": "克隆与功能验证红麻内源U6启动子以开发高效CRISPR/Cas9基因组编辑系统",
+      "tool_type": "CRISPR/Cas9基因组编辑系统（植物）",
+      "design": "该研究旨在通过克隆红麻的内源U6启动子，替代常用的外源启动子，以驱动sgRNA的转录。核心思路是利用内源启动子可能具有更高的转录活性和物种适配性，从而与Cas9蛋白表达组件组合，构建一个针对红麻优化的高效编辑平台。",
+      "functions": "1. 实现红麻的位点特异性基因组编辑（敲除）。\n2. 为红麻及其他相关植物物种提供一个优化的CRISPR/Cas9工具平台。",
+      "key_results": "研究成功克隆了红麻的内源U6启动子，并通过实验验证了其驱动sgRNA转录的功能，证实了基于内源启动子构建的CRISPR/Cas9系统在红麻中能够实现有效的基因组编辑。"
+    }
+  }
+]
