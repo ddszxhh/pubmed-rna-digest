@@ -1,0 +1,136 @@
+[
+  {
+    "id": "41771871",
+    "title": "Nucleotide-resolution mapping of regulatory elements via allelic readout of tiled base editing.",
+    "abstract": "CRISPR tiling screens have enabled the characterization of regulatory sequences but are limited by low resolution arising from the indirect readout of editing via guide RNA sequencing and enrichment analysis. This study introduces an end-to-end experimental assay and computational pipeline, which leverages targeted sequencing of CRISPR-introduced alleles at the endogenous target locus following dense base-editing mutagenesis. As a proof of concept, we studied a putative CD19 enhancer, an immunotherapy target in leukemia, and identified alleles and single nucleotides crucial for CD19 regulation. Our visualization tools revealed transcription factor motifs corresponding to the top-ranked nucleotides. Validation experiments confirmed that mutations in MYB, PAX5, and EBF1 binding sites reduce CD19 expression. Critically, editing MYB and PAX5 motifs conferred resistance to CD19 CAR-T cell therapy, revealing how non-coding variants can drive immunotherapy escape. Taken together, this approach achieves nucleotide-resolution genotype-phenotype mapping at regulatory elements beyond conventional gRNA-based screens.",
+    "authors": [
+      "Becerra B",
+      "Wittibschlager S",
+      "Patel ZM",
+      "Kutschat AP",
+      "Delano J",
+      "Che E",
+      "Tauber A",
+      "Wu T",
+      "Starrs M",
+      "Horstmann CS",
+      "Müller S",
+      "Whittaker MN",
+      "Sylvander E",
+      "Lehner M",
+      "Love MI",
+      "Kleinstiver BP",
+      "Jankowiak M",
+      "Bauer DE",
+      "Seruggia D",
+      "Pinello L"
+    ],
+    "published": "2026-03-03",
+    "journal": "Nature communications",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41771871/",
+    "score": 65,
+    "summary": {
+      "title_zh": "通过等位基因读取平铺碱基编辑实现调控元件的核苷酸分辨率图谱",
+      "tool_type": "高通量功能筛选与基因型-表型关联分析平台（整合碱基编辑、靶向测序与计算流程）",
+      "design": "1. 核心思路是将密集的碱基编辑突变与内源靶位点的等位基因靶向测序相结合，直接读取编辑后的等位基因序列，而非传统依赖gRNA富集分析的间接读取。\n2. 构建了一个端到端的实验与计算流程：首先在目标调控区域（如增强子）进行高密度、平铺式的碱基编辑，然后通过靶向测序精确鉴定每个细胞中产生的具体等位基因突变，最后将等位基因序列与表型（如基因表达水平）进行关联分析。",
+      "functions": "1. **核苷酸分辨率的功能性调控元件图谱绘制**：能够以单个核苷酸的分辨率鉴定调控序列（如增强子）中关键的功能性位点。\n2. **基因型-表型关联分析**：直接建立内源性等位基因突变（基因型）与细胞表型（如靶基因表达变化、治疗抵抗）之间的因果关系。\n3. **识别关键转录因子结合位点**：通过可视化工具揭示与关键核苷酸对应的转录因子基序。\n4. **研究非编码变异的功能后果**：可用于解析非编码区变异如何影响基因调控并驱动疾病（如免疫治疗逃逸）。",
+      "key_results": "1. 以白血病免疫治疗靶点CD19的假定增强子为概念验证，成功鉴定出对CD19调控至关重要的单个核苷酸和等位基因，并定位了MYB、PAX5和EBF1等转录因子的关键结合位点。\n2. 功能验证证实，编辑这些关键转录因子结合位点（MYB和PAX5基序）不仅会降低CD19表达，还会使细胞获得对CD19 CAR-T细胞疗法的抵抗性，揭示了非编码变异驱动免疫治疗逃逸的机制。"
+    }
+  },
+  {
+    "id": "41772759",
+    "title": "Loss of Splicing Homeostasis as a Hallmark of Aging.",
+    "abstract": "Alternative splicing is a fundamental mechanism that ensures accurate gene expression, supports cellular adaptability, and expands protein diversity beyond the limits of a fixed gene pool. With aging, splicing fidelity weakens, contributing to decline in RNA homeostasis and disrupting essential cellular functions, including mitochondrial oxidative phosphorylation, genome stability, and immune regulation, and in turn accelerating tissue and organ dysfunction. Evidence from senescent cells, aged tissues, and model organisms shows that altered levels of splicing factors and increased RNA polymerase II elongation rates impair co-transcriptional splicing and promote mis-spliced isoforms that reinforce senescence and drive pathology. Dysfunction of RNA-binding proteins further contributes to aberrant splicing, linking splicing defects to age-related diseases such as atherosclerosis, osteoarthritis, sarcopenia, and neurodegenerative disorders like Alzheimer's disease, Parkinson's disease, and amyotrophic lateral sclerosis. Therapeutic strategies to correct splicing defects, such as antisense oligonucleotides, RNA interference, CRISPR-Cas systems, ADAR-mediated editing, and RNA aptamers, can restore a homeostatic balance of mRNA isoforms. However, major challenges remain, including distinguishing adaptive physiological from pathological splicing 'noise' and achieving targeted delivery to tissues. Despite these obstacles, RNA splicing dysregulation represents a promising avenue to extend health span by reestablishing homeostatic RNA programs, and reinforces the idea that \"transcriptomic instability\" is a hallmark of aging.",
+    "authors": [
+      "Donega S",
+      "Gorospe M",
+      "Harries LW",
+      "Ferrucci L"
+    ],
+    "published": "2026-03-02",
+    "journal": "Molecular and cellular biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41772759/",
+    "score": 45,
+    "summary": {
+      "title_zh": "剪接稳态失衡是衰老的标志",
+      "tool_type": "综述论文（非具体工具，但讨论了多种RNA调控工具平台）",
+      "design": "本文并非介绍单一工程设计，而是综述了衰老过程中剪接稳态失衡的机制，并系统性地总结了通过多种可编程RNA工具（如反义寡核苷酸、CRISPR-Cas系统、ADAR编辑等）进行干预的通用思路。核心在于利用这些工具特异性识别并纠正错误剪接的RNA异构体，以恢复转录组稳态。",
+      "functions": "文中讨论的各类工具平台可实现以下功能：\n1. 纠正异常剪接事件（如使用反义寡核苷酸或CRISPR-Cas系统）。\n2. 进行位点特异性RNA编辑（如ADAR介导的编辑）。\n3. 调控特定基因的表达（如RNA干扰）。\n4. 作为传感器或效应器靶向RNA（如RNA适配体）。\n总体目标是恢复mRNA异构体的稳态平衡，以对抗衰老及相关疾病。",
+      "key_results": "本文是一篇综述，未报告具体的实验数据。其关键结论在于综合现有证据表明：衰老伴随着剪接因子水平改变和RNA聚合酶II延伸速率增加，导致共转录剪接失调和错误剪接异构体积累，进而驱动衰老及相关疾病；而纠正这些剪接缺陷的RNA工具策略具有延长健康寿命的潜力。"
+    }
+  },
+  {
+    "id": "41431195",
+    "title": "MARPLE: A Proximity-Triggered CRISPR-Cas13 Platform for Ultrasensitive Antibody Detection.",
+    "abstract": "Monitoring clinically relevant antibodies-as biomarkers of disease or therapeutic response-is essential for informed clinical decision-making. Traditional immunoassays like ELISA offer reliable quantification but often involve multistep workflows and limited point-of-care utility. New approaches coupling antibody recognition with signal amplification are therefore highly desirable. The CRISPR-Cas13 system, known for its potent collateral cleavage activity, has emerged as a powerful diagnostic tool for nucleic acid detection. However, its application to protein biomarkers such as antibodies remains underdeveloped. Here, we introduce MARPLE (Modular Antibody Recognition via Proximity-triggered Linker Exchange), a modular CRISPR-Cas13-based platform for ultrasensitive antibody detection. MARPLE harnesses antibody-induced proximity to trigger a strand displacement reaction that releases a sequestered RNA target, activating Cas13-mediated collateral cleavage of fluorescent RNA reporters. This cascade enables detection of antibodies at femtomolar concentrations. We demonstrate MARPLE's versatility across diverse targets-including anti-digoxigenin, anti-cholesterol, anti-HA, trastuzumab, and anti-MUC1-highlighting applications in infectious disease monitoring, cancer diagnostics, and therapeutic drug tracking. The assay is isothermal, one-pot, and retains robust performance in complex matrices such as human serum. These features establish MARPLE as a promising tool for immunodiagnostics, extending CRISPR-based sensing beyond nucleic acids to protein biomarker detection.",
+    "authors": [
+      "Spezzani E",
+      "Capelli L",
+      "Di Lena D",
+      "Chamorro-Garcia A",
+      "Ippodrino R",
+      "Porchetta A",
+      "Bertucci A"
+    ],
+    "published": "2026-03-01",
+    "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41431195/",
+    "score": 45,
+    "summary": {
+      "title_zh": "MARPLE：一种用于超灵敏抗体检测的邻近触发式CRISPR-Cas13平台",
+      "tool_type": "基于CRISPR-Cas13的模块化抗体检测平台（RNA传感器/诊断工具）",
+      "design": "该平台的核心设计是利用抗体结合诱导的邻近效应，触发链置换反应，从而释放被隔离的RNA靶标。释放的RNA靶标随后激活Cas13酶的旁路切割活性，实现对荧光RNA报告分子的切割与信号放大。",
+      "functions": "1. 超灵敏抗体检测：可检测飞摩尔（fM）浓度水平的抗体。\n2. 多目标检测：适用于多种抗体靶标（如抗地高辛、抗胆固醇、抗HA、曲妥珠单抗、抗MUC1等）。\n3. 应用场景：包括传染病监测、癌症诊断和治疗性药物追踪在内的免疫诊断。\n4. 操作简便：采用等温、一锅法反应，适用于复杂样本（如人血清）。",
+      "key_results": "1. 性能指标：实现了飞摩尔（fM）级别的超灵敏抗体检测。\n2. 验证情况：在复杂基质（如人血清）中保持稳健性能，并成功在多种抗体靶标上验证了其通用性。"
+    }
+  },
+  {
+    "id": "41771660",
+    "title": "The maternal-effect gene ZmGRP23 promotes PPR-DYW-mediated RNA editing in maize mitochondria.",
+    "abstract": "The maternal effect is a non-Mendelian inheritance phenomenon in which the maternal genotype regulates offspring traits via gametic cytoplasmic components or genomic imprinting. Hundreds of maternal-effect genes have been identified; however, the underlying molecular mechanisms and biological roles of these genes remain unclear. Here we report that ZmGRP23 is a maternal-effect gene that regulates maize (Zea mays) seed development by mediating mitochondrial RNA editing. The maize GLUTAMINE-RICH PROTEIN23 (GRP23) encodes an atypical pentatricopeptide repeat (PPR) protein with a unique C-terminal domain. ZmGRP23 exhibits maternal expression dominance in a genetic background-dependent manner (e.g., W22). Loss of ZmGRP23 function arrests zygotic development at very early stages and reduces pollen transmission. Low expression of ZmGRP23 reduces the RNA editing efficiency at 190 mitochondrial sites in the endosperm, and most of these sites depend on canonical PPR-DYW proteins for editing. ZmGRP23 shows no or weak interaction with the full length of canonical PPR-DYW proteins; however, it strongly interacts with the E and the carboxyl terminus of DYW domains of these proteins. PPR-DYW proteins strongly interact with maize multiple organellar RNA-editing factor1 (MORF1) and MORF8, both of which also bind ZmGRP23. ZmMORF enhances the interaction between ZmGRP23 and PPR-DYW proteins. This implies that ZmMORF binding may induce conformational changes in PPR-DYW proteins, exposing ZmGRP23 interaction interfaces and promoting ZmGRP23 recruitment. This study reveals that ZmGRP23 mediates mitochondrial RNA editing through non-canonical recruitment of canonical PPR-DYW proteins and implies that an epigenetic-mitochondrial regulatory axis bridges RNA editing plasticity to seed development.",
+    "authors": [
+      "Yang YZ",
+      "Zhang SG",
+      "Chen YM",
+      "Ren YT",
+      "Gao S",
+      "Liu XY",
+      "Xu C",
+      "Tan BC"
+    ],
+    "published": "2026-03-02",
+    "journal": "Plant physiology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41771660/",
+    "score": 35,
+    "summary": {
+      "title_zh": "母体效应基因ZmGRP23促进玉米线粒体中PPR-DYW介导的RNA编辑",
+      "tool_type": "RNA编辑调控因子（非典型PPR蛋白，作为辅助/招募因子）",
+      "design": "ZmGRP23是一种非典型的五肽重复（PPR）蛋白，其C端结构域独特。它不直接执行编辑，而是通过与经典PPR-DYW编辑蛋白的E和DYW结构域羧基末端特异性相互作用，并被MORF蛋白增强的招募机制，来促进编辑复合体的形成与功能。",
+      "functions": "1. 调控线粒体RNA编辑：特异性促进约190个线粒体RNA位点的编辑效率。\n2. 影响种子发育：作为母体效应基因，通过调控RNA编辑来影响玉米合子早期发育和种子形成。\n3. 揭示调控轴：连接表观遗传（母体效应）、线粒体RNA编辑可塑性与种子发育之间的生物学通路。",
+      "key_results": "1. 功能缺失导致合子发育早期停滞、花粉传递率降低，并显著降低胚乳中190个线粒体位点的RNA编辑效率。\n2. ZmGRP23与经典PPR-DYW蛋白的相互作用依赖于其E和DYW结构域，且此相互作用被MORF蛋白显著增强，揭示了其通过非经典招募机制来促进编辑的分子基础。"
+    }
+  },
+  {
+    "id": "41772232",
+    "title": "Efficient genome editing using CRISPR-Cas9 in reef-building corals.",
+    "abstract": "Coral reefs are one of the most biodiverse and productive ecosystems on Earth. However, corals are currently under threat from increasing ocean temperatures driven by climate change. Despite the known importance of these fragile ecosystems, our understanding of the molecular mechanisms driving ecologically important traits has been constrained by a lack of genetic tools for functional characterization. To address this limitation, we have developed straightforward and efficient methods to genetically modify corals and study gene function throughout various life history stages using CRISPR-Cas9-based mutagenesis. In this protocol, we first describe how to spawn and collect gametes from the coral Acropora millepora during seasonal spawning events. Next, we describe a method for microinjection of one-cell coral zygotes with CRISPR-Cas9 reagents. We include considerations about effective single-guide RNA design, methods for identifying successfully injected animals, strategies for rearing mutant larvae and juveniles, and methods for the detection and quantification of genomic modifications. This protocol is currently the only way to perform gene editing in corals and takes ~2-4 weeks to complete and has been successfully applied to study genes controlling heat tolerance in coral larvae and skeleton formation in coral juveniles. These technical advances set the foundation for a new field using reverse genetics to study ecologically important traits in corals, such as the establishment of symbiosis and its breakdown upon heat stress.",
+    "authors": [
+      "Tinoco AI",
+      "Henderson CF",
+      "Meier EK",
+      "Swinhoe N",
+      "Cleves PA"
+    ],
+    "published": "2026-03-02",
+    "journal": "Nature protocols",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41772232/",
+    "score": 15,
+    "summary": {
+      "title_zh": "利用CRISPR-Cas9在造礁珊瑚中实现高效基因组编辑",
+      "tool_type": "CRISPR-Cas9基因组编辑平台/遗传操作工具包",
+      "design": "该工具的核心设计思路是建立一个适用于珊瑚的完整CRISPR-Cas9操作流程。它并非设计新的酶或RNA元件，而是将成熟的CRISPR-Cas9系统（Cas9核酸酶与单向导RNAsgRNA）与一套针对珊瑚独特生物学特性（如季节性产卵、单细胞合子显微注射、幼虫与幼体培养）的定制化实验方案进行模块化整合，从而实现对珊瑚基因的功能性研究。",
+      "functions": "1. 在珊瑚中进行位点特异性基因敲除/基因组修饰。\n2. 研究珊瑚整个生活史阶段（从合子到幼虫、幼体）的基因功能。\n3. 反向遗传学研究，用于解析珊瑚生态重要性状（如耐热性、骨骼形成、共生关系建立与崩溃）的分子机制。",
+      "key_results": "该平台是当前唯一能在珊瑚中进行基因编辑的方法，整个流程耗时约2-4周，并已成功应用于研究控制珊瑚幼虫耐热性和幼体骨骼形成的关键基因，为珊瑚功能基因组学研究奠定了基础。"
+    }
+  }
+]
