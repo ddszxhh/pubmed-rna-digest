@@ -1,0 +1,138 @@
+[
+  {
+    "id": "41652229",
+    "title": "Assessing target genes for homing suppression gene drive.",
+    "abstract": "Gene drives are engineered alleles that bias their own inheritance in offspring, enabling the spread of specific traits throughout a population. Targeting female fertility genes in a gene drive can be an efficient strategy for population suppression. In this study, we investigated nine female fertility genes in Drosophila melanogaster using CRISPR-based homing gene drives. Employing a multiplexed gRNA approach to prevent the formation of functional resistance alleles, we aimed to maintain high drive-conversion efficiency with low fitness costs in female drive-carriers. Drive efficiency was assessed in individual crosses and had varied performance across different target genes. Notably, drives targeting the octopamine β2 receptor (oct) and stall (stl) genes exhibited the highest drive-conversion rates and were further tested in cages. A drive targeting stl successfully suppressed a cage population with a high release frequency, though suppression failed in another replicate cage with a lower initial release frequency. Fitness costs in female drive carriers were observed in test cages, impacting the overall efficiency of population suppression. Further tests on the fertility of these lines using individual crosses indicated that some fitness costs were due to maternal deposition of Cas9 combined with new gRNA expression, which would only occur in progeny of drive males when testing split drives with separate Cas9 (when mimicking cages with complete drives) but not for complete drive systems. This could enable success in complete drives with higher maternal Cas9 deposition, even if cage experiments in split drives fail. Overall, our findings identify oct and stl as promising fertility targets and demonstrate both the potential and the constraints of fertility-based suppression drives, providing empirical evidence to guide the design and assessment of more efficient population control strategies.",
+    "authors": [
+      "Xu X",
+      "Fang J",
+      "Chen J",
+      "Yang J",
+      "Yang X",
+      "Hou S",
+      "Sun W",
+      "Champer J"
+    ],
+    "published": "2026-02-06",
+    "journal": "The EMBO journal",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41652229/",
+    "score": 15,
+    "summary": {
+      "title_zh": "评估用于归巢抑制型基因驱动的靶基因",
+      "tool_type": "基于CRISPR的归巢基因驱动系统（一种可编程的种群调控平台）",
+      "design": "该工具的核心设计是构建针对雌性不育基因的CRISPR归巢基因驱动元件。其思路是：1) 利用多重gRNA靶向单个基因的不同外显子，以破坏功能性抗性等位基因的形成；2) 旨在维持雌性携带者较高的驱动转换效率和较低的适合度代价。",
+      "functions": "1. 实现特定基因等位基因在种群中的自我传播（基因驱动）。\n2. 通过靶向雌性生育基因，达到抑制目标种群数量的目的（种群抑制）。\n3. 为评估不同靶基因在基因驱动策略中的效率与代价提供实验平台。",
+      "key_results": "1. 靶向oct和stl基因的驱动元件表现出最高的驱动转换率，其中靶向stl的驱动在特定释放频率下成功抑制了笼养种群。\n2. 实验也观察到雌性驱动携带者存在适合度代价，且部分代价源于母源沉积的Cas9与新gRNA表达的联合效应，这揭示了在分裂驱动与完整驱动系统中性能差异的关键机制。"
+    }
+  },
+  {
+    "id": "41500431",
+    "title": "Functional characterization of voltage-gated sodium channels in two mirid pests and identification of kdr mutations in pyrethroid resistant Lygus lineolarispopulation.",
+    "abstract": "Lygus lineolaris and Lygus hesperus are economically important pests that cause substantial damage to wide variety of crops in the United States. In this study, we isolated 17 full-length voltage-gated sodium channels cDNA clones encoding 14 unique splicing variants from a susceptible strain of L. hesperus (sLhNav), two variants from a susceptible L. lineolaris strain (sLlNav), and 8 clones encoding 7 variants from a pyrethroid-resistant L. lineolaris population (rLlNav), based on the usage of 12 alternative exons. Functional expression in Xenopus oocytes revealed that 11 sLh/LlNav variants produced sodium currents suitable for electrophysiological analysis, which displayed distinct gating properties. Notably, Nav variants lacking exon b generated significantly larger currents compared to those including exon b. We also identified A-to-I editing events in both Lygus Navs, and a key finding was the identification of three kdr mutations in rLlNav variants, L1023 F/S in segment IIS6 and L934I in the IIS4-S5 linker (corresponding to L1014F, L1014S and L925I in housefly Nav), all of which have been previously associated with pyrethroid resistance in other insect species. This is the first report of these mutations in resistant L. lineolaris populations. Together with earlier reports of enhanced metabolic detoxification, our findings suggest a dual resistance strategy in L. lineolaris, involving both target-site insensitivity and elevated detoxification enzyme activity. The comprehensive characterization of sodium channel variants in both Lygus, along with the identification of L1023 F/S and L934I mutations, provides valuable insight into Nav diversity in Lygus species and the molecular basis of pyrethroid resistance in L. lineolaris.",
+    "authors": [
+      "Du Y",
+      "Scheibener S",
+      "Zhu YC",
+      "Perera OP",
+      "Reddy GVP",
+      "Zhorov BS"
+    ],
+    "published": "2026-03-01",
+    "journal": "Insect biochemistry and molecular biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41500431/",
+    "score": 10,
+    "summary": {
+      "title_zh": "两种盲蝽电压门控钠通道的功能表征及拟除虫菊酯抗性群体中击倒抗性突变的鉴定",
+      "tool_type": "这不是一个工程化的RNA编辑工具或可编程RNA调控系统，而是一项针对害虫靶标蛋白（电压门控钠通道）的基础研究。它属于“分子靶标鉴定与抗性机制研究”，为未来开发基于RNA干扰（RNAi）或反义寡核苷酸（ASO）等靶向调控工具提供了潜在的分子靶点信息。",
+      "design": "本研究未涉及人工设计或模块化组合工程工具。其核心思路是：1）通过分子克隆技术，从敏感和抗性盲蝽品系中分离并鉴定电压门控钠通道（Nav）的多种可变剪接变体；2）利用非洲爪蟾卵母细胞表达系统作为功能验证平台，对不同变体进行电生理学表征。",
+      "functions": "本研究本身不直接提供可编程的RNA工具，但其成果为后续工具开发奠定了基础：1）**靶点鉴定**：明确了盲蝽Nav通道的关键剪接变体及其功能差异；2）**抗性位点定位**：鉴定出与拟除虫菊酯抗性相关的特定点突变（kdr突变），这些位点可作为未来设计靶向抑制或基因沉默工具的精确目标。",
+      "key_results": "1）从两种盲蝽中成功克隆并功能表达了11种Nav变体，发现缺失外显子b的变体产生更强的钠电流；2）在抗性盲蝽群体中首次鉴定出三个关键的kdr突变（L1023F/S和L934I），结合先前报道的代谢增强机制，揭示了其“靶标不敏感性”与“代谢解毒”的双重抗性策略。"
+    }
+  },
+  {
+    "id": "41741655",
+    "title": "Pancreatic-targeted lipid nanoparticles based on organ capsule filtration.",
+    "abstract": "Achieving pancreatic-targeted delivery marks a breakthrough in treating pancreatic diseases, yet precise delivery remains challenging",
+    "authors": [
+      "Lei J",
+      "Yang K",
+      "Cao W",
+      "Qi S",
+      "Du X",
+      "Li H",
+      "Wang Y",
+      "Gan J",
+      "Feng Y",
+      "Li Y",
+      "Zhang W",
+      "Bai B",
+      "Lin X",
+      "Su X",
+      "Zhang Q",
+      "Liang T",
+      "Yu G"
+    ],
+    "published": "2026-02-25",
+    "journal": "Nature",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41741655/",
+    "score": 10,
+    "summary": {
+      "title_zh": "基于器官被膜过滤的胰腺靶向脂质纳米粒",
+      "tool_type": "RNA递送平台/靶向递送系统",
+      "design": "该平台的核心设计思路是利用器官被膜（如胰腺被膜）的物理过滤特性，通过工程化设计脂质纳米粒（LNP）的粒径和表面性质，使其能够选择性地在胰腺被膜处滞留并富集。这是一种基于生物物理屏障特性的被动靶向策略，而非传统的主动配体-受体结合机制。",
+      "functions": "1. 实现RNA药物（如siRNA、mRNA）或其它治疗性核酸的胰腺特异性递送。\n2. 为胰腺相关疾病（如胰腺癌、糖尿病、胰腺炎）的基因治疗或RNA疗法提供靶向递送工具。\n3. 作为研究胰腺生物学和疾病机制的靶向递送平台。",
+      "key_results": "关键实验结果表明，该平台设计的LNP能够在小鼠模型中有效富集于胰腺组织，显著高于肝脏等主要脱靶器官，实现了胰腺靶向性的突破；体内实验验证了其递送治疗性RNA（如siRNA）至胰腺并产生预期生物学效应的能力。"
+    }
+  },
+  {
+    "id": "41722733",
+    "title": "Molecular Evolutionary Insights into the Host-Virus Relationship between Marburg Virus and its Bat Reservoir.",
+    "abstract": "Bats, often silent carriers of lethal pathogens, serve as natural reservoirs for numerous viruses capable of crossing species barriers with devastating effects. Among them, Rousettus aegyptiacus (R. aegyptiacus) has emerged as a pivotal species in understanding viral spillovers. This fruit bat hosts the Marburg virus (MARV), supporting its replication and occasional transmission to humans, where it causes fatal hemorrhagic fever. However, a striking paradox remains while MARV infection is deadly in humans, R. aegyptiacus remains asymptomatic. Driven by this contrast, our study explores the codon usage patterns to reveal evolutionary mechanisms underlying viral adaptation and host tolerance. Far from being a passive carrier, R. aegyptiacus represents an insightful model for antiviral research. Our analysis revealed distinct codon usage patterns in MARV, indicating fine-tuned evolutionary alignment with the host's codon preferences. MARV exhibited low codon bias, suggesting broad compatibility with the host's translational machinery. Further, COA and PR2 analyses suggested that ecological factors shape codon selection in both virus and host. RNA modification analysis revealed frequent cytosine-to-thymine transitions, implying conserved mutational pressures or host-driven editing. Variations in RCDI values indicated deoptimized codon usage.",
+    "authors": [
+      "Kar N",
+      "Bharadaj SK",
+      "Bharadaj S",
+      "Chakraborty S"
+    ],
+    "published": "2026-02-19",
+    "journal": "Journal of virological methods",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41722733/",
+    "score": 10,
+    "summary": {
+      "title_zh": "从分子进化视角洞察马尔堡病毒与其蝙蝠宿主间的相互关系",
+      "tool_type": "这不是一个工程化的RNA编辑工具或可编程调控系统，而是一项基于生物信息学分析的进化与机制研究。",
+      "design": "本研究未涉及工程化工具的设计。其核心思路是通过比较基因组学分析（如密码子使用偏好、RNA修饰分析），探究病毒与宿主在进化上的相互适应机制，特别是蝙蝠作为无症状宿主对病毒的耐受性。",
+      "functions": "本研究本身不提供可直接编程或应用的工具功能。其价值在于为未来开发抗病毒策略或理解宿主-病毒互作提供进化层面的见解和潜在靶点。",
+      "key_results": "关键发现包括：马尔堡病毒密码子使用偏好性低，与宿主翻译机器具有广泛兼容性；RNA修饰分析提示存在频繁的胞嘧啶向胸腺嘧啶的转换，可能反映了保守的突变压力或宿主驱动的编辑过程。"
+    }
+  },
+  {
+    "id": "41731359",
+    "title": "Characteristics of the mitochondrial genome of the invasive plant Tagetes minuta (Asteraceae) on the Qinghai-Tibet Plateau and its evolutionary significance.",
+    "abstract": "",
+    "authors": [
+      "Bonjor N",
+      "Zeng Z",
+      "Wang R",
+      "Dolma D",
+      "Zhang H",
+      "He J",
+      "Bacuo C",
+      "Norbu N",
+      "Jia X",
+      "Qiong L",
+      "Wang J"
+    ],
+    "published": "2026-02-24",
+    "journal": "BMC genomics",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41731359/",
+    "score": 5,
+    "summary": {
+      "title_zh": "青藏高原入侵植物万寿菊（菊科）线粒体基因组特征及其进化意义",
+      "tool_type": "该论文并非关于RNA编辑工具或可编程RNA调控系统，而是一篇关于入侵植物线粒体基因组测序与进化分析的比较基因组学研究。",
+      "design": "本研究未涉及工程化工具设计。其核心思路是通过对青藏高原入侵植物万寿菊进行线粒体基因组测序、组装和注释，并将其与近缘物种进行比较基因组学分析，以探究其基因组结构特征和进化关系。",
+      "functions": "本研究不提供可编程的RNA调控工具。其功能在于：1) 提供一种入侵植物的完整线粒体基因组序列资源；2) 用于系统发育分析和物种鉴定；3) 为研究植物线粒体基因组进化、特别是入侵植物的适应性进化提供数据基础。",
+      "key_results": "关键实验结果包括：1) 成功组装了万寿菊的线粒体基因组，并分析了其结构特征（如重复序列）；2) 通过系统发育分析明确了其在菊科中的进化地位；3) 讨论了该线粒体基因组特征可能与其对青藏高原高海拔环境的适应性入侵有关。"
+    }
+  }
+]
