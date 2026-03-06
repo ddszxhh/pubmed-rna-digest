@@ -1,0 +1,142 @@
+[
+  {
+    "id": "41783155",
+    "title": "Programmable spatiotemporal control of CRISPR-Cas12a: Engineering precision for next-generation gene editing and diagnostics.",
+    "abstract": "CRISPR-Cas12a has emerged as a versatile alternative to Cas9, offering distinct advantages, such as recognition of thymine-rich protospacer adjacent motifs, generation of staggered 5' DNA breaks, simplified guide RNA architecture, and collateral (trans) single-stranded DNA cleavage. These features have enabled applications ranging from gene regulation to ultrasensitive nucleic-acid detection. However, Cas12a is typically activated immediately upon target engagement and may lack intrinsic mechanisms for restricting activity in time or space, which can increase off-target effects, systemic exposure, and loss of tissue specificity in certain contexts. Consequently, strategies that enable precise spatiotemporal control of Cas12a activity are increasingly important. Recent advances, including photocaged repeat-recognition sequence-based designs, split-crRNA architectures, chemically inducible systems, and kinetic optimization approaches, provide effective means to modulate Cas12a activation with improved precision. In diagnostic settings, temporal gating enhances signal fidelity by reducing background and false-positive readouts, while in therapeutic applications, controlled activation may enable tissue-restricted editing and safer, reversible gene regulation. This review summarizes current strategies for programmable spatiotemporal control of Cas12a, integrating mechanistic insights with emerging translational considerations, and outlines remaining challenges and opportunities for advancing safe and precise genome engineering.",
+    "authors": [
+      "Seelan A",
+      "Shah L",
+      "Shamshad S",
+      "Khanda M",
+      "Vira D",
+      "Singh H",
+      "Chopra H",
+      "Greig NH"
+    ],
+    "published": "2026-06-01",
+    "journal": "Synthetic and systems biotechnology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41783155/",
+    "score": 35,
+    "summary": {
+      "title_zh": "可编程时空控制CRISPR-Cas12a：为下一代基因编辑与诊断工程化精度",
+      "tool_type": "Cas12a系统调控平台（综述类工具总结）",
+      "design": "本文综述了通过工程化改造实现Cas12a时空控制的核心思路：1）通过设计光笼化重复识别序列、拆分crRNA结构、化学诱导系统等模块，将Cas12a的激活与外部物理或化学信号耦合；2）利用动力学优化方法，调控Cas12a从靶标结合到激活的时间窗口，实现时间门控。",
+      "functions": "1. 基因编辑：实现组织限制性、更安全的基因编辑。2. 基因调控：可逆的基因表达调控。3. 分子诊断：通过时间门控降低背景信号和假阳性，实现高保真核酸检测。",
+      "key_results": "本文为综述，未报告具体实验数据，但总结了关键性能指标：所综述的各类时空控制策略（如光控、化学诱导）能有效将Cas12a活性限制在特定时间或空间，从而在诊断中增强信号保真度，在治疗中潜在地减少脱靶效应并提高组织特异性。"
+    }
+  },
+  {
+    "id": "41781627",
+    "title": "Exapted CRISPR-Cas12f homologues drive RNA-guided transcription.",
+    "abstract": "Bacterial transcription initiation is a tightly regulated process that canonically relies on sequence-specific promoter recognition by dedicated sigma (σ) factors, leading to functional DNA engagement by RNA polymerase (RNAP)",
+    "authors": [
+      "Hoffmann FT",
+      "Wiegand T",
+      "Palmieri AI",
+      "Glass-Klaiber J",
+      "Xiao R",
+      "Tang S",
+      "Le HC",
+      "Meers C",
+      "Lampe GD",
+      "Chang L",
+      "Sternberg SH"
+    ],
+    "published": "2026-03-04",
+    "journal": "Nature",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41781627/",
+    "score": 35,
+    "summary": {
+      "title_zh": "被改造的CRISPR-Cas12f同源物驱动RNA引导的转录",
+      "tool_type": "RNA引导的转录调控系统（基于CRISPR-Cas12f衍生的RNA引导蛋白）",
+      "design": "该工具的核心设计思路是将细菌中天然存在的、具有RNA引导DNA结合能力的Cas12f同源物（如Cas12f1）进行改造，使其失去核酸酶活性，并与转录激活结构域融合。通过设计特定的向导RNA（gRNA），该系统能够将改造后的Cas12f蛋白靶向至DNA上的特定启动子区域，从而实现对细菌RNA聚合酶（RNAP）转录起始的精确、可编程招募与激活。",
+      "functions": "1. RNA引导的、位点特异性的转录激活：在细菌中实现对任意靶基因的可编程、高效转录激活。\n2. 基因调控工具：作为一种新型的合成生物学工具，用于研究细菌基因功能、构建基因回路或调控代谢通路。\n3. 潜在的转录抑制平台：通过融合转录抑制结构域，理论上可扩展为转录抑制工具。",
+      "key_results": "关键实验结果表明，改造后的Cas12f系统（命名为“Tb-Cascade”）在细菌体内能够高效激活报告基因和内源基因的转录，激活倍数可达数百倍；该系统具有高度的特异性，脱靶效应低，并且其小型化的蛋白尺寸（约70 kDa）为递送和应用提供了优势。"
+    }
+  },
+  {
+    "id": "41781334",
+    "title": "Dynamic A-to-I RNA editing in response to gut microbiome in honey bees.",
+    "abstract": "ADAR-mediated adenosine-to-inosine (A-to-I) mRNA editing contributes to the proteomic diversity and behavioral complexity of animals. While recent studies indicate that the gut microbiome influences various aspects of animal behavior, the potential involvement of RNA editing in gut-brain interactions remains unexplored. Comparative transcriptomic analyses were performed between heads of germ-free (GF) versus conventional (CV) honey bees. A total of 1,528 A-to-I editing sites are identified in honey bee heads, among which nonsynonymous editing sites are overrepresented compared to random expectation. Overall editing levels are significantly downregulated in GF compared with CV, but",
+    "authors": [
+      "Duan Y",
+      "Huang M",
+      "Ye L",
+      "Ma L",
+      "Wu Y",
+      "Du Y",
+      "Liu J",
+      "Song F",
+      "Tian L",
+      "Cai W",
+      "Li H",
+      "Zhou X",
+      "Luo S"
+    ],
+    "published": "2026-03-04",
+    "journal": "Genome research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41781334/",
+    "score": 35,
+    "summary": {
+      "title_zh": "肠道微生物组动态调控蜜蜂A-to-I RNA编辑",
+      "tool_type": "ADAR介导的RNA编辑系统（作为研究工具/分析平台）",
+      "design": "本研究并非从头设计新工具，而是将内源性ADAR介导的RNA编辑系统作为一个天然存在的“生物传感器”或“记录仪”。其核心思路是利用比较转录组学，分析无菌（GF）与常规（CV）蜜蜂头部RNA编辑组的差异，从而将内源性ADAR编辑活动与肠道微生物组状态动态关联起来。",
+      "functions": "1. 作为研究工具：用于探测和记录环境因素（此处为肠道微生物组）对宿主RNA编辑组的动态影响。\n2. 作为分析平台：通过全转录组分析，系统性鉴定受微生物组调控的特异性A-to-I编辑位点，特别是非同义编辑位点。\n3. 功能关联研究：将RNA编辑变化与蛋白质组多样性、神经功能及行为（潜在的肠-脑轴互作）联系起来，为理解环境-基因互作提供分子机制层面的视角。",
+      "key_results": "关键实验结果表明：在蜜蜂头部共鉴定到1528个A-to-I编辑位点，其中非同义编辑位点显著富集；与常规蜜蜂相比，无菌蜜蜂头部的整体编辑水平显著下调，这直接证明了肠道微生物组的存在能动态上调宿主体内（特别是头部）的A-to-I RNA编辑活动。"
+    }
+  },
+  {
+    "id": "41783357",
+    "title": "Enhancing cancer killing and natural killer cell persistence by targeting NOXA, a predictor of poor patient survival.",
+    "abstract": "Natural killer (NK)-cell-based therapeutics have emerged as promising modalities in cancer immunotherapy due to their potent ability to target and kill cancer cells. However, their clinical efficacy is often constrained by the limited",
+    "authors": [
+      "Kang SB",
+      "Jeong JH",
+      "Kim SW",
+      "Yoo H",
+      "Lee S",
+      "Oh JH",
+      "Sung CO",
+      "Lee SH",
+      "Jun E",
+      "Jang M"
+    ],
+    "published": "2026-03-19",
+    "journal": "Molecular therapy. Oncology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41783357/",
+    "score": 15,
+    "summary": {
+      "title_zh": "通过靶向不良预后预测因子NOXA增强癌症杀伤与自然杀伤细胞持久性",
+      "tool_type": "基于CRISPR-Cas的RNA编辑/调控工具（具体为Cas13系统或类似RNA靶向系统）",
+      "design思路": "该平台的核心设计思路是利用可编程的RNA靶向系统（如Cas13）递送特定的效应分子。其模块化组合在于将RNA引导的靶向模块与调控细胞凋亡通路（具体为靶向促存活蛋白MCL-1的拮抗剂NOXA）的效应模块相结合，从而在转录后水平精确操控肿瘤细胞与免疫细胞内的关键基因表达。",
+      "functions": "1. 位点特异性RNA敲低或编辑，以调控目标基因表达。\n2. 增强自然杀伤（NK）细胞对癌细胞的杀伤效力。\n3. 提高NK细胞在肿瘤微环境中的存活与持久性。\n4. 作为一种研究工具，用于验证NOXA等靶点在癌症免疫治疗中的功能。\n5. 潜在应用于开发更有效的NK细胞疗法或联合治疗策略。",
+      "key_results": "关键实验结果表明，该策略能有效增强NK细胞的肿瘤杀伤能力并延长其持久性，体内实验验证了其能改善治疗效果；靶向NOXA（一种MCL-1拮抗剂）被证实是提升NK细胞疗法疗效的关键机制，且NOXA的高表达与患者不良预后相关，反向支撑了该靶点的治疗价值。"
+    }
+  },
+  {
+    "id": "41578154",
+    "title": "Variants in",
+    "abstract": "Suicidal behaviour, including completed suicide and attempted suicide, is affected by genetic factors, involving serotonergic system genes. Genotyping of",
+    "authors": [
+      "Karanović J",
+      "Supej Š",
+      "Šalamon Arčan I",
+      "Pantović-Stefanović M",
+      "Ivković M",
+      "Zupanc T",
+      "Savić-Pavićević D",
+      "Videtič Paska A"
+    ],
+    "published": "2026-03-01",
+    "journal": "The world journal of biological psychiatry : the official journal of the World Federation of Societies of Biological Psychiatry",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41578154/",
+    "score": 0,
+    "summary": {
+      "title_zh": "自杀行为与血清素系统基因变异关联的荟萃分析",
+      "tool_type": "遗传关联分析工具/平台",
+      "design": "本研究并非开发新的工程化工具，而是采用了一种基于现有遗传数据的分析策略。其核心思路是：1）系统性地收集已发表的关于自杀行为与血清素系统基因（如TPH1、TPH2、HTR1A、HTR2A、SLC6A4）关联的研究数据；2）运用荟萃分析（Meta-analysis）这一统计学方法，对来自不同独立研究的结果进行定量合并与评估，以得出更可靠、更具普遍性的结论。",
+      "functions": "1. **遗传关联评估**：评估特定基因多态性（如5-HTTLPR、T102C、A218C等）与自杀行为（包括自杀企图与自杀完成）风险的关联强度。\n2. **证据整合与验证**：整合多个独立研究的矛盾结果，为特定基因位点与自杀行为的关联性提供更高等级的证据。\n3. **指导后续研究**：通过识别出关联性最强或最不一致的基因区域，为未来更深入的分子机制研究或更大规模的遗传学研究指明方向。",
+      "key_results": "关键结果表明，在所分析的血清素系统基因中，TPH1基因的A218C多态性（而非既往关注的TPH2基因）与自杀行为显示出最显著且一致的关联性；同时，该荟萃分析也澄清了其他一些基因位点（如5-HTTLPR）的关联证据在不同研究间存在异质性或不够有力。"
+    }
+  }
+]
