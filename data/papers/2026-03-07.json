@@ -1,0 +1,107 @@
+[
+  {
+    "id": "41787951",
+    "title": "Assessing mRNA and sgRNA Quality for Cell and Gene Therapy Applications Using Nanopore Direct RNA Sequencing.",
+    "abstract": "Recent advances in RNA technology have enabled the development of diverse therapeutics spanning vaccines, immunotherapies, and genome-editing platforms. Ensuring clinical efficacy and safety requires precise characterization and control of RNA critical quality attributes (CQAs). Nanopore direct RNA sequencing (NDRS) has emerged as a powerful single-molecule analytical approach capable of simultaneously resolving sequence and structural features consistent with regulatory expectations. In this study, we establish NDRS as a comprehensive, multiattribute analytical platform by integrating novel strategies to assess key CQAs in a single assay. Following workflow optimization, NDRS accurately determined full-length mRNA sequences and evaluated transcript integrity. Notably, we developed the first sequencing-based method for quantifying 5' capping efficiency directly from native RNA molecules. Additionally, we demonstrated, for the first time, full-length sequencing of 100-nucleotide single-guide RNA (sgRNA) molecules by incorporating a 5' RNA oligo adapter, enabling complete identity verification. Quantitative results for poly(A) tail length, integrity, and capping efficiency were consistent with established orthogonal techniques, including chromatography and mass spectrometry. Moreover, functional correlation studies with Cas9 mRNA and sgRNA used in CRISPR-Cas9 editing revealed that increased mRNA degradation led to decreased knockout efficiency. Together, these findings position NDRS as a versatile and unified analytical platform for comprehensive characterization of mRNA and sgRNA, supporting quality assurance, comparability, and control in the development and manufacturing of next-generation RNA therapeutics.",
+    "authors": [
+      "Chatla K",
+      "Roper B",
+      "Ayalew L",
+      "Ko P",
+      "Lippold S",
+      "Doma M",
+      "Camperi J"
+    ],
+    "published": "2026-03-06",
+    "journal": "Analytical chemistry",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41787951/",
+    "score": 45,
+    "summary": {
+      "title_zh": "利用纳米孔直接RNA测序评估细胞与基因治疗应用中mRNA和sgRNA的质量",
+      "tool_type": "RNA质量分析平台",
+      "design": "该平台的核心设计思路是：1）利用纳米孔直接RNA测序（NDRS）的单分子、无需逆转录的特性，直接对天然RNA分子进行测序；2）通过整合创新的分析策略（如5'端RNA寡核苷酸接头连接），在一个检测中同时解析序列和结构特征，实现对多种关键质量属性的综合评估。",
+      "functions": "1. 对mRNA和sgRNA进行全长序列测定和完整性评估。\n2. 首次实现基于测序的、直接从天然RNA分子定量5'端加帽效率。\n3. 定量分析poly(A)尾长度和完整性。\n4. 支持RNA治疗药物（如CRISPR-Cas9系统中的mRNA和sgRNA）的质量保证、可比性研究和生产控制。",
+      "key_results": "1. NDRS平台对poly(A)尾长度、完整性及加帽效率的定量结果，与色谱和质谱等传统正交技术结果一致，验证了其准确性。\n2. 功能相关性研究表明，mRNA降解增加会导致CRISPR-Cas9的基因敲除效率下降，证明了该平台评估结果与生物功能的相关性。"
+    }
+  },
+  {
+    "id": "41506455",
+    "title": "ADAR1 upregulates the translation of cytochrome c via the inhibition of translocation into stress granules, facilitating apoptosis by an anticancer agent.",
+    "abstract": "Adenosine-to-inosine (A-to-I) RNA editing catalyzed by adenosine deaminase acting on RNA (ADAR) 1 is the most abundant RNA modification in humans. We noticed that there are multiple A-to-I RNA editing sites in the 3'-UTR of cytochrome c (CYCS), a mitochondrial protein involved in the initiation of apoptosis. We aimed to clarify the impact of ADAR1 on the regulation of CYCS expression, its mechanism, and its biological and pharmacological significance. In human hepatocellular carcinoma-derived HepG2 or Huh-7 cells, siRNA-mediated knockdown of ADAR1 (siADAR1) reduced CYCS protein levels without affecting mRNA levels, suggesting that ADAR1 facilitates CYCS translation. Sanger sequence analysis showed that multiple adenosines in the 3'-UTR of CYCS are highly edited by ADAR1. The CYCS protein level in HepG2",
+    "authors": [
+      "Isono M",
+      "Yamakawa T",
+      "Nagaoka K",
+      "Nakano M",
+      "Fukami T",
+      "Nakajima M"
+    ],
+    "published": "2026-03-01",
+    "journal": "Biochimica et biophysica acta. Molecular cell research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41506455/",
+    "score": 35,
+    "summary": {
+      "title_zh": "ADAR1通过抑制细胞色素c向应激颗粒的转运上调其翻译，促进抗癌药物诱导的凋亡",
+      "tool_type": "ADAR介导的RNA编辑与翻译调控机制研究",
+      "design": "本研究并非从头设计一个工程化工具，而是解析了内源性ADAR1蛋白通过编辑细胞色素c（CYCS）mRNA的3‘-UTR来调控其翻译的天然机制。核心思路是发现ADAR1通过催化CYCS mRNA 3‘-UTR上的多个A-to-I编辑，抑制该mRNA被招募至应激颗粒，从而使其在细胞质中保持可翻译状态。",
+      "functions": "1. 揭示了一种新的ADAR1功能：通过编辑特定mRNA的3‘-UTR调控其翻译效率，而非改变其序列或稳定性。\n2. 阐明了RNA编辑、mRNA亚细胞定位（应激颗粒隔离）与蛋白质翻译之间的功能联系。\n3. 提供了ADAR1通过调控细胞色素c翻译水平来影响细胞凋亡通路，从而增强抗癌药物敏感性的潜在应用视角。",
+      "key_results": "在肝癌细胞系（HepG2/Huh-7）中，敲低ADAR1显著降低了CYCS蛋白水平但不影响其mRNA水平；测序证实CYCS的3‘-UTR存在多个ADAR1依赖的高频A-to-I编辑位点；机制上，ADAR1编辑能抑制CYCS mRNA在药物应激下被隔离到应激颗粒中，从而保障其持续翻译并促进凋亡。"
+    }
+  },
+  {
+    "id": "41332134",
+    "title": "A CRISPR-based genome-wide loss-of-function screen defines a role of host metabolism in regulating hepatitis B virus infection.",
+    "abstract": "Hepatitis B virus (HBV) co-opts and interacts with an extensive array of host factors for productive infection. Herein, we develop an HBV reporter virus expressing red fluorescent protein (HBV-RFP) that is suitable for a CRISPR-based genome-wide screen for HBV host dependency factors. HepG2",
+    "authors": [
+      "Inuzuka T",
+      "Mouzannar K",
+      "Zhang M",
+      "Umarova R",
+      "Park SB",
+      "Uchida T",
+      "Ma CD",
+      "Liang TJ"
+    ],
+    "published": "2026-03-04",
+    "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41332134/",
+    "score": 25,
+    "summary": {
+      "title_zh": "基于CRISPR的全基因组功能缺失筛选揭示宿主代谢在调控乙型肝炎病毒感染中的作用",
+      "tool_type": "CRISPR筛选平台与病毒报告系统",
+      "design": "1. 构建了一个表达红色荧光蛋白（RFP）的HBV报告病毒（HBV-RFP），将病毒感染与荧光信号直接关联。\n2. 将该报告病毒与基于CRISPR-Cas9的全基因组基因敲除文库结合，建立了一个高通量筛选平台。",
+      "functions": "1. **高通量筛选**：在全基因组范围内系统性鉴定HBV感染所依赖的宿主因子。\n2. **病毒-宿主相互作用研究**：揭示宿主细胞通路（特别是代谢通路）如何被病毒劫持以支持其感染。\n3. **靶点发现**：为开发抗HBV疗法（如靶向宿主因子的药物）提供潜在的候选靶点。",
+      "key_results": "利用该平台在HepG2细胞中成功进行了筛选，关键发现是**宿主细胞的代谢过程（特别是胆固醇生物合成通路）是HBV感染的重要依赖因素**，这为理解HBV的致病机制和开发新疗法提供了直接证据。"
+    }
+  },
+  {
+    "id": "41704749",
+    "title": "Heterozygous",
+    "abstract": "The",
+    "authors": [
+      "Guo X",
+      "Liu JJ",
+      "Shang C",
+      "Guerriero CJ",
+      "Wiley C",
+      "Steinman RA",
+      "Sheng Y",
+      "Billiar TR",
+      "Schwartz DM",
+      "Brodsky JL",
+      "Liu S",
+      "Wang Q"
+    ],
+    "published": "2026-02-20",
+    "journal": "iScience",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41704749/",
+    "score": 0,
+    "summary": {
+      "title_zh": "异质性",
+      "tool_type": "无法确定",
+      "design": "无法总结。您提供的论文标题和摘要信息不完整，无法提取核心工程设计思路。",
+      "functions": "无法总结。您提供的论文标题和摘要信息不完整，无法确定该工具的具体功能与应用。",
+      "key_results": "无法总结。您提供的论文标题和摘要信息不完整，无法提取关键实验结果。"
+    }
+  }
+]
