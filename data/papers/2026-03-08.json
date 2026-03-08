@@ -1,0 +1,22 @@
+[
+  {
+    "id": "41791686",
+    "title": "RNA therapeutics 2.0: Expanding the landscape from mRNA vaccines to splicing modulators and beyond.",
+    "abstract": "RNA therapeutics have progressed into a disruptive drug class quickly, replacing a variety of primary experimental agents which included vaccines, antisense oligonucleotides (ASOs), small interfering RNAs (siRNAs), aptamers and RNA editing systems. First-generation modalities, demonstrated by fomivirsen and pegaptanib were limited by vulnerability to nuclease attack, inefficient delivery and immune stimulation were treated with clinical feasibility. Recent clinical achievements, including mRNA vaccinations against COVID-19, have been based on developments in backbone chemistry, nucleoside modifications and targeted delivery including N-acetylgalactosamine (GalNAc) conjugation and lipid nanoparticle (LNP) encapsulation. On this basis, it can be stated that the RNA Therapeutics 2.0 is more stable, tunable and can be targeted to organs and tissues. New methodologies such as circular RNA (circRNAs), self-amplifying mRNAs (saRNAs), splice-switching adenosine specific oligonucleotides (ASOs), small-molecule splicing modulators and adenosine deaminase toward RNA (ADAR)-directed base editors. These new generation systems can be used to make durable protein expression, reversible transcript recoding and precision splicing modulation, extending therapeutic applications to oncology, neurology, metabolic disease and rare genetic disorders. Extrahepatic delivery via innovations in delivery that included ligand-targeted LNPs, peptide conjugates and engineered exosomes is surpassing and artificial intelligence (AI) enhanced design is hastening optimization of RNA sequences, chemistries and vectors. RNA therapeutics in combination with gene therapy can be used to produce personalized therapeutics, such as n-of-1 medicines, based on immune regulation and control circuits. This Review describes the development of early oligonucleotide drugs to a diversified arsenal of RNA platforms, the major advancements, obstacles and emerging technology that characterize the next stage of RNA-based precision medicine.",
+    "authors": [
+      "Karwa PN",
+      "Sakle NS"
+    ],
+    "published": "2026-03-04",
+    "journal": "Biotechnology advances",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41791686/",
+    "score": 45,
+    "summary": {
+      "title_zh": "RNA疗法2.0：从mRNA疫苗到剪接调节剂及其他领域的版图扩张",
+      "tool_type": "综述论文（非单一工具，涵盖多种RNA治疗平台/工具类别）",
+      "design": "本文并非介绍单一工具的设计，而是综述了推动“RNA疗法2.0”发展的核心工程思路：1）通过骨架化学、核苷修饰（如N1-甲基假尿苷）和递送系统（如GalNAc偶联、LNP封装）增强RNA分子的稳定性、可调性和靶向性；2）通过模块化组合（如ADAR与指导RNA结合、小分子与剪接机制互作）构建具有新功能的平台。",
+      "functions": "文中涵盖的多种RNA平台/工具可实现以下功能：\n1. 持久蛋白质表达（如环状RNA、自扩增mRNA）。\n2. 位点特异性碱基编辑（如ADAR导向的碱基编辑器）。\n3. 精准剪接调控（如剪接转换ASO、小分子剪接调节剂）。\n4. 靶向基因沉默（如siRNA）。\n5. 作为疫苗引发免疫反应（如mRNA疫苗）。\n6. 通过AI辅助设计优化RNA序列、化学修饰和递送载体。",
+      "key_results": "本文是一篇综述，未报告原始实验数据。其核心论点是基于领域内关键进展的总结：以COVID-19 mRNA疫苗为代表的近期临床成功，验证了通过化学修饰和先进递送系统（如LNP）实现的RNA疗法在人体中的高效性、安全性和可行性，标志着RNA疗法从早期概念进入稳定、可调、可靶向的“2.0”时代。"
+    }
+  }
+]
