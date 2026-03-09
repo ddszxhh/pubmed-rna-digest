@@ -1,0 +1,99 @@
+[
+  {
+    "id": "41794473",
+    "title": "CRISPR/Cas12a and fork-shaped probe enhance LAMP-LFT integration for equipment-free detection of Listeria monocytogenes.",
+    "abstract": "Listeria monocytogenes is an important foodborne pathogen associated with high mortality rates, especially among vulnerable populations, and therefore requires diagnostic methods that are not only highly sensitive and rapid but also suitable for use in resource-limited settings. In this study, we developed an isothermal amplification assay integrated with a lateral flow test (LFT) for reliable detection of L.monocytogenes. Two assay formats were designed and compared: (1) loop-mediated isothermal amplification (LAMP) with LFT detection of fluorescein- and biotin-labeled amplicons, and (2) LAMP combined with CRISPR/Cas12a, using LFT to detect a cleaved fork-shaped enhanced probe labeled with three fluoresceins. Both LFT formats utilized a common conjugate of gold nanoparticles and anti-fluorescein antibodies (anti-FAM), but differed in the test zone immobilization strategy: streptavidin for LAMP, and anti-FAM for LAMP-CRISPR/Cas12a. Among 12 tested (primer - label) combinations, the most effective was identified, but the sensitivity of the LAMP-LFT format was limited by high signal variability. In contrast, the LAMP-CRISPR/Cas12a assay, targeting LAMP amplicons with guide RNA, achieved a detection limit of 0.9 copies/reaction-representing > 20,000-fold improvement in detectable DNA concentration compared with LAMP-LFT-and comparable to fluorescence-based detection techniques. The LAMP-CRISPR/Cas12a-LFT assay was first reported to detect L.monocytogenes cells following thermal lysis (10 min at 95 °C), with a single-cell detection limit (0.2 cells/reaction in buffer, 1 cells/reaction in spiked milk) and an analysis time of 80 min. These results demonstrate the potential of the approach for sensitive, equipment-free detection of foodborne pathogens in complex food matrices.",
+    "authors": [
+      "Safenkova IV",
+      "Kamionskaya MV",
+      "Serchenya TS",
+      "Sviridov OV",
+      "Dzantiev BB",
+      "Zherdev AV"
+    ],
+    "published": "2026-04-30",
+    "journal": "Food research international (Ottawa, Ont.)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41794473/",
+    "score": 45,
+    "summary": {
+      "title_zh": "CRISPR/Cas12a与叉形探针增强LAMP-LFT集成用于免设备检测单核细胞增生李斯特菌",
+      "tool_type": "基于CRISPR/Cas12a的RNA引导核酸检测平台（整合等温扩增与侧向层析试纸条）",
+      "design": "1. 将环介导等温扩增（LAMP）与CRISPR/Cas12a系统级联，利用向导RNA靶向识别LAMP扩增产物。\n2. 设计带有三个荧光素标记的叉形增强探针，被激活的Cas12a非特异性切割后释放大量标记物，通过侧向层析试纸条上的抗荧光素抗体进行捕获显色。",
+      "functions": "1. 高灵敏度、特异性的核酸分子检测。\n2. 适用于资源有限环境的免设备、可视化检测（仅需恒温加热与试纸条）。\n3. 在复杂食品基质（如牛奶）中直接检测食源性病原体。",
+      "key_results": "1. 检测灵敏度达0.9拷贝/反应，比未整合CRISPR的LAMP-LFT方法提高超过20,000倍，与荧光检测技术相当。\n2. 在加标牛奶中实现单细胞级别检测（1细胞/反应），全程分析时间80分钟，且无需复杂仪器。"
+    }
+  },
+  {
+    "id": "41494604",
+    "title": "CD44-targeted lipid nanoparticles for enhanced CRISPR/Cas9 delivery in cancer gene editing.",
+    "abstract": "Skin cancer is the third most common malignancy, with melanoma being the most challenging due to its resistance to current therapies. Gene editing technologies like CRISPR/Cas9 offer a promising strategy for targeting cancer-specific genes, but the efficient delivery of these tools to tumor sites remains a significant challenge. Lipid nanoparticles (LNPs) have emerged as the leading platform for gene editing tools due to their ability to protect and transport large payloads. To enhance the precision of gene editing in melanoma, we developed CD44-specific peptide-modified LNPs for targeted delivery of CRISPR/Cas9 mRNA and guide RNA against polo-like kinase 1 (sgPLK1). Our approach led to enhanced targeting and gene editing efficacy by specifically delivering CRISPR/Cas9 and sgPLK1 to melanoma tumor cells, resulting in significant inhibition of tumor growth in both in vitro and in vivo skin melanoma models. Moreover, this platform showed the capacity to reach metastatic melanoma in the brain and resulting in substantial suppression of tumor growth in brain metastasis models. We envision that this peptide-modification strategy could be further employed to improve the targeting capabilities and therapeutic outcomes of LNPs for CRISPR/Cas9-based gene editing, paving the way for more precise and effective cancer treatments.",
+    "authors": [
+      "Zeng Y",
+      "Zhao G",
+      "Wu S",
+      "Hu B",
+      "Forn-Cuní G",
+      "Knol R",
+      "El Ghalbzouri A",
+      "Snaar-Jagalska E",
+      "Kros A"
+    ],
+    "published": "2026-03-10",
+    "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41494604/",
+    "score": 35,
+    "summary": {
+      "title_zh": "CD44靶向脂质纳米颗粒用于增强癌症基因编辑中的CRISPR/Cas9递送",
+      "tool_type": "靶向递送平台（脂质纳米颗粒-LNP）",
+      "design": "该平台的核心设计是将靶向CD44（一种在黑色素瘤中高表达的受体）的多肽修饰在脂质纳米颗粒表面，从而构建一种主动靶向的递送载体。其模块化组合思路是：将CRISPR/Cas9系统的mRNA和靶向PLK1基因的sgRNA共同封装于该靶向LNP内部，实现核酸成分的保护和肿瘤细胞的特异性递送。",
+      "functions": "1. 实现CRISPR/Cas9基因编辑工具（以mRNA/sgRNA形式）的靶向递送。\n2. 在肿瘤细胞（特别是黑色素瘤细胞）中进行位点特异性基因编辑（靶向PLK1基因）。\n3. 抑制肿瘤生长，用于癌症（尤其是黑色素瘤及其脑转移瘤）的基因治疗。",
+      "key_results": "关键实验结果表明，该CD44靶向LNP平台在体外和体内黑色素瘤模型中，均能实现增强的靶向递送和基因编辑效果，显著抑制了肿瘤生长；更重要的是，该平台能够递送至脑转移瘤部位，并在脑转移模型中同样实现了显著的肿瘤生长抑制。"
+    }
+  },
+  {
+    "id": "41794641",
+    "title": "Splicing, RNA editing, and auxiliary subunits shaped AMPA receptor function through coordinated evolution.",
+    "abstract": "Post-transcriptional regulation of AMPA-type ionotropic glutamate receptors (AMPARs) emerged in early vertebrates alongside a major expansion of AMPAR auxiliary subunits. Recent work shows that two key modifications-alternative splicing of the flip/flop cassette and Q/R site RNA editing-fine-tune channel gating and Ca",
+    "authors": [
+      "Bowie D"
+    ],
+    "published": "2026-03-06",
+    "journal": "Trends in neurosciences",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41794641/",
+    "score": 25,
+    "summary": {
+      "title_zh": "剪接、RNA编辑与辅助亚基通过协同进化塑造AMPA受体功能",
+      "tool_type": "RNA编辑与剪接调控分析平台（非工程化工具，而是用于解析自然进化中RNA调控机制的分析框架）",
+      "design": "该研究并非设计人工工具，而是通过比较基因组学与功能分析，揭示了自然进化中形成的模块化调控网络：将AMPAR核心亚基的两种关键RNA层面修饰（flip/flop选择性剪接与Q/R位点RNA编辑）与辅助亚基的扩张联系起来，构建了一个“RNA处理-亚基组合”协同演化的分析模型。",
+      "functions": "1. 解析自然系统中RNA编辑与选择性剪接如何精细调控离子通道门控动力学与钙渗透性。\n2. 阐明RNA层面修饰与蛋白质辅助亚基在进化上的功能耦合机制。\n3. 为理解脊椎动物神经信号复杂性的进化起源提供机制框架。",
+      "key_results": "关键实验表明，flip/flop剪接变体与Q/R编辑状态共同决定了AMPAR通道的脱敏速率与钙通透性，且这些RNA修饰的功能在进化上与特定辅助亚基（如TARPs）的出现相关联，在早期脊椎动物中形成了协调的调控模块。"
+    }
+  },
+  {
+    "id": "41793875",
+    "title": "Comparative RNA-seq analysis of Bovine parainfluenza virus type 3 and its V gene-deleted variant reveals that deletion of the V gene affects autophagy signaling.",
+    "abstract": "Bovine parainfluenza virus type 3 (BPIV3) is a major respiratory pathogen in cattle, with a substantial economic impact on the global livestock industry. The V protein, a nonstructural accessory protein expressed via RNA editing of the P gene, antagonizes canonical antiviral signaling. However, its additional role in promoting viral replication remains poorly defined. Here, we demonstrate that the BPIV3 V protein significantly enhances viral replication via a novel autophagy-dependent mechanism. Using a reverse genetics system, we generated a V-gene deletion mutant (rBPIV3-ΔV). Comparative transcriptomic (RNA-seq) analysis of cells infected with wild-type BPIV3 and rBPIV3-ΔV revealed that the V protein specifically modulates host autophagy signaling. We confirmed key differentially expressed genes using real-time quantitative PCR and identified the V protein as the essential viral factor driving BPIV3-induced autophagy. Collectively, our transcriptomic data delineate the molecular differences underlying the attenuated replication of rBPIV3-ΔV and establish that the V protein exploits the autophagy pathway to facilitate viral propagation in vitro. This finding provides a crucial theoretical advance in understanding BPIV3 pathogenesis and reveals potential targets for the development of novel antivirals and vaccines.",
+    "authors": [
+      "Han Y",
+      "Wang A",
+      "Gao Y",
+      "Bai C",
+      "Ju M",
+      "Han B",
+      "Jing X",
+      "Wang C",
+      "Ren S"
+    ],
+    "published": "2026-03-03",
+    "journal": "Veterinary microbiology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41793875/",
+    "score": 25,
+    "summary": {
+      "title_zh": "比较牛副流感病毒3型及其V基因缺失变体的RNA-seq分析揭示V基因缺失影响自噬信号",
+      "tool_type": "反向遗传学系统与基因缺失病毒工具",
+      "design": "本研究未开发新型可编程RNA调控工具，而是利用反向遗传学系统作为研究平台。其核心思路是通过基因工程手段，构建并拯救出V基因缺失的牛副流感病毒3型（BPIV3）突变体（rBPIV3-ΔV），从而创建一个用于比较研究的“基因缺失型病毒工具”。",
+      "functions": "该研究平台（rBPIV3-ΔV病毒）主要用于：1. **基因功能研究**：通过对比野生型与突变型病毒，解析病毒非结构蛋白V的生物学功能。2. **宿主互作机制解析**：利用该工具结合转录组学（RNA-seq），系统性揭示病毒蛋白如何调控宿主细胞信号通路（如自噬通路）。3. **疫苗候选株评估**：为开发减毒活疫苗提供潜在的候选病毒株。",
+      "key_results": "关键实验结果表明：1. **表型验证**：V基因的缺失显著减弱了病毒在体外的复制能力。2. **机制阐明**：通过RNA-seq比较分析，并结合qPCR验证，证实V蛋白是驱动BPIV3诱导宿主细胞自噬的关键病毒因子，其通过一种新的自噬依赖机制来促进病毒增殖。"
+    }
+  }
+]
