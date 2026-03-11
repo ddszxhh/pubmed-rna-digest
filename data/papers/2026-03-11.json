@@ -1,0 +1,97 @@
+[
+  {
+    "id": "41805359",
+    "title": "YY1 Interacts with Promoter R-Loops to Regulate Transcription.",
+    "abstract": "R-loops play critical roles in gene regulation and genome stability. To elucidate the protein-mediated mechanisms governing R-loop dynamics, we leveraged APEX-based proximity labeling to profile the R-loop proximal proteome. By integrating the proteomic data, bioinformatic predictions, and biochemical characterizations, we identified YY1 as an R-loop-binding protein. Localized R-loop induction at specific genomic loci via a CRISPR-dCas9/gRNA targeting system enhanced the local YY1 occupancy. Furthermore, integrated ChIP-seq and RNA-seq analyses revealed that promoter-associated YY1-R-loop interactions broadly regulate transcription. Together, our work identifies YY1 as a novel R-loop interaction protein and establishes a role for this interaction in modulating gene expression.",
+    "authors": [
+      "He X",
+      "Yuan J",
+      "Li L",
+      "Gao Z",
+      "Wang Y"
+    ],
+    "published": "2026-03-10",
+    "journal": "Journal of the American Chemical Society",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41805359/",
+    "score": 45,
+    "summary": {
+      "title_zh": "YY1通过与启动子R环相互作用调控转录",
+      "tool_type": "CRISPR-dCas9/gRNA靶向系统（用于诱导局部R环）与APEX邻近标记技术（用于蛋白质组分析）的组合研究平台",
+      "design": "本研究并未开发一个全新的可编程RNA编辑工具，而是整合了一套方法学平台来研究R环的调控机制。其核心思路是：1）利用CRISPR-dCas9/gRNA系统在特定基因组位点靶向诱导局部R环形成；2）结合APEX邻近标记技术，系统性鉴定R环附近的蛋白质组（R-loop proximal proteome）。",
+      "functions": "该组合平台主要用于：1）在基因组特定位点诱导R环形成；2）大规模鉴定与R环相互作用的蛋白质；3）研究特定蛋白（如YY1）与R环的相互作用及其对转录的调控功能。",
+      "key_results": "1）成功鉴定出YY1为一种新型的R-loop结合蛋白；2）通过CRISPR-dCas9靶向诱导R环，证实了局部R环能增强YY1的染色质占据；3）整合分析表明，启动子区的YY1-R-loop相互作用广泛参与转录调控。"
+    }
+  },
+  {
+    "id": "41806333",
+    "title": "Untangling Responses of A-to-I RNA Editing to Heat Stress in the Mussel Mytilus galloprovincialis.",
+    "abstract": "RNA editing is a post-transcriptional modification that can have important effects on mRNA translation and, thereby, on the composition of the proteome. RNA editing exhibits complex responses to temperature and thus may be important in ectothermic species' capacities to cope with thermal stress. To investigate the temperature-dependent patterns and potential functions of RNA editing events in intertidal mollusks, we conducted a genome-wide identification and analysis of RNA editing sites in the mussel Mytilus galloprovincialis exposed to various temperatures. Our results showed that the number of sites where adenosine (A) was converted to inosine (I) decreased significantly with increasing temperatures and correlated positively with the expression level of the enzyme adenosine deaminase acting on RNA. Furthermore, the shared edited genes among all temperatures were enriched significantly in some key biological processes (e.g., negative regulation of apoptotic processes), and the unique edited genes at the sublethal temperature of 31°C were enriched significantly in some cellular signaling pathways (e.g., GTPase activator activity). Luciferase assays showed that protein translation efficiency was positively correlated with the number of edited A-to-I sites in the 3' untranslated region (3'UTR). Our study demonstrates that temperature-sensitive A-to-I editing events may play an important role in allowing mollusks like M. galloprovincialis to rapidly acclimatize to stressful thermal environments.",
+    "authors": [
+      "Zhu Y",
+      "Liao M",
+      "Han G",
+      "Su Q",
+      "Zhao L",
+      "Su Y",
+      "Dong Y"
+    ],
+    "published": "2026-03-10",
+    "journal": "Integrative zoology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41806333/",
+    "score": 35,
+    "summary": {
+      "title_zh": "解析地中海贻贝A-to-I RNA编辑对热应激的响应",
+      "tool_type": "自然存在的RNA编辑系统分析平台（非人工工程化工具）",
+      "design": "本研究并非设计人工工具，而是将生物体（贻贝）内源性的ADAR酶介导的A-to-I RNA编辑系统，作为一个天然的“感应与调控平台”进行分析。其核心思路是：通过全基因组测序，系统性地关联环境温度（输入信号）、ADAR酶表达量（感应与执行模块）以及RNA编辑位点与基因功能（输出响应），从而解析该内源系统如何响应环境压力。",
+      "functions": "该研究揭示的内源性A-to-I RNA编辑系统在生物体内可实现以下功能：1) **环境温度感应与信号转换**：将外部温度刺激转化为特定的RNA编辑图谱变化。2) **转录组可塑性调控**：通过编辑3‘UTR等区域，动态调控mRNA的**翻译效率**。3) **细胞应激保护**：通过编辑特定功能基因（如凋亡负调控、GTP酶激活相关基因），帮助生物体**快速适应热应激环境**。",
+      "key_results": "关键实验结果表明：1) **编辑效率受温度调控**：A-to-I编辑位点数量随温度升高而显著减少，并与ADAR酶的表达水平呈正相关。2) **功能验证**：荧光素酶报告实验证明，3‘UTR区域的A-to-I编辑位点数量与**蛋白质翻译效率呈正相关**，为编辑事件的功能提供了直接证据。"
+    }
+  },
+  {
+    "id": "41805199",
+    "title": "Engineering ultra-low-gliadin wheat for celiac disease using an integrated RNAi, CRISPR, and doubled haploid strategy.",
+    "abstract": "The growing prevalence of gluten-related disorders has driven the development of wheat varieties with reduced immunogenic gluten. This study aimed to integrate RNA interference (RNAi) and CRISPR genome editing within a doubled haploid (DH) platform to overcome challenges of gene redundancy and polyploidy in wheat gliadins. We generated DH lines from crosses between RNAi and CRISPR lines and elite wheat cultivars, enabling stable fixation of multiple genetic modifications in a single generation. Deep sequencing analysis of α-gliadin amplicons was conducted using a custom bioinformatics pipeline optimized for complex, repetitive gene families. Gluten protein profiles were evaluated using RP-HPLC and R5 monoclonal antibody. Several DH lines presented over 70% reduction in immunogenic epitopes in α-gliadins, with lines outperforming both parents. Editing frequency was influenced by single-guide RNA efficiency and parental background. Silencing and editing combined led to nearly depleted gliadins in some lines, often with compensatory increases in other storage proteins linked with bread-making quality, such as high-molecular-weight glutenin subunits. Kernel and specific weight traits were largely maintained. This work demonstrates that combining RNAi and CRISPR in a DH platform enables efficient, heritable reduction of immunogenic gluten, providing a viable strategy for breeding wheat lines safer for individuals with gluten-related disorders.",
+    "authors": [
+      "Marín-Sanz M",
+      "Berlanga-Torres JA",
+      "Guzmán-López MH",
+      "Sánchez-León S",
+      "Vallés MP",
+      "Castillo AM",
+      "Barro F"
+    ],
+    "published": "2026-03-10",
+    "journal": "Journal of experimental botany",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41805199/",
+    "score": 35,
+    "summary": {
+      "title_zh": "利用整合的RNAi、CRISPR及双单倍体策略工程化培育用于乳糜泻的超低麦醇溶蛋白小麦",
+      "tool_type": "作物育种平台（整合了RNA干扰、CRISPR基因组编辑与双单倍体技术的多策略育种平台）",
+      "design": "该平台的核心设计思路是整合多种技术以克服小麦多倍体基因组和基因冗余的挑战。首先，通过RNAi技术实现多基因家族的广泛沉默，同时利用CRISPR-Cas9对特定α-麦醇溶蛋白基因进行精确编辑；然后将携带这些遗传修饰的品系与优良小麦品种杂交，并利用双单倍体技术快速获得纯合、稳定的后代，从而在一个世代内固定多重遗传改良。",
+      "functions": "1. 实现小麦中免疫原性麦醇溶蛋白（特别是α-麦醇溶蛋白）的高效、可遗传的协同敲低与编辑。\n2. 培育低免疫原性小麦品种，旨在为麸质相关疾病（如乳糜泻）患者提供更安全的食物来源。\n3. 该整合平台本身可作为快速、稳定组合多种遗传修饰（沉默+编辑）的通用育种策略，适用于其他多基因家族或复杂性状的作物改良。",
+      "key_results": "关键性能指标显示，多个双单倍体品系的免疫原性表位减少了70%以上，效果优于亲本；结合RNAi沉默与CRISPR编辑的品系几乎耗尽了麦醇溶蛋白，且编辑频率受gRNA效率和亲本背景影响。重要的是，在降低免疫原性的同时，籽粒性状得以保持，并观察到与面包制作品质相关的其他贮藏蛋白（如高分子量谷蛋白亚基）的代偿性增加。"
+    }
+  },
+  {
+    "id": "41804348",
+    "title": "PrimeRoot: a cutting-edge technology designed to achieve precise and targeted large DNA insertion in plants.",
+    "abstract": "Genome editing techniques, especially clustered regularly interspaced short palindromic repeats (CRISPR), brought researchers into a new era of molecular plant breeding because it enabled them to make targeted modifications in plant genomes and transcriptomes. However, the successful incorporation of large DNA segments into plant genomes, necessary for high genetic gains and desired traits, remains a critical challenge. As there is an increasing demand for technologies that support chromosomal integration of large DNA inserts suitable for application in synthetic biology and plant breeding, PrimeRoot editors have presented a revolutionary solution to this issue, as they integrate enhanced prime editing guide RNA (PegRNA) designs, improved plant prime editor systems and advanced recombinases, helping in the precise insertion of DNA fragments of up to 11.1 kb into the plant genomes. Third-generation PrimeRoot editors further enhanced the precision and efficiency of transformation under different gene delivery systems. This technology holds enormous promise for accurately inserting long DNA sequences across different species of plants. This review highlights expected developments, opportunities, applications, advantages and challenges associated with PrimeRoot editors as well as the significance of expanding their applicability to more varieties of plants.",
+    "authors": [
+      "Negi C",
+      "Vyas P",
+      "Dhariwal R",
+      "Vasistha NK"
+    ],
+    "published": "2026-04-01",
+    "journal": "3 Biotech",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41804348/",
+    "score": 15,
+    "summary": {
+      "title_zh": "PrimeRoot：一种用于在植物中实现精准靶向大片段DNA插入的前沿技术",
+      "tool_type": "植物基因组编辑平台（基于Prime Editing与重组酶结合的大片段DNA插入工具）",
+      "design": "PrimeRoot编辑器的核心设计思路是模块化整合了优化的植物Prime Editor系统、增强型pegRNA设计以及先进的重组酶。通过将Prime Editing的精准靶向能力与重组酶介导的大片段整合功能相结合，构建了一个能够实现长片段DNA精确插入的复合系统。",
+      "functions": "1. 在植物基因组中实现位点特异性的大片段DNA插入（可达11.1 kb）。\n2. 适用于合成生物学和分子育种，用于导入复杂性状或代谢通路。\n3. 在不同基因递送系统下实现精准高效的植物遗传转化。",
+      "key_results": "该平台的关键性能指标是能够精确插入长达11.1 kb的DNA片段到植物基因组中，并且第三代PrimeRoot编辑器在不同递送系统中进一步提升了转化的精确性和效率。"
+    }
+  }
+]
