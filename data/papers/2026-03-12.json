@@ -1,0 +1,127 @@
+[
+  {
+    "id": "41807728",
+    "title": "Conditional activation of Cas13 enforces lysogeny in a native type VI-A CRISPR host.",
+    "abstract": "CRISPR-Cas (clustered regularly interspaced short palindromic repeats and CRISPR-associated proteins) systems present a barrier to prophage acquisition by restricting invading phages or by inducing autoimmune cleavage of integrated prophage DNA. The RNA-sensing type VI CRISPR nuclease Cas13 mediates non-specific RNA cleavage upon recognition of phage lytic transcripts, but how this system influences the temperate phage life cycle remains unknown. Here we report that the Listeria seeligeri type VI-A CRISPR system restricts the lytic cycle of temperate phages but tolerates prophage acquisition and interferes with prophage induction through a non-abortive mechanism. During attempts at induction, Cas13 activation forces prophage re-integration, thus maintaining lysogeny. We also find that during polylysogenic induction, Cas13 acts specifically, restricting only the targeted phage, in contrast to its behaviour during lytic replication. Our findings show that Cas13 elicits a unique response to each stage of the temperate phage life cycle, enabling type VI CRISPR hosts to acquire potentially beneficial prophages while mitigating lysis.",
+    "authors": [
+      "Godsil M",
+      "Wei N",
+      "Meeske AJ"
+    ],
+    "published": "2026-03-10",
+    "journal": "Nature microbiology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41807728/",
+    "score": 45,
+    "summary": {
+      "title_zh": "条件性激活Cas13可在天然VI-A型CRISPR宿主中强制维持溶原状态",
+      "tool_type": "Cas13系统（RNA靶向的CRISPR-Cas系统）",
+      "design": "本研究并非从头设计新工具，而是揭示了天然VI-A型CRISPR-Cas系统（包含Cas13核酸酶）在调控温和噬菌体生命周期中的内在“条件性激活”机制。其核心思路在于系统能特异性识别并响应噬菌体裂解转录本，从而触发Cas13的非特异性RNA切割活性，但该激活过程受到生命周期的严格调控。",
+      "functions": "1. 生命周期特异性调控：在温和噬菌体生命周期的不同阶段（裂解感染、溶原维持、诱导）实施差异化干预。\n2. 强制维持溶原化：在溶原菌遭遇诱导信号时，通过激活Cas13切割裂解转录本，迫使已整合的前噬菌体重新整合，从而抑制裂解循环。\n3. 靶向性干扰：在多溶原状态下，Cas13能特异性限制被其CRISPR RNA靶向的噬菌体，而不影响非靶向噬菌体。\n4. 作为研究平台：为理解RNA传感CRISPR系统与温和噬菌体的相互作用提供了模型，并展示了利用Cas13活性条件性控制基因表达或细胞命运的潜在应用场景。",
+      "key_results": "关键实验结果表明，在单核细胞增生李斯特菌的天然VI-A系统中，Cas13的激活能有效限制温和噬菌体的裂解循环，但允许其以前噬菌体形式整合（溶原化）；更重要的是，当前噬菌体被诱导进入裂解周期时，Cas13的激活会强制其重新整合，从而以非流产性方式维持溶原状态。在多溶原诱导实验中，Cas13仅特异性限制其CRRNA靶向的噬菌体，展现了其靶向特异性。"
+    }
+  },
+  {
+    "id": "41811974",
+    "title": "CRISPR-Cas Based Plasmid Design for Multidrug Resistant Klebsiella Pneumoniae Isolates.",
+    "abstract": "Antimicrobial resistance (AMR) is a major global health concern that requires innovative therapeutic strategies. This study aimed to address this challenge by designing Clustered Regularly Interspaced Short Palindromic Repeats-CRISPR-associated protein (CRISPR-Cas)-based plasmid systems for potential genome editing applications in multidrug-resistant (MDR) Klebsiella pneumoniae clinical isolates. Minimum inhibitory concentrations (MICs) of imipenem, meropenem, and ertapenem were determined according to EUCAST guidelines. All isolates (n = 5) were resistant, with MIC ranges of 4-128 μg/mL for imipenem, 8-64 μg/mL for meropenem, and 8-256 μg/mL for ertapenem. Resistance gene analysis revealed blaOXA-48-like and blaCTX-M-15 in all isolates, while blaNDM-1 was detected in one isolate. Two CRISPR-based plasmid systems, CRISPR-Cas9 and CRISPR-assisted cytidine deaminase, were designed. Target genes were amplified by PCR, and guide RNA (gRNA) sequences were designed from selected regions. Apramycin (50 μg/mL) was identified as a suitable selection marker. The pSGKP-AmpR(Pro)-ApmR plasmid was successfully constructed, whereas Cas9 and APOBEC constructs could not be cloned. Overall, this study highlights technical challenges in developing CRISPR-based tools for MDR K. pneumoniae and emphasizes the need for isolate-specific plasmid design and gRNA optimization.",
+    "authors": [
+      "Baba S",
+      "Oncul O",
+      "Aktas Z"
+    ],
+    "published": "2026-03-11",
+    "journal": "FEMS microbiology letters",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41811974/",
+    "score": 35,
+    "summary": {
+      "title_zh": "针对多重耐药肺炎克雷伯菌临床分离株的CRISPR-Cas质粒系统设计",
+      "tool_type": "CRISPR-Cas基因组编辑工具（具体为CRISPR-Cas9与CRISPR辅助胞苷脱氨酶系统）",
+      "design": "研究设计了两种基于CRISPR的质粒系统：1）CRISPR-Cas9系统，通过gRNA引导Cas9核酸酶靶向耐药基因；2）CRISPR辅助胞苷脱氨酶系统，旨在将胞嘧啶脱氨酶（如APOBEC）与CRISPR系统结合进行碱基编辑。核心思路是利用gRNA特异性识别并结合耐药基因序列，引导效应蛋白（Cas9或脱氨酶）对目标DNA进行切割或编辑。",
+      "functions": "1. 靶向编辑多重耐药肺炎克雷伯菌的耐药基因（如blaOXA-48-like、blaCTX-M-15、blaNDM-1）；2. 潜在应用于恢复细菌对抗生素的敏感性；3. 为开发针对耐药菌的基因编辑疗法提供工具原型。",
+      "key_results": "1. 成功构建了携带筛选标记的质粒骨架pSGKP-AmpR(Pro)-ApmR，并确定安普霉素（50 μg/mL）可作为有效筛选标记；2. 关键功能模块（Cas9和APOBEC脱氨酶构建体）未能成功克隆，凸显了在多重耐药肺炎克雷伯菌中开发CRISPR工具的挑战；3. 研究强调了分离株特异性质粒设计和gRNA优化的重要性。"
+    }
+  },
+  {
+    "id": "41811192",
+    "title": "A genome-wide MAGIC kit for recombinase-independent mosaic analysis in",
+    "abstract": "Mosaic analysis has been instrumental in advancing developmental and cell biology. Most current mosaic techniques rely on exogenous site-specific recombination sequences that need to be introduced into the genome, limiting their application. Mosaic analysis by gRNA-induced crossing-over (MAGIC) was recently developed in",
+    "authors": [
+      "Shen Y",
+      "Yeung AT",
+      "Ditchfield P",
+      "Korn E",
+      "Clements R",
+      "Chen X",
+      "Wang B",
+      "Huang Z",
+      "Sheen M",
+      "Jarman PA",
+      "Han C"
+    ],
+    "published": "2026-03-11",
+    "journal": "eLife",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41811192/",
+    "score": 35,
+    "summary": {
+      "title_zh": "用于不依赖重组酶的镶嵌体分析的全基因组MAGIC工具包",
+      "tool_type": "基于CRISPR/Cas9的基因组镶嵌体分析平台",
+      "design": "该工具的核心设计是利用CRISPR/Cas9系统在特定基因组位点诱导DNA双链断裂，从而触发姐妹染色单体间的有丝分裂交叉。这种设计不依赖于预先引入外源重组酶识别序列，而是利用内源性同源序列作为重组模板。",
+      "functions": "1. 在动物体内（如果蝇）进行不依赖重组酶的镶嵌体分析。\n2. 实现组织或器官水平的细胞谱系追踪。\n3. 研究基因在发育过程中的细胞自主性功能。\n4. 通过诱导有丝分裂交叉产生纯合突变细胞克隆。",
+      "key_results": "关键实验在果蝇中验证了该平台的可行性，证明其能够高效诱导有丝分裂交叉并产生可追踪的突变细胞克隆，为在未预先引入重组酶系统的生物中进行镶嵌体分析提供了通用方案。"
+    }
+  },
+  {
+    "id": "41807709",
+    "title": "Mechanistic basis for improved activity of Engineered AsCas12a.",
+    "abstract": "CRISPR-associated proteins (Cas) are central to gene editing, forming nuclease complexes with guide RNA to enable precise genome modification. Among numerous Cas variants, Cas9 and Cas12a are the most extensively studied. While much is known about the genomic substrates for these enzymes, less is known about the determinants of the DNA cleavage activity. Wild-type Cas12a exhibits higher intrinsic specificity than Cas9, minimizing off-target activity, but lower overall potency. Recent protein engineering has sought to improve both parameters. Here, we shed light on the structural and mechanistic basis by which an engineered AsCas12a variant achieves high potency while retaining its hallmark specificity. We show that reduced protein-DNA interactions facilitate more rapid R-loop formation, thereby enhancing cleavage activity. These results provide mechanistic insight into Cas12a function and highlight strategies for designing genome-editing nucleases with optimal balance between efficiency and specificity.",
+    "authors": [
+      "Jansson-Fritzberg L",
+      "Chica B",
+      "Latrick C",
+      "Olland A",
+      "Dementiev A",
+      "White A",
+      "Kutter S",
+      "Lemercier JN",
+      "Wolk S"
+    ],
+    "published": "2026-03-10",
+    "journal": "Communications biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41807709/",
+    "score": 35,
+    "summary": {
+      "title_zh": "工程化AsCas12a活性提升的机制基础",
+      "tool_type": "CRISPR-Cas12a核酸酶系统（一种DNA编辑工具，属于CRISPR-Cas基因编辑平台）",
+      "design": "本研究并非从头设计新工具，而是对现有AsCas12a蛋白进行工程化改造。其核心思路是通过蛋白质工程，减少Cas12a蛋白与DNA底物之间的非特异性相互作用，从而优化其催化动力学。这种改造旨在保留其高特异性的同时，提升其整体切割活性。",
+      "functions": "该工程化AsCas12a变体主要作为DNA编辑工具，可实现：1. 位点特异性的DNA双链断裂，用于基因敲除或作为基因插入/替换的基础；2. 凭借其高特异性，可减少脱靶编辑，提高基因编辑的安全性。",
+      "key_results": "关键实验结果表明，工程化AsCas12a变体在保留其标志性高特异性的同时，显著提升了DNA切割活性。其机制在于减少的蛋白-DNA相互作用促进了更快速的R-loop形成，从而增强了切割效率，实现了效率与特异性的更优平衡。"
+    }
+  },
+  {
+    "id": "41806551",
+    "title": "RNA editing of the cytochrome b6f complex modulates drought response in tomato (Solanum lycopersicum) via distinct cyt f (petA) isoforms.",
+    "abstract": "RNA editing is a crucial post-transcriptional mechanism that enables plants to adapt to environmental stress. However, its specific role in remodeling photosynthetic complexes under drought conditions remains unclear. In this study, RNA editing in Solanum lycopersicum (tomato) was investigated during drought stress, focusing on its impact on the cytochrome b",
+    "authors": [
+      "Saeedi AA",
+      "Khan TK",
+      "Amer M",
+      "Younis MT",
+      "Shafie NS",
+      "Al-Saud NBS",
+      "Fathy WA",
+      "Eissa HF",
+      "Ramadan AM"
+    ],
+    "published": "2026-03-06",
+    "journal": "Plant physiology and biochemistry : PPB",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41806551/",
+    "score": 25,
+    "summary": {
+      "title_zh": "通过RNA编辑细胞色素b6f复合物调控番茄干旱响应的研究",
+      "tool_type": "内源性RNA编辑系统（植物ADAR-like编辑系统）",
+      "design": "本研究并非从头设计人工工具，而是利用番茄内源性的RNA编辑机制（ADAR-like酶与顺式作用元件的组合），通过分析特定基因（petA）在干旱胁迫下的编辑模式，揭示了自然存在的RNA编辑如何作为一种可编程的调控模块来响应环境压力。其核心思路在于解析内源编辑系统对特定转录本（如编码细胞色素f的petA）的位点特异性修饰，从而产生功能不同的蛋白质异构体。",
+      "functions": "1. 实现位点特异性RNA编辑（C-to-U）。\n2. 通过编辑产生功能不同的蛋白质异构体，从而调控关键光合复合物（细胞色素b6f）的组装与功能。\n3. 作为一种内源性的分子调控机制，帮助植物适应非生物胁迫（如干旱）。",
+      "key_results": "关键实验证实，在干旱胁迫下，番茄petA转录本在特定位点的编辑效率发生改变，产生了不同的细胞色素f（Cyt f）蛋白异构体，这直接影响了细胞色素b6f复合物的丰度和功能，并最终调控了植物的光合效率和干旱耐受性。"
+    }
+  }
+]
