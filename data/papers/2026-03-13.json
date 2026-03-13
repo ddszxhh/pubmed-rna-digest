@@ -1,0 +1,134 @@
+[
+  {
+    "id": "41817895",
+    "title": "MGMT downregulation by CRISPR/Cas13 RNA-guided RNA targeting enhances glioma cell sensitivity to TMZ chemotherapy.",
+    "abstract": "",
+    "authors": [
+      "Prins TJ",
+      "Lai TJ",
+      "Li T",
+      "Fisher A",
+      "Eldred BSC",
+      "Mostafavi R",
+      "Liau LM",
+      "Chong RA",
+      "Nghiemphu PL",
+      "Cloughesy TF",
+      "Nathanson DA",
+      "Lai A"
+    ],
+    "published": "2026-03-12",
+    "journal": "Journal of neuro-oncology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41817895/",
+    "score": 45,
+    "summary": {
+      "title_zh": "利用CRISPR/Cas13 RNA引导的RNA靶向下调MGMT增强胶质瘤细胞对TMZ化疗的敏感性",
+      "tool_type": "Cas13系统（具体为CRISPR/Cas13d RNA靶向系统）",
+      "design": "该工具的核心设计思路是利用CRISPR/Cas13d系统（如CasRx）的RNA引导RNA靶向能力。通过设计靶向MGMT mRNA的特异性向导RNA（gRNA），将Cas13d核糖核蛋白复合物招募至目标mRNA上，利用其RNA酶活性切割并降解MGMT mRNA，从而实现对其蛋白表达的下调。",
+      "functions": "1. RNA水平的基因敲低（Knockdown）：实现对特定mRNA（如MGMT）的靶向降解。\n2. 调控基因表达：通过降低特定蛋白（如DNA修复蛋白MGMT）的表达水平，改变细胞功能。\n3. 增强化疗敏感性：作为研究工具，用于在胶质瘤细胞中下调MGMT，逆转其对化疗药物替莫唑胺（TMZ）的耐药性，为研究联合治疗策略提供平台。",
+      "key_results": "关键实验结果表明，在胶质瘤细胞中，CRISPR/Cas13d系统能有效下调MGMT mRNA和蛋白水平，且该下调作用显著增强了胶质瘤细胞对TMZ的敏感性，表现为细胞活力下降和凋亡增加。研究在体外细胞模型中验证了该工具的功能有效性。"
+    }
+  },
+  {
+    "id": "41815844",
+    "title": "Employing Tribe to Study RNA Interactions of Ataxin-2 in",
+    "abstract": "RNA-binding protein (RBP)-RNA interactions are fundamental for gene regulation and cellular homeostasis. Ataxin-2 is an RBP that has been shown to play an instrumental role in pathophysiological processes by binding to mRNA. Methods such as RNA immunoprecipitation (RIP), cross-linking immunoprecipitation (CLIP), and their variants can be used to study the interactions between Ataxin-2 and its targets, although their high sample requirements and labor-intensive workflows can limit their widespread use. RNA editing-based approaches, such as targets of RBPs identified by editing (TRIBE), provide effective alternatives. TRIBE enables transcriptome-wide identification of RBP targets by inducing site-specific adenosine-to-inosine (A-to-I) editing, which is subsequently detected through high-throughput RNA sequencing in both in vivo and in vitro systems. Compared to in vivo models, cell lines offer a rapid and flexible experimental design.",
+    "authors": [
+      "Kumar S",
+      "Koppaka O",
+      "Agrawal K",
+      "Bakthavachalu B"
+    ],
+    "published": "2026-03-05",
+    "journal": "Bio-protocol",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41815844/",
+    "score": 45,
+    "summary": {
+      "title_zh": "利用TRIBE技术研究Ataxin-2的RNA相互作用",
+      "tool_type": "基于RNA编辑的RBP靶点鉴定平台（TRIBE系统）",
+      "design": "该工具的核心思路是将RNA结合蛋白（RBP）与催化失活的ADAR编辑酶结构域融合。当融合蛋白结合其内源性RNA靶标时，会招募ADAR酶在邻近位点引发特异的腺苷到肌苷（A-to-I）编辑，从而在转录组范围内标记RBP的结合位点。",
+      "functions": "1. 在全转录组范围内鉴定RNA结合蛋白（RBP）的体内RNA靶点。\n2. 适用于体内和体外系统（如细胞系），用于研究RBP-RNA相互作用。\n3. 作为传统方法（如RIP、CLIP）的替代方案，用于研究基因调控和细胞稳态中的RNA-蛋白质相互作用。",
+      "key_results": "论文指出，与体内模型相比，在细胞系中应用TRIBE平台能提供更快速、灵活的实验设计，表明该系统在简化工作流程和降低样本需求方面具有实用价值。"
+    }
+  },
+  {
+    "id": "41813840",
+    "title": "Knockdown of RNA editing proteins reshapes the HepaRG transcriptome and pharmacogene expression.",
+    "abstract": "",
+    "authors": [
+      "Collins JM",
+      "Yu F",
+      "Zhang Y",
+      "Wang D"
+    ],
+    "published": "2026-03-11",
+    "journal": "Scientific reports",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41813840/",
+    "score": 35,
+    "summary": {
+      "title_zh": "敲低RNA编辑蛋白重塑HepaRG细胞转录组及药物基因表达",
+      "tool_type": "ADAR蛋白功能研究工具（基于RNA干扰的基因敲低平台）",
+      "design": "本研究并非构建一个全新的可编程RNA编辑工具，而是将RNA干扰（RNAi）作为一种成熟工具，系统性敲低人肝细胞系（HepaRG）中关键的RNA编辑蛋白（如ADAR1-p110、ADAR1-p150、ADAR2）。通过比较敲低前后全转录组的变化，逆向解析内源性ADAR蛋白在调控细胞转录组和药物代谢相关基因网络中的功能。",
+      "functions": "1. 功能研究：用于研究内源性ADAR蛋白对全局转录组（包括编码和非编码RNA）的调控功能。\n2. 机制解析：揭示ADAR蛋白如何影响药物代谢酶、转运体及相关通路基因的表达，从而潜在影响药物反应。\n3. 基础发现平台：作为一个发现平台，可识别受ADAR蛋白调控的特定转录本和生物学通路。",
+      "key_results": "关键实验结果表明，敲低不同的ADAR亚型（ADAR1-p110, ADAR1-p150, ADAR2）能显著且特异性地重塑HepaRG细胞的转录组图谱，并差异性地影响大量药物代谢相关基因（如CYP450酶、UGT酶、药物转运体）的表达水平，这为理解RNA编辑在药物基因组学和肝脏生物学中的基础作用提供了重要证据。"
+    }
+  },
+  {
+    "id": "41813062",
+    "title": "Editing-independent effects of Drosophila Adar on heterochromatin silencing.",
+    "abstract": "ADAR RNA editing enzymes deaminate selected adenosines to inosines in dsRNA. In Drosophila, inosine in dsRNA inhibits cleavage by Dcr2 and some ADAR proteins contribute an additional, editing-independent inhibition. The Drosophila AdarG isoform, in particular, has been proposed to inhibit HP1-mediated heterochromatin silencing of repetitive sequences initiated by specific dsRNAs. To address the functions of AdarG, we overexpressed it from new UAS-Adar lines, under the control of a temperature-regulated Act5Cts-GAL4 driver. Overexpression of the adult AdarG isoform or catalytically inactive AdarE374A led to larval lethality with some escaper pupae that show an ecdysone-related, head eversion defect. This indicates an editing-independent effect of high Adar expression. Pupae show aberrantly elevated innate immune and early ecdysone gene transcript expression and no flies eclose. RNAi knockdown of Ecdysone Receptor A (EcRA) or increased expression of the histone H3K9me2,3-associated HP1 protein partially rescue AdarG overexpression defects and normalize gene expression in rescued progeny flies. In other reports, Drosophila mutants with reduced HP1, or egg (SetDB1), Su(var)3-9 double mutants with reduced histone H3K9me2,3 also produce larvae with ecdysone-related and innate immune defects. We show that overexpressed AdarG inhibits histone H3K9me-mediated epigenetic silencing through an editing-independent effect, most likely at the dsRNA/Dcr2/Ago2 initiation stage.",
+    "authors": [
+      "Hajji K",
+      "Amoruso D",
+      "Novakova B",
+      "Sambrani N",
+      "Yang D",
+      "Khan A",
+      "Bystry V",
+      "Medaglia-Mata A",
+      "Silvestris DA",
+      "Picardi E",
+      "O'Connell MA",
+      "Keegan LP"
+    ],
+    "published": "2026-03-11",
+    "journal": "RNA (New York, N.Y.)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41813062/",
+    "score": 35,
+    "summary": {
+      "title_zh": "果蝇Adar编辑非依赖性抑制异染色质沉默的效应",
+      "tool_type": "ADAR蛋白功能研究模型/平台",
+      "design": "本研究并非构建一个全新的工程化工具，而是利用果蝇的AdarG亚型及其催化失活突变体（AdarE374A）作为“遗传工具”，通过温度调控的GAL4/UAS系统进行过表达，以解析ADAR蛋白在RNA编辑之外的生物学功能。核心思路是利用野生型和催化失活突变体进行对比，将表型与RNA编辑活性解耦，从而专门研究其编辑非依赖性功能。",
+      "functions": "1. 作为研究ADAR蛋白编辑非依赖性功能的遗传学模型。\n2. 用于揭示ADAR蛋白（特别是AdarG亚型）在调控异染色质沉默通路中的新角色。\n3. 演示了如何通过遗传操作（过表达、RNAi、突变体）来剖析表观遗传沉默通路的调控机制。",
+      "key_results": "1. 过表达AdarG或其催化失活突变体AdarE374A均导致幼虫致死和蛹期头翻转缺陷，证明该表型是编辑非依赖性的。\n2. 过表达的AdarG通过编辑非依赖性方式，抑制了由组蛋白H3K9me介导的表观遗传沉默，其作用点很可能在dsRNA/Dcr2/Ago2通路起始阶段；通过RNAi敲低Ecdysone Receptor A (EcRA)或过表达HP1蛋白可部分挽救AdarG过表达导致的缺陷并恢复正常基因表达。"
+    }
+  },
+  {
+    "id": "41812962",
+    "title": "First report of prime editing in a globally significant non-model organism the fall armyworm, Spodoptera frugiperda (Lepidoptera: Noctuidae).",
+    "abstract": "The power of CRISPR/Cas9 mediated genome editing has been harnessed in different facets of entomological research, particularly useful in developing genetic pest management strategies. The edits thus obtained are robust and results in a loss-of-function of the target gene. Recently the development of newer editing approach called Prime editing is yet another addition in the insect editing tool-box. In this regard, the prime editing offers a transformative approach to precise genome manipulation by enabling targeted insertions, deletions, and nucleotide substitutions without double-strand break or donor template. While its application has been explored in mammalian system and plants, its deployment through the delivery of ribonucleoprotein complex (RNP) has been demonstrated for the first-time in the globally significant pest, Spodoptera frugiperda. Using a Cas9 (H840A)-reverse transcriptase fusion protein (PE2) and a customized prime editing guide RNA (pegRNA), we targeted exon 3 of the Tryptophan 2,3-dioxygenase (SfTO) gene to introduce a premature stop codon. Recombinant PE2 protein was expressed in E. coli, purified, and validated functionally through RT-PCR. The Ribonucleoprotein complex was microinjected into G",
+    "authors": [
+      "Yogi D",
+      "Shashikala T",
+      "Subramanian G",
+      "Kumar A",
+      "Kaninika V",
+      "Manamohan M",
+      "Jithesh MN",
+      "Jha GK",
+      "Asokan R",
+      "Ashok K"
+    ],
+    "published": "2026-03-09",
+    "journal": "Methods (San Diego, Calif.)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41812962/",
+    "score": 35,
+    "summary": {
+      "title_zh": "首次在具有全球重要性的非模式生物草地贪夜蛾中实现先导编辑的报告",
+      "tool_type": "Prime Editor (先导编辑器)，一种基于CRISPR/Cas9的精准基因组编辑工具",
+      "design": "该工具的核心设计是将一个切口酶活性的Cas9 (H840A) 与逆转录酶融合 (PE2蛋白)，并配合一个经过特殊设计的先导编辑向导RNA (pegRNA)。pegRNA不仅引导Cas9到靶位点，其延伸序列还作为逆转录的模板，从而在无需DNA双链断裂和外源供体模板的情况下实现精准编辑。",
+      "functions": "1. 实现精准的基因组编辑，包括靶向的插入、缺失和所有类型的碱基替换。\n2. 在昆虫（特别是草地贪夜蛾）中引入功能丧失性突变（如提前终止密码子），用于基因功能研究和遗传害虫管理策略开发。",
+      "key_results": "关键实验结果表明，通过显微注射核糖核蛋白复合体 (RNP) 的方式，成功在草地贪夜蛾的色氨酸2,3-双加氧酶基因中引入了提前终止密码子，首次在该全球性重大害虫中验证了Prime Editing系统的可行性。"
+    }
+  }
+]
