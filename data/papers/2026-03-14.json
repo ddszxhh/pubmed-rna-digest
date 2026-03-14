@@ -1,0 +1,120 @@
+[
+  {
+    "id": "41819598",
+    "title": "Transcriptome-wide systematic search does not detect A-to-I RNA editing in",
+    "abstract": "A-to-I RNA editing, catalyzed by the adenosine deaminase acting on RNA (ADAR) enzymes, is a posttranscriptional process that modifies RNA sequences and diversifies the transcriptome. ADARs bind to double-stranded RNA (dsRNA) and their specificity and efficiency are affected by the structural properties of these substructures. In most cases, the dsRNA structure arises from homology between two segments of the same RNA molecule that fold into RNA stem structures. Another possible source of dsRNA is cotranscription of sense and antisense strands of the same genomic region. Binding of these complementary, naturally occurring, antisense transcripts (NATs) results in a perfect RNA duplex, which may be targeted by ADARs. To explore the scope of ADAR editing of NAT-derived dsRNA, we examined editing levels at genome locations where both strands are transcribed. Our findings indicate that editing is rare in regions for which both strands cotranscribe. Moreover, even when RNA editing does occur in NAT regions, it is typically associated with secondary structures on a single strand, suggesting that editing depends on intramolecular structures rather than binding of NATs.",
+    "authors": [
+      "Rosenwasser Z",
+      "Cohen-Fultheim R",
+      "Shliefer O",
+      "Levanon EY",
+      "Eisenberg E"
+    ],
+    "published": "2026-03-12",
+    "journal": "Genome research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41819598/",
+    "score": 35,
+    "summary": {
+      "title_zh": "全转录组系统搜索未检测到天然反义转录本介导的A-to-I RNA编辑",
+      "tool_type": "研究论文/分析平台（非实验性工具，属于系统性分析方法）",
+      "design": "本研究未设计新的工程工具，而是采用了一种系统性分析策略。其核心思路是：基于基因组中正义链与反义链共转录的区域（天然反义转录本，NATs）会形成完美RNA双链的理论前提，系统性地在全转录组范围内搜索ADAR酶可能依赖这种双链结构进行A-to-I编辑的位点。",
+      "functions": "1. 提供了一种系统性评估ADAR编辑与天然反义转录本（NATs）关联性的分析框架。\n2. 可用于区分和验证ADAR编辑事件是依赖于分子内二级结构还是分子间（反义链）双链结构。\n3. 作为研究平台，其结论有助于指导未来设计基于ADAR的RNA编辑工具时，更精准地预测和利用其底物（倾向于分子内dsRNA结构，而非完美的反义双链）。",
+      "key_results": "关键实验结果表明：在正义与反义链共转录的基因组区域，ADAR介导的A-to-I编辑事件非常罕见；即使在这些区域发生编辑，也通常与单链RNA自身形成的二级结构相关，而非依赖于与反义链形成的完美双链，从而证明ADAR编辑主要依赖于分子内RNA结构。"
+    }
+  },
+  {
+    "id": "41819070",
+    "title": "Repurposing Cas13's collateral cleavage activity to mitigate host cell dominance in interspecies chimera formation.",
+    "abstract": "The insufficient contribution of human cells is a key obstacle to interspecies chimera. In this issue of Developmental Cell, He et al. harnessed the RNA collateral cleavage activity of Cas13 to diminish the competitive advantage of host cells, increasing integration ratio of human cells to 1% in host mice.",
+    "authors": [
+      "Wang J",
+      "Lai L"
+    ],
+    "published": "2026-03-11",
+    "journal": "Developmental cell",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41819070/",
+    "score": 35,
+    "summary": {
+      "title_zh": "重新利用Cas13的旁切活性以减轻宿主细胞优势并促进跨物种嵌合体形成",
+      "tool_type": "基于Cas13的RNA调控/细胞竞争调控平台",
+      "design": "该工具的核心设计思路是重新利用Cas13d的RNA引导、非特异性旁切（collateral cleavage）活性，而非其靶向切割功能。通过设计靶向宿主细胞（小鼠）关键生存基因mRNA的向导RNA（crRNA），当Cas13d-crRNA复合物识别并切割靶标mRNA时，会同时非特异性地降解细胞内的其他RNA，从而系统性削弱宿主细胞的活力与竞争优势。",
+      "functions": "1. 细胞活力与竞争优势调控：通过诱导广泛的RNA降解，特异性降低特定类型细胞（此处为宿主小鼠细胞）的适应度。\n2. 促进跨物种嵌合：作为一种调控细胞竞争平衡的工具，用于克服在构建跨物种嵌合体（如人-动物嵌合体）时，宿主细胞过度主导而供体细胞（如人细胞）贡献不足的障碍。\n3. 潜在的通用型细胞功能抑制平台：该原理可拓展用于在其他需要选择性抑制特定细胞群体生长的场景中。",
+      "key_results": "最关键的性能指标是，在宿主小鼠胚胎中应用该系统后，成功将人源细胞的嵌合贡献比例从极低水平提升至约1%，显著缓解了宿主细胞的竞争优势，证明了该策略在活体胚胎环境中调控细胞竞争的有效性。"
+    }
+  },
+  {
+    "id": "41816914",
+    "title": "Associate toxin-antitoxin with CRISPR-Cas to harness (ATTACH) engineered microbes.",
+    "abstract": "Robust biocontainment is essential for the safe use of engineered microbes, but existing strategies suffer from genetic instability and/or laborious construction. Here, we present ATTACH, a kill switch that associates toxin-antitoxin with CRISPR-Cas to harness engineered microbes. Our approach employs a CRISPR-repressed toxin-antitoxin (CreTA) module to make microbes addicted to the type I-F Cas effector proteins, and places both the Cas3 nuclease and the chromosome-targeting guide RNA under inducible promoters, thereby improving the genetic stability and stringency of the CRISPR-based suicidal program. Additionally, we have developed a single-plasmid, antibiotic-independent ATTACH device, which shows robust, stringent containment of a microbial chassis in murine gut, and negligible impacts on culture growth or lycopene production during batch fermentation. Our data highlight the potential of CreTA to stabilize CRISPR-based kill switches, advancing their development into more portable and reliable biocontainment tools for engineered microbes.",
+    "authors": [
+      "Zhao H",
+      "Zhou T",
+      "Zhang M",
+      "Wang C",
+      "Wang R",
+      "Shu X",
+      "Cheng F",
+      "Xue Q",
+      "Liu C",
+      "Xu J",
+      "Cao X",
+      "Du J",
+      "Wang L",
+      "Liu H",
+      "Li M"
+    ],
+    "published": "2026-02-24",
+    "journal": "Nucleic acids research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41816914/",
+    "score": 35,
+    "summary": {
+      "title_zh": "关联毒素-抗毒素与CRISPR-Cas以控制工程微生物（ATTACH）",
+      "tool_type": "微生物生物安全（Biocontainment）工具/CRISPR-Cas增强型自杀开关（kill switch）平台",
+      "design": "1. 核心思路是将CRISPR-Cas系统与毒素-抗毒素（TA）系统耦合，构建一个稳定且严格的自杀开关。\n2. 具体采用CRISPR抑制的毒素-抗毒素（CreTA）模块，使微生物的存活依赖于I-F型Cas效应蛋白的存在，从而“上瘾”。\n3. 将Cas3核酸酶和靶向染色体的向导RNA置于可诱导启动子控制下，以此增强遗传稳定性和自杀程序的严格性。",
+      "functions": "1. 实现工程微生物的稳健生物安全控制（biocontainment）。\n2. 作为自杀开关（kill switch），在特定条件下（如诱导或Cas系统缺失时）触发微生物死亡。\n3. 用于稳定和便携地控制工程微生物在开放环境（如肠道）中的应用安全性。",
+      "key_results": "1. 开发了单质粒、不依赖抗生素的ATTACH装置，在小鼠肠道中对微生物底盘实现了稳健且严格的控制。\n2. 在分批发酵过程中，对微生物的生长或目标产物（如番茄红素）的生产影响可忽略不计，证明了其应用可行性。"
+    }
+  },
+  {
+    "id": "41821112",
+    "title": "Mendelian randomization reveals DNA methylation-related pyroptosis genes associated with psoriasis risk.",
+    "abstract": "Research has indicated a connection between pyroptosis and psoriasis, yet the specific genes involved remain largely unidentified. This study employed Mendelian randomization (MR) to evaluate the potential causal impact of both pyroptosis-related genes and DNA methylation signatures on psoriasis risk. Pyroptosis-related genes were sourced from the GeneCards database. We integrated quantitative trait locus (QTL) data, including expression (eQTLs), DNA methylation (mQTLs), and protein expression (pQTLs). The GCST90014456 database provided genome-wide association study (GWAS) data for psoriasis, using the FinnGen and UKB cohorts for validation. Summary data-based Mendelian randomization (SMR) analysis assessed interactions between these genes and psoriasis, while colocalization analysis identified shared causal genetic variants. SMR analysis identified 82 methylation sites, 18 gene, and 2 protein were associated with psoriasis risk. Multi-omics integration highlighted ADAR, which increased methylation at cg27530370 was associated with decreased ADAR expression (OR = 0.505, 95% CI [0.421-0.607]). Additionally, DNMT3B, PROM2, and KIF11 were the intersection genes of mQTL and eQTL analysis, and were validated by the UKB cohort in eQTL analysis, and NFKB1 was validated by the UKB cohort in pQTL analysis. This multi-omics analysis reveals that pyroptosis-related genes, particularly ADAR, DNMT3B, PROM2, KIF11, and NFKB1, may be involved in psoriasis development, providing important insights into its molecular mechanisms and potential therapeutic targets.",
+    "authors": [
+      "Dong W",
+      "Shi C"
+    ],
+    "published": "2026-03-12",
+    "journal": "Clinical epigenetics",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41821112/",
+    "score": 15,
+    "summary": {
+      "title_zh": "孟德尔随机化揭示与银屑病风险相关的DNA甲基化相关焦亡基因",
+      "tool_type": "生物信息学分析平台/多组学整合分析框架",
+      "design": "本研究并非开发一种新的可编程RNA调控工具，而是构建了一个基于孟德尔随机化（MR）的多组学整合分析框架。其核心思路是：1）整合焦亡相关基因、表达数量性状位点（eQTL）、DNA甲基化数量性状位点（mQTL）和蛋白质数量性状位点（pQTL）数据；2）利用基于汇总数据的孟德尔随机化（SMR）和共定位分析，推断这些分子特征与疾病（银屑病）风险之间的潜在因果关系。",
+      "functions": "该分析框架的功能包括：1）**识别疾病风险基因**：从海量基因组、表观基因组和蛋白质组数据中，系统筛选与特定疾病（如银屑病）存在潜在因果关联的基因。2）**阐明分子机制**：揭示基因表达、DNA甲基化等分子层面变化如何影响疾病风险，例如发现ADAR基因的特定甲基化位点可能通过降低其表达来影响银屑病风险。3）**发现治疗靶点**：为后续的药物开发或基因治疗提供潜在的干预靶点（如ADAR, DNMT3B等）。",
+      "key_results": "关键分析结果显示：SMR分析鉴定出82个甲基化位点、18个基因和2个蛋白与银屑病风险相关。其中，ADAR基因的cg27530370位点甲基化水平升高与其表达降低显著相关，并降低银屑病风险（OR=0.505）。DNMT3B、PROM2、KIF11和NFKB1等焦亡相关基因被确定为多组学交叉验证的关键基因，并在UKB队列中得到验证。"
+    }
+  },
+  {
+    "id": "41808028",
+    "title": "Influence of gRNA efficiency and inversion size on the frequency of CRISPR/Cas9-induced chromosomal inversions in tomato protoplasts.",
+    "abstract": "",
+    "authors": [
+      "Grubben J",
+      "Bijsterbosch G",
+      "Visser RGF",
+      "Schouten HJ"
+    ],
+    "published": "2026-03-10",
+    "journal": "BMC plant biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41808028/",
+    "score": 15,
+    "summary": {
+      "title_zh": "gRNA效率与倒位片段大小对番茄原生质体中CRISPR/Cas9诱导染色体倒位频率的影响",
+      "tool_type": "基于CRISPR/Cas9的染色体工程工具/平台",
+      "design": "该研究利用CRISPR/Cas9系统，通过设计一对靶向染色体上两个不同位点的单向导RNA（gRNA），诱导DNA双链断裂并发生错误修复，从而实现特定染色体片段的倒位。其核心思路是系统性地测试gRNA的切割效率（通过瞬时表达系统评估）和待倒位片段的大小这两个关键工程参数，以优化染色体结构重排的构建策略。",
+      "functions": "1. 实现位点特异性的染色体倒位（一种染色体结构变异）。\n2. 作为研究染色体结构变异（如倒位）对基因表达、表型影响的工具。\n3. 为植物育种中创建或模拟特定染色体变异（如倒位多态性）提供技术平台。",
+      "key_results": "关键实验结果表明，在番茄原生质体中，染色体倒位的诱导频率与gRNA对的切割效率呈正相关，而与倒位片段的大小呈负相关（即片段越小，倒位频率越高）。这为高效、可预测地利用CRISPR/Cas9进行染色体工程操作提供了重要的参数指导。"
+    }
+  }
+]
