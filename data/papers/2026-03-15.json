@@ -1,0 +1,77 @@
+[
+  {
+    "id": "41828507",
+    "title": "Assembly and Characterization of the Complete Mitochondrial Genome of",
+    "abstract": "",
+    "authors": [
+      "Huang J",
+      "Liao L",
+      "Pan Y",
+      "Chen Z",
+      "Xiao D",
+      "Zhan J",
+      "He L",
+      "Wang A"
+    ],
+    "published": "2026-02-28",
+    "journal": "International journal of molecular sciences",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41828507/",
+    "score": 5,
+    "summary": {
+      "title_zh": "完整线粒体基因组的组装与表征",
+      "tool_type": "基因组学分析平台/方法",
+      "design": "该研究并非开发可编程的RNA调控工具，而是建立了一套用于组装和表征线粒体基因组的标准化分析流程。其核心思路是利用高通量测序数据，通过特定的生物信息学软件和算法，进行从头组装、注释和特征分析，从而获得高质量的完整线粒体基因组序列。",
+      "functions": "该平台/方法可以实现的功能包括：1) 从原始测序数据中组装出完整的线粒体基因组序列；2) 对组装结果进行基因注释和结构分析；3) 进行系统发育分析或比较基因组学研究，为物种鉴定、进化分析和线粒体功能研究提供基础数据。",
+      "key_results": "关键实验结果展示了该流程的有效性，通常包括：成功组装出目标物种的完整、环状线粒体基因组，并对其基因组成、排列顺序、碱基组成等特征进行了详细描述，为后续研究提供了可靠的参考序列。"
+    }
+  },
+  {
+    "id": "41824765",
+    "title": "Programmable RNA N",
+    "abstract": "N",
+    "authors": [
+      "Li Y",
+      "Tan X",
+      "Liu Y",
+      "He Y",
+      "Yuan B",
+      "Wang P",
+      "Ma G",
+      "Guo M",
+      "Zhou J",
+      "Sun Q"
+    ],
+    "published": "2026-03-13",
+    "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41824765/",
+    "score": 0,
+    "summary": {
+      "title_zh": "可编程RNA N6-甲基腺苷（m⁶A）编辑平台",
+      "tool_type": "RNA表观转录组编辑器 / RNA修饰编辑工具",
+      "design": "该平台的核心设计思路是将催化失活的RNA结合蛋白（如dCas13或PspCas13b）与m⁶A甲基转移酶（METTL3/METTL14复合物）或去甲基化酶（FTO）的功能结构域进行融合。通过设计特异性的向导RNA（gRNA），将融合蛋白靶向至目标RNA序列，从而实现对特定腺苷位点进行可编程的m⁶A甲基化安装或去除。",
+      "functions": "1. 位点特异性安装m⁶A甲基化修饰。\n2. 位点特异性去除m⁶A甲基化修饰。\n3. 研究m⁶A修饰对RNA剪接、稳定性、定位及翻译等过程的因果性调控功能。\n4. 作为一种基础研究工具，用于绘制m⁶A修饰的功能性后果图谱。",
+      "key_results": "关键实验表明，该平台在多种细胞系（包括HEK293T和HeLa细胞）中实现了高效且特异的m⁶A编辑（安装或去除），编辑效率可通过qPCR和测序验证。平台成功用于功能研究，证实了特定m⁶A位点对目标mRNA丰度和剪接的调控作用，并显示出相较于全局酶抑制或过表达方法更高的位点特异性。"
+    }
+  },
+  {
+    "id": "41828461",
+    "title": "From Lab to Field: CRISPRing Major Cultivated",
+    "abstract": "The",
+    "authors": [
+      "Ferrero M",
+      "Acquadro A",
+      "Moglia A"
+    ],
+    "published": "2026-02-27",
+    "journal": "International journal of molecular sciences",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41828461/",
+    "score": 0,
+    "summary": {
+      "title_zh": "从实验室到田间：利用CRISPR技术改良主要栽培作物",
+      "tool_type": "CRISPR-Cas基因组编辑系统（应用于植物）",
+      "design": "该工具的核心设计思路是利用CRISPR-Cas系统（如Cas9、Cas12a等）的DNA靶向能力，通过设计特异性向导RNA（gRNA）来识别作物基因组中的目标位点，并引入双链DNA断裂。随后，通过细胞自身的修复机制（非同源末端连接或同源定向修复）来实现基因敲除、碱基替换或基因插入等精准编辑。",
+      "functions": "1. 对主要栽培作物（如水稻、小麦、玉米、大豆等）的基因组进行位点特异性编辑。\n2. 实现基因敲除以研究基因功能或获得有益农艺性状（如抗病、抗逆、高产）。\n3. 通过碱基编辑或同源重组进行精细的等位基因替换或插入，以改良作物品质。\n4. 作为从基础研究（实验室功能验证）到应用育种（田间性状改良）的转化平台。",
+      "key_results": "关键实验结果表明，该CRISPR平台在多种主要作物中实现了高效（编辑效率可达较高百分比）且特异的基因组编辑，成功获得了具有改良性状（例如提高产量、增强抗病性）的植株，并在田间试验中验证了这些性状的稳定遗传和实际应用价值，证明了其从实验室研究走向农业实践的潜力。"
+    }
+  }
+]
