@@ -1,0 +1,71 @@
+[
+  {
+    "id": "41831437",
+    "title": "Molecular basis for dual-spacer-guided target cleavage by the TIGR-TasH system.",
+    "abstract": "The RNA-directed programmable nuclease systems, exemplified by the CRISPR-Cas system, have been widely used in genome editing. In contrast to the single-spacer configuration of CRISPR RNA (crRNA), the guide RNA (tigRNA) of the tandem interspaced guide RNA (TIGR) system features a dual-spacer arrangement, thereby directing the TIGR-associated (Tas) protein to engage both strands of the target double-stranded DNA (dsDNA). Here, we determine six cryo-electron microscopy structures of the Salicola phage TIGR-TasH complex. The central coiled-coil region of TasH mediates dimerization, while the C-terminal nucleolar protein (Nop) domain is able to autonomously process precursor tigRNA. Upon target binding, the dynamic N-terminal HNH nuclease domain is recruited for cleavage through a β-hairpin, which also determines the target preference. More interestingly, the conserved box C motif of tigRNA stabilizes this β-hairpin in an adenine-specific manner, enabling us to rationally design a guide RNA-defined nickase, distinct from conventional protein-based nickase strategies used in genome editing.",
+    "authors": [
+      "Yang J",
+      "Wang T",
+      "Liu Z",
+      "Wu W",
+      "Sun Y",
+      "Zhan Y",
+      "Zhang S",
+      "Chen H",
+      "Liu B",
+      "Yue C",
+      "Yin Z",
+      "Shan Z",
+      "Li X",
+      "Li Z",
+      "Yuan Z",
+      "Yin H",
+      "Zhang H"
+    ],
+    "published": "2026-03-13",
+    "journal": "Molecular cell",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41831437/",
+    "score": 65,
+    "summary": {
+      "title_zh": "TIGR-TasH系统通过双间隔序列引导靶标切割的分子基础",
+      "tool_type": "RNA引导的可编程核酸酶系统（一种新型的、具有双间隔序列引导的DNA切割系统）",
+      "design": "该系统核心工程设计基于TasH蛋白二聚体与具有独特双间隔序列（dual-spacer）的向导RNA（tigRNA）形成的复合物。其关键思路在于：1）tigRNA的双间隔序列能引导TasH同时结合靶标双链DNA的两条链；2）靶标结合后，通过一个β-发夹结构招募并激活N端的HNH核酸酶结构域进行切割；3）tigRNA上保守的box C基序能以腺嘌呤特异性的方式稳定该β-发夹，从而实现对切割活性的理性调控。",
+      "functions": "1. 位点特异性双链DNA切割。\n2. 通过理性设计向导RNA（tigRNA），可将系统改造为向导RNA定义的切口酶（nickase），用于更精确的基因组编辑。",
+      "key_results": "关键实验通过解析6个冷冻电镜结构，阐明了TIGR-TasH系统的组装、靶标识别与切割机制；并基于对box C基序作用机制的理解，成功实现了通过设计tigRNA（而非改造蛋白）将系统转化为特异性切口酶，这不同于传统的基于蛋白质改造的切口酶策略。"
+    }
+  },
+  {
+    "id": "41830765",
+    "title": "Extracellular vesicles-mediated delivery of SpCas9 RNPs for therapeutic gene editing in Spinocerebellar Ataxia Type 3.",
+    "abstract": "Spinocerebellar Ataxia Type 3 (SCA3) is a neurodegenerative dominantly-inherited disorder caused by an overexpansion of a CAG tract within the ATXN3 gene, conferring toxic properties to the ataxin-3 protein. Genome editing with CRISPR-Cas9 enzymes is a promising strategy to inactivate mutant ATXN3 alleles, however, in vivo delivery remains challenging. Extracellular vesicles (EVs) are promising delivery vehicles for Cas9 and single guide RNA (sgRNA) ribonucleoproteins that minimize genomic exposure to highly active endonucleases. In this study, we designed SpCas9 with a palmitoylation motif that enables SpCas9 and sgRNA enrichment into EVs. Introduction of a photocleavable linker - PhoCl - allowed the photo-inducible release of SpCas9 from the palmitoylation motif in EVs, increasing target engagement to ATXN3 in vitro. EVs loaded with SpCas9 ribonucleoproteins resulted in ATXN3 knockout in SCA3 patient-derived iPSCs and two SCA3 animal models. These findings highlight an innovative route for transient delivery of gene editing tools. This approach provides a promising therapeutic platform for the treatment of genetic diseases, including SCA3.",
+    "authors": [
+      "Leandro K",
+      "Rufino-Ramos D",
+      "Lopes SM",
+      "Silva FS",
+      "Rodrigues-Santos P",
+      "Silva AC",
+      "Fernandes AR",
+      "Henriques C",
+      "Pereira D",
+      "Lobo D",
+      "Gabriel GL",
+      "Faro R",
+      "Nobre RJ",
+      "Perdigão PRL",
+      "Kleinstiver BP",
+      "de Almeida LP"
+    ],
+    "published": "2026-03-09",
+    "journal": "Biomaterials",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41830765/",
+    "score": 45,
+    "summary": {
+      "title_zh": "利用细胞外囊泡递送SpCas9核糖核蛋白用于治疗脊髓小脑性共济失调3型的基因编辑",
+      "tool_type": "基于CRISPR-Cas9的基因编辑治疗递送平台",
+      "design": "1. 通过在SpCas9上添加棕榈酰化基序，使其与细胞外囊泡膜结合，从而将Cas9/sgRNA核糖核蛋白高效装载入囊泡。\n2. 引入光裂解连接子，实现光控释放Cas9，增强其在靶点的结合与编辑活性。",
+      "functions": "1. 实现体内、体外高效的基因敲除治疗。\n2. 提供一种瞬时、可控的基因编辑工具递送策略。\n3. 为遗传性疾病（如SCA3）提供潜在的治疗平台。",
+      "key_results": "1. 该递送系统在SCA3患者来源的iPSCs和两种SCA3动物模型中成功实现了ATXN3基因敲除。\n2. 光控释放设计在体外有效增强了Cas9与ATXN3靶点的结合。"
+    }
+  }
+]
