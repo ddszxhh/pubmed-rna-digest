@@ -1,0 +1,68 @@
+[
+  {
+    "id": "41839281",
+    "title": "A reversible small-molecule-switchable self-amplifying RNA expression platform.",
+    "abstract": "RNA-based therapeutics offer versatile strategies for disease prevention and treatment, yet precise control over gene expression remains a major challenge. Self-amplifying RNA (saRNA), derived from the alphavirus genome, could be engineered to contain multiple subgenomic promoters, providing a unique RNA-only architecture for modular and independent regulation of downstream genes. However, the potential of saRNA as a programmable gene circuit enabling small-molecule-controlled on/off regulation of gene expression has remained largely unexplored. In this study, we engineered a series of saRNA constructs incorporating multiple regulatory modules, including a destabilizing domain (DD), the RNA-binding protein L7Ae, a tetracycline-responsive repressor (TetR), and kink-turn (k-turn) RNA motifs. This design allows individual downstream genes driven by distinct subgenomic promoters to be independently and reversibly regulated by the FDA-approved small-molecule ligands trimethoprim (TMP) or doxycycline (Dox). The engineered saRNAs were encapsulated into lipid nanoparticles, and saRNA-mediated expression of luciferase or fluorescent reporter proteins was systematically evaluated both in vitro and in vivo. Our results demonstrate that TMP and Dox function as effective molecular switches to autonomously turn on or off specific gene expression programs encoded within a single saRNA molecule. Collectively, this work establishes saRNA as a programmable RNA gene circuit platform with ligand-responsive, multi-gene regulatory capability, providing a versatile foundation for the development of controllable RNA therapeutics and synthetic biology applications.",
+    "authors": [
+      "Lin G",
+      "Chen R",
+      "Fu Z",
+      "Zhang Y"
+    ],
+    "published": "2026-03-14",
+    "journal": "International journal of biological macromolecules",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41839281/",
+    "score": 65,
+    "summary": {
+      "title_zh": "一种可逆小分子开关控制的自扩增RNA表达平台",
+      "tool_type": "可编程RNA基因回路平台 / 小分子响应型自扩增RNA表达系统",
+      "design": "该平台的核心设计思路是：以自扩增RNA（saRNA）为骨架，在其多个亚基因组启动子下游分别插入由不同小分子控制的调控模块。具体通过整合去稳定化结构域（DD）、RNA结合蛋白L7Ae、四环素响应阻遏蛋白（TetR）和k-turn RNA基序等元件，实现了单个saRNA分子上不同下游基因的独立、可逆调控。",
+      "functions": "1. 小分子（TMP或Dox）可逆开关控制基因表达；\n2. 单个RNA分子上实现多基因的独立、模块化调控；\n3. 可作为可控RNA疗法和合成生物学应用的基础平台。",
+      "key_results": "关键实验结果表明：在体外和体内（通过脂质纳米颗粒递送）实验中，FDA批准的小分子TMP和多西环素（Dox）能有效作为分子开关，自主开启或关闭单个saRNA分子内编码的特定基因表达程序，证明了平台的可逆调控能力。"
+    }
+  },
+  {
+    "id": "41839235",
+    "title": "An efficient C-to-U RNA recorder as a tool for profiling targets of RNA-binding proteins.",
+    "abstract": "STAMP (Surveying Targets by APOBEC-Mediated Profiling) employed the fusion protein between an RBP and the C-to-U editing enzyme APOBEC1 to mark and determine RBP's target transcripts. It exhibited wonderful performance in mammals, however, it was confirmed not working in flies and unclear its generality. In this study, APOBEC1 in STAMP was replaced with an APOBEC1-H122L/D124N mutant (APO1m), so that the method HyperSTAMP was established here in flies. HyperSTAMP method effectively and semi-quantitatively uncovered the targets of both Hrp48 (Heterogeneous nuclear ribonucleoprotein 48) and Thor in S2 cells with good signal to noise ratio, reproducibility, and consistency with other methods. It also captured RBP-binding positions on mRNAs through editing clusters on target RNAs. This study filled in the gap of lacking C-to-U editing enzyme in insects and provided a good tool for the experiments of double labeling RNA when exploring multiple RBPs concurrently.",
+    "authors": [
+      "Li C",
+      "Jia Y",
+      "Ye T",
+      "Zheng L",
+      "Song W",
+      "Piao W",
+      "Qi C",
+      "Jin H"
+    ],
+    "published": "2026-03-14",
+    "journal": "New biotechnology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41839235/",
+    "score": 65,
+    "summary": {
+      "title_zh": "一种高效的C-to-U RNA记录工具，用于分析RNA结合蛋白的靶标",
+      "tool_type": "RNA结合蛋白靶标分析平台（基于C-to-U RNA编辑的记录系统）",
+      "design": "该工具的核心设计是将RNA结合蛋白（RBP）与经过突变改造的C-to-U RNA编辑酶APOBEC1-H122L/D124N（APO1m）融合。通过RBP的靶向结合能力，将编辑酶募集到特定的RNA位点，从而在RBP的结合位点附近产生特异的C-to-U编辑标记。",
+      "functions": "1. 鉴定RNA结合蛋白（RBP）在细胞内的靶标转录本。\n2. 半定量分析RBP与靶标RNA的结合水平。\n3. 通过分析RNA上的编辑簇，定位RBP在mRNA上的精确结合位置。\n4. 为同时研究多个RBP提供双标记RNA实验的工具支持。",
+      "key_results": "在果蝇S2细胞中，HyperSTAMP成功、高效地揭示了Hrp48和Thor蛋白的RNA靶标，表现出高信噪比、良好的可重复性，并与其他方法的结果一致，填补了昆虫系统中缺乏高效C-to-U编辑工具的空白。"
+    }
+  },
+  {
+    "id": "41437492",
+    "title": "The Landscape and Regulatory Determinants of A-to-I RNA Editing in Escherichia coli and Pseudomonas aeruginosa Isolated From Patients With Urinary Tract and Ear Infections.",
+    "abstract": "Adenosine-to-inosine (A-to-I) mRNA editing can alter protein sequence and function, enabling bacteria to express two RNA and protein versions encoded by the same gene. However, its prevalence and significance in clinical bacterial settings remain unclear. We collected ten Escherichia coli and seven Pseudomonas aeruginosa isolates from hospitalized patients with urinary tract infections (UTI) or ear infections. Whole-genome and transcriptome sequencing were performed for each isolate, followed by Sanger sequencing for selected sites. We present the first comprehensive analysis of A-to-I RNA editing in pathogenic bacteria isolated from hospitalized patients. We identified dozens of A-to-I RNA editing sites, including novel sites not previously reported in nonpathogenic E. coli and P. aeruginosa strains. We found that E. coli exhibits higher editing levels and a greater number of editing sites than P. aeruginosa. Most editing sites are embedded within a conserved 7-base motif and are frequently located in predicted stem-loop RNA secondary structures, highlighting the importance of both sequence and structure for editing site recognition in both the examined species. Most editing events occur in mRNA and often result in nonsynonymous amino acid changes, with a notable prevalence of tyrosine-to-cysteine substitutions. Finally, we observed that editing patterns are similar between antibiotic-resistant and sensitive isolates, suggesting a more general role in the biology of the examined species. Adenosine-to-inosine RNA editing is a feature of pathogenic bacteria isolated from clinical samples. Our findings expand current knowledge of bacterial RNA editing in clinical contexts and provide a framework for future functional investigations.",
+    "authors": [
+      "Elias E",
+      "Keidar-Friedman D",
+      "Sorek N",
+      "Raz O",
+      "Tamir SO",
+      "Aspit L",
+      "Bar Yaacov D"
+    ],
+    "published": "2026-03-17",
+    "journal": "The Journal of infectious diseases",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41437492/",
+    "score": 25
+  }
+]
