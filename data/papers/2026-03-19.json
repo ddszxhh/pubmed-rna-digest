@@ -1,0 +1,122 @@
+[
+  {
+    "id": "41846980",
+    "title": "Reprogramming mRNA localization by targeted RNA-protein interference.",
+    "abstract": "RNA binding proteins (RBPs) associate with RNAs in intricate ribonucleoprotein complexes and regulate various aspects of RNA life cycle and, by extension, cell functions. Despite their significance, elucidating the functional contributions of specific RNA-RBP binding events, particularly in long-term phenotypic assays, remains challenging. Here, we harness the specificity of CRISPR/dCas13 to interfere with specific RNA-RBP interactions. We apply this methodology to GA-rich mRNA localization elements which recruit the RNA-binding protein CNBP and serve as platforms for the assembly of mRNA trafficking complexes. We show that dCas13/gRNA binds to target transcripts in a highly specific manner and sterically interferes with CNBP recruitment leading to altered target mRNA localization and cell motility, consistent with the function of the targeted mRNAs. The effectiveness of dCas13/gRNA as a functional interference tool is curtailed by the strength of target mRNA binding as well as by the amount of cytoplasmic gRNA. We describe optimizations and considerations for the stable implementation of this system, to allow the investigation of long-term functional consequences of altered mRNA distributions.",
+    "authors": [
+      "Mason DE",
+      "Bandyopadhyay D",
+      "Jiwnani N",
+      "Meyer B",
+      "Mili S"
+    ],
+    "published": "2026-03-02",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41846980/",
+    "score": 85,
+    "summary": {
+      "title_zh": "通过靶向RNA-蛋白质干扰重编程mRNA定位",
+      "tool_type": "基于CRISPR/dCas13的RNA-蛋白质相互作用干扰工具",
+      "design": "该工具的核心设计是利用无催化活性的dCas13蛋白与向导RNA（gRNA）形成复合物，通过gRNA的序列特异性靶向目标mRNA。dCas13-gRNA复合物结合到目标mRNA上后，通过空间位阻效应，物理性地干扰特定RNA结合蛋白（如CNBP）与目标mRNA上顺式作用元件（如GA富集区）的结合。",
+      "functions": "1. 干扰特定的RNA-蛋白质相互作用。\n2. 研究特定RNA-RBP结合事件的长时期功能后果。\n3. 重编程目标mRNA的亚细胞定位（如改变其运输）。\n4. 通过改变mRNA定位来调控相关的细胞功能（如本研究中展示的细胞运动能力）。",
+      "key_results": "1. dCas13/gRNA能以高度特异性的方式结合目标转录本，并有效干扰CNBP蛋白的招募，导致目标mRNA定位改变和细胞运动能力变化，这与目标mRNA的功能一致。\n2. 该工具的有效性受目标mRNA结合强度和细胞质中gRNA数量的限制，研究对系统的稳定实施进行了优化，以支持长期功能研究。"
+    }
+  },
+  {
+    "id": "40181169",
+    "title": "Improved RNA base editing with guide RNAs mimicking highly edited endogenous ADAR substrates.",
+    "abstract": "Adenosine deaminase acting on RNA (ADAR)-mediated RNA base editing offers a safer alternative to genome editing for specific clinical applications because of nonpermanent editing of targets. Current guide RNA (gRNA) designs feature a fully complementary specificity domain with an A-C mismatch at the targeted adenosine. However, perfectly matched dsRNA is not the most effective ADAR substrate. Here we introduce MIRROR (mimicking inverted repeats to recruit ADARs using engineered oligoribonucleotides), an approach that implements structural motifs derived from highly edited inverted Alu repeats in human tissues to enable rational gRNA design for ADAR recruitment. We demonstrated that MIRROR is applicable to both short chemically synthesized gRNAs with modifications and long biologically generated gRNAs and surpasses current state-of-the-art approaches in both gRNA forms. It enhances editing efficiency by up to 5.7-fold in multiple human cell types and primary hepatocytes from an alpha-1 antitrypsin deficiency mouse model. Our findings improve programmable RNA editing in vitro and in vivo by rational design through the screening of highly edited natural substrate mimics.",
+    "authors": [
+      "Sun Y",
+      "Cao Y",
+      "Song Y",
+      "Li J",
+      "Hou Y",
+      "Huang W",
+      "Xie G",
+      "Yang W",
+      "Zhang R"
+    ],
+    "published": "2026-03-01",
+    "journal": "Nature biotechnology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40181169/",
+    "score": 85,
+    "summary": {
+      "title_zh": "通过模拟高度编辑的内源性ADAR底物设计向导RNA以改进RNA碱基编辑",
+      "tool_type": "ADAR介导的可编程RNA碱基编辑平台（具体为向导RNA设计系统）",
+      "design": "核心思路是摒弃传统完全互补的向导RNA设计，转而从人体组织中高度编辑的反向Alu重复序列中提取结构基序。通过模拟这些天然高效的ADAR底物（即“模拟反向重复序列”），对向导RNA进行理性设计，以更有效地招募内源性ADAR酶进行编辑。",
+      "functions": "1. 实现位点特异性的A-to-I（腺苷到肌苷）RNA碱基编辑。\n2. 适用于治疗性RNA编辑（如在α-1抗胰蛋白酶缺乏症模型中）。\n3. 兼容短链化学合成向导RNA（可修饰）和长链生物生成向导RNA，应用场景灵活。",
+      "key_results": "1. 在多种人类细胞及α-1抗胰蛋白酶缺乏症小鼠的原代肝细胞中，编辑效率最高提升5.7倍，显著优于现有方法。\n2. 该平台（MIRROR）在体外和体内均验证了其高效性，通过理性设计天然底物模拟物实现了可编程RNA编辑的改进。"
+    }
+  },
+  {
+    "id": "41846413",
+    "title": "Automated Assembly of Programmable RNA-Based Sensors.",
+    "abstract": "Engineered programmable RNA sensors have been applied in low-cost diagnostics, endogenous RNA detection, and multi-input genetic circuits. However, designing, producing, and screening high-performance RNA sensors remains time-consuming and labor intensive. Here, we present an automated plasmid assembly pipeline using liquid handling robotics to enable high-throughput construction of plasmids with arbitrary sequences. We compare automated and manual assembly methods using the NGS Hamilton Microlab STAR across two plasmid backbones to evaluate efficiency and reliability. As a proof of concept, we use this modular platform to construct a diverse set of programmable RNA regulators, including toehold switch riboregulators targeting viral RNAs, single-nucleotide-specific programmable riboregulators for discrimination of SARS-CoV-2 spike gene mutations, and metal-responsive riboswitches. In total, we construct 174 plasmids and test the designed methods by comparing both manual and automated assembly. We further demonstrate that the assembled toehold switch plasmids are functional in both bacterial and cell-free expression systems.",
+    "authors": [
+      "Robson JM",
+      "Arevalos NR",
+      "Green AA"
+    ],
+    "published": "2026-03-18",
+    "journal": "ACS synthetic biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41846413/",
+    "score": 75,
+    "summary": {
+      "title_zh": "可编程RNA传感器的自动化组装",
+      "tool_type": "RNA传感器自动化组装平台",
+      "design": "该研究开发了一个模块化、高通量的自动化质粒组装平台。其核心思路是利用液体处理机器人（NGS Hamilton Microlab STAR）构建自动化质粒组装流程，能够高效、可靠地组装任意序列的质粒，从而将RNA传感器的构建从耗时费力的手动操作转变为标准化的自动化流程。",
+      "functions": "1. 高通量构建多种可编程RNA调控元件：包括靶向病毒RNA的toehold开关核糖调节器、用于区分SARS-CoV-2刺突蛋白基因突变的单核苷酸特异性可编程核糖调节器，以及金属响应型核糖开关。\n2. 应用场景：支持低成本诊断、内源性RNA检测以及多输入基因电路等领域的RNA传感器快速开发与筛选。",
+      "key_results": "1. 成功构建并测试了174个质粒，验证了自动化组装与手动组装相比具有相当的效率和可靠性。\n2. 功能验证表明，通过该平台组装的toehold开关质粒在细菌和无细胞表达系统中均具有功能活性，证明了其构建的传感器是有效的。"
+    }
+  },
+  {
+    "id": "41846987",
+    "title": "Structure basis for single-strand nucleic acid targeting by IscB and variants.",
+    "abstract": "Transposon-encoded IscB has been established as the evolutionary ancestor of CRISPR-Cas9. This compact RNA-guided endonuclease has since been engineered for genome editing applications. We previously repurposed IscB and Cas9 as efficient RNA editors by removing their double-stranded DNA recognition module, the TAM/PAM-interacting domain. Here, we report four cryo-EM structures of IscB in complex with single-stranded nucleic acid (ssNA) targets to illuminate its mechanistic underpinnings. Structural analysis reveals that IscB initially facilitates formation of a 10-nt seed duplex with ssNA; however, further base-pairing is blocked by an alternatively positioned HNH nuclease that acts as a conformational roadblock. In this intermediate state, neither HNH nor RuvC is competent for target cleavage: the HNH domain is occluded by the roadblock configuration, while the RuvC active site is obstructed by the guide RNA. Only upon full duplex formation do additional base pairs between the guide RNA and ssNA dislodge the HNH roadblock, simultaneously exposing the RuvC nuclease active site. We propose that an analogous conformational checkpoint governs IscB activity during dsDNA target interrogation. Guided by these structural insights, we introduced mutations to either enhance ssNA binding or relieve the conformational checkpoint, both of which significantly improved RNA-targeting efficiency of IscB.",
+    "authors": [
+      "Xu C",
+      "Yang Q",
+      "Niu X",
+      "Ke A"
+    ],
+    "published": "2026-03-04",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41846987/",
+    "score": 75,
+    "summary": {
+      "title_zh": "IscB及其变体靶向单链核酸的结构基础",
+      "tool_type": "RNA引导的核酸内切酶（IscB）及其工程化变体，属于可编程RNA靶向/编辑工具平台",
+      "design": "1. 基于IscB（Cas9的进化祖先）的紧凑型RNA引导核酸内切酶结构，通过移除其双链DNA识别模块（TAM/PAM相互作用域），使其重编程为靶向单链核酸（ssNA）的工具。\n2. 利用结构生物学揭示的机制，通过引入突变来增强单链核酸结合或解除构象检查点，从而优化其RNA靶向效率。",
+      "functions": "1. 可编程的RNA靶向与切割：通过设计向导RNA（gRNA）实现位点特异性的单链RNA（或单链DNA）识别与切割。\n2. 潜在的RNA编辑平台基础：作为紧凑型RNA引导酶，可进一步工程化用于位点特异性RNA编辑（如与脱氨酶融合）或RNA调控（如剪接调控、翻译抑制）。",
+      "key_results": "1. 关键结构机制发现：通过冷冻电镜结构解析，揭示了IscB靶向单链核酸时存在一个由HNH核酸酶结构域构成的构象检查点，该检查点调控着从“种子区结合”到“完全双链形成”的激活过程。\n2. 工程化提升性能：基于结构指导引入的突变（增强ssNA结合或解除检查点），显著提高了IscB变体的RNA靶向效率。"
+    }
+  },
+  {
+    "id": "41849610",
+    "title": "Self-inactivating AAV-CRISPR at different ages enables sustained amelioration of Huntington's disease deficits in BAC226Q mice.",
+    "abstract": "Huntington's disease (HD) is a monogenic autosomal dominant neurodegenerative disorder caused by a CAG repeat expansion in exon 1 of the",
+    "authors": [
+      "Dai Y",
+      "Abudujielili Z",
+      "Ding Y",
+      "Huang W",
+      "Yin J",
+      "Ou L",
+      "Hu J",
+      "Zheng S",
+      "Li C"
+    ],
+    "published": "2026-03-20",
+    "journal": "Science advances",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41849610/",
+    "score": 25,
+    "summary": {
+      "title_zh": "在不同年龄阶段使用自失活AAV-CRISPR系统可实现对BAC226Q小鼠亨廷顿病缺陷的持续改善",
+      "tool_type": "基于CRISPR-Cas的基因编辑治疗平台（具体为自失活AAV递送的CRISPR系统）",
+      "design": "该工具的核心设计思路是构建一种自失活的腺相关病毒（AAV）载体，用于递送CRISPR-Cas系统。其工程化关键在于将CRISPR组分（如Cas核酸酶和gRNA）包装入AAV载体，并通过自失活机制控制编辑活性，旨在实现一次给药后即可安全、持久地编辑致病基因，同时减少长期脱靶风险。",
+      "functions": "1. 实现体内（特别是大脑中）的位点特异性基因编辑，用于破坏或敲除致病基因（如亨廷顿病中的突变HTT基因）。\n2. 作为神经退行性疾病的潜在治疗平台，通过一次性给药实现长期治疗效果。\n3. 可用于研究不同年龄阶段进行基因干预对疾病进展的影响。",
+      "key_results": "关键实验结果表明，在亨廷顿病模型小鼠（BAC226Q）中，单次注射该自失活AAV-CRISPR系统能在不同年龄阶段（包括症状出现后）有效降低突变HTT蛋白水平，并持续改善运动协调缺陷等神经行为症状，且未报告严重的脱靶或毒性问题。"
+    }
+  }
+]
