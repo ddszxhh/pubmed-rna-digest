@@ -1,0 +1,97 @@
+[
+  {
+    "id": "41851306",
+    "title": "Precise, minimally evolved adenine base editors generated through mutation reversion analysis.",
+    "abstract": "The initial development of adenine base editors (ABEs), which facilitate A•T to G•C base pair changes in the genome, used directed evolution to install 14 mutations into the wild-type deaminase TadA, producing the first-of-its-kind editor ABE7.10. Here we study the installed mutations' impacts on TadA fitness using comprehensive reversion analysis and apply our results to engineer more efficient, precise editors. By measuring activity in both human and Escherichia coli host systems, we categorize mutations as critical, dispensable or host dependent. We show that up to five mutations can be reverted back to wild type, generating minimally evolved ABEs (ME-ABEs). ME-ABEs show narrow editing windows (similar to that of ABE7.10) and enhanced on-target editing (matching activities of the high-activity editor variants ABE8e and ABE8.20 in most sequence contexts) and exhibit low levels of guide-RNA-dependent and guide-RNA-independent off-target activity. ME-ABEs efficiently target six sites of clinical interest that had previously proved challenging to edit with ABE7.10, ABE8e or ABE8.20.",
+    "authors": [
+      "Evanoff M",
+      "Korpal S",
+      "Krill ZD",
+      "Cowan QT",
+      "Komor AC"
+    ],
+    "published": "2026-03-18",
+    "journal": "Nature biotechnology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41851306/",
+    "score": 65,
+    "summary": {
+      "title_zh": "通过突变回复分析生成精确、最小化进化的腺嘌呤碱基编辑器",
+      "tool_type": "RNA/DNA 碱基编辑器（具体为腺嘌呤碱基编辑器，ABE）",
+      "design": "本研究对第一代腺嘌呤碱基编辑器ABE7.10中通过定向进化引入的14个TadA脱氨酶突变进行了系统性回复分析。通过评估每个突变在人类和大肠杆菌宿主系统中的活性影响，将其分类为关键、可舍弃或宿主依赖性突变，并据此将其中多达5个突变回复至野生型状态，从而构建出“最小化进化的ABE”（ME-ABE）。",
+      "functions": "1. 实现基因组DNA中A•T到G•C碱基对的精确编辑。\n2. 可用于基因治疗相关位点的定点校正。\n3. 作为研究工具，用于探索脱氨酶突变对编辑活性、窗口和特异性的影响。",
+      "key_results": "ME-ABE在保持与ABE7.10相似的狭窄编辑窗口的同时，实现了与高活性变体ABE8e/ABE8.20相当的靶向编辑效率，并且在多种序列背景下均表现出极低的gRNA依赖性和非依赖性脱靶活性；此外，ME-ABE成功高效编辑了6个此前对ABE7.10、ABE8e或ABE8.20具有挑战性的临床相关位点。"
+    }
+  },
+  {
+    "id": "41854934",
+    "title": "Epitranscriptomic control of telomere maintenance.",
+    "abstract": "Telomere maintenance has been portrayed primarily as a problem of DNA-protein architecture and chromatin control, yet a complementary layer has been revealed at the level of RNA chemistry. In this Review, RNA modifications and their writer-reader-eraser and RNA-editing systems are integrated into a framework for chromosome-end homeostasis. Epitranscriptomic regulation of the telomerase ribonucleoprotein is examined, and assembly, activity, and recruitment are shown to be reshaped by chemical marks on TERC, specialized RNA capping, and processing pathways. Telomeric transcripts, particularly TERRA, are discussed as modified substrates whose stability, trafficking, and propensity for telomeric RNA: DNA hybrid formation can be tuned by RNA marks and their readers. Downstream consequences for replication stress, DNA damage signaling, and recombination-driven alternative lengthening of telomeres are summarized, together with emerging examples in which modification of telomere-factor mRNAs has been linked to rewiring of maintenance networks. Across these themes, links to telomeropathies, aging-associated inflammation, environmental stressors, and cancer are collated to connect mechanism to phenotype. Experimental bottlenecks and opportunities-site-resolved mapping, locus-targeted editing, and pharmacologic modulation of RNA-modifying enzymes-are outlined as routes toward causal models and therapeutic utilization.",
+    "authors": [
+      "Ahi EP",
+      "Ghasemishahrestani Z"
+    ],
+    "published": "2026-03-19",
+    "journal": "Molecular biology reports",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41854934/",
+    "score": 45,
+    "summary": {
+      "title_zh": "端粒维持的表现转录组学调控",
+      "tool_type": "综述论文（非单一工具，但系统梳理了可用于端粒研究的RNA编辑与修饰工具平台）",
+      "design": "本文并非提出一个新工具，而是构建了一个整合性框架，将多种现有的RNA修饰与编辑系统（如writer-reader-eraser系统、ADAR编辑系统）视为可编程模块，用于解析端粒生物学。其核心思路是将这些系统（如位点特异性编辑工具、药理学调节剂）与端粒特异性靶向策略（如TERC/TERRA的gRNA设计或招募机制）相结合，以进行机制研究和干预。",
+      "functions": "1. 位点特异性RNA编辑：用于在端粒相关RNA（如TERC, TERRA）上引入或纠正特定化学修饰，以研究其功能。\n2. RNA修饰的图谱绘制与检测：用于绘制端粒RNA的修饰图谱，并追踪其动态变化。\n3. 基因网络调控：通过修饰端粒因子mRNA，重编程端粒维持网络。\n4. 药理学调控：通过调节RNA修饰酶的活性，实现对端粒维持过程的干预。",
+      "key_results": "本文是一篇综述，未报告新的实验数据，但总结了领域内关键发现：例如，TERC RNA上的化学修饰可重塑端粒酶核糖核蛋白的组装、活性和端粒招募；TERRA的修饰可调节其稳定性、定位及RNA:DNA杂交体形成倾向，从而影响复制应激、DNA损伤信号和端粒替代延长机制。"
+    }
+  },
+  {
+    "id": "41855203",
+    "title": "Aberrant multicellular interferon signaling underlies Adar1 mutation-driven Aicardi-Goutières syndrome-like encephalopathy.",
+    "abstract": "Adenosine-to-inosine RNA editing by ADAR1 prevents aberrant innate immunity activation by modifying endogenous double-stranded RNA. Mice carrying a left-handed double-stranded RNA (Z-RNA) binding-deficient mutation develop Aicardi-Goutières syndrome (AGS)-like encephalopathy, characterized by ventricular enlargement, gliosis, calcification, and white matter degeneration with a type I interferon (IFN) signature. However, the mechanisms underlying encephalopathy development remain unknown. Here, we show that pathology was most severe in periventricular regions where IFN-stimulated gene (ISG) expression was elevated and ependymal cells were lost, accompanied by higher IFN-α levels in cerebrospinal fluid than in sera. Blocking type I IFN signaling fully reversed these abnormalities, which was not achieved by deleting downstream PKR or ZBP1. Microglial elimination partially alleviated the encephalopathy without suppressing ISGs. In contrast, neuron- or astrocyte-specific ADAR1 dysfunction evoked robust ISG expression and recapitulated AGS-like encephalopathy, with astrocytic dysfunction causing particularly severe effects. These findings identify aberrant multicellular IFN signaling as the central driver of AGS-like encephalopathy.",
+    "authors": [
+      "Yoo H",
+      "Nakahama T",
+      "Sugihara R",
+      "Gao Y",
+      "Ishizawa Y",
+      "Yang J",
+      "Ni Z",
+      "Iwasaki M",
+      "Kato Y",
+      "Kawahara Y"
+    ],
+    "published": "2026-03-17",
+    "journal": "Cell reports",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41855203/",
+    "score": 35,
+    "summary": {
+      "title_zh": "异常多细胞干扰素信号传导是Adar1突变驱动的Aicardi-Goutières综合征样脑病的核心机制",
+      "tool_type": "疾病机制研究模型（非直接工具/平台，但提供了关键的ADAR1功能缺失模型）",
+      "design": "本研究并非直接设计一个工程化工具，而是利用遗传学方法构建了ADAR1 Z-RNA结合功能缺失的突变小鼠模型，并在此基础上通过细胞类型特异性敲除（神经元或星形胶质细胞）和信号通路阻断（I型干扰素、PKR、ZBP1）等模块化组合，来解析疾病机制。",
+      "functions": "该研究模型本身并非一个可编程的RNA调控工具，但其揭示的机制为相关工具开发提供了关键见解：1）阐明了ADAR1通过编辑内源性双链RNA防止异常先天免疫激活的核心功能；2）提供了研究Aicardi-Goutières综合征（AGS）样脑病的体内模型；3）可用于验证靶向特定细胞类型或干扰素通路的治疗策略。",
+      "key_results": "关键实验结果表明：1）阻断I型干扰素信号可完全逆转突变小鼠的脑部异常，而删除下游效应分子PKR或ZBP1则不能；2）神经元或星形胶质细胞特异性的ADAR1功能障碍足以引发强烈的干扰素刺激基因（ISG）表达并重现AGS样脑病，其中星形胶质细胞功能障碍导致的影响尤为严重。"
+    }
+  },
+  {
+    "id": "41853298",
+    "title": "Integrated heart-blood RNA editome profiling reveals circulating A-to-I editing candidates linked to dilated cardiomyopathy myocardial signatures and heart failure.",
+    "abstract": "Dilated cardiomyopathy (DCM) is a leading cause of heart failure (HF), yet molecular signatures that are detectable in blood and mechanistically anchored in myocardial pathology remain limited. Adenosine-to-inosine (A-to-I) RNA editing is an important post-transcriptional regulator in the heart, but its biomarker potential in human DCM and its reflection in the circulation are not well defined. We performed comprehensive RNA editome profiling of human myocardium from DCM patients and non-failing donors, and integrated these results with peripheral blood RNA editing profiles from HF patients and controls, using a SPRINT-based pipeline with stringent in-house post-postprocessing and quality filtering. Global editing distributions and site-level differential editing were assessed, and shared heart-blood candidates were evaluated for directionality and functional enrichment. Cardiac RNA editing was dominated by ADAR-mediated A-to-I events and was significantly increased in DCM, with prominent enrichment in Alu elements and a higher number of unique editing sites compared with controls. Site-level analysis identified a predominantly hyper-edited DCM signature, mapping to genes and pathways linked to cardiomyopathy and cellular stress, including hypoxia and apoptosis. Cross-tissue comparison revealed 107 shared differentially edited sites between DCM heart and HF blood, with subsets showing concordant directionality. Shared targets were enriched for innate immune and type I interferon signaling, RIG-I pathway regulation, hypoxia-related responses, and apoptosis. DCM is associated with global myocardial A-to-I hyper-editing and a robust, multi-locus editing program. Importantly, a subset of these disease-associated editing events is detectable in peripheral blood from heart failure patients, supporting the feasibility of HF-associated circulating RNA editing signatures that reflect myocardial pathology.",
+    "authors": [
+      "Karagianni K",
+      "Topouzi M",
+      "Mitsi I",
+      "Sklaviadis T",
+      "Lazou A",
+      "Dafou D"
+    ],
+    "published": "2026-03-01",
+    "journal": "Journal of molecular and cellular cardiology plus",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41853298/",
+    "score": 35,
+    "summary": {
+      "title_zh": "整合心脏-血液RNA编辑组分析揭示与扩张型心肌病心肌特征及心力衰竭相关的循环A-to-I编辑候选位点",
+      "tool_type": "RNA编辑组分析平台/生物信息学流程",
+      "design": "本研究并非开发新的可编程RNA调控工具，而是构建了一个用于发现疾病相关RNA编辑生物标志物的分析平台。其核心思路是：1）开发并应用一个基于SPRINT的分析流程，结合严格的自定义后处理和质控过滤，对心脏组织和外周血进行全面的RNA编辑组分析；2）通过整合跨组织（心肌与血液）的差异编辑分析，识别在疾病状态下具有一致变化方向、且能反映心肌病理的循环RNA编辑特征。",
+      "functions": "该平台/流程主要实现以下功能：1）**全面RNA编辑组分析**：在全转录组范围内鉴定和定量A-to-I RNA编辑事件。2）**差异编辑分析**：识别疾病组（如扩张型心肌病、心力衰竭）与对照组之间在编辑水平和编辑位点数量上的差异。3）**跨组织关联分析**：比较不同组织（如病变心肌与循环血液）的编辑组，发现共享的、疾病相关的编辑特征。4）**生物标志物发现**：筛选在血液中可检测、且能反映源头器官（心脏）病理状态的循环RNA编辑事件，为无创诊断提供候选标志物。",
+      "key_results": "关键实验结果表明：1）在扩张型心肌病（DCM）患者心肌中观察到ADAR介导的A-to-I编辑全局性增加，编辑位点数量多于对照，且差异编辑位点（主要为高编辑）富集于与心肌病、细胞应激（如缺氧、凋亡）相关的基因和通路。2）通过跨组织比较，在DCM心肌和心力衰竭（HF）患者血液中共同鉴定出107个差异编辑位点，其中一部分位点的编辑变化方向一致；这些共享靶标富集于先天免疫、I型干扰素信号、RIG-I通路调控、缺氧反应及凋亡等通路，证明了循环血液RNA编辑特征反映心肌病理的可行性。"
+    }
+  }
+]
