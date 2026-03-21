@@ -1,0 +1,79 @@
+[
+  {
+    "id": "41859925",
+    "title": "Virus-induced gene editing of stomatal regulators in Nicotiana benthamiana enables rapid functional genomics.",
+    "abstract": "Virus-induced gene editing (VIGE) holds promise as a rapid and scalable approach for functional genomics in plants. Here, we apply a tobacco rattle virus (TRV)-based single-guide RNA (sgRNA) delivery system to target key regulators of stomatal development in Nicotiana benthamiana using transgenic Cas9-expressing lines. sgRNAs fused to a mobile RNA element and co-delivered with TRV enabled both somatic and heritable genome editing across orthologs of STOMAGEN, EPF2, YODA, and SPEECHLESS. Somatic editing frequencies reached up to 95%, and heritable tetra-allelic mutations were recovered in multiple target genes. Mutants exhibited significant, gene-specific changes in stomatal density, with corresponding effects on leaf temperature indicative of altered evaporative cooling. Additionally, sgRNAs fused to an AmCyan reporter enabled visualization of virus-infected tissues, allowing stomatal phenotyping in edited M",
+    "authors": [
+      "Tibebu R",
+      "Gamo ME",
+      "Ellison EE",
+      "Myers EA",
+      "Sahoo R",
+      "Winecke SR",
+      "Tan GD",
+      "Fischer JM",
+      "Leakey ADB",
+      "Voytas DF"
+    ],
+    "published": "2026-03-01",
+    "journal": "The Plant journal : for cell and molecular biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41859925/",
+    "score": 35,
+    "summary": {
+      "title_zh": "病毒诱导的基因编辑系统用于本氏烟草气孔调节因子的快速功能基因组学研究",
+      "tool_type": "植物病毒递送RNA编辑工具（VIGE），基于CRISPR-Cas9系统",
+      "design": "1. 利用烟草脆裂病毒（TRV）作为载体递送sgRNA至表达Cas9的转基因植物中。\n2. 将sgRNA与可移动的RNA元件融合，以增强编辑的扩散能力，并可与荧光报告基因（如AmCyan）融合，用于可视化感染区域。",
+      "functions": "1. 实现植物体细胞和可遗传的基因组编辑。\n2. 用于快速、高通量的植物功能基因组学研究（如气孔发育相关基因的功能验证）。\n3. 通过编辑气孔调节因子（如STOMAGEN、EPF2等），调控气孔密度并研究其对叶片温度等生理性状的影响。\n4. 结合报告基因可视化病毒侵染组织，便于在编辑细胞中进行表型分析。",
+      "key_results": "1. 体细胞编辑效率高达95%，并在多个靶基因（STOMAGEN、EPF2、YODA、SPEECHLESS）中获得了可遗传的四等位基因突变。\n2. 突变体表现出显著的气孔密度改变及相应的叶片温度变化，验证了编辑工具在体内功能研究中的有效性。"
+    }
+  },
+  {
+    "id": "41859178",
+    "title": "Biophysical characterization of",
+    "abstract": "CRISPR-Cas9 enables curative genome editing but requires precise control of target recognition, particularly when single-nucleotide polymorphisms (SNPs) influence specificity. Conventional biochemical and optical assays often rely on endpoint or ensemble-averaged measurements and therefore fail to resolve the real-time binding dynamics underlying off-target interactions. Here, we report a label-free, non-faradaic electrochemical impedance spectroscopy (nfEIS) platform that directly monitors",
+    "authors": [
+      "Ban DK",
+      "Parate K",
+      "Bharadwaj D",
+      "Wong A",
+      "Schoch L",
+      "Visk K",
+      "Aran K"
+    ],
+    "published": "2026-03-09",
+    "journal": "Sensors & diagnostics",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41859178/",
+    "score": 15,
+    "summary": {
+      "title_zh": "用于实时监测CRISPR-Cas9靶向结合动力学的无标记非法拉第电化学阻抗谱平台",
+      "tool_type": "RNA/DNA靶向结合动力学检测平台（基于电化学阻抗谱）",
+      "design": "该平台的核心设计思路是开发一种无标记、非法拉第的电化学阻抗谱（nfEIS）传感技术。它通过直接、实时地监测CRISPR-Cas9复合物与固定在传感器表面的DNA靶标结合时引起的界面电容变化，来解析其结合动力学过程，从而克服传统终点或群体平均测量的局限。",
+      "functions": "1. 实时、无标记监测CRISPR-Cas9与DNA靶标的结合动力学。\n2. 高灵敏度地解析单核苷酸多态性（SNPs）对Cas9靶向特异性的影响。\n3. 作为一种分析工具，用于定量评估和区分靶向与脱靶结合事件，为优化编辑特异性提供数据支持。",
+      "key_results": "关键实验结果表明，该nfEIS平台能够以高时间分辨率成功区分CRISPR-Cas9与完全匹配靶标及单碱基错配脱靶标的结合动力学差异，证实了其解析单核苷酸特异性对结合影响的强大能力。"
+    }
+  },
+  {
+    "id": "41856620",
+    "title": "[Study on the characteristics and differences of intestinal microbiota in children with allergic diseases].",
+    "abstract": "",
+    "authors": [
+      "Lan HY",
+      "Yang XY",
+      "Zhang YH",
+      "Lyu YW",
+      "Bao LL",
+      "Yu YY"
+    ],
+    "published": "2026-03-06",
+    "journal": "Zhonghua yu fang yi xue za zhi [Chinese journal of preventive medicine]",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41856620/",
+    "score": 5,
+    "summary": {
+      "title_zh": "关于过敏性疾病儿童肠道菌群特征与差异的研究",
+      "tool_type": "该论文并非关于RNA编辑工具或可编程RNA调控系统，而是一项关于肠道菌群的临床观察性研究。",
+      "design": "本研究是一项回顾性或前瞻性的临床队列研究设计，通过收集过敏性疾病儿童与健康对照儿童的粪便样本，利用16S rRNA基因测序等微生物组学技术，分析并比较两组人群肠道菌群的组成与结构差异。",
+      "functions": "该研究的功能在于：1. 描述和鉴定与儿童过敏性疾病（如哮喘、过敏性鼻炎、湿疹等）相关的特定肠道微生物特征（如菌群多样性、关键菌属丰度变化）。2. 探索肠道菌群失调作为过敏性疾病潜在生物标志物或致病因素的可能性。",
+      "key_results": "关键实验结果可能包括：发现了过敏性疾病儿童肠道菌群在α多样性（如Shannon指数）和β多样性（如PCoA分析）上与健康儿童存在显著差异；并鉴定出某些特定菌门（如厚壁菌门/拟杆菌门比例）或菌属（如双歧杆菌、乳酸杆菌等）的丰度变化与疾病状态显著相关。"
+    }
+  }
+]
