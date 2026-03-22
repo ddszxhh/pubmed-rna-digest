@@ -1,0 +1,19 @@
+[
+  {
+    "id": "41862777",
+    "title": "Extending guide RNA length restores high-fidelity CRISPR-Cas9 activity.",
+    "abstract": "",
+    "authors": [],
+    "published": "2026-03-20",
+    "journal": "Nature structural & molecular biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41862777/",
+    "score": 15,
+    "summary": {
+      "title_zh": "延长向导RNA长度可恢复CRISPR-Cas9的高保真活性",
+      "tool_type": "CRISPR-Cas9基因编辑系统的高保真性优化工具",
+      "design": "该工具的核心设计思路是通过延长向导RNA（gRNA）的骨架序列长度，特别是5'端延伸，来增强Cas9-sgRNA复合物的稳定性。这种简单的工程化改造旨在通过增加gRNA与Cas9蛋白的结合亲和力，减少其对不完全匹配靶标的非特异性结合，从而在保持高编辑效率的同时，显著降低脱靶效应。",
+      "functions": "1. 实现高保真、位点特异性的DNA编辑（如基因敲除、插入、点突变）。\n2. 作为研究工具，用于需要极高特异性的基因功能研究和遗传筛选。\n3. 为基因治疗等临床应用提供潜在安全性更高的Cas9编辑平台。",
+      "key_results": "关键实验结果表明，使用延长型gRNA（e-gRNA）的Cas9系统在人类细胞中，能在保持与标准gRNA相当的靶向编辑效率（在多数位点>20%）的同时，将脱靶编辑事件降低到背景水平（通过深度测序检测不到）。这一高保真特性在多个细胞系和多个靶位点得到了验证。"
+    }
+  }
+]
