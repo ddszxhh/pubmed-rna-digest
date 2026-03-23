@@ -1,0 +1,48 @@
+[
+  {
+    "id": "41863647",
+    "title": "Dysregulation of SIRT1, polyamines and miRNA editing in cancer and aging.",
+    "abstract": "Interest in RNA editing has emerged in molecular medicine due to its widespread dysregulation and therapeutic potential. Its regulatory mechanisms in governing non-coding RNAs, especially microRNAs (miRNAs) remain largely unresolved. Emerging evidence in diseases reveals a functional convergence between miRNAs and polyamine metabolism, two systems traditionally studied separately. miRNAs serve as primary substrates for adenosine deaminase acting on RNA (ADAR) which could regulate polyamine metabolism via the sirtuin (SIRT1)-p53 axis, forming a disease-relevant loop. Indeed, in many proliferative malignancies, hyper-editing of miRNAs coincides with high polyamine levels and promotes SIRT1-mediated p53 deacetylation. Conversely, in many age-related diseases, hypo-editing and polyamine loss blunt this pathway. This review dissects this emerging ADAR-editing-miRNA-polyamine circuit anchored on the SIRT1-p53 axis. We propose this as a unifying working model to integrate disparate correlative observations, providing a roadmap for future validation studies to confirm its potential for combinatorial therapeutic targets and diagnostic biomarkers.",
+    "authors": [
+      "Ramamonjiharisoa MBM",
+      "Liu S"
+    ],
+    "published": "2026-03-21",
+    "journal": "Amino acids",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41863647/",
+    "score": 35,
+    "summary": {
+      "title_zh": "癌症与衰老中SIRT1、多胺及miRNA编辑的失调",
+      "tool_type": "综述/概念模型（非具体实验工具，而是整合现有ADAR编辑、miRNA与多胺代谢知识的分析框架）",
+      "design": "本文并非设计一个具体的工程化工具，而是提出了一个整合性的概念模型。其核心思路是将ADAR介导的miRNA编辑、多胺代谢以及SIRT1-p53信号轴这三个通常被独立研究的系统联系起来，构建了一个以SIRT1-p53轴为中心的、疾病相关的调控环路模型。",
+      "functions": "1. **整合分析框架**：作为一个“工作模型”，用于统一解释在癌症和衰老等疾病中观察到的、看似分散的相关现象（如miRNA编辑水平、多胺浓度与SIRT1活性的共变）。\n2. **指导未来工具开发与应用**：为未来研究提供路线图，指导开发：①针对该环路的组合疗法靶点；②基于该环路分子（如编辑特异性miRNA）的诊断生物标志物。",
+      "key_results": "本文是一篇综述，未报告具体的实验数据。其关键贡献在于系统梳理并提出了一个重要的理论关联：在增殖性恶性肿瘤中，miRNA的高编辑、高水平多胺与SIRT1介导的p53去乙酰化（抑制）同时发生；而在许多年龄相关疾病中，则出现低编辑、多胺丢失和该通路钝化。这为后续的验证性研究和工具开发奠定了概念基础。"
+    }
+  },
+  {
+    "id": "41864246",
+    "title": "BmADARa-mediated RNA Editing Regulates Silk Gland Development and Silk Protein Expression via miR-3315 Targeting BmSuc1 in Bombyx mori.",
+    "abstract": "The ADAR family, which catalyzes adenosine-to-inosine (A-to-I) RNA editing on double-stranded RNA, represents an evolutionarily conserved RNA-modifying enzyme. While ADAR regulates microRNA (miRNA) maturation through both editing-dependent and -independent mechanisms, its role in organ development remains poorly characterized. In Bombyx mori, we previously identified high expression of BmADARa and BmSuc1 (encoding β-fructofuranosidase) in silk glands, with BmSuc1 known to regulate silk gland development. Here, we demonstrate that BmADARa controls silk gland patterning through miR-3315-BmSuc1 signaling axis. Specifically, we constructed RNAi-BmADARa mutants, and revealed that BmADARa is involved in regulating silk gland development and the expression levels of BmSuc1. Subsequent in-depth investigations demonstrated that BmADARa controls BmSuc1 expression by acting on its 3'UTR. Leveraging miRNA target prediction tools (miRanda and RNAhybrid), we identified miR-3315 as the exclusive candidate targeting the BmSuc1-3'UTR, with additional binding sites detected in the BmSuc1-CDS. BmADARa-RIP assays and Sanger sequencing provided conclusive evidence that BmADARa promotes miR-3315 maturation by editing pri-miR-3315. Moreover, KO-BmSuc1 mutants displayed altered expression patterns of sericin and fibroin genes, further validating that BmADARa regulates silk gland development through BmSUC1. In conclusion, our results show that BmADARa regulates the expression of BmSUC1, thereby positively influencing sericin gene expression in the anterior and middle silk glands and negatively regulating fibroin gene expression in the posterior silk gland. These results offer novel perspectives on the regulatory mechanisms governing silk gland development.",
+    "authors": [
+      "Jiang S",
+      "Yu Y",
+      "Zhuang Y",
+      "Fang Y",
+      "Shi R",
+      "Huang Y",
+      "Shi X",
+      "Meng Y"
+    ],
+    "published": "2026-03-19",
+    "journal": "Insect biochemistry and molecular biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41864246/",
+    "score": 35,
+    "summary": {
+      "title_zh": "BmADARa介导的RNA编辑通过miR-3315靶向BmSuc1调控家蚕丝腺发育与丝蛋白表达",
+      "tool_type": "ADAR介导的内源性RNA编辑调控通路（非人工构建的工具，但揭示了可作为潜在调控平台的天然系统）",
+      "design": "本研究并非设计人工工具，而是解析了一个天然存在的、由ADAR酶介导的RNA编辑调控通路。其核心思路是：内源性BmADARa通过编辑pri-miR-3315前体，促进其成熟，进而让成熟的miR-3315靶向并调控BmSuc1基因的表达，最终影响丝腺发育。这展示了一种“ADAR编辑-miRNA成熟-靶基因调控”的级联调控模块。",
+      "functions": "1. 调控RNA编辑：催化pri-miRNA上的A-to-I编辑，影响其加工成熟。\n2. 调控基因表达：通过编辑依赖的miRNA成熟通路，间接调控下游靶基因（BmSuc1）的表达水平。\n3. 调控器官发育与蛋白合成：最终调控家蚕丝腺的发育模式，并正/负调控丝胶蛋白和丝心蛋白基因的表达。",
+      "key_results": "关键实验证实了该调控通路的存在：构建BmADARa RNAi突变体导致丝腺发育异常和BmSuc1表达改变；BmADARa-RIP与测序证明其直接编辑pri-miR-3315并促进其成熟；敲除BmSuc1重现了丝蛋白基因表达紊乱的表型，验证了其在通路中的关键作用。"
+    }
+  }
+]
