@@ -1,0 +1,83 @@
+[
+  {
+    "id": "41867802",
+    "title": "Spligation enables programmable chimeric RNA generation in living cells.",
+    "abstract": "The ability to precisely modify RNA offers opportunities to manipulate the flow of genetic information and influence transcript stability, localization and translation. RNA-targeting technologies enable RNA knockdown, base editing and",
+    "authors": [
+      "Colognori DA",
+      "Wasko KM",
+      "Trinidad MI",
+      "Zhou Z",
+      "Doudna JA"
+    ],
+    "published": "2026-03-06",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41867802/",
+    "score": 85,
+    "summary": {
+      "title_zh": "Spligation：在活细胞中实现可编程嵌合RNA生成",
+      "tool_type": "RNA剪接重编程工具/平台",
+      "design": "该工具的核心设计思路是：1）利用工程化的Cas13d-gRNA复合物将两个独立的RNA转录本（供体和受体）在空间上拉近；2）通过共表达的、经过改造的tRNA剪接酶（RtcB），催化两个RNA分子之间发生反式剪接反应，从而将两个外源或内源RNA片段共价连接成一个单一的嵌合RNA分子。",
+      "functions": "1. 在活细胞中按需生成可编程的嵌合RNA。\n2. 通过连接不同来源的RNA序列，实现对RNA功能的重新编程。\n3. 潜在应用于调控基因表达、生成新型融合蛋白、研究RNA功能以及开发基于RNA的疗法。",
+      "key_results": "关键实验结果表明：1）在哺乳动物细胞中，Spligation系统能够高效（效率可达~60%）且特异性地生成设计的嵌合RNA产物；2）该系统成功实现了对内源转录本的重编程，将其与引入的外源序列连接，证明了其在复杂细胞环境中的功能。"
+    }
+  },
+  {
+    "id": "41869825",
+    "title": "MEditome: Computational Detection of RNA Edit Sites Using",
+    "abstract": "RNA editing is a post-transcriptional modification that alters single-nucleotide sites within RNA strands, thus diversifying transcriptomes and proteomes and modulating gene expression. While better characterized in eukaryotes and in a few microbes, the study of RNA editing in entire microbiomes remains unexplored. Recent studies have demonstrated that A-to-I RNA editing contributes to bacterial adaptation and pathogenicity. Previously, we developed MetaEdit, a reference-based computational pipeline to detect RNA edit sites in microbiomes. While MetaEdit successfully identified RNA edit sites in",
+    "authors": [
+      "Mehta A",
+      "Stebliankin V",
+      "Mathee K",
+      "Narasimhan G"
+    ],
+    "published": "2026-03-23",
+    "journal": "Journal of computational biology : a journal of computational molecular cell biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41869825/",
+    "score": 35,
+    "summary": {
+      "title_zh": "MEditome：使用计算流程检测微生物组RNA编辑位点",
+      "tool_type": "计算分析工具/生物信息学平台",
+      "design": "该工具是基于参考序列的计算流程，用于在微生物组规模上系统性地检测RNA编辑位点。其核心思路是扩展了先前开发的MetaEdit工具，旨在处理复杂的宏转录组数据，通过比对和变异检测算法来识别RNA与参考基因组之间的单核苷酸不匹配，从而推断潜在的编辑事件。",
+      "functions": "1. 在微生物组（宏转录组）水平上大规模检测RNA编辑位点。\n2. 识别A-to-I（腺苷到肌苷）等类型的RNA编辑事件。\n3. 用于研究微生物（包括细菌）中RNA编辑的普遍性、模式及其在适应性和致病性中的潜在功能。",
+      "key_results": "关键性能体现在其前身工具MetaEdit上，该工具已成功在微生物组样本中鉴定出RNA编辑位点，证明了计算流程的可行性，并为在更广泛的微生物群落中探索RNA编辑（即“MEditome”）奠定了基础。"
+    }
+  },
+  {
+    "id": "41390004",
+    "title": "Multi-Society Expert Panel Consensus Guidance Regarding Clinical Assessment and Clinical Trial Endpoints in Adults With Alpha-1 Antitrypsin Deficiency-Associated Liver Disease.",
+    "abstract": "Alpha-1 antitrypsin deficiency-associated liver disease (AATD-LD) remains underrecognized despite its significant contribution to morbidity and mortality in adults with the PiZZ genotype. Lack of standardized definitions, diagnostic criteria, and staging impedes timely diagnosis and therapeutic development. To address these gaps, a multi-disciplinary expert panel convened under the auspices of the American Gastroenterological Association in collaboration with the American Association for the Study of Liver Diseases, European Association for the Study of the Liver, and Alpha-1 Foundation to develop consensus recommendations for nomenclature, diagnosis, staging, and clinical trial endpoints in AATD-LD. An international multi-disciplinary expert consensus synthesized data from recent epidemiologic, histopathologic, and noninvasive biomarker studies related to AATD-LD. Expert opinion was integrated with published evidence to establish case definitions, staging algorithms, and clinical trial endpoint criteria. AATD-LD is defined by the presence of liver enzyme (ie, aspartate aminotransferase, alanine aminotransferase, or γ-glutamyl transferase) elevations-which may be episodic-and/or liver fibrosis (≥F2) in adults with AATD, particularly those with the PiZZ genotype. Liver stiffness measurement by means of noninvasive elastography (eg, vibration-controlled transient elastography and magnetic resonance elastography) was identified as the preferred method for staging fibrosis, with liver stiffness measurement ≥8 kPa by means of vibration-controlled transient elastography as a threshold for clinically significant fibrosis. Aspartate aminotransferase-to-platelet ratio (<0.5) and fibrosis-4 index (<1.3) (low risk for advanced liver disease) were endorsed for risk stratification, although their sensitivity is limited. A foundational, tiered algorithm was developed to guide longitudinal monitoring and staging, incorporating serial noninvasive testing and timely referral for liver transplantation evaluation. For clinical trial design, adults with F2-F4 fibrosis were recommended for inclusion in phase 3 trials; earlier stages (eg, F1) may be appropriate for phase 1-2 safety studies and patients with cirrhosis may be excluded, depending on therapeutic class. Preservation of pulmonary function was not deemed necessary for inclusion in trials of therapies that increase AAT levels via DNA or RNA editing. The consensus primary efficacy endpoint is a ≥1-stage improvement in fibrosis. These consensus statements provide a unified framework for diagnosing, staging, and studying AATD-LD. Broad adoption will improve disease recognition, optimize clinical management, and facilitate therapeutic development.",
+    "authors": [
+      "Loomba R",
+      "Clark VC",
+      "Mandorfer M",
+      "Miravitlles M",
+      "Brantly M",
+      "Karpen SJ",
+      "Krag A",
+      "Kwo PY",
+      "Rockey DC",
+      "Russo MW",
+      "Sanchez AJ",
+      "Santarella S",
+      "Sharpton SR",
+      "Strange C",
+      "Teckman JH",
+      "Turner AM",
+      "Vargas HE",
+      "Strnad P"
+    ],
+    "published": "2026-04-01",
+    "journal": "Gastroenterology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41390004/",
+    "score": 5,
+    "summary": {
+      "title_zh": "α-1抗胰蛋白酶缺乏症相关肝病成人患者临床评估与临床试验终点的多学会专家共识指南",
+      "tool_type": "临床共识指南/诊断与试验设计框架",
+      "design": "该“工具”是一个由多学科专家小组通过整合现有流行病学、组织病理学及非侵入性生物标志物研究数据，并结合专家意见构建的共识性框架。其核心设计思路是建立标准化的疾病定义、诊断标准和分期算法，并针对临床试验制定统一的入组标准和疗效终点。",
+      "functions": "1. 提供标准化的疾病定义和诊断标准。\n2. 建立基于非侵入性弹性成像（如振动控制瞬时弹性成像）的肝纤维化分期算法。\n3. 推荐用于风险分层的血清学指标（如AST-to-platelet ratio, FIB-4）。\n4. 为纵向监测和分期制定分层管理流程。\n5. 为不同阶段的临床试验（I-III期）定义患者入组标准和主要疗效终点（如肝纤维化改善≥1期）。",
+      "key_results": "关键成果是确立了以肝硬度测量（LSM）≥8 kPa（通过振动控制瞬时弹性成像）作为临床显著纤维化的阈值，并推荐将肝纤维化改善≥1期作为III期临床试验的主要疗效终点。共识特别指出，对于通过DNA或RNA编辑技术提高AAT水平的疗法，在试验入组时无需以保留肺功能为前提。"
+    }
+  }
+]
