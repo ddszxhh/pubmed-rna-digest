@@ -1,0 +1,110 @@
+[
+  {
+    "id": "41872323",
+    "title": "Template-independent genome editing and restoration for correcting frameshift disorders.",
+    "abstract": "Frameshift mutations, responsible for >20% of Mendelian inherited diseases, pose substantial therapeutic challenges. Here we developed Template-Independent Genome Editing for Restoration (TIGER), a platform for the efficient and precise correction of frameshift mutations across various models. By identifying reproducible nucleotide-level factors that influence therapeutic efficacy across cells and tissues, we developed a scoring system for guide RNA (gRNA)-Cas9 outcomes. Approximately 75% of deletion and 50% of insertion mutations produced ≥30% in-frame products, sufficient for phenotypic restoration, with 38% and 65% achieving wild-type correction, respectively. To expand the applicability of TIGER across species and genome wide, we retrained the inDelphi algorithm to predict therapeutic gRNAs for single-nucleotide frameshifts. In a mouse model of deafness, delivery of SpCas9 and optimal gRNA via dual adeno-associated virus restored hearing thresholds to wild-type levels, with ~90% of in-frame edits being wild type. TIGER provides a robust and broadly applicable strategy for in vivo correction of inherited frameshift diseases.",
+    "authors": [
+      "Qiu S",
+      "Liu L",
+      "Xiang B",
+      "Jin Z",
+      "Li Y",
+      "Li D",
+      "Hou H",
+      "Li K",
+      "Wei G",
+      "Xie J",
+      "Li S",
+      "Liu S",
+      "Chen C",
+      "Liang X",
+      "Sun Q",
+      "Xiong W"
+    ],
+    "published": "2026-03-23",
+    "journal": "Nature biomedical engineering",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41872323/",
+    "score": 45,
+    "summary": {
+      "title_zh": "不依赖模板的基因组编辑与修复用于纠正移码突变疾病",
+      "tool_type": "基因组编辑平台（基于CRISPR-Cas9的移码突变修复工具）",
+      "design": "该平台的核心设计思路是：1）利用CRISPR-Cas9在移码突变位点产生DNA双链断裂，依赖细胞固有的非同源末端连接修复机制，通过可控的插入/缺失修复结果来恢复正确的阅读框；2）通过分析影响修复结果的核苷酸水平因素，开发了一套用于预测和优化gRNA-Cas9修复结果的评分系统，以筛选能高效产生可读框修复产物的gRNA。",
+      "functions": "1. 高效、精确地纠正多种模型中的移码突变；2. 通过预测和筛选最优gRNA，实现不依赖外源修复模板的野生型序列恢复；3. 适用于体内遗传性移码疾病的治疗。",
+      "key_results": "1. 在细胞和组织模型中，约75%的缺失突变和50%的插入突变能产生≥30%的可读框修复产物，其中分别有38%和65%的修复产物为野生型序列，足以实现表型恢复；2. 在耳聋小鼠模型中，通过双AAV递送SpCas9和最优gRNA，将听力阈值恢复至野生型水平，且约90%的可读框编辑产物为野生型序列。"
+    }
+  },
+  {
+    "id": "41873699",
+    "title": "Sensing of double-stranded RNA in human cells: molecular mechanisms and cellular consequences.",
+    "abstract": "Double-stranded RNA (dsRNA) is a universal indicator of viral replication and dysregulated RNA metabolism. Detection of dsRNA triggers some of the most powerful innate immune responses in human cells. Although these molecules differ in origin and structure, viral dsRNAs share the defining geometric and electrostatic features of the A-form helix, enabling their sequence-independent recognition by multiple sensor systems. Cytosolic receptors, like retinoic acid-inducible gene I (RIG-I), melanoma differentiation associated gene 5 (MDA5), and protein kinase R (PKR), as well as the oligoadenylate synthase (OAS)/RNase L pathway, convert dsRNA binding into interferon induction, translational arrest, and widespread RNA decay, while endosomal Toll-like receptor 3 (TLR3) and the inflammasome sensor NLR family pyrin domain containing 1 (NLRP1) expand surveillance to internalised or structurally disruptive RNAs. Counterbalancing these pathways, the RNA-editing enzyme adenosine deaminase acting on RNA 1 (ADAR1) marks endogenous dsRNA through A-to-I conversion, preventing inadvertent activation of innate immune response and maintaining self versus non-self discrimination. Although all of these sensors recognise the A-form helix, each extracts distinct structural and chemical information from dsRNA and converts it into a specific response: RIG-I detects short duplexes with 5'-triphosphorylated ends; MDA5 assembles cooperatively along long uninterrupted helices; PKR integrates duplex length with translational control; OAS proteins act as strict reporters of helix regularity; and TLR3 as well as NLRP1 respond to dsRNA in compartment- and context-dependent ways. Epitranscriptomic marks and chemical modifications-including 2'-O-methylation, N6-methyladenosine, pseudouridine, and ADAR1-mediated inosine-further refine sensing by modulating helical stability and end structure, establishing a biochemical 'self-code' that shapes RNA immunogenicity. Together, these pathways form an integrated network that distinguishes between viral and endogenous dsRNA and coordinates antiviral defence with immune tolerance.",
+    "authors": [
+      "Cieslicka J",
+      "Pianka K",
+      "Drazkowska K",
+      "Sikorski PJ"
+    ],
+    "published": "2026-03-25",
+    "journal": "Biochemical Society transactions",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41873699/",
+    "score": 35,
+    "summary": {
+      "title_zh": "人类细胞中双链RNA的感知：分子机制与细胞效应",
+      "tool_type": "RNA传感器系统综述（非单一工具，而是对一类天然生物传感平台的机制解析）",
+      "design": "本文并非描述一个新设计的工程工具，而是系统性地综述了人体内天然存在的多种双链RNA（dsRNA）传感系统的“设计思路”。其核心在于，不同的传感器（如RIG-I、MDA5、PKR、OAS/RNase L、TLR3、NLRP1）通过识别dsRNA共有的A型螺旋几何与静电特征，但各自采用独特的模块化机制来提取不同的结构化学信息（如末端化学状态、螺旋长度、规则性、细胞定位），并将其转化为特异的下游信号通路。",
+      "functions": "这些天然传感系统可实现以下功能：\n1. **病毒RNA检测与免疫激活**：感知外源（尤其是病毒）dsRNA，触发I型干扰素诱导、翻译抑制和广泛RNA降解等强大的先天免疫反应。\n2. **自我与非我区分**：通过ADAR1介导的A-to-I编辑等表观转录组标记，对内源性dsRNA进行化学修饰，建立“自我密码”，防止自身免疫反应，维持免疫耐受。\n3. **细胞状态监控**：感知RNA代谢失调产生的异常dsRNA。\n4. **为合成生物学提供设计原理**：这些天然传感器的识别逻辑（如对螺旋长度、末端、修饰的特异性响应）为构建可编程的RNA传感工具（如基于Cas13的检测器、工程化ADAR招募系统）提供了关键的机制见解和模块灵感。",
+      "key_results": "本文是一篇机制综述，未报告单一实验数据，但其总结的关键性能指标概念包括：各传感器具有不同的识别特异性（如RIG-I对短链且有5‘-三磷酸末端的dsRNA敏感，MDA5协同组装于长链不间断螺旋），且ADAR1介导的A-to-I编辑能有效抑制内源性dsRNA对MDA5和PKR的误激活，是维持自我耐受的关键机制。"
+    }
+  },
+  {
+    "id": "41873757",
+    "title": "Elucidating the kinetics of CRISPR-SaCas9 action to obtain effective HIV DNA excision with two gRNAs.",
+    "abstract": "The persistence of integrated human immunodeficiency virus (HIV) proviral DNA poses a major barrier to viral eradication, as the viral reservoir enables rapid rebound upon treatment interruption, despite effective virus inhibition. CRISPR-Cas-based editing strategies, especially those using double-site cleavage, show promise in excising proviral DNA, yet the rate and determinants of excision efficiency remain poorly understood. In this study, we systematically evaluated both single- and dual-SaCas9/gRNA approaches for HIV-1 inactivation. Sequence analysis revealed that SaCas9 can eliminate all wild-type HIV-1 genomes with a single gRNA, unlike other CRISPR-Cas systems. Dual-gRNA strategies improved antiviral efficacy, with the Gag3 + Pol5 combination achieving 97% excision efficiency. Kinetic analysis showed that excision efficiency correlates with the kinetic compatibility of paired gRNAs. Pairs of gRNAs with fast and similar kinetics achieved the highest excision efficiency. In contrast, the Gag3 + Env4 pair exhibited discordant kinetic characteristics (fast and slow), resulting in the failure to induce excision as the cut DNA will be repaired before the second cut is realized. Consequently, no excision but regular editing occurred at the two target sites. These findings provide a mechanistic framework for optimizing CRISPR-Cas-mediated excision, highlighting the critical role of both antiviral activity and kinetic synergy in guiding gRNA selection.",
+    "authors": [
+      "Yu Z",
+      "Bao Y",
+      "Alcalá-Lalinde A",
+      "Andrade Dos Ramos Z",
+      "Koroglu M",
+      "Berkhout B",
+      "Herrera-Carrillo E"
+    ],
+    "published": "2026-03-19",
+    "journal": "Nucleic acids research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41873757/",
+    "score": 35,
+    "summary": {
+      "title_zh": "阐明CRISPR-SaCas9作用动力学以实现双gRNA有效切除HIV DNA",
+      "tool_type": "基于CRISPR-Cas9的DNA编辑工具/平台（具体为SaCas9系统）",
+      "design": "该研究并非设计全新的酶结构域，而是将SaCas9系统作为一种工具平台，通过系统性地组合和测试不同的向导RNA（gRNA）对，来优化其用于双位点切割的工程设计。其核心思路是探究并利用配对gRNA之间的“动力学兼容性”，即两个gRNA切割靶DNA位点的速率和时序匹配程度，以实现高效的DNA片段切除。",
+      "functions": "1. 位点特异性DNA双链断裂与编辑。\n2. 大片段DNA（如整合的前病毒DNA）的精确切除。\n3. 病毒（如HIV-1）基因组失活与根除策略开发。",
+      "key_results": "关键性能指标表明，双gRNA策略（如Gag3+Pol5组合）对HIV-1前病毒DNA的切除效率高达97%。最重要的发现是，切除效率与配对gRNA的动力学兼容性直接相关：切割速度快且动力学相似的gRNA对效率最高；而切割速度差异大（一快一慢）的gRNA对（如Gag3+Env4）则无法实现有效切除，因为第一个切口会在第二个切口发生前被修复。"
+    }
+  },
+  {
+    "id": "41874403",
+    "title": "CRISPR-Cas gene editing technology in biomanufacturing to enhance stress tolerance of microbial strains.",
+    "abstract": "In response to the loss of microbial efficiency caused by environmental stress in biomanufacturing, CRISPR-Cas gene editing technology has become a core tool for enhancing stress tolerance by accurately targeting genomic loci. This article systematically reviews the progress of its application. By optimizing engineered nucleases, gRNA design, and innovative delivery strategies, this technology successfully regulates key pathways in oxidative stress responses. It integrates functional genome screening with dynamic regulation to examine the networks of multi-gene collaborative tolerance. In the construction of high-stress-tolerant industrial chassis cells, the stress survival rate (>90% in Bacillus subtilis under thermal stress) and product synthesis ability (such as cellulose producing ethanol up to 4.5 g/L) of strains such as Escherichia coli and Corynebacterium glutamicum were significantly improved. Current challenges focus on delivery efficiency, off-target risks, and complex regulatory bottlenecks. In the future, the development of new editing tools and intelligent circuits will promote their industrial application in sustainable bio-manufacturing.",
+    "authors": [
+      "Zhang H",
+      "Liu L",
+      "Wang D",
+      "Yang X",
+      "Kang Y",
+      "Huang J",
+      "Ouyang Y",
+      "Yu H",
+      "Zhang Y"
+    ],
+    "published": "2026-03-24",
+    "journal": "FEMS microbiology letters",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41874403/",
+    "score": 25,
+    "summary": {
+      "title_zh": "CRISPR-Cas基因编辑技术在生物制造中增强微生物菌株胁迫耐受性的应用",
+      "tool_type": "基于CRISPR-Cas的基因组编辑与调控平台",
+      "design": "该工具的核心设计思路是通过优化工程化核酸酶（如Cas9）、设计特异性gRNA以及创新递送策略，实现对微生物基因组位点的精确靶向。同时，它整合了功能性基因组筛选与动态调控模块，用于解析和调控多基因协同的胁迫响应网络。",
+      "functions": "1. 对工业微生物（如大肠杆菌、枯草芽孢杆菌、谷氨酸棒杆菌）进行精确的基因组编辑。\n2. 通过编辑关键基因或调控元件，增强菌株对氧化应激、热应激等环境胁迫的耐受性。\n3. 构建高胁迫耐受性的工业底盘细胞，以稳定和提高目标产物（如乙醇）的合成能力。\n4. 用于功能性基因组筛选，研究多基因协作的胁迫耐受网络。",
+      "key_results": "关键性能指标显示，应用该技术后，枯草芽孢杆菌在热胁迫下的存活率超过90%，经改造的菌株其产物合成能力显著提升，例如纤维素产乙醇的产量可达4.5 g/L。"
+    }
+  }
+]
