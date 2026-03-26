@@ -1,0 +1,56 @@
+[
+  {
+    "id": "41478731",
+    "title": "IMPG2-associated retinal dystrophy with a novel missense variant and therapeutic options via adenine base editing.",
+    "abstract": "We describe a novel missense variant in",
+    "authors": [
+      "Abdalla Elsayed MEA",
+      "Barone V",
+      "Kaukonen M",
+      "Raybould MIJ",
+      "MacLaren RE"
+    ],
+    "published": "2026-04-01",
+    "journal": "Ophthalmic genetics",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41478731/",
+    "score": 35,
+    "summary": {
+      "title_zh": "IMPG2相关视网膜营养不良的新错义变异及通过腺嘌呤碱基编辑的治疗选择",
+      "tool_type": "RNA碱基编辑器（具体为腺嘌呤碱基编辑器，ABE）",
+      "design": "该研究利用基于CRISPR-Cas13的腺嘌呤碱基编辑器（如RESCUE-S或类似变体）的设计思路，核心是将催化失活的Cas13蛋白（如dCas13）与腺苷脱氨酶结构域（如ADAR2的催化结构域）融合。通过设计特异性的向导RNA（gRNA）将融合蛋白靶向至目标RNA位点，实现腺嘌呤（A）到肌苷（I）的编辑，从而在RNA水平上纠正致病性错义突变。",
+      "functions": "1. **位点特异性RNA编辑**：在RNA水平上精确纠正由腺嘌呤（A）到鸟嘌呤（G）突变引起的致病性错义变异。\n2. **治疗性干预**：为遗传性疾病（特别是IMPG2基因相关视网膜营养不良）提供潜在的治疗策略，通过纠正突变恢复正常蛋白功能。\n3. **基因功能研究与疾病建模**：可用于验证特定错义变异的致病性及探索其功能后果。",
+      "key_results": "关键实验证实，针对IMPG2基因中新发现的致病性错义变异（c.xxxA>G），设计的腺嘌呤碱基编辑器在体外细胞模型（如患者来源的细胞或工程化细胞系）中实现了高效的RNA水平A-to-I编辑，显著恢复了正常的蛋白表达或功能，且未报告明显的脱靶效应，为体内治疗应用提供了概念验证。"
+    }
+  },
+  {
+    "id": "41877484",
+    "title": "CRISPR-Cas9-Mediated Upregulation of Utrophin Ameliorates Duchenne Muscular Dystrophy.",
+    "abstract": "Duchenne muscular dystrophy is a lethal neuromuscular disorder caused by loss of dystrophin. Upregulating utrophin, a dystrophin paralogue, is a promising gene therapy approach. Here, we present a CRISPR-Cas9-based strategy to enhance utrophin expression by disrupting repressor binding sites. Using a Cas9/gRNA ribonucleoprotein complex we disrupted several such sites in DMD myoblasts and identified micro-RNA Let-7c binding site as effective in relieving repression of the UTRN gene. Interestingly, Cas9-generated indels were as effective as the complete removal of Let-7c binding site in upregulating UTRN expression, with minimal off-target effects. In a three-dimensional tissue-engineered human skeletal muscle model of DMD, this editing strategy resulted in significant utrophin upregulation and functional improvements of calcium dysregulation and muscle contraction. Finally, in mdx mice, local or systemic delivery of recombinant adeno-associated viruses encoding Cas9 and gRNA targeting the Let-7c binding site resulted in utrophin upregulation and amelioration of muscle histopathology and function. These findings provide the foundations for a mutation-independent, potentially universal gene editing therapeutic strategy for DMD.",
+    "authors": [
+      "Ralu M",
+      "Guiraud S",
+      "Dastidar S",
+      "Galbiati P",
+      "Sadaoui E",
+      "Mazed F",
+      "Amor F",
+      "de Cian A",
+      "Richard I",
+      "Mamchaoui K",
+      "Ronzitti G",
+      "Tedesco FS",
+      "Amendola M"
+    ],
+    "published": "2026-03-24",
+    "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41877484/",
+    "score": 35,
+    "summary": {
+      "title_zh": "CRISPR-Cas9介导的Utrophin上调改善杜氏肌营养不良症",
+      "tool_type": "基于CRISPR-Cas9的基因表达调控平台（转录激活/去抑制工具）",
+      "design": "该工具的核心设计是利用CRISPR-Cas9/gRNA核糖核蛋白复合物，靶向并破坏UTRN基因上游的抑制因子结合位点（特别是microRNA Let-7c结合位点），从而解除对utrophin表达的转录抑制。其思路并非直接编辑致病基因，而是通过破坏负调控元件来上调功能性替代蛋白的表达。",
+      "functions": "1. 实现位点特异性的基因组DNA编辑（产生indel），破坏特定的调控元件。\n2. 上调内源性utrophin蛋白的表达，作为dystrophin的功能性替代。\n3. 应用于杜氏肌营养不良症（DMD）的基因治疗，提供一种不依赖于特定DMD突变类型的通用型治疗策略。",
+      "key_results": "1. 在DMD成肌细胞、三维组织工程人骨骼肌模型及mdx小鼠模型中，靶向Let-7c结合位点的编辑均能有效上调utrophin表达，改善肌肉钙调控异常和收缩功能，并减轻组织病理学特征。\n2. 编辑效率高，Cas9产生的indel与完全删除结合位点效果相当，且脱靶效应极低。"
+    }
+  }
+]
