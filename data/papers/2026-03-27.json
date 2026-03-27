@@ -1,0 +1,169 @@
+[
+  {
+    "id": "41882346",
+    "title": "Structural insight into IscB's RNA-lid-based inactivation mechanism.",
+    "abstract": "IscB, a compact Cas9 ancestor from the obligate mobile element guided activity system, has attracted growing interest as a programmable genome editor because of its small size and therapeutic delivery potential. Despite its promise, structural insights into IscB's regulation remain limited, with only a target-bound R-loop structure previously reported. Here, we present the structural trajectory of an engineered IscB, capturing its transition from a resting state to activation. Using cryo-electron microscopy, we resolve four high-resolution structures: the apo resting state, two intermediate complexes with 6-nt and 10-nt guide-target pairing and a fully paired 16-nt primed cleavage state. These structures uncover a dual inactivation mechanism mediated by RNA lids; the ωRNA lid blocks HNH domain access, while the guide RNA lid occludes the RuvC active site. As guide-target pairing progresses, the guide RNA undergoes a stepwise displacement, mimicking a 'car pedal' motion that triggers activation at 11-nt pairing. The HNH domain also contributes to R-loop stabilization through a positively charged R-wedge motif and undergoes a ~90° activation-driven rotation mediated by two hinge regions. In variants IscBHig1 and IscBHig2, engineering these hinge motifs to enhance conformational flexibility notably improved genome-editing efficiency in cells. In summary, our study reveals the molecular basis underlying IscB autoinhibition and activation, identifies previously uncharacterized regulatory features and establishes hinge elements as a target region for engineering compact, efficient genome editors.",
+    "authors": [
+      "Wang F",
+      "Guo R",
+      "Zhang S",
+      "Cui Y",
+      "Wang J",
+      "Hu T",
+      "Liu K",
+      "Wang Q",
+      "Liu Y",
+      "Nam KH",
+      "Zhao ZW",
+      "Ji Q",
+      "Xu X",
+      "Wang E",
+      "Zhu Y",
+      "Yang Y",
+      "Luo M",
+      "Ma P",
+      "Ma S",
+      "Xu C",
+      "Hu C"
+    ],
+    "published": "2026-03-25",
+    "journal": "Nature structural & molecular biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41882346/",
+    "score": 65,
+    "summary": {
+      "title_zh": "IscB基于RNA盖子的失活机制的结构性洞察",
+      "tool_type": "可编程基因组编辑器（紧凑型Cas9祖先蛋白IscB）",
+      "design": "本研究并非直接设计一个新工具，而是通过解析IscB蛋白从静息态到激活态的结构轨迹，揭示了其固有的模块化调控机制。核心发现是其通过ωRNA盖子和向导RNA盖子实现双重自抑制，而向导-靶标配对过程中的逐步置换（类似“油门踏板”运动）以及HNH结构域通过带正电的R楔形基序和铰链区介导的旋转，共同触发了编辑活性的激活。",
+      "functions": "1. 位点特异性基因组编辑（基于其祖先CRISPR-Cas9系统的可编程性）。\n2. 作为小型化基因组编辑工具平台，具有治疗递送潜力。",
+      "key_results": "通过冷冻电镜解析了IscB从静息态到完全配对（16-nt）的四个高分辨率结构，阐明了其逐步激活的分子机制。关键性能验证：通过工程化改造IscBHig1和IscBHig2变体中的铰链基序以增强构象灵活性，显著提高了其在细胞内的基因组编辑效率。"
+    }
+  },
+  {
+    "id": "41882000",
+    "title": "A dual role of EZH2 in regulating A-to-I RNA editing and mRNA stability through ADAR.",
+    "abstract": "Adenosine-to-inosine (A-to-I) RNA editing, catalyzed by adenosine deaminases acting on RNA (ADARs), is a widespread modification in metazoans. Cumulative evidence has revealed the altered A-to-I editing profiles in cancers, but the underlying mechanism remains unclear. Here, we discover the well-known histone lysine methyltransferase enhancer of zeste homologue 2 (EZH2) as an unexplored ADAR interactor and editing regulator in prostate cancer (PCa). Through competing with interleukin enhancer binding factor 2 (ILF2) for ADAR1 binding, EZH2 reshapes the substrate selectivity of ADAR1 and thus exhibits a bidirectional role in editing regulation. Moreover, EZH2 depletion induces the translational repression of transportin-1 (TRN1), which further results in the accumulation of cytoplasmic ADAR1p110 isoform to protect many oncogenic transcripts from degradation. Consistently, depletion of ADAR1 dramatically enhances the sensitivity of cancer cells and tumors to EZH2 selective degraders. Collectively, our study sheds new light on a link between two layers of epigenetic regulations at histone modification and RNA editing levels, demonstrates a previously uncharacterized role of EZH2 in RNA editing and mRNA stability independently of its lysine methyltransferase activity, and reveals the significance of EZH2-ADAR1 cascade in governing RNA editing and mRNA stability, which may provide additional perspectives for the advancement of EZH2-targeting cancer therapies.",
+    "authors": [
+      "Yi Y",
+      "Li Y",
+      "Wang R",
+      "Yu X",
+      "Liu Q",
+      "Yum C",
+      "Zhang Y",
+      "Qiao Y",
+      "Szczepanski A",
+      "Wu S",
+      "Li Q",
+      "Fazli L",
+      "Shen J",
+      "Wang X",
+      "Li X",
+      "Mu P",
+      "Schaeffer EM",
+      "Hundley HA",
+      "Niu H",
+      "Chinnaiyan AM",
+      "Wang L",
+      "Shi J",
+      "Jin J",
+      "Dong X",
+      "Zhao W",
+      "Chen K",
+      "Cao Q"
+    ],
+    "published": "2026-03-26",
+    "journal": "Nature communications",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41882000/",
+    "score": 45,
+    "summary": {
+      "title_zh": "EZH2通过ADAR调控A-to-I RNA编辑与mRNA稳定性的双重作用",
+      "tool_type": "机制解析与治疗靶点发现平台（非直接工程化工具，但揭示了可用于干预的EZH2-ADAR1调控轴）",
+      "design": "本研究并非从头设计一个合成工具，而是通过解析内源性蛋白质相互作用网络，揭示了一个全新的调控模块。其核心思路是发现并验证了EZH2通过与ILF2竞争性结合ADAR1，重塑ADAR1的底物选择性，并同时通过调控TRN1翻译来影响ADAR1亚型的细胞定位，从而形成一个调控RNA编辑与mRNA稳定性的级联网络。",
+      "functions": "1. 机制解析：阐明了EZH2以不依赖于其组蛋白甲基转移酶活性的方式，双向调控A-to-I RNA编辑谱的分子机制。\n2. 稳定性调控：揭示了EZH2-ADAR1级联反应通过影响ADAR1p110亚型的胞质定位，来保护致癌转录本mRNA稳定性的新功能。\n3. 治疗策略启示：为癌症治疗提供了联合靶向EZH2和ADAR1的新视角，即抑制EZH2可能通过上调ADAR1功能而产生耐药性，提示同时靶向ADAR1可增强EZH2靶向疗法的疗效。",
+      "key_results": "关键实验表明，在前列腺癌中，EZH2缺失会重塑ADAR1的编辑谱，并导致致癌转录本mRNA稳定性下降；最重要的是，体内外实验均证明，ADAR1的敲除能显著增强癌细胞和肿瘤对EZH2选择性降解剂的敏感性，这为联合治疗策略提供了直接证据。"
+    }
+  },
+  {
+    "id": "41885416",
+    "title": "Adaptation of the multiplexed CRISPR-Cas13 CARMEN RVP assay for longitudinal detection of respiratory pathogens from air samples.",
+    "abstract": "Air sampling is a non-invasive alternative to individual testing for respiratory pathogens. Alternative methods to the \"gold standard\" quantitative reverse transcription-PCR (qRT-PCR) are required to enable higher throughput, lower cost, and more multiplexed detection of pathogens. The multiplexed CRISPR-Cas13 CARMEN Respiratory Viral Panel (RVP) was described previously for high-throughput detection of nine respiratory pathogens from nasal swab samples. Here, we modified and optimized the CARMEN RVP assay to overcome the unique challenges of air samples, including low biomass and environmental inhibitors. We monitored for SARS-CoV-2 and influenza A (Flu A) via qRT-PCR in air samples from 15 schools within Dane County, Wisconsin (USA), during the 2023-2024 school year. SARS-CoV-2 was detectable throughout the entire sampling period, while Flu A detection was seasonal from November 2023 to March 2024. We then analyzed a subset of samples from seven schools using an optimized CARMEN RVP assay for air surveillance (RVP_air) and compared the results to qRT-PCR. The RVP_air assay detected several additional pathogens beyond our primary targets. The frequencies and patterns of SARS-CoV-2 positivity, but not Flu A positivity, were similar between qRT-PCR and RVP_air across the 2023-2024 sampling period. We developed a secondary panel (RVP_air_flu) to better detect both H1N1 and H3N2 subtypes. Finally, we compared air sample results to clinical nasal swabs collected from the same school district. For several pathogens (SARS-CoV-2, HCoV-OC43, Flu A), positive air detections coincided with positive nasal swabs. These findings demonstrate that the RVP_air assay can effectively detect airborne pathogens from infected individuals within indoor spaces. Air sampling offers a cost-effective alternative to individual testing for respiratory pathogens within congregate settings. Optimization and use of multi-pathogen assays are especially valuable for capturing the breadth of pathogens that may be present simultaneously in the same space. The modified CARMEN RVP assays (RVP_air and RVP_air_flu) detected SARS-CoV-2 and Flu A during similar sampling time periods compared to qRT-PCR, while also detecting several additional respiratory pathogens (seasonal coronaviruses, respiratory syncytial virus). Importantly, pathogens detected from air samples corresponded to those detected from nasal swabs collected from individuals in the same spaces. Together, these findings highlight the utility of the RVP_air and RVP_air_flu assays as alternatives to qRT-PCR for environmental surveillance, with applications extending to other congregate spaces (hospitals, long-term care facilities) and high-risk settings, better informing communities and improving public health.",
+    "authors": [
+      "Ellis AL",
+      "Stauss M",
+      "Barros Tiburcio P",
+      "Emmen IE",
+      "Edlefsen PT",
+      "Kosmider E",
+      "Barlow S",
+      "Goss M",
+      "Temte JL",
+      "Stachler E",
+      "McMahon K",
+      "Sabeti P",
+      "O'Connor DH",
+      "O'Connor SL"
+    ],
+    "published": "2026-03-26",
+    "journal": "Applied and environmental microbiology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41885416/",
+    "score": 35,
+    "summary": {
+      "title_zh": "用于空气样本中呼吸道病原体纵向检测的多重CRISPR-Cas13 CARMEN RVP检测方法的改进",
+      "tool_type": "RNA检测与诊断平台（基于CRISPR-Cas13的多重核酸检测系统）",
+      "design": "本研究并非设计新的酶或编辑器，而是对已有的多重CRISPR-Cas13 CARMEN RVP检测平台进行应用层面的优化和调整。核心思路是针对空气样本（生物量低、存在环境抑制剂）的特殊挑战，对原有的CARMEN（组合阵列反应多重扩增）检测流程进行改进和优化，使其适用于环境空气监测。",
+      "functions": "1. 多重病原体检测：可同时检测多种呼吸道病原体（如SARS-CoV-2、流感A型、季节性冠状病毒、呼吸道合胞病毒等）。\n2. 环境监测：实现对空气样本中病原体RNA的高通量、低成本检测。\n3. 纵向监测：适用于对同一场所（如学校）进行长期、连续的病原体流行情况追踪。",
+      "key_results": "1. 性能验证：优化后的RVP_air检测法与金标准qRT-PCR在SARS-CoV-2的检测频率和模式上结果相似，并能检测到qRT-PCR面板之外的额外病原体。\n2. 相关性验证：空气样本中检测到的多种病原体（SARS-CoV-2、HCoV-OC43、流感A）与同一空间内个体鼻拭子样本的检测结果具有一致性，证明了其环境监测的有效性。"
+    }
+  },
+  {
+    "id": "41884948",
+    "title": "Nanopore Electroporation: A New Delivery Method Within the Field of Epigenetic Editing.",
+    "abstract": "Epigenetic modifications influence gene expression and contribute to type 2 diabetes (T2D), but establishing causality requires targeted modulation of specific genes. CRISPR-dCas9-based tools offer this potential, yet β-cells are notoriously difficult to transfect, and efficient, non-viral delivery methods are lacking. Here, we developed nanopore-mediated electroporation to deliver a CRISPR interference (CRISPRi) system to clonal INS1 β-cells, achieving targeted downregulation of insulin expression. Cells were seeded atop a nanopore substrate with CRISPRi plasmids in solution below. Mild electric pulses generated transient nanoscale pores in the membrane, enabling electrophoretic delivery of plasmids into the cytosol while preserving high cell viability. The CRISPRi system comprised the transcriptional repressor Krueppel-associated Box Domain (KRAB) fused to an inactive Cas9 (dCas9), guided to the transcription start site of the insulin-1 gene (Ins1) by a single guide RNA (sgRNA). After transfection, Ins1 expression was significantly reduced, demonstrating effective modulation of gene expression in this difficult-to-transfect cell type. This nanopore electroporation approach provides a robust, safe, and efficient platform for delivering CRISPR-dCas9-based epigenetic editors in pancreatic β-cells. By enabling precise gene regulation, it opens avenues for mechanistic studies of epigenetic contributions to T2D and potentially other challenging cell systems.",
+    "authors": [
+      "Ekstrand F",
+      "Ruhrmann S",
+      "Bacos K",
+      "Bartel S",
+      "Jellema P",
+      "Rots MG",
+      "Ling C",
+      "Prinz CN"
+    ],
+    "published": "2026-03-26",
+    "journal": "Small (Weinheim an der Bergstrasse, Germany)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41884948/",
+    "score": 35,
+    "summary": {
+      "title_zh": "纳米孔电穿孔：表观遗传编辑领域的一种新型递送方法",
+      "tool_type": "CRISPR-dCas9 表观遗传编辑系统的非病毒递送平台",
+      "design": "1. 将细胞接种在纳米孔基底上，下方溶液中含有CRISPRi质粒。\n2. 施加温和电脉冲，在细胞膜上产生瞬时纳米级孔隙，利用电泳效应将质粒递送至胞质，同时保持高细胞活力。",
+      "functions": "1. 向难转染细胞（如胰岛β细胞）高效、安全地递送基于CRISPR-dCas9的表观遗传编辑工具（如CRISPRi）。\n2. 实现靶向基因表达下调（此处为胰岛素基因），用于表观遗传调控的机制研究。\n3. 为在胰腺β细胞及其他挑战性细胞系统中进行精确基因调控提供通用递送平台。",
+      "key_results": "1. 成功将CRISPRi系统（dCas9-KRAB + sgRNA）递送至克隆INS1 β细胞，并靶向胰岛素-1基因（Ins1）转录起始位点。\n2. 转染后Ins1表达显著降低，证明了在该难转染细胞类型中实现了有效的基因表达调控，且细胞活力保持良好。"
+    }
+  },
+  {
+    "id": "41886504",
+    "title": "Whole-genome CRISPR screening identifies genetic modifiers of stem cell-derived islet transplantation.",
+    "abstract": "Genetically engineering human pluripotent stem cell (hPSC)-derived islets is a promising strategy for improving transplantation for diabetes cell therapy; however, genetic perturbations that modulate transplantation outcomes have yet to be systematically explored. To identify potential targets, we performed an unbiased whole-genome CRISPR-activation screen in transplanted stem cell-derived islets (SC-islets). Specifically, we created a stem cell line with CRISPR-activation components (HUES8-VPR) and then transduced these stem cells with a lentiviral guide RNA library targeting the whole human genome. Following transduction, the stem cells were differentiated into SC-islets, which were subsequently transplanted into NOD.Cg-PrkdcscidIl2rgtm1Wjl/SzJ (NSG) immunodeficient mice. After transplantation, SC-islets were extracted for next-generation sequencing. The screen identified multiple candidates, including the Fc alpha/mu receptor (FCAMR). In vitro characterization revealed that FCAMR overexpression did not negatively affect SC-islet function or transcriptomic identity. Mice subcutaneously transplanted with SC-islets overexpressing FCAMR had reduced blood glucose levels and increased C-peptide compared to controls. Additionally, mice receiving FCAMR-modified grafts into the kidney capsule or hindleg muscle maintained a higher body weight compared to controls in a diabetic setting. In conclusion, this study demonstrats improved glucose regulation at a subcutaneous transplant site. In addition, we show that FCAMR SC-islets could play a role in systemic metabolism when transplanted into the kidney capsule or hindleg muscle. Overall, our study establishes a functional screening approach to identify gene candidates to improve SC-islet transplantation.",
+    "authors": [
+      "Maestas MM",
+      "Bradley K",
+      "Shunkarova M",
+      "Mukherjee N",
+      "Ishahak M",
+      "Lu J",
+      "Millman JR"
+    ],
+    "published": "2026-03-23",
+    "journal": "Stem cells translational medicine",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41886504/",
+    "score": 15,
+    "summary": {
+      "title_zh": "全基因组CRISPR筛选鉴定干细胞衍生胰岛移植的遗传修饰因子",
+      "tool_type": "基于CRISPR激活（CRISPRa）的功能性筛选平台",
+      "design": "该平台的核心设计思路是：1）构建一个稳定整合了CRISPR激活系统（VPR）的人多能干细胞系；2）利用靶向全基因组的慢病毒gRNA文库转导该细胞系；3）将经过遗传扰动的干细胞定向分化为胰岛细胞（SC-islets）并进行体内移植。通过这种“文库构建-分化-移植-测序”的模块化流程，系统性筛选能改善移植效果的基因。",
+      "functions": "1. **功能性遗传筛选**：在全基因组范围内系统性鉴定能够调控干细胞衍生胰岛移植效果（如血糖调节、存活、功能）的基因。\n2. **靶点发现与验证**：作为发现平台，用于识别可提高细胞治疗疗效的潜在基因工程靶点（如本研究中的FCAMR）。\n3. **移植优化研究**：为糖尿病细胞治疗（尤其是干细胞衍生胰岛移植）的优化提供直接的基因工程候选目标和筛选方法。",
+      "key_results": "1. **关键性能指标**：筛选成功鉴定出多个候选基因，其中对Fc α/μ受体（FCAMR）的深入验证表明，过表达FCAMR的SC-islets在体外功能正常，在移植到免疫缺陷小鼠皮下后，能显著降低受体血糖水平并增加C肽分泌；移植到肾包膜或后腿肌肉后，在糖尿病环境下能帮助维持更高的体重。\n2. **平台验证**：该研究在体内外验证了筛选平台的有效性，证明其能够发现并确认可系统性改善SC-islet移植代谢调节功能的基因靶点。"
+    }
+  }
+]
