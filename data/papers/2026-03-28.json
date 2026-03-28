@@ -1,0 +1,128 @@
+[
+  {
+    "id": "41889456",
+    "title": "Advanced CRISPR Technologies for RNA Imaging in Live Cells.",
+    "abstract": "RNA plays a pivotal role in the regulation of gene expression, and its spatiotemporal dynamics are critical for elucidating fundamental biological processes and disease mechanisms. However, traditional RNA imaging methods, such as fluorescence in situ hybridization (FISH) and the MS2-GFP system, often require cell fixation, suffer from low labeling efficiency, or interfere with native RNA functionthus limiting their ability to monitor RNA behavior in living cells. In recent years, CRISPR technology has rapidly emerged as a powerful tool for live-cell RNA imaging due to its high target specificity, signal amplification capability, and excellent compatibility with living systems. This review provides a comprehensive overview of recent advances in CRISPR-based live-cell RNA imaging, highlighting its imaging principles, technical advantages, and representative applications.",
+    "authors": [
+      "Lv X",
+      "Li Z",
+      "Zheng H",
+      "Sun T",
+      "Xie W",
+      "Yuan A",
+      "Shang Y",
+      "Peng H"
+    ],
+    "published": "2026-03-23",
+    "journal": "Chemical & biomedical imaging",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41889456/",
+    "score": 65,
+    "summary": {
+      "title_zh": "用于活细胞RNA成像的先进CRISPR技术",
+      "tool_type": "RNA成像工具/平台（基于CRISPR的RNA定位与追踪系统）",
+      "design": "该平台的核心设计思路是利用CRISPR-Cas系统（特别是Cas13家族）的RNA靶向能力，将无催化活性的Cas蛋白（如dCas13）与荧光报告蛋白（如GFP）融合。通过设计特异性的向导RNA（crRNA）将融合蛋白招募至目标RNA序列，从而实现活细胞内RNA的可视化追踪。",
+      "functions": "1. 活细胞内RNA的实时定位与成像；\n2. 监测RNA的时空动态分布与转运过程；\n3. 研究RNA与细胞结构或其它生物分子的相互作用；\n4. 兼容活细胞系统，对天然RNA功能干扰较小。",
+      "key_results": "综述指出，基于CRISPR的RNA成像技术（如Cas13系统）在活细胞中表现出高靶向特异性，并能通过多重标记或信号放大策略实现高效成像，已成功应用于追踪多种内源性RNA的动态行为，且相较于传统方法（如FISH、MS2系统）对RNA功能的干扰更小。"
+    }
+  },
+  {
+    "id": "41890844",
+    "title": "Structure-aware graph learning predicts RNA editability across tissues and species.",
+    "abstract": "Programmable A-to-I RNA editing using endogenous ADAR enzymes is emerging as a therapeutic strategy, but editability remains difficult to predict because ADAR recognition depends on double-stranded RNA geometry and stability rather than sequence alone. We present ADAREDIT, a structure-explicit graph-attention framework that represents each dsRNA substrate as a nucleotide graph with backbone and base-pair edges and augments this representation with typed interactions and a motif-sensitive sequence branch. We trained and evaluated the model on high-confidence inverted Alu duplexes (n = 905) with secondary structures predicted by RNAfold and editing levels measured across 8,603 GTEx RNA-seq samples spanning 47 tissues. Across five tissue contexts and comprehensive cross-tissue transfer experiments, ADAREDIT consistently outperformed sequence-only CNN, transformer, and RNA language model baselines and achieved strong discrimination on combined tissue data (AUROC/AUPRC = 0.96; F1 ≈ 0.90). The same graph representation transferred to evolutionarily distant non-Alu species (sea urchin, acorn worm, and octopus), indicating conserved principles of ADAR substrate recognition. Finally, attention profiles and in silico mutagenesis recapitulated known biochemical constraints, including suppression by an upstream guanosine, and revealed longer-range asymmetric structural influences on editing. The sources of this work are available at our repository: https://github.com/Scientific-Computing-Lab/AdarEdit.",
+    "authors": [
+      "Oren G",
+      "Rosenwasser Z",
+      "Levitt M",
+      "Levanon E"
+    ],
+    "published": "2026-03-19",
+    "journal": "Research square",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41890844/",
+    "score": 65,
+    "summary": {
+      "title_zh": "结构感知图学习预测跨组织和跨物种的RNA可编辑性",
+      "tool_type": "RNA编辑预测平台/计算工具（基于ADAR的RNA编辑预测模型）",
+      "design": "该工具（ADAREDIT）是一个结构显式的图注意力框架。其核心思路是将每个双链RNA底物表示为具有骨架和碱基对边的核苷酸图，并通过引入类型化相互作用和一个对基序敏感的序列分支来增强这一表征，从而整合RNA的二级结构信息和序列特征，以预测ADAR介导的A-to-I编辑效率。",
+      "functions": "1. 预测内源性ADAR酶对特定RNA位点的可编辑性（编辑效率）。\n2. 识别影响ADAR编辑效率的关键结构特征和序列基序。\n3. 辅助设计更有效的可编程RNA编辑工具（如指导RNA），通过预测其与靶RNA形成的双链结构的可编辑性来优化设计。",
+      "key_results": "1. 在跨五个组织背景和全面的跨组织迁移实验中，ADAREDIT的性能（AUROC/AUPRC = 0.96；F1 ≈ 0.90）持续优于仅基于序列的CNN、Transformer和RNA语言模型基线。\n2. 相同的图表征能够迁移应用于进化上遥远的非Alu物种（海胆、橡子虫和章鱼），表明ADAR底物识别原则具有保守性，模型具有良好的泛化能力。"
+    }
+  },
+  {
+    "id": "41277604",
+    "title": "TKC-MC: An Effective Strategy for Generating Heritable Heterozygous Mutations in Essential Genes in Rice.",
+    "abstract": "The CRISPR/Cas9 gene-editing technology has been widely used in defining gene functions and crop improvement. However, some genes are essential for plant growth and development. Loss-of-function homozygous mutations in essential genes lead to plant death or sterility. Mutations in essential genes need to be maintained and propagated in heterozygous plants. CRISPR/Cas9 technology is highly efficient in generating homozygous or bi-allelic mutations at T0 generation in rice, making it difficult to generate useful genetic materials for essential genes using traditional gene editing technology. In this study, we designed Transgene-Killer CRISPR (TKC)-mediated mismatch-spacer targeting (TKC-M) to efficiently generate heritable heterozygous mutations in essential genes in rice. Leveraging our earlier transgenic offspring self-elimination TKC platform, TKC-M relied on timely self-elimination of Cas9 and engineered gRNA-target mismatches to enrich heritable heterozygous or mosaic incomplete-edited T0 mutants and heterozygous progeny. We found that the sensitivity of targets to spacer mismatch(es) varies. A single-base mismatch at gRNA positions 11 or 17 yielded abundant heritable heterozygotes in sensitive targets. For insensitive targets, dual mismatches at positions 8 and 15 maximised heritable heterozygotes. Co-transformation of rice with TKC vectors carrying gRNA without mismatches (G1), gRNA with a mismatch at position 11 (M11) and M8 + M15 spacers, termed TKC-M Cocktail (TKC-MC) significantly increased the incomplete-edited mutant ratio compared with using G1 alone. This work establishes a technical foundation for generating mutant libraries that cover every single gene in a plant genome and for in-depth research on essential genes.",
+    "authors": [
+      "Xu M",
+      "Yan L",
+      "Zhu M",
+      "Zhan Z",
+      "Chen H",
+      "Wang D",
+      "Zheng Z",
+      "Zhang Y",
+      "Xiong L",
+      "He Y"
+    ],
+    "published": "2026-04-01",
+    "journal": "Plant biotechnology journal",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41277604/",
+    "score": 35,
+    "summary": {
+      "title_zh": "TKC-MC：一种在水稻必需基因中产生可遗传杂合突变的有效策略",
+      "tool_type": "基于CRISPR/Cas9的转基因自消除与错配引导RNA（gRNA）设计平台",
+      "design": "该工具的核心设计思路是结合两个模块：1）利用先前的转基因后代自消除（TKC）平台，在T0代后及时自我消除Cas9/gRNA元件，防止持续编辑；2）在gRNA的间隔序列中引入特定位置（如第11、17位）的单碱基错配或组合错配（如第8和15位），以降低编辑效率，从而富集不完全编辑的杂合突变体。",
+      "functions": "1. 在水稻必需基因中高效产生可遗传的杂合突变体；2. 构建覆盖植物基因组所有单基因的突变体库；3. 为必需基因的功能研究提供可存活、可繁殖的遗传材料。",
+      "key_results": "1. 对于敏感靶点，在gRNA第11或17位引入单碱基错配可产生大量可遗传杂合子；对于不敏感靶点，在第8和15位引入双错配效果最佳。2. 采用包含无错配、单错配（M11）及双错配（M8+M15）gRNA的TKC-MC混合策略，与单独使用无错配gRNA相比，显著提高了不完全编辑突变体的比例。"
+    }
+  },
+  {
+    "id": "41433155",
+    "title": "Protocol for marker-free genome editing in Saccharomyces cerevisiae using universal donor templates and multiplexed CRISPR-Cas9.",
+    "abstract": "Here, we present a protocol for marker-free genome editing in Saccharomyces cerevisiae by combining PCR-based selectable marker cassettes with CRISPR-Cas9. We describe steps for generating gene deletions using MX6 markers and excising the markers by introducing a reusable guide RNA (gRNA)-Cas9 plasmid and universal repair templates, allowing multiplex removal in a single step. Final verification by PCR yields marker-free strains that can be iteratively edited using the same selectable markers. For complete details on the use and execution of this protocol, please refer to Grissom et al.",
+    "authors": [
+      "Hemani D",
+      "Grissom JH",
+      "Chi RJ"
+    ],
+    "published": "2026-03-20",
+    "journal": "STAR protocols",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41433155/",
+    "score": 35,
+    "summary": {
+      "title_zh": "使用通用供体模板和多重CRISPR-Cas9在酿酒酵母中进行无标记基因组编辑的方案",
+      "tool_type": "CRISPR-Cas9基因组编辑与标记回收平台",
+      "design": "该方案的核心思路是将基于PCR的可选择标记盒与CRISPR-Cas9系统相结合。首先利用MX6标记进行基因删除，然后通过引入可重复使用的gRNA-Cas9质粒和通用修复模板，在单一步骤中实现多重标记的切除，从而回收标记以供后续编辑循环使用。",
+      "functions": "1. 在酿酒酵母中进行无标记的基因删除。\n2. 通过单步多重编辑，同时切除多个基因组位点上的选择标记。\n3. 实现可迭代的基因组编辑，同一套选择标记可在多轮编辑中重复使用。",
+      "key_results": "关键性能指标是通过PCR验证成功获得了无标记的酵母菌株，并且该平台支持使用相同的选择标记进行迭代编辑，证明了其可重复性和高效性。"
+    }
+  },
+  {
+    "id": "41890105",
+    "title": "Improved vector toolkit for genome writing in mammalian cells.",
+    "abstract": "Efficient genome writing in mammalian cells requires robust methods for integrating large DNA payloads. The previously described method mammalian Switching Antibiotic resistance markers Progressively for Integration (mSwAP-In) enables iterative, biallelic genome rewriting in mammalian stem cells with DNA payloads exceeding 100 kb. However, the lack of standardized vectors and certain technical constraints have limited its broader adoption. Here we present an improved plasmid toolkit designed to streamline the implementation of mSwAP-In. The toolkit includes two core vectors. pLP-TK (pCTC174) is a landing-pad plasmid compatible with Golden Gate assembly of genomic homology arms and supports both mSwAP-In and the recombinase-mediated cassette exchange method Big-IN. mSwAP-In MC2v2 (pKBA135) is a versatile Big DNA assembly and delivery vector that supports Gibson-based assembly and incorporates positive, negative, and fluorescent selection markers, as well as a backbone counterselection cassette to minimize unwanted plasmid integration. The vector architecture also enables propagation in yeast and bacterial hosts, inducible plasmid copy-number amplification in standard E. coli strains, and CRISPR/Cas9-mediated payload release through preinstalled guide RNA target sites. We further characterize the FCU1/5-FC counterselection system in mouse embryonic stem cells and define conditions that minimize its bystander toxicity. Finally, we provide a set of Cas9-gRNA expression plasmids optimized for common mSwAP-In applications. Together, these reagents constitute a standardized and experimentally validated toolkit that simplifies large-scale genome writing using mSwAP-In.",
+    "authors": [
+      "Barriball K",
+      "Berrios B",
+      "Coelho C",
+      "Pinglay S",
+      "Zhao Y",
+      "Chalhoub N",
+      "Tsou T",
+      "Atwater JT",
+      "Boeke JD",
+      "Zhang W",
+      "Brosh R"
+    ],
+    "published": "2026-03-17",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41890105/",
+    "score": 35,
+    "summary": {
+      "title_zh": "用于哺乳动物细胞基因组写入的改进型载体工具包",
+      "tool_type": "大片段DNA整合与基因组写入平台（基于同源重组与CRISPR/Cas9的载体系统）",
+      "design": "该工具包的核心设计思路是构建两个标准化、模块化的核心载体：1) pLP-TK作为“着陆垫”质粒，通过Golden Gate组装兼容基因组同源臂，支持mSwAP-In和Big-IN两种整合方法；2) mSwAP-In MC2v2作为大片段DNA组装与递送载体，集成了吉布森组装兼容性、多重选择标记（正/负/荧光）以及用于消除非预期整合的骨架反向选择盒。载体架构还支持在酵母/细菌宿主中增殖、在大肠杆菌中诱导拷贝数扩增，并通过预装的gRNA靶点实现CRISPR/Cas9介导的负载释放。",
+      "functions": "1. 实现哺乳动物细胞（尤其是干细胞）中超过100 kb的大片段DNA的迭代、双等位基因基因组写入；\n2. 支持两种整合方法：mSwAP-In（哺乳动物切换抗生素抗性标记渐进整合）和Big-IN（重组酶介导的盒式交换）；\n3. 提供标准化的载体、选择标记和Cas9-gRNA表达质粒，简化大规模基因组工程实验流程；\n4. 通过反向选择系统（如FCU1/5-FC）和骨架计数选择，最大限度地减少非目标质粒整合。",
+      "key_results": "1. 工具包中的载体系统经过实验验证，能够高效支持大片段DNA的组装与递送，并成功在小鼠胚胎干细胞中实现基因组写入；\n2. 对FCU1/5-FC反向选择系统进行了优化，定义了可最大限度减少其旁观者毒性的条件，提高了选择效率与细胞存活率。"
+    }
+  }
+]
