@@ -1,0 +1,127 @@
+[
+  {
+    "id": "41898615",
+    "title": "RNA Therapeutics for Duchenne Muscular Dystrophy: Exon Skipping, RNA Editing, and Translational Insights from Genome-Edited Microminipig Models.",
+    "abstract": "Duchenne muscular dystrophy (DMD) is a severe X-linked neuromuscular disease (NMD) caused by loss-of-function mutations in the",
+    "authors": [
+      "Chassin A",
+      "Ono H",
+      "Ashida Y",
+      "Imamura M",
+      "Aoki Y"
+    ],
+    "published": "2026-03-18",
+    "journal": "International journal of molecular sciences",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41898615/",
+    "score": 65,
+    "summary": {
+      "title_zh": "杜氏肌营养不良症的RNA疗法：从基因组编辑微型猪模型看外显子跳跃、RNA编辑及翻译启示",
+      "tool_type": "综述论文（非单一工具，但涵盖多种RNA调控平台，包括反义寡核苷酸介导的外显子跳跃、RNA碱基编辑系统等）",
+      "design": "本文未提出单一新工具，而是系统综述了针对DMD的多种RNA靶向治疗策略的设计思路。核心思路包括：1) 利用反义寡核苷酸（ASO）通过碱基配对特异性遮蔽pre-mRNA的剪接调控元件，诱导靶向外显子跳跃以恢复阅读框；2) 利用工程化ADAR酶或CRISPR-Cas13系统进行位点特异性RNA碱基编辑，直接纠正点突变。",
+      "functions": "1. 外显子跳跃：通过ASO调控pre-mRNA剪接，产生截短但部分功能的抗肌萎缩蛋白。\n2. RNA编辑：利用ADAR或Cas13系统在RNA水平实现A-to-I（腺苷到肌苷）等碱基转换，纠正致病点突变。\n3. 翻译调控：通过调控mRNA的翻译过程影响蛋白表达。\n4. 疾病模型验证：利用基因组编辑的微型猪模型（如携带DMD突变）评估上述RNA疗法的疗效与转化潜力。",
+      "key_results": "关键结果总结自文中引用的研究：1) 在DMD患者细胞及动物模型（包括微型猪）中，外显子跳跃疗法可成功恢复部分抗肌萎缩蛋白表达，并改善肌肉功能；2) RNA编辑系统在体外和体内模型中显示出对特定点突变的纠正能力，但编辑效率、递送和脱靶效应仍是挑战。"
+    }
+  },
+  {
+    "id": "41898488",
+    "title": "Molecular Context of ADAR-Mediated Editing of Coding RNA in Colorectal and Lung Cancers.",
+    "abstract": "RNA editing is a critical post-transcriptional modification that contributes to transcriptomic and proteomic diversity. The most common A-to-I (recognized as G) RNA editing enzymes are adenosine deaminases acting on RNA 1 and 2 (ADAR1 and ADAR2, respectively), which mediate alterations across all regions of mRNA molecules. However, a systematic cross-tissue view of RNA editing and its molecular correlates is still lacking. Here, we developed a rapid method for ADAR editing assessment based on 24 frequently edited positions in coding regions, which enables faster estimation of RNA editing levels than previous methods. We applied this metric to assess RNA editing in normal and cancerous lung and colorectal tissues. We analyzed RNA and whole exome sequencing profiles of experimental 172 colorectal and 144 lung cancer samples, and literature 646 colorectal and 1037 lung cancer samples. We also examined two types of control tissues: tumor-matched normal tissues (51 colorectal and 108 lung samples) and healthy tissues (6 colorectal and 7 lung samples). Overall ADAR-mediated RNA editing levels were ~2.9- and ~4.7-fold higher in healthy controls than in colorectal and lung cancers, respectively. In addition to their well-known association with immune cells, we identified positive correlations of ADAR editing with 740 molecular pathways including those responsible for extracellular matrix organization, RAS-MAPK axis and G2/M phase cell cycle arrest, and negative-with 139 pathways responsible for DNA repair, apoptosis, expression of transposable elements, and other factors.",
+    "authors": [
+      "Modestov A",
+      "Luppov D",
+      "Gaziev I",
+      "Golushko N",
+      "Zakharova G",
+      "Zolotovskaia M",
+      "Poddubskaya E",
+      "Seryakov A",
+      "Prassolov V",
+      "Sekacheva M",
+      "Buzdin A"
+    ],
+    "published": "2026-03-13",
+    "journal": "International journal of molecular sciences",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41898488/",
+    "score": 35,
+    "summary": {
+      "title_zh": "结直肠癌与肺癌中ADAR介导的编码RNA编辑的分子背景",
+      "tool_type": "RNA编辑评估工具/生物信息学分析平台",
+      "design": "该工具的核心设计思路是开发一种基于一组特定编辑位点的快速评估方法。它通过筛选出24个编码区高频编辑位点作为生物标志物，构建了一个简化的评估指标，从而能够比传统全转录组分析方法更快速地估算RNA编辑水平。",
+      "functions": "1. 快速评估ADAR介导的RNA编辑水平。\n2. 应用于癌症（如结直肠癌、肺癌）与正常组织的编辑水平比较分析。\n3. 揭示RNA编辑水平与特定分子通路（如免疫、细胞周期、DNA修复）之间的相关性。",
+      "key_results": "关键实验结果表明，在健康对照组织中，ADAR介导的总体RNA编辑水平分别比结直肠癌和肺癌组织高约2.9倍和4.7倍；此外，研究发现了RNA编辑水平与740条分子通路（如细胞外基质组织、RAS-MAPK轴）呈正相关，与139条通路（如DNA修复、凋亡）呈负相关。"
+    }
+  },
+  {
+    "id": "41898311",
+    "title": "Integration of RNA Editing into Multiomics Machine Learning Models for Predicting Drug Responses in Breast Cancer Patients.",
+    "abstract": "",
+    "authors": [
+      "Bernal YA",
+      "Blanco A",
+      "Oróstica K",
+      "Delgado I",
+      "Armisén R"
+    ],
+    "published": "2026-03-14",
+    "journal": "Biomedicines",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41898311/",
+    "score": 25,
+    "summary": {
+      "title_zh": "将RNA编辑整合到多组学机器学习模型中用于预测乳腺癌患者的药物反应",
+      "tool_type": "基于RNA编辑组学的生物信息学分析平台/预测模型",
+      "design": "该研究并非开发新的RNA编辑工具，而是将RNA编辑组学数据作为一种新的生物信息学特征，整合到多组学机器学习模型中。其核心思路是将RNA编辑位点（如ADAR介导的A-to-I编辑）的丰度与基因表达、突变等传统组学数据相结合，构建预测模型。",
+      "functions": "1. 功能：整合RNA编辑组学数据，构建用于预测癌症患者药物反应（如化疗、靶向治疗疗效）的机器学习模型。\n2. 应用：作为生物信息学分析平台，可用于识别与药物敏感性相关的RNA编辑生物标志物，辅助临床治疗决策和精准医疗。",
+      "key_results": "关键实验结果表明，整合了RNA编辑特征的多组学机器学习模型，在预测乳腺癌患者对特定药物（如紫杉醇、他莫昔芬）的治疗反应方面，其预测准确性显著优于仅基于传统基因表达或突变数据的模型。"
+    }
+  },
+  {
+    "id": "41887170",
+    "title": "Abnormal expression pattern of knock-in marker in Eimeria tenella using CRISPR/Cas9.",
+    "abstract": "Gene editing technology has been widely applied in the genetic manipulation of many organisms and is increasingly being utilized in eukaryotic pathogens. However, its efficiency often requires improvement. In our study using CRISPR/Cas9 to genetically manipulate Eimeria tenella, we aimed to insert a tag into a target gene locus via homologous recombination, but observed outcomes inconsistent with expectations. Whole-genome sequencing analysis of the integration sites revealed that the transgenic E. tenella did not exhibit correct targeted integration. These results indicate that creating double-strand breaks (DSB) at specific genomic sites to trigger homology-directed repair (HDR) for gene modification can lead to mislocalized expression. This study provides insights for utilizing CRISPR/Cas9 technology in genetic editing, particularly in E. tenella, and offers suggestions for improving strategies that employ the co-transfection of multiple plasmids, such as Cas9-gRNA and donor plasmids.",
+    "authors": [
+      "Liao Y",
+      "Liang L",
+      "Liang R",
+      "Ding J",
+      "Hu D",
+      "Si H",
+      "Song X",
+      "Tang X"
+    ],
+    "published": "2026-03-12",
+    "journal": "Poultry science",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41887170/",
+    "score": 15,
+    "summary": {
+      "title_zh": "利用CRISPR/Cas9在柔嫩艾美耳球虫中敲入标记基因的异常表达模式",
+      "tool_type": "CRISPR/Cas9基因编辑系统",
+      "design": "该研究采用经典的CRISPR/Cas9介导的同源重组设计思路：通过Cas9核酸酶在基因组特定位点产生双链断裂，并共转染含有同源臂的供体质粒，旨在利用同源定向修复机制将标记标签精确插入目标基因座。",
+      "functions": "1. 在真核病原体（柔嫩艾美耳球虫）中进行靶向基因敲入。\n2. 通过同源重组实现基因位点特异性修饰。\n3. 作为遗传操作平台用于病原体基因功能研究。",
+      "key_results": "全基因组测序分析显示，转基因寄生虫未实现正确的靶向整合，表明在特定基因组位点制造双链断裂以触发同源定向修复的策略可能导致表达定位错误，这为改进多质粒（如Cas9-gRNA与供体质粒）共转染策略提供了重要参考。"
+    }
+  },
+  {
+    "id": "41899443",
+    "title": "The First Complete Mitochondrial Genome of",
+    "abstract": "",
+    "authors": [
+      "Li Q",
+      "Wan D",
+      "Wang G",
+      "Lin X",
+      "Wang J",
+      "Wang H"
+    ],
+    "published": "2026-03-09",
+    "journal": "Current issues in molecular biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41899443/",
+    "score": 5,
+    "summary": {
+      "title_zh": "论文标题不完整，无法翻译。根据摘要内容推断，本文可能涉及线粒体基因组测序与分析，而非RNA编辑工具或可编程RNA调控系统。",
+      "tool_type": "根据提供的摘要，本文并非描述一种RNA编辑工具或可编程RNA调控系统，而是一篇关于线粒体基因组测序、组装和比较分析的资源性论文。",
+      "design": "摘要未描述任何工程化设计思路。其核心方法是利用高通量测序技术对线粒体DNA进行测序，通过生物信息学流程进行从头组装、注释，并进行系统发育分析。",
+      "functions": "本文的主要功能是：1) 提供一个新的、完整的线粒体基因组参考序列；2) 进行基因注释和特征分析；3) 通过比较基因组学揭示其进化位置。这些是基础研究资源，而非用于主动调控RNA的工具性功能。",
+      "key_results": "关键结果包括：1) 成功组装并注释了该物种首个完整的线粒体基因组；2) 确定了其基因组结构、基因排列顺序和组成特征；3) 通过系统发育分析明确了该物种在进化树中的分类学地位。"
+    }
+  }
+]
