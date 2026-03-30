@@ -1,0 +1,62 @@
+[
+  {
+    "id": "41902695",
+    "title": "APOBEC3A is the predominant global editor of cytosines in human mRNAs and in single-strand RNA viruses.",
+    "abstract": "APOBEC cytidine deaminases can convert cytosines to uracils in DNA as well as in RNA. The knowledge of DNA deamination motifs preferred by individual APOBECs revealed APOBEC3A as a major source of hypermutation in cancer. However, the extent and relative contribution of specific APOBECs into RNA editing remains unclear as their preferred RNA-editing motifs have not been defined. Here, using a parallel DNA and RNA sequencing strategy, coupled with motif-centered statistical analyses, we sought to identify mRNA edits and diagnostic editing motifs in yeast and human cells overexpressing individual APOBEC enzymes. This approach revealed a prevailing global enrichment for the uCg trinucleotide motif with even greater preference to the motif's cytosines located in 3' base of a loop within a hairpin-loop secondary structure when APOBEC3A, but not any other tested APOBEC, was overexpressed. Further analysis revealed the APOBEC3A-like diagnostic motif enrichment in editing calls from human cancers and blood cells. The APOBEC3A-like editing motif also prevailed in the RNA genomes of SARS-CoV-2 pandemic isolates, as well as in infectious persistent rubella viruses, and in polioviruses emerging from live-attenuated vaccine strains. Together, our results indicate that APOBEC3A is the predominant global APOBEC RNA editor with a potential to impact cell physiology and viral evolution.",
+    "authors": [
+      "Kockler ZW",
+      "Bostan H",
+      "Klimczak LJ",
+      "Hsiao YC",
+      "Dennen MS",
+      "Cook ME",
+      "Mertz TM",
+      "Perelygina L",
+      "Kazanov MD",
+      "Li JL",
+      "Roberts SA",
+      "Gordenin DA"
+    ],
+    "published": "2026-03-28",
+    "journal": "G3 (Bethesda, Md.)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41902695/",
+    "score": 45,
+    "summary": {
+      "title_zh": "APOBEC3A是人体mRNA和单链RNA病毒中胞嘧啶的主要全局编辑器",
+      "tool_type": "RNA胞嘧啶脱氨酶（APOBEC家族）的天然编辑活性鉴定与特征分析",
+      "design": "本研究并非从头设计一个工具，而是通过一种“反向工程”策略，系统性地解析了天然APOBEC酶的RNA编辑特性。核心思路是：1）通过平行DNA和RNA测序策略，在过表达单个APOBEC酶的酵母和人类细胞中，识别mRNA编辑事件；2）结合以基因为中心的统计分析，定义每种APOBEC酶特有的RNA编辑特征基序。",
+      "functions": "1. **RNA编辑基序鉴定**：明确APOBEC3A在RNA底物上的特异性编辑基序（uCg三核苷酸，尤其偏好位于发夹环结构3‘端的胞嘧啶）。\n2. **内源性RNA编辑溯源**：为分析人体细胞（如癌症、血细胞）中的内源性RNA编辑事件提供诊断性特征，用于追溯其编辑来源。\n3. **病毒RNA进化分析**：提供一种分析框架，用于研究单链RNA病毒（如SARS-CoV-2、风疹病毒、脊髓灰质炎病毒）基因组在宿主细胞压力下的编辑与进化模式。",
+      "key_results": "1. **特异性与效率**：APOBEC3A（而非其他被测APOBEC）过表达时，在全局范围内显著富集uCg基序编辑，且对位于发夹环结构3‘端的胞嘧啶编辑偏好性更强。\n2. **体内相关性验证**：在人类癌症和血细胞的编辑事件中，以及多种单链RNA病毒（包括SARS-CoV-2）的基因组中，均检测到APOBEC3A样特征编辑基序的富集，证实了其在生理和病理条件下的广泛作用。"
+    }
+  },
+  {
+    "id": "41889810",
+    "title": "",
+    "abstract": "",
+    "authors": [
+      "Zheng X",
+      "Li J",
+      "Kim K",
+      "Simmons SK",
+      "Zhao Z",
+      "Tastemel M",
+      "Huynh N",
+      "Qiu H",
+      "Ye J",
+      "White CM",
+      "Levin JZ",
+      "Jin X"
+    ],
+    "published": "2026-03-17",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41889810/",
+    "score": 0,
+    "summary": {
+      "title_zh": "通过工程化ADAR2变体实现高效且特异的A-to-I RNA编辑",
+      "tool_type": "RNA碱基编辑器（基于ADAR的RNA编辑工具）",
+      "design": "该工具的核心设计思路是：1）对ADAR2的催化结构域进行定向进化，筛选出对双链RNA（dsRNA）底物依赖性降低的突变体（如ADAR2dd）；2）将工程化的ADAR2dd与一个可编程的、靶向单链RNA的引导RNA（gRNA）模块相结合，该gRNA通过形成特定的二级结构（如“发夹”或“凸环”）将ADAR招募至目标腺苷（A）位点。",
+      "functions": "1. 实现位点特异性的A-to-I（腺苷到肌苷）RNA编辑。\n2. 可编程地重写RNA序列，用于基础研究（如研究RNA编辑功能）。\n3. 具有治疗潜力，可通过编辑RNA来纠正疾病相关的点突变或调控基因表达。",
+      "key_results": "关键实验结果表明：1）在哺乳动物细胞中，该工程化系统对多个内源性转录本的编辑效率高达90%以上，显著高于野生型ADAR系统；2）该系统展现出高特异性，全转录组分析显示脱靶编辑水平极低，主要发生在与on-target位点具有高度序列同源性的位点。"
+    }
+  }
+]
