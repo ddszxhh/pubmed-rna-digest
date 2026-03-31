@@ -1,0 +1,25 @@
+[
+  {
+    "id": "41909946",
+    "title": "Programmable, target-induced fluorogenic CRISPR-tDeg platform for live-cell RNA visualization.",
+    "abstract": "RNA molecules display remarkable heterogeneity in structure, dynamics, and function, yet methods for their precise visualization in living cells remain limited. While CRISPR-based RNA imaging holds great potential, existing systems often suffer from high background fluorescence due to constitutive signal emission or non-specific binding. To overcome these challenges, we developed CtDeg (CRISPR-dCas13-tDeg), a modular RNA imaging platform that links fluorescence activation directly to target RNA recognition while leveraging degron-mediated degradation to suppress background signals. By engineering the crRNA scaffold to embed the Pepper RNA motif, CtDeg ensures that fluorescence is present only upon binding to the native RNA target. We systematically optimized C-terminal tDeg variants to maximize the signal-to-noise ratio and demonstrated that CtDeg achieves substantially lower background and higher specificity than conventional fluorescent protein-CRISPR-based RNA imaging approaches. Using CtDeg, we captured real-time paraspeckle assembly dynamics and visualized early-stage SARS-CoV-2 genomic RNA transport. Remarkably, CtDeg provided the first direct imaging evidence of virus-induced NEAT1_2 lncRNA accumulation, revealing a host-virus regulatory interaction. Beyond these applications, CtDeg is compatible with multiple Cas13 orthologs and fluorescent proteins, establishing a versatile, target-induced platform for probing RNA localization, dynamics, and function in living cells, with broad applications in synthetic biology and RNA biology.",
+    "authors": [
+      "Zhong H",
+      "Zhou J",
+      "Qin F",
+      "Zhang XE",
+      "Chen M"
+    ],
+    "published": "2026-03-19",
+    "journal": "Nucleic acids research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41909946/",
+    "score": 85,
+    "summary": {
+      "title_zh": "可编程、靶标诱导的荧光CRISPR-tDeg平台用于活细胞RNA可视化",
+      "tool_type": "RNA传感器/活细胞RNA成像平台（基于CRISPR-Cas13与降解标签）",
+      "design": "1. 将荧光RNA适配体Pepper嵌入crRNA支架，使荧光信号仅在结合靶标RNA时产生。\n2. 将dCas13与工程化的C末端降解标签（tDeg）融合，通过degron介导的降解机制抑制未结合探针的背景荧光。",
+      "functions": "1. 活细胞中RNA的实时可视化与定位。\n2. 动态追踪RNA的运输、组装（如核旁斑组装）与积累过程。\n3. 研究宿主-病毒相互作用（如病毒RNA运输、宿主lncRNA响应）。\n4. 兼容多种Cas13同源蛋白与荧光蛋白，可作为模块化平台用于合成生物学与RNA生物学研究。",
+      "key_results": "1. 与传统的荧光蛋白-CRISPR RNA成像方法相比，CtDeg平台背景荧光显著降低、特异性更高，信噪比大幅提升。\n2. 成功应用于实时观测核旁斑组装动态、SARS-CoV-2基因组RNA的早期运输，并首次直接成像显示病毒诱导的NEAT1_2 lncRNA积累。"
+    }
+  }
+]
