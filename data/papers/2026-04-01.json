@@ -1,0 +1,97 @@
+[
+  {
+    "id": "41914300",
+    "title": "Aptamer- and Ribozyme-Engineered sgRNAs for Conditional Control of CRISPR/Cas9 Function.",
+    "abstract": "The clustered regularly interspaced short palindromic repeats CRISPR-associated protein 9 (CRISPR/Cas9) system has emerged as a versatile platform for genome editing, transcriptional regulation, and chromosomal imaging. Recent advances in synthetic biology have enabled the engineering of single guide RNA (sgRNA) to confer conditional responsiveness on the CRISPR/Cas9 system. By integrating functional nucleic acid elements, such as aptamers, ribozymes, and aptazymes, into specific structural regions of the sgRNA, researchers have developed systems that respond to a variety of molecular signals, including small molecules, proteins, and endogenous metabolites. These engineered sgRNAs enable spatiotemporal control of gene editing, activation, repression, and imaging in both prokaryotic and eukaryotic cells. This review summarizes the structural principles, design strategies, and applications of condition-responsive CRISPR/Cas9 systems, highlighting their potential in synthetic biology, disease modeling, and therapeutic development. Current challenges and future directions for improving the specificity, efficiency, and applicability of these systems are also discussed.",
+    "authors": [
+      "Wang W",
+      "Li L",
+      "Li X",
+      "Zhang Q",
+      "Liu Y"
+    ],
+    "published": "2026-03-09",
+    "journal": "Frontiers in bioscience (Landmark edition)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41914300/",
+    "score": 45,
+    "summary": {
+      "title_zh": "适配体与核酶工程化的sgRNA用于条件性控制CRISPR/Cas9功能",
+      "tool_type": "条件响应型CRISPR/Cas9调控系统（一种可编程RNA调控平台）",
+      "design": "通过在sgRNA的特定结构区域（如发夹、环区）整合功能性核酸元件（如适配体、核酶、适配酶），构建模块化的条件响应型sgRNA。这些工程化sgRNA的构象或稳定性可被小分子、蛋白质或内源性代谢物等信号触发改变，从而实现对Cas9活性的条件性控制。",
+      "functions": "1. 时空可控的基因编辑（切割）。\n2. 条件性基因转录激活（CRISPRa）或抑制（CRISPRi）。\n3. 条件性染色体成像。\n4. 作为合成生物学工具，用于构建生物传感器或逻辑门电路。\n5. 在疾病建模和治疗开发中实现精准调控。",
+      "key_results": "该综述总结了多项研究，表明工程化sgRNA系统在原核和真核细胞中均能有效工作，能够以高特异性响应多种分子信号，实现对CRISPR/Cas9功能的“开/关”或剂量依赖性控制，并在体外和体内验证了其功能。"
+    }
+  },
+  {
+    "id": "41780418",
+    "title": "Lipid nanoparticle-points to consider in assessing materials quality for ribonucleic acid-based therapeutics.",
+    "abstract": "Lipid nanoparticles (LNPs) have emerged as a leading nonviral delivery system for ribonucleic acid (RNA)-based therapeutics, offering a scalable and efficient platform for both prophylactic and therapeutic applications. Compared to traditional excipients and delivery methods, LNPs provide several distinct advantages that make them particularly well-suited for nucleic acid delivery. These include enhanced cellular uptake, potential for reduced systemic toxicity, organ-specific biodistribution and protection of RNA cargo from enzymatic degradation. LNPs also facilitate endosomal escape, a critical barrier in the intracellular delivery of RNA molecules, thereby improving the overall transfection efficiency and therapeutic index. Their tunable composition allows for precise control over pharmacokinetics, immunogenicity and tissue targeting, which are critical in the development of vaccines, gene therapies, other RNA-based interventions and precision medicines. In addition, LNP-based nonviral delivery methods may offer several advantages over viral vectors, including cost-effectiveness, scalable and rapid manufacturing and greater adaptability for developing personalized gene therapy products. These features align well with platform technology designations and support a bespoke, umbrella trial approach. This review provides a comprehensive overview of the critical components and design considerations of LNP-based delivery systems, with a focus on messenger RNA, guide RNA payloads and lipid components. We discuss the differences between prophylactic and therapeutic formulations, key quality and purity attributes required for safe and effective use. Particular attention is given to the complexities of LNP formulation, including the characterization, production and quality control of both RNA cargo and lipid components. We also highlight current regulatory challenges, including the lack of standardized testing methods, unclear excipient classification and the absence of compendial monographs for the ionizable and pegylated lipid components. Essential questions for optimizing LNP formulations are discussed along with the evolving regulatory landscape and current clinical applications. As the field evolves to incorporate novel RNA modalities such as short-interference RNA, RNAi, self-replicating RNA and circular RNAs, the need for robust quality standards and regulatory clarity becomes more vital. This review underscores the urgent need for collaboration between industry and regulatory to establish harmonized framework for LNP development to ensure safety, efficacy and rapid translation of RNA-LNP therapeutics across diverse disease areas.",
+    "authors": [
+      "Somara S",
+      "Heidaran M"
+    ],
+    "published": "2026-05-01",
+    "journal": "Cytotherapy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41780418/",
+    "score": 35,
+    "summary": {
+      "title_zh": "评估基于RNA疗法的脂质纳米颗粒材料质量需考虑的因素",
+      "tool_type": "RNA递送平台/非病毒递送系统",
+      "design": "本文并非介绍一种具体的RNA编辑工具，而是一篇关于脂质纳米颗粒（LNP）递送平台的综述。其核心设计思路在于通过可调谐的脂质成分（如可电离脂质、聚乙二醇化脂质等）模块化组合，构建一个能封装并保护RNA、促进细胞摄取和内涵体逃逸的纳米载体系统。这种模块化设计允许对药代动力学、免疫原性和组织靶向性进行精确控制。",
+      "functions": "1. RNA递送：作为通用型递送平台，可递送多种RNA治疗分子，包括信使RNA（mRNA）、向导RNA（gRNA）、小干扰RNA（siRNA）、自复制RNA和环状RNA等。\n2. 功能实现：通过高效递送RNA，支持实现疫苗接种、基因治疗、基因编辑（如与CRISPR-Cas系统联用）及其他RNA干预疗法。\n3. 保护与靶向：保护RNA货物免于酶降解，并通过调整脂质组成实现器官特异性生物分布和组织靶向。",
+      "key_results": "本文为综述，未报告具体的实验数据。文章总结并强调了LNP平台的关键性能优势：与病毒载体相比，具有成本效益、可规模化快速生产、适应性更强；其核心功能包括增强细胞摄取、促进内涵体逃逸（从而提高转染效率）、降低系统毒性以及实现可调的生物分布。同时，文章指出了当前在表征、生产和质量控制方面面临的挑战。"
+    }
+  },
+  {
+    "id": "41912524",
+    "title": "Epitranscriptomic RNA editing resolves Mus81 DNA repair tradeoffs in heat tolerance and meiosis.",
+    "abstract": "Maintaining genome integrity is essential, yet how DNA repair is balanced across life stages remains poorly understood. Here we uncover an epitranscriptomic mechanism in the fungal pathogen Fusarium graminearum that alleviates a trade-off between heat-stress adaptation and sexual reproduction. We show that FgMus81 acts independently of its nuclease activity and canonical partner FgMms4, and has dosage-dependent, stage-specific functions: restrained levels support meiosis, whereas elevated levels promote heat-stress survival. We identify a sexual stage-specific A-to-I RNA editing event that recodes FgMus81 (N420D) and tunes its abundance to meet meiotic demands without compromising stress resilience. Notably, both pre-editing and post-editing isoforms support meiotic interhomolog crossovers, but the post-editing isoform impairs mitotic recombination. Conservation of this editing across Sordariomycetes suggests evolutionary selection for stage-specific control. Together, these findings reveal an epitranscriptomic switch that partitions Mus81 functions across life stages and identify adaptive RNA editing as a regulator of homologous recombination in fungal pathogens.",
+    "authors": [
+      "Wu M",
+      "Liu J",
+      "Cao P",
+      "Liu M",
+      "Feng C",
+      "Wang Q",
+      "Jiang C",
+      "Xu JR",
+      "Liu H"
+    ],
+    "published": "2026-03-30",
+    "journal": "Nature communications",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41912524/",
+    "score": 35,
+    "summary": {
+      "title_zh": "表观转录组RNA编辑通过调控Mus81 DNA修复平衡热耐受与减数分裂",
+      "tool_type": "内源性A-to-I RNA编辑系统（ADAR-like）",
+      "design": "该研究并非从头设计的人工工具，而是揭示了一种天然存在的、由特定A-to-I RNA编辑事件构成的调控“开关”。其核心思路是：在真菌病原体禾谷镰刀菌中，一个发育阶段特异性的RNA编辑事件（N420D）精准地重编码了DNA修复因子FgMus81，从而在不影响其热应激存活功能的前提下，通过调控其蛋白丰度来满足减数分裂的需求。",
+      "functions": "1. 实现生命阶段特异性的基因功能分区：将同一基因（FgMus81）的功能在营养生长/应激响应与有性生殖阶段进行解耦和优化。\n2. 精细调控同源重组路径：编辑后的FgMus81异构体支持减数分裂中的同源染色体交叉，但会削弱有丝分裂重组，从而平衡基因组稳定性与适应性。\n3. 作为研究DNA修复权衡与发育调控的天然模型系统。",
+      "key_results": "关键实验表明，这一特异性A-to-I编辑事件在子囊菌纲中保守存在；编辑后的FgMus81（N420D）异构体能够支持减数分裂交叉，但会损害有丝分裂重组，从而在体内实现了对同源重组路径的阶段性精准调控，解决了热耐受与有性生殖之间的权衡问题。"
+    }
+  },
+  {
+    "id": "41914499",
+    "title": "KREPA6 functions in RNA editing catalytic complex structural organization and gRNA utilization in Trypanosoma brucei.",
+    "abstract": "Functional mitochondrial mRNAs in Trypanosoma brucei are generated by the post-transcriptional guide RNA (gRNA) directed insertion and deletion of uridine residues, called RNA editing, that is catalyzed by three closely related multiprotein RNA Editing Catalytic Complexes (RECCs). These RECCs contain a common set of 12 proteins including KREPA6 which is largely comprised of an oligonucleotide binding (OB)-fold domain with a predicted intrinsically disordered region (IDR) at its C-terminus. Here we show that certain single amino acid substitutions throughout KREPA6 or deletion of the IDR inhibit the growth and viability of bloodstream form (BF) parasites. These mutations variously impact RECC structure, many alter but do not eliminate RNA editing, and some result in differential utilization of gRNAs. The results indicate that KREPA6 protein has multiple functions some of which stem from its interactions with multiple RECC proteins and perhaps with substrate RNA in each of the three different RECCs. These functions likely involve dynamic interactions of KREPA6 with key domains of other RECC proteins, other editing proteins, and with messenger RNA/gRNA substrates during the multiple catalytic and noncatalytic steps that occur during the complicated editing process.",
+    "authors": [
+      "Davidge B",
+      "Carnes J",
+      "Lewis I",
+      "Rodshagen T",
+      "Tracy M",
+      "McDermott SM",
+      "Stuart KD"
+    ],
+    "published": "2026-03-19",
+    "journal": "Nucleic acids research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41914499/",
+    "score": 35,
+    "summary": {
+      "title_zh": "KREPA6 在布氏锥虫 RNA 编辑催化复合体结构组织及 gRNA 利用中的功能研究",
+      "tool_type": "RNA 编辑催化复合体（RECC）核心功能蛋白研究",
+      "design": "本研究并非设计新的人工工具，而是通过遗传学方法（单氨基酸替换、结构域删除）对天然 RNA 编辑复合体（RECC）中的核心蛋白 KREPA6 进行功能剖析。其思路是解析 KREPA6 的 OB 结构域和 C 端固有无序区（IDR）如何通过动态相互作用，组织 RECC 结构并协调 gRNA 的利用。",
+      "functions": "该研究阐明了 KREPA6 蛋白在天然编辑系统中的核心功能：1) 维持 RNA 编辑催化复合体（RECC）的结构完整性；2) 协调和促进指导 RNA（gRNA）在编辑过程中的有效利用；3) 参与编辑过程中多个催化和非催化步骤的调控。这些发现为理解及未来可能工程化改造这一天然的 RNA 编辑平台提供了关键见解。",
+      "key_results": "关键实验结果表明：KREPA6 的突变或 IDR 缺失会抑制布氏锥虫血流形式的生长与存活；这些突变不同程度地破坏 RECC 结构，改变（但不完全消除）RNA 编辑活性，并导致对不同 gRNA 的利用效率发生差异，证明了 KREPA6 在复合体组织和编辑底物选择中的多重功能。"
+    }
+  }
+]
