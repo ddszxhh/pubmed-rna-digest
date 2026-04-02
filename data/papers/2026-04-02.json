@@ -1,0 +1,57 @@
+[
+  {
+    "id": "41919993",
+    "title": "Structures of pentatricopeptide repeat proteins.",
+    "abstract": "Pentatricopeptide repeat (PPR) proteins constitute the largest family of RNA-binding proteins in land plants, playing crucial roles in organellar gene expression through sequence-specific RNA recognition. Including the first PPR crystal structure in 2013, 30 PPR and 83 ribosomal PPR crystal or cryo-EM structures have been deposited in the Protein Data Bank, encompassing both native and designer proteins in apo and RNA-bound states. This comprehensive survey catalogues all PPR crystal structures, analysing their crystallographic properties, structural features and contributions to understanding PPR function. Key insights include the elucidation of the PPR recognition code, the characterization of dramatic conformational changes upon RNA binding and the structural basis for the modular architecture that enables programmable RNA targeting. Designer PPR structures have validated and extended principles derived from native proteins, demonstrating their utility as synthetic biology tools. This structural catalogue provides crystallographers and plant biologists with a comprehensive resource for understanding PPR protein architecture and function.",
+    "authors": [
+      "Pullakhandam A",
+      "Cooper C",
+      "Small ID",
+      "Bond CS"
+    ],
+    "published": "2026-04-01",
+    "journal": "Acta crystallographica. Section F, Structural biology communications",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41919993/",
+    "score": 65,
+    "summary": {
+      "title_zh": "五肽重复蛋白的结构综述",
+      "tool_type": "可编程RNA结合蛋白平台/模块化RNA靶向工具",
+      "design": "该工具的核心设计思路基于五肽重复（PPR）蛋白的模块化结构。每个PPR重复单元通过其特定氨基酸残基，按照可预测的“识别密码”与RNA单核苷酸特异性结合。通过工程化串联多个PPR重复单元，可以构建能够靶向特定长链RNA序列的合成蛋白，实现程序化的RNA识别与结合。",
+      "functions": "1. 序列特异性RNA识别与结合。\n2. 作为合成生物学工具，用于靶向和调控细胞器基因表达（如编辑、剪接、稳定性控制）。\n3. 为设计新型RNA结合蛋白提供模块化架构和结构基础。",
+      "key_results": "关键实验成果包括通过解析大量天然和人工设计的PPR蛋白结构，阐明了其RNA识别的结构密码，并验证了人工设计的PPR蛋白能够遵循并扩展天然蛋白的原理，成功实现程序化RNA靶向，证明了其作为合成生物学工具的实用性。"
+    }
+  },
+  {
+    "id": "41917044",
+    "title": "Trisomy 21 Drives ADARB1 Overexpression and Premature RNA Recoding in the Developing Fetal Brain.",
+    "abstract": "Understanding how chromosome 21 gene dosage contributes to neurodevelopmental phenotypes in trisomy 21 (T21) remains a fundamental challenge. Here, we perform transcriptome-wide RNA-sequencing of fetal cortical and hippocampal tissues from T21 cases and euploid controls collected during mid-gestation, a critical window for human brain development. We identify widespread gene expression dysregulation with significant enrichment for chromosome 21 genes and perturbation of neurodevelopmental, synaptic, and immune-related pathways. Among the most strongly dysregulated genes is ADARB1, a chromosome 21-encoded RNA editing enzyme, whose overexpression associates with increased adenosine-to-inosine RNA editing, with consistent over-editing at functionally important recoding sites in glutamate and GABA receptor-related genes, including GRIK2, GRIA2, GRIA3, and GABRA3, across cortex and hippocampus. Meta-analyses across independent transcriptomic datasets validate robust chromosome 21 dosage effects, including ADARB1 overexpression and over-editing at 3'UTRs and GRIA3. These findings implicate dysregulated RNA editing as a post-transcriptional mechanism contributing to fetal neuropathology in T21.",
+    "authors": [
+      "Breen MS",
+      "Yang A",
+      "Wang X",
+      "Rodriguez de Los Santos M",
+      "Tao R",
+      "Weinberger DR",
+      "Kleinman JE",
+      "Mihova K",
+      "Stancheva G",
+      "Savova S",
+      "Kaneva R",
+      "Dimitrova V",
+      "Vladimirov V",
+      "Hyde TM",
+      "Buxbaum JD"
+    ],
+    "published": "2026-03-31",
+    "journal": "Nature communications",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41917044/",
+    "score": 45,
+    "summary": {
+      "title_zh": "21三体驱动ADARB1过表达及发育期胎儿大脑中RNA的过早重编码",
+      "tool_type": "这不是一个工程化的工具或平台，而是一项关于内源性RNA编辑系统（ADARB1酶）在疾病模型中作用机制的基础研究发现。",
+      "design": "本研究并非设计一个合成工具，而是利用自然发生的“基因剂量工具”——21号染色体三体（唐氏综合征模型），来研究染色体剂量增加如何系统性改变内源性RNA编辑酶ADARB1的表达水平及其下游编辑活动。核心思路是观察染色体剂量增加（输入）如何导致ADARB1过表达（放大器），进而引发全转录组范围的RNA编辑重编程（输出）。",
+      "functions": "本研究揭示了内源性ADARB1系统的功能与应用潜力：1. **位点特异性A-to-I RNA编辑**：在谷氨酸受体（GRIK2, GRIA2, GRIA3）和GABA受体（GABRA3）等关键神经基因上实现功能性的重编码编辑。2. **作为疾病机制探针**：将ADARB1过表达和RNA编辑失调确立为21三体胎儿神经病理学的潜在转录后机制。3. **提供靶点线索**：提示ADARB1及其编辑位点可能成为干预相关神经发育表型的潜在靶标。",
+      "key_results": "关键实验结果包括：1. 在21三体中期妊娠胎儿的大脑皮层和海马体中，**ADARB1基因表达显著上调**。2. 伴随ADARB1过表达，在全转录组范围内观察到**A-to-I编辑事件普遍增加**，并在GRIA3等多个重要神经受体基因的编码位点上发现**一致的“过度编辑”现象**。3. 独立转录组数据集的荟萃分析验证了**21号染色体剂量对ADARB1表达和特定位点（如GRIA3）编辑水平的稳健影响**。"
+    }
+  }
+]
