@@ -1,0 +1,144 @@
+[
+  {
+    "id": "41922838",
+    "title": "Amino acid-derived ionizable lipids enable inhaled base editing for therapeutic gene correction in the lung.",
+    "abstract": "CRISPR-based gene editing holds promise for treating genetic diseases, yet its application to lung disorders has been hindered by the challenges of pulmonary delivery. Inspired by the modularity and biocompatibility of amino acid-derived chemistries, we report the combinatorial synthesis of 960 ionizable lipids incorporating chemically diverse backbones from both proteinogenic and non-proteinogenic α-amino acids. Through high-throughput screening and structure-function analysis, we identify CHCha-10, a cyclohexyl amino acid-derived lipid that forms biodegradable nanoparticles capable of efficiently delivering mRNA-based gene editors to lung epithelial cells. Following intratracheal administration, CHCha-10 nanoparticles exhibit enhanced mucus penetration and epithelial-specific transfection in both mice and ferrets. Here, as a functional application, we demonstrate in vivo base editing in the lung via inhalation. Delivery of adenine base editor mRNA and guide RNA targeting the CFTR G542X mutation restores CFTR expression and chloride channel function in G542X human airway epithelial cells, mouse-derived intestinal organoids and the lungs of cystic fibrosis mice. This work establishes a chemically modular design framework for ionizable lipids and a translatable platform for RNA-based pulmonary gene correction.",
+    "authors": [
+      "Gong F",
+      "Xu Y",
+      "Chen J",
+      "Zhang S",
+      "Dong S",
+      "Healy L",
+      "Seto B",
+      "Zhou M",
+      "Lu RXZ",
+      "Li G",
+      "Thomson T",
+      "Tang Y",
+      "Chen Z",
+      "Antonio K",
+      "Varley A",
+      "Chen DXW",
+      "Hodges CA",
+      "Wong AP",
+      "Hu J",
+      "Hubbard BP",
+      "Engelhardt JF",
+      "Yan Z",
+      "Li B"
+    ],
+    "published": "2026-04-01",
+    "journal": "Nature materials",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41922838/",
+    "score": 65,
+    "summary": {
+      "title_zh": "氨基酸衍生可电离脂质实现吸入式碱基编辑用于肺部治疗性基因校正",
+      "tool_type": "RNA碱基编辑器递送平台（脂质纳米颗粒递送系统 + 腺嘌呤碱基编辑器mRNA/gRNA复合物）",
+      "design": "1. 以氨基酸化学的模块化和生物相容性为灵感，组合合成了960种包含蛋白源和非蛋白源α-氨基酸多样化骨架的可电离脂质库。\n2. 通过高通量筛选和结构-功能分析，优选出能形成可生物降解纳米颗粒、并高效递送mRNA基因编辑器至肺上皮细胞的特定氨基酸衍生脂质（CHCha-10）。",
+      "functions": "1. 实现肺部吸入式、位点特异性的体内碱基编辑。\n2. 高效递送基于mRNA的基因编辑器（如腺嘌呤碱基编辑器）至肺上皮细胞。\n3. 用于治疗性基因校正，例如纠正囊性纤维化CFTR基因的G542X突变，恢复CFTR蛋白表达和氯离子通道功能。",
+      "key_results": "1. 优选脂质CHCha-10形成的纳米颗粒在小鼠和雪貂中均表现出增强的黏液穿透能力和肺上皮细胞特异性转染效率。\n2. 通过气管内给药递送靶向CFTR G542X突变的ABE mRNA和gRNA，成功在囊性纤维化小鼠肺部、人源气道上皮细胞及小鼠肠道类器官中恢复了CFTR表达和功能，证实了体内治疗的有效性。"
+    }
+  },
+  {
+    "id": "41921585",
+    "title": "Engineering cis- and trans-acting RNA regulators for next-generation prokaryotic synthetic biology.",
+    "abstract": "RNA regulation offers fast, energy-efficient, and highly programmable control over prokaryotic gene expression and is emerging as a necessary complement to DNA-level engineering for building complex and responsive bacterial systems. We review cis- and trans-acting RNA regulators through an engineer-facing framework organized around three actionable control knobs: transcription termination, translation initiation, and mRNA stability. Cis-Encoded strategies including 5' UTR and RBS engineering, riboswitches, and ribozymes often act early on nascent transcripts and can achieve low leak and high dynamic range. Trans-Acting systems such as synthetic small RNAs and CRISPR-based RNA-targeting tools provide an orthogonal capability that is especially valuable in bacteria: operon-resolved, gene-specific regulation within polycistronic transcripts with minimal polar effects. Across both classes, we highlight practical design determinants and failure modes shaped by target accessibility, co-transcriptional folding, RNase and RNA-chaperone context, and expression burden, and discuss how these constraints govern composability in multigene networks. We further outline emerging design workflows that integrate computation and AI-assisted modeling with screening and benchmarking to improve predictability and portability beyond E. coli-centric implementations. Together, this review aims to make RNA regulation a routine, engineerable layer for next-generation prokaryotic synthetic biology.",
+    "authors": [
+      "Tong S",
+      "Tong Y"
+    ],
+    "published": "2026-03-30",
+    "journal": "Biotechnology advances",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41921585/",
+    "score": 65,
+    "summary": {
+      "title_zh": "用于下一代原核合成生物学的顺式与反式RNA调控元件工程",
+      "tool_type": "综述论文（非单一工具，而是涵盖多种RNA调控工具的平台性框架，包括顺式调控元件（如核糖开关、核酶）和反式调控系统（如合成小RNA、基于CRISPR的RNA靶向工具））",
+      "design": "本文提供了一个面向工程应用的框架，围绕三个核心“调控旋钮”来组织设计思路：转录终止、翻译起始和mRNA稳定性。通过剖析顺式（如5‘UTR、RBS工程）和反式（如sRNA、CRISPR工具）两类调控元件的设计原理，强调模块化组合，并指出其设计受靶标可及性、共转录折叠、RNase环境等因素制约。",
+      "functions": "1. 顺式调控：实现低本底、高动态范围的基因表达调控，可用于早期转录本控制。\n2. 反式调控：提供正交调控能力，特别适用于在多顺反子转录本中实现基因特异性、操纵子分辨的调控，且极性效应最小。\n3. 综合应用：构建复杂、响应式的细菌系统，作为DNA层面工程的重要补充，实现对原核基因表达的快速、节能、可编程控制。",
+      "key_results": "本文是一篇综述，未报告单一工具的实验结果。其关键贡献在于系统梳理了各类RNA调控工具的设计决定因素、失效模式及在多基因网络中的可组合性约束，并展望了整合计算、AI建模与实验筛选的新兴设计流程，以提升预测性和在大肠杆菌以外宿主中的可移植性。"
+    }
+  },
+  {
+    "id": "41926539",
+    "title": "The biased adenosine-rich content of the HIV-1 genome serves as a molecular signature that facilitates efficient packaging.",
+    "abstract": "The HIV-1 genome [genomic RNA (gRNA)] has an unusually biased nucleotide content and is rich in adenosines. Selective packaging of the gRNA is thought to be driven by specific binding of the nucleocapsid (NC) domain of the viral Gag protein to the packaging signal (Ψ) in the host cell cytosol. However, deletion of regions within Ψ reduces-but does not completely abolish-genome packaging. To probe whether another feature of the gRNA may contribute to the selective gRNA packaging process, we replaced NC with heterologous RNA-binding domains (RBDs) with distinct RNA-binding properties. Surprisingly, despite disparate RNA binding specificities, all Gag-RBD chimeras successfully recruited the gRNA to the plasma membrane, suggesting that the initial gRNA recognition in the cytosol is not rate limiting. Notwithstanding, many chimeras exhibiting G/C binding specificity were arrested at the assembly stage. Only the Gag-SRSF5 chimera, which multimerized efficiently on adenosine-rich sequences on the gRNA, assembled efficiently and packaged gRNA at near wild-type levels. Importantly, rationally designed mutations that altered the A/G-rich binding specificity of Gag-SRSF5 decreased genome encapsidation efficiency. Furthermore, many Gag chimeras displayed potent dominant negative activities, highlighting NC functions as a targetable step in virus replication. Together, our findings reveal an unexpected aspect of the HIV-1 gRNA, its biased nucleotide content, as a key driver of selective genome packaging.",
+    "authors": [
+      "Vuong HR",
+      "Zhou Q",
+      "L Lesko S",
+      "Tenneti K",
+      "Davis K",
+      "Scott S",
+      "Guo M",
+      "Boodwa-Ko D",
+      "Eschbach JE",
+      "Gopal K",
+      "Porter JM",
+      "Wang Q",
+      "Xia M",
+      "Boateng A",
+      "Wang Y",
+      "Mohammed S",
+      "Lee N",
+      "Telesnitsky A",
+      "M Sherer N",
+      "Kutluay SB"
+    ],
+    "published": "2026-04-07",
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41926539/",
+    "score": 45,
+    "summary": {
+      "title_zh": "HIV-1基因组富含腺苷的偏向性序列作为促进高效包装的分子特征",
+      "tool_type": "病毒RNA包装研究平台/嵌合蛋白-RNA结合域（RBD）筛选系统",
+      "design": "该研究通过将HIV-1 Gag蛋白的核衣壳（NC）结构域替换为一系列具有不同RNA结合特异性的异源RNA结合域（RBD），构建了Gag-RBD嵌合体库。这一设计旨在解耦特异性序列识别（由NC-Ψ介导）与RNA的一般物理化学特性（如核苷酸组成）在病毒基因组选择性包装中的作用。",
+      "functions": "1. 功能：作为研究病毒RNA选择性包装机制的平台，可筛选能够有效介导HIV-1基因组包装的RNA结合域。2. 应用：揭示RNA的全局性物理化学特征（如核苷酸组成偏向性）在病毒组装中的关键作用；鉴定病毒复制（特别是NC功能）中可作为药物靶点的环节；展示嵌合体可能具有的显性负性抑制活性，为抗病毒策略提供思路。",
+      "key_results": "关键实验结果表明，尽管多种Gag-RBD嵌合体都能将基因组RNA招募至细胞膜，但只有能够有效在富含腺苷的基因组序列上多聚化的Gag-SRSF5嵌合体，才能高效完成组装并以接近野生型的水平包装基因组；人为改变其结合特异性会降低包装效率，直接证明了HIV-1基因组富含腺苷的偏向性是其选择性包装的关键驱动力。"
+    }
+  },
+  {
+    "id": "41925228",
+    "title": "HAMMER: hairpin-based APOBEC3A-mediated mRNA editing reporter.",
+    "abstract": "APOBEC3A catalyzes cytosine-to-uracil deamination in single-stranded DNA and RNA. Physiologically, APOBEC3A functions in innate immunity and aberrant deamination is associated with cytosine mutations in enzymatically preferred YTCW substrate motifs in multiple cancers. Much less is known about the potential contribution of APOBEC3A-catalyzed RNA editing to virus and cancer evolution. Here, we present HAMMER (hairpin-based APOBEC3A-mediated messenger RNA editing reporter), a rapid luminescence-based cellular assay for measuring RNA editing by APOBEC3A. HAMMER reports APOBEC3A activity as a reduction in the ratio of firefly to renilla luciferase activity. Briefly, tandem renilla and firefly luciferase open reading frames are separated by an optimal APOBEC3A hairpin substrate, in which C-to-U editing of a CGA motif yields a UGA stop codon thus preventing translation of the downstream firefly luciferase reporter, without impacting the upstream renilla reporter. HAMMER activation is dose-responsive, catalytic activity-dependent, and specific to human APOBEC3A. A panel of herpesviral ribonucleotide reductase constructs was used to show that direct inhibition of APOBEC3A results in a dose-responsive recovery of firefly luciferase expression. HAMMER is therefore a scalable and easy-to-use method for quantifying cellular APOBEC3A RNA editing activity and characterizing inhibitors.",
+    "authors": [
+      "Chen Y",
+      "Mullally CD",
+      "Stefanovska B",
+      "Harris RS"
+    ],
+    "published": "2026-03-19",
+    "journal": "Nucleic acids research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41925228/",
+    "score": 45,
+    "summary": {
+      "title_zh": "HAMMER：基于发夹结构的APOBEC3A介导的mRNA编辑报告系统",
+      "tool_type": "RNA编辑活性报告系统/RNA编辑检测平台",
+      "design": "该工具的核心设计是将一个优化的APOBEC3A发夹底物（含CGA编辑基序）置于串联的海肾萤光素酶和萤火虫萤光素酶开放阅读框之间。当APOBEC3A将CGA中的胞嘧啶（C）编辑为尿嘧啶（U）时，会产生UGA终止密码子，从而特异性阻断下游萤火虫萤光素酶的翻译，而上游海肾萤光素酶的表达不受影响。通过双荧光素酶活性的比值变化，即可量化APOBEC3A的RNA编辑活性。",
+      "functions": "1. 定量检测细胞内APOBEC3A催化的RNA编辑活性。\n2. 用于筛选和表征APOBEC3A的抑制剂。\n3. 研究APOBEC3A在病毒（如疱疹病毒）和癌症演化中通过RNA编辑发挥的潜在作用。",
+      "key_results": "实验证实，HAMMER系统的信号响应具有剂量依赖性，且依赖于APOBEC3A的催化活性，并特异性针对人源APOBEC3A；利用该系统成功证明，直接抑制APOBEC3A可导致萤火虫萤光素酶表达呈剂量依赖性恢复，验证了其作为可扩展、易用型检测平台的可靠性。"
+    }
+  },
+  {
+    "id": "41922181",
+    "title": "ADARs mediate distinct RNA editing activity and gene regulation in the Caenorhabditis elegans germline.",
+    "abstract": "Tissues rely on unique landscapes of gene regulation to allow the organism to correctly develop, function, and respond to changes. One component of these gene regulatory networks is RNA Binding Proteins (RBPs) which bind and modify RNA molecules leading to changes in the cellular fate of transcripts. The Adenosine DeAminase acting on RNA (ADAR) family of RBPs modify RNAs by catalyzing the deamination of adenosine (A) to inosine (I), known as A-to-I RNA editing. Prompted by recent evidence that ADARs play important roles in germline biology, we profiled editing activity of the A-to-I editing enzyme ADR-2 on transcripts in the Caenorhabditis elegans germline. These analyses revealed that many germline editing events are distinct from editing events in other tissues; however, the previously described role of the inactive deaminase ADR-1 in regulating editing activity by ADR-2 is conserved in the germline. We find that complete loss or misregulation of editing has little effect on the expression of edited transcripts within the germline; however, loss of ADARs results in the misexpression of several unedited germline transcripts. Intriguingly, further investigation suggests that these expression changes are buffered at the translational level. In all, the results of this study suggest that ADARs show unique activity in the C. elegans germline and that compensatory mechanisms exist to lessen the immediate consequences of loss of ADAR function within the germline.",
+    "authors": [
+      "Erdmann EA",
+      "Kelley LH",
+      "Hundley HA"
+    ],
+    "published": "2026-04-01",
+    "journal": "RNA (New York, N.Y.)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41922181/",
+    "score": 35,
+    "summary": {
+      "title_zh": "ADARs在线虫生殖系中介导独特的RNA编辑活性与基因调控",
+      "tool_type": "ADAR介导的RNA编辑系统研究",
+      "design": "本研究并非设计新工具，而是对天然ADAR系统（特别是ADR-2酶及其调控因子ADR-1）在特定组织（线虫生殖系）中的功能进行系统性解析。核心思路是通过比较生殖系与其他组织的编辑图谱，揭示ADAR家族的组织特异性活性与调控网络。",
+      "functions": "1. 揭示ADAR系统在生殖系中具有独特的A-to-I编辑活性谱。\n2. 阐明非催化亚基ADR-1在生殖系中仍保守地调控ADR-2的编辑活性。\n3. 发现ADAR缺失主要通过影响未编辑转录本的表达（而非已编辑转录本）来调控生殖系基因表达，且该调控在翻译层面存在缓冲机制。",
+      "key_results": "1. 编辑活性具有组织特异性：线虫生殖系中的A-to-I编辑事件与其他组织显著不同。\n2. 功能冗余与缓冲机制：ADAR完全缺失对已编辑转录本的表达影响甚微，但会导致多个未编辑生殖系转录本的错误表达；这些表达变化在翻译水平上被缓冲，减轻了ADAR功能缺失的直接影响。"
+    }
+  }
+]
