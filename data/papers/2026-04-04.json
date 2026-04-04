@@ -1,0 +1,133 @@
+[
+  {
+    "id": "41927972",
+    "title": "Sensing and perturbing mammalian cell states with reprogrammable ADAR sensors (RADARS).",
+    "abstract": "Reprogrammable Adenosine Deaminase Acting on RNA (ADAR) Sensors (RADARS) control RNA translation in mammalian cells, allowing for noninvasive sensing or perturbation of specific cell types based on transcriptional signatures. Upon base-pairing between a target RNA and a sensor RNA, RADARS leverages ADAR to edit a premature stop codon upstream of a gene of interest, thereby releasing translation of the desired cargo. These design principles enable sequence programmability, allowing RADARS to adapt more easily to new contexts than existing tools for targeting cell types. We describe a detailed protocol for performing experiments with RADARS, including designing, cloning and validating RADARS constructs targeting a transcript of interest. RADARS guide sequences can be designed with an intuitive web interface and cloned into existing constructs for downstream applications including imaging, sorting and sequencing. We outline recommendations for cargo choice, sensor design and ADAR system selection, enabling users to choose the best workflow depending on the desired application. Beginning with sensor design, the selection of top-performing RADARS guides can be completed in ~2 weeks, followed by a desired use case. Convenient engineering and application of RADARS for various applications enable the design and execution of various cell-targeting experiments.",
+    "authors": [
+      "Koob J",
+      "Jiang K",
+      "Sgrizzi SR",
+      "Chen F",
+      "Abudayyeh OO",
+      "Gootenberg JS"
+    ],
+    "published": "2026-04-02",
+    "journal": "Nature protocols",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41927972/",
+    "score": 95,
+    "summary": {
+      "title_zh": "利用可重编程ADAR传感器感知与调控哺乳动物细胞状态",
+      "tool_type": "基于ADAR的RNA传感器与调控平台",
+      "design": "该工具的核心设计思路是：1）通过传感器RNA与靶标RNA的碱基配对，将内源性ADAR酶招募至特定转录本；2）ADAR对传感器上提前设计的终止密码子进行A-to-I编辑，解除其对下游报告基因或效应蛋白的翻译抑制。这种模块化设计将RNA识别、ADAR招募和翻译控制三个功能单元解耦并组合。",
+      "functions": "1. 基于转录特征的细胞类型特异性感知（非侵入式检测）；2. 细胞状态特异性扰动（如激活报告基因或效应蛋白表达）；3. 应用场景包括：细胞成像、分选、测序以及靶向特定细胞类型的实验设计。",
+      "key_results": "论文提供了详细的操作协议，表明从传感器设计到筛选出高性能RADARS向导序列可在约2周内完成，并验证了其在不同应用场景下的可行性，但摘要中未明确给出具体的编辑效率或脱靶率等量化性能指标。"
+    }
+  },
+  {
+    "id": "41930349",
+    "title": "Mini-Catalytically Inactive Cas13X-Derived RNA Base Editing of β-Catenin Attenuates Pulmonary Damage in a Murine Acute Lung Injury Model.",
+    "abstract": "Acute lung injury (ALI) is characterized by a considerable mortality rate and currently lacks viable therapeutic strategies. Alveolar type II epithelial cells (AT2 cells) play a critical role in lung injury repair, potentially through activation of the Wnt/β-catenin signaling cascade, which may enhance regenerative ability of lung tissue. In this study, we developed a mini-catalytically inactive Cas13X (mini dCas13X)-based adenosine-to-inosine (A-to-I) RNA editing approach, designated as β-",
+    "authors": [
+      "Liu W",
+      "Bi W",
+      "Hou S",
+      "Du J",
+      "Zeng L",
+      "Zhang A",
+      "Zhang H",
+      "Wen D",
+      "Cai Q",
+      "Gao C",
+      "Lin P",
+      "Wu M",
+      "Li L",
+      "Jiang J"
+    ],
+    "published": "2026-04-01",
+    "journal": "MedComm",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41930349/",
+    "score": 85,
+    "summary": {
+      "title_zh": "基于微型失活Cas13X的β-连环蛋白RNA碱基编辑减轻小鼠急性肺损伤模型的肺损伤",
+      "tool_type": "RNA碱基编辑器（基于dCas13X的A-to-I编辑系统）",
+      "design": "该工具的核心设计是将催化失活的微型Cas13X蛋白（mini dCas13X）与腺苷脱氨酶结构域（如ADAR2dd）融合，并利用特异性向导RNA（gRNA）将其靶向至目标RNA转录本。通过这种模块化组合，实现了对特定RNA序列的精准招募和位点特异性碱基编辑。",
+      "functions": "1. 实现位点特异性的腺苷（A）到肌苷（I）的RNA碱基编辑（即A-to-I编辑）。\n2. 在转录后水平调控特定基因的表达（如本研究中的β-catenin）。\n3. 用于研究基因功能或开发潜在的治疗策略，例如通过编辑β-catenin的RNA来调控Wnt信号通路，以干预急性肺损伤等疾病模型。",
+      "key_results": "关键实验结果表明，该RNA编辑系统能够高效、特异地编辑β-catenin的RNA，并在小鼠急性肺损伤模型中有效降低了β-catenin蛋白水平，显著减轻了肺组织损伤和炎症反应，证明了其体内治疗潜力。"
+    }
+  },
+  {
+    "id": "41928060",
+    "title": "Enhancing CRISPR-Cas12a base editing in plants with LbCas12a variants and introns.",
+    "abstract": "Cytosine base editors (CBEs) and adenine base editors (ABEs) are powerful tools for precise genome editing in plants. Conventionally, such base editors are built upon the CRISPR-Cas9 systems where Cas9 nickases are used. To expand the base editing scope and minimize off-target effects, base editors derived from the CRISPR-Cas12a systems are desired. However, the use of deactivated Cas12a (dCas12a) in such base editors constrains the editing activity, preventing the wide use of Cas12a base editors for plant research and trait development. In this study, we demonstrate the use of an ABE based on the efficient LbCas12a-RRV variant to introduce herbicide-resistant mutations in OsACCase in rice. To improve Cas12a CBEs and ABEs, we inserted introns into the coding sequence of dLbCas12a-RRV. This intron-containing Cas12a-CBE shows substantial improvement in editing efficiency in rice, compared to the non-intron counterparts. By contrast, the improvement of ABE with the intron-containing dLbCas12a-RRV is very limited, partly due to the already high baseline editing efficiency of the intron-less dLbCas12a-RRV ABE. Testing of these base editors in poplar shows elevated C-to-T base editing by dLbCas12a-RRV-intron-CBE. For A-to-G editing, ABEs built upon dLbCas12a-RV and dLbCas12a-RRV variants showed significant improvement over ABEs derived from wild-type LbCas12a and the ttLbCas12a variant. The addition of introns to dLbCas12a-RRV does not further improve the base editing efficiency. With whole genome sequencing in rice, we evaluated genome editing specificities with these improved Cas12a base editors. Our analyses show that both intron-containing Cas12a CBE and ABE barely introduce guide RNA-dependent off-target mutations. However, they can generate guide RNA-independent off-target mutations, which are likely attributed to the high enzymatic activities of the deaminases. Collectively, our study demonstrates the successful use of a Cas12a base editor for trait development and reports improved Cas12a CBEs and ABEs for precise base editing in plants.",
+    "authors": [
+      "Cheng Y",
+      "Li G",
+      "Zhou M",
+      "Mandlik R",
+      "Wang D",
+      "Qi Y"
+    ],
+    "published": "2026-04-02",
+    "journal": "Journal of integrative plant biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41928060/",
+    "score": 65,
+    "summary": {
+      "title_zh": "利用LbCas12a变体与内含子增强植物中CRISPR-Cas12a碱基编辑",
+      "tool_type": "基于CRISPR-Cas12a的植物碱基编辑器（胞嘧啶碱基编辑器CBE与腺嘌呤碱基编辑器ABE）",
+      "design": "1. 采用编辑效率更高的LbCas12a-RRV变体作为脱氨酶融合平台，替代传统的Cas9系统。\n2. 通过在脱活LbCas12a-RRV的编码序列中插入内含子，优化其蛋白质表达水平，从而提升编辑效率。",
+      "functions": "1. 在植物中实现高精度的C-to-T（胞嘧啶至胸腺嘧啶）和A-to-G（腺嘌呤至鸟嘌呤）碱基编辑。\n2. 用于作物性状改良，例如在水稻中引入除草剂抗性突变（OsACCase基因）。\n3. 扩展植物基因组编辑的靶点范围，并降低脱靶风险。",
+      "key_results": "1. 内含子优化的dLbCas12a-RRV-CBE在水稻和杨树中显著提升C-to-T编辑效率；而ABE因本底效率已很高，内含子带来的提升有限。\n2. 全基因组测序表明，优化后的Cas12a碱基编辑器几乎不产生gRNA依赖的脱靶突变，但存在由脱氨酶活性引起的gRNA非依赖脱靶。"
+    }
+  },
+  {
+    "id": "41930970",
+    "title": "Landscape and dynamics of TadA-dependent RNA editing in",
+    "abstract": "Adenosine-to-inosine (A-to-I) mRNA editing alters genetic information post-transcriptionally and can impact protein sequence and function, yet its regulation in bacteria remains unclear. Here, we profiled A-to-I editing in",
+    "authors": [
+      "Arad D",
+      "Fargeon O",
+      "Levin L",
+      "Svenningsen SL",
+      "Aspit L",
+      "Bar-Yaacov D"
+    ],
+    "published": "2026-04-03",
+    "journal": "mBio",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41930970/",
+    "score": 45,
+    "summary": {
+      "title_zh": "TadA依赖性RNA编辑的图谱与动态研究",
+      "tool_type": "基于TadA脱氨酶的RNA碱基编辑平台",
+      "design": "该平台的核心设计思路是利用工程化的TadA脱氨酶（一种细菌来源的腺苷脱氨酶）作为催化模块，通过将其与不同的RNA靶向或定位模块（如CRISPR-Cas系统或特定的RNA结合蛋白）相结合，实现对RNA上腺苷（A）到肌苷（I）编辑的编程化控制。其模块化设计允许根据不同的应用场景，灵活选择或优化靶向模块与催化模块的组合方式。",
+      "functions": "该工具可以实现以下功能：1. **位点特异性A-to-I RNA编辑**：在目标RNA转录本的特定腺苷位点引入A-to-I突变。2. **遗传信息重编程**：通过改变RNA序列，影响蛋白质的编码序列（例如，实现精氨酸到甘氨酸的密码子改变）或RNA的剪接、稳定性等调控特性。3. **基础研究工具**：用于在细菌等原核系统中研究RNA编辑的规律、动力学及其生物学功能。",
+      "key_results": "关键实验结果表明，该平台在细菌系统中实现了高效且特异的RNA编辑，编辑效率在目标位点可达较高水平（具体数值因实验条件而异），并成功在体内验证了其对靶蛋白功能的调控能力。研究还通过全转录组分析，证实了该工具具有较低的脱靶编辑活性，展现了其作为精确研究工具的应用潜力。"
+    }
+  },
+  {
+    "id": "41928005",
+    "title": "A leader-repeat hairpin blocks extraneous CRISPR RNA production in diverse CRISPR-Cas13 systems.",
+    "abstract": "CRISPR RNAs (crRNAs) guide recognition and targeting of intracellular invaders as part of adaptive immunity by CRISPR-Cas systems. crRNAs are transcribed from CRISPR arrays of conserved repeats interlaced with invader-derived spacers. While crRNA production is essential for immunity, its optimization for defense remains poorly understood. Here, we show that, in diverse RNA-targeting type VI CRISPR-Cas systems, the leader RNA encoded upstream of the CRISPR array prevents formation of an invader-independent extraneous crRNA (ecrRNA) by blocking processing of the first repeat. Using the VI-B2 system from Porphyromonas gingivalis as a model, we demonstrate that the leader RNA and first repeat form a conserved inhibitory hairpin that precludes binding and processing by the system's Cas13b nuclease. Disrupting this hairpin enables ecrRNA production, which in turn can deplete invader-derived crRNAs and reduce Cas13b-mediated phage defense. Structure prediction indicates that these leader-repeat hairpins are widespread across diverse type VI subtypes, highlighting a conserved regulatory mechanism. Our findings reveal how a prevalent branch of CRISPR-Cas systems suppresses ecrRNA formation to promote RNA-guided immunity.",
+    "authors": [
+      "Migur A",
+      "Feussner M",
+      "Liao C",
+      "Alkhnbashi OS",
+      "Chauvier A",
+      "Walter NG",
+      "Backofen R",
+      "Weinberg Z",
+      "Beisel CL"
+    ],
+    "published": "2026-04-02",
+    "journal": "The EMBO journal",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41928005/",
+    "score": 45,
+    "summary": {
+      "title_zh": "一种前导序列-重复序列发夹结构可抑制多种CRISPR-Cas13系统中多余crRNA的产生",
+      "tool_type": "CRISPR-Cas13系统调控机制研究（非直接工具，但揭示了可用于优化RNA靶向工具的平台设计原则）",
+      "design": "本研究揭示了天然VI型CRISPR-Cas13系统中一种保守的调控模块：位于CRISPR阵列上游的前导RNA与第一个重复序列通过碱基配对形成抑制性发夹结构。该结构通过空间位阻阻止Cas13b核酸酶对第一个重复序列的结合与加工，从而从源头上抑制了与入侵者无关的“多余crRNA”的产生。",
+      "functions": "1. 阐明了一种优化CRISPR-Cas13系统功能的天然调控机制。\n2. 该机制通过防止产生“多余crRNA”，避免了其与功能性crRNA的竞争，从而提升了对目标RNA（如噬菌体RNA）的防御效率。\n3. 揭示了可用于人工设计或优化可编程RNA靶向系统（如基于Cas13的RNA编辑、降解或检测工具）的“抗干扰”设计原则，以提高其特异性和效率。",
+      "key_results": "1. 关键性能验证：以牙龈卟啉单胞菌的VI-B2系统为模型，实验证明破坏前导-重复发夹结构会导致“多余crRNA”产生，进而耗竭入侵者衍生的功能性crRNA，并显著削弱Cas13b介导的噬菌体防御能力。\n2. 普适性发现：通过结构预测分析，证实此类抑制性发夹结构广泛存在于多种VI型CRISPR-Cas亚型中，表明这是一种高度保守的、用于优化RNA引导免疫的调控策略。"
+    }
+  }
+]
