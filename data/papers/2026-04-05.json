@@ -1,0 +1,136 @@
+[
+  {
+    "id": "41445188",
+    "title": "Off-target RNA editing hotspots caused by base editors.",
+    "abstract": "Base editors, composed of engineered deaminases fused with Cas proteins and a guide RNA, enable precise, programmable alteration of single nucleotides within the genome and transcriptome. This innovative technology holds promising therapeutic potential for correcting disease-causing point mutations. However, its clinical translation hinges on both high efficacy and accuracy. Non-specific unintended edits by base editors remain a critical challenge. Efforts to mitigate off-target activity have focused mostly on detecting recurrent RNA deaminations at specific sites. Complementarily, our methodology quantifies the total burden of RNA alterations, which is particularly effective for capturing stochastic off-target edits that evade conventional detection. Here, we applied the RNA editing index algorithm to quantify off-target levels across individual genes and identified 2,844 adenine base editors and 1,253 cytosine base editor hotspot genes susceptible to aberrant editing. Exon-level analysis revealed localized regions within genes that are particularly prone to off-target editing, including regions where edits introduce premature stop codons, a critical risk for therapeutic applications. By uncovering these previously unrecognized off-target landscapes, our study deepens our understanding of base editor specificity and provides a framework for optimizing their precision, accelerating the development of safer next-generation editing tools.",
+    "authors": [
+      "Shmuel-Eidelman M",
+      "Cohen-Fultheim R",
+      "Eisenberg E",
+      "Levanon EY"
+    ],
+    "published": "2026-04-01",
+    "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41445188/",
+    "score": 45,
+    "summary": {
+      "title_zh": "碱基编辑器导致的RNA脱靶编辑热点",
+      "tool_type": "RNA编辑脱靶评估与分析平台/方法",
+      "design": "本研究并非开发新的编辑工具，而是提出了一种评估现有碱基编辑器RNA脱靶效应的新方法。其核心思路是开发并应用“RNA编辑指数”算法，量化全基因范围内的RNA编辑总负荷，而非仅关注特定位点的重复性脱靶。该方法特别擅长捕获传统方法易遗漏的、随机发生的RNA脱靶编辑事件。",
+      "functions": "1. 量化评估：全面量化腺嘌呤碱基编辑器（ABE）和胞嘧啶碱基编辑器（CBE）在RNA水平造成的脱靶编辑总负荷。\n2. 热点识别：在全基因组范围内识别易发生异常RNA编辑的基因（热点基因）和基因内的局部区域（如外显子水平）。\n3. 风险分析：分析脱靶编辑可能引入的生物学后果，例如鉴定出可能导致提前终止密码子的高风险编辑区域。\n4. 优化框架：为优化碱基编辑器的精确性、开发更安全的下一代编辑工具提供评估框架和数据支持。",
+      "key_results": "应用该方法，在人类细胞中鉴定出2844个ABE和1253个CBE的RNA脱靶编辑热点基因，并在外显子水平发现了易发生局部脱靶的区域，其中一些编辑会导致产生提前终止密码子，揭示了此前未被充分认识的RNA脱靶景观和潜在治疗风险。"
+    }
+  },
+  {
+    "id": "41927370",
+    "title": "Large-scale parallel characterization of RNA-guided nuclease activity and specificity.",
+    "abstract": "As systematic comparisons of editing efficiency and specificity seldom keep pace with rapid developments in RNA-guided nucleases (RGNs), the current study examined 50 such editing systems and characterized the off-target effects and genomic structural impacts of a subset of high-efficiency RGNs. Among them, AsCas12a-Ultra, LbCpf1, and AsCas12a-Plus demonstrated similar or higher efficiency compared to SpCas9, while the relatively high efficiency and small size of enOsCas12f1 together support its suitability for in vivo delivery. AsCpf1-YH and FnCpf1 exhibited the lowest single-guide RNA-dependent (sgRNA-dependent) off-target risks, whereas DpFNuc showed the highest. Genomic structural analysis revealed that enCas12f-HKRA frequently introduces chromosomal translocations, while Cas12j-SF05 poses a lower risk of such mutations. Notably, the high-efficiency RGNs were associated with translocation hotspots. Additionally, enRhCas12f1 and SpaCas12f1 had the lowest cytotoxicity, while enAsCpf1-HF strongly inhibited cell proliferation. This study establishes the first multidimensional performance evaluation framework for RGNs, providing a data-driven tool to support precise genome editing.",
+    "authors": [
+      "Zheng J",
+      "Wang X",
+      "Wu M",
+      "Liu J",
+      "Feng H",
+      "Yang H",
+      "Li D",
+      "Wang H",
+      "Hu J",
+      "Zuo E"
+    ],
+    "published": "2026-03-23",
+    "journal": "Science bulletin",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41927370/",
+    "score": 45,
+    "summary": {
+      "title_zh": "大规模并行表征RNA引导核酸酶活性与特异性",
+      "tool_type": "RNA引导核酸酶（RGNs）多维性能评估平台/框架",
+      "design": "本研究并非设计一个新的编辑工具，而是构建了一个系统性的评估框架。其核心思路是并行测试50种不同的RNA引导核酸酶（RGNs），从多个维度（如编辑效率、脱靶效应、基因组结构影响、细胞毒性）进行标准化表征，从而为工具选择提供数据支持。",
+      "functions": "1. 提供数据驱动的工具选择指南：基于大规模平行实验数据，帮助研究者根据特定需求（如高效率、高特异性、小尺寸、低毒性）选择最合适的RNA引导核酸酶。\n2. 建立多维性能评估标准：为RNA引导核酸酶（包括Cas9、Cas12a/f/j等多种变体）的系统性比较提供了统一的评估框架。\n3. 支持精准基因组编辑决策：通过揭示不同RGNs在脱靶风险、染色体易位倾向和细胞毒性方面的差异，指导更安全、更精确的基因组编辑应用。",
+      "key_results": "1. 性能比较：AsCas12a-Ultra、LbCpf1和AsCas12a-Plus的效率与SpCas9相当或更高；enOsCas12f1因效率较高且尺寸小，适合体内递送。\n2. 特异性与安全性：AsCpf1-YH和FnCpf1的sgRNA依赖性脱靶风险最低；高编辑效率的RGNs与染色体易位热点相关，其中enCas12f-HKRA易引发易位，而Cas12j-SF05风险较低；enRhCas12f1和SpaCas12f1细胞毒性最低。"
+    }
+  },
+  {
+    "id": "41927527",
+    "title": "ADAR2 induces the differentiation of osteosarcoma cells by editing activity on IGFBP7: new implications for therapy.",
+    "abstract": "Osteosarcoma is a highly malignant bone tumor which primarily affects the juvenile population and is characterized by high rate of recurrence and metastasis. RNA editing has emerged as a key process in cancer progression. Herein, we investigated the role of RNA editing enzyme ADAR2 (Adenosine Deaminase Acting on RNA 2) in osteosarcoma. We demonstrated that ADAR2 expression increases during osteoblast differentiation and inversely correlates with the aggressiveness of osteosarcoma cells. Interestingly, the overexpression of ADAR2 in osteosarcoma cell lines reduces their tumoral properties and promotes their differentiation in osteoblast-like cells, as shown by gene expression analysis and mineralization assays. These results were also confirmed by in vivo experiments; indeed, intratibial injection of ADAR2-overexpressing osteosarcoma cells in NSG mice resulted in less aggressive tumors compared to mice injected with pEmpty or pInactive ADAR2 E/A vector-transfected cells. To elucidate the mechanisms by which ADAR2 overexpression induces osteogenic terminal differentiation of osteosarcoma cells, we performed RNA-seq analysis of Saos-2 cells and identified IGFBP7 (Insulin-like Growth Factor Binding Protein 7) as the most highly edited transcript in ADAR2-overexpressing cells. We showed that the editing activity of ADAR2 on IGFBP7 abolishes its proliferative effect on osteosarcoma cells and triggers terminal differentiation. Overall, our results indicate that ADAR2 acts as a tumor suppressor in osteosarcoma and may represent a novel therapeutic target for this aggressive pediatric tumor.",
+    "authors": [
+      "Rossi M",
+      "Scotto di Carlo F",
+      "Di Gregorio J",
+      "Russo S",
+      "Di Giuseppe L",
+      "Battafarano G",
+      "Terreri S",
+      "Pagliarosi O",
+      "Silvestris DA",
+      "Corona M",
+      "Barra A",
+      "Pezzullo M",
+      "De Stefanis C",
+      "Pelle S",
+      "Costici PF",
+      "Minisola S",
+      "Pepe J",
+      "Locatelli F",
+      "Gianfrancesco F",
+      "Gallo A",
+      "Del Fattore A"
+    ],
+    "published": "2026-04-03",
+    "journal": "Bone research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41927527/",
+    "score": 35,
+    "summary": {
+      "title_zh": "ADAR2通过编辑IGFBP7诱导骨肉瘤细胞分化：治疗新启示",
+      "tool_type": "内源性RNA编辑酶（ADAR2）作为潜在治疗靶点/工具",
+      "design": "本研究并非设计新的人工工具，而是利用内源性ADAR2酶及其天然编辑活性作为干预手段。核心思路是通过过表达具有催化活性的ADAR2，利用其固有的A-to-I RNA编辑功能，特异性改变靶转录本（如IGFBP7）的序列与功能，从而调控细胞命运。",
+      "functions": "1. 实现内源性转录本（如IGFBP7）的位点特异性A-to-I RNA编辑。\n2. 通过编辑特定转录本，调控细胞表型：抑制肿瘤细胞增殖、促进肿瘤细胞向成骨细胞样细胞终末分化。\n3. 作为潜在的治疗策略或靶点，用于抑制骨肉瘤进展。",
+      "key_results": "1. 在骨肉瘤细胞中过表达有活性的ADAR2，能显著降低其成瘤性，并在体外（矿化实验）和体内（NSG小鼠胫骨内注射模型）均证实可促进肿瘤细胞分化、减少肿瘤侵袭性。\n2. RNA-seq鉴定出IGFBP7是ADAR2过表达细胞中编辑水平最高的转录本，并证明ADAR2对IGFBP7的编辑作用直接消除了其促增殖效应，进而触发细胞终末分化。"
+    }
+  },
+  {
+    "id": "41932456",
+    "title": "Design principles for LAMP-CRISPR molecular diagnostics.",
+    "abstract": "Nucleic acid detection methods leveraging Cas9, Cas12, and Cas13 enzymes have recently been widely integrated with isothermal amplification techniques, particularly Loop-Mediated Isothermal Amplification (LAMP), to develop CRISPR-based diagnostic assays for a broad range of pathogens. Coupling these systems with portable result-readout platforms such as lateral flow devices, microfluidics, and smartphones offers a promising pathway for deploying LAMP-CRISPR diagnostics at the point-of-care (PoC), especially in settings where conventional, resource-intensive methods like real-time PCR are not feasible. However, the development of LAMP-CRISPR assays presents unique challenges not typically encountered in real-time PCR workflows. These include the need for a larger number of oligonucleotides, the complexity of integrating multiple biochemical conditions, and a heightened risk of false-positive results. Despite the growing number of bioinformatics tools designed to aid assay development, establishing a robust and reproducible workflow for LAMP-CRISPR remains a significant hurdle. In this review, we critically examine current strategies for designing LAMP-CRISPR assays and offer a detailed, step-by-step guide to achieving high-performance diagnostic tools using this approach. We cover key aspects of target sequence selection, oligonucleotide and CRISPR system design, and the strategic choice of readout methods. We further discuss available tools for LAMP primer and CRISPR guide RNA design, providing practical recommendations for optimizing sequence selection. Various probe formats for Cas-mediated trans-cleavage detection are summarized, and we present best practices for assay standardization and minimizing false-positive signals. Finally, we highlight the current limitations and outline future directions for LAMP-CRISPR diagnostics in decentralized and PoC testing environments.",
+    "authors": [
+      "Silva CS",
+      "Nascimento GR",
+      "Cruz PEO",
+      "Arancibia RH",
+      "Andrade Belitardo EMM",
+      "Castro TLP",
+      "Villar LM",
+      "Pacheco LGC"
+    ],
+    "published": "2026-04-01",
+    "journal": "Methods (San Diego, Calif.)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41932456/",
+    "score": 35,
+    "summary": {
+      "title_zh": "LAMP-CRISPR分子诊断的设计原则",
+      "tool_type": "CRISPR-Cas系统与等温扩增（LAMP）结合的分子诊断平台/开发指南",
+      "design": "该平台的核心设计思路是将CRISPR-Cas（如Cas9、Cas12、Cas13）的序列特异性识别与切割能力，与环介导等温扩增（LAMP）的高效、快速核酸扩增特性进行模块化整合。通过精心设计LAMP引物和CRISPR gRNA，并优化两者在反应体系中的兼容性，旨在构建一个在资源有限环境下也能稳定运行的“扩增-检测”一体化诊断系统。",
+      "functions": "1. 高灵敏度、高特异性的病原体核酸（如病毒、细菌）检测。\n2. 适用于现场即时检测（PoC），可与侧向层析试纸条、微流控或智能手机等便携式读出平台联用。\n3. 为开发针对广泛靶标的CRISPR诊断试剂盒提供系统性的设计框架与优化策略。",
+      "key_results": "本文是一篇综述，未报告具体的实验数据，但系统总结了实现高性能LAMP-CRISPR诊断的关键性能指标优化路径，包括通过优化靶标序列选择、引物/gRNA设计、探针格式与读出方法，以最大限度地提高检测灵敏度与特异性，并降低假阳性风险。"
+    }
+  },
+  {
+    "id": "41925158",
+    "title": "Translational control of Toxoplasma gondii differentiation.",
+    "abstract": "Toxoplasma gondii is a globally prevalent protozoan parasite capable of establishing lifelong infections in its host. While acute infection is often asymptomatic, reactivation of latent bradyzoites can cause severe disease, particularly in immunocompromised individuals. Current therapies are ineffective against chronic infection, underscoring critical gaps in our understanding of bradyzoite biology and the molecular mechanisms governing stage conversion. Recent studies have identified translational control as a central regulator of T. gondii differentiation. This review highlights the roles of canonical translation initiation factors (eIF2α, eIF1.2, and eIF4E1), RNA-binding proteins (RBPs; BFD2/ROCY1, Alba1, and Alba2), and RNA modifications (with pseudouridylation representing the best-characterized modification currently linked to differentiation), as well as alternative splicing and non-coding RNAs in shaping stage-specific translational programs. This review further discusses underexplored mechanisms, including non-canonical initiation pathways, upstream open reading frames, transcript-level RNA modifications, ribosome heterogeneity and rRNA modifications, elongation and termination control, uncharacterized RBPs, and post-translational modifications of translation factors, that may coordinate proteome remodeling during differentiation. Together, established translational regulators and these emerging pathways highlight translational control as a central driver of parasite persistence and a promising therapeutic target for chronic toxoplasmosis.",
+    "authors": [
+      "Wang F"
+    ],
+    "published": "2026-04-22",
+    "journal": "Bioscience reports",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41925158/",
+    "score": 25,
+    "summary": {
+      "title_zh": "弓形虫分化的翻译控制",
+      "tool_type": "综述论文（非具体工具，但指明了潜在的RNA调控靶点平台）",
+      "design": "本文并非介绍一个具体的工程化工具，而是系统性地综述了弓形虫分化过程中已知和潜在的翻译控制机制。其核心思路是整合多种RNA水平的调控模块（如翻译起始因子、RNA结合蛋白、RNA修饰、可变剪接、非编码RNA等），以阐明它们如何协同重塑阶段特异性的翻译程序，从而驱动寄生虫的持久感染。",
+      "functions": "作为一篇综述，它本身并非一个可直接应用的工具，但其价值在于为开发针对慢性弓形虫病的工具或平台指明了方向。基于文中阐述的机制，未来可能开发的功能包括：1) 通过干预特定翻译因子（如eIF2α）或RNA结合蛋白来阻断寄生虫的阶段转换；2) 利用关键的RNA修饰（如假尿苷化）作为诊断标志物或药物靶点；3) 以这些翻译控制通路为靶点，开发新型抗寄生虫疗法。",
+      "key_results": "本文是综述，未报告具体的实验数据。其关键结论在于系统性地论证了“翻译控制”是弓形虫分化和持久感染的核心驱动力，并识别出了一系列已确立的（如eIF2α、假尿苷化）和新兴的（如非经典翻译起始、核糖体异质性）调控机制，这些机制共同构成了一个有前景的治疗干预靶点平台。"
+    }
+  }
+]
