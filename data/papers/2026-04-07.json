@@ -1,0 +1,57 @@
+[
+  {
+    "id": "41566362",
+    "title": "Genome-Wide Association Study Pinpoints Novel Genes Regulating Seedling Root Growth Variation of Arabidopsis thaliana Under Drought.",
+    "abstract": "Developing drought-resilient crops requires a precise understanding of molecular signalling in the root, the primary organ encountering drought. This study unravelled novel genetic loci regulating drought tolerance by exploiting the natural variation in seedling root growth of Arabidopsis thaliana under PEG-induced drought stress. Through a genome-wide association study of 207 worldwide A. thaliana ecotypes from regions with varied rainfall, 68 protein-coding genes were identified with the top 50 SNPs. Functional enrichment and network analyses demarcated key processes involved in stress tolerance, including DNA repair, tRNA editing, protein folding, cell cycle regulation, stress granule assembly and the pyridoxal 5'-phosphate (PLP) salvage pathway. Expression level polymorphisms, promoter cis-element variations and amino acid substitutions associated with phenotype and climate were identified. Reverse genetic evaluation using T-DNA insertion knockout/knockdown mutants confirmed the involvement of candidate genes: AT1G06690 (PLP pathway), AT4G26990, RBP45C (stress granules), ACD55.5 (protein folding), PCMP-A4 (AT1G14470; RNA editing), SKS6, ANAC094 (cell wall remodelling) and INCENP (cell cycle), with seedling drought tolerance. Specifically, knockdown of AT1G06690 resulted in higher root hydrogen peroxide accumulation, highlighting the importance of the PLP pathway in mitigating oxidative stress. These molecular insights offer new biotechnological and breeding tools to enhance crop drought tolerance by modulating root traits.",
+    "authors": [
+      "Marik D",
+      "Tajane SV",
+      "Kumar R",
+      "Dey S",
+      "Sadhukhan A"
+    ],
+    "published": "2026-05-01",
+    "journal": "Plant, cell & environment",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41566362/",
+    "score": 15,
+    "summary": {
+      "title_zh": "全基因组关联研究揭示拟南芥幼苗根系在干旱下生长变异的调控新基因",
+      "tool_type": "基因资源发现与验证平台（非RNA编辑工具，属于遗传学与功能基因组学研究）",
+      "design": "本研究并非设计一个工程化的RNA工具，而是采用了一种“自然变异挖掘+反向遗传学验证”的研究策略。其核心思路是：1）利用全球范围内207个拟南芥生态型的自然遗传变异，通过全基因组关联分析（GWAS）定位与幼苗根系抗旱性相关的遗传位点；2）结合生物信息学分析（功能富集、网络分析）筛选出关键候选基因；3）使用T-DNA插入突变体进行反向遗传学功能验证，确认基因在抗旱中的作用。",
+      "functions": "本研究作为一项基础研究发现平台，主要功能包括：1）**基因资源挖掘**：从自然变异中系统性鉴定调控植物根系抗旱性的新基因位点。2）**分子机制解析**：揭示涉及DNA修复、tRNA编辑、蛋白质折叠、细胞周期调控、应激颗粒组装和PLP补救途径等多个关键生物学过程在抗旱中的作用。3）**提供育种靶点**：为通过生物技术或育种手段（如基因编辑、分子标记辅助选择）改良作物根系性状、增强抗旱性提供新的候选基因和分子通路。",
+      "key_results": "1）通过GWAS分析，定位到68个与表型显著相关的蛋白编码基因；2）反向遗传学验证确认了多个候选基因（如AT1G06690、RBP45C、PCMP-A4等）的缺失或敲低会显著影响拟南芥幼苗的耐旱性，其中敲低PLP途径基因AT1G06690导致根系过氧化氢积累增加，明确了该通路在缓解氧化胁迫中的关键作用。"
+    }
+  },
+  {
+    "id": "40833724",
+    "title": "Advancements in CRISPR-Cas Systems for Genome Editing towards Eradication of Human Microbial Pathogens.",
+    "abstract": "CRISPR-Cas systems have been explored for targeted genome editing of several organisms. It is rapid, cost-effective, specific, and versatile technology. It requires expression of multidomain single Cas9 protein and single guide RNA (sgRNA) that targets desired nucleic acids in the presence of a protospacer adjacent motif (PAM). This generates a double-stranded break that is repaired by either non-homologous end joining or a homology-directed repair pathway. Currently, several Cas protein variants have been discovered and being used for several biotechnological applications. This review highlights the recent progress of CRISPR-Cas systems for genome editing of mainly human pathogenic microorganisms for their controlling infections.",
+    "authors": [
+      "Bhattacharjee G",
+      "Gohil N",
+      "Khambhati K",
+      "Murjani K",
+      "Chu DT",
+      "Le Bui N",
+      "Thi HV",
+      "Mani I",
+      "Bansal A",
+      "Shamili S",
+      "Satish L",
+      "Ramakrishna S",
+      "Alzahrani KJ",
+      "Singh V"
+    ],
+    "published": "2026-04-01",
+    "journal": "Molecular biotechnology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40833724/",
+    "score": 15,
+    "summary": {
+      "title_zh": "用于根除人类微生物病原体的CRISPR-Cas基因组编辑系统进展",
+      "tool_type": "CRISPR-Cas基因组编辑系统（综述类文章，非单一工具，但聚焦于作为病原体编辑工具的平台）",
+      "design": "本文作为综述，总结了CRISPR-Cas系统作为编辑工具的核心设计思路：通过表达单一多结构域Cas蛋白（如Cas9）和靶向特定核酸序列的单向导RNA（sgRNA），在PAM序列存在下，实现对目标DNA的特异性切割。",
+      "functions": "1. 对多种人类致病微生物（如细菌、真菌等）进行靶向基因组编辑。\n2. 通过诱导DNA双链断裂，触发细胞自身的非同源末端连接或同源定向修复，实现基因敲除或精确修饰。\n3. 作为控制感染的潜在策略，用于病原体功能基因组学研究或开发新型抗菌疗法。",
+      "key_results": "本文为综述，未报告单一实验数据，但总结了该领域的关键进展：多种Cas蛋白变体已被发现和应用，CRISPR-Cas系统在编辑人类病原微生物方面显示出快速、经济、特异和通用的技术优势，具有控制感染的潜力。"
+    }
+  }
+]
