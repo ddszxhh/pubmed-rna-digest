@@ -1,0 +1,53 @@
+[
+  {
+    "id": "41944027",
+    "title": "Programmable RNA Editing via Adenosine Deaminase Acting on RNA Enzymes: Current Advances and Clinical Potential.",
+    "abstract": "Adenosine deaminase acting on RNA (ADAR)-mediated RNA editing has emerged as a powerful and precise technology for modifying RNA transcripts, enabling correction of disease-causing mutations without permanent changes to the genome. Recent advances in ADAR protein engineering, guide RNA design, and delivery methods have significantly improved editing efficiency and specificity, overcoming many initial limitations. These developments have expanded the therapeutic potential of ADAR-based editing across a range of conditions, including genetic disorders, cancer, metabolic diseases, and neurodegenerative disorders. Notably, several ADAR-based therapeutics have now entered early clinical trials, marking a critical milestone in translating this technology from bench to bedside. Moreover, its inherent programmability, reversibility, and transient nature make ADAR-mediated RNA editing a highly attractive platform for personalized medicine, enabling tailored interventions based on individual genetic profiles and disease contexts. This review provides a comprehensive comparison of recent innovative advancements in ADAR-based RNA editing technologies, their use in diverse contexts pertinent to human diseases, the key challenges that remain, and future directions for their therapeutic implementation.",
+    "authors": [
+      "Kim J",
+      "Lee HG",
+      "Shin M"
+    ],
+    "published": "2026-04-07",
+    "journal": "Nucleic acid therapeutics",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41944027/",
+    "score": 65,
+    "summary": {
+      "title_zh": "基于ADAR酶的可编程RNA编辑：当前进展与临床潜力",
+      "tool_type": "ADAR结合工具/可编程RNA编辑平台",
+      "design": "该平台的核心工程设计思路是通过工程化改造ADAR酶（如改变其结构域或招募机制）与精心设计的向导RNA（gRNA）相结合，实现对特定RNA序列的靶向。其模块化组合通常包括优化的ADAR脱氨酶（或催化结构域）和互补于目标位点的gRNA，以将编辑活性精确引导至目标腺苷。",
+      "functions": "1. 位点特异性RNA编辑（如A-to-I编辑），用于纠正致病点突变。\n2. 调控基因表达，可用于治疗遗传病、癌症、代谢性疾病和神经退行性疾病。\n3. 作为一种可编程、可逆且作用短暂的平台，支持基于个体基因组的个性化医疗干预。",
+      "key_results": "该综述总结指出，通过ADAR蛋白工程、gRNA设计和递送方法的优化，编辑效率和特异性已得到显著提升，克服了早期限制。基于此技术的多种疗法已进入早期临床试验阶段，标志着其向临床转化的关键里程碑。"
+    }
+  },
+  {
+    "id": "41942919",
+    "title": "An improved Agrobacterium-mediated transformation method for genome editing using CRISPR/Cas9 in elite indica rice (Oryza sativa L.).",
+    "abstract": "",
+    "authors": [
+      "Behera L",
+      "Samal KC",
+      "C P",
+      "Agrawal PK",
+      "Achary VMM",
+      "Dash M",
+      "Mishra A",
+      "Rani M",
+      "Masika FB",
+      "Goud GSD",
+      "Kesawat MS",
+      "Samantaray S"
+    ],
+    "published": "2026-04-07",
+    "journal": "BMC genomics",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41942919/",
+    "score": 10,
+    "summary": {
+      "title_zh": "一种用于优良籼稻CRISPR/Cas9基因组编辑的改良农杆菌介导转化方法",
+      "tool_type": "植物遗传转化与基因组编辑平台",
+      "design": "该研究并非开发新的RNA编辑工具，而是优化了一种将CRISPR/Cas9基因组编辑系统递送至目标植物细胞的递送平台。其核心思路是改良农杆菌介导的转化流程，通过优化关键步骤（如农杆菌菌株选择、共培养条件、筛选剂浓度等），构建一个更高效、适用于优良籼稻品种的遗传转化体系，从而为CRISPR/Cas9等基因组编辑工具在籼稻中的应用提供高效的递送平台。",
+      "functions": "1. 高效递送：将CRISPR/Cas9等基因组编辑工具（以DNA形式）高效递送至优良籼稻细胞中。\n2. 遗传转化：实现外源基因（如Cas9和gRNA表达盒）在籼稻中的稳定整合与表达。\n3. 基因组编辑：作为上游支撑平台，服务于后续基于CRISPR/Cas9的基因敲除、敲入等基因组编辑操作。",
+      "key_results": "关键实验结果表明，该改良方法在多个优良籼稻品种中显著提高了遗传转化效率，并成功获得了携带CRISPR/Cas9编辑元件的转基因植株，为后续进行靶向基因编辑奠定了材料基础。"
+    }
+  }
+]
