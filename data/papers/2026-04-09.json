@@ -1,0 +1,29 @@
+[
+  {
+    "id": "41946927",
+    "title": "Boosting prime editing with engineered non-canonical pegRNAs.",
+    "abstract": "Prime editing (PE) enables precise genetic modifications using canonical prime editing guide RNA (pegRNA), with the reverse transcription template and primer binding site (RTT-PBS) attached to the 3' ends of CRISPR-Cas guide RNAs. Although PE ribonucleoprotein (RNP) delivery holds great therapeutic potential, its weak genomic editing capability limits therapeutic applications. Here we present structure-guided engineering of the PE complex using non-canonical pegRNAs (npegRNAs), with the RTT-PBS integrated within the single guide RNA loops, to improve PE efficiency. This approach demonstrates enhanced precise editing rates across various genomic sites and cell types, and improves therapeutic gene correction in a tyrosinaemia mouse model. Cas9-associated npegRNAs are more resistant to exonuclease degradation, probably enhancing the PE complex's targeting efficiency in living cells. Using PE RNP delivery, npegRNAs achieve increased average editing yields of 26.8-fold over canonical pegRNAs and 5.9-fold over engineered pegRNAs (epegRNAs). Furthermore, npegRNA-mediated RNPs increased the efficiency of installing disease-relevant mutations up to 123-fold in human cell lines, including Jurkat T cells and induced pluripotent stem cells. Collectively, our findings demonstrate a robust PE strategy and highlight the potential of npegRNAs for therapeutic PE applications.",
+    "authors": [
+      "Fang GQ",
+      "Deng Y",
+      "Lyu XY",
+      "Yin CQ",
+      "Song J",
+      "Zhang Y",
+      "Zhong J",
+      "Shen EZ",
+      "Song CQ"
+    ],
+    "published": "2026-04-07",
+    "journal": "Nature biomedical engineering",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41946927/",
+    "score": 65,
+    "summary": {
+      "title_zh": "利用工程化非经典pegRNAs增强先导编辑效率",
+      "tool_type": "先导编辑（Prime Editing）增强工具/平台，属于CRISPR-Cas9介导的精确基因编辑系统",
+      "design": "核心思路是对经典的先导编辑引导RNA（pegRNA）进行结构导向的工程化改造。将原本位于3‘端的逆转录模板和引物结合位点（RTT-PBS）整合到sgRNA的茎环结构内部，构建出非经典pegRNA（npegRNA）。这种设计旨在增强pegRNA的稳定性并优化其与编辑复合物的相互作用。",
+      "functions": "1. 实现位点特异性的精确基因编辑（如点突变、小片段插入或缺失）。\n2. 提升在多种细胞类型（包括原代细胞、iPS细胞、T细胞等）中的编辑效率。\n3. 通过核糖核蛋白（RNP）递送方式，用于体外和体内的治疗性基因校正。",
+      "key_results": "1. 关键性能指标：与经典pegRNA相比，npegRNA介导的RNP递送将平均编辑产量提升了26.8倍；与另一种工程化pegRNA（epegRNA）相比也提升了5.9倍，在人类细胞系中安装疾病相关突变的效率最高提升达123倍。\n2. 验证情况：npegRNA在多种基因组位点和细胞类型中均表现出更高的精确编辑率，并在酪氨酸血症小鼠模型中成功实现了治疗性基因校正；其结构能更好地抵抗核酸外切酶降解，提高了在活细胞中的靶向效率。"
+    }
+  }
+]
