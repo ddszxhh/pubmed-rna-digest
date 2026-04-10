@@ -1,0 +1,135 @@
+[
+  {
+    "id": "41951658",
+    "title": "Molecular basis of target RNA cleavage by Cas13.",
+    "abstract": "RNA-targeting CRISPR-Cas13 enzymes are robust RNA knockdown tools with both on-target and collateral cleavage activities. However, to date, the in vivo RNA cleavage mechanisms remain poorly understood. Here, we combine in vitro and in vivo methods to elucidate the exact cleavage sites of Cas13. We reveal that some subtypes of Cas13, including Cas13b and Cas13bt, cleave the target RNA at predominant positions, and rational engineering of Cas13 further improves precision. Building on these findings, we develop RNA segment editing (RSE), a targeted RNA cleavage and repair method, to restore dysfunctional RNA in cells. We anticipate that RSE will enable precision RNA engineering for therapeutics and basic research.",
+    "authors": [
+      "Lam JKC",
+      "Leung SSK",
+      "Li JYK",
+      "Cheng ECK",
+      "Kwon SC"
+    ],
+    "published": "2026-04-08",
+    "journal": "Nature communications",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41951658/",
+    "score": 65,
+    "summary": {
+      "title_zh": "Cas13靶向RNA切割的分子基础",
+      "tool_type": "Cas13 RNA靶向系统（RNA knockdown工具）及其衍生的RNA编辑平台",
+      "design": "1. 通过体外与体内方法结合，系统解析Cas13（特别是Cas13b和Cas13bt亚型）在靶RNA上的精确切割位点。\n2. 基于对切割机制的深入理解，对Cas13进行理性工程化改造以提高其切割精确性，并以此为基础构建了RNA片段编辑（RSE）方法。",
+      "functions": "1. **RNA敲降**：利用Cas13的靶向RNA切割活性实现RNA敲降。\n2. **精确RNA编辑**：通过RSE方法（靶向RNA切割与修复）实现靶向RNA片段编辑，可用于修复功能失调的RNA。\n3. **基础研究与治疗应用**：为RNA精准工程化提供工具，服务于基础生物学研究和治疗性开发。",
+      "key_results": "1. 阐明了Cas13b和Cas13bt等亚型在靶RNA上具有优势切割位点，并通过工程化改造提升了切割精确性。\n2. 基于此开发的RSE方法，成功在细胞内实现了对功能失调RNA的修复性编辑，验证了其作为精准RNA工程平台的可行性。"
+    }
+  },
+  {
+    "id": "41950922",
+    "title": "Cellular-state control using ribozyme-scaffolded miRNA-sensing and CRISPR-mediated actuation.",
+    "abstract": "Cellular transitions between states are fundamental to development, adaptation, and pathological processes, but monitoring and guiding these transitions using endogenous signals remain challenging. MicroRNAs (miRNAs) represent a powerful modality, as distinct cell states are characterized by unique miRNA expression signatures. Here, we introduce a state-specific miRNA-directed CRISPR system for detecting and responding to epithelial-to-mesenchymal transition (EMT), a critical process in development, wound healing, and cancer metastasis. This system leverages EMT-specific miRNAs to regulate activation of type II polymerase-driven ribozyme-single-guide RNA (sgRNA) constructs, which direct CRISPR-based effectors to modulate gene expression. Using this approach, we demonstrate selective elimination of cells that have undergone mesenchymal transition and dynamic filtering of cell populations. This system provides a versatile platform for precise activation of CRISPR-Cas9 effectors using endogenous, state-specific cues. Integrating miRNA signatures with CRISPR technology to monitor, modulate, and reprogram cell-state transitions paves the way for applications in regenerative medicine, cancer therapy, and beyond.",
+    "authors": [
+      "Kang T",
+      "Bleris L"
+    ],
+    "published": "2026-04-07",
+    "journal": "Cell reports methods",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41950922/",
+    "score": 65,
+    "summary": {
+      "title_zh": "利用核酶支架的miRNA传感与CRISPR介导的驱动实现细胞状态控制",
+      "tool_type": "RNA传感器与CRISPR基因调控整合平台（miRNA引导的CRISPR系统）",
+      "design": "1. 核心思路是将内源性miRNA信号作为细胞状态传感器，通过核酶支架的sgRNA结构来调控CRISPR效应器的激活。\n2. 具体设计是：利用II型聚合酶驱动表达一个嵌合体，该嵌合体包含一个能响应特定miRNA的核酶支架，以及一个与支架结合的sgRNA；只有当目标miRNA存在并切割核酶后，sgRNA才被释放并激活CRISPR效应器（如Cas9）。",
+      "functions": "1. **细胞状态检测与传感**：通过内源性miRNA表达谱特异性识别细胞状态（如上皮-间质转化）。\n2. **条件性基因调控**：仅在目标细胞状态下激活CRISPR介导的基因编辑或转录调控。\n3. **细胞群体操控**：实现特定状态细胞的选择性清除或富集。\n4. **应用方向**：癌症治疗（靶向转移性细胞）、再生医学（引导细胞命运转变）、细胞群体动态筛选与重编程。",
+      "key_results": "1. 在体外成功实现了对经历上皮-间质转化（EMT）的细胞进行选择性清除，并动态过滤细胞群体。\n2. 系统展示了基于内源性miRNA信号的高特异性激活能力，为体内应用提供了概念验证。"
+    }
+  },
+  {
+    "id": "41954811",
+    "title": "EVmiRED: a curated database of miRNA editing landscape in extracellular vesicles.",
+    "abstract": "Metastasis accounts for the vast majority of tumor-related mortality. Certain populations of tumor cells exhibit organotropism by preferentially colonizing specific distant organs. The organ specificity of metastatic cells is determined by unique interactions between tumor cells and the microenvironment in target organs. Tumor extracellular vesicles (EVs), particularly exosomes, delivering tumor cell components including nucleic acid complexes, proteins, and lipids, play a crucial role in mediating intercellular communication between tumor cells and their microenvironment. ADAR-mediated microRNA (miRNA) editing has emerged as a crucial mechanism influencing miRNA stability, processing, and target specificity. Although EVs are increasingly recognized as important vehicles of intercellular signaling and promising biomarkers for cancer, the landscape of miRNA editing within EVs remains largely unexplored. Here, we present EVmiRED (Extracellular Vesicle miRNA Editing Database), a resource that integrates miRNA expression and editing profiles from tumor-derived EVs. The current release includes data from 683 samples across 12 tumor types and cell lines. EVmiRED provides detailed information on miRNA abundance, editing frequency, and the predicted functional impact of specific editing events. EVmiRED enables users to query individual miRNAs, visualize expression and editing patterns, and access raw datasets for customized analyses. Together, EVmiRED offers a valuable platform to advance our understanding of RNA editing-mediated regulation in intercellular communication, tumor progression, and cancer immunology.",
+    "authors": [
+      "Kou K",
+      "Wen L",
+      "Yang L",
+      "Gao Z",
+      "Jin B",
+      "Pan J",
+      "Zhang R"
+    ],
+    "published": "2026-04-09",
+    "journal": "Advanced biotechnology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41954811/",
+    "score": 35,
+    "summary": {
+      "title_zh": "EVmiRED：细胞外囊泡中miRNA编辑图谱的精选数据库",
+      "tool_type": "生物信息学数据库/数据资源平台",
+      "design": "该平台通过整合来自肿瘤来源细胞外囊泡（EVs）的miRNA表达谱和编辑谱数据，构建了一个结构化的知识库。其核心设计思路是系统性地收集、注释并可视化EVs中ADAR介导的miRNA编辑事件，并提供编辑频率、丰度及功能影响预测等模块化信息。",
+      "functions": "1. 查询特定miRNA在EVs中的表达与编辑信息；\n2. 可视化不同肿瘤类型或样本中miRNA的编辑模式；\n3. 提供原始数据集供用户进行自定义分析；\n4. 作为研究细胞间通讯、肿瘤进展和癌症免疫学中RNA编辑调控机制的平台。",
+      "key_results": "该数据库首版整合了来自12种肿瘤类型和细胞系的683个样本数据，系统揭示了EVs中miRNA编辑的广泛存在，并提供了具体的编辑频率和功能预测，为探索EVs介导的RNA编辑在肿瘤转移中的作用提供了关键数据基础。"
+    }
+  },
+  {
+    "id": "41952066",
+    "title": "Analytical Assessment of sgRNA Impurities and Their Impact on Functional Performance.",
+    "abstract": "Single guide RNA (sgRNA) is a critical component of the clustered, regularly interspaced short palindromic repeats (CRISPR)-Cas9 genome-editing system, guiding Cas9 to specific genomic loci for precise DNA modification. With its growing clinical potential, sgRNAs have emerged as a promising modality for gene editing-based therapeutics, underscoring the need for robust analytical characterization to ensure quality, safety, efficacy, and regulatory compliance. Here, we present an integrated strategy for deep profiling of sgRNA impurities, combining high-resolution ion-pairing reversed-phase liquid chromatography (IP-RPLC) and size-exclusion chromatography (SEC) with advanced technologies, namely, native mass spectrometry and nanopore direct RNA sequencing. The isolation and characterization of isolated chromatographic peaks revealed truncated, chemically modified, and deletion-prone species. Notably, early eluting fractions in IP-RPLC exhibited elevated deletion frequencies in the target-specific region, correlating with reduced gene-editing efficiency and increased variability in T cells when tested using the Cas-CLOVER system. In contrast, late-eluting fractions in IP-RPLC revealed polyphosphorylated variants with minimal functional impact, while off-target analyses suggested that early eluting impurities may paradoxically reduce off-target editing. Lastly, even at high levels, sgRNA aggregates showed only a limited impact on activity: fully aggregated preparations displayed ∼10% lower knockout efficiency; however, an increase in cumulative off-target frequencies was observed. Overall, this study highlights the value of combining advanced analytical tools to achieve deep profiling of sgRNA impurities. By linking specific impurity profiles to functional outcomes, these findings provide actionable insights for improving sgRNA quality control and advancing the development of safe and effective gene editing-based therapeutics.",
+    "authors": [
+      "Chatla K",
+      "Ayalew L",
+      "Yim M",
+      "Ko P",
+      "Lippold S",
+      "Hernandez G",
+      "Chua BA",
+      "Patil DP",
+      "Camperi J"
+    ],
+    "published": "2026-04-08",
+    "journal": "Analytical chemistry",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41952066/",
+    "score": 35,
+    "summary": {
+      "title_zh": "sgRNA杂质分析评估及其对功能性能的影响",
+      "tool_type": "RNA工具质量分析平台/方法学",
+      "design": "本研究并非开发新的RNA编辑工具，而是构建了一个用于深度分析sgRNA杂质的集成分析平台。其核心思路是结合高分辨率离子对反相液相色谱（IP-RPLC）和尺寸排阻色谱（SEC），并利用原生质谱和纳米孔直接RNA测序等先进技术，对sgRNA制品中的杂质进行系统性的分离、鉴定与功能关联分析。",
+      "functions": "该分析平台可实现以下功能：1) 深度表征sgRNA制品中的杂质谱，包括截短体、化学修饰变体和易缺失序列等；2) 将特定的杂质色谱峰（如IP-RPLC中的早洗脱峰、晚洗脱峰）与sgRNA的功能性能（如基因编辑效率、脱靶编辑）进行关联分析；3) 为基于CRISPR-Cas9的基因编辑疗法的sgRNA质量控制提供可操作的见解和标准。",
+      "key_results": "关键实验结果表明：1) IP-RPLC中早洗脱的杂质（富含目标区域序列缺失的变体）与基因编辑效率降低和T细胞中编辑结果变异性增加显著相关，但可能意外地降低脱靶编辑；2) 晚洗脱的杂质（多磷酸化变体）对功能影响极小；3) 即使在高水平下，sgRNA聚集体仅导致敲除效率降低约10%，但会观察到累积脱靶频率的增加。"
+    }
+  },
+  {
+    "id": "41955099",
+    "title": "Incorporation of genome-bound cellular proteins into HIV-1 particles regulates viral infection.",
+    "abstract": "The initial steps of the human immunodeficiency virus type 1 (HIV-1) life cycle are regulated by cellular RNA-binding proteins, but only a few have been identified. Here, we developed in virion RNA interactome capture (ivRIC) to comprehensively profile the direct protein interactors of the HIV-1 genomic (g)RNA inside the viral particles. We identified 104 cellular RNA-binding proteins in virions (ivRBPs), many of which are nuclear. We determined the interactome of the viral RBP Rev and discovered that nuclear ivRBPs may associate gRNA in the nucleus and continue bound after the genesis of the viral particles. We also observed that ivRBPs are not incorporated into viral particles based on their abundance, but likely through selective mechanisms. Moreover, we show that the ivRBPs PURA and its homolog PURB control HIV-1 particle infectivity and engage with several viral proteins and key elements within HIV-1 gRNA, showcasing the importance of ivRBPs for HIV-1 infection.",
+    "authors": [
+      "Garcia-Moreno M",
+      "Embarc-Buh A",
+      "Truman R",
+      "Noerenberg M",
+      "Iselin L",
+      "Chen H",
+      "Lenz CE",
+      "Lee JY",
+      "Dicker K",
+      "Shetty SD",
+      "Palmalux N",
+      "Gu Q",
+      "Sohier TJM",
+      "Järvelin AI",
+      "Kamel W",
+      "Ruscica V",
+      "Ricci EP",
+      "Davis I",
+      "Mohammed S",
+      "Castello A"
+    ],
+    "published": "2026-04-07",
+    "journal": "Cell reports",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41955099/",
+    "score": 35,
+    "summary": {
+      "title_zh": "将基因组结合细胞蛋白整合入HIV-1颗粒以调控病毒感染",
+      "tool_type": "病毒颗粒内RNA互作组捕获技术平台（ivRIC），属于RNA-蛋白质相互作用组学分析工具",
+      "design": "该研究开发了“病毒颗粒内RNA互作组捕获”技术，其核心思路是：从完整的HIV-1病毒颗粒中分离出病毒基因组RNA及其直接结合的蛋白质复合物，随后通过质谱分析全面鉴定这些蛋白质。该方法旨在捕获病毒组装过程中被选择性包裹进病毒颗粒内的RNA-蛋白质互作网络。",
+      "functions": "1. 全面鉴定病毒颗粒内与病毒基因组RNA直接相互作用的宿主蛋白。\n2. 解析病毒生命周期早期步骤的调控机制，特别是病毒基因组在细胞核内组装及随病毒颗粒释放后的状态。\n3. 发现可调控病毒颗粒感染性的关键宿主因子，为理解病毒感染机制和潜在治疗靶点提供新视角。",
+      "key_results": "1. 在HIV-1病毒颗粒内鉴定出104种宿主RNA结合蛋白，其中许多是核蛋白，表明它们可能在细胞核内与病毒基因组结合并被选择性包裹入病毒颗粒。\n2. 功能验证发现，宿主蛋白PURA和PURB能调控HIV-1病毒颗粒的感染性，并与病毒蛋白及基因组RNA关键元件相互作用，证实了所发现ivRBPs的功能重要性。"
+    }
+  }
+]
