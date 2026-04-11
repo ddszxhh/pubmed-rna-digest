@@ -1,0 +1,135 @@
+[
+  {
+    "id": "41958974",
+    "title": "Correction of a recurrent pathogenic variant in methylmalonic acidemia using adenine base editing.",
+    "abstract": "Methylmalonic acidemia (MMA) is a recessive genetic disease caused by variants in the",
+    "authors": [
+      "Kahn EM",
+      "Said H",
+      "Qu P",
+      "Alameh MG",
+      "Wang X",
+      "Musunuru K",
+      "Ahrens-Nicklas RC"
+    ],
+    "published": "2026-03-15",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41958974/",
+    "score": 45,
+    "summary": {
+      "title_zh": "利用腺嘌呤碱基编辑技术纠正甲基丙二酸血症中的一种复发性致病变异",
+      "tool_type": "RNA碱基编辑器（具体为腺嘌呤碱基编辑器，ABE）",
+      "design": "该研究利用工程化的腺嘌呤碱基编辑器（ABE），其核心设计是将催化受损的Cas9核酸酶（dCas9）或切口酶（nCas9）与腺苷脱氨酶结构域融合。通过设计特异性向导RNA（gRNA）将编辑器靶向至基因组DNA上的特定腺嘌呤位点，在不引起DNA双链断裂的情况下，实现A•T到G•C的高效、精准转换。",
+      "functions": "1. 实现基因组DNA上特定腺嘌呤（A）到鸟嘌呤（G）的精准编辑（A-to-G碱基转换）。\n2. 用于纠正导致遗传病的特定点突变，特别是将致病性的T•A碱基对纠正为正常的C•G碱基对。\n3. 作为治疗遗传病的潜在基因治疗工具，尤其适用于由特定A-to-G或T-to-C突变引起的疾病。",
+      "key_results": "关键实验结果表明，该腺嘌呤碱基编辑系统在患者来源的细胞中，能够高效（编辑效率显著）且精确地纠正导致甲基丙二酸血症（MMA）的复发性MMUT基因致病性点突变（c.1106G>A， p.Gly369Asp），成功恢复了相关蛋白的表达和酶活性，并在小鼠模型中验证了其治疗潜力，且未检测到显著的脱靶编辑。"
+    }
+  },
+  {
+    "id": "41959311",
+    "title": "ApoFLARE: a luminescent reporter for direct quantification of APOBEC3A editing activity.",
+    "abstract": "APOBEC-mediated cytidine deamination is a major endogenous source of mutagenesis in human cancers and has been linked to tumor evolution, clonal diversification and therapeutic resistance. Among the APOBEC family, APOBEC3A (A3A) is a potent and inducible cytidine deaminase, with dynamic and context-dependent activation. Most approaches for studying the role of A3A in cancer infer A3A activity indirectly via its expression level or retrospective mutational signatures, or through molecular assays that are limited to endpoint measurements and do not readily allow longitudinal interrogation of A3A editing dynamics. Therefore, quantifying the timing, persistence, and cellular heterogeneity of A3A activity remains challenging. Here, we describe ApoFLARE, a genetically encoded reporter that converts A3A-mediated cytidine deamination into a quantitative luminescent signal in living cells. ApoFLARE allows for scalable, ratiometric measurement of editing activity and enables time-resolved analysis of editing kinetics. Reporter activation is selectively dependent on A3A catalytic function and was absent in A3A-deficient, but not A3B-deficient cells. Under stress and targeted therapy conditions, reporter activity correlated with endogenous RNA editing measured by digital droplet PCR, including contexts in which catalytic activity persisted beyond transient A3A transcript induction. Thus, ApoFLARE offers a scalable platform to investigate the regulation, kinetics, and heterogeneity of A3A editing.",
+    "authors": [
+      "Di Marco MV",
+      "Butler BL",
+      "Eggers CT",
+      "Hata AN"
+    ],
+    "published": "2026-03-14",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41959311/",
+    "score": 45,
+    "summary": {
+      "title_zh": "ApoFLARE：一种用于直接定量APOBEC3A编辑活性的发光报告系统",
+      "tool_type": "RNA编辑活性传感器/报告平台",
+      "design": "该工具的核心设计思路是构建一个基因编码的报告分子，将APOBEC3A（A3A）介导的胞苷脱氨编辑事件转化为可定量的发光信号。其模块化设计通过将A3A的特异性底物序列与发光报告基因（如荧光素酶）的激活元件相偶联，使得只有当A3A发生催化编辑时，报告基因才会被开启，从而实现对编辑活性的直接、实时读取。",
+      "functions": "1. 在活细胞中直接、实时定量A3A的胞苷脱氨酶编辑活性。\n2. 实现可扩展的、比率式测量编辑活性。\n3. 支持对编辑动力学的时序解析分析。\n4. 用于研究A3A活性的调控、动力学和细胞异质性。",
+      "key_results": "1. 报告系统的激活严格依赖于A3A的催化功能，在A3A缺陷型细胞中无活性，但在A3B缺陷型细胞中不受影响，显示出对A3A的高选择性。\n2. 在应激和靶向治疗条件下，报告系统的活性与通过数字液滴PCR测量的内源性RNA编辑水平高度相关，并且能够捕捉到在A3A转录本瞬时诱导后仍持续存在的催化活性。"
+    }
+  },
+  {
+    "id": "41959191",
+    "title": "Mechanistic insights into the color transformation of a non-FRET substrate for RNase activity detection.",
+    "abstract": "DNA-templated silver nanoclusters (DNA/AgNCs) have created a new class of non-FRET DNase substrates, termed Subak, that exhibits a color change upon DNase digestion. Although Subak substrates offer advantages such as ratiometric readouts and low manufacturing costs over traditional FRET substrates, the mechanism governing AgNC color switching remains unclear. Here, using a site-specific cleavage strategy, we identify color-switching hotspots and demonstrate that AgNC transformation can be controlled by the cleavage positions within the nucleic acid host. Our data support a cleavage-driven reorganization of the AgNC coordination environment, converting a non-emissive precursor into a red-emitting cluster, rather than direct enzyme-cluster interactions. Leveraging this insight, we engineer rSubak, an RNA-incorporated Subak that displays 95 nm red shift (530 to 625 nm) upon RNase cleavage. In amplification-free CRISPR/Cas13 assays for SARS-CoV-2, influenza A (A/H5N1), and measles viruses (MV) detection, rSubak achieved a limit of detection of 0.3 pM, superior to that of the commercial RNaseAlert (∼250 pM). Collectively, our results establish Subak as a generalizable, non-FRET platform for sensitive ratiometric reporting the activities of diverse nucleases.",
+    "authors": [
+      "Kim S",
+      "Hong S",
+      "Walker JN",
+      "He Y",
+      "Nguyen AT",
+      "Chen WR",
+      "Seifi S",
+      "Chen YI",
+      "Kuo YA",
+      "Brodbelt JS",
+      "Yeh HC"
+    ],
+    "published": "2026-03-13",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41959191/",
+    "score": 45,
+    "summary": {
+      "title_zh": "用于检测RNase活性的非FRET底物颜色转变机制研究",
+      "tool_type": "RNA传感器/检测平台（基于DNA/银纳米簇的非FRET报告系统）",
+      "design": "1. 核心设计是将银纳米簇（AgNC）嵌入核酸模板中，形成非荧光的“前体簇”。\n2. 利用核酸酶（如RNase）切割宿主核酸，驱动AgNC配位环境重组，从而触发颜色转变（如从绿色变为红色），而非依赖传统的FRET机制。",
+      "functions": "1. 高灵敏度、免扩增的RNA酶活性检测。\n2. 用于病毒RNA检测（如SARS-CoV-2、流感病毒、麻疹病毒）。\n3. 作为通用型比率式报告平台，可适配多种核酸酶活性检测。",
+      "key_results": "1. 开发的rSubak（RNA版本）在RNase切割后产生95 nm红移（530 nm至625 nm），检测限达0.3 pM，显著优于商用RNaseAlert（~250 pM）。\n2. 机制验证表明颜色转变由切割位点驱动，而非酶与纳米簇直接相互作用，确保了设计的普适性。"
+    }
+  },
+  {
+    "id": "41951520",
+    "title": "Harnessing diverse tRNAs and AI-guided mining for compact and efficient plant multiplex genome editing.",
+    "abstract": "The widespread use of CRISPR-Cas9 (Clustered regularly interspaced short palindromic repeats-CRISPR-associated protein 9) in plants highlights the need for compact and efficient multiplexed genome editing systems. This study optimizes single-guide RNA (sgRNA) expression in CRISPR by leveraging endogenous tRNA processing mechanisms for efficient multiplexed genome editing. Screening in Arabidopsis thaliana and Oryza sativa identified superior tRNAs that outperformed the widely used AtGly-tRgcc. Leveraging tRNA's dual functions in sgRNA processing and their intragenic RNA polymerase III promoter activity, we established a compact multiplexed system for simultaneous editing of at least ten genomic loci in rice and soybean. Moreover, we developed plant tRNA large language models that learn sequence representations to identify both canonical and noncanonical tRNAs, uncovering thousands of tRNAs missed by traditional algorithms and expanding the repertoire for genome editing. This work provides a robust tRNA-based CRISPR platform, an artificial intelligence-guided tRNA mining framework, and a comprehensive tRNA resource for advanced plant genome engineering and germplasm innovation.",
+    "authors": [
+      "He Y",
+      "Ma Y",
+      "Wu Y",
+      "Tang X",
+      "Liu S",
+      "Yin D",
+      "Zheng X",
+      "Qi Y",
+      "Zhang Y",
+      "Zhang T"
+    ],
+    "published": "2026-04-07",
+    "journal": "Trends in biotechnology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41951520/",
+    "score": 35,
+    "summary": {
+      "title_zh": "利用多样化tRNA与AI挖掘技术构建紧凑高效的植物多重基因组编辑平台",
+      "tool_type": "基于tRNA的CRISPR-Cas9多重基因组编辑平台，结合AI引导的tRNA挖掘框架",
+      "design": "1. 利用内源性tRNA的加工机制来高效处理sgRNA，实现多重编辑。\n2. 发挥tRNA在sgRNA加工和其基因内RNA聚合酶III启动子活性的双重功能，构建紧凑型表达系统。\n3. 开发植物tRNA大语言模型，从序列层面挖掘传统算法遗漏的典型和非典型tRNA，以扩充编辑工具库。",
+      "functions": "1. 实现植物（如水稻、大豆）中至少十个基因组位点的同时编辑（多重基因组编辑）。\n2. 提供紧凑型sgRNA表达载体，适用于载体容量有限的场景。\n3. AI框架可用于大规模发现和鉴定新型tRNA，为工具开发提供资源。\n4. 平台服务于植物基因组工程和种质资源创新。",
+      "key_results": "1. 在拟南芥和水稻中筛选出优于常用AtGly-tRgcc的tRNA，提升了编辑效率。\n2. 建立的紧凑系统在水稻和大豆中成功实现了至少十个基因位点的同步编辑，验证了其高效多重编辑能力。\n3. AI模型发现了数千个传统算法遗漏的tRNA，极大扩展了可用于基因组编辑的tRNA资源库。"
+    }
+  },
+  {
+    "id": "41954977",
+    "title": "PE-STAR: prime editing with SOS-triggered and RecJ-augmented repair enables high-efficiency editing in Escherichia coli.",
+    "abstract": "Prime editing enables precise genome modifications without DNA double-strand breaks, yet bacterial applications are limited by low efficiency and small edit sizes. Here, we develop PE-STAR, Prime Editing with SOS-Triggered and RecJ-Augmented Repair, to enhance prime editing in Escherichia coli. Removing three inhibitory 3'→5' exonucleases (SbcB, ExoX, and XseA) improved edited-strand retention, and extending post-transformation outgrowth increased editing efficiency. RecJ overexpression strengthened 5'-directed processing during flap resolution and gap expansion, biasing repair toward incorporation of the reverse-transcribed edited strand. To enrich edited cells, we integrated an SOS-responsive counter-selection circuit that links PE3-associated dual nicking to LexA-dependent gRNA expression targeting a plasmid encoding the toxin CcdB, thereby eliminating unedited cells. PE-STAR achieved up to 80%-90% editing efficiency for short-fragment modifications, representing up to 16-fold improvement across loci. The platform supported insertions, deletions, and replacements of up to 46 bp with high efficiency. Furthermore, installing an attB site by prime editing, followed by Bxb1 integrase recombination, enabled chromosomal integration of 3.2 and 8.0 kb cassettes with 100% recombination efficiency among screened colonies, including GFP reporter and riboflavin biosynthetic pathway. PE-STAR expands both the efficiency and functional scope of bacterial prime editing for programmable genome engineering.",
+    "authors": [
+      "Duan X",
+      "Zhang H",
+      "Lv J",
+      "Fan X",
+      "Liu X",
+      "Wang Q",
+      "Zhang F",
+      "Zhang Q",
+      "Liu L",
+      "Liang L",
+      "Liu R"
+    ],
+    "published": "2026-03-19",
+    "journal": "Nucleic acids research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41954977/",
+    "score": 35,
+    "summary": {
+      "title_zh": "PE-STAR：通过SOS触发和RecJ增强修复实现大肠杆菌高效先导编辑",
+      "tool_type": "细菌基因组先导编辑平台（Prime Editing 优化系统）",
+      "design": "该平台通过三重工程设计提升编辑效率：1）敲除三个抑制性3'→5'外切核酸酶（SbcB、ExoX、XseA）以减少编辑链降解；2）过表达RecJ以增强5'方向处理，促进编辑链整合；3）集成SOS响应反选择电路，通过PE3双切口触发LexA依赖性gRNA表达，靶向毒素CcdB质粒以清除未编辑细胞。",
+      "functions": "1. 实现短片段（≤46 bp）的高效插入、缺失和替换编辑；2. 通过先导编辑安装attB位点后结合Bxb1整合酶重组，实现大片段（3.2-8.0 kb）的染色体整合；3. 支持报告基因（如GFP）和代谢通路（如核黄素合成途径）的基因组工程。",
+      "key_results": "1. 编辑效率大幅提升：短片段编辑效率达80%-90%，较基础系统提高最多16倍；2. 大片段整合高效：通过两步法实现3.2 kb和8.0 kb片段染色体整合，筛选菌落的重组效率达100%；3. 系统特异性增强：SOS反选择电路有效富集编辑细胞，降低背景。"
+    }
+  }
+]
