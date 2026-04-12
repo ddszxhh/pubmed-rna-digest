@@ -1,0 +1,129 @@
+[
+  {
+    "id": "40813912",
+    "title": "Systematic pegRNA design with PRIDICT2.0 and ePRIDICT for efficient prime editing.",
+    "abstract": "Prime editing is a versatile genome editing technology that enables precise genetic modifications without inducing DNA double-strand breaks. Owing to numerous variables in the prime editing guide RNA (pegRNA) design, experimentally identifying the most efficient pegRNA for a specific locus and edit is laborious. Therefore, we have developed computational tools to streamline this process. Here we present a comprehensive protocol detailing how to use PRIDICT2.0 and ePRIDICT, machine-learning models that assess the influence of the pegRNA design and chromatin context on prime editing. PRIDICT2.0 is an ensemble of attention-based bidirectional recurrent neural networks that predicts pegRNA efficiencies for replacements, insertions or deletions in different cellular contexts. Compared with other pegRNA design tools, PRIDICT2.0 accommodates larger edits-up to 40 base pairs-across diverse edit types, also allowing the introduction of silent bystander edits that can enhance editing efficiency. ePRIDICT, a gradient-boosting algorithm, further accounts for the local chromatin environments and assesses how the genomic location of the target site affects prime editing rates. Both tools are available at www.pridict.it for individual predictions or can be installed locally for batch processing of multiple edits and target sites. The protocol provides step-by-step instructions on using PRIDICT2.0 and ePRIDICT, covering sequence input, prediction generation and interpretation. Web-based predictions take under a minute, while local installation and batch processing may take up to several hours, depending on the dataset size. By streamlining pegRNA selection and chromatin context analysis, these tools promote the adoption of prime editing in basic and translational research.",
+    "authors": [
+      "Mathis N",
+      "Marquart KF",
+      "Allam A",
+      "Krauthammer M",
+      "Schwank G"
+    ],
+    "published": "2026-04-01",
+    "journal": "Nature protocols",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40813912/",
+    "score": 45,
+    "summary": {
+      "title_zh": "利用PRIDICT2.0和ePRIDICT进行系统性pegRNA设计以实现高效先导编辑",
+      "tool_type": "pegRNA设计预测工具（基于机器学习的计算平台）",
+      "design": "1. PRIDICT2.0采用基于注意力机制的双向循环神经网络集成模型，通过分析pegRNA序列特征来预测其在多种细胞环境下的编辑效率。\n2. ePRIDICT采用梯度提升算法，整合了靶位点的局部染色质环境特征，以评估基因组位置对先导编辑效率的影响。",
+      "functions": "1. 预测针对替换、插入或删除（最长40个碱基对）等多种编辑类型的pegRNA效率。\n2. 支持引入可提升编辑效率的“沉默旁观者编辑”设计。\n3. 评估染色质环境对编辑效率的影响。\n4. 提供在线单点预测或本地批量处理功能，辅助先导编辑实验设计。",
+      "key_results": "1. 工具性能：相比其他pegRNA设计工具，PRIDICT2.0能处理更大范围（达40bp）的编辑类型，并整合了染色质环境因素。\n2. 实用效率：在线预测可在1分钟内完成，本地批量处理时间取决于数据集规模（可达数小时），显著提升了先导编辑实验的设计效率。"
+    }
+  },
+  {
+    "id": "40983723",
+    "title": "Multidimensional analysis of host-virus interactions using the virus-encoded CRISPR-based direct readout system (VECOS).",
+    "abstract": "CRISPR-Cas9 technology has transformed the study of gene function, enabling the systematic investigation of host-virus interactions. However, most CRISPR-based screens in the context of viral infections rely on cell survival as a readout, which limits their sensitivity and biases results toward early infection stages. To address these challenges, we developed the virus-encoded CRISPR-based direct readout system (VECOS), a virus-centric approach in which human cytomegalovirus is engineered to express single-guide RNA (sgRNA) libraries directly from its genome. This system allows sgRNA abundance, embedded in the viral genome, to serve as a direct and quantitative readout of gene-perturbation effects on viral propagation. By tracking sgRNA levels at distinct stages of the viral infection cycle, VECOS enables a detailed, multidimensional analysis of virus-host interactions. Here we present a modular detailed Protocol for (1) constructing and reconstituting complex sgRNA libraries in double-stranded DNA viruses using bacterial artificial chromosomes, (2) performing multipassage screens to investigate perturbation effects on various stages of viral infection and (3) analyzing the multipassage and multistage sgRNA abundance measurements utilizing a comprehensive framework for data analysis. Successful implementation of this full Protocol takes 14-22 weeks and requires proficiency in molecular biology, as well as basic familiarity with Unix-based computing and programming in R for data processing. This Protocol offers researchers a robust tool for uncovering the molecular mechanisms that drive viral propagation and host-virus interactions.",
+    "authors": [
+      "Lilja A",
+      "Finkel Y",
+      "Aharon E",
+      "Nachshon A",
+      "Schwartz M",
+      "Stern-Ginossar N"
+    ],
+    "published": "2026-04-01",
+    "journal": "Nature protocols",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40983723/",
+    "score": 35,
+    "summary": {
+      "title_zh": "利用病毒编码的CRISPR直接读数系统（VECOS）进行宿主-病毒相互作用的多维分析",
+      "tool_type": "病毒编码的CRISPR筛选与读数平台",
+      "design": "该系统的核心设计是将sgRNA文库直接整合到病毒基因组中，使其成为病毒复制过程的内在报告元件。通过将人巨细胞病毒改造为表达sgRNA的载体，利用sgRNA在病毒基因组中的丰度变化，直接定量反映宿主基因扰动对病毒增殖的影响。",
+      "functions": "1. 实现病毒增殖过程的直接、定量读数，摆脱传统基于细胞存活的筛选限制。\n2. 通过追踪不同感染阶段sgRNA水平的变化，进行宿主-病毒相互作用的多维、多阶段分析。\n3. 提供模块化方案，支持在双链DNA病毒中构建复杂sgRNA文库并进行多轮次筛选。",
+      "key_results": "该系统成功建立了以病毒基因组内sgRNA丰度为直接读数的筛选方法，能够高灵敏度地分析基因扰动对病毒增殖各阶段的影响，并提供了从文库构建到数据分析的完整实验与计算框架。"
+    }
+  },
+  {
+    "id": "41954981",
+    "title": "Efficient multi-kilobase knock-ins in mice and cell lines using CRISPR/Cas9 and rAAV donors with unbiased whole-genome characterization by LOCK-seq.",
+    "abstract": "Multi-kilobase knock-ins (KIs) are a necessary, yet challenging type of genome editing to create and characterize in cell lines and animals. The combination of rAAV donor transduction and electroporation of single-cell mouse embryos with Cas9/gRNA ribonucleoprotein complex enables highly efficient KI, but the insert size is limited by the viral packaging capacity. Here, we report the creation of up to 6.7 kb precise KI achieved in one step by using three rAAVs designed to insert one after the other. To fully characterize the edited genome with large KIs, we developed LOCK-seq (LOng-read sequencing of Captured Kilo-base targets), where relevant genomic regions are enriched via hybridization, achieving over 100-fold greater coverage compared with other long-read methods with enrichment. LOCK-seq simultaneously detects the presence of precise KI alleles, imprecision in the insert and donor concatenation, genotypes of non-KI alleles, and more importantly, uniquely identifies and localizes random integration of the full or partial donor(s). Additionally, the multi-rAAV donor approach is successfully applied to cell lines, including lines intolerant of plasmid DNA, whereas LOCK-seq reliably and efficiently screens for KI clones. Together, the two approaches significantly improve the creation and precision of knock-in models.",
+    "authors": [
+      "Sentmanat MF",
+      "Wang ZT",
+      "Kouranova E",
+      "Peters ST",
+      "Chan WC",
+      "Lin J",
+      "Miao Y",
+      "White JM",
+      "Wallace M",
+      "Cui X"
+    ],
+    "published": "2026-03-19",
+    "journal": "Nucleic acids research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41954981/",
+    "score": 25,
+    "summary": {
+      "title_zh": "利用CRISPR/Cas9与rAAV供体实现高效多千碱基敲入，并通过LOCK-seq进行无偏全基因组表征",
+      "tool_type": "基因组编辑与表征平台（包含大片段敲入递送系统与长读长测序验证技术）",
+      "design": "1. 递送系统：将CRISPR/Cas9 RNP电穿孔与多个重组腺相关病毒（rAAV）供体递送相结合，通过设计多个rAAV供体依次插入，突破单个病毒包装容量限制。\n2. 表征技术：开发LOCK-seq（长读长捕获测序），通过杂交捕获富集目标基因组区域，实现对大片段的精准、高通量测序分析。",
+      "functions": "1. 实现高达6.7 kb的大片段、精确敲入。\n2. 适用于小鼠胚胎和细胞系（包括不耐受质粒DNA的细胞系）的基因组编辑。\n3. 全面表征编辑后基因组：检测精确敲入等位基因、插入不精确性、供体串联、非敲入等位基因分型，以及独特识别并定位供体（完整或部分）的随机整合事件。\n4. 高效筛选敲入克隆。",
+      "key_results": "1. 成功在小鼠和细胞系中实现高达6.7 kb的高效多千碱基敲入。\n2. LOCK-seq相比其他富集长读长方法，覆盖度提高超过100倍，并能可靠、高效地全面表征大片段敲入后的基因组结构，包括精确检测随机整合。"
+    }
+  },
+  {
+    "id": "41951060",
+    "title": "The first mitochondrial genome in Zingiber: Structural and evolutionary characterization of ginger (Zingiber officinale).",
+    "abstract": "The genus Zingiber possesses substantial economic and medicinal value, yet its mitochondrial genome (mitogenome) has remained entirely unexplored. Here, we present the first complete mitogenome assembly of ginger (Zingiber officinale), obtained through a hybrid sequencing (Illumina and PacBio) strategy. The genome features a complex, multi-branched structure totaling 8,977,507 bp and a GC content of 45.27%. It harbors 40 protein-coding genes (PCGs), 31 tRNAs, and three rRNAs. We identified abundant repetitive sequences, including 2954 SSRs and 54,887 dispersed repeats driving this genomic expansion, alongside widespread evidence of intracellular DNA transfer, with 273 plastid-derived fragments integrated into the mitogenome. Codon usage analysis revealed a pronounced bias toward A/U-ending synonymous codons. Importantly, Deepred-Mt predictions of extensive C-to-U RNA editing sites were experimentally corroborated via Sanger sequencing, confirming their critical role in maintaining the hydrophobicity of respiratory chain genes. Comparative analyses revealed a striking evolutionary decoupling: highly conserved nucleotide substitution rates contrasting with extreme structural rearrangements relative to related Curcuma species, and phylogenetic reconstruction strongly supported the sister relationship between Z. officinale and the Curcuma clade. This study provides a foundational genomic resource for further research on cytoplasmic inheritance, genome gigantism, molecular breeding, and the links between mitogenomic variation and key agronomic or medicinal traits in Z. officinale.",
+    "authors": [
+      "Shen H",
+      "Liu W",
+      "Zhao L",
+      "Guo Y",
+      "Li Y",
+      "Wu T",
+      "Han S"
+    ],
+    "published": "2026-04-06",
+    "journal": "Genomics",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41951060/",
+    "score": 15,
+    "summary": {
+      "title_zh": "姜属首个线粒体基因组：生姜（Zingiber officinale）的结构与进化特征解析",
+      "tool_type": "基因组分析平台与预测工具验证",
+      "design": "本研究并非开发新的可编程RNA调控工具，而是构建了一个高质量的生姜线粒体基因组参考序列平台。其核心思路是采用Illumina和PacBio混合测序策略，并结合生物信息学分析流程（如Deepred-Mt预测工具），系统解析线粒体基因组的复杂结构、进化动态及RNA编辑事件。",
+      "functions": "1. 作为首个姜属线粒体基因组参考序列，为研究细胞质遗传、基因组巨型化现象提供了基础资源。\n2. 通过整合Deepred-Mt预测与Sanger测序验证，实现了对线粒体RNA C-to-U编辑位点的高通量鉴定与功能分析。\n3. 该基因组平台可用于比较基因组学分析，揭示近缘物种间的进化关系与结构变异，并辅助分子育种及重要农艺/药用性状的关联研究。",
+      "key_results": "关键实验结果表明：1) 通过Deepred-Mt预测并经验证，发现了大量C-to-U RNA编辑位点，这些编辑对维持呼吸链基因编码蛋白的疏水性至关重要；2) 比较基因组学分析揭示了生姜与姜黄属物种间存在显著的进化脱钩现象，即核苷酸替换率高度保守，但基因组结构却发生了极端重排。"
+    }
+  },
+  {
+    "id": "41963791",
+    "title": "Mitochondrial genome of the invasive weed Amaranthus palmeri: structural features, RNA editing, and evolutionary insights.",
+    "abstract": "",
+    "authors": [
+      "Zheng J",
+      "Bai X",
+      "Zhu T",
+      "Li A",
+      "Yan J",
+      "Li H",
+      "Qi Z",
+      "Dai S",
+      "Yan X"
+    ],
+    "published": "2026-04-10",
+    "journal": "BMC plant biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41963791/",
+    "score": 10,
+    "summary": {
+      "title_zh": "入侵杂草长芒苋线粒体基因组：结构特征、RNA编辑与进化启示",
+      "tool_type": "非工具/平台类论文",
+      "design": "本文是一篇关于长芒苋线粒体基因组的特征描述与进化分析研究，并非工程化设计的RNA编辑工具或可编程调控系统。其研究思路是通过对线粒体基因组进行测序、组装和注释，分析其结构特征，并系统鉴定其中发生的RNA编辑事件。",
+      "functions": "本研究不涉及开发或应用新的RNA编辑工具。其功能在于：1）解析一种重要入侵植物的线粒体基因组结构；2）鉴定其线粒体基因中发生的C-to-U型RNA编辑位点；3）为理解植物线粒体基因组进化与RNA编辑的关联提供数据。",
+      "key_results": "关键实验结果包括：1）完成了长芒苋线粒体基因组的组装，揭示了其复杂的重复序列和结构重排；2）在其蛋白质编码基因中鉴定出491个C-to-U RNA编辑位点，这些编辑事件对维持保守氨基酸至关重要；3）系统发育分析支持了长芒苋在苋属中的分类地位。"
+    }
+  }
+]
