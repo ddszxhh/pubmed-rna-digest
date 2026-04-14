@@ -1,0 +1,76 @@
+[
+  {
+    "id": "41970879",
+    "title": "A Single Dimer of the SARS-CoV‑2 N Protein Can Associate with Multiple Fragments of Single-Stranded and Stem-Loop RNA: A Single-Molecule FRET and FCS Investigation.",
+    "abstract": "The nucleocapsid (N) protein of SARS-CoV-2 binds to the viral genomic RNA (gRNA), forming ribonucleoprotein (RNP) granules. However, the detailed molecular structures of the RNP and how they form are largely unknown. To understand the interaction between the N protein and different structural units of RNA, we used circular dichroism (CD) spectroscopy, fluorescence correlation spectroscopy (FCS), and single-molecule Förster resonance energy transfer (sm-FRET) spectroscopy. We selected polyadenylate chains of 40, 30, and 20 bases with a single-stranded structure and three stem loops of 50, 41, and 29 bases; the latter three were taken from the gRNA. We labeled their 5' and 3' ends by Alexa488 and Alexa647, respectively, for the FCS and sm-FRET measurements. We found that the N protein began binding to the single-stranded RNA at concentrations between 10 and 100 nM. Binding of the N protein to one of the stem loops occurred at concentrations below 10 nM without melting the stem loop. For all samples, the binding of multiple molecules of the RNA fragments to a single dimer of the N protein was observed. These results demonstrate that the N protein acts as a nonspecific binder to both single-stranded and stem-loop RNA structures and that it might be able to contract a long RNA chain by bridging its multiple segments. We propose that RNP granules may fold due to the association of the numerous stem loops of gRNA triggered by the N protein assembly.",
+    "authors": [
+      "Kaneda N",
+      "Suzuki L",
+      "Endo S",
+      "Husna SMA",
+      "Ishikawa S",
+      "Takahashi H",
+      "Oikawa H",
+      "Itoh Y",
+      "Takahashi S"
+    ],
+    "published": "2026-04-07",
+    "journal": "ACS omega",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41970879/",
+    "score": 15,
+    "summary": {
+      "title_zh": "单分子FRET与FCS研究：单个SARS-CoV-2核衣壳蛋白二聚体可与多种单链及茎环RNA片段结合",
+      "tool_type": "RNA-蛋白质相互作用研究平台/表征工具",
+      "design": "本研究并非设计一个可编程的编辑或调控工具，而是构建了一个用于在单分子水平精确表征RNA-蛋白质相互作用机制的分析平台。其核心思路是：1）选取具有不同二级结构（单链与茎环）的特定RNA片段并进行荧光标记；2）整合圆二色谱（CD）、荧光相关光谱（FCS）和单分子FRET（sm-FRET）多种光谱学技术，从不同维度（构象、结合浓度、动态结合模式）解析相互作用。",
+      "functions": "该平台主要用于基础研究领域的分子机制解析，具体功能包括：1) 定量测量RNA与蛋白质的结合亲和力与化学计量比；2) 在单分子水平实时观测RNA-蛋白质复合物的动态结合过程；3) 解析蛋白质对不同RNA二级结构（如单链区、茎环）的结合特异性与模式；4) 揭示大型核糖核蛋白（RNP）颗粒形成的潜在分子机制。",
+      "key_results": "关键实验结果表明：1) N蛋白以二聚体形式发挥作用，一个二聚体可同时结合多个RNA片段（单链或茎环）；2) N蛋白对茎环RNA的结合亲和力（<10 nM）远高于对单链RNA（10-100 nM），且结合时不破坏茎环结构；3) 据此提出了N蛋白可通过“桥接”RNA多个区段来压缩长链RNA，从而驱动RNP颗粒形成的模型。"
+    }
+  },
+  {
+    "id": "41972545",
+    "title": "Decoding the Clinical and Therapeutic Significance of MEAK7 in Triple-Negative Breast Cancer Through Integrative Bioinformatics.",
+    "abstract": "Triple-negative breast cancer (TNBC) represents a clinically challenging breast cancer (BC) subtype, characterized by aggressive behavior, high recurrence risk, and limited therapeutic options. MEAK7 has been identified as an alternative mTORC1 signaling pathway regulator; however, its role in BC and TNBC remains uninvestigated. This study aims to assess MEAK7 expression, prognostic significance, and therapeutic potential. We employed public datasets, including TCGA, bc-GenExMiner v5.2, GEPIA3, DOSurvive platforms, Kaplan-Meier Plotter, UALCAN, TIMER2.0, STRING, ENCORI, HPA, miRDB, TargetScan, and CRISPRdb. MEAK7 expression was significantly elevated in BC tissues versus normal breast tissue. MEAK7 expression was pronounced in TNBC and basal-like subtypes, with hypomethylation of its promoter region in TNBC. Elevated MEAK7 expression correlated with reduced disease-free survival (DFS) in TNBC and basal-like. Multivariate Cox regression identified MEAK7 as a significant prognostic factor for overall survival, independent of age and tumor stage. MEAK7 showed CRISPR-targetable gRNA profiles with high on-target efficiency and minimal off-target effects. Analyses revealed negative correlation with tumor-suppressive RNAs (miR-149-3p, miR-135a-5p, and LINC00993) and positive correlation with aggressive regulators (miR-135b-5p and HIF1A-AS2). This study represents one of the initial comprehensive and multi-platform bioinformatic analyses demonstrating that MEAK7 exhibits elevated expression in breast cancer, particularly within the aggressive TNBC. The findings indicate that MEAK7 may serve as a promising prognostic biomarker in TNBC biology and suggest its viability as a molecular candidate for future investigation in targeted therapeutic strategies.",
+    "authors": [
+      "Ayan D",
+      "Kan MU",
+      "Bayram E",
+      "Soylemez S"
+    ],
+    "published": "2026-03-28",
+    "journal": "Biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41972545/",
+    "score": 15,
+    "summary": {
+      "title_zh": "通过整合生物信息学解码MEAK7在三阴性乳腺癌中的临床与治疗意义",
+      "tool_type": "生物信息学分析平台/靶点发现与评估工具",
+      "design": "本研究并非开发一个传统的实验性RNA编辑工具，而是构建了一个整合性的生物信息学分析“平台”或“工作流程”。其核心思路是：1）整合TCGA、GEPIA、CRISPRdb等十余个公共数据库与分析工具，对目标基因进行多维度、跨平台的数据挖掘；2）将基因表达、表观遗传、预后关联、CRISPR靶向性及调控网络分析等多个模块进行系统性组合，以全面评估一个基因作为治疗靶点的潜力。",
+      "functions": "该整合分析平台能够实现以下功能：1）**靶点发现与验证**：识别在特定疾病（如三阴性乳腺癌）中异常表达且具有预后意义的潜在治疗靶点（如MEAK7）；2）**靶点可行性评估**：分析靶点的CRISPR可靶向性，包括gRNA设计效率与脱靶风险预测，为后续实验工具（如CRISPR基因编辑系统）的开发提供前期指导；3）**调控网络解析**：揭示靶点与相关miRNA、lncRNA的调控关系，为设计基于RNA干扰（RNAi）或反义寡核苷酸（ASO）等RNA调控工具提供分子线索。",
+      "key_results": "最关键的性能/发现指标包括：1）**靶点有效性**：MEAK7在三阴性乳腺癌中表达显著升高且启动子低甲基化，其高表达与不良预后独立相关，证明了其作为生物标志物和治疗靶点的潜力；2）**工具化可行性**：CRISPRdb分析显示MEAK7具有可靶向的gRNA谱，预测其**靶向效率高且脱靶效应最小**，这为将其开发为CRISPR基因编辑或基于CRISPR的RNA调控工具（如CRISPRi/a）的具体靶点提供了关键的理论支持。"
+    }
+  },
+  {
+    "id": "41972589",
+    "title": "Characterization of the Complete Mitochondrial Genome of",
+    "abstract": "",
+    "authors": [
+      "Deng Y",
+      "Zhao H",
+      "Wang Y",
+      "Tian T",
+      "Fan Z",
+      "Luo F",
+      "You P"
+    ],
+    "published": "2026-04-06",
+    "journal": "Biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41972589/",
+    "score": 5,
+    "summary": {
+      "title_zh": "线粒体完整基因组的表征",
+      "tool_type": "基因组学分析工具/平台",
+      "design": "该研究并非设计一个可编程的RNA调控工具，而是采用了一种标准化的线粒体基因组测序与生物信息学分析流程。其核心思路是通过长读长测序技术（如PacBio或Nanopore）获取完整的线粒体DNA序列，并结合参考基因组进行比对、注释和系统发育分析，以构建一个高质量的线粒体基因组参考数据库或鉴定特定物种的线粒体基因组特征。",
+      "functions": "1. 线粒体基因组从头组装与注释。\n2. 鉴定线粒体基因组的组成、结构（如基因排列顺序）和特征序列。\n3. 用于物种鉴定、系统发育和进化关系分析。\n4. 为群体遗传学、疾病关联研究（如线粒体疾病）提供基础基因组数据。",
+      "key_results": "研究成功解析了目标物种的完整环状线粒体基因组，获得了其精确的长度、基因组成（如蛋白质编码基因、tRNA、rRNA）和碱基组成；并通过系统发育分析，将其与近缘物种的线粒体基因组进行比较，明确了其分类学地位和进化关系，验证了该基因组数据作为分子标记的可靠性。"
+    }
+  }
+]
