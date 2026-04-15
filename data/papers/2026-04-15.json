@@ -1,0 +1,109 @@
+[
+  {
+    "id": "41975095",
+    "title": "Comparative characterization of Cas12f orthologs reveals mechanistic features underlying enhanced genome editing efficiency.",
+    "abstract": "Miniature CRISPR-Cas12f nucleases are attractive candidates for therapeutic genome editing because of their compact size and compatibility with adeno-associated virus (AAV) delivery. However, editing efficiencies in mammalian cells are lower than those of larger systems. The extensive phylogenetic diversity of Cas12f suggests unexplored mechanistic variation with the potential for optimization. Here we identify and characterize a naturally occurring Cas12f ortholog discovered through metagenomics, Alistipes sp. Cas12f (Al3Cas12f), which supports robust genome editing in human cells. Through structural, biochemical and kinetic analyses, we compare Al3Cas12f to two recently described orthologs, Oscillibacter sp. Cas12f and Ruminiclostridium herbifermentans Cas12f. These orthologs present divergent architectures and regulatory features governing protospacer-adjacent motif recognition, guide RNA (gRNA) binding, dimerization and DNA cleavage. Notably, Al3Cas12f achieves efficient R-loop formation through a stable dimer interface and a naturally optimized gRNA. Leveraging these structural insights, we generate an engineered Al3Cas12f variant (RKK) that increases editing and improves activity across several tested genomic loci. By overcoming locus-dependent variability and an apparent potency threshold, this engineered compact editor seems to expand the feasibility of low-dose, AAV-compatible therapeutic genome editing. Our results elucidate mechanistic determinants of Cas12f activity and offer a framework for engineering compact genome editors that may bear therapeutic potential.",
+    "authors": [
+      "Guan K",
+      "Ocampo RF",
+      "Matheus Carnevali PB",
+      "Castelle CJ",
+      "Gonzalez-Osorio L",
+      "Castanzo DT",
+      "Thomas NC",
+      "Brothers M",
+      "Dangerfield TL",
+      "Hooper MM",
+      "West MS",
+      "Appleby NM",
+      "Krudop I",
+      "Lamothe RC",
+      "Aliaga Goltsman DS",
+      "Alexander LM",
+      "Butterfield CN",
+      "Johnson KA",
+      "Brown CT",
+      "Taylor DW"
+    ],
+    "published": "2026-04-13",
+    "journal": "Nature structural & molecular biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41975095/",
+    "score": 45,
+    "summary": {
+      "title_zh": "Cas12f直系同源物的比较表征揭示其提升基因组编辑效率的机制特征",
+      "tool_type": "微型CRISPR-Cas12f基因组编辑系统",
+      "design": "本研究通过宏基因组学发现并表征了一种天然存在的Cas12f直系同源物（Al3Cas12f）。其核心设计思路在于利用Cas12f蛋白家族天然的系统发育多样性，通过比较结构、生化和动力学分析，揭示其原间隔序列邻近基序识别、向导RNA结合、二聚化和DNA切割的调控特征，并基于结构洞察对天然系统进行工程化改造。",
+      "functions": "1. 位点特异性基因组编辑（切割DNA双链）。\n2. 作为微型编辑器，兼容腺相关病毒递送，适用于体内基因治疗。\n3. 通过工程化改造可克服位点依赖性编辑效率差异，提升编辑活性。",
+      "key_results": "1. 发现的天然Al3Cas12f在人类细胞中支持稳健的基因组编辑；通过结构分析发现其通过稳定的二聚体界面和天然优化的gRNA实现高效的R-loop形成。\n2. 基于结构洞察设计的工程化变体（RKK）在多个测试基因组位点均提高了编辑效率，克服了位点依赖性变异和活性阈值，为低剂量、AAV兼容的治疗性基因组编辑提供了可行性。"
+    }
+  },
+  {
+    "id": "41977439",
+    "title": "Targeting Non-Coding RNAs as a Potential Therapeutic and Delivery Strategy Against Neurodegenerative Diseases.",
+    "abstract": "Neurodegenerative diseases (NDs), including Alzheimer's disease, Parkinson's disease, Huntington's disease, and amyotrophic lateral sclerosis (ALS), represent a growing global health challenge characterized by progressive neuronal loss and a lack of definitive disease-modifying treatments. This review explores the emerging potential of targeting non-coding RNAs (ncRNAs), such as microRNAs (miRNAs), long non-coding RNAs (lncRNAs), and exosomal RNAs, to modulate pathogenic molecular pathways and address the underlying molecular origins of neurodegeneration. We evaluate the integration of advanced computational techniques for RNA structure prediction and gene regulatory network analysis, alongside chemical engineering strategies-such as Locked Nucleic Acids (LNAs) and phosphorothioate modifications-aimed at enhancing the stability and specificity of RNA-based molecules. Furthermore, we analyze cutting-edge delivery and editing technologies, including nanotechnology-driven solutions for precise neuronal targeting and the CRISPR/Cas13 system for direct ncRNA manipulation.The findings indicate that while challenges in delivery efficiency and long-term efficacy persist, the synergy of chemical engineering and computational modeling significantly improves the therapeutic profile of ncRNAs, with exosomal pathways offering a novel route for intercellular signaling modulation and biomarker discovery. Therapeutic interventions directed at specific clinical targets, such as miR-34a and BACE1-AS, demonstrate the capacity to influence protein aggregation and neuroinflammatory cascades. Although ncRNA-based therapies are currently in nascent stages, ongoing technological advancements in RNA editing and nanotechnology offer a transformative framework that could redefine the future of ND treatment and successfully halt disease progression rather than merely managing symptoms.",
+    "authors": [
+      "Bougea A"
+    ],
+    "published": "2026-04-03",
+    "journal": "International journal of molecular sciences",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41977439/",
+    "score": 45,
+    "summary": {
+      "title_zh": "靶向非编码RNA作为神经退行性疾病的潜在治疗与递送策略",
+      "tool_type": "综述/平台性分析（涵盖多种RNA靶向工具，包括基于化学修饰的寡核苷酸、CRISPR/Cas13编辑系统、纳米递送平台及外泌体递送系统）",
+      "design": "本文并非设计单一工具，而是综述了整合多种工程化策略的平台化思路。核心思路是：1）利用化学工程（如锁核酸LNA、硫代磷酸酯修饰）增强RNA分子的稳定性和特异性；2）结合计算模型（RNA结构预测、基因调控网络分析）进行靶点设计与优化；3）整合前沿递送（纳米技术、外泌体）与编辑（CRISPR/Cas13）技术，实现对非编码RNA的精准调控与靶向递送。",
+      "functions": "1. 靶向调控非编码RNA（如miRNA, lncRNA）：通过抑制或激活其功能，调节致病分子通路（如蛋白聚集、神经炎症）。\n2. RNA编辑：利用CRISPR/Cas13系统直接操纵非编码RNA序列。\n3. 特异性递送：利用纳米技术和外泌体实现药物向神经元的靶向递送，并调节细胞间信号。\n4. 生物标志物发现：利用外泌体RNA等作为疾病诊断或监测的潜在标志物。",
+      "key_results": "本文为综述，未报告原创实验数据，但总结了领域内关键进展：针对特定临床靶点（如miR-34a、BACE1-AS）的干预措施已证明能够影响蛋白聚集和神经炎症级联反应；化学工程与计算模型的协同显著改善了非编码RNA疗法的治疗特性；尽管递送效率和长期疗效仍存挑战，但RNA编辑与纳米技术的进步为从根本上改变神经退行性疾病治疗提供了转型框架。"
+    }
+  },
+  {
+    "id": "41975033",
+    "title": "From Gene to Hope: Rett Syndrome and the Rise of Molecular Therapies.",
+    "abstract": "Rett syndrome is a rare X-linked neurodevelopmental disorder caused by mutations in MECP2, a gene critical for neuronal function, chromatin organization, and synaptic plasticity. After a period of apparently normal early development, individuals with Rett syndrome experience rapid regression followed by lifelong neurological impairment. Notably, preclinical studies have shown that restoration of MeCP2 expression can reverse established symptoms in adult mice, positioning Rett syndrome as a promising target for molecular therapies. However, MECP2 is extremely dosage sensitive and both insufficient and excessive expression are harmful, creating a narrow therapeutic window and a major challenge for treatment design. This review examines the evolving landscape of gene- and RNA-based therapies for Rett syndrome, with a focus on strategies that enable precise MeCP2 replacement, dosage control, and widespread central nervous system delivery. We discuss clinical-stage adeno-associated virus gene replacement programs, including TSHA-102 and NGN-401, highlighting their vector designs, regulatory elements, delivery approaches, and emerging clinical data. Advances in adeno-associated virus capsid engineering and vector optimization aimed at improving neuronal targeting while minimizing peripheral exposure and immune toxicity are also reviewed. Beyond gene supplementation, we explore approaches that restore endogenous MECP2 regulation, such as reactivation of the inactive X chromosome, as well as DNA and RNA editing strategies. Collectively, these advances reflect a shift toward precision-regulated therapies for Rett syndrome that may provide a model for treating other dosage-sensitive neurodevelopmental disorders.",
+    "authors": [
+      "Leblay Y",
+      "Felix MS",
+      "Roux JC",
+      "Panayotis N"
+    ],
+    "published": "2026-04-13",
+    "journal": "Molecular diagnosis & therapy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41975033/",
+    "score": 35,
+    "summary": {
+      "title_zh": "从基因到希望：Rett综合征与分子疗法的兴起",
+      "tool_type": "综述论文（非单一工具，涵盖多种基因与RNA治疗平台）",
+      "design": "本文并非介绍单一工具的设计，而是综述了针对Rett综合征的多种分子治疗平台的总体设计思路。核心思路包括：1）利用腺相关病毒载体递送MECP2基因，并通过优化启动子、调控元件和衣壳工程来实现中枢神经系统靶向和剂量控制；2）探索通过重新激活失活X染色体、DNA/RNA编辑等策略来恢复内源性MECP2的表达调控。",
+      "functions": "综述中讨论的平台/策略旨在实现以下功能：\n1. 精确的MeCP2基因替换与补充。\n2. 严格的基因表达剂量控制（因MECP2具有极窄的治疗窗口）。\n3. 广泛且高效的中枢神经系统递送。\n4. 恢复内源性MECP2的调控（如X染色体再激活）。\n5. 为其他剂量敏感的神经发育障碍提供治疗模型。",
+      "key_results": "本文为综述，未报告原始实验数据，但总结了关键临床前/临床进展：临床阶段的AAV基因替代疗法（如TSHA-102和NGN-401）已显示出前景，其设计着重于通过调控元件控制MeCP2表达剂量，并在动物模型中证实了症状逆转的潜力；同时，衣壳工程等优化旨在提高神经元靶向性并降低外周暴露和免疫毒性。"
+    }
+  },
+  {
+    "id": "41980096",
+    "title": "Immune modulation promotes heart regeneration through macrophage and Granulin functions in medaka.",
+    "abstract": "Myocardial infarction results in irreversible cardiomyocyte loss and fibrotic remodeling in adult mammals, whereas some vertebrates retain the ability to regenerate cardiac tissue. Comparative studies suggest that immune responses critically influence repair outcomes, yet the immune programs associated with regeneration remain incompletely defined. Here, we investigate how immune modulation accelerates cardiac repair in the nonregenerative medaka (",
+    "authors": [
+      "Chowdhury K",
+      "Huang CL",
+      "Lin IT",
+      "Hung YJ",
+      "Lim KL",
+      "Liu HW",
+      "Wei KH",
+      "Yang KC",
+      "Chang YM",
+      "Lai BS"
+    ],
+    "published": "2026-04-21",
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41980096/",
+    "score": 15,
+    "summary": {
+      "title_zh": "免疫调控通过巨噬细胞和颗粒蛋白功能促进青鳉心脏再生",
+      "tool_type": "基于比较生物学模型的免疫调控研究平台",
+      "design": "本研究并非设计一个分子工具，而是利用青鳉这一非再生模型，构建了一个“免疫调控-再生表型”关联分析平台。其核心思路是通过比较生理学方法，在非再生成年青鳉中，通过免疫调节（如使用地塞米松）来干预心肌损伤后的免疫反应，从而建立一个研究免疫微环境如何影响心脏再生的体内模型系统。",
+      "functions": "1. 功能：该研究平台可用于解析心脏再生过程中关键的免疫程序，特别是巨噬细胞的功能状态（如向促再生表型转变）及其分泌的关键因子（如颗粒蛋白）。\n2. 应用：作为一个发现平台，可用于识别驱动再生的免疫相关靶点和信号通路；为开发通过免疫调节促进哺乳动物心脏修复的治疗策略提供概念验证和候选靶点。",
+      "key_results": "关键实验结果表明，在成年青鳉心肌损伤后，免疫调节（地塞米松处理）能促进心脏再生，显著减少纤维化疤痕并恢复心肌组织；这一效果依赖于巨噬细胞向促再生表型的重编程以及其分泌的颗粒蛋白（Granulin）的功能，证明了特定免疫程序是启动再生能力的关键。"
+    }
+  }
+]
