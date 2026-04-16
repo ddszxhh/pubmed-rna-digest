@@ -1,0 +1,57 @@
+[
+  {
+    "id": "41981915",
+    "title": "Messenger RNA and Guide RNA Distributions in Lipid Nanoparticles Impact Gene-editing Efficiency In Vivo.",
+    "abstract": "Lipid nanoparticles (LNPs) are among the most advanced non-viral vectors for CRISPR-based gene-editing therapeutics. Co-packaging of messenger RNA (mRNA) and guide RNA (gRNA) inherently produces heterogeneous payload distributions. The impact of this heterogeneity on editing performance remains unclear. Here, we utilize cylindrical illumination confocal spectroscopy (CICS) for single-particle interrogation of ALC-0315 and DLin-MC3-DMA LNPs prepared by three different mixing methods. CICS resolves four distinct subpopulations: co-encapsulated (50.7-60.4%), gRNA-only (30.0-36.5%), mRNA-only (2.0-3.4%), and empty (4.2-13.8%), and uncovers broad, particle-to-particle variability in RNA copy number within each class. Structure-function analysis reveals that LNP formulation and mixing processes influence payload distribution, resulting in a negative correlation between the fraction of empty LNPs and RNA loading per particle. We further investigated the correlation between these quality attributes and therapeutic performance. In mice, ALC-0315 LNPs carrying higher cargo loads (9.8 vs. 8.0 mRNA copies and 25.4 vs. 20.3 gRNA copies per co-encapsulated particle) yielded 1.5-fold higher in vivo editing activity (55.4% vs. 36.3% indels) despite nearly identical biophysical characteristics including LNP size and RNA encapsulation. These results establish payload distribution as a potential determinant of gene-editing potency and demonstrate single-particle CICS as a powerful tool for rational design of multi-component nucleic acid delivery systems.",
+    "authors": [
+      "Truong LB",
+      "Li S",
+      "Domkofski C",
+      "Lin J",
+      "Co C",
+      "Halwasia S",
+      "Kuefner M",
+      "Hu Y",
+      "Mao HQ",
+      "Wang TH",
+      "Zhu S"
+    ],
+    "published": "2026-04-13",
+    "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41981915/",
+    "score": 45,
+    "summary": {
+      "title_zh": "脂质纳米颗粒中mRNA与gRNA的分布影响体内基因编辑效率",
+      "tool_type": "RNA递送系统分析与优化平台",
+      "design": "本研究并非直接设计新的RNA编辑工具，而是开发了一种用于分析和优化现有CRISPR-Cas系统递送载体的平台。其核心思路是利用圆柱照明共聚焦光谱技术，在单颗粒水平上解析脂质纳米颗粒中不同RNA组分的共包封情况，从而建立递送载体的“质量属性”（如RNA拷贝数分布）与最终“治疗性能”（编辑效率）之间的定量关系。",
+      "functions": "1. 单颗粒分析：对脂质纳米颗粒进行高通量、单颗粒水平的RNA组分定量分析，区分共包封、仅含gRNA、仅含mRNA及空颗粒等亚群。\n2. 递送系统优化：揭示LNP配方和混合工艺如何影响有效载荷分布，为理性设计多组分核酸递送系统提供关键参数。\n3. 性能预测与关联：建立递送载体的物理化学属性（如RNA分布）与体内基因编辑疗效之间的相关性，指导更高效递送系统的开发。",
+      "key_results": "关键实验结果表明，在LNP尺寸和RNA包封率几乎相同的情况下，共包封颗粒中mRNA和gRNA拷贝数更高的ALC-0315 LNP（平均9.8 vs 8.0 mRNA拷贝，25.4 vs 20.3 gRNA拷贝），其在小鼠体内产生的基因编辑活性（indel频率）显著更高（55.4% vs 36.3%），提升了1.5倍，这直接证明了有效载荷分布是决定基因编辑效力的关键因素。"
+    }
+  },
+  {
+    "id": "41981831",
+    "title": "Monitoring Fetal Somatic Cell Genome Editing",
+    "abstract": "Translational development of somatic cell genome editing requires monitoring the extent of editing in the body at a given time, the specificity of editing, durability, and the potential for adverse events. A noninvasive approach that can identify edited cells",
+    "authors": [
+      "Tarantal AF",
+      "Martinez ML",
+      "Sanz L",
+      "Lee CI",
+      "Yang H",
+      "O'Geen H",
+      "Hartigan-O'Connor DJ",
+      "Segal DJ"
+    ],
+    "published": "2026-04-14",
+    "journal": "Human gene therapy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41981831/",
+    "score": 15,
+    "summary": {
+      "title_zh": "监测胎儿体细胞基因组编辑",
+      "tool_type": "RNA传感器/监测平台",
+      "design": "该工具的核心思路是开发一种非侵入性方法，通过检测并分析从编辑细胞释放到体液（如血液）中的特定RNA生物标志物，来间接监测体内基因组编辑活动。其工程设计可能涉及设计对编辑事件特异性的探针或传感器，用于捕获和量化这些循环生物标志物。",
+      "functions": "1. 非侵入性监测体内（特别是胎儿期）体细胞基因组编辑的程度。\n2. 评估编辑的特异性、持久性及潜在不良事件。\n3. 识别被编辑的细胞并追踪其命运。",
+      "key_results": "摘要未提供具体实验数据，但关键性能指标将集中于该监测方法对编辑相关生物标志物的检测灵敏度、特异性，以及在临床前模型（体内/体外）中验证其准确反映编辑水平的能力。"
+    }
+  }
+]
