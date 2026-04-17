@@ -1,0 +1,68 @@
+[
+  {
+    "id": "41987615",
+    "title": "CRISPR-Cas at a crossroads: from microbial immunity to precision biotechnology.",
+    "abstract": "Clustered regularly interspaced short palindromic repeats and CRISPR-associated proteins (CRISPR-Cas) form RNA-guided adaptive immune systems in bacteria and archaea that mediate sequence-specific defense against invading genetic elements. Beyond their ecological role in restricting bacteriophage infection and horizontal gene transfer (HGT), CRISPR-Cas systems have been repurposed as programmable nucleases, enabling rapid, scalable, and precise genome engineering. Over the past decade, CRISPR platforms, most prominently Cas9, have transformed functional genomics, accelerated target discovery and drug development, and progressed from experimental tools to clinically evaluated gene and cell therapies. In parallel, growing attention has focused on both native and engineered roles of CRISPR-Cas in shaping HGT, plasmid ecology, and antimicrobial resistance (AMR), as AMR continues to expand globally. In this Review, we integrate advances spanning eukaryotic genome editing and prokaryotic antimicrobial applications. We summarize CRISPR-Cas classification and molecular mechanisms, highlighting spacer acquisition, guide RNA biogenesis, target recognition, and nucleic acid cleavage. We then examine how cellular DNA repair pathways influence editing outcomes and discuss strategies to enhance precision. We further review delivery strategies, such as conjugative plasmids, bacteriophages and phagemids, extracellular vesicles, and nanoparticles, together with evolutionary countermeasures encoded by mobile genetic elements, including anti-CRISPR proteins. Finally, we outline current limitations.",
+    "authors": [
+      "Eliwa AI",
+      "Eldahshan MM"
+    ],
+    "published": "2026-04-16",
+    "journal": "Journal of immunoassay & immunochemistry",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41987615/",
+    "score": 35,
+    "summary": {
+      "title_zh": "CRISPR-Cas的十字路口：从微生物免疫到精准生物技术",
+      "tool_type": "可编程核酸酶平台（基于CRISPR-Cas系统，如Cas9）",
+      "design": "该平台的核心设计思路是利用CRISPR-Cas系统天然的RNA引导机制，即通过设计向导RNA（gRNA）将Cas核酸酶（如Cas9）特异性靶向至目标DNA序列。通过工程化改造Cas蛋白或结合不同的效应结构域，可以扩展其功能，实现从简单的切割到精确编辑等多种操作。",
+      "functions": "1. 位点特异性DNA切割与基因组编辑。\n2. 功能基因组学研究与靶点发现。\n3. 基因与细胞疗法的开发。\n4. 研究及潜在干预水平基因转移（HGT）和抗菌素耐药性（AMR）。\n5. 作为递送载体（如结合噬菌体、质粒、纳米颗粒）的平台技术。",
+      "key_results": "本文为综述，未报告单一实验数据，但总结了该平台的关键性能：CRISPR-Cas系统（尤其是Cas9）已被广泛验证能够实现高效、可扩展且精确的基因组编辑，并已从实验工具发展为进入临床评估的疗法；同时，其应用已从真核生物基因组工程扩展至原核生物领域，用于研究质粒生态和抗菌素耐药性等。"
+    }
+  },
+  {
+    "id": "41985328",
+    "title": "Targeting human oncogenic viruses with CRISPR/Cas: New therapeutic opportunities and challenges.",
+    "abstract": "CRISPR/Cas systems, initially characterized as bacterial adaptive immune mechanisms, have rapidly emerged as precise and versatile genome-editing tools with significant potential for antiviral research and therapeutic development. This review highlights the role of CRISPR/Cas systems in targeting persistent and human oncogenic viruses, including HPV, HBV, HCV, EBV, KSHV, HTLV-1, and MCPyV, as well as HIV, which may indirectly contribute to cancer through immune dysregulation. Many of these viruses can integrate into the host genome or persist as chronic or latent infections, contributing to cancers for which curative options are limited. CRISPR-based strategies enable the excision of integrated proviral DNA, disruption of viral replication, targeted silencing of viral transcripts, and modulation of host tumor-suppressor pathways. Cas9 efficiently targets DNA viruses, such as HBV and HPV, whereas RNA-targeting Cas13 allows precise silencing of RNA viruses, like HCV. Editing T-cell receptors, including CCR5 and CXCR4, offers the potential for long-term resistance to HIV. CRISPR-based preclinical studies indicate the potential to disrupt HBV cccDNA, suppress EBV and KSHV latency gene expression, and inactivate HTLV-1 oncogenes, thereby potentially reducing viral persistence and oncogenic progression. Despite these advances, challenges remain regarding off-target effects, delivery efficiency, immune responses, and ethical considerations. Innovations such as high-fidelity Cas variants, base and prime editing, and non-viral delivery systems are expected to enhance both safety and therapeutic precision. This review provides an overview of viral life cycles, oncogenic pathways, and therapeutic vulnerabilities of human oncogenic viruses and CRISPR-based genome-editing approaches under investigation for viral elimination and cancer therapy.",
+    "authors": [
+      "Jigheh MP",
+      "Ravanlo ZZ",
+      "Shahrak MZ",
+      "Mohabbat A",
+      "Baghi HB"
+    ],
+    "published": "2026-04-14",
+    "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41985328/",
+    "score": 35,
+    "summary": {
+      "title_zh": "利用CRISPR/Cas靶向人类致癌病毒：新的治疗机遇与挑战",
+      "tool_type": "CRISPR/Cas系统（包括DNA靶向的Cas9和RNA靶向的Cas13等）作为基因组编辑与调控平台",
+      "design": "该综述并非介绍单一新工具，而是系统性地总结了利用CRISPR/Cas系统的模块化特性，针对不同病毒（DNA或RNA病毒）的生命周期进行干预的设计思路。核心思路是：1）针对DNA病毒（如HBV、HPV），主要使用DNA核酸酶Cas9靶向切割整合的病毒DNA或游离基因组；2）针对RNA病毒（如HCV），则利用RNA靶向的Cas13系统沉默病毒转录本；3）此外，还可通过编辑宿主细胞受体（如CCR5）或调控宿主肿瘤抑制通路来间接抗病毒和抗癌。",
+      "functions": "1. 切除整合的病毒原DNA（如HIV前病毒、HPV整合片段）。\n2. 破坏病毒复制（如靶向切割HBV的cccDNA）。\n3. 靶向沉默病毒转录本（适用于RNA病毒或病毒mRNA）。\n4. 调控宿主肿瘤抑制通路或编辑宿主基因（如编辑T细胞CCR5/CXCR4受体以抵抗HIV感染）。\n5. 作为研究病毒生命周期和致癌通路的平台工具。",
+      "key_results": "综述总结了多项临床前研究的关键结果：CRISPR/Cas策略已成功在模型中实现破坏HBV cccDNA、抑制EBV和KSHV潜伏期基因表达、以及灭活HTLV-1癌基因，显示出减少病毒持续存在和致癌进程的潜力。同时，文章也指出脱靶效应、递送效率、免疫反应等仍是当前面临的主要挑战。"
+    }
+  },
+  {
+    "id": "41989607",
+    "title": "A-to-I RNA Editing Endows miR-3664-5p with Carcinogenicity in Breast Cancer Through Modulating LONP2 Mediated Glycolysis.",
+    "abstract": "",
+    "authors": [
+      "Han Y",
+      "Wei X",
+      "Zhang X",
+      "Wu J",
+      "Wang F"
+    ],
+    "published": "2026-04-16",
+    "journal": "Journal of mammary gland biology and neoplasia",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41989607/",
+    "score": 25,
+    "summary": {
+      "title_zh": "A-to-I RNA编辑通过调控LONP2介导的糖酵解赋予miR-3664-5p在乳腺癌中的致癌性",
+      "tool_type": "ADAR介导的A-to-I RNA编辑工具/平台",
+      "design": "该研究并非直接设计一个全新的工程化工具，而是利用并揭示了内源性ADAR编辑系统作为一个天然“工具”的机制。其核心思路是：内源性ADAR酶对特定microRNA前体（pri-miR-3664）进行位点特异性A-to-I编辑，这种编辑改变了成熟miR-3664-5p的序列，从而赋予其全新的靶向能力。这本质上是一种由内源性编辑酶和特定RNA结构/序列共同构成的调控平台。",
+      "functions": "1. **实现RNA的位点特异性编辑**：在特定microRNA前体的特定位点实现A-to-I转换。\n2. **重编程microRNA功能**：通过编辑改变microRNA的种子序列，从而完全改变其下游调控的靶基因网络。\n3. **调控细胞代谢通路**：编辑后的miRNA能够靶向并抑制LONP2等基因，进而影响糖酵解等关键细胞过程。\n4. **作为疾病机制研究与潜在干预靶点**：阐明了RNA编辑如何驱动乳腺癌进展，揭示了编辑位点、编辑酶（ADAR）或编辑后产物可作为癌症治疗的潜在靶点。",
+      "key_results": "关键实验证实，在乳腺癌细胞中，ADAR1介导的pri-miR-3664编辑导致成熟miR-3664-5p的生成，其通过靶向抑制LONP2（一种线粒体蛋白酶）来增强糖酵解、促进细胞增殖和肿瘤生长；体内外实验表明，抑制该编辑事件或编辑后的miR-3664-5p功能，能显著抑制肿瘤进展，验证了该编辑依赖的通路在乳腺癌中的关键致癌作用。"
+    }
+  }
+]
