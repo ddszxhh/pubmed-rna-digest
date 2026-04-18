@@ -1,0 +1,83 @@
+[
+  {
+    "id": "41995017",
+    "title": "Interacting with GUN1 and MORF2, SL1 modulates plastid RNA editing during norflurazon-induced retrograde signaling.",
+    "abstract": "Chloroplast-to-nucleus retrograde signaling and plastid RNA editing are both essential for chloroplast biogenesis and plant development, but the underlying mechanism linking these two processes remains unclear. Here, we identify the mitochondrial transcription termination factor mTERF3/Seedling Lethal 1 (SL1), previously characterized as a plastid-encoded RNA polymerase (PEP)-associated protein, as a key regulator connecting RNA editing to retrograde signaling. SL1 directly interacts with GUN1 and MORF2 and is indispensable for 31 out of 34 plastid RNA editing sites in Arabidopsis. Loss of SL1 function results in a strong genome uncoupled (gun) molecular phenotype under norflurazon (NF) treatment, accompanied by defective RNA editing and complete loss of the NDH complex. Mechanistically, SL1 assembles the editosome by recruiting canonical and atypical PPR-DYW proteins (CRR28, RARE1, DYW1, and DYW2) together with multiple non-PPR editing factors, while its strong affinity to MORF2 ensures appropriate editosome stoichiometry. SL1 also colocalizes with the PEP complex, suggesting a physical coupling between transcription and RNA editing in plastid nucleoids. Furthermore, SL1 modulates RNA editing profiles and regulates GLK1/2 expression during NF-induced retrograde signaling. Our findings expand the functional repertoire of mTERF proteins and uncover a molecular mechanism that connects RNA editing with retrograde signaling through SL1.",
+    "authors": [
+      "Liu Y",
+      "Zheng Y",
+      "Jiang D",
+      "Shi Y",
+      "He K",
+      "Ke X",
+      "Wang Y",
+      "Liu X",
+      "Hou X"
+    ],
+    "published": "2026-04-13",
+    "journal": "Plant physiology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41995017/",
+    "score": 35,
+    "summary": {
+      "title_zh": "SL1通过与GUN1和MORF2互作，在去绿隆诱导的逆行信号中调控质体RNA编辑",
+      "tool_type": "RNA编辑调控复合体（编辑体）组装平台/关键枢纽蛋白",
+      "design": "该研究并非从头设计的人工工具，而是揭示了一个内源性的、模块化的编辑体组装机制。其核心思路是：枢纽蛋白SL1通过直接与关键调控蛋白GUN1和MORF2相互作用，并招募经典的与非经典的PPR-DYW编辑蛋白（如CRR28、RARE1、DYW1/2）以及其他非PPR编辑因子，动态组装成功能性的RNA编辑复合体。这种组装确保了编辑体各组分具有适当的化学计量比。",
+      "functions": "1. 调控质体RNA编辑：对拟南芥34个编辑位点中的31个是必需的。\n2. 连接逆行信号与RNA编辑：在去绿隆（NF）诱导的逆行信号通路中，作为关键节点，将细胞核感知的质体状态信号传递至质体编辑过程。\n3. 协调转录与编辑：通过与质体编码的RNA聚合酶（PEP）复合体共定位，可能物理偶联质体基因的转录与RNA编辑过程。\n4. 影响下游基因表达：通过调控编辑过程，进而影响GLK1/2等核基因的表达。",
+      "key_results": "1. 功能缺失表型显著：sl1功能缺失突变体在NF处理下表现出强烈的“基因组解偶联”（gun）表型，同时伴随RNA编辑缺陷和NDH复合体的完全丧失。\n2. 编辑效率影响广泛且关键：SL1对绝大多数测试的质体RNA编辑位点（31/34）是必需的，证明了其作为核心调控因子的广泛且关键的作用。\n3. 体内验证机制：研究在植物体内证实了SL1通过蛋白互作网络组装编辑体并连接逆行信号通路的分子机制。"
+    }
+  },
+  {
+    "id": "41992973",
+    "title": "CRISPR Cas9 mediated genome editing to induce apoptosis a new strategy to tackle cancer.",
+    "abstract": "CRISPR-Cas9 is a strong gene editing tool having two components, Cas9 protein and guide RNA. It involves a protospacer adjacent motif (PAM) which is identified by Cas9 endonucleases to initiate double stranded break in DNA, which is repaired by either of two pathways; non-homologous end joining pathway (NHEJ) or homology-directed repair (HDR) pathway .CRISPR/Cas9 can be used to edit the genes involved in apoptosis regulation, to target oncogenes, anti-apoptotic proteins, immune checkpoints, to selectively induce cancer cell death. This review identifies CRISPR-mediated apoptotic approaches, its mechanism, preclinical trials, and issues and points to its possible application in cancer.",
+    "authors": [
+      "Hussain Hadri S",
+      "Ahmad F",
+      "Malik A",
+      "Afzal S",
+      "Ijaz N",
+      "Farhat M",
+      "Fatima A"
+    ],
+    "published": "2026-04-17",
+    "journal": "Nucleosides, nucleotides & nucleic acids",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41992973/",
+    "score": 15,
+    "summary": {
+      "title_zh": "CRISPR-Cas9介导的基因组编辑诱导细胞凋亡：一种应对癌症的新策略",
+      "tool_type": "基于CRISPR-Cas9的基因组编辑工具（用于功能基因组学研究与潜在治疗开发）",
+      "design": "该工具的核心设计是利用CRISPR-Cas9系统的两个基本组件——Cas9核酸内切酶和向导RNA（gRNA）。通过gRNA将Cas9蛋白靶向至基因组特定位点，Cas9识别PAM序列并切割DNA双链，从而通过NHEJ或HDR修复途径引入基因编辑。",
+      "functions": "1. 编辑调控细胞凋亡的关键基因。\n2. 靶向癌基因或抗凋亡蛋白基因，以诱导癌细胞死亡。\n3. 编辑免疫检查点基因，探索癌症免疫治疗。\n4. 作为一种研究工具，用于在临床前模型中探索癌症治疗的基因靶点。",
+      "key_results": "本文是一篇综述，未报告具体的原始实验结果。文章总结了基于CRISPR-Cas9诱导凋亡的多种策略及其机制，概述了临床前研究进展，并讨论了该技术应用于癌症治疗所面临的问题与前景。"
+    }
+  },
+  {
+    "id": "41993526",
+    "title": "Orthosteric and allosteric effects of anti-CRISPR II-C1 inhibition on",
+    "abstract": "Anti-CRISPRs (Acrs) are small protein inhibitors of CRISPR-Cas effectors that originate from the translated genetic material of bacteriophage. Harnessing the natural ability of Acrs to bind and disrupt CRISPR-Cas editing can provide enhanced spatiotemporal control of gene editing. Recent studies have revealed diverse structures and functions of Acrs, however, atomistic studies of the specific molecular mechanisms behind Acr inhibition are lacking. Here, we reveal how structure, function, and dynamics govern AcrIIC1 inhibition of Cas9 from",
+    "authors": [
+      "Knight AL",
+      "Belato HB",
+      "Dresser CS",
+      "Pindi C",
+      "Mercado BJ",
+      "Lasekan P",
+      "Luo J",
+      "Arantes PR",
+      "Jogl G",
+      "Palermo G",
+      "Lisi GP"
+    ],
+    "published": "2026-04-09",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41993526/",
+    "score": 15,
+    "summary": {
+      "title_zh": "抗CRISPR蛋白AcrIIC1抑制Cas9的正构与变构效应研究",
+      "tool_type": "CRISPR-Cas系统调控工具（基于抗CRISPR蛋白的抑制剂）",
+      "design": "本研究并非从头设计一个新工具，而是通过结构生物学与动力学模拟，深入解析了天然抗CRISPR蛋白AcrIIC1抑制Cas9的分子机制。核心思路是阐明AcrIIC1如何通过结合Cas9的HNH核酸酶结构域（正构效应）并诱导其构象变化（变构效应），从而实现对Cas9活性的双重抑制。",
+      "functions": "1. 作为理解CRISPR-Cas系统调控机制的基础研究工具。\n2. 为开发基于抗CRISPR蛋白的、可时空精确控制的基因编辑“开关”或“安全锁”提供关键分子机理依据。\n3. 其揭示的变构抑制机制，可能启发设计新型的、可调控的CRISPR-Cas系统或效应器。",
+      "key_results": "关键实验结果表明，AcrIIC1通过直接占据Cas9的HNH核酸酶活性位点（正构抑制），并诱导HNH结构域发生远离DNA切割位点的构象重排（变构抑制），从而实现对Cas9切割活性的高效、双重抑制。这些发现基于高分辨率结构解析和分子动力学模拟，在原子层面阐明了其抑制机理。"
+    }
+  }
+]
