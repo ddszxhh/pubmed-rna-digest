@@ -1,0 +1,77 @@
+[
+  {
+    "id": "41997976",
+    "title": "Sensitive monitoring of enhancer and noncoding RNA transcription via ribozyme-assisted RNA editing.",
+    "abstract": "Understanding transcriptional regulation of native genomic elements requires tools that combine high sensitivity, quantitative output, and broad applicability. Existing methods often have limited dynamic range, disrupt host RNAs, or fail to detect short-lived transcripts. Here, we present ribozyme-processed ADAR-engaging RNA-directed editing (REDDIT), a technology that converts transcriptional events into reporter protein translation via precise A-to-I RNA editing. REDDIT sensitively detects transcription from protein-coding genes, long noncoding RNAs (lncRNAs), primary microRNAs (pri-miRNAs), and enhancer RNAs (eRNAs), including low abundance and short-lived species, while minimally perturbing host gene expression, RNA processing, and the global editome. We apply REDDIT to monitor the naïve-to-primed transition in human embryonic stem cells (hESCs) and convert it into a transcription recorder that permanently logs transient and combinatorial transcriptional inputs when paired with Cre recombinase. Finally, by adapting REDDIT for high-throughput screening, we uncover multiple signaling pathways that regulate lncRNA and eRNA biogenesis. REDDIT therefore provides a scalable platform for quantitative monitoring and retrospective analysis of endogenous transcriptional dynamics across diverse genomic contexts.",
+    "authors": [
+      "Wang J",
+      "Wang JZ",
+      "Hu LF",
+      "Zhao YT",
+      "Xie G",
+      "Wu YX",
+      "Zhao B",
+      "Yang ZY",
+      "Cao H",
+      "Wang Y"
+    ],
+    "published": "2026-04-17",
+    "journal": "Nature communications",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41997976/",
+    "score": 85,
+    "summary": {
+      "title_zh": "通过核酶辅助RNA编辑实现对增强子和非编码RNA转录的灵敏监测",
+      "tool_type": "RNA传感器与转录记录平台（基于ADAR的RNA编辑系统）",
+      "design": "该工具的核心设计是将核酶、ADAR招募RNA适配体与报告基因模块化组合。其思路是：利用核酶自剪切特性，将目标转录本与报告基因mRNA分离，避免干扰宿主RNA；同时通过设计的RNA适配体招募内源性ADAR酶，对报告mRNA进行精确的A-to-I编辑，从而将转录事件转化为可翻译的报告蛋白信号。",
+      "functions": "1. 高灵敏度、定量监测内源性转录事件（包括蛋白编码基因、lncRNA、pri-miRNA、eRNA等）。\n2. 检测低丰度、短寿命的转录本，且对宿主基因表达、RNA加工和全局编辑组扰动极小。\n3. 作为转录记录器，与Cre重组酶联用，可永久记录瞬时的、组合式的转录输入。\n4. 适配高通量筛选，用于发现调控lncRNA和eRNA生物合成的信号通路。",
+      "key_results": "1. 在人类胚胎干细胞（hESCs）中成功监测了从初始态到始发态的转变过程，证明了其高灵敏度和定量能力。\n2. 工具对宿主RNA加工和全局编辑组影响极小，且能有效记录瞬时的转录活动，并通过高通量筛选发现了多个调控lncRNA和eRNA生成的关键信号通路。"
+    }
+  },
+  {
+    "id": "41997904",
+    "title": "Nicotinamide N-methyltransferase as a therapeutic target in taxane-resistant castration-resistant prostate cancer.",
+    "abstract": "Drug resistance in patients remains a significant obstacle to successful treatment, even with improvements in cancer treatment strategies. Resistance to taxanes, such as docetaxel (Dtx) and cabazitaxel (Cbz), frequently emerges in castration resistant prostate cancer (CRPC). Through pulse selection of the parental cells (DU145), we established Dtx- and Cbz-resistant CRPC cell models and integrated different omic approaches, including transcriptomics and proteomics, to determine the molecular signatures underlying taxane resistance. Interestingly, several genes were regulated in the same direction (up- or down-regulation) at both the gene and protein expression levels in resistant cells compared to parental cells, suggesting that alterations primarily occur at the transcriptional level and manifest at the protein level. Among the differentially regulated genes, Cysteine Rich Protein 2 (CRIP2), a gene associated with tumor suppressor function, has been found to be the most downregulated in taxane-resistant cells. Conversely, Nicotinamide N-Methyltransferase (NNMT) exhibited a significant upregulation and has been validated in the context of taxane resistance. Its overexpression was shown to promote taxane resistance in two different CRPC cell lines, whereas depletion via siRNA or gRNA, as well as treatment with 1-methylnicotinamide (1-MNA, used as a feedback inhibitor)resensitized the resistant cells. RNA-sequencing of NNMT-knockout (CRISPR-Cas9) cells has indicated involvement of TGFβ signaling, and suppressing this pathway has further increased the taxane sensitivity. Epithelial Mesenchymal Transition (EMT) was another pathway depleted upon knockout, and subsequent analysis revealed a significant correlation between NNMT and EMT-related genes (VIM, CDH2, FN1, TGFB1, and ZEB2) in both the Cancer Cell Line Encyclopedia (CCLE) panel and patient data. Additionally, in cancers other than PC, NNMT has been observed to predict treatment outcomes, and notably, among the patients with a high EMT signature, elevated NNMT levels were associated with decreased overall survival. More importantly, NNMT-high patients were found to be non-responders to taxane-containing chemotherapy regimens. Collectively, our findings suggest that targeting NNMT and the pathways it affects, such as TGFβ, offers a viable approach for addressing taxane-resistant PC.",
+    "authors": [
+      "Cevatemre B",
+      "Karyemez E",
+      "Bulut I",
+      "Syed H",
+      "Gönen M",
+      "Baykal AT",
+      "Bagci-Onder T",
+      "Acilan C"
+    ],
+    "published": "2026-04-17",
+    "journal": "Cell death discovery",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41997904/",
+    "score": 25,
+    "summary": {
+      "title_zh": "烟酰胺N-甲基转移酶作为紫杉烷耐药去势抵抗性前列腺癌的治疗靶点",
+      "tool_type": "分子靶点/生物标志物（非RNA编辑工具）",
+      "design": "本研究并非设计新的可编程RNA工具或平台，而是通过多组学分析（转录组学和蛋白质组学）结合耐药细胞模型，系统性地筛选和验证与紫杉烷耐药相关的关键分子。其核心思路是：1）建立耐药细胞模型并进行组学比较，识别一致性差异表达基因；2）对候选基因NNMT进行功能获得（过表达）和功能丧失（siRNA/gRNA敲低/敲除）实验，验证其与耐药性的因果关系；3）通过RNA测序分析敲除细胞的信号通路变化，将NNMT与下游通路（如TGFβ、EMT）联系起来。",
+      "functions": "1. **生物标志物功能**：NNMT的高表达可作为预测前列腺癌患者对紫杉烷化疗不响应的潜在生物标志物。2. **治疗靶点功能**：抑制NNMT（通过基因敲除或小分子反馈抑制剂1-MNA）或其下游通路（如TGFβ），能够重新敏化耐药细胞，为克服耐药性提供新的联合治疗策略。",
+      "key_results": "1. NNMT在紫杉烷耐药的CRPC细胞中显著上调，其过表达促进耐药，而通过siRNA、gRNA（CRISPR-Cas9）或小分子抑制剂1-MNA抑制NNMT可恢复细胞对药物的敏感性。2. 在患者数据中，NNMT高表达与EMT特征基因显著相关，且NNMT高表达患者对含紫杉烷的化疗方案无响应，总生存期更短。"
+    }
+  },
+  {
+    "id": "41999049",
+    "title": "Synergizing Genome Editing and Artificial Intelligence for Predictive Crop Design.",
+    "abstract": "The convergence of genome editing (GE) and artificial intelligence (AI) is shifting crop improvement from empirical optimization toward predictive design. In this Perspective, we propose that GE and AI are linked by a reciprocal innovation cycle. AI improves GE by enabling more accurate guide RNA design, editing outcome and off-target prediction, and data-driven development of next-generation editing systems. In turn, GE provides a powerful experimental platform to validate AI predictions, dissect causal genotype-to-phenotype relationships, and generate high-resolution perturbation datasets for iterative model refinement. This bidirectional interplay is beginning to accelerate the engineering of complex agronomic traits, including trait stacking, metabolic rewiring, climate resilience, stress tolerance, nutritional enhancement, and de novo domestication. Here, we argue that this synergy is emerging most clearly in predictive editing design and iterative model validation, although robust breeding-scale evidence remains limited. We also discuss emerging opportunities for AI-guided closed-loop editing platforms and generative biological design, together with key bottlenecks, including limited training data, biological complexity across scales, model interpretability, and heterogeneous regulatory landscapes. We argue that integrating AI with GE can establish a practical framework for predictive crop design and enable more efficient and sustainable crop engineering.",
+    "authors": [
+      "Gao Z",
+      "Zhu J",
+      "Xie C"
+    ],
+    "published": "2026-04-16",
+    "journal": "Molecular plant",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41999049/",
+    "score": 15,
+    "summary": {
+      "title_zh": "协同基因组编辑与人工智能实现作物预测性设计",
+      "tool_type": "AI增强的基因组编辑预测与设计平台",
+      "design": "该平台的核心思路是构建一个基因组编辑（GE）与人工智能（AI）相互促进的创新循环。AI通过改进gRNA设计、预测编辑结果与脱靶效应，并驱动下一代编辑系统的开发来赋能GE；而GE则为验证AI预测、解析基因型-表型因果关系以及生成用于模型迭代优化的高分辨率扰动数据集提供了强大的实验平台。",
+      "functions": "1. 实现更精准的gRNA设计与编辑结果预测。\n2. 预测并评估基因组编辑的脱靶风险。\n3. 数据驱动开发新型编辑系统。\n4. 验证AI模型预测，解析基因型-表型关系。\n5. 加速复杂农艺性状工程化，包括性状叠加、代谢重编程、气候适应性、抗逆性、营养强化及从头驯化。",
+      "key_results": "本文是一篇展望性论文，未报告具体的实验数据。其核心论点是论证了GE与AI的协同作用已在预测性编辑设计和迭代模型验证方面展现出清晰前景，但大规模育种应用的实证证据仍有限。"
+    }
+  }
+]
