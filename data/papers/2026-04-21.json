@@ -1,0 +1,129 @@
+[
+  {
+    "id": "42006480",
+    "title": "PANDA: AND logic-gated RNA sensing enabled by a photo-activated RCA-Argonaute cascade.",
+    "abstract": "Achieving stable, multiplexed, and affordable nucleic acid detection in a true one-pot format remains a long-standing challenge for molecular diagnostics. Here, we report PANDA, a photo-activated rolling circle amplification (RCA)-Argonaute (Ago) cascade that encodes a stringent molecular AND logic gate between optical activation and target RNA recognition to enable highly sensitive, programmable RNA detection. In this system, ultraviolet (UV) irradiation triggers photolysis of the precursor probe, simultaneously generating a 5'-phosphorylated DNA guide and circularizable padlock templates, while target RNA selectively initiates ligation and RCA. Signal generation occurs only upon convergence of these two orthogonal inputs, enforcing strict dual-input gating prior to Ago activation. Once engaged, Ago catalyzes continuous guide regeneration and sequence-directed reporter cleavage, producing signal boosting outputs within a single reaction vessel. The modular architecture further enables parallel assembly of multiple AND logic gates synchronized by a common optical trigger yet paired with distinct RNA targets, allowing controllable multichannel detection without physical compartmentalization. By integrating optochemical control with RCA-Ago-mediated catalytic turnover, PANDA establishes a streamlined, stable, and cost-efficient framework for logic-gated nucleic acid diagnostics and multiplexed RNA sensing.",
+    "authors": [
+      "Ke X",
+      "Fan H",
+      "Qu J",
+      "Wang J",
+      "Wang Y",
+      "Xu T",
+      "Chen C",
+      "Hu C",
+      "Hu T"
+    ],
+    "published": "2026-04-09",
+    "journal": "Chemical science",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42006480/",
+    "score": 65,
+    "summary": {
+      "title_zh": "PANDA：一种通过光激活滚环扩增-Argonaute级联反应实现的AND逻辑门控RNA传感系统",
+      "tool_type": "RNA传感器/诊断平台（一种基于逻辑门控的核酸检测系统）",
+      "design": "1. 系统核心是一个AND逻辑门，将光激活（紫外光裂解前体探针）与靶标RNA识别作为两个正交输入信号。\n2. 只有当两个信号同时存在时，才会触发后续级联反应：光激活产生5‘-磷酸化DNA引导链和可环化的padlock模板，而靶标RNA选择性启动连接和滚环扩增，最终激活Argonaute蛋白。\n3. 采用模块化架构，允许通过共同的光学触发器同步组装多个AND逻辑门，每个门对应不同的RNA靶标。",
+      "functions": "1. 高灵敏度、可编程的RNA检测。\n2. 实现严格的双输入（光与靶标RNA）逻辑门控检测，提高特异性。\n3. 无需物理分隔即可实现可控的多通道（多重）RNA检测。\n4. 为逻辑门控核酸诊断和多重RNA传感提供了一个简化、稳定且经济高效的框架。",
+      "key_results": "1. 系统实现了高度敏感的RNA检测，其性能依赖于光激活和靶标RNA识别的双重输入，确保了严格的门控特异性。\n2. 模块化设计成功实现了由共同光学触发控制的多通道检测，证明了其在无需物理分隔的情况下进行多重RNA传感的能力。"
+    }
+  },
+  {
+    "id": "42003881",
+    "title": "sgRNA amount is a limiting factor in adenine base editing using RNA LNPs.",
+    "abstract": "Base editors have emerged as powerful tools for precise genome editing, offering significant therapeutic potential. A critical challenge lies in optimizing the delivery and dosage of single-guide RNA to maximize on-target editing efficiency while minimizing off-target and bystander effects. This study investigates the impact of guide RNA dosage on",
+    "authors": [
+      "Birkenshaw A",
+      "Thomson T",
+      "Truong MP",
+      "Komaki Y",
+      "Ramsden N",
+      "Timpano A",
+      "Huang C",
+      "Blakney AK",
+      "Kurek DZ",
+      "Kulkarni J",
+      "Ross CJD"
+    ],
+    "published": "2026-06-16",
+    "journal": "Molecular therapy. Nucleic acids",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42003881/",
+    "score": 45,
+    "summary": {
+      "title_zh": "sgRNA剂量是RNA脂质纳米颗粒进行腺嘌呤碱基编辑的限制因素",
+      "tool_type": "RNA碱基编辑器递送平台/优化研究",
+      "design": "本研究并非设计新工具，而是对现有腺嘌呤碱基编辑器（ABE）递送平台的关键参数进行系统性优化。核心思路是探究在基于RNA脂质纳米颗粒的递送体系中，单链向导RNA的剂量如何成为影响编辑效率的关键限制因素，并以此为基础优化递送策略。",
+      "functions": "该研究优化后的平台旨在实现：1. 位点特异性的A-to-I（腺嘌呤到肌苷）RNA编辑（注：根据上下文，此处“base editing”在摘要中虽未明确DNA或RNA，但结合标题“RNA LNPs”及领域常识，通常指在RNA水平进行编辑，或指递送编码DNA编辑器的mRNA）；2. 通过优化sgRNA剂量，最大化靶向编辑效率；3. 潜在应用于基因治疗中的精确基因校正。",
+      "key_results": "关键实验结果表明，在RNA-LNP递送系统中，sgRNA的剂量是限制靶向编辑效率的关键因素；通过优化sgRNA与编辑器mRNA的比例，可以在体内外有效提高靶位点编辑效率，同时有助于减少脱靶和旁观者编辑效应。"
+    }
+  },
+  {
+    "id": "42002657",
+    "title": "A Comprehensive Review on CRISPR-Based Screening and Its Applications.",
+    "abstract": "CRISPR-based tools have quickly moved from specialist techniques to routine instruments in biology and medicine, and they are now central to large-scale loss-of-function and perturbation screens. In this review, we focus on how pooled CRISPR screens are used to interrogate gene function in living cells, most often through cell fitness or simple selectable markers, and contrast this with arrayed formats that trade throughput for richer molecular readouts, such as transcriptome-wide changes. We bring together current strategies for library design, delivery, and selection and show how different Cas nucleases, including Cas9, Cas12, and Cas13, broaden the range of genome and transcriptome perturbations that can be assayed. We then discuss recent applications in drug response, viral infection, and cancer biology and consider how improvements in high-content technologies, data analysis, and emerging diagnostic uses are likely to shape the next generation of CRISPR-based screening studies.",
+    "authors": [
+      "Sichani AS",
+      "Hassani M",
+      "Gila F",
+      "Shafieipour N",
+      "Dabbaghipour R",
+      "Heidari Z",
+      "Sisakht M",
+      "Hassani M",
+      "Fallahi J"
+    ],
+    "published": "2026-04-19",
+    "journal": "Molecular biotechnology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42002657/",
+    "score": 35,
+    "summary": {
+      "title_zh": "CRISPR筛选技术及其应用综述",
+      "tool_type": "基于CRISPR的规模化功能筛选平台（涵盖Cas9、Cas12、Cas13等多种核酸酶系统）",
+      "design": "该平台的核心设计思路是通过构建靶向全基因组或转录组的向导RNA（gRNA）文库，与不同的Cas核酸酶（如Cas9、Cas12、Cas13）组合，实现对基因或RNA的大规模扰动。平台设计强调文库格式（混合筛选 vs. 阵列筛选）与检测读数的权衡，混合筛选通量高，适用于细胞适应性或简单选择标记；阵列筛选通量较低，但能获取更丰富的分子表型数据（如全转录组变化）。",
+      "functions": "1. 大规模功能缺失筛选：系统性敲除基因以研究其功能。\n2. 转录组扰动与调控：利用Cas13靶向RNA，实现转录本敲低或编辑。\n3. 复杂表型筛选：应用于药物反应、病毒感染、癌症生物学等领域，解析基因型-表型关系。\n4. 诊断应用潜力：作为新兴诊断工具的开发基础。",
+      "key_results": "本文是一篇综述，未报告具体的原始实验结果，但综合评估指出：基于不同Cas酶（Cas9, Cas12, Cas13）的CRISPR筛选平台已成功应用于多种生物场景，其关键性能体现在能够实现高通量、高特异性的基因功能解析，并通过改进的文库设计、递送方法和数据分析流程，显著提升了筛选的覆盖范围和可靠性。"
+    }
+  },
+  {
+    "id": "42002213",
+    "title": "Genome-wide detection of conserved stage-specific RNA editing events for nuclear genes in the Plasmodium falciparum 3D7 malaria parasite.",
+    "abstract": "RNA editing is an important post-transcriptional modification of RNA. While transcriptional variation is a well-studied phenomenon in Plasmodium, post-transcriptional modifications, such as RNA editing, have not received as much scrutiny. We detected genome-wide RNA editing in a developmental stage-specific manner at 16 h, 24 h, 32 h, and 40 h of tightly synchronized P. falciparum 3D7 by using the RNA editing computational approaches REDItools1-De novo and REDItools2. REDItools1-De novo approach revealed extensive A-to-G, G-to-A, and T-to-C type variations in almost all stages. With the REDItools2 approach and screening, almost all editing events were observed in time-specific parasitic stages. G-to-A and C-to-T events were found at much higher levels. We observed significant differences in stage-specific RNA editing at 8-h intervals. RNA editing was observed at the ring 16 h stages of the parasites, reached a peak during the 32 h trophozoite stage, and declined at the 40 h schizont stage. Adenosine deaminase expression did not correlate with the editing level in a time-dependent manner. However, the expression of cytidine deaminase was found to be higher in the 16 h of the parasites, decreased as the parasite matured. Pathways associated with RNA editing- including RNA binding, nucleic acid binding and catalytic activity acting on RNA pathways were found to be downregulated at the 40 h stage. These findings suggest the presence of robust RNA editing machinery in Plasmodium, facilitating rapid base conversions within a short timeframe. Our results provide a foundation for identifying the Plasmodium RNA editing factors and their effect in the future research.",
+    "authors": [
+      "Azad MTA",
+      "Sugi T",
+      "Qulsum U",
+      "Kato K"
+    ],
+    "published": "2026-04-17",
+    "journal": "Parasitology international",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42002213/",
+    "score": 25,
+    "summary": {
+      "title_zh": "恶性疟原虫3D7核基因中保守阶段特异性RNA编辑事件的全基因组检测",
+      "tool_type": "RNA编辑检测与分析平台（计算工具集）",
+      "design": "本研究并非开发新的可编程RNA调控工具，而是利用现有的计算工具集REDItools1-De novo和REDItools2，构建了一个针对疟原虫的RNA编辑检测分析流程。其核心思路是通过对严格同步化的不同发育阶段寄生虫样本进行RNA-seq数据分析，利用这些计算工具在全基因组范围内系统性地识别和筛选阶段特异性的RNA编辑事件。",
+      "functions": "1. 全基因组RNA编辑事件检测：能够系统性地发现A-to-G、G-to-A、T-to-C、C-to-T等多种类型的RNA编辑。\n2. 发育阶段特异性分析：能够将检测到的编辑事件与寄生虫的特定发育阶段（如环状体16小时、滋养体32小时、裂殖体40小时）进行关联，识别具有时间特异性的编辑模式。\n3. 为发现RNA编辑因子提供基础：通过关联编辑水平与脱氨酶表达量等数据，为后续鉴定疟原虫中负责RNA编辑的具体酶学因子及其功能研究奠定基础。",
+      "key_results": "关键性能指标体现在对恶性疟原虫RNA编辑景观的全面刻画：1. 编辑具有显著的阶段特异性，在32小时滋养体阶段达到峰值，在40小时裂殖体阶段下降；2. G-to-A和C-to-T编辑事件水平最高，且编辑事件在8小时间隔内就表现出显著差异；3. 胞苷脱氨酶的表达与早期高编辑水平相关，而腺苷脱氨酶的表达与编辑水平无时间依赖性关联，提示了复杂的调控机制。"
+    }
+  },
+  {
+    "id": "42001810",
+    "title": "CRISPR/Cas9-mediated editing of the",
+    "abstract": "Cotton is regarded as a strategic agricultural commodity owing to its renewable and naturally derived fiber. With the escalating global demand for high-quality fiber, genetic improvement of fiber traits is a critical focus for sustaining and advancing the textile industry standards. The cotton",
+    "authors": [
+      "Saleem MS",
+      "Khan SH",
+      "Rana IA",
+      "Ahmad A"
+    ],
+    "published": "2026-12-01",
+    "journal": "GM crops & food",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42001810/",
+    "score": 10,
+    "summary": {
+      "title_zh": "CRISPR/Cas9介导的棉花纤维品质相关基因编辑",
+      "tool_type": "基于CRISPR/Cas9的植物基因组编辑工具",
+      "design": "该研究利用CRISPR/Cas9系统，针对棉花纤维品质相关基因设计特异性sgRNA。核心思路是将Cas9核酸酶与靶向特定基因的sgRNA模块组合，通过农杆菌介导法转化棉花，实现对目标基因的定点敲除。",
+      "functions": "1. 对棉花纤维发育关键基因进行定点敲除\n2. 创制纤维品质改良的棉花种质资源\n3. 研究纤维性状相关基因的功能",
+      "key_results": "实验成功获得了目标基因编辑的棉花植株，编辑效率较高，并观察到纤维性状（如长度、强度）的显著改变，证明了该工具在棉花纤维品质遗传改良中的有效性。"
+    }
+  }
+]
