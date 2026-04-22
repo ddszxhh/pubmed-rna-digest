@@ -1,0 +1,83 @@
+[
+  {
+    "id": "42011779",
+    "title": "Disrupting pegRNA intramolecular complementarity via PBS and spacer sequence alterations can enhance prime editing efficiency.",
+    "abstract": "The length and sequence of the primer binding site (PBS) are critical for efficient prime editing, and its intramolecular complementarity with the prime editing guide RNA (pegRNA) spacer is a major drawback. We investigated the effects of these factors by literature analyses and by testing over 300 modified pegRNAs with weakened PBS-spacer interactions. It has been suggested that the effective PBS length for plasmid-delivered pegRNAs without end protection is considerably longer than what efficient priming requires due to exonuclease digestion of the PBS ends; however, analysing literature data of over 3000 pegRNAs revealed no significant shift in the optimal PBS length for epegRNAs compared to conventional pegRNAs. We also found improvement in editing efficiency with up to seven-fold when mismatches were introduced in the spacer or PBS sequence disrupting complementarity, although this effect is more pronounced with non-optimal PBS lengths. A combination of spacer mismatches and PBS deletions led to further editing improvements, even compared to the optimal PBS, although finding the best combination requires extensive optimization. Here, we achieved near-optimal editing efficiency in the majority of cases without the need for prior pegRNA optimization by using SPELL (Streamlined Prime Editing with fixed-Length PBS Leverage), a prime editing approach that employs a 17-20 nucleotide-long PBS with a single nucleotide deletion.",
+    "authors": [
+      "Biczók Z",
+      "Krausz SL",
+      "Simon DA",
+      "Tóth E",
+      "Varga É",
+      "Annus T",
+      "Huba F",
+      "Varga M",
+      "Bakos É",
+      "Fodor E",
+      "Welker E"
+    ],
+    "published": "2026-04-13",
+    "journal": "Nucleic acids research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42011779/",
+    "score": 65,
+    "summary": {
+      "title_zh": "通过改变PBS与间隔序列破坏pegRNA分子内互补性可提升先导编辑效率",
+      "tool_type": "先导编辑（Prime Editing）优化平台/策略",
+      "design": "该研究提出了一种名为SPELL的优化策略，其核心思路是通过在pegRNA的间隔序列（spacer）或引物结合位点（PBS）序列中引入错配或缺失，破坏两者之间的分子内互补性，从而减少pegRNA的自我折叠，提升其编辑效率。该策略采用固定长度（17-20 nt）的PBS并配合单核苷酸缺失，旨在实现无需大量前期优化的、接近最优的编辑效果。",
+      "functions": "该工具/策略主要用于优化先导编辑系统，实现更高效、更可靠的基因组定点编辑。其直接功能是提升先导编辑在目标位点的编辑效率，从而支持更广泛的基因功能研究、疾病模型构建以及潜在的基因治疗应用。",
+      "key_results": "关键实验结果表明，通过引入错配破坏PBS与间隔序列的互补性，可将编辑效率提升高达7倍；结合间隔序列错配与PBS缺失的SPELL策略，能在多数情况下实现接近最优的编辑效率，且无需针对每个位点进行繁琐的pegRNA优化。对超过3000个pegRNA的文献数据分析显示，epegRNA（经工程化保护的pegRNA）与传统pegRNA相比，其最佳PBS长度并未发生显著偏移。"
+    }
+  },
+  {
+    "id": "42008698",
+    "title": "CRISPR/dCas9-Assisted On-Bead Multiplex Detection (BeadPlex2) for Genetically Modified Crops.",
+    "abstract": "This study leverages the precise recognition ability of CRISPR/dCas9 and the Raman coding feature of the gap-enhanced Raman tag-encoded magnetic beads (MagGERTs) to create a unique on-bead nucleic acid detection platform (BeadPlex2) for accurate and multiplex nucleic acid detection, which was proven to be applicable for the identification of diverse genetically modified (GM) events. Five distinct MagGERTs (MB@Au",
+    "authors": [
+      "Wang H",
+      "Li F",
+      "He Y",
+      "Liu X",
+      "Yin Y",
+      "Xu S"
+    ],
+    "published": "2026-04-20",
+    "journal": "Analytical chemistry",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42008698/",
+    "score": 35,
+    "summary": {
+      "title_zh": "基于CRISPR/dCas9的磁珠多重检测平台（BeadPlex2）用于转基因作物鉴定",
+      "tool_type": "RNA/DNA 检测与多重分析平台（基于CRISPR/dCas9的核酸传感器）",
+      "design": "该平台的核心设计思路是将CRISPR/dCas9的精确核酸识别能力与具有拉曼编码特征的磁珠（MagGERTs）相结合。具体而言，利用dCas9（催化失活的Cas9）与特定gRNA结合，实现对目标DNA序列的高特异性捕获与固定；同时，不同拉曼编码的磁珠作为多重检测的载体，实现信号的可区分与放大。",
+      "functions": "1. 高特异性核酸检测：基于CRISPR/dCas9-gRNA复合物精确识别目标DNA序列。\n2. 多重并行检测：利用不同拉曼编码的磁珠（MagGERTs）同时检测多个靶标。\n3. 转基因作物事件鉴定：适用于多种不同转基因事件的准确鉴别与分型。",
+      "key_results": "关键实验结果表明，该BeadPlex2平台能够实现对多种转基因作物事件进行准确、并行的鉴定，证明了其作为多重核酸检测工具的有效性和应用潜力。"
+    }
+  },
+  {
+    "id": "41108129",
+    "title": "Inflammation Barrier Role of Piezo1 in Chondrocytes under Aberrant Loading.",
+    "abstract": "The temporomandibular joint (TMJ) has a close biomechanical relationship with dental occlusion. PIEZO1 is a major mechanosensor in chondrocytes. The role Piezo1 plays in TMJ chondrocytes under aberrant occlusion loading remains obscure. In vivo, cell lineage tracing methods and tissue-specific genetic mutation techniques were adopted. An in vitro chondrocyte stretch loading model and the in vivo unilateral anterior crossbite (UAC) model were used. PIEZO1 was highly expressed in SOX9-, type II collagen (Col-II)-, and type-X collagen (Col-X)-expressing TMJ chondrocytes, and the expression was promoted by UAC stimulation. PIEZO1 was also expressed in ADTC5 cells, and the expression was promoted by stretch loading. Piezo1 knockout by gRNA, a kind of CRISPR-Cas9, led ADTC5 cells to pyroptosis, the process of which was enhanced by stretch loading. Mutation of Piezo1 in",
+    "authors": [
+      "Zhang Y",
+      "Xu L",
+      "Yang H",
+      "Yu J",
+      "Xu X",
+      "Liu Q",
+      "Xu J",
+      "Wu Y",
+      "Zou W",
+      "Wang M"
+    ],
+    "published": "2026-05-01",
+    "journal": "Journal of dental research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41108129/",
+    "score": 25,
+    "summary": {
+      "title_zh": "异常负荷下Piezo1在软骨细胞中的炎症屏障作用",
+      "tool_type": "CRISPR-Cas9基因编辑工具（用于功能缺失研究）",
+      "design": "本研究未开发新的RNA编辑工具，而是将CRISPR-Cas9系统作为一种成熟的研究工具来使用。其核心思路是利用gRNA引导Cas9核酸酶对目标基因Piezo1进行特异性敲除，从而在细胞和动物模型中研究该基因的功能。",
+      "functions": "作为研究工具，其功能是实现对特定基因（Piezo1）的敲除，用于：1) 在细胞系（ATDC5）中构建基因敲除模型，研究基因缺失对细胞表型（如焦亡）的影响；2) 结合体内组织特异性基因突变技术，在特定细胞谱系（如表达SOX9、II型胶原、X型胶原的软骨细胞）中研究基因在复杂生理病理过程中的功能。",
+      "key_results": "关键实验结果表明，利用CRISPR-Cas9敲除Piezo1基因后，在机械拉伸负荷下，ATDC5软骨细胞会发生焦亡，且该过程被负荷增强，这揭示了Piezo1在异常力学负荷下对软骨细胞具有保护性的“炎症屏障”作用。"
+    }
+  }
+]
