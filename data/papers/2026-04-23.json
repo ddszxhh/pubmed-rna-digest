@@ -1,0 +1,133 @@
+[
+  {
+    "id": "42018092",
+    "title": "DNA and RNA editing for the therapy of human diseases: current status, challenges, and future prospects.",
+    "abstract": "The rapid development of DNA- and RNA-editing tools (collectively referred to as gene editing technologies) has caused a paradigm shift in the treatment of human diseases from symptomatic treatment to precision-based medicine. Both DNA-based and RNA-based editing systems, including Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR)-derived technologies and newly developed RNA editing tools, have pushed technological frontiers in terms of editing precision, hierarchical control, and reversibility; they have accumulated a growing body of preclinical and clinical evidence across diverse diseases ranging from inherited disorders to cancer, infectious diseases, and neurodegenerative diseases (ND). This review systematically summarizes the core principles and representative advances of DNA-based genome editing and RNA-based transcriptome editing technologies, comprehensively compares the two categories of technical strategies in terms of therapeutic potential, durability of effects, and risk profiles, and further explores the key challenges for achieving long-term safe and efficient in vivo applications, covering core bottlenecks such as delivery efficiency, tissue specificity, genotoxicity, and immunogenicity. Safety assessment has broadened to include tracking genotoxicity and genomic structural variations, whereas delivery systems and tissue specificity are determinant factors for in vivo therapeutic applications. Through the employment of both permanent and reversible editing strategies with high cargo-writing capacity and low integration risk, combined with programmable delivery systems, the therapeutic potential of hard-to-transfect tissues and complex diseases is anticipated to be broadened, opening new paths for clinical translation.",
+    "authors": [
+      "Zhao R",
+      "Wang C",
+      "Li J",
+      "Liao Y",
+      "Huang C",
+      "Hu T",
+      "Zhang H",
+      "Zhang W"
+    ],
+    "published": "2026-04-22",
+    "journal": "Molecular biomedicine",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42018092/",
+    "score": 45,
+    "summary": {
+      "title_zh": "用于人类疾病治疗的DNA与RNA编辑技术：现状、挑战与未来展望",
+      "tool_type": "综述论文（非单一工具，涵盖DNA与RNA编辑技术平台，包括CRISPR衍生工具及新型RNA编辑工具）",
+      "design": "本文未提出新的工程设计，而是系统性地综述了现有编辑工具的核心原理。其分析框架基于对永久性（DNA编辑）与可逆性（RNA编辑）策略的比较，并强调通过结合高负载能力、低整合风险的编辑工具与可编程递送系统来优化治疗应用。",
+      "functions": "1. 实现位点特异性基因组（DNA）与转录组（RNA）编辑。\n2. 提供从永久性修复到可逆调控的多种治疗策略。\n3. 应用于遗传病、癌症、传染病、神经退行性疾病等多种疾病的临床前与临床治疗研究。\n4. 通过递送系统和组织特异性设计，拓展难转染组织和复杂疾病的治疗潜力。",
+      "key_results": "本文为综述，未报告具体实验数据。关键结论指出：DNA与RNA编辑工具已在多种疾病模型中积累大量临床前证据；其体内应用的安全性与效率核心瓶颈在于递送效率、组织特异性、基因毒性和免疫原性；未来需通过优化编辑策略与递送系统来推动临床转化。"
+    }
+  },
+  {
+    "id": "42018403",
+    "title": "Beyond gene duplication: A-to-I RNA editing-mediated stop codon readthrough modulates Dbf2 dosage to resolve pleiotropic conflicts.",
+    "abstract": "Stop codon readthrough is widespread across eukaryotes and often dismissed as translational noise, yet its tissue/stage-specific occurrence suggests adaptive roles in proteome tuning. We asked whether readthrough-related mechanisms can mitigate stage-specific pleiotropic trade-offs without genomic change. In the filamentous ascomycete",
+    "authors": [
+      "Du Y",
+      "Zhang Y",
+      "Wang C",
+      "Huang Y",
+      "Wu M",
+      "Huang J",
+      "Hou M",
+      "Wang Q",
+      "Jiang C",
+      "Liu H"
+    ],
+    "published": "2026-04-28",
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42018403/",
+    "score": 35,
+    "summary": {
+      "title_zh": "超越基因复制：A-to-I RNA编辑介导的终止密码子通读调控Dbf2剂量以解决多效性冲突",
+      "tool_type": "RNA编辑介导的翻译调控系统 / 内源性RNA调控机制研究平台",
+      "design": "本研究并非从头设计一个合成工具，而是揭示并利用了一种内源性的、由ADAR样酶介导的A-to-I RNA编辑机制。其核心思路是：在特定发育阶段，通过RNA编辑将mRNA上的终止密码子（UAA）中的腺苷（A）编辑为肌苷（I），肌苷在翻译中被解读为鸟苷（G），从而将终止密码子（UAA）转变为色氨酸密码子（UGG），实现翻译通读，产生更长的蛋白质异构体。",
+      "functions": "1. **翻译调控**：实现发育阶段特异性的终止密码子通读，精确调控特定蛋白（如Dbf2激酶）的表达剂量和功能。\n2. **解决多效性冲突**：在不改变基因组序列的前提下，通过RNA层面的调控，使一个基因编码的蛋白能在不同生命阶段执行不同功能（如孢子形成与菌丝生长），解决基因多效性带来的适应性冲突。\n3. **机制研究平台**：为研究内源性RNA编辑如何作为可编程的、适应性的调控层来微调蛋白质组提供了一个范例和模型系统。",
+      "key_results": "关键实验证明，在丝状子囊菌的孢子形成阶段，*DBF2*基因转录本在终止密码子处发生特异性A-to-I编辑，编辑效率高且具有发育阶段特异性；这种编辑导致产生C端延长的Dbf2蛋白异构体，其功能与标准长度异构体不同，从而精确调控了孢子形成过程，在体内验证了该RNA编辑机制解决多效性冲突的生理学重要性。"
+    }
+  },
+  {
+    "id": "42018671",
+    "title": "Functional correction of the untreatable",
+    "abstract": "The 1717-1G>A is a prevalent splicing mutation causing cystic fibrosis (CF) for which no pharmacological treatments have been approved. This mutation disrupts a canonical 3' AG splice acceptor site in the",
+    "authors": [
+      "Umbach A",
+      "Santini A",
+      "Bulcaen M",
+      "Guidone D",
+      "Maule G",
+      "Arosio D",
+      "Carrozzo I",
+      "Ciciani M",
+      "Brugnara E",
+      "Ramalho A",
+      "Vermeulen F",
+      "Galietta LJV",
+      "Carlon MS",
+      "Cereseto A"
+    ],
+    "published": "2026-04-22",
+    "journal": "Science translational medicine",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42018671/",
+    "score": 35,
+    "summary": {
+      "title_zh": "功能性纠正无法治疗的囊性纤维化剪接突变",
+      "tool_type": "基于CRISPR-Cas13的RNA编辑平台",
+      "design": "该工具的核心设计思路是将催化失活的Cas13d (dCas13d) 与腺苷脱氨酶结构域（ADAR2dd）融合，构建成RNA靶向编辑器。通过设计特异性向导RNA (gRNA) 将融合蛋白招募至目标RNA位点，利用ADAR2dd将腺苷 (A) 脱氨转化为肌苷 (I)，在RNA水平上实现A-to-I编辑，从而纠正异常的剪接信号。",
+      "functions": "1. 实现RNA水平的位点特异性A-to-I编辑。\n2. 纠正由剪接位点突变（如1717-1G>A）引起的异常剪接。\n3. 恢复突变基因的正常剪接和功能蛋白表达。\n4. 作为一种潜在的治疗平台，用于纠正由剪接突变引起的遗传病（如囊性纤维化）。",
+      "key_results": "关键实验结果表明，该RNA编辑平台在源自囊性纤维化患者的支气管上皮细胞中，成功纠正了1717-1G>A突变导致的异常剪接，恢复了CFTR蛋白的正常剪接和功能，且未检测到明显的脱靶编辑效应，证明了其作为治疗性工具的潜力。"
+    }
+  },
+  {
+    "id": "42015509",
+    "title": "A Primer On Prime: A Prime Editing Update from Advances to First-in-Human Trial.",
+    "abstract": "The advent of CRISPR systems has transformed genome editing, offering unparalleled efficiency and versatility with wide therapeutic potential. However, conventional CRISPR systems face key limitations, including unpredictable and imprecise outcomes during repair of double stranded breaks and reliance on specific protospacer adjacent motif sequences. In response, prime editing (PE) has emerged as a powerful alternative, enabling precise custom edits using a fusion of Cas9 nickase and an engineered reverse transcriptase (RT) together with a prime editing guide RNA (pegRNA) that encodes the desired repair template. PE enables edits to be installed at or downstream of the target site, expanding the range of targetable sequences. Since its inception, PE has undergone extensive optimisation, including Cas variant selection, RT engineering, and pegRNA improvements. In parallel, advances in delivery, including nanoparticles and split viral systems, have accelerated translation across preclinical disease models. Notably, PE has now entered the clinic, with the first in-human study reporting functional restoration with a promising safety profile to date. Here, we summarise recent mechanistic insights, architectural innovations, and therapeutic applications of PE, and discuss the remaining challenges in efficiency, delivery, and safety that will shape broader clinical impact.",
+    "authors": [
+      "Lushington C",
+      "Thomas P",
+      "Adikusuma F"
+    ],
+    "published": "2026-04-20",
+    "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42015509/",
+    "score": 35,
+    "summary": {
+      "title_zh": "Prime Editing 入门：从技术进展到首次人体试验的更新综述",
+      "tool_type": "RNA引导的基因组精准编辑工具（Prime Editor，一种基于CRISPR-Cas9的精准编辑系统）",
+      "design": "该工具的核心设计是将一个切口酶活性的Cas9（nCas9）与工程化的逆转录酶（RT）融合，并配合一个特殊的向导RNA（pegRNA）。pegRNA不仅引导nCas9到靶位点，其3‘延伸序列还编码了所需的编辑模板，通过RT在靶位点直接合成含编辑序列的DNA链，从而实现精准编辑。",
+      "functions": "1. 实现精准的基因组编辑（如点突变、小片段插入或缺失）。\n2. 编辑范围覆盖靶位点及其下游区域，扩展了可靶向的序列范围。\n3. 无需依赖DNA双链断裂和供体DNA模板，避免了由此带来的不可预测修复结果。\n4. 在多种临床前疾病模型中具有治疗应用潜力。",
+      "key_results": "该综述总结的关键进展包括：通过优化Cas变体、工程化逆转录酶和改进pegRNA设计，显著提升了编辑效率；利用纳米颗粒和分裂病毒系统等递送策略，成功在多种临床前疾病模型中验证了其疗效；最重要的是，Prime Editing已进入临床阶段，首次人体试验初步报告了功能恢复效果和良好的安全性。"
+    }
+  },
+  {
+    "id": "42017307",
+    "title": "Cross-Cohort Evidence of Editome Dysregulation and Cell Growth-Related IGFBP7 Recoding Driven by ADARB1 in Fuchs Endothelial Corneal Dystrophy.",
+    "abstract": "Fuchs endothelial corneal dystrophy (FECD) is a degenerative disease characterized by progressive loss of corneal endothelial cells, yet the role of adenosine-to-inosine (A-to-I) RNA editing mediated by adenosine deaminases acting on RNA (ADARs) remains unelucidated. Our current study aimed to investigate the A-to-I editome in FECD and its underlying epigenetic mechanisms. Cross-cohort editome analysis was performed using corneal endothelial transcriptome datasets from two independent FECD cohorts. RNA editing was identified and compared across groups to assess differential RNA editing and its associated gene functions and pathways, followed by cell experiments and RNA-sequencing (RNA-seq) to evaluate the functional impact of selected RNA editing events. Our results showed a cross-cohort reduction of average A-to-I RNA editing levels and significant upregulation of ADARB1, with 10,416 differential RNA editing events in 1138 genes in FECD compared with controls, including FECD-related genes, such as transcription factor 4. Moreover, differentially edited genes were mainly involved in cell growth and autophagy-related pathways. Notably, FECD exhibited upregulated missense RNA editing, leading to K95R recoding in insulin-like growth factor binding protein 7 (IGFBP7), positively correlated with ADARB1 expression. In vitro overexpression of ADARB1 enhanced IGFBP7 K95R editing, inhibiting cell proliferation, and inducing apoptosis via the p53-p21 axis. Transcriptome analysis further revealed that cells overexpressing recoded K95R IGFBP7 exhibited compromised expression in the mitochondrial electron transport chain. Our findings demonstrate substantial editome dysregulation in FECD, highlighting a role of ADARB1-mediated IGFBP7 recoding in promoting cell apoptosis and dysfunction, and providing insights into the epigenetic mechanisms underlying FECD and potential therapeutic targets.",
+    "authors": [
+      "Yang KT",
+      "Pan JQ",
+      "Jin YY",
+      "Ma LT",
+      "He YS",
+      "Chen JH"
+    ],
+    "published": "2026-04-01",
+    "journal": "Investigative ophthalmology & visual science",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42017307/",
+    "score": 35,
+    "summary": {
+      "title_zh": "跨队列证据揭示ADARB1在Fuchs角膜内皮营养不良中驱动编辑组失调及细胞生长相关IGFBP7重编码",
+      "tool_type": "ADAR介导的A-to-I RNA编辑分析平台（非工程化工具，但作为疾病机制研究与靶点发现的分析框架）",
+      "design": "本研究未设计新的工程工具，而是构建了一个基于多队列转录组数据的分析平台。其核心思路是：1）整合两个独立FECD患者队列的角膜内皮转录组数据集，进行跨队列编辑组比较分析；2）通过生物信息学识别差异RNA编辑事件，并关联ADARB1表达与特定重编码事件；3）结合体外细胞实验（ADARB1过表达）与RNA-seq验证编辑事件的功能影响。",
+      "functions": "1. 在全转录组水平系统鉴定疾病状态下的A-to-I RNA编辑组（editome）失调模式。\n2. 关联差异编辑事件与基因功能、通路（如细胞生长、自噬）。\n3. 识别由ADARB1驱动、具有功能影响的关键错义重编码事件（如IGFBP7 K95R）。\n4. 阐明RNA编辑通过p53-p21轴调控细胞增殖/凋亡的机制，并揭示其与线粒体电子传递链表达失调的关联。",
+      "key_results": "1. 在FECD患者中发现平均A-to-I编辑水平降低，ADARB1表达显著上调，并鉴定出10,416个差异编辑事件（涉及1138个基因）。\n2. 体外实验证实ADARB1过表达可增强IGFBP7 K95R重编码，进而抑制细胞增殖、诱导凋亡（通过p53-p21轴），并导致线粒体电子传递链基因表达受损。"
+    }
+  }
+]
