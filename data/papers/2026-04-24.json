@@ -1,0 +1,57 @@
+[
+  {
+    "id": "42024482",
+    "title": "A Rapid and Ultrasensitive Detection of Coxsackievirus A16 Using Reverse Transcription Multiple Cross Displacement Amplification Combined with the CRISPR-Cas12a-Based Biosensing System.",
+    "abstract": "Coxsackievirus A16 (CVA16) is one of the primary viral etiological agents of hand, foot, and mouth disease (HFMD) in infants and children under five years of age. Prompt and reliable detection of CVA16 is crucial for guiding immediate therapeutic interventions and for implementing effective epidemic prevention and control strategies, particularly in settings with limited resources. Herein, a diagnostic platform for CVA16 (CVA16-RT-MCDA-CRISPR) was developed by combining reverse transcription multiple cross displacement amplification (RT-MCDA) with CRISPR-Cas12a-based detection. In this system, the CVA16 VP1 gene was preamplified using RT-MCDA technology. The resulting amplicons were then specifically recognized and cleaved by the CRISPR-Cas12a-based detection system. MCDA primers, an engineered CP1 primer, and a specific guide RNA (gRNA) were designed to target the VP1 gene of CVA16. The assay achieved a limit of detection of 2.8 × 10",
+    "authors": [
+      "Liang Q",
+      "Cao Y",
+      "Zhang X",
+      "Ye R",
+      "Liu M",
+      "Zhang S",
+      "Wang Y"
+    ],
+    "published": "2026-04-23",
+    "journal": "ACS infectious diseases",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42024482/",
+    "score": 45,
+    "summary": {
+      "title_zh": "基于逆转录多重交叉置换扩增与CRISPR-Cas12a生物传感系统的柯萨奇病毒A16快速超灵敏检测方法",
+      "tool_type": "CRISPR-Cas12a 结合核酸扩增的诊断平台（RNA 检测工具）",
+      "design": "将逆转录多重交叉置换扩增（RT-MCDA）与CRISPR-Cas12a检测系统相结合。首先通过RT-MCDA技术对CVA16的VP1基因进行预扩增，然后利用设计的MCDA引物、工程化CP1引物和特异性gRNA，使扩增产物被CRISPR-Cas12a系统特异性识别并切割，从而产生检测信号。",
+      "functions": "实现对柯萨奇病毒A16（CVA16）RNA的快速、超灵敏检测，适用于手足口病病原体的即时诊断和流行病学防控。",
+      "key_results": "该检测方法对CVA16的检测限达到2.8 × 10（原文未提供完整数值，推测为极低拷贝数/浓度），在资源有限条件下表现出高灵敏度和特异性。"
+    }
+  },
+  {
+    "id": "42014051",
+    "title": "Spatial Transcriptomic Analysis of Human Visceral Adipose Tissue in Different Metabolic Status: Methodological Validation and Application.",
+    "abstract": "Adipose tissue consists predominantly of lipid-filled adipocytes with limited cytoplasmic space, posing challenges for spatial transcriptomic analysis. Spatially-resolved laser-activated cell sorting (SLACS) enables precise isolation of tissue sections, offering a strategy to overcome these challenges. Human visceral adipose tissue (VAT) samples from lean individuals and those with obesity and type 2 diabetes mellitus (Ob-DM) were analyzed. SLACS was used to isolate perivascular (PV) and adipocyte-rich (AD) areas, followed by full-length RNA sequencing to investigate pathways, cellular composition, and post-transcriptional regulation. PV and AD areas exhibited distinct transcriptional patterns. Fibro-inflammatory signatures and vascular remodeling pathways were enriched in the PV, while lipid metabolism and antioxidant pathways were predominant in the AD. Cellular deconvolution suggested area- and disease-specific cell composition. Post-transcriptional modifications, including adenosine-to-inosine (A-to-I) RNA editing and isoform switching in metabolic genes were observed in Ob-DM, suggesting a potential contributor to adipose dysfunction. This study demonstrates the technical feasibility of SLACS-based spatial transcriptomic profiling in human VAT, with exploratory biological findings that warrant validation in larger cohorts.",
+    "authors": [
+      "Jung J",
+      "Huang Q",
+      "Lee S",
+      "Kim D",
+      "Oh H",
+      "Park YS",
+      "Kim HJ",
+      "Kim JK",
+      "Oh TJ",
+      "Lee AC",
+      "Moon JH",
+      "Choi SH"
+    ],
+    "published": "2026-04-22",
+    "journal": "Diabetes & metabolism journal",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42014051/",
+    "score": 25,
+    "summary": {
+      "title_zh": "不同代谢状态下人类内脏脂肪组织的空间转录组分析：方法学验证与应用",
+      "tool_type": "空间转录组分析工具（SLACS：空间分辨激光激活细胞分选）",
+      "design": "SLACS 通过激光激活细胞分选技术，从组织切片中精确分离出血管周围区域和脂肪细胞富集区域，随后对分离的样本进行全长RNA测序，从而在空间维度上解析不同区域的转录组特征。该方法结合了空间定位与高通量测序，克服了脂肪组织因脂滴占据大部分细胞质空间而难以进行传统空间转录组分析的挑战。",
+      "functions": "实现人类内脏脂肪组织不同空间区域（血管周围 vs. 脂肪细胞富集）的转录组图谱构建；鉴定区域特异性基因表达、细胞组成差异及信号通路富集；检测代谢疾病相关的RNA编辑（A-to-I）和异构体转换等转录后调控事件。",
+      "key_results": "SLACS成功区分了血管周围区域（富集纤维炎症和血管重塑通路）与脂肪细胞富集区域（富集脂质代谢和抗氧化通路），并在肥胖合并2型糖尿病患者中观察到代谢基因的A-to-I RNA编辑和异构体转换，提示其可能参与脂肪功能障碍。该研究验证了SLACS在人类内脏脂肪组织中进行空间转录组分析的技术可行性。"
+    }
+  }
+]
