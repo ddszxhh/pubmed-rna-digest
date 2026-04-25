@@ -1,0 +1,79 @@
+[
+  {
+    "id": "42028578",
+    "title": "Adenine base editor for knockout of proteins: A practical guide from design to analysis with updated MultiEditRbatch.",
+    "abstract": "Adenine base editors (ABEs) are a promising yet underutilized tool for inducing protein knockout compared to Cas9 nuclease, owing in part to a lack of user-friendly platforms for reagent design and implementation. Here, we present a comprehensive workflow to achieve high-efficiency gene knockouts with ABE as an alternative to Cas9 nuclease-based approaches. This includes optimized guide RNA (gRNA) design using SpliceR, a web-based application, followed by genomic and functional validation of ABE-mediated knockouts for several target genes. We validated gRNAs for 14 immunologically relevant targets, using both NGG and NG PAM compatible ABE8e-variants in primary immune cells. To facilitate data analysis, we developed MultiEditRbatch, an updated version of MultiEditR as a user-friendly analysis tool with addition of batch mode for high-throughput analysis of Sanger sequencing data. MultiEditRbatch is available as a web-based application and an R package, enabling robust assessment of base editing outcomes.",
+    "authors": [
+      "Eaton EJ",
+      "Wick BJ",
+      "Chacón JS",
+      "Wang AJ",
+      "Kluesner M",
+      "Barnes JT",
+      "Kar B",
+      "Wang M",
+      "Johnson MJ",
+      "Skeate JG",
+      "Webber BR",
+      "Moriarity BS"
+    ],
+    "published": "2026-06-16",
+    "journal": "Molecular therapy. Nucleic acids",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42028578/",
+    "score": 85,
+    "summary": {
+      "title_zh": "腺嘌呤碱基编辑器用于蛋白质敲除：从设计到分析的使用指南及更新版MultiEditRbatch",
+      "tool_type": "RNA碱基编辑器（腺嘌呤碱基编辑器，ABE）及配套分析工具",
+      "design": "该工作流程整合了基于SpliceR的gRNA优化设计、ABE8e变体（兼容NGG和NG PAM）在免疫细胞中的应用，并开发了MultiEditRbatch作为高通量Sanger测序数据分析工具，支持批量处理。",
+      "functions": "实现位点特异性腺嘌呤碱基编辑以诱导蛋白质敲除，替代Cas9核酸酶方法；提供从gRNA设计到编辑效率验证的完整工作流；支持高通量测序数据分析。",
+      "key_results": "在14个免疫相关靶点中验证了gRNA设计，使用ABE8e变体在原代免疫细胞中实现高效敲除；MultiEditRbatch作为网络应用和R包，可稳健评估碱基编辑结果。"
+    }
+  },
+  {
+    "id": "42029722",
+    "title": "Evaluation of computational tools for the prediction of CRISPR/SpCas9 gRNA activity in plants.",
+    "abstract": "CRISPR/Cas9 technologies are now routinely used in plant research, with guide RNA (gRNA) design being a critical determinant of genome editing success. However, rational design of highly active gRNAs is challenging due to complex sequence and biochemical factors affecting activity. While numerous computational prediction tools have been developed, they are predominantly trained on animal cell or microbial data and their performance in plants remains controversial or untested. In this study, using two independent Nicotiana benthamiana experimental datasets comprising a total of 52 gRNAs, we systematically evaluated over 20 freely accessible, Web-based in silico tools for predicting gRNA on-target efficiency. We identified several machine learning-based tools that showed strong correlation with experimental editing efficiency across both datasets. Importantly, gRNAs in the top quartile by prediction score produced significantly higher InDel frequencies than those in the lowest quartile for all tools tested. Furthermore, several algorithms available through CRISPOR, a platform containing a large number of non-model plant genomes, also showed good predictive performance. This may enable better integration of on-target and off-target predictions in gRNA design. Our findings provide practical guidance for improving gRNA design in plant genome editing applications.",
+    "authors": [
+      "Gong Z",
+      "Chen M",
+      "Zhang H",
+      "Mortimer JC",
+      "Botella JR"
+    ],
+    "published": "2026-04-24",
+    "journal": "Plant cell reports",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42029722/",
+    "score": 15,
+    "summary": {
+      "title_zh": "植物CRISPR/SpCas9 gRNA活性预测计算工具的系统评估",
+      "tool_type": "gRNA活性预测计算工具（生物信息学工具）",
+      "design": "本研究系统评估了超过20种基于网络的免费计算工具，这些工具主要基于机器学习算法，通过分析gRNA的序列特征和生化因素来预测其靶向编辑效率。研究利用两个独立的本氏烟实验数据集（共52个gRNA）进行验证，比较了不同工具的预测得分与实际编辑效率的相关性。",
+      "functions": "预测CRISPR/SpCas9系统中gRNA的靶向编辑效率（以InDel频率为指标），帮助研究人员优化gRNA设计，提高植物基因组编辑的成功率。",
+      "key_results": "多个基于机器学习的工具在两个数据集中均显示出与实验编辑效率的强相关性；所有测试工具中，预测得分前四分之一的gRNA产生的InDel频率显著高于后四分之一的gRNA。"
+    }
+  },
+  {
+    "id": "42030398",
+    "title": "CRISPRi-based functional genomic screening identifies genes essential for CH",
+    "abstract": "Methanotrophic bacteria are the primary organisms that consume atmospheric methane (CH",
+    "authors": [
+      "Henard JM",
+      "Lee SA",
+      "Yu YC",
+      "Shao D",
+      "Azad RK",
+      "Henard CA"
+    ],
+    "published": "2026-04-24",
+    "journal": "Science advances",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42030398/",
+    "score": 0,
+    "summary": {
+      "title_zh": "基于CRISPRi的功能基因组筛选鉴定甲烷氧化菌必需基因",
+      "tool_type": "CRISPRi（CRISPR干扰）功能基因组筛选系统",
+      "design": "该系统利用失活的Cas9（dCas9）与靶向基因启动子的sgRNA结合，通过转录抑制实现基因敲低，从而在甲烷氧化菌中进行高通量功能基因组筛选。通过构建全基因组sgRNA文库，系统性地鉴定甲烷氧化菌中生长和甲烷代谢所必需的基因。",
+      "functions": "实现甲烷氧化菌中必需基因的高通量鉴定与功能注释；可用于解析甲烷代谢、能量代谢及细胞生长相关的遗传调控网络。",
+      "key_results": "成功鉴定出多个甲烷氧化菌生长和甲烷消耗所必需的基因，验证了CRISPRi在非模式原核生物中高效进行功能基因组筛选的可行性，为甲烷生物转化和温室气体减排提供了关键靶点。"
+    }
+  }
+]
