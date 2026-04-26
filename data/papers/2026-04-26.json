@@ -1,0 +1,101 @@
+[
+  {
+    "id": "42031757",
+    "title": "Genome-wide screening reveals producer-cell modifications that improve virus-like particle production and delivery potency.",
+    "abstract": "Engineered virus-like particles (eVLPs) are promising vehicles for transient delivery of gene editing agents. While extensive particle engineering has yielded efficient eVLPs, it remains underexplored whether engineering the cells used to produce eVLPs could further improve eVLP properties. We report an unbiased genome-wide screening approach to systematically investigate how genetic perturbations in producer cells influence eVLP production. This approach generates eVLPs loaded with guide RNAs that identify the genetic perturbation in the cell that produced a particular particle; the abundance of each guide RNA in eVLPs therefore reflects how the corresponding genetic perturbation influences eVLP production or cargo loading. We apply this approach to identify several genes that regulate eVLP cargo expression and loading into particles during the production process. Leveraging these insights, we engineer producer cells that support increased eVLP cargo packaging and a 2- to 9-fold increase in eVLP delivery potency across several cargo, particle, and target-cell types in cultured cells and in mice. Our findings suggest the potential of producer-cell engineering as a useful strategy for improving the utility of eVLPs and related delivery methods.",
+    "authors": [
+      "Ly D",
+      "Jang H",
+      "Goel A",
+      "Singh A",
+      "Raguram A"
+    ],
+    "published": "2026-04-24",
+    "journal": "Nature communications",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42031757/",
+    "score": 30,
+    "summary": {
+      "title_zh": "全基因组筛选揭示提高病毒样颗粒产量与递送效力的生产细胞改造策略",
+      "tool_type": "病毒样颗粒（VLP）生产细胞工程筛选平台",
+      "design": "该平台通过将携带特定遗传扰动（如基因敲除或过表达）的sgRNA装载到病毒样颗粒（eVLP）中，实现生产细胞基因型与eVLP产量/装载效率的直接关联。利用全基因组CRISPR筛选，系统鉴定影响eVLP货物表达和包装的关键宿主基因，并据此改造生产细胞以优化eVLP性能。",
+      "functions": "1. 高通量鉴定调控eVLP生产与货物装载的宿主基因；2. 指导生产细胞工程改造，提升eVLP的货物包装效率；3. 增强eVLP在多种细胞类型及小鼠体内的递送效力（2-9倍提升）。",
+      "key_results": "通过筛选鉴定出多个调控eVLP货物表达与包装的基因，改造后的生产细胞使eVLP递送效力在培养细胞和小鼠中提升2-9倍，且该效果适用于多种货物、颗粒及靶细胞类型。"
+    }
+  },
+  {
+    "id": "42031695",
+    "title": "Uncovering a role for METTL13 in malignant transformation of human hematopoietic stem cells and in the progression of pediatric leukemia.",
+    "abstract": "Post-transcriptional RNA modifications, such as N6-methyladenosine (m6A) methylation and adenosine to inosine (A-to-I) editing, are critical regulators of hematopoietic stem cell (HSC) self-renewal and differentiation, yet their precise contributions to malignant transformation are not fully elucidated. In this study, we uncovered the epitranscriptomic landscape caused by knockdown of genes from the methyltransferase (METTL)-family in hematopoietic stem and progenitor cells (HSPCs). We identified both converging and distinct effects of METTL3 and METTL14, known members of the m6A writer complex, as well as orphan gene METTL13. Amongst METTL-family members, only METTL13 transcription was increased following adenosine deaminase acting on RNA 1 (ADAR1) overexpression in HSPCs. This transcriptional pattern suggests that METTL13 may participate in biological programs that partially overlap with those controlled by the m6A writer complex and ADAR1, although any mechanistic relationship remains undefined. Knockdown of METTL13 altered the expression of multiple genes involved in oncogenic development in HSPCs. Furthermore, METTL13 expression was associated with a high-risk profile in pediatric T-cell acute lymphoblastic leukemia (T-ALL) and functional studies confirmed that METTL13 is required for T-ALL cell proliferation and survival both in vitro and in vivo. Collectively, our results identify METTL13 as a previously unrecognized regulator of leukemic transformation, independent of any presumed mechanistic interaction between RNA editing and m6A pathways.",
+    "authors": [
+      "Enlund S",
+      "Lim CE",
+      "Hoang I",
+      "Joshi S",
+      "Rivera M",
+      "Pepich A",
+      "Ramilo Amor A",
+      "Short J",
+      "Thomsson C",
+      "Sinha I",
+      "Fard SS",
+      "Nilsson A",
+      "Hermanson O",
+      "Jiang Q",
+      "Holm F"
+    ],
+    "published": "2026-04-25",
+    "journal": "Cell death & disease",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42031695/",
+    "score": 25,
+    "summary": {
+      "title_zh": "揭示METTL13在人类造血干细胞恶性转化及儿童白血病进展中的作用",
+      "tool_type": "非工具型研究（功能发现型研究，非RNA编辑工具或平台）",
+      "design": "本研究通过敲低甲基转移酶（METTL）家族基因，结合表观转录组分析，鉴定METTL13在造血干细胞中的功能。利用ADAR1过表达、转录组测序及体内外白血病模型，探索METTL13与m6A修饰及RNA编辑通路的潜在关联。",
+      "functions": "该研究揭示了METTL13在造血干细胞恶性转化中的调控作用，包括影响致癌基因表达、促进T细胞急性淋巴细胞白血病（T-ALL）细胞增殖与存活。",
+      "key_results": "METTL13敲低改变了造血干细胞中多个致癌相关基因的表达；METTL13高表达与儿童T-ALL高风险相关，且体内外实验证实METTL13是T-ALL细胞增殖和存活所必需的。"
+    }
+  },
+  {
+    "id": "41298833",
+    "title": "Functional analysis of AKT1 knockout in fibrosarcoma cells using CRISPR/Cas9 technology.",
+    "abstract": "AKT1 (Protein Kinase B alpha) is a serine/threonine kinase that plays a pivotal role in regulating various cellular processes. To elucidate the role of the AKT1 gene in signaling pathways, this study generated AKT1 knockout (KO) HT-1080 cells using the CRISPR/Cas9 system. Gene-editing efficiency was validated through Sanger DNA sequencing and insertion/deletion (InDel) analysis. Quantitative real-time PCR and Western blot analyses were performed to evaluate the expression levels of AKT1 mRNA and protein, as well as to examine the expression of AKT1 downstream effectors: mTOR, BCL-2, and FOXO1. The AKT1 single-guide RNA sequence was successfully cloned into the CRISPR/Cas9 vector, leading to the establishment of AKT1 KO cells. InDel analysis identified eight editing types, with two dominant populations. The expression levels of AKT1 mRNA and protein were significantly reduced in the KO cells. The expression levels of mTOR, BCL-2, and FOXO1 were significantly altered in the KO cells compared to normal cells. These findings highlight the impact of AKT1 disruption on signaling pathways and provide fundamental insights into the regulatory role of the AKT1 gene.",
+    "authors": [
+      "Kim SH",
+      "Kim MM"
+    ],
+    "published": "2026-05-01",
+    "journal": "Journal of human genetics",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41298833/",
+    "score": 15,
+    "summary": {
+      "title_zh": "利用CRISPR/Cas9技术敲除纤维肉瘤细胞中AKT1基因的功能分析",
+      "tool_type": "CRISPR/Cas9基因编辑系统（DNA靶向敲除工具）",
+      "design": "设计靶向AKT1基因的单一向导RNA（sgRNA）序列，并将其克隆至CRISPR/Cas9表达载体中，通过Cas9核酸酶在基因组特定位点引入双链断裂，利用细胞非同源末端连接修复机制产生插入/缺失突变，实现AKT1基因的稳定敲除。",
+      "functions": "实现AKT1基因的位点特异性敲除；通过Sanger测序和InDel分析验证编辑效率；评估AKT1及其下游效应因子（mTOR、BCL-2、FOXO1）的mRNA和蛋白表达变化，用于研究AKT1在信号通路中的调控功能。",
+      "key_results": "成功构建AKT1敲除的HT-1080细胞系，鉴定出8种编辑类型（含两种主要突变群体）；AKT1 mRNA和蛋白表达显著降低，且下游mTOR、BCL-2、FOXO1表达水平发生显著改变，证实了AKT1缺失对信号通路的影响。"
+    }
+  },
+  {
+    "id": "42032516",
+    "title": "Mitochondrial genome of Iodes seguinii reveals repeat-mediated recombination and phylogenetic insights in Icacinaceae.",
+    "abstract": "",
+    "authors": [
+      "Yu S",
+      "Wang M",
+      "Gong X",
+      "Qin M",
+      "Tang M"
+    ],
+    "published": "2026-04-24",
+    "journal": "BMC genomics",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42032516/",
+    "score": 0,
+    "summary": {
+      "title_zh": "小果微花藤线粒体基因组揭示重复序列介导的重组及茶茱萸科的系统发育见解",
+      "tool_type": "基因组分析工具（线粒体基因组组装与比较基因组学方法）",
+      "design": "该研究通过高通量测序组装了小果微花藤的完整线粒体基因组，并利用重复序列分析、共线性比较和系统发育重建等方法，解析了重复序列介导的基因组重组事件及其在茶茱萸科系统发育中的演化意义。",
+      "functions": "实现线粒体基因组的结构注释、重复序列介导的重组事件检测、基因含量与共线性分析，以及基于线粒体基因组的系统发育关系推断。",
+      "key_results": "成功组装了小果微花藤的线粒体基因组，发现大量重复序列（如长末端重复反转录转座子）介导了基因组内的重组与结构变异，并基于系统发育分析明确了茶茱萸科在核心真双子叶植物中的分类位置。"
+    }
+  }
+]
