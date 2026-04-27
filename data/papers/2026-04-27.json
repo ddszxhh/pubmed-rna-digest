@@ -1,0 +1,37 @@
+[
+  {
+    "id": "42033221",
+    "title": "ADAR1 and ADAR2 associate with the RNA exosome and modulate RNA stability.",
+    "abstract": "The adenosine deaminase acting on RNA (ADAR) enzymes deaminate adenosine to inosine in double-stranded (ds)RNA. Mammals express two catalytically active enzymes: ADAR1, which is ubiquitously expressed and essential for innate immune homeostasis, and ADAR2, which is enriched in the brain and vascular system. Here, we investigate the ADAR2 interactome and uncover a shared interaction network with ADAR1, including multiple components of the RNA exosome complex, a multi-subunit RNase involved in RNA processing, turnover, and surveillance. The interactions between ADARs and RNA exosome components are nuclear, and resistance to RNase A treatment implies their close proximity. We validated these interactions by immunoprecipitation of both endogenous and epitope-tagged ADAR proteins in multiple cell lines and mapped the interaction interfaces to their dsRNA-binding domains. Exploiting an MS2-MCP tethering system, we show that recruitment of ADAR1 or ADAR2 to the 3' UTR of a reporter transcript decreases its stability. This decrease in RNA levels was reversed when EXOSC3 was depleted, demonstrating that this destabilizing effect of ADARs on RNA is via the RNA exosome complex. Finally, knockdown of ADARs perturbs rRNA processing, a canonical function of the nuclear exosome, demonstrating a cellular consequence of disrupting ADAR-exosome interactions.",
+    "authors": [
+      "Vukić D",
+      "Du Q",
+      "Cherian A",
+      "Amoruso D",
+      "Brožinová K",
+      "Wacheul L",
+      "Lacovich V",
+      "Zorbas C",
+      "Yadav L",
+      "Sedmík J",
+      "Keskitalo S",
+      "Hajji K",
+      "Stejskal S",
+      "Varjosalo M",
+      "Lafontaine DLJ",
+      "Keegan LP",
+      "O'Connell MA"
+    ],
+    "published": "2026-04-23",
+    "journal": "Nucleic acids research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42033221/",
+    "score": 45,
+    "summary": {
+      "title_zh": "ADAR1与ADAR2与RNA外泌体复合物结合并调控RNA稳定性",
+      "tool_type": "ADAR蛋白与RNA外泌体相互作用模块（RNA稳定性调控工具）",
+      "design": "通过免疫共沉淀和质谱分析鉴定ADAR2的相互作用组，发现其与ADAR1共享RNA外泌体复合物多个亚基的互作网络；利用MS2-MCP拴系系统将ADAR1或ADAR2招募至报告基因转录本的3'UTR，实现靶向RNA稳定性调控。",
+      "functions": "实现位点特异性RNA稳定性调控（通过ADAR招募降低RNA水平）；揭示ADAR通过RNA外泌体复合物介导的RNA降解机制；干扰rRNA加工等核外泌体功能。",
+      "key_results": "ADAR1/ADAR2招募至报告基因3'UTR可显著降低RNA稳定性，该效应在敲低EXOSC3后被逆转；ADAR敲低导致rRNA加工异常，证实ADAR-外泌体相互作用在细胞核RNA代谢中的功能重要性。"
+    }
+  }
+]
