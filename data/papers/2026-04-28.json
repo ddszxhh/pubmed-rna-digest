@@ -1,0 +1,144 @@
+[
+  {
+    "id": "42041128",
+    "title": "Digital Counting of Quantum Dots Nanobeads on Lateral Flow Test Strips Enables Ultrasensitive Point-of-Care Diagnostics.",
+    "abstract": "Lateral flow assay (LFA) is a versatile platform for the rapid detection of various pathogens, pollutants, and toxins at point of care (POC). However, a traditional lateral flow assay strip is still not sensitive enough for early detection of disease, and previous works to enhance the sensitivity of LFA systems have suffered from additional signal amplification chemistry, tedious operation procedure, or expensive signal amplification instruments. In this study, we introduced a digital counting strategy for signal measurement to improve the detection sensitivity of quantum dot nanobead-based lateral flow immunoassays, offering an alternative to traditional fluorescence intensity-based quantification. The ultrasensitive single-molecule POC detection system is composed of an ultrabright fluorescent quantum dot nanobead-based lateral flow assay strip and a portable fluorescent microscopy reader for numerating single immunocomplexes on a test line. As a proof-of-concept, we performed digital LFA to detect interleukin-6 in 1% BSA with LoD as low as 0.02 pg/mL, which is ∼100 times more sensitive than analog LFA. Moreover, an amplification-free assay for HIV RNA was also demonstrated by combining CRISPR-Cas13 reaction and digital LFA with a sensitivity of as low as 89 copies/mL. A prototype portable and affordable fluorescent microscopy reader was designed and demonstrated its ability to be used for on-site testing. All in all, the developed digital LFA system not only has single-molecule level sensitivity but also satisfies the rapidity, easy operation, portability, and low-cost requirements for POC testing.",
+    "authors": [
+      "Yan W",
+      "Xia W",
+      "Hu Q",
+      "Zeng S",
+      "Han H",
+      "Zhang P"
+    ],
+    "published": "2026-04-27",
+    "journal": "Analytical chemistry",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42041128/",
+    "score": 35,
+    "summary": {
+      "title_zh": "基于量子点纳米珠的数字计数侧流层析试纸条实现超灵敏即时诊断",
+      "tool_type": "数字侧流层析检测系统（Digital LFA）结合量子点纳米珠与便携式荧光显微镜读取器",
+      "design": "该系统将超亮荧光量子点纳米珠标记的侧流层析试纸条与便携式荧光显微镜读取器相结合，通过数字计数单个免疫复合物（而非传统荧光强度积分）来实现信号定量。其核心思路是将模拟信号转化为数字计数，从而突破传统LFA的灵敏度极限。",
+      "functions": "实现超灵敏的即时检测（POC），可定量检测蛋白质（如白细胞介素-6）和核酸（如HIV RNA），并兼容CRISPR-Cas13反应实现无扩增RNA检测。",
+      "key_results": "在1% BSA中检测白细胞介素-6的检测限（LoD）低至0.02 pg/mL，比传统模拟LFA灵敏约100倍；结合CRISPR-Cas13后，HIV RNA检测灵敏度达89 copies/mL，且无需核酸扩增。"
+    }
+  },
+  {
+    "id": "42036792",
+    "title": "ADAR1 Controls Macrophage Scavenging and Lipid-Buffering Programs in Metabolic Tissues.",
+    "abstract": "Adenosine deaminase acting on RNA 1 (ADAR1) regulates mRNA fate and function through adenosine-to-inosine (A-to-I) RNA editing and RNA-binding activities. While its role in innate immunity is established, the broader regulatory functions of ADAR1 in macrophages remain poorly defined. Here, we systematically profiled ADAR1 expression across human immune cells and identified marked enrichment in macrophages, driven by selective usage of an alternative transcription start site during monocyte-to-macrophage differentiation. ADAR1 binds, edits, and modulates key macrophage targets involved in efferocytosis, endocytosis, lysosomal processing, lipid metabolism, and proliferation in an isoform-specific manner. We further demonstrate that ADAR1 levels and activity are dynamically regulated in adipose tissue and liver during the progression of metabolic disease. Linked to this, macrophage-specific ablation of ADAR1 co-cultured in organotypic 3D primary human liver spheroids and exposed to metabolic stress resulted in an exacerbated lipid accumulation phenotype. Finally, we identify a lipid-associated macrophage-specific upregulation of ADAR1 in adipose tissue following weight loss interventions, mechanistically driven by free fatty acids. These findings uncover a previously unrecognized role for ADAR1 in lipid-buffering, scavenging, and proliferative macrophage functions, extending its biological relevance beyond canonical interferon-mediated immunity and establishing ADAR1 as a key regulator of macrophage adaptation in metabolic disease.",
+    "authors": [
+      "Fardellas A",
+      "Barreby E",
+      "Brice M",
+      "Nock S",
+      "Russick J",
+      "Vankova A",
+      "Edberg C",
+      "Robertsen I",
+      "Hertel JK",
+      "Stål P",
+      "Mellgren G",
+      "Karlsson C",
+      "Hjelmesaeth JS",
+      "Hagström H",
+      "Näslund E",
+      "Lauschke VM",
+      "Fernø J",
+      "Chen P",
+      "Morgantini C",
+      "Aouadi M",
+      "Björkström NK"
+    ],
+    "published": "2026-04-01",
+    "journal": "European journal of immunology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42036792/",
+    "score": 30,
+    "summary": {
+      "title_zh": "ADAR1 控制代谢组织中巨噬细胞的清除与脂质缓冲程序",
+      "tool_type": "内源性 RNA 编辑调控系统（ADAR1 介导的 A-to-I 编辑与 RNA 结合工具）",
+      "design": "该研究系统分析了 ADAR1 在人类免疫细胞中的表达，发现其通过选择性启动子使用在巨噬细胞中富集；进一步利用 isoform 特异性敲除和 3D 肝球体共培养模型，解析了 ADAR1 通过 RNA 结合与编辑调控巨噬细胞吞噬、内吞、溶酶体处理、脂质代谢和增殖相关靶基因的机制。",
+      "functions": "1. 调控巨噬细胞清除功能（efferocytosis、endocytosis）；2. 调节脂质代谢与缓冲能力；3. 控制巨噬细胞增殖；4. 响应代谢应激（如游离脂肪酸）动态调节 ADAR1 表达；5. 在代谢疾病中维持组织脂质稳态。",
+      "key_results": "在代谢应激下，巨噬细胞特异性敲除 ADAR1 导致 3D 人肝球体中脂质积累显著加剧；在脂肪组织中，减重干预后脂质相关巨噬细胞中 ADAR1 上调，且该上调由游离脂肪酸驱动，揭示了 ADAR1 在代谢疾病中调控巨噬细胞适应性的新功能。"
+    }
+  },
+  {
+    "id": "42043584",
+    "title": "CRISP-PTG-Assembler Ver. 1.0: a primer design tool for polycistronic tRNA-gRNA (PTG) assembly for Cas9-based multiplex genome editing in plants.",
+    "abstract": "Multiplex genome editing using the CRISPR/Cas9 system allows simultaneous modifications at several genomic sites, offering great potential for crop improvement. Among various approaches, the polycistronic tRNA-gRNA (PTG) system is widely adopted due to its use of the host's native tRNA processing machinery, enabling the generation of multiple sgRNAs from a single transcript without the need for expressing any foreign RNA processing enzymes or ribozymes. However, designing the complete set of primers suitable for performing in vitro PTG assembly is complex and needs expertise, as a single mistake can lead to complete failure of the assembly process or subsequent editing. To overcome this challenge, we developed CRISP-PTG-Assembler Ver. 1.0, a user-friendly tool that takes only (i) 20-nucleotide sgRNA spacers and (ii) 4-nucleotide joiners as inputs; and produces colour-coded outputs in forms of (i) Primer-set required for complete PTG assembly, (ii) Primary PCR Amplicons, (iii) Overlap-Extension PCR Amplicons and (iv) Expected PTG assembly, for easy interpretation and construct making. Our novel assembly approach provides flexibility in sticky-end choice during golden gate ligation and ensures the fidelity of component sgRNAs in the PTG assembly by buffering against ligation errors (~ 1.5-40%) that may occur during the Golden Gate assembly process, thereby safeguarding the functionality of the in vivo-generated individual sgRNA molecules. We validated its effectiveness by editing two loci of the matrix metalloproteinase 1 gene in rice and demonstrated its applicability across various plant systems. With an intuitive interface and robust features, CRISP-PTG-Assembler empowers researchers of all levels to effectively implement PTG-based multiplex genome editing in plants.",
+    "authors": [
+      "Ray S",
+      "Vijayan J",
+      "Vanchinathan S",
+      "Dhakar R",
+      "Nasrullah N",
+      "Nagar S",
+      "Dutta TK",
+      "Chinnusamy V"
+    ],
+    "published": "2026-04-27",
+    "journal": "Planta",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42043584/",
+    "score": 25,
+    "summary": {
+      "title_zh": "CRISP-PTG-Assembler 1.0版：用于植物中基于Cas9的多重基因组编辑的多顺反子tRNA-gRNA（PTG）组装引物设计工具",
+      "tool_type": "CRISPR/Cas9多重基因组编辑的引物设计工具（PTG组装辅助软件）",
+      "design": "该工具以20核苷酸的sgRNA间隔序列和4核苷酸的连接子序列为输入，通过算法自动生成用于PTG组装的全套引物，并输出彩色编码的引物集、初级PCR扩增子、重叠延伸PCR扩增子及预期的PTG组装产物。其核心设计在于通过缓冲Golden Gate连接过程中的连接错误（约1.5-40%），确保PTG组装中各组分的保真性。",
+      "functions": "实现植物中基于PTG系统的多重基因组编辑的引物设计，包括自动生成完整引物集、可视化PCR产物和组装产物，并支持Golden Gate连接中的粘性末端灵活选择，以保障体内单个sgRNA的功能完整性。",
+      "key_results": "通过编辑水稻中基质金属蛋白酶1基因的两个位点验证了工具的有效性，并展示了其在多种植物系统中的适用性；该工具能缓冲约1.5-40%的Golden Gate连接错误，确保sgRNA组分的保真性。"
+    }
+  },
+  {
+    "id": "42037768",
+    "title": "Protocol for Using CRISPR-Cas9 to Generate a Monocyte Cell Line Harboring a Single-Nucleotide Polymorphism.",
+    "abstract": "We established a step-by-step approach for generating a single-nucleotide mutation in the promoter region of an immune regulatory gene in human monocyte THP-1 cells by employing a plasmid-based CRISPR-Cas9 system delivered via transfection with a homology-directed repair template DNA (HDR). Key steps include designing a single-guide RNA (sgRNA), cloning it into a CRISPR plasmid encoding the Cas9 protein, transfection of the plasmid constructs along with single-stranded oligonucleotide repair template (ssODNs) into THP-1 cells, followed by selection and validation. This approach provides a precise and relevant model to investigate the role of single polymorphisms in the regulation of inflammatory gene expression in human monocytes. In addition to the rs1024611 single-nucleotide polymorphism (SNP), this CRISPR/Cas9-based strategy is broadly applicable to functional studies of noncoding and coding variants in innate immune genes. Key features • Precise genome editing: CRISPR-Cas9-mediated editing of the rs1024611 SNP in the endogenous",
+    "authors": [
+      "Mahatha AC",
+      "Ramos-Espinosa O",
+      "de Lima DS",
+      "Liu EY",
+      "Vaidyan S",
+      "Liu J"
+    ],
+    "published": "2026-04-20",
+    "journal": "Bio-protocol",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42037768/",
+    "score": 15,
+    "summary": {
+      "title_zh": "利用CRISPR-Cas9生成携带单核苷酸多态性的单核细胞系实验方案",
+      "tool_type": "CRISPR-Cas9基因编辑工具（基于质粒的HDR敲入系统）",
+      "design": "通过设计靶向目的位点的sgRNA并克隆至Cas9表达质粒，与单链寡核苷酸修复模板（ssODNs）共转染人单核THP-1细胞，利用同源定向修复（HDR）机制在免疫调控基因启动子区域引入特定单核苷酸突变。",
+      "functions": "实现内源基因位点的单核苷酸多态性（SNP）精准编辑，用于研究非编码和编码变异对先天免疫基因表达调控的功能影响。",
+      "key_results": "成功在THP-1细胞中编辑rs1024611 SNP，建立了研究单核苷酸多态性调控炎症基因表达的功能模型，该策略可广泛适用于其他免疫相关基因的变异功能研究。"
+    }
+  },
+  {
+    "id": "42042363",
+    "title": "Unlocking the Potential for Genetic Engineering of the Straw-Degrading Mushroom",
+    "abstract": "The artificially cultivated edible mushroom",
+    "authors": [
+      "Hao H",
+      "Song S",
+      "Wang Q",
+      "Tong Z",
+      "Xu W",
+      "Yang J",
+      "Yue Y",
+      "Xiao T",
+      "Zhang Y",
+      "Zhang J",
+      "Chen H"
+    ],
+    "published": "2026-04-08",
+    "journal": "Journal of fungi (Basel, Switzerland)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42042363/",
+    "score": 0,
+    "summary": {
+      "title_zh": "解锁秸秆降解蘑菇基因工程潜力",
+      "tool_type": "非RNA编辑工具（基因工程工具/遗传改造系统）",
+      "design": "该研究针对秸秆降解蘑菇（如草菇）开发遗传工程方法，可能涉及基因编辑或转基因技术，通过优化转化体系、筛选标记或启动子等模块，实现对该类真菌的遗传操作。",
+      "functions": "实现秸秆降解蘑菇的基因改造，例如增强纤维素酶表达、改善降解效率或引入新性状，用于农业废弃物资源化利用。",
+      "key_results": "摘要未提供具体性能指标，但研究可能展示了成功的外源基因表达或基因编辑效率，以及体内（如蘑菇菌丝或子实体）的遗传稳定性验证。"
+    }
+  }
+]
