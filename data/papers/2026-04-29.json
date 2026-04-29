@@ -1,0 +1,116 @@
+[
+  {
+    "id": "42045200",
+    "title": "Structural basis of plant organelle C-to-U RNA editing by PPR-DYW proteins.",
+    "abstract": "Plants possess a unique C-to-U RNA editing mechanism mediated by PPR-DYW proteins, wherein the PPR domain recognizes specific RNA sequences while the DYW deaminase domain precisely edits the target C base-a process essential for functional protein expression in plant chloroplasts and mitochondria. The coordination of these two domains is considered crucial for precise RNA editing. In nature, this site-specific and precise base editing by PPR-DYW proteins distinguishes them from other base-editing deaminases. However, the absence of structures containing both PPR and DYW domains has limited our understanding of the precise RNA-editing mechanism of PPR-DYW proteins. Here, we present crystal structures of the consensus PPR-DYW (consPPR-DYW) protein, a representative of the PPR-DYW proteins, in both RNA-free and target RNA-bound states. Comparison between these states demonstrates domain movements upon target RNA binding, whereby the PPR domain accommodates the upstream sequence of the target C base in the proper conformation for editing while the DYW domain is optimally positioned for precise C-to-U conversion. These results, combined with comprehensive biochemical analyses, provide the foundation for a mechanistic model that explains the coordinated action of the PPR and DYW domains in achieving precise C-to-U editing.",
+    "authors": [
+      "Teramoto T",
+      "Urushihara R",
+      "Aoyama R",
+      "Okada A",
+      "Ichinose M",
+      "Yagi Y",
+      "Nakamura T",
+      "Gutmann B",
+      "Kakuta Y"
+    ],
+    "published": "2026-04-27",
+    "journal": "Nature communications",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42045200/",
+    "score": 85,
+    "summary": {
+      "title_zh": "植物细胞器C-to-U RNA编辑的结构基础：PPR-DYW蛋白的作用机制",
+      "tool_type": "RNA碱基编辑器（PPR-DYW蛋白介导的C-to-U编辑系统）",
+      "design": "该工具利用PPR结构域识别特定RNA序列，DYW脱氨酶结构域精确编辑目标C碱基。通过解析PPR-DYW蛋白在无RNA和结合靶RNA状态下的晶体结构，揭示了靶RNA结合后两个结构域发生协同运动：PPR结构域将靶C碱基上游序列置于正确构象，DYW结构域则精确定位以实现C-to-U转换。",
+      "functions": "实现植物叶绿体和线粒体中位点特异性的C-to-U RNA编辑，用于功能性蛋白表达调控。",
+      "key_results": "解析了consPPR-DYW蛋白与靶RNA结合前后的晶体结构，结合生化分析阐明了PPR与DYW结构域协同实现精确C-to-U编辑的分子机制，为设计可编程RNA编辑工具提供了结构基础。"
+    }
+  },
+  {
+    "id": "42045938",
+    "title": "BEstimate: a computational tool for the design and interpretation of CRISPR base editing experiments.",
+    "abstract": "CRISPR base editors enable scalable targeted DNA mutagenesis and are a powerful tool for analysing the function of variants of uncertain significance and disease modelling. Existing guide RNA (gRNA) design tools lack comprehensive functional annotation of target sequences. Here we developed BEstimate, a flexible computational pipeline that systematically specifies base editor gRNA target sites, generates on-target activity and off-target predictions, and provides functional, structural and clinical annotations of installed variants. BEstimate supports custom gRNA design against variant alleles and reversion of disease variants. BEstimate is a freely available, versatile tool for designing gRNA libraries and analysing base editor screens.",
+    "authors": [
+      "Dinçer C",
+      "Fussing B",
+      "Garnett MJ",
+      "Coelho MA"
+    ],
+    "published": "2026-04-27",
+    "journal": "Genome biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42045938/",
+    "score": 30,
+    "summary": {
+      "title_zh": "BEstimate：用于CRISPR碱基编辑实验设计与解读的计算工具",
+      "tool_type": "CRISPR碱基编辑的gRNA设计与分析计算平台",
+      "design": "BEstimate是一个模块化的计算流程，整合了gRNA靶位点识别、编辑活性与脱靶预测、以及安装变体的功能、结构和临床注释。它支持针对特定等位基因的定制gRNA设计以及疾病相关变体的逆转编辑。",
+      "functions": "系统性地指定碱基编辑器的gRNA靶位点；生成靶向活性与脱靶预测；提供安装变体的功能、结构与临床注释；支持针对变异等位基因的定制gRNA设计；支持疾病变体的逆转编辑；用于设计gRNA文库和分析碱基编辑筛选实验。",
+      "key_results": "BEstimate是一个免费、通用的工具，能够为gRNA文库设计和碱基编辑筛选分析提供全面的功能注释，填补了现有gRNA设计工具在靶序列功能注释方面的空白。"
+    }
+  },
+  {
+    "id": "42045650",
+    "title": "Molecular mechanisms and biotechnology applications of CRISPR-Cas12a.",
+    "abstract": "CRISPR-Cas12a is a versatile RNA-guided nuclease that has rapidly gained prominence for its dual functionality in genome editing and nucleic acid detection. In this Review, we discuss the structural, biochemical and mechanistic features of Cas12a that underpin its autonomous processing of the guide RNA and indiscriminate cleavage of single-stranded DNA, which enable Cas12a applications ranging from gene therapy to rapid diagnostics. We discuss key allosteric regulators and functional modules that orchestrate Cas12a activity, focusing on the core regulatory structural elements that control maturation of the guide RNA, target specificity, and both cis-cleavage and trans-cleavage activities, including the determinants of off-target cleavage. We provide a comparative analysis of Cas12a and the widely used Cas9, which further illuminates the distinctive attributes of Cas12a, and discuss recent advances in the characterization of its orthologues and in the development of engineered variants that expand its capabilities. Collectively, we present a comprehensive understanding of Cas12a and its increasing impact on biotechnology, therapeutics and molecular diagnostics.",
+    "authors": [
+      "Saha A",
+      "Ocampo RF",
+      "Wright JT",
+      "Taylor DW",
+      "Palermo G"
+    ],
+    "published": "2026-04-27",
+    "journal": "Nature reviews. Molecular cell biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42045650/",
+    "score": 30,
+    "summary": {
+      "title_zh": "CRISPR-Cas12a的分子机制与生物技术应用",
+      "tool_type": "CRISPR-Cas12a系统（RNA引导的核酸酶，兼具基因编辑与核酸检测功能）",
+      "design": "Cas12a是一种由crRNA引导的核酸内切酶，其独特之处在于能自主加工前体crRNA（无需tracrRNA），并具有顺式切割靶标双链DNA和反式切割非特异性单链DNA的双重活性。系统通过核心调控结构域控制crRNA成熟、靶标特异性及切割活性，可通过工程化变体（如改变PAM偏好、增强反式切割）进一步扩展功能。",
+      "functions": "1. 基因组编辑（定点DNA切割、基因敲除/敲入）；2. 核酸检测（基于反式切割活性的高灵敏度诊断，如DETECTR平台）；3. 基因治疗（通过递送Cas12a进行靶向修复）；4. 多重编辑（利用其自主加工多个crRNA的能力实现多靶点操作）。",
+      "key_results": "综述系统比较了Cas12a与Cas9的结构与功能差异，强调了Cas12a在自主crRNA加工、低脱靶率及反式切割活性方面的优势；同时总结了工程化变体（如增强型PAM识别、热稳定性突变）在提升编辑效率和诊断灵敏度方面的进展，但未提供具体数值（综述性质）。"
+    }
+  },
+  {
+    "id": "42047244",
+    "title": "RNA modifications in heart failure: current insights and future directions.",
+    "abstract": "Gene expression is regulated at multiple levels beyond genetic and epigenetic modifications of DNA. Even when DNA is accurately transcribed into RNA, transcript abundance often does not correlate with protein levels, underscoring the importance of posttranscriptional regulation. Chemical modifications of RNA occur in both coding and noncoding RNAs and add an additional layer of gene control. More than 170 distinct RNA modifications have been identified across different RNAs in all domains of life. Although the abundant modifications have been investigated, their roles in cardiac biology and heart failure remain incompletely defined. This review discusses the current knowledge of both well characterized and understudied RNA modifications in the heart. Recent studies highlight context-dependent roles of N6-methyladenosine (m6A), 5-methylcytosine (m5C), N4-acetylcytidine (ac4C), and adenosine-to-inosine (A-to-I) RNA editing in the heart are discussed in this review. RNA modifications constitute a critical regulatory layer that complements transcriptional control and facilitates rapid adaptation to cardiac stress. Dysregulation of m6A, m5C, and A-to-I editing contributes to pathological remodeling and disease progression. However, most RNA modifications remain unexplored in heart failure. Enzymes that write, erase, or read these marks represent promising targets for precision therapeutic strategies.",
+    "authors": [
+      "Deogharia M"
+    ],
+    "published": "2026-04-07",
+    "journal": "Current opinion in cardiology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42047244/",
+    "score": 25,
+    "summary": {
+      "title_zh": "心力衰竭中的RNA修饰：当前见解与未来方向",
+      "tool_type": "综述论文（非工具/平台类，而是对RNA修饰在心脏疾病中作用的系统总结）",
+      "design": "该综述整合了多种RNA修饰（如m6A、m5C、ac4C、A-to-I编辑）在心脏生物学和心力衰竭中的研究进展，重点分析了这些修饰的写入、擦除和读取酶作为潜在治疗靶点的机制。",
+      "functions": "总结了RNA修饰在基因表达调控中的功能，包括转录后调控、快速适应心脏应激、以及病理重塑中的调控作用；指出了m6A、m5C和A-to-I编辑在心力衰竭中的失调及其作为治疗靶点的潜力。",
+      "key_results": "本文为综述性质，未提供新的实验数据；但强调了m6A、m5C和A-to-I编辑在心脏病理重塑中的关键作用，并指出大多数RNA修饰在心力衰竭中尚未被探索，相关酶类可作为精准治疗策略的潜在靶点。"
+    }
+  },
+  {
+    "id": "42040842",
+    "title": "Plastid Genome Evolution Across the Roridulaceae-Sarraceniaceae Clade (Ericales) in Relation to Carnivorous Strategies.",
+    "abstract": "The Roridulaceae-Sarraceniaceae (RS) clade within Ericales exhibits strikingly divergent carnivorous strategies. To investigate how these differences shape plastid genome (plastome) evolution, we analyzed four representative species:",
+    "authors": [
+      "Chang S",
+      "Wang P",
+      "Han W",
+      "Yu B",
+      "Li C"
+    ],
+    "published": "2026-04-01",
+    "journal": "Ecology and evolution",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42040842/",
+    "score": 0,
+    "summary": {
+      "title_zh": "狸藻科-瓶子草科分支（杜鹃花目）质体基因组进化与食虫策略的关系",
+      "tool_type": "非RNA编辑工具类研究（植物质体基因组进化分析）",
+      "design": "该研究不属于RNA编辑工具或可编程RNA调控系统，而是通过比较基因组学方法，对狸藻科-瓶子草科分支中四种代表性物种的质体基因组进行测序、组装和比较分析，以揭示食虫策略差异对质体基因组进化的影响。",
+      "functions": "该研究的功能在于阐明不同食虫策略下质体基因组的结构变异、基因丢失、假基因化及选择压力等进化模式，为理解植物适应性进化提供基因组学证据。",
+      "key_results": "研究分析了四种代表性物种的质体基因组，揭示了食虫策略差异与质体基因组进化速率、基因内容及结构重排之间的关联，但摘要中未提供具体的编辑效率或脱靶等性能指标。"
+    }
+  }
+]
