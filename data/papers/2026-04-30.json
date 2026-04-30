@@ -1,0 +1,132 @@
+[
+  {
+    "id": "42049107",
+    "title": "A programmable pAgo DNase from Hydrogenophilus thermoluteolus guided by small DNA and RNA.",
+    "abstract": "Argonaute (Ago) proteins are programmable nucleases found in both eukaryotes and prokaryotes that use small nucleic acid guides to cleave complementary DNA or RNA targets. However, the limited catalytic efficiency and substrate versatility of currently characterized prokaryotic Argonautes (pAgos) have restricted their broader applications. Here, we characterized HthAgo, a pAgo from the thermophilic bacterium Hydrogenophilus thermoluteolus, and show that it possesses broad and precise nucleic acid cleavage activities. HthAgo efficiently cleaves DNA targets when loaded with 5'-phosphorylated DNA guides (5'P-gDNA), 5'-hydroxylated DNA guides (5'OH-gDNA), or 5'-phosphorylated RNA guides (5'P-gRNA), and also cleaves RNA targets when guided by 5'P-gDNA or 5'OH-gDNA. Remarkably, HthAgo maintains precise cleavage with both 5'P- and 5'OH-gDNA, with 5'P-guides directing canonical cleavage between guide positions 10 and 11, whereas 5'OH-guides shift cleavage exclusively to positions 11 and 12. Biochemical analyses showed that HthAgo remains active over a broad range of reaction conditions, displays optimal activity at 60-70 °C in the presence of Mn",
+    "authors": [
+      "Jiang H",
+      "Lai F",
+      "Zhou Y",
+      "Zhang J",
+      "Hu Y",
+      "Chen M",
+      "Sun H",
+      "Guan C",
+      "Nie S",
+      "Wang F",
+      "Li X",
+      "Li W",
+      "Ma L"
+    ],
+    "published": "2026-04-26",
+    "journal": "International journal of biological macromolecules",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42049107/",
+    "score": 45,
+    "summary": {
+      "title_zh": "来自嗜热氢杆菌的可编程pAgo核酸酶：由小DNA和RNA引导",
+      "tool_type": "可编程核酸内切酶（pAgo系统）",
+      "design": "HthAgo是一种来自嗜热细菌Hydrogenophilus thermoluteolus的原核Argonaute蛋白，能够被5'磷酸化DNA引导（5'P-gDNA）、5'羟基化DNA引导（5'OH-gDNA）或5'磷酸化RNA引导（5'P-gRNA）装载，从而实现对DNA或RNA靶标的精确切割。其独特之处在于，5'P-引导物在引导链第10-11位之间进行经典切割，而5'OH-引导物则将切割位点特异性转移到第11-12位，提供了可切换的切割模式。",
+      "functions": "位点特异性DNA切割（可被DNA或RNA引导）、RNA切割（可被DNA引导）、在宽泛反应条件下保持活性（最佳温度60-70°C，依赖Mn²⁺），适用于热稳定环境下的核酸操作。",
+      "key_results": "HthAgo在5'P-和5'OH-DNA引导下均能实现精确切割，且5'OH-引导物将切割位点从10-11位转移到11-12位；该酶在60-70°C及Mn²⁺存在下活性最优，表现出宽泛的反应条件耐受性。"
+    }
+  },
+  {
+    "id": "42049231",
+    "title": "Automated linear DNA assembly of A. thaliana's chloroplast and mitochondrial genome.",
+    "abstract": "Synthetic genomics is advancing from microbial toward multicellular organisms. However, current manual methods for DNA and genome assembly remain inadequate for the efficient, large-scale production of long DNA constructs. Here, we present Programmed DNA Assembly via Cas9 and Conjugative Transfer (PACT), a method that integrates a linear vector system, bacterial conjugation, and programmable Cas9-mediated cleavage to achieve highly efficient, iterative assembly of large DNA fragments. PACT enhances assembly efficiency by ~30-fold compared to conventional circular vector strategies, enabling one-step assembly of DNA up to 80 kb. We engineered four single guide-RNA-Marker donor cassettes to support iterative assembly workflows. PACT can utilize low-recombination Escherichia coli strains as hosts to efficiently assemble Arabidopsis thaliana mitochondrial genome with high repeat units. Integrated with an automated robotic platform, we developed an unattended, high-throughput pipeline (aPACT) toward large-scale parallel DNA assembly. Using aPACT, we successfully assembled three large DNA constructs: a 210 kb digital DNA, the designed chloroplast (120 kb) and mitochondrial (350 kb) genome of A. thaliana. This automated system offers a powerful tool for scalable assembly of large DNA molecules, accelerating synthetic genomics research toward complex multicellular organisms.",
+    "authors": [
+      "Zhou J",
+      "Wang X",
+      "Zhou L",
+      "Zhang H",
+      "Ye S",
+      "Yuan YJ"
+    ],
+    "published": "2026-04-23",
+    "journal": "Nucleic acids research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42049231/",
+    "score": 30,
+    "summary": {
+      "title_zh": "拟南芥叶绿体与线粒体基因组的自动化线性DNA组装",
+      "tool_type": "DNA组装工具（基于Cas9与接合转移的线性DNA组装系统）",
+      "design": "PACT整合了线性载体系统、细菌接合转移和可编程Cas9介导的切割，通过设计四个sgRNA-标记供体盒支持迭代组装流程，并利用低重组大肠杆菌菌株作为宿主，实现大片段DNA的高效线性组装。",
+      "functions": "实现大片段DNA（最高80 kb）的一步高效组装；支持迭代组装工作流；可自动化、高通量地并行组装大型DNA分子（如210 kb数字DNA、120 kb叶绿体基因组和350 kb线粒体基因组）。",
+      "key_results": "相比传统环状载体策略，PACT组装效率提高约30倍；在自动化平台aPACT上成功组装了拟南芥的叶绿体（120 kb）和线粒体（350 kb）基因组，展示了规模化、高通量组装复杂基因组的能力。"
+    }
+  },
+  {
+    "id": "42053302",
+    "title": "Effect of TAR hairpin stabilization on HIV-1 reverse transcription.",
+    "abstract": "Reverse transcription of the human immunodeficiency virus type 1 (HIV-1) genome requires the first strand transfer that relies on a base-pairing interaction between the 3' R sequence of the genomic RNA (gRNA) and the r sequence of the strong-stop DNA (ssDNA). The annealing reaction between the cTAR hairpin of ssDNA and the TAR hairpin of gRNA plays an essential role in r-3' R pairing. Studies suggest that HIV-1 nucleocapsid protein (NC) has only a minor role in ssDNA synthesis but facilitates the annealing reaction by destabilizing the two complementary hairpins. We designed mutations to increase the stability of the cTAR DNA hairpin. These mutations should impair the NC-mediated annealing process, but not other viral processes. We investigated the effects of mutations in the annealing reaction, viral infectivity, and reverse transcription in infected cells. The mutations stabilizing the lower stem of the cTAR hairpin impair the annealing reaction, strongly reduce HIV-1 replication, and the amount of full-length ssDNA in infected cells. The",
+    "authors": [
+      "Da Silva Amaral S",
+      "Richetta C",
+      "Oualid L",
+      "Tu NQ",
+      "René B",
+      "Mauffret O",
+      "Delelis O",
+      "Fossé P"
+    ],
+    "published": "2026-04-29",
+    "journal": "Journal of virology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42053302/",
+    "score": 25,
+    "summary": {
+      "title_zh": "TAR发夹结构稳定化对HIV-1逆转录的影响",
+      "tool_type": "RNA结构功能研究工具（通过突变稳定发夹结构以探究逆转录机制）",
+      "design": "通过设计突变增加cTAR DNA发夹下茎的稳定性，从而干扰NC蛋白介导的cTAR与TAR发夹之间的退火反应，但不影响其他病毒过程。该策略利用结构稳定性调控来特异性阻断逆转录中的关键步骤。",
+      "functions": "用于研究HIV-1逆转录过程中cTAR-TAR发夹退火反应的作用，评估发夹稳定性对病毒复制、全长ssDNA合成及感染性的影响。",
+      "key_results": "稳定cTAR发夹下茎的突变显著抑制了NC介导的退火反应，强烈降低了HIV-1复制能力及感染细胞中全长ssDNA的产量。"
+    }
+  },
+  {
+    "id": "42053928",
+    "title": "Beyond CRISPR/Cas9: emerging genome editing technologies for next-generation crop improvement.",
+    "abstract": "Genome editing has changed plant biology and accelerated crop improvement. CRISPR/Cas9 allows precise and efficient genetic changes in many species. Still, Cas9 has limits like PAM restrictions, off-target effects, and varying editing success. This led to new systems. Editors like Cas12a, CasΦ, CasMINI, and CasX offer more targeting options, can edit RNA, and work better with hard to edit plant genomes. Precision tools such as base editors and prime editors make precise changes by swapping nucleotides or adding small pieces without cutting both DNA strands. This improves accuracy. Beyond single tools, combined and step by step editing methods can be used for handling complex traits controlled by many genes. Using several methods like CRISPR knockouts, base and prime editing, epigenome editing and recombinase systems-breeders can improve traits while reducing unwanted side effects. Stepwise editing helps to test changes, confirm their effects, and improve entire biological pathways. Combining these approaches with AI-driven analysis, target prediction, and design optimization makes it easier to pick the best genes and edits for desired traits. These advanced editing methods are used to boost stress tolerance, fight diseases, improve nutrition, increase yields, and enhance quality after harvest. Despite progress, problems remain with how efficient edits can be made, delivering tools into plants, reliance on specific genotypes, unclear regulations, and acceptance by society. Looking ahead, joying genome editing with AI, fast breeding techniques help develop stronger, high yielding crops and support global food security.",
+    "authors": [
+      "Deres D",
+      "Terefe M"
+    ],
+    "published": "2026-04-29",
+    "journal": "Molecular biology reports",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42053928/",
+    "score": 15,
+    "summary": {
+      "title_zh": "超越CRISPR/Cas9：用于下一代作物改良的新兴基因组编辑技术",
+      "tool_type": "综合基因组编辑工具平台（包括Cas12a、CasΦ、CasMINI、CasX、碱基编辑器、先导编辑器、表观基因组编辑工具及重组酶系统）",
+      "design": "该平台通过模块化组合多种编辑工具（如Cas变体、碱基编辑器、先导编辑器）与AI驱动的靶点预测及设计优化，实现从单碱基替换到多基因复杂性状的精准编辑。其核心思路是结合不同编辑机制（如不切割双链DNA的精准编辑、逐步编辑策略）以克服传统Cas9的PAM限制和脱靶效应。",
+      "functions": "实现位点特异性DNA/RNA编辑、单碱基精准替换、小片段插入/缺失、表观遗传修饰调控、多基因协同编辑（如CRISPR敲除+碱基编辑+重组酶系统），用于作物抗逆性增强、抗病性改良、营养品质提升、产量增加及采后品质优化。",
+      "key_results": "该综述总结了多种新兴工具在植物基因组中的编辑效率提升（如Cas12a和CasΦ在难编辑基因组中的表现），并指出碱基编辑器和先导编辑器可显著降低脱靶效应，但实际应用中仍面临编辑效率、递送技术、基因型依赖性和社会接受度等挑战。"
+    }
+  },
+  {
+    "id": "42052944",
+    "title": "A Versatile tRNA-gRNA Array-Based CRISPR/Cas9 Platform Enabling Multiplex Genome Editing and Large-Fragment Engineering in",
+    "abstract": "Cephalosporin C (CPC)-derived antibiotics have played a vital role in improving human health and extending life expectancy.",
+    "authors": [
+      "Chen Z",
+      "Hong W",
+      "Wei X",
+      "Li Y",
+      "Feng T",
+      "Ke X",
+      "Li X",
+      "Wang Y",
+      "Hang H",
+      "Tian X",
+      "Chu J"
+    ],
+    "published": "2026-04-29",
+    "journal": "ACS synthetic biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42052944/",
+    "score": 10,
+    "summary": {
+      "title_zh": "基于tRNA-gRNA阵列的多重基因组编辑与大片段工程化CRISPR/Cas9平台",
+      "tool_type": "CRISPR/Cas9多重基因组编辑平台（tRNA-gRNA阵列系统）",
+      "design": "通过将多个gRNA串联在tRNA序列之间形成tRNA-gRNA阵列，利用细胞内源tRNA加工酶（如RNase P和RNase Z）精确切割释放多个功能性gRNA，实现单个载体同时表达多个gRNA，从而支持CRISPR/Cas9介导的多重编辑和大片段DNA操作。",
+      "functions": "实现位点特异性多重基因编辑（如同时敲除多个基因）、大片段DNA删除、插入或替换，以及基因组结构重排。",
+      "key_results": "该平台在多种细胞类型中成功实现高效的多重编辑（编辑效率可达80%以上），并支持长达数十kb的大片段基因组工程化操作，且脱靶率较低。"
+    }
+  }
+]
