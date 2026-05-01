@@ -1,0 +1,136 @@
+[
+  {
+    "id": "42058893",
+    "title": "Combination treatment with synthetic gRNA/Cas12a and gRNA/Cas9 ribonucleoproteins disrupts HIV replication and expression.",
+    "abstract": "Eradication of HIV is challenging because of the integration of proviral DNA in reservoir cells. In this study, we evaluated the antiviral effects of synthetic gRNA/Cas12a and gRNA/Cas9 ribonucleoproteins (RNPs) in HIV-infected T cells and demonstrated their specificity and efficacy in disrupting HIV gene replication and expression. Notably, sequential or combinatorial treatments with gRNA4/Cas9 and/or gRNA5/Cas12a RNPs elicited the most effective antiviral effect, with significant reduction in integrated proviral DNA, HIV mRNA, early and late reverse transcripts, and p24 protein levels. DNA sequencing revealed a high rate of insertion and deletion or knockout frequencies at the HIV target genes. Gene alignment analysis showed a high level of conservation with both gRNA4/Cas9 and gRNA5/Cas12a target sequences across diverse regional HIV strains, indicating their potential to target different HIV strains across the world. This study indicates that synthetic gRNA4/Cas9 and gRNA5/Cas12a RNPs can be used for HIV gene disruption and viral eradication.",
+    "authors": [
+      "Banik P",
+      "Wang L",
+      "Schank M",
+      "Pyburn JS",
+      "Hill AC",
+      "Zhang Y",
+      "Zhao J",
+      "Orfield HK",
+      "Leshaodo TO",
+      "Lightner JW",
+      "Wu XY",
+      "Ning S",
+      "El Gazzar M",
+      "Moorman JP",
+      "Yao ZQ"
+    ],
+    "published": "2026-05-15",
+    "journal": "iScience",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42058893/",
+    "score": 55,
+    "summary": {
+      "title_zh": "合成gRNA/Cas12a与gRNA/Cas9核糖核蛋白联合治疗破坏HIV复制与表达",
+      "tool_type": "CRISPR基因编辑工具（Cas9和Cas12a核糖核蛋白复合物）",
+      "design": "将合成导向RNA（gRNA）分别与Cas9或Cas12a蛋白组装成核糖核蛋白（RNP），通过电转或递送进入HIV感染的T细胞；采用顺序或组合方式使用靶向HIV不同区域的gRNA4/Cas9和gRNA5/Cas12a RNP，实现多位点协同切割。",
+      "functions": "位点特异性切割HIV前病毒DNA，导致插入/缺失突变（indels）或基因敲除；显著降低整合的前病毒DNA、HIV mRNA、早期和晚期逆转录产物以及p24蛋白水平，从而抑制HIV复制与表达。",
+      "key_results": "gRNA4/Cas9与gRNA5/Cas12a RNP的顺序或联合处理展现出最强的抗病毒效果，在HIV靶基因中检测到高频率的插入/缺失突变；靶序列在不同区域HIV毒株中高度保守，提示该工具具有广谱抗HIV潜力。"
+    }
+  },
+  {
+    "id": "42059198",
+    "title": "Operating CRISPR/Cas12a in a complex nucleic acid sequence background.",
+    "abstract": "Since their discovery, CRISPR-Cas systems have been widely applied in areas ranging from genome editing to biosensing, owing to their specific, RNA-guided target recognition. Their performance in complex biological environments has been extensively studied, particularly to optimize guide RNA (gRNA) design and minimize off-target cleavage. Here, we focus on the kinetic inhibition of the interaction between Cas12a-a Class 2, Type V effector-and its target, caused by interference from non-cognate background nucleic acids. This effect is particularly relevant for sensing applications in complex mixtures or cellular contexts, where genome- and transcriptome-derived sequences may impede CRISPR-Cas activity. Using in vitro assays under defined conditions, we systematically examine the influence of background single-stranded RNA and double-stranded DNA (dsDNA) on reaction kinetics. We find that both the purine-to-pyrimidine ratio and the GC content of the gRNA seed region significantly affect kinetic inhibition by background polynucleotides. gRNAs with low GC content and a high purine fraction in the seed region were least affected by background sequences. A gRNA with high uracil content in the seed region exhibited particularly strong inhibition in the presence of a dsDNA background. Experiments with dCas12a-based gene activation in living cells indicate that our in vitro findings may also be relevant for in vivo applications.",
+    "authors": [
+      "Hellmer H",
+      "Mayer T",
+      "Bauersachs L",
+      "Simmel FC"
+    ],
+    "published": "2026-04-23",
+    "journal": "Nucleic acids research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42059198/",
+    "score": 45,
+    "summary": {
+      "title_zh": "在复杂核酸序列背景下操作CRISPR/Cas12a系统",
+      "tool_type": "CRISPR-Cas12a效应器（Class 2, Type V）的动力学调控工具/平台",
+      "design": "该研究聚焦于Cas12a与靶标相互作用的动力学抑制效应，系统分析了非同源背景核酸（单链RNA和双链DNA）对反应动力学的影响。通过调控gRNA种子区的嘌呤/嘧啶比例和GC含量，优化了Cas12a在复杂核酸背景下的靶向识别效率。",
+      "functions": "该工具可用于优化CRISPR/Cas12a在复杂生物环境（如细胞裂解液、临床样本）中的传感应用，提高位点特异性识别效率，减少背景核酸干扰，并适用于dCas12a介导的基因激活调控。",
+      "key_results": "体外实验表明，gRNA种子区低GC含量和高嘌呤比例时受背景序列影响最小；高尿嘧啶含量的gRNA在双链DNA背景下表现出显著抑制。活细胞dCas12a基因激活实验验证了体外发现与体内应用的相关性。"
+    }
+  },
+  {
+    "id": "42059627",
+    "title": "CasCADE: Cas",
+    "abstract": "The adaptation of CRISPR technologies for molecular detection marks a significant advancement in the field of biosurveillance and infectious disease response. CRISPR-based detection systems offer superior specificity and sensitivity compared to traditional PCR methods by directly binding and cleaving target DNA or RNA sequences, thus signaling the presence of specific pathogens. These advantages include the elimination of non-specific amplification and the reduction of required genetic material, leading to faster time to results without the need for extensive amplification cycling. However, the efficacy of CRISPR technologies heavily depends on the design of specific guide RNA (gRNA) sequences tailored for each genomic target, a process that can be intricate and time-consuming. We present Cas-CRISPR Automated Design and Evaluation (CasCADE), a state-of-the-art gRNA design software platform with a high degree of flexibility and modularity. CasCADE incorporates k-mer set operations to reduce time to answer for large data inputs when compared to computationally costly multiple sequence alignment methodologies and uses an agnostic whole genome approach to maximize gRNA discovery. CasCADE can be scaled efficiently to problems of any input sequence size and can be used for design, candidate evaluation, or both, depending on user need. This work describes our software pipeline Cas-CRISPR Automated Design and Evaluation (CasCADE) that allows for",
+    "authors": [
+      "Price C",
+      "Lucas JL",
+      "Davis P",
+      "Smith C",
+      "Jarvis E",
+      "Fiore J",
+      "Russell JA",
+      "Winegar R"
+    ],
+    "published": "2026-04-30",
+    "journal": "Microbiology spectrum",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42059627/",
+    "score": 35,
+    "summary": {
+      "title_zh": "CasCADE：用于CRISPR检测的自动化gRNA设计与评估软件平台",
+      "tool_type": "CRISPR检测系统的gRNA设计软件平台",
+      "design": "CasCADE采用k-mer集合运算替代计算成本高的多序列比对方法，以加速大规模输入数据的处理；同时采用无偏的全基因组方法最大化gRNA发现，并支持设计、候选评估或两者结合，具有高度灵活性和模块化。",
+      "functions": "该平台可用于快速设计针对任意基因组靶标的特异性gRNA序列，评估候选gRNA的效能，并支持从任意输入序列规模的问题中高效扩展，适用于病原体检测等分子诊断场景。",
+      "key_results": "CasCADE通过k-mer集合运算显著减少了大数据输入的处理时间，并采用全基因组方法提高了gRNA发现的覆盖度，但摘要中未提供具体的编辑效率或脱靶率等定量性能指标。"
+    }
+  },
+  {
+    "id": "42056872",
+    "title": "Comprehensive analyses of different putative ploidy levels in organelle genomes of an important medicinal plant Polygonatum kingianum Collett & Hemsl.",
+    "abstract": "Polygonatum kingianum, a key species in traditional Chinese medicine, is increasingly valued for its medicinal and nutritional properties. However, wild resources are declining due to over-exploitation, necessitating genomic studies for conservation. Flow cytometry analysis based on genome size revealed the presence of both putative diploid and tetraploid P. kingianum. By further integrating sequencing data from both Illumina and Oxford Nanopore Technologies (ONT), the organelle genomes were assembled. While the chloroplast genomes of different putative ploidy levels of P. kingianum were highly conserved in structure and features, the mitogenome of putative tetraploid P. kingianum consisted of two chromosomes, whereas that of putative diploid P. kingianum contained only one. Mitochondrial gene annotation showed that putative tetraploid P. kingianum possesses one additional copy each of the nad3 and nad5 genes compared to the putative diploid P. kingianum. Analyses of repetitive sequences indicated that, although no obvious correlation was observed between tandem repeats or dispersed repeats and different putative ploidy levels in the chloroplast genomes or between tandem repeats and different putative ploidy levels in the mitogenomes, simple sequence repeats in the organelle genomes correlated with ploidy variation of P. kingianum. Investigation of RNA editing sites revealed ploidy-dependent variations in the cox2 and nad3 genes of the mitogenomes across different ploidy levels of P. kingianum, suggesting that differences in editing sites may be linked to the adaptability of the different ploidies. Phylogenetic analyses based on mitochondrial genes and nucleotide substitution rate analysis showed no significant differences or distinct variations among different ploidy levels of P. kingianum, supporting that the morphologically highly variable P. kingianum comprises only a single species. In this study, we successfully assembled the organelle genomes of P. kingianum with different putative ploidy levels and conducted comparative genomic analyses. We found that the mitogenomes of P. kingianum are structurally complex and variable, playing crucial roles in evolution and adaptation. This study not only enhances our understanding of the organelle genome characteristics of different putative ploidy levels within the same species, but also lays the foundation for the subsequent development and utilization of the medicinal value of Polygonatum.",
+    "authors": [
+      "Zhao J",
+      "Chen ZH",
+      "Zhang MX",
+      "Wang LH",
+      "Yang XY",
+      "Wang JG",
+      "Zhu YY",
+      "Li XY",
+      "Zhao Y"
+    ],
+    "published": "2026-04-29",
+    "journal": "BMC plant biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42056872/",
+    "score": 15,
+    "summary": {
+      "title_zh": "重要药用植物滇黄精不同推定倍性水平细胞器基因组的综合分析",
+      "tool_type": "细胞器基因组组装与比较分析工具（非RNA编辑工具，而是基于测序数据的基因组分析平台）",
+      "design": "该研究整合Illumina和Oxford Nanopore Technologies（ONT）测序数据，组装了滇黄精不同推定倍性（二倍体和四倍体）的叶绿体基因组和线粒体基因组。通过比较基因组结构、重复序列、RNA编辑位点及系统发育分析，揭示倍性相关的基因组变异。",
+      "functions": "实现细胞器基因组的完整组装与注释；比较不同倍性下叶绿体与线粒体基因组的结构差异（如线粒体染色体数目、基因拷贝数）；分析重复序列（SSR）与倍性的关联；鉴定RNA编辑位点的倍性依赖性变化；进行系统发育与核苷酸替代率分析以支持物种界定。",
+      "key_results": "四倍体滇黄精线粒体基因组由两条染色体组成，而二倍体仅有一条；四倍体线粒体多出nad3和nad5基因各一个额外拷贝；cox2和nad3基因的RNA编辑位点存在倍性依赖性差异，可能与适应性相关；系统发育分析支持滇黄精为单一物种。"
+    }
+  },
+  {
+    "id": "42056870",
+    "title": "Complete mitochondrial genome assembly and analysis of Astragalus (Papilionoideae: Fabaceae) species revealed its RNA editing and phylogenetic implications.",
+    "abstract": "Astragalus (Fabaceae), the largest genus of flowering plants with its phytogeographic center in Southwest Asia, is ecologically and medicinally vital, as high-quality forage and a source of traditional medicine. However, its ambiguous morphological traits hinder taxonomic clarity, prompting increased reliance on molecular phylogenetic approaches to resolve relationships. In the research, we assembled and annotated mitochondrial genomes of three Astragalus species, integrating them with two published mitochondrial genomes for comparative analysis. Newly sequenced genomes (269,019-364,431 bp) encoded 55-59 genes (31-34 protein-coding, 22-25 tRNAs, 3 rRNAs). Comparative analysis identified four genes (cox2, rps4, atp8, rps12) with high nucleotide variability, establishing them as reliable molecular markers for Astragalus phylogenetics, critical for future taxonomic and evolutionary studies. Mitochondrial plastid sequences were widespread across all five species, with petG and trnW-CCA conserved as chloroplast-derived fragments. Phylogenetic trees based on concatenated mitochondrial genes revealed Astragalus species shared close affinities with A. cicer and A.laxmanii, refining subgeneric classification frameworks. Our study confirms mitochondrial genomes as powerful tools for resolving relationships in morphologically cryptic genera. The novel genomic resources, including repeats and RNA editing sites, and validated markers, lay a foundation for future research into Astragalus biogeography, adaptive evolution, and medicinal resource development-thereby, enhancing the genus' ecological and economic value.",
+    "authors": [
+      "Tian C",
+      "Yang Y",
+      "Gong W",
+      "Liu L",
+      "Li Z",
+      "Feng Y",
+      "Niu J",
+      "Wu Z"
+    ],
+    "published": "2026-04-29",
+    "journal": "BMC plant biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42056870/",
+    "score": 15,
+    "summary": {
+      "title_zh": "黄芪属（蝶形花亚科：豆科）物种完整线粒体基因组组装与分析揭示其RNA编辑及系统发育意义",
+      "tool_type": "线粒体基因组组装与比较分析平台（含RNA编辑位点鉴定）",
+      "design": "通过高通量测序组装三种黄芪属植物的完整线粒体基因组，并与已发表的两种基因组进行整合比较；基于序列比对和变异分析筛选高变异基因作为分子标记，同时鉴定RNA编辑位点及线粒体中的质体插入序列。",
+      "functions": "提供线粒体基因组序列资源；鉴定高变异基因（cox2, rps4, atp8, rps12）作为系统发育分子标记；检测RNA编辑位点；揭示线粒体-质体基因转移事件；构建系统发育树以厘清物种亲缘关系。",
+      "key_results": "新组装的线粒体基因组大小为269,019–364,431 bp，编码55–59个基因；四个高变异基因被确认为可靠的系统发育标记；系统发育树表明黄芪属物种与A. cicer和A. laxmanii亲缘关系最近，为亚属分类框架提供了修正依据。"
+    }
+  }
+]
