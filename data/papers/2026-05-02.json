@@ -1,0 +1,29 @@
+[
+  {
+    "id": "42061934",
+    "title": "Characterization of Trachinotus blochii mstnb gene and construction of cognate gRNA vector.",
+    "abstract": "Skeletal muscle development is negatively regulated by the myostatin b (mstnb) gene in finfishes. CRISPR-Cas9-mediated knockout of mstnb has been used to develop fish strains with increased muscle mass. Trachinotus blochii (Silver Pompano), a high-value, moderately sized (~500 g), and cultivable marine finfish, is a promising candidate for mstnb knockout using CRISPR/Cas9. However, limited studies exist on the characterization of T. blochii mstnb and no CRISPR-based knockout studies have been reported in this species. This study aimed to partially characterize the mstnb gene of T. blochii and develop a CRISPR/Cas9-based guide RNA (gRNA) expression vector for its knockout. The T. blochii mstnb sequence available in NCBI was used as a reference to design exon- and intron-specific primers for PCR amplification and sequencing. The sequence revealed three exons and two introns. A predicted 1131 bp open reading frame encodes a 376 amino acid protein containing conserved domains typical of the TGF-β family which includes an N-terminal signal peptide, a propeptide region, a conserved RARR cleavage motif, and a C-terminal GF domain containing nine conserved cysteine residues. Secondary and 3D structure predictions confirmed the protein's functional integrity. Sequence analysis revealed novel putative polymorphisms, including SNPs and a (CA)n microsatellite. Phylogenetic analysis clustered T. blochii with related Trachinotus and other Carangiformes species. A gRNA targeting exon 1 was designed using CRISPOR and successfully cloned into expression vectors. This novel sequence information can aid population-level studies and genetic marker discovery. The constructed gRNA vectors can facilitate CRISPR/Cas9-mediated mstnb knockout in T. blochii to study gene function and develop a fleshy strain.",
+    "authors": [
+      "Gunasekaran H",
+      "Najwa KV",
+      "Nidarshan NC",
+      "Porkodi M",
+      "Singh LS",
+      "Rasal KD",
+      "Brahmane MP",
+      "Goswami M",
+      "Sonwane AA"
+    ],
+    "published": "2026-04-29",
+    "journal": "International journal of biological macromolecules",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42061934/",
+    "score": 25,
+    "summary": {
+      "title_zh": "布氏鲳鲹mstnb基因的鉴定及同源gRNA载体的构建",
+      "tool_type": "CRISPR/Cas9基因敲除工具（gRNA表达载体）",
+      "design": "基于NCBI中布氏鲳鲹mstnb基因序列，设计外显子和内含子特异性引物进行PCR扩增和测序，确认基因结构后，利用CRISPOR软件设计靶向外显子1的gRNA，并将其克隆至表达载体中，构建可用于CRISPR/Cas9介导的基因敲除的gRNA载体。",
+      "functions": "实现布氏鲳鲹mstnb基因的位点特异性敲除，用于研究该基因对肌肉发育的负调控功能，并有望培育出肌肉量增加的优质品系。",
+      "key_results": "成功克隆并鉴定了布氏鲳鲹mstnb基因（含3个外显子、2个内含子及TGF-β家族保守结构域），并构建了靶向外显子1的gRNA表达载体，为后续该物种的CRISPR/Cas9基因敲除实验提供了关键工具。"
+    }
+  }
+]
