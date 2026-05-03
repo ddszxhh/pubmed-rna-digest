@@ -1,0 +1,122 @@
+[
+  {
+    "id": "42067668",
+    "title": "DNA-guided CRISPR-Cas12a effectors for programmable RNA recognition and cleavage.",
+    "abstract": "CRISPR-Cas effectors typically rely on RNA guides to recognize target sequences. In Cas12a, the protospacer adjacent motif on DNA engages conserved protein residues, triggering target binding and nuclease activation. Here we reprogram Cas12a into a DNA-guided, RNA-targeting effector. Exploiting protospacer-adjacent motif-dependent interaction, we engineer synthetic CRISPR DNA that engages Cas12a to form a functional deoxyribonucleoprotein complex, while repurposing solely RNA as the programmable target. Structural, biophysical and biochemical analyses reveal the molecular basis of this DNA-guided, RNA-targeting configuration and support an activation pathway distinct from that of canonical RNA-guided systems. DNA-guided Cas12a enables direct RNA detection and efficient intracellular RNA knockdown, establishing a modular activation architecture for CRISPR-Cas12a and expanding the design space for programmable RNA manipulation.",
+    "authors": [
+      "Wu X",
+      "Lam WH",
+      "Zhao Z",
+      "Cao Y",
+      "Lin H",
+      "Feng X",
+      "Zhai Y",
+      "Hsing IM"
+    ],
+    "published": "2026-05-01",
+    "journal": "Nature biotechnology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42067668/",
+    "score": 90,
+    "summary": {
+      "title_zh": "DNA引导的CRISPR-Cas12a效应器用于可编程RNA识别与切割",
+      "tool_type": "DNA引导的CRISPR-Cas12a RNA靶向系统（可编程RNA识别与切割工具）",
+      "design": "利用Cas12a对DNA原型间隔区相邻基序（PAM）的依赖性相互作用，设计合成CRISPR DNA（sgDNA）替代传统RNA引导链，与Cas12a形成功能性脱氧核糖核蛋白复合物，同时将RNA重新定位为可编程靶标，实现DNA引导的RNA识别与切割。",
+      "functions": "直接检测RNA分子；实现细胞内高效RNA敲低；建立模块化的CRISPR-Cas12a激活架构，扩展可编程RNA调控的设计空间。",
+      "key_results": "通过结构、生物物理和生化分析揭示了DNA引导RNA靶向构型的分子基础，并证实其激活途径与经典RNA引导系统不同；在细胞内实现了高效的RNA敲低，且支持直接RNA检测。"
+    }
+  },
+  {
+    "id": "42066582",
+    "title": "RNA editing of pathogenic variants causing inherited retinal diseases using endogenous ADAR-current and future perspectives.",
+    "abstract": "Inherited retinal diseases (IRDs) are a clinically and genetically heterogeneous group of disorders affecting millions worldwide, with limited therapeutic options for the majority of patients. Recent advances in RNA editing-particularly adenosine-to-inosine (A-to-I) editing mediated by adenosine deaminases acting on RNA (ADAR)- offer a promising approach for correcting pathogenic variants at the RNA level without altering the genome. This review presents a comprehensive overview of the molecular basis of ADAR-mediated RNA editing, its natural occurrence in retinal tissues, and the growing array of strategies that harness endogenous ADAR enzymes for site-directed RNA editing (SDRE). We discuss design principles and optimization strategies for guide RNAs (gRNAs), including linear, circular, and chemically modified formats such as LEAPER, RESTORE, CLUSTER, CadRNAs, and AIMers. Additionally, we explore high-throughput screening systems for guide selection, cellular models for assessing RNA editing efficiency, and current in vitro and in vivo approaches targeting IRD pathogenic variants. Finally, we highlight the translational potential of endogenous and exogenous ADAR-based RNA editing, emphasizing its relevance as a precision medicine strategy for IRDs and beyond.",
+    "authors": [
+      "Salameh M",
+      "Schneider N",
+      "Valensi J",
+      "Sarma AS",
+      "Levanon EY",
+      "Ben-Aroya S",
+      "Sharon D"
+    ],
+    "published": "2026-04-30",
+    "journal": "Molecular aspects of medicine",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42066582/",
+    "score": 85,
+    "summary": {
+      "title_zh": "利用内源性ADAR对导致遗传性视网膜疾病的致病突变进行RNA编辑：现状与未来展望",
+      "tool_type": "ADAR介导的定点RNA编辑（SDRE）工具系统（包括LEAPER、RESTORE、CLUSTER、CadRNAs、AIMers等）",
+      "design": "通过设计引导RNA（gRNA）招募内源性ADAR酶，实现腺苷到肌苷（A-to-I）的定点编辑。gRNA可采用线性、环状或化学修饰形式（如LEAPER、RESTORE等），通过碱基互补配对将ADAR招募至目标位点，从而在不改变基因组的前提下纠正致病突变。",
+      "functions": "位点特异性RNA编辑（A-to-I）、纠正遗传性视网膜疾病（IRD）致病突变、作为精准医学策略用于RNA水平的基因修复。",
+      "key_results": "综述总结了多种gRNA设计策略（如LEAPER、RESTORE等）在体外和体内模型中针对IRD致病突变的编辑效率，并讨论了高通量筛选系统和细胞模型用于评估编辑性能，但未提供具体数值结果。"
+    }
+  },
+  {
+    "id": "42067429",
+    "title": "RNA sensors and actuators for dynamic cellular regulation.",
+    "abstract": "RNA naturally regulates many cellular processes, yet the engineering of RNA for use in synthetic cellular control schemes lags behind protein-based systems. Recent advancements in synthetic biology, investment in RNA therapeutics, and a better understanding of RNA structural dynamics have driven the development of novel RNA sensors and actuators. The genetic information encoded within RNA enables facile sensing and interactions with other nucleic acids, while its dynamic structure facilitates binding to a broad array of small-molecule and protein ligands. RNA can be engineered to sense these diverse inputs and transduce signals to regulate cellular activity on the transcriptional, translational, and post-translational levels to enhance microbial biosynthesis and create targeted gene therapies.",
+    "authors": [
+      "Stohr AM",
+      "Hansen H",
+      "Ma D",
+      "Blenner M",
+      "Chen W"
+    ],
+    "published": "2026-04-30",
+    "journal": "Trends in biotechnology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42067429/",
+    "score": 55,
+    "summary": {
+      "title_zh": "用于动态细胞调控的RNA传感器与执行器",
+      "tool_type": "RNA传感器与执行器（可编程RNA调控系统）",
+      "design": "利用RNA的遗传编码特性实现与核酸的简便传感和相互作用，同时利用其动态结构结合小分子和蛋白质配体，通过工程化设计将输入信号（如核酸、小分子、蛋白质）转导为转录、翻译或翻译后水平的调控输出。",
+      "functions": "实现细胞活动的动态调控，包括转录水平调控、翻译水平调控（如翻译抑制/激活）以及翻译后水平调控；可用于增强微生物生物合成和创建靶向基因治疗。",
+      "key_results": "本文为综述性论文，未提供具体实验数据；但指出基于RNA的传感器和执行器在合成生物学和RNA治疗领域取得了显著进展，能够实现比蛋白质系统更灵活的细胞调控。"
+    }
+  },
+  {
+    "id": "42067284",
+    "title": "Performance enhancement of CRISPR-Cas system based on improved guide RNA: a review.",
+    "abstract": "CRISPR-Cas technology has emerged as a transformative tool with widespread applications in gene editing and biosensing research; nevertheless, it is plagued by a suite of performance-related bottlenecks, including suboptimal targeting efficiency, undesirable off-target effects, insufficient sensitivity and recognition specificity, restricted target scope, limited multiplexing capacity, incompatible reaction systems, and compromised stability. As gRNA optimization has emerged as a core strategy to address these bottlenecks, there is an urgent need to consolidate recent breakthroughs in this rapidly advancing field. Existing literature lacks a comprehensive, focused synthesis of how gRNA optimization mitigates these key limitations, alongside an analysis of current challenges and future directions. Herein, this review comprehensively summarizes recent breakthroughs in augmenting CRISPR-Cas system performance through guide RNA (gRNA) optimization, and further dissects the current challenges, future prospects, and promising research directions in this rapidly advancing field. It is timely to guide researchers in overcoming CRISPR-Cas performance barriers and accelerating its applications in gene editing and biosensing.",
+    "authors": [
+      "Zhang X",
+      "Tian C",
+      "Wang M",
+      "Jia H",
+      "Li X",
+      "Tian G"
+    ],
+    "published": "2026-07-08",
+    "journal": "Analytica chimica acta",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42067284/",
+    "score": 45,
+    "summary": {
+      "title_zh": "基于改进引导RNA的CRISPR-Cas系统性能增强：综述",
+      "tool_type": "CRISPR-Cas系统（通过gRNA优化提升性能的通用平台）",
+      "design": "本综述系统总结了通过优化引导RNA（gRNA）的结构、长度、化学修饰及设计策略来提升CRISPR-Cas系统性能的多种方法。核心思路是改进gRNA与靶标的互补配对效率、稳定性及特异性，从而克服靶向效率低、脱靶效应、灵敏度不足等瓶颈。",
+      "functions": "该工具平台可实现基因编辑（如靶向切割、碱基编辑）和生物传感（如核酸检测与追踪）功能，通过gRNA优化可提升靶向效率、特异性、灵敏度、多重编辑能力及系统稳定性。",
+      "key_results": "综述指出，gRNA优化是克服CRISPR-Cas系统性能瓶颈的核心策略，但未提供具体实验数据；强调现有文献缺乏对gRNA优化如何缓解关键限制的综合分析，并指出了当前挑战与未来方向。"
+    }
+  },
+  {
+    "id": "42068063",
+    "title": "Optimizing photoactivation of PA-mCherry for optical pooled CRISPR screens.",
+    "abstract": "Optical pooled CRISPR screens have become an attractive tool for the rapid identification of genes involved in biological processes. In such screens, mixed populations of cells, each with a single gene knocked out, are screened by microscopy for phenotypes of interest. Identified hit cells can then be tagged by photoactivation of a co-expressed marker, such as PA-mCherry, and subsequently isolated by FACS to identify the responsible guide RNA by next-generation sequencing. Photoactivation is typically performed by selective irradiation of cells with UV light, using either a digital mirror device (DMD), an external fixed UV laser, or, conveniently, by using the 405 nm laser line present in most confocal scanning microscopes. In this study, the latter approach is optimized for PA-mCherry, a bright red phototag used by us and others in optical pooled screens. We find that although normal scanning with intense 405 nm light can rapidly activate PA-mCherry, it also leads to rapid photobleaching. Instead, much higher cellular brightness is achieved by limiting intensity and pixel dwell time during scanning, as well as by slightly defocusing the laser. These results should help optimize cell tagging for genotype-phenotype mapping in optical pooled screens, as well as for other applications.",
+    "authors": [
+      "Mukherjee S",
+      "Zanetti G",
+      "van den Broek B",
+      "Jalink K"
+    ],
+    "published": "2026-05-01",
+    "journal": "FEBS open bio",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42068063/",
+    "score": 15,
+    "summary": {
+      "title_zh": "优化PA-mCherry的光激活用于光学混合CRISPR筛选",
+      "tool_type": "光学标记与细胞分选工具（光激活荧光蛋白标记系统）",
+      "design": "通过优化共聚焦显微镜中405 nm激光的扫描参数（降低强度、缩短像素驻留时间、轻微散焦），在保持PA-mCherry有效光激活的同时减少光漂白，从而提升细胞标记亮度。",
+      "functions": "用于光学混合CRISPR筛选中对表型阳性细胞进行光激活标记，随后通过FACS分选和测序鉴定靶向gRNA，实现基因型-表型关联分析。",
+      "key_results": "与高强度快速扫描相比，采用低强度、短驻留时间并轻微散焦的扫描方式可显著提高PA-mCherry激活后的细胞亮度，同时减少光漂白，优化了细胞标记效率。"
+    }
+  }
+]
