@@ -1,0 +1,26 @@
+[
+  {
+    "id": "42068556",
+    "title": "Cross-Strain Transferability of CRISPRi Systems and Design Rules from Laboratory to Clinical",
+    "abstract": "CRISPR interference (CRISPRi) has emerged as a versatile approach for targeted gene repression in many organisms, including microbes and bacteria, due to the simple design of sequence-specific transcriptional silencing of gene expression. However, the strain-specific effects on repression efficiency and the host when translating a CRISPRi system from a laboratory strain to nonmodel strains are not well understood, yet they can present important limitations to its use. Here, we investigated the repression efficiency and toxicity of three CRISPRi systems (one dCas9 and two dCas12a variants) across four different",
+    "authors": [
+      "Ban H",
+      "Rondthaler SN",
+      "Lebovich M",
+      "Lora MA",
+      "Ugbesia B",
+      "Andrews LB"
+    ],
+    "published": "2026-05-02",
+    "journal": "ACS synthetic biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42068556/",
+    "score": 35,
+    "summary": {
+      "title_zh": "CRISPRi系统的跨菌株可转移性及从实验室到临床的设计规则",
+      "tool_type": "CRISPR干扰（CRISPRi）系统（包含dCas9和dCas12a变体）",
+      "design": "通过比较三种CRISPRi系统（一种dCas9和两种dCas12a变体）在不同细菌菌株中的表现，系统评估了靶向基因沉默的效率与宿主毒性，旨在建立从实验室菌株到非模式/临床菌株的通用设计规则。",
+      "functions": "实现跨菌株的序列特异性转录抑制（基因沉默），并揭示影响抑制效率和宿主适应性的关键设计参数（如PAM序列、gRNA设计、系统毒性）。",
+      "key_results": "研究发现不同CRISPRi系统在实验室菌株与非模式菌株间的抑制效率和毒性存在显著差异，为优化系统跨菌株可转移性提供了设计规则（如选择低毒性的dCas12a变体可提高在临床菌株中的适用性）。"
+    }
+  }
+]
