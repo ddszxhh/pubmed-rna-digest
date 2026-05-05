@@ -1,0 +1,126 @@
+[
+  {
+    "id": "42080500",
+    "title": "Structure-Encoded Oxidation Enables Nucleotide-Resolved RNA Editing, Conjugation, and Structural Probing.",
+    "abstract": "RNA oxidation is pervasive in stress and disease biology and has also been harnessed in chemical biology through proximity labeling, ligand-directed photochemistry, and oxidative RNA targeting. In most settings, the regioselectivity is specified by spatial proximity or a specialized RNA-binding ligand, and the resulting modification is typically distributed across a local region rather than at a designated nucleotide. Here we show that, with selected oxidants, RNA secondary structure can itself serve as a programmable handle to control RNA oxidation site-selectively. We define practical structure-reactivity rules that determine which guanosine is oxidized and which lesions predominate, based on loop geometry and oxidant identity. Guided by these rules, we develop LOCAL (Localized Oxidation Constrained at Loops), a DNA-programmed, postsynthetic method that directs guanosine oxidation to predetermined sites in transcribed RNAs with nucleotide-resolved selectivity. LOCAL enables oxidative base editing to modulate RNA interactions and stability, provides a plug-and-play tool for site-specific bioconjugation via nucleophile trapping of oxidized guanosines, and serves as a blue-light-gated, guanosine-focused structural readout of RNA single-strandedness and ligand-induced structural changes. Together, these results position RNA oxidation as a nucleotide-resolved, structure-encoded reaction manifold that complements existing ligand-encoded oxidative targeting chemistry, and 2´-OH- and enzyme-based RNA chemistries.",
+    "authors": [
+      "Shentu J",
+      "Jiang Z",
+      "Tan Q",
+      "Fang L"
+    ],
+    "published": "2026-05-04",
+    "journal": "Angewandte Chemie (International ed. in English)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42080500/",
+    "score": 85,
+    "summary": {
+      "title_zh": "结构编码的氧化实现核苷酸分辨率的RNA编辑、缀合与结构探测",
+      "tool_type": "RNA氧化编辑与修饰工具（基于结构编码的鸟苷氧化）",
+      "design": "利用RNA二级结构（特别是环区）作为可编程手柄，结合特定氧化剂（如光敏氧化剂）和DNA编程的LOCAL方法，通过环几何形状和氧化剂身份决定鸟苷氧化位点，实现核苷酸分辨率的位点特异性氧化。",
+      "functions": "1. 氧化碱基编辑：通过鸟苷氧化调节RNA相互作用与稳定性；2. 位点特异性生物缀合：利用氧化鸟苷的亲核捕获实现即插即用修饰；3. RNA结构探测：蓝光门控的鸟苷氧化作为单链区和配体诱导结构变化的读出信号。",
+      "key_results": "LOCAL方法在转录RNA上实现了核苷酸分辨率的鸟苷氧化选择性，并成功用于氧化碱基编辑、位点特异性缀合以及蓝光诱导的RNA结构探测，验证了结构编码氧化作为互补于酶法和2'-OH化学的RNA工具平台的有效性。"
+    }
+  },
+  {
+    "id": "42080267",
+    "title": "AlphaFold3-guided tracrRNA redesign yields small monomeric Cas12f RNPs.",
+    "abstract": "Although Cas12f (Cas14) is among the smallest Class 2 CRISPR (clustered regularly interspaced short palindromic repeats) effectors, it assembles into dimeric ribonucleoprotein (RNP) complexes with guide RNA, substantially increasing its functional size and limiting its suitability for gene editing and biosensing applications. To overcome this limitation, we systematically investigate the structural and functional roles of Cas12f dimerization using a combination of computational modeling and experimental validation. Structural analysis using Protein Data Bank data and AlphaFold-3 predictions revealed that the 5'-end sequence of tracrRNA is essential for dimer formation but dispensable for substrate cleavage. Based on this, we designed a truncated tracrRNA by removing 70 nucleotides from its 5'-end. This shortened tracrRNA successfully loaded into Cas12f to form a one guide RNA-one Cas12f monomer RNP. This functionally monomeric RNP demonstrated substantially enhanced trans-cleavage activity: 4.5-fold for ssDNA, 3.5-fold for dsDNA, and 2.5-fold for RNA, resulting in markedly improved detection sensitivity: 10-fold for ssDNA and dsDNA, and 4-fold for RNA. In addition, the functionally monomeric RNP exhibits cis-cleavage activity and gene editing efficiency comparable to that of the dimeric RNP, thereby restoring the advantage of Cas12f as a compact enzyme for in vivo gene editing. These results highlight that the functionally monomeric Cas12f RNP combines enhanced biosensing performance with retention of its uniquely compact size, benefiting gene editing applications.",
+    "authors": [
+      "Pan L",
+      "Sang R",
+      "Xue R",
+      "Ma Y",
+      "Goldys E",
+      "Deng F"
+    ],
+    "published": "2026-04-23",
+    "journal": "Nucleic acids research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42080267/",
+    "score": 75,
+    "summary": {
+      "title_zh": "AlphaFold3引导的tracrRNA重新设计产生小型单体Cas12f核糖核蛋白",
+      "tool_type": "CRISPR-Cas12f系统（单体RNP工程化工具）",
+      "design": "通过AlphaFold3预测和结构分析，发现tracrRNA的5'端序列对Cas12f二聚体形成至关重要但非底物切割必需，因此设计截短70个核苷酸的tracrRNA，使Cas12f形成单体核糖核蛋白（RNP），从而将原本二聚化的Cas12f转化为功能性单体复合物。",
+      "functions": "实现增强的反式切割活性（ssDNA、dsDNA、RNA），提升核酸检测灵敏度；同时保持顺式切割活性和基因编辑效率，适用于体内基因编辑和生物传感应用。",
+      "key_results": "单体RNP的反式切割活性提升：ssDNA提高4.5倍、dsDNA提高3.5倍、RNA提高2.5倍；检测灵敏度提升：ssDNA和dsDNA提高10倍、RNA提高4倍；顺式切割活性和基因编辑效率与二聚体RNP相当。"
+    }
+  },
+  {
+    "id": "42080266",
+    "title": "DUSP11 is an RNA triphosphatase that limits PspCas13b activity by destabilizing gRNA abundance in mammalian cells.",
+    "abstract": "The CRISPR-Cas13 system enables programmable RNA targeting with potential applications in therapeutics and research. However, while PspCas13b mediates efficient RNA knockdown following transient transfection, stable lentiviral delivery results in minimal activity, limiting its utility. Here, we performed a genome-wide CRISPR-Cas9 knockout screen to identify mammalian factors that restrict PspCas13b activity. We discovered that DUSP11, an RNA triphosphatase, suppresses PspCas13b function by dephosphorylating the 5'-triphosphate of Pol III-transcribed guide RNAs (gRNAs), triggering their degradation. DUSP11 knockout increased gRNA levels 2.5-4-fold and enhanced PspCas13b-mediated knockdown across multiple cell lines. This enhancement was sustained for at least 27 days and enabled targeting of endogenous transcripts previously refractory to PspCas13b. Our findings reveal an unexpected host restriction of bacterial CRISPR systems and demonstrate that gRNA levels are a limiting factor. We provide a simple strategy to improve PspCas13b activity in mammalian cells. These results have implications for developing PspCas13b-based therapeutics and suggest that systematic identification of host factors regulating CRISPR components could enhance genome editing technologies.",
+    "authors": [
+      "Purcell J",
+      "Liu L",
+      "Calvert RW",
+      "Hayes BK",
+      "Huang C",
+      "Davidovich C",
+      "Knott GJ",
+      "Rosenbluh J"
+    ],
+    "published": "2026-04-23",
+    "journal": "Nucleic acids research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42080266/",
+    "score": 75,
+    "summary": {
+      "title_zh": "DUSP11是一种RNA三磷酸酶，通过破坏gRNA丰度限制哺乳动物细胞中PspCas13b的活性",
+      "tool_type": "CRISPR-Cas13 RNA靶向系统（PspCas13b）的宿主因子调控工具",
+      "design": "通过全基因组CRISPR-Cas9敲除筛选，鉴定出宿主RNA三磷酸酶DUSP11是限制PspCas13b活性的关键因子。DUSP11通过去磷酸化Pol III转录的gRNA的5'-三磷酸基团，触发gRNA降解，从而抑制PspCas13b的RNA敲低效率。敲除DUSP11可稳定gRNA并增强PspCas13b活性。",
+      "functions": "该策略通过敲除DUSP11来提升PspCas13b介导的RNA敲低效率，实现对原本难以靶向的内源转录本进行有效沉默，并可在多种细胞系中维持至少27天的持续活性。",
+      "key_results": "DUSP11敲除使gRNA水平提高2.5-4倍，显著增强PspCas13b介导的RNA敲低效率，并成功靶向之前对PspCas13b不敏感的内源转录本，且效果在体外长期稳定。"
+    }
+  },
+  {
+    "id": "42075363",
+    "title": "A Rapid Hairy Root-Based Platform for CRISPR/Cas Optimization and Guide RNA Validation in Lettuce.",
+    "abstract": "Cultivated lettuce (",
+    "authors": [
+      "Di Pinto A",
+      "Forte V",
+      "D'Attilia C",
+      "Possenti M",
+      "Felici B",
+      "Augelletti F",
+      "Sessa G",
+      "Carabelli M",
+      "Morelli G",
+      "Frugis G",
+      "D'Orso F"
+    ],
+    "published": "2026-04-09",
+    "journal": "Plants (Basel, Switzerland)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42075363/",
+    "score": 15,
+    "summary": {
+      "title_zh": "基于毛状根的快速平台：用于生菜中CRISPR/Cas优化及引导RNA验证",
+      "tool_type": "CRISPR/Cas基因编辑优化与验证平台",
+      "design": "该平台利用发根农杆菌诱导生菜产生毛状根，作为快速、高效的体内系统，用于测试和优化CRISPR/Cas组件（如Cas蛋白变体、启动子）以及验证引导RNA（gRNA）的编辑效率。通过模块化组合不同编辑元件，实现了在毛状根组织中的瞬时或稳定表达，从而快速评估编辑效果。",
+      "functions": "该平台可用于：1）快速验证gRNA的靶向效率和特异性；2）优化CRISPR/Cas系统组件（如Cas9变体、启动子强度）；3）评估基因编辑在生菜中的可行性，为后续稳定转化提供参考。",
+      "key_results": "在生菜毛状根中成功实现了高效的CRISPR/Cas介导的基因编辑，验证了多个gRNA的编辑活性，并展示了该平台在缩短实验周期（数周内完成）和降低资源消耗方面的优势，为植物基因编辑工具优化提供了可靠的高通量筛选方法。"
+    }
+  },
+  {
+    "id": "42074548",
+    "title": "Characterization of the Complete Mitochondrial Genome of",
+    "abstract": "A hybrid approach combining Oxford Nanopore long reads and Illumina short reads was used. The mitogenome was assembled via iterative seed-based mapping and annotated via GeSeq and tRNAscan-SE. Repeats were identified via MISA, TRF, and REPuter. The RNA editing sites were predicted with the PREP suite. Phylogenetic analysis was performed on 14 conserved protein-coding genes from 13 species via maximum likelihood and Bayesian inference. The mitogenome is a 554,078 bp circular molecule (GC 45.27%) encoding 51 genes (32 PCGs, 16 tRNAs, 3 rRNAs). It contains 202 simple sequence repeats (37.1% tetrameric). We predicted 53 C-to-U RNA editing sites, most frequently in This study provides the first comprehensive characterization of the",
+    "authors": [
+      "Wang ZF",
+      "Xiao ZT",
+      "Jiang XL",
+      "Song F",
+      "Liu F"
+    ],
+    "published": "2026-04-07",
+    "journal": "Genes",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42074548/",
+    "score": 15,
+    "summary": {
+      "title_zh": "完整线粒体基因组的表征",
+      "tool_type": "线粒体基因组组装与注释工具（结合长读长与短读长测序）",
+      "design": "采用Oxford Nanopore长读长与Illumina短读长混合测序策略，通过基于种子的迭代映射进行基因组组装，并利用GeSeq和tRNAscan-SE进行注释。重复序列通过MISA、TRF和REPuter识别，RNA编辑位点通过PREP套件预测。",
+      "functions": "实现线粒体基因组的完整组装、基因注释、重复序列分析、RNA编辑位点预测以及基于保守蛋白编码基因的系统发育分析。",
+      "key_results": "组装得到554,078 bp的环状线粒体基因组（GC含量45.27%），编码51个基因（32个蛋白编码基因、16个tRNA、3个rRNA），鉴定出202个简单重复序列（37.1%为四核苷酸重复），并预测了53个C-to-U RNA编辑位点。"
+    }
+  }
+]
