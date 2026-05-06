@@ -1,0 +1,74 @@
+[
+  {
+    "id": "42082473",
+    "title": "Dynamic monomer-dimer transition regulates DNA-guided RNA cleavage by MbpAgo.",
+    "abstract": "Prokaryotic Argonaute proteins (pAgos) are nucleic acid-guided endonucleases with diverse functions. Mucilaginibacter paludis Argonaute (MbpAgo) is unusual in using guide DNA (gDNA) to cleave target RNA (tgRNA), but the structural basis for this activity has been unclear. Here we present cryo-electron microscopy structures of MbpAgo in apo, binary, and ternary states at up to 2.55 Å resolution. The apo structure reveals a conserved bilobal scaffold with unique insertions in the PIWI and MID domains that stabilize the catalytic conformation. Upon gDNA binding, MbpAgo forms a dimer stabilized by multiple protein-protein interfaces and an auxiliary nucleic acid-like density bridging the PAZ-MID lobes. The auxiliary nucleic acid interactions coordinate gDNA binding and dimer stabilization to support MbpAgo activity, with dimerization becoming particularly important for efficient cleavage with double-stranded DNA (dsDNA) guides. Binding of tgRNA induces a DNA-RNA hybrid duplex and conformational changes that destabilize the dimer, reverting MbpAgo to an active monomer capable of cleaving structured viral RNAs such as the SARS-CoV-2 5'UTR and HIV-1 CES. These findings suggest a dynamic monomer-dimer transition as both the regulatory mechanism of MbpAgo and an evolutionary adaptation for processing dsDNA-derived guides, providing a structural framework for programmable RNA targeting.",
+    "authors": [
+      "Zhao X",
+      "Yang W",
+      "An L",
+      "Chen L",
+      "Xiao J",
+      "Zhang K",
+      "Li S"
+    ],
+    "published": "2026-05-04",
+    "journal": "Nature communications",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42082473/",
+    "score": 75,
+    "summary": {
+      "title_zh": "动态单体-二聚体转变调控MbpAgo的DNA引导RNA切割",
+      "tool_type": "原核Argonaute蛋白（pAgo）核酸内切酶系统，具体为MbpAgo，一种利用引导DNA（gDNA）切割靶标RNA（tgRNA）的可编程RNA调控工具",
+      "design": "MbpAgo通过引导DNA（gDNA）与靶标RNA（tgRNA）形成DNA-RNA杂合双链，其活性受单体-二聚体动态转变调控：在无配体或仅结合gDNA时形成二聚体，结合tgRNA后解聚为活性单体。该设计利用独特的PIWI和MID结构域插入序列以及辅助核酸样密度桥接PAZ-MID叶，实现二聚体稳定与催化构象的维持。",
+      "functions": "实现位点特异性RNA切割，可靶向结构化病毒RNA（如SARS-CoV-2 5'UTR和HIV-1 CES），并支持双链DNA（dsDNA）引导的高效切割，为可编程RNA靶向提供结构基础。",
+      "key_results": "通过冷冻电镜解析了MbpAgo在apo、二元和三元状态下的高分辨率结构（最高2.55 Å），揭示了二聚化对dsDNA引导切割效率的关键作用，并验证了其对SARS-CoV-2和HIV-1病毒RNA的切割活性。"
+    }
+  },
+  {
+    "id": "42081940",
+    "title": "A Comprehensive Review of Variant Calling tools for RNA-Seq: Challenges and Advances.",
+    "abstract": "RNA sequencing (RNA-seq) has become a powerful technology for capturing transcriptomic variation, enabling the detection of expressed genetic variants that influence gene regulation, disease mechanisms, and therapeutic response. Unlike DNA sequencing, variant calling from RNA-seq presents unique challenges, including alternative splicing, allele-specific expression, RNA editing, and variable transcript abundance. To address these complexities, diverse computational strategies have been developed, ranging from classical statistical models to advanced and deep learning approaches. Early methods such as SAMtools, VarScan2, and bcftools relied on pileup-based binomial and Bayesian likelihood models, offering computational efficiency but limited sensitivity to RNA-specific artifacts. More sophisticated tools, such as GATK HaplotypeCaller and Octopus, incorporate pair-Hidden Markov Models and de Bruijn graph assemblies, enabling haplotype-aware detection with improved accuracy across spliced regions. Machine learning-based frameworks, including RNA-SNPhunter (random forest) and RVboost (gradient boosting), leverage alignment and sequence features to enhance variant classification, while deep learning methods such as DeepVariant employ convolutional neural networks to learn complex error signatures directly from sequencing data. Complementary advances in splice-aware alignment, variant filtering, and functional annotation further strengthen accuracy and biological interpretation. Benchmarking studies highlight that the best-performing pipelines often integrate statistical rigor with AI-driven adaptability, balancing precision and recall across variant types and expression levels. Collectively, these methodological innovations are reshaping RNA-seq variant calling, advancing its role from a specialized challenge to a core component of multi-omic integration and precision medicine.",
+    "authors": [
+      "Maurya S",
+      "Jain CK"
+    ],
+    "published": "2026-05-02",
+    "journal": "Mutation research. Reviews in mutation research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42081940/",
+    "score": 15,
+    "summary": {
+      "title_zh": "RNA测序变异检测工具的综合评述：挑战与进展",
+      "tool_type": "RNA-seq变异检测工具（包括统计模型、机器学习与深度学习框架）",
+      "design": "该综述系统梳理了从经典统计模型（如SAMtools、VarScan2、bcftools的pileup二项式/贝叶斯似然模型）到高级方法（如GATK HaplotypeCaller的pair-HMM与de Bruijn图组装、Octopus的单倍型感知检测），再到机器学习（RNA-SNPhunter的随机森林、RVboost的梯度提升）和深度学习（DeepVariant的卷积神经网络）的多种计算策略，通过整合剪接感知比对、变异过滤与功能注释来提升准确性。",
+      "functions": "实现RNA-seq数据中表达遗传变异的检测，包括单核苷酸变异、剪接区域变异、等位基因特异性表达和RNA编辑事件，支持基因调控、疾病机制和治疗反应的研究。",
+      "key_results": "基准测试表明，最佳流程通常结合统计严谨性与AI驱动的适应性，在不同变异类型和表达水平上平衡精确率与召回率，从而将RNA-seq变异检测从专门挑战提升为多组学整合和精准医学的核心组成部分。"
+    }
+  },
+  {
+    "id": "42074084",
+    "title": "Comprehensive Analysis of the Complete Mitochondrial Genomes of",
+    "abstract": "The plant mitochondrial genome has become a current research hotspot as an independent genetic model. Nevertheless, mitochondrial genome information for most",
+    "authors": [
+      "He T",
+      "Zhao L",
+      "Fan X",
+      "Huang T",
+      "Jin Y",
+      "Yi Z",
+      "Liu Y",
+      "Gao Y",
+      "Zhao H"
+    ],
+    "published": "2026-04-11",
+    "journal": "International journal of molecular sciences",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42074084/",
+    "score": 0,
+    "summary": {
+      "title_zh": "完整线粒体基因组的综合分析",
+      "tool_type": "线粒体基因组分析工具（非RNA编辑工具，属于基因组学分析平台）",
+      "design": "该研究对植物线粒体基因组进行系统性的比较与功能注释，通过整合多个物种的完整线粒体基因组序列，建立独立遗传模型的分析框架。核心思路是利用生物信息学方法解析线粒体基因组的结构、进化与功能元件。",
+      "functions": "用于线粒体基因组的序列组装、基因注释、进化分析以及遗传模型构建，支持植物线粒体基因组的结构与功能研究。",
+      "key_results": "提供了多个植物线粒体基因组的完整序列信息，揭示了其作为独立遗传模型的基因组特征，但未报告具体的编辑效率或脱靶数据（该研究为基因组学分析，非功能编辑工具）。"
+    }
+  }
+]
