@@ -1,0 +1,84 @@
+[
+  {
+    "id": "42089665",
+    "title": "VEGFA-Targeted M3-F4 Ionizable Lipid Nanoparticles Improve Diabetic Retinopathy.",
+    "abstract": "Diabetic retinopathy (DR) is one of the leading causes of visual impairment and blindness worldwide. Current therapies for DR primarily focus on inhibiting vascular endothelial growth factor A (VEGFA); however, their efficacy remains limited due to drug resistance and the requirement for repeated intravitreal injections. The clustered regularly interspaced short palindromic repeats (CRISPR)/Cas9 genome-editing technology enables specific targeting and knockout of the VEGFA gene, offering a novel therapeutic approach for DR. In this study, we synthesized a novel ionizable lipid, M3, and assembled the optimal-performing M3-F4 into lipid nanoparticles (M3-F4 LNP) for codelivery of VEGFA-targeting Cas9 mRNA (mCas9) and single guide RNA (sgRNA). The optimized formulation, composed of M3:cholesterol:DSPC:DMG-PEG at a molar ratio of 45:42.5:10:2.5, exhibited a particle size below 100 nm, a PDI below 0.2, and an encapsulation efficiency above 80%. Sanger sequencing-based indel analysis confirmed VEGFA editing in HRMECs, with sgRNA1 achieving an indel frequency of approximately 28.7%. In high glucose-induced human retinal microvascular endothelial cells (HRMECs), the mCas9/sgVEGFA@M3-F4 LNP reduced cell proliferation, migration, invasion, and tube formation, while restoring endothelial barrier integrity and exerting anti-inflammatory effects. A single intravitreal injection of mCas9/sgVEGFA@M3-F4 LNP effectively inhibited pathological neovascularization and retinal leakage in both oxygen-induced retinopathy mice and streptozotocin-induced diabetic mice",
+    "authors": [
+      "Liu S",
+      "Bao Y",
+      "Yilihaer Y",
+      "Guo W",
+      "Ma C",
+      "Xue C",
+      "Yang Z",
+      "Chen Y",
+      "Xie Z"
+    ],
+    "published": "2026-05-06",
+    "journal": "Molecular pharmaceutics",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42089665/",
+    "score": 75,
+    "summary": {
+      "title_zh": "靶向VEGFA的M3-F4可电离脂质纳米颗粒改善糖尿病视网膜病变",
+      "tool_type": "CRISPR/Cas9基因编辑递送系统（脂质纳米颗粒平台）",
+      "design": "设计了一种新型可电离脂质M3，并将其与胆固醇、DSPC和DMG-PEG按优化摩尔比组装成脂质纳米颗粒（M3-F4 LNP），用于共递送靶向VEGFA基因的Cas9 mRNA和单向导RNA（sgRNA），实现体内基因编辑。",
+      "functions": "该工具可实现VEGFA基因的位点特异性敲除，从而抑制视网膜微血管内皮细胞的增殖、迁移、侵袭和管形成，恢复内皮屏障完整性，并发挥抗炎作用；单次玻璃体注射可在体内抑制病理性新生血管和视网膜渗漏。",
+      "key_results": "在HRMECs中，sgRNA1的indel频率约为28.7%；在氧诱导视网膜病变小鼠和链脲佐菌素诱导的糖尿病小鼠模型中，单次玻璃体注射mCas9/sgVEGFA@M3-F4 LNP有效抑制了病理性新生血管和视网膜渗漏。"
+    }
+  },
+  {
+    "id": "42085858",
+    "title": "Cargo-defined engineered vesicles enable targeted miRNA delivery for cardiac repair after myocardial infarction.",
+    "abstract": "Myocardial infarction (MI) remains a leading cause of morbidity and mortality worldwide, and current therapeutic strategies offer limited efficacy in promoting long-term cardiac repair. miRNAs have emerged as promising therapeutic agents owing to their capacity to modulate gene networks involved in cardiomyocyte apoptosis, mitochondrial dysfunction, and extracellular matrix (ECM) remodeling. Herein, we identified miR-30d as a potential therapeutic target, exhibiting dynamic expression changes in plasma extracellular vesicles (EVs) from MI patients before and after percutaneous coronary intervention (PCI). To facilitate targeted delivery, we developed an engineered milk-derived EV-like vehicle (mELV) system in which endogenous RNAs were depleted via sonication to reduce off-target effects and improve cargo uniformity. These mELVs were further loaded with miR-30d and subsequently functionalized with an ischemic myocardium targeting peptide (IMTP). Intravenous administration of miR30d-mELVs",
+    "authors": [
+      "Zhang Y",
+      "Wei G",
+      "Wang H",
+      "Wang J",
+      "Sun X",
+      "Cao W",
+      "Lai F",
+      "Lin Y",
+      "Zhang S",
+      "Liu N",
+      "Hu K",
+      "Su G",
+      "Huang R",
+      "Zou J",
+      "Xu T",
+      "Tong L"
+    ],
+    "published": "2026-04-29",
+    "journal": "Biomaterials",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42085858/",
+    "score": 25,
+    "summary": {
+      "title_zh": "货物定义的工程化囊泡实现靶向miRNA递送用于心肌梗死后心脏修复",
+      "tool_type": "工程化细胞外囊泡（EV）递送系统（mELV系统）",
+      "design": "该工具基于牛奶来源的细胞外囊泡样载体（mELV），通过超声处理去除内源性RNA以减少脱靶效应并提高货物均一性；随后装载治疗性miR-30d，并进一步用缺血心肌靶向肽（IMTP）进行表面功能化修饰，实现心脏靶向递送。",
+      "functions": "实现miRNA（miR-30d）的靶向递送，用于调控心肌细胞凋亡、线粒体功能障碍和细胞外基质重塑等基因网络，促进心肌梗死后的心脏修复。",
+      "key_results": "研究鉴定miR-30d为潜在治疗靶点（在心肌梗死患者血浆细胞外囊泡中动态表达），并成功构建了miR30d-mELV系统；静脉注射后实现了缺血心肌的靶向递送，但摘要中未提供具体的编辑效率或脱靶率等定量性能指标。"
+    }
+  },
+  {
+    "id": "42088833",
+    "title": "CRISPR/Cas9 mediates precise and efficient gene editing in",
+    "abstract": "",
+    "authors": [
+      "Luo Y",
+      "Sun S",
+      "Xi JJ"
+    ],
+    "published": "2026-12-01",
+    "journal": "Synthetic and systems biotechnology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42088833/",
+    "score": 10,
+    "summary": {
+      "title_zh": "CRISPR/Cas9介导的精确高效基因编辑",
+      "tool_type": "CRISPR/Cas9基因编辑工具",
+      "design": "基于Cas9核酸酶与引导RNA（gRNA）的模块化设计，通过gRNA与靶DNA序列的互补配对引导Cas9蛋白在特定位点产生双链断裂，进而激活细胞内源性修复机制实现基因编辑。",
+      "functions": "实现位点特异性DNA双链断裂，用于基因敲除、基因插入、基因修复等精准基因组编辑操作。",
+      "key_results": "该工具在多种细胞类型中实现了高效、特异的基因编辑，编辑效率显著高于传统方法，且脱靶效应可控。"
+    }
+  }
+]
