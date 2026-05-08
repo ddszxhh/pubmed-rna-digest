@@ -1,0 +1,82 @@
+[
+  {
+    "id": "42092617",
+    "title": "Development of a CRISPR-Cas13-based antiviral strategy against hepatitis E virus.",
+    "abstract": "Effective antiviral drugs remain unavailable for many clinically relevant pathogens, including the hepatitis E virus (HEV). This study aimed to evaluate the CRISPR/Cas13d system as a potential antiviral strategy against HEV. We developed a reporter assay to screen CRISPR RNAs (crRNAs) targeting conserved regions of the HEV genome and tested their antiviral activity in human hepatoma cells using a robust HEV cell culture model. HEV replication was assessed using a subgenomic replicon, infectious particle production was quantified by immunofluorescence and titration assays. A bioinformatic analysis was performed to identify a minimal set of crRNAs capable of broadly targeting circulating human pathogenic HEV strains. A crRNA screen identified multiple functional crRNAs targeting HEV-3, with ORF1-targeting crRNAs significantly reducing viral capsid expression (p < 0.01) and decreasing the number of HEV-infected cells (p < 0.01). Cas13d-mediated targeting led to robust reduction of HEV replication and markedly lowered infectious virus production in vitro (p < 0.001). Bioinformatic analysis revealed that just three distinct crRNAs could cover ∼95% of known HEV genomes with zero mismatches, while four crRNAs achieved complete coverage. Our findings demonstrate that CRISPR/Cas13d can target HEV replication and viral progeny production in vitro. The identification of a minimal crRNA set capable of broadly targeting circulating HEV strains suggests that the CRISPR/Cas13d system may offer an antiviral strategy to address challenges related to viral evolution and treatment escape. This study establishes CRISPR/Cas13d as a proof-of-concept antiviral strategy against hepatitis E virus (HEV), demonstrating suppression of viral replication and particle production in vitro. By identifying a minimal set of broadly effective crRNAs, we provide a framework for targeting diverse HEV variants and buffering against viral evolution. These findings highlight the potential of CRISPR-based systems as innovative antiviral strategies.",
+    "authors": [
+      "Richter E",
+      "Klöhn M",
+      "Nocke MK",
+      "Friedrich ME",
+      "Todt D",
+      "Steinmann E",
+      "Brüggemann Y"
+    ],
+    "published": "2026-05-04",
+    "journal": "JHEP reports : innovation in hepatology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42092617/",
+    "score": 75,
+    "summary": {
+      "title_zh": "基于CRISPR-Cas13d的抗戊型肝炎病毒策略开发",
+      "tool_type": "CRISPR-Cas13d RNA靶向系统（抗病毒工具）",
+      "design": "利用CRISPR-Cas13d系统靶向HEV基因组保守区域，通过设计并筛选靶向HEV-3型ORF1等区域的crRNA，结合报告基因检测系统评估crRNA活性，并利用生物信息学分析确定最小crRNA组合以覆盖广泛流行毒株。",
+      "functions": "位点特异性靶向HEV RNA，抑制病毒复制，降低病毒衣壳蛋白表达，减少感染细胞数量，降低感染性病毒颗粒产量，提供抗病毒策略以应对病毒进化与治疗逃逸。",
+      "key_results": "靶向ORF1的crRNA显著降低病毒衣壳表达（p<0.01）和感染细胞数量（p<0.01），Cas13d介导的靶向使HEV复制和感染性病毒产量显著下降（p<0.001）；仅需3种crRNA即可覆盖约95%已知HEV基因组（零错配），4种crRNA实现完全覆盖。"
+    }
+  },
+  {
+    "id": "42095660",
+    "title": "Replication-competent SIVcpz CRISPR screen identifies barriers to successful cross-species transmission.",
+    "abstract": "Simian immunodeficiency viruses (SIVs) have crossed from apes to humans at least four times, but only one event gave rise to the AIDS pandemic. The host barriers that pandemic HIV-1 group M ( Four independent transmission events of simian immunodeficiency viruses from chimpanzees and gorillas to humans gave rise to human immunodeficiency virus type 1, but only one led to the global AIDS pandemic. Understanding which adaptations allowed the pandemic HIV-1 M strains to spread efficiently in humans remains a key question in virus evolution and public health. In this study, we engineered replication-competent SIVcpz constructs carrying more than 1,500 single-guide RNAs to identify antiviral genes in Cas9-expressing cells. This approach revealed several cellular factors that restrict SIVcpz but not the pandemic HIV-1 M strains analyzed in primary human T cells. These findings provide new insights into antiviral defense mechanisms and the adaptations that most likely contributed to the efficient spread of HIV-1.",
+    "authors": [
+      "Xie Q",
+      "Wang Q",
+      "Noettger S",
+      "Gosálbez G",
+      "Betzler AC",
+      "Volcic M",
+      "Kmiec D",
+      "Krebs S",
+      "Graf A",
+      "Gülensoy D",
+      "Weidinger G",
+      "Sparrer KMJ",
+      "Kirchhoff F"
+    ],
+    "published": "2026-05-07",
+    "journal": "Journal of virology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42095660/",
+    "score": 15,
+    "summary": {
+      "title_zh": "具有复制能力的SIVcpz CRISPR筛选揭示跨物种传播成功的障碍",
+      "tool_type": "CRISPR筛选系统（基于复制能力的SIVcpz载体）",
+      "design": "将超过1500条单导向RNA（sgRNA）整合到具有复制能力的SIVcpz病毒基因组中，构建成可同时进行病毒复制和CRISPR筛选的嵌合载体；在表达Cas9的细胞中，通过sgRNA文库靶向宿主基因，以识别限制SIVcpz跨物种传播的细胞因子。",
+      "functions": "用于系统性鉴定限制非人灵长类免疫缺陷病毒（SIVcpz）在人类细胞中复制的宿主抗病毒基因；比较SIVcpz与大流行HIV-1 M株在人类原代T细胞中的差异限制因子，揭示跨物种传播的分子屏障。",
+      "key_results": "该筛选系统成功鉴定出多个特异性限制SIVcpz（而非HIV-1 M株）的宿主抗病毒因子，并在人类原代T细胞中验证了这些因子的功能，为理解HIV-1大流行株高效传播所需的适应性提供了新见解。"
+    }
+  },
+  {
+    "id": "42091648",
+    "title": "Targeting a conserved functional motif in the PDS gene enables efficient CRISPR/Cas9 editing in banana.",
+    "abstract": "Incomplete editing and chimeric phenotypes are major challenges in CRISPR/Cas9-mediated genome editing of polyploid crops. In this study, a single guide RNA (gRNA) was designed to target a conserved dinucleotide-binding motif within exon 3 of the phytoene desaturase (PDS) gene in 'Grand Naine' banana. The gRNA was carefully selected for GC content, guanine residues near the PAM, and predicted secondary structure to enhance Cas9 cleavage efficiency. Agrobacterium-mediated transformation of embryonic cell suspensions produced 102 putative transgenic plants, all exhibiting altered phenotypes, with 91% displaying albino and 9% pale green coloration, indicating efficient PDS gene knockout and absence of chimerism. Sequencing confirmed tri-allelic editing, with all edited plants consistently showing two identical and one distinct mutation. Notably, small in-frame deletions of two to six amino acids within the conserved motif were sufficient to abolish PDS function, confirming its critical role in carotenoid biosynthesis. This strategy is adaptable to clonally propagated polyploid crops, providing a practical framework for achieving high-efficiency, uniform genome edits and supporting the development of precise, non-chimeric CRISPR/Cas9 editing approaches.",
+    "authors": [
+      "Chandrasekaran J",
+      "Suthanthiram B",
+      "Selvaraj EP",
+      "Swaminathan S",
+      "Chandran SA",
+      "Ramasamy S"
+    ],
+    "published": "2026-05-06",
+    "journal": "Scientific reports",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42091648/",
+    "score": 15,
+    "summary": {
+      "title_zh": "靶向PDS基因保守功能基序实现香蕉中高效的CRISPR/Cas9编辑",
+      "tool_type": "CRISPR/Cas9基因编辑系统（针对多倍体作物的优化工具）",
+      "design": "设计一条靶向香蕉PDS基因外显子3中保守二核苷酸结合基序的单一gRNA，通过优化GC含量、PAM附近鸟嘌呤残基及预测二级结构来提升Cas9切割效率。利用农杆菌介导转化胚胎细胞悬浮系，实现高效、非嵌合的基因敲除。",
+      "functions": "实现多倍体香蕉中PDS基因的高效、非嵌合敲除；通过小片段缺失（2-6个氨基酸）破坏保守基序以完全消除PDS功能；为克隆繁殖的多倍体作物提供可推广的精准编辑策略。",
+      "key_results": "在102株转基因植株中，91%表现为白化表型、9%为浅绿色，无嵌合体出现；测序确认三等位基因编辑，所有编辑植株均呈现两个相同突变和一个不同突变；保守基序内2-6个氨基酸的框内缺失足以完全抑制PDS功能。"
+    }
+  }
+]
