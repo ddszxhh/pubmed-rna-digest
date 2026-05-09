@@ -1,0 +1,49 @@
+[
+  {
+    "id": "40930858",
+    "title": "Hybrid AI in synthetic biology: next era in agriculture.",
+    "abstract": "Synthetic biology holds great potential to transform agriculture, yet its progress is constrained by the complexity of multigenomic, multitrait, and multi-environment data. Desirable traits often arise from complex gene networks acting across diverse conditions, making them difficult to predict and optimize manually. In the past decade, artificial intelligence (AI) has supported this process, but its large data needs and poor integration limit its role to pattern recognition rather than explanatory trait design. We argue that hybrid AI can more effectively navigate multiomics complexity to engineer climate-smart, high-yield crops. Already reducing trial and error in crop engineering, guiding gRNA design, and identifying key regulators, hybrid AI has outperformed traditional data-driven approaches, but its full potential requires clear pipelines, curated datasets, and automation platforms.",
+    "authors": [
+      "Najafabadi MY",
+      "Jackson SA"
+    ],
+    "published": "2026-05-01",
+    "journal": "Trends in plant science",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40930858/",
+    "score": 20,
+    "summary": {
+      "title_zh": "合成生物学中的混合人工智能：农业的下一个时代",
+      "tool_type": "混合人工智能（Hybrid AI）平台，用于指导合成生物学中的作物工程与RNA工具设计",
+      "design": "该平台将传统数据驱动的人工智能与基于知识的推理（如基因网络模型、多组学数据整合）相结合，形成混合AI框架。其核心思路是利用AI减少试错，通过整合多基因组、多性状和多环境数据，指导gRNA设计、识别关键调控因子，并优化作物性状的工程化设计。",
+      "functions": "该工具可用于：1）指导gRNA设计以支持RNA编辑或基因调控；2）识别多组学数据中的关键调控因子；3）优化气候智能型、高产作物的性状设计；4）减少合成生物学中的试错成本，提升工程效率。",
+      "key_results": "混合AI在作物工程中已优于传统数据驱动方法，能够有效减少试错、指导gRNA设计并识别关键调控因子，但其全面潜力仍需清晰的流程、精选数据集和自动化平台的支持。"
+    }
+  },
+  {
+    "id": "42101727",
+    "title": "Comparative analysis of mitochondrial genomes of Iris lactea reveals gene transfer and RNA-editing events.",
+    "abstract": "As an important perennial herb in the Iridaceae family, Iris lactea shows strong resistance to saline-alkali, drought, and cold stress, possessing significant ecological, medicinal, and economic value. In this study, we assembled the complete mitochondrial genome of I. lactea using whole-genome sequencing data. The assembled genome was 449,819 bp in length (GenBank Accession: PX667947) with a GC content of 46.97%. We found 113 simple sequence repeats, with tetranucleotide motifs being the most common (56, or 49.56%). The genome contains 600 dispersed repeats, consisting of 288 palindromic and 312 forward sequences. This mitogenome contains 36 protein-coding genes with a combined length of 32,343 bp. Analysis of codon usage revealed a strong preference for arginine, leucine, and serine, whereas methionine and tryptophan were infrequently used. We identified 556 RNA-editing sites, all exhibiting cytosine-to-uracil transitions. Analysis of the sequences inserted into the mitochondrial genome revealed that these chloroplast-derived fragments integrated into non-coding IGS regions and rRNA genes. The successful assembly and analysis of the Iris lactea mitogenome significantly enrich the genomic resources of the genus Iris, providing a solid foundation for future research on phylogenetic evolution, germplasm conservation, and genetic improvement of this genus.",
+    "authors": [
+      "Lu S",
+      "Tian C",
+      "Yang Y",
+      "Gong W",
+      "Liu L",
+      "Feng Y",
+      "Li Z",
+      "Chai J",
+      "Wu Z"
+    ],
+    "published": "2026-05-08",
+    "journal": "Molecular biology reports",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42101727/",
+    "score": 15,
+    "summary": {
+      "title_zh": "马蔺线粒体基因组比较分析揭示基因转移与RNA编辑事件",
+      "tool_type": "线粒体基因组组装与注释工具（非RNA编辑工具，而是基于测序数据的基因组分析平台）",
+      "design": "利用全基因组测序数据组装马蔺的完整线粒体基因组，通过序列比对和注释识别基因转移事件（叶绿体来源片段插入）及RNA编辑位点（C-to-U转换）。",
+      "functions": "1. 线粒体基因组组装与结构特征分析（重复序列、SSR等）；2. 鉴定RNA编辑位点（556个C-to-U位点）；3. 检测叶绿体DNA向线粒体基因组的水平转移。",
+      "key_results": "成功组装449,819 bp的线粒体基因组，鉴定出556个RNA编辑位点（均为C-to-U转换），并发现叶绿体来源片段整合至非编码区及rRNA基因中，为鸢尾属系统发育和遗传改良提供基因组资源。"
+    }
+  }
+]
