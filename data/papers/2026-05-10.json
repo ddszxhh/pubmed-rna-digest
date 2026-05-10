@@ -1,0 +1,86 @@
+[
+  {
+    "id": "42103111",
+    "title": "Suppression of adenosine deaminase acting on RNA (ADAR) expression stimulates immunity and enhances WSSV resistance in Penaeus vannamei.",
+    "abstract": "Adenosine Deaminase Acting on RNA (ADAR) is an enzyme that converts adenosine (A) to inosine (I) in RNA nucleotides, which can inhibit Dicer function during RNA interference, promoting viral replication and reducing the immune response. This research identified and characterized ADAR in the whiteleg shrimp, Penaeus vannamei, and investigated its role in regulating innate immunity during infection with the white spot syndrome virus (WSSV). The complete cDNA of P. vannamei ADAR (PvADAR) consisted of 2,073 nucleotides encoding 690 amino acids with a molecular weight of 77.5 kDa. PvADAR was highly expressed in hemocytes. Downregulation of PvADAR by injection of PvADAR-specific double-stranded RNA (dsPvADAR) at concentrations of 1 μg/g body weight resulted in upregulation of proPO, lysozyme, caspase-3, and argonaute-2 gene expression. Moreover, the total hemocyte count increased significantly from 6 to 72 h post dsPvADAR injection. The WSSV challenge was performed by immersion (10",
+    "authors": [
+      "Sawang-Arom N",
+      "Chotwiwatthanakun C",
+      "Buathongkam P",
+      "Pudgerd A",
+      "Panrat T",
+      "Kittiwongpukdee K",
+      "Saedan S",
+      "Sritunyalucksana K",
+      "Vanichviriyakit R"
+    ],
+    "published": "2026-05-06",
+    "journal": "Fish & shellfish immunology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42103111/",
+    "score": 10,
+    "summary": {
+      "title_zh": "抑制RNA腺苷脱氨酶（ADAR）表达可刺激凡纳滨对虾免疫并增强抗白斑综合征病毒能力",
+      "tool_type": "RNA干扰（RNAi）工具（基于dsRNA的基因沉默系统）",
+      "design": "该研究设计并合成了靶向凡纳滨对虾ADAR基因（PvADAR）的特异性双链RNA（dsPvADAR），通过注射方式递送，利用RNA干扰机制下调PvADAR表达，从而解除ADAR对Dicer功能的抑制，增强宿主抗病毒免疫应答。",
+      "functions": "实现PvADAR基因的转录后沉默；上调proPO、溶菌酶、caspase-3和argonaute-2等免疫相关基因表达；增加血细胞总数；增强对白斑综合征病毒（WSSV）的抵抗力。",
+      "key_results": "注射1 μg/g体重的dsPvADAR后，血细胞总数在6至72小时显著增加，且免疫相关基因表达上调；该沉默策略在WSSV浸泡感染模型中显示出抗病毒保护效果（摘要中未提供具体存活率数据，但表明增强了抗WSSV能力）。"
+    }
+  },
+  {
+    "id": "42015511",
+    "title": "Invivo systematic detection of the outcomes of CRISPR-Cas9-mediated DNA repair in skeletal muscle stem cells.",
+    "abstract": "Clustered regularly interspaced short palindromic repeats (CRISPR)-CRSIPR-associated protein 9 (Cas9) has revolutionized genome editing with broad therapeutic applications, yet its repair patterns in vivo remain poorly understood. Here, we systematically profile CRISPR-Cas9 editing outcomes at 95 loci using our established CRISPR-Cas9/adeno-associated virus (AAV)9-single guide RNA (sgRNA) system in skeletal muscle stem cells (MuSCs). Through comprehensive characterization of the repair outcomes, our findings demonstrate that the general rules governing CRISPR-Cas9-mediated editing in vivo largely align with those observed in vitro. In addition to the anticipated small editing insertions or deletions (indels), such as microhomology-mediated end joining (MMEJ)-mediated deletions and non-homologous end joining (NHEJ)-mediated templated insertions, we uncover a prevalent occurrence of large on-target modifications, including large deletions (LDs) characterized by microhomology (MH) and large insertions (LIs). Notably, the LIs comprise not only exogenous AAV vector integrations but also endogenous genomic DNA fragments (Endo-LIs). Endo-LIs preferentially originate from active genomic regions, with their integration shaped by 3D chromatin architecture. By disrupting key components of the NHEJ and MMEJ repair pathways in vivo, we identify their distinct roles in regulating the large on-target modifications. Together, our work systematically profiles CRISPR-Cas9 repair outcomes in vivo and offers valuable guidance for improving the safety of CRISPR-Cas9-based gene therapies.",
+    "authors": [
+      "He L",
+      "Fu Y",
+      "Wang Z",
+      "Zhou Q",
+      "Sun H",
+      "Wang H"
+    ],
+    "published": "2026-04-20",
+    "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42015511/",
+    "score": 10,
+    "summary": {
+      "title_zh": "体内系统性检测CRISPR-Cas9介导的DNA修复在骨骼肌干细胞中的结果",
+      "tool_type": "CRISPR-Cas9基因编辑系统（结合AAV9-sgRNA递送平台）",
+      "design": "利用CRISPR-Cas9与腺相关病毒（AAV9）递送的单向导RNA（sgRNA）系统，在骨骼肌干细胞（MuSCs）中针对95个位点进行系统性编辑，并通过深度测序全面表征修复结果，包括小插入缺失（indels）和大片段修饰（大缺失、大插入）。",
+      "functions": "该工具用于系统性检测CRISPR-Cas9在体内（骨骼肌干细胞）的DNA修复结果，包括小片段编辑（如MMEJ介导的缺失、NHEJ介导的模板化插入）以及大片段修饰（如大缺失、大插入，包括外源AAV载体整合和内源基因组DNA片段插入），并揭示修复途径（NHEJ、MMEJ）对大片段修饰的调控作用。",
+      "key_results": "在体内95个位点中，发现大片段修饰（如大缺失和大插入）普遍存在，其中大插入不仅包含外源AAV载体整合，还包含内源基因组DNA片段（Endo-LIs），且这些内源片段优先来源于活跃基因组区域，其整合受三维染色质结构影响；通过体内敲除NHEJ和MMEJ关键组分，明确了它们对大片段修饰的不同调控作用。"
+    }
+  },
+  {
+    "id": "42103444",
+    "title": "Reconfigured immunity in Adar heterozygous and Adar Mavs Eif2ak2 (PKR) triple mutant mice.",
+    "abstract": "Adenosine deaminase acting on RNA 1 (ADAR1) deaminates adenosine to inosine in dsRNA. ADAR1 RNA editing marks cellular dsRNA as self, preventing aberrant activation of the antiviral dsRNA sensor MDA5. Adar Ifih1 (MDA5) or Adar Mavs double mutant pups escape Adar mutant aberrant interferon induction but die early. Here, we show that long-lived Adar Mavs Eif2ak2 (PKR) mice display a new residual defect: failure to maintain blood CD8+ T cells due to loss of an editing-independent function of ADAR1. Further dsRNA sensor-stripping in Adar Mavs Eif2ak2 Zbp1 mutants shows that loss of blood CD8+ T cells is not prevented. Challenging Adar+/- heterozygous or Adar Mavs Eif2ak2 mice with blood stage Plasmodium yoelii infection led to reduced parasitemia in Adar+/- mice by increased basal interferon. Unexpected reduced parasitemia in Adar Mavs Eif2ak2 mice is also likely due to interferon-related defects specific to hemopoietic cells, leading to altered populations of γδ T cells and other immune cells. The defects observed in this partially dsRNA sensor-stripped mouse suggest that different antiviral dsRNA sensors normally complement each other.",
+    "authors": [
+      "Linhartova P",
+      "Quin J",
+      "Loja T",
+      "Melicherova J",
+      "Du Q",
+      "Cherian A",
+      "Vukic D",
+      "Modry D",
+      "Tomandlova M",
+      "Cervena B",
+      "Stribrnah H",
+      "Ostlund Farrants AK",
+      "Knight A",
+      "Keegan LP",
+      "O'Connell MA"
+    ],
+    "published": "2026-05-08",
+    "journal": "RNA (New York, N.Y.)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42103444/",
+    "score": 5,
+    "summary": {
+      "title_zh": "Adar杂合子与Adar Mavs Eif2ak2 (PKR)三重突变小鼠中重构的免疫系统",
+      "tool_type": "基因编辑小鼠模型（ADAR1功能研究平台）",
+      "design": "通过构建Adar杂合子及Adar Mavs Eif2ak2三重突变小鼠，逐步去除dsRNA传感器（MDA5、MAVS、PKR、ZBP1），以解析ADAR1的RNA编辑依赖与非依赖功能。该平台通过基因敲除组合实现免疫信号通路的模块化重构。",
+      "functions": "用于研究ADAR1在免疫调控中的双重作用：1）RNA编辑依赖的自身/非自身dsRNA识别（MDA5通路）；2）编辑非依赖的CD8+ T细胞维持功能。同时可评估不同dsRNA传感器（MDA5、PKR、ZBP1）在抗病毒免疫中的互补性。",
+      "key_results": "Adar Mavs Eif2ak2三重突变小鼠虽存活但出现CD8+ T细胞缺失，且该缺陷不因额外敲除Zbp1而恢复；Adar杂合子与三重突变小鼠感染疟原虫后均出现寄生虫血症降低，但机制不同（杂合子依赖基础干扰素升高，三重突变子与造血细胞干扰素缺陷及γδT细胞改变相关）。"
+    }
+  }
+]
