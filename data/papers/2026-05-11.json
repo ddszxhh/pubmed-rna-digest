@@ -1,0 +1,107 @@
+[
+  {
+    "id": "42106044",
+    "title": "A synthetic guide RNA scaffold enhanced CRISPR/Cas9 editing efficiency in plants across multiple gene targets.",
+    "abstract": "CRISPR/Cas9 mediated genome editing is a highly powerful and versatile tool for accelerating crop improvement. The editing efficiency of CRISPR/Cas9 system in planta has been highly variable owing to the variable binding affinity between native CRISPR RNA and Cas9 protein in vivo. In plant systems, systematic, large-scale engineering and benchmarking of guide RNA (gRNA) scaffold variants is still relatively limited compared with work in mammalian systems, despite several important studies demonstrating that scaffold and expression-cassette engineering can substantially improve CRISPR/Cas9 efficacy. Current study addresses the limitations of commonly used gRNA scaffold architecture by incorporating a stabilized stem-loop RAR (tetra loop) extension and a transcription-termination site mutation, resulting in improved RNA folding, increased Cas9 binding affinity, and enhanced in vivo editing outcomes. The synthesized scaffold boosted CRISPR/Cas9 efficiency in monocot or dicot plants across the 19 diverse target sites in Arabidopsis, rice and tomato. Furthermore, the synthetic scaffold is compatible with multiplex genome editing architectures, including polycistronic tRNA-gRNA (PTG) expression systems, enabling efficient simultaneous targeting of multiple genomic loci. The findings of this study have broad applications in precision plant breeding, functional genomics, and agricultural biotechnology, facilitating reliable gene modification across diverse plant species and transformation platforms.",
+    "authors": [
+      "Dutta TK",
+      "Ray S",
+      "Akhil VS",
+      "Rupinikrishna K",
+      "Chauhan U",
+      "Dutta A",
+      "Vijayan J",
+      "Iquebal MA",
+      "Chinnusamy V"
+    ],
+    "published": "2026-05-07",
+    "journal": "International journal of biological macromolecules",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42106044/",
+    "score": 15,
+    "summary": {
+      "title_zh": "一种合成引导RNA支架增强CRISPR/Cas9在植物中多个基因靶点的编辑效率",
+      "tool_type": "CRISPR/Cas9基因编辑系统（合成gRNA支架）",
+      "design": "通过引入稳定的茎环RAR（四环）延伸和转录终止位点突变，优化了常用gRNA支架结构，改善了RNA折叠，增强了Cas9结合亲和力，从而提升体内编辑效率。",
+      "functions": "实现位点特异性基因组编辑；兼容多重编辑架构（如多顺反子tRNA-gRNA系统），可同时高效靶向多个基因组位点。",
+      "key_results": "该合成支架在拟南芥、水稻和番茄的19个不同靶点中显著提高了CRISPR/Cas9编辑效率，并在单子叶和双子叶植物中均有效，且与多重编辑系统兼容。"
+    }
+  },
+  {
+    "id": "42105592",
+    "title": "PEDV nucleocapsid (N) protein induces liquid-liquid phase separation (LLPS) to selectively aggregate the viral genome.",
+    "abstract": "As an important structural protein, porcine epidemic diarrhea virus (PEDV) nucleocapsid (N) plays critical roles in the viral life cycle. Liquid-liquid phase separation (LLPS) is required for multiple biological functions for coronaviridae infection. However, whether PEDV has the ability to cause LLPS and its roles in this process remain unknown. In this study, we carried out bioinformatic analysis to show that PEDV N protein had the strongest potential to induce LLPS among all PEDV proteins. PEDV N protein caused both endoplasmic reticulum stress (ERS) and protein translation stall in vivo, which has been associated with biomolecular condensates mediated by LLPS. At the same time, we purified the N protein and found that either RNA or molecular crowding agent can induce LLPS of N protein in a concentration-dependent manner in vitro. Subsequently, the different truncated domains of N protein were further investigated, of which results showed that the dimerization domain (DD) was responsible for the self-aggregation of N protein, and that the intrinsically disordered region (IDR) played decisive roles in LLPS formation with mRNA. In addition, we showed that the RNA sequence and structural differences in genomic RNA (gRNA) such as 5' end contribute to LLPS triggered by N protein, as revealed by larger, more liquid-like condensates of 5'-UTR combined with N protein. Disruption of LLPS attenuated ERS and interfered with the binding of N protein with RNA, as well as N gene transcription and protein expression. These findings not only provide new insights into the novel functions of PEDV N protein, but also provide a foundation for understanding the mechanism of genome aggregation and its role in the virus life cycle.",
+    "authors": [
+      "Ge J",
+      "Yuan J",
+      "Zheng L",
+      "Kay M",
+      "Wu Z",
+      "Zhao X",
+      "Xu X",
+      "Xia W",
+      "Zhu J",
+      "Ma J",
+      "Chen Z",
+      "Zhang H"
+    ],
+    "published": "2026-05-04",
+    "journal": "Veterinary microbiology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42105592/",
+    "score": 10,
+    "summary": {
+      "title_zh": "PEDV核衣壳蛋白诱导液-液相分离以选择性聚集病毒基因组",
+      "tool_type": "RNA结合蛋白相分离调控工具（基于病毒N蛋白的LLPS机制研究）",
+      "design": "通过生物信息学筛选PEDV蛋白中相分离潜力最强的N蛋白，并利用截短突变体鉴定其关键功能域：二聚化结构域（DD）负责自聚集，内在无序区（IDR）负责与mRNA形成液-液相分离。进一步通过体外纯化蛋白与RNA共孵育，结合分子拥挤剂和浓度梯度实验，构建了可调控的相分离体系。",
+      "functions": "该工具可模拟病毒N蛋白介导的液-液相分离，用于选择性聚集病毒基因组RNA（特别是5'UTR区域），并调控内质网应激和翻译停滞；破坏相分离可抑制N蛋白与RNA结合及病毒基因转录与蛋白表达。",
+      "key_results": "体外实验表明，RNA或分子拥挤剂可浓度依赖性地诱导N蛋白相分离；5'UTR与N蛋白形成更大、更类液体的凝聚体；破坏相分离显著减弱内质网应激并干扰N蛋白与RNA的结合及病毒基因表达。"
+    }
+  },
+  {
+    "id": "42105238",
+    "title": "Protocol to generate endothelial cell-specific knockout mouse models using Cas9/Cdh5-Cre mice coupled with sgRNA.",
+    "abstract": "The vascular endothelium is a critical regulator of vascular homeostasis and tissue fluid balance, and mouse models are essential for studying these processes in vivo. Here, we present a protocol to generate adult endothelial cell (EC)-specific gene knockout (KO) mouse models. We describe steps for Cas9-active and Cdh5-Cre-positive (Cas9/Cdh5-Cre) mouse line generation, single guide RNA (sgRNA) design for vector construction, plasmid DNA generation, and liposome preparation. We then detail procedures for liposome/plasmid complex injection, lung harvest, homogenization, protein quantification, and verification with western blotting. For complete details on the use and execution of this protocol, please refer to Wang et al.",
+    "authors": [
+      "Wang DM",
+      "Tiruppathi C"
+    ],
+    "published": "2026-05-07",
+    "journal": "STAR protocols",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42105238/",
+    "score": 5,
+    "summary": {
+      "title_zh": "利用Cas9/Cdh5-Cre小鼠结合sgRNA生成内皮细胞特异性基因敲除小鼠模型的实验方案",
+      "tool_type": "基因编辑工具（Cas9介导的细胞特异性基因敲除小鼠模型构建平台）",
+      "design": "该方案通过将表达Cas9的转基因小鼠与表达Cdh5-Cre的小鼠杂交，获得Cas9/Cdh5-Cre双阳性小鼠，再通过尾静脉注射脂质体/sgRNA质粒复合物，实现内皮细胞特异性基因敲除。核心设计在于利用Cdh5启动子驱动Cre重组酶在内皮细胞中表达，从而激活Cas9介导的靶基因编辑。",
+      "functions": "该工具可实现成年小鼠内皮细胞（EC）特异性基因敲除，用于研究血管内皮在血管稳态、组织液平衡等生理过程中的功能。",
+      "key_results": "该方案提供了从小鼠品系构建、sgRNA设计、质粒制备到脂质体注射及Western blot验证的完整流程，但摘要中未报告具体的编辑效率或脱靶数据，需参考原文Wang等人的研究。"
+    }
+  },
+  {
+    "id": "42106590",
+    "title": "Complete mitochondrial genomes of the two high-valued bromeliads: comparative genomics and evolutionary insights.",
+    "abstract": "The Bromeliaceae family contains many horticulturally and economically important species, including Aechmea fasciata and pineapple (Ananas comosus). Compared to their well-studied chloroplast and nuclear genomes, the mitogenomes of bromeliads remain largely unexplored, hindering a full understanding of their organellar evolution and phylogenetic relationships. This study provides the first complete mitogenome assemblies and a comparative analysis for these two high-value bromeliads, revealing their phylogenetic affinities. Our findings suggested that the mitogenomes of Ae. fasciata and An. comosus both exhibit a simple master circle structure. They were 0.93-1.16 Mb in length, containing similar protein-coding genes (PCGs) (42-44), 39 tRNA genes, and three rRNA genes. Notably, the synonymous codons usage analysis revealed a preference for A/U endings, and a total of 542-548 RNA editing sites were detected. Most PCGs were under purifying selection, indicating a strong evolutionary constraint to preserve functional integrity. Additionally, the ATP synthase gene exhibited high nucleotide diversity, suggesting that such genes may need further investigation in the context of future CMS-related studies. Phylogenetically, analyses based on shared PCGs provided robust support for the clustering relationships within Bromeliaceae, confirming that An. comosus and Ae. fasciata form a distinct clade and are separate from Puya raimondii. This study establishes a crucial comparative genomic framework for Bromeliaceae, providing valuable genetic resources for future evolutionary studies and potential marker-assisted breeding applications.",
+    "authors": [
+      "Wang B",
+      "Yang P",
+      "Wu H",
+      "Su H",
+      "Li G",
+      "Fan K",
+      "Yang J",
+      "Wang S",
+      "Shi C",
+      "Zhu B"
+    ],
+    "published": "2026-05-09",
+    "journal": "BMC genomics",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42106590/",
+    "score": 0,
+    "summary": {
+      "title_zh": "两种高价值凤梨科植物的完整线粒体基因组：比较基因组学与进化见解",
+      "tool_type": "比较基因组学分析工具（线粒体基因组组装与注释平台）",
+      "design": "本研究通过高通量测序和生物信息学方法，首次组装了两种凤梨科植物（Aechmea fasciata 和菠萝）的完整线粒体基因组，并进行了结构注释、密码子偏好性分析、RNA编辑位点检测以及基于共享蛋白编码基因的系统发育分析。",
+      "functions": "该工具/平台可用于：1) 线粒体基因组的结构解析与比较；2) RNA编辑位点的系统鉴定；3) 密码子使用偏好性分析；4) 基于线粒体基因的物种系统发育关系重建；5) 为细胞质雄性不育（CMS）相关基因研究提供候选标记。",
+      "key_results": "两种线粒体基因组均为简单的环状主环结构，长度0.93-1.16 Mb，包含42-44个蛋白编码基因，共检测到542-548个RNA编辑位点；系统发育分析证实菠萝与Ae. fasciata形成独立分支，与普亚凤梨（Puya raimondii）分离，且ATP合酶基因表现出高核苷酸多样性，为未来CMS研究提供了重要线索。"
+    }
+  }
+]
