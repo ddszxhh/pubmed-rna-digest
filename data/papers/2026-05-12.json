@@ -1,0 +1,26 @@
+[
+  {
+    "id": "42113695",
+    "title": "One-step Overlapping PCR for Rapid Synthesis of Single-guide RNA DNA Templates for the CRISPR System.",
+    "abstract": "The CRISPR-Cas system has revolutionized genome editing; however, conventional methods for generating single-guide RNA (sgRNA) often involve time-consuming cloning steps or expensive commercial synthesis kits. An optimized one-step overlapping PCR strategy is presented for the rapid, cost-effective synthesis of DNA templates for in vitro sgRNA transcription. Using four partially overlapping primers spanning the T7 promoter, target-specific guide sequence, and sgRNA scaffold, full-length templates are assembled in a single PCR reaction without cloning. Systematic experimental optimization established an optimal primer ratio (AF1:AF2:AF3:Tracr-R = 50:5:1:50), minimizing non-specific byproducts while maximizing full-length product yield, as confirmed by agarose gel electrophoresis. This approach was successfully extended to generate templates for Staphylococcus aureus Cas9 (saCas9) sgRNA, demonstrating cross-system applicability beyond Streptococcus pyogenes Cas9 (SpCas9). Although direct chemical synthesis of sgRNAs offers advantages such as high purity, chemical modifications to enhance stability, and reduced off-target effects, it remains prohibitively expensive for high-throughput applications or large-scale screens that require numerous sgRNAs. In vitro cleavage assays demonstrated that guide RNAs generated using this method achieve editing efficiencies comparable to those obtained via conventional plasmid-based cloning. Furthermore, ribonucleoprotein complexes assembled with these sgRNAs and delivered into HEK293T cells via electroporation resulted in detectable indel formation at the target locus, confirming functionality in vivo. Cost analysis indicates that this method substantially reduces template preparation costs compared to commercial synthesis kits while reducing turnaround time from days to hours, thereby providing an accessible and scalable approach for laboratories engaged in genetic research.",
+    "authors": [
+      "Yao Y",
+      "Li J",
+      "Duan L",
+      "Chen J",
+      "Li G",
+      "Hu Z"
+    ],
+    "published": "2026-04-24",
+    "journal": "Journal of visualized experiments : JoVE",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42113695/",
+    "score": 25,
+    "summary": {
+      "title_zh": "一步重叠PCR快速合成CRISPR系统单导RNA DNA模板的方法",
+      "tool_type": "sgRNA DNA模板快速合成工具（基于重叠PCR的体外转录模板制备方法）",
+      "design": "利用四段部分重叠的引物（覆盖T7启动子、靶标特异性引导序列和sgRNA骨架），通过单次PCR反应直接组装全长模板，无需克隆步骤。通过优化引物比例（AF1:AF2:AF3:Tracr-R = 50:5:1:50）减少非特异性副产物并提高全长产物产量。",
+      "functions": "快速、低成本合成用于体外转录的sgRNA DNA模板；支持SpCas9和SaCas9等多种CRISPR系统的sgRNA模板制备；生成的sgRNA可用于体外切割实验和细胞内的基因编辑（通过电转RNP复合物实现）。",
+      "key_results": "该方法制备的sgRNA在体外切割实验中编辑效率与传统的质粒克隆方法相当；在HEK293T细胞中通过电转RNP复合物成功检测到靶位点的indel形成，验证了体内功能性；成本显著低于商业合成试剂盒，且将制备时间从数天缩短至数小时。"
+    }
+  }
+]
