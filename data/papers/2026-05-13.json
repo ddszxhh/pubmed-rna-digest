@@ -1,0 +1,135 @@
+[
+  {
+    "id": "42000555",
+    "title": "RNase III influences microaerobic symbiotic pathways and RNA regulation in Sinorhizobium meliloti.",
+    "abstract": "Bacterial ribonucleases (RNases) are central components of post-transcriptional networks underlying environmental adaptation. However, their contribution to the ecological specialization of bacteria with complex lifestyles, such as nitrogen-fixing legume symbionts, remains poorly understood. Here, we investigated the role of the double-stranded RNase III ortholog (SmRNase III) in Sinorhizobium meliloti, the symbiotic partner of alfalfa (Medicago sativa L.). Loss of SmRNase III function affected the expression of nearly 30% of protein-coding genes and 12% of annotated non-coding RNAs (sRNAs). Remarkably, more than 70% of these changes occurred under the microaerobic conditions typical of symbiotic nodules. Many SmRNase III-dependent transcripts encode pathways supporting microaerobic metabolism and nitrogen fixation in endosymbiotic bacteroids. Analysis of sequencing read coverage identified putative consensus cleavage signatures enriched in mRNA 5' untranslated regions, suggesting preferential processing at these sites. Altered expression of sRNAs and/or their predicted mRNA targets further supports a role for SmRNase III in sRNA-mediated silencing. Consistently, in vitro assays showed that base‑pairing between nifK (encoding the β‑subunit of the nitrogenase MoFe protein) and the antisense RNA asNifK promotes SmRNase III-mediated cleavage. In vivo assays further supported that silencing of nifK and dctA (encoding a major dicarboxylate transporter) requires SmRNase III, with dctA regulation involving a base‑pairing interaction between the trans‑sRNA AbcR1 and a predicted SmRNase III cleavage site within the mRNA. Our findings reveal a major impact of SmRNase III on shaping the symbiotic transcriptome of S. meliloti and provide a foundation for deeper investigation into RNase III-mediated regulation in rhizobia.",
+    "authors": [
+      "Guedes-García SK",
+      "García-Tomsig NI",
+      "Matos RG",
+      "Saramago M",
+      "Arraiano CM",
+      "Jiménez Zurdo JI"
+    ],
+    "published": "2026-04-15",
+    "journal": "Microbiological research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42000555/",
+    "score": 72,
+    "summary": {
+      "title_zh": "RNase III 影响苜蓿中华根瘤菌的微需氧共生途径与RNA调控",
+      "enzyme_type": "Class I RNase III（SmRNase III，细菌双链RNA核糖核酸酶）",
+      "mechanism": "SmRNase III 在微需氧条件下调控约30%蛋白编码基因和12%非编码RNA的表达，通过识别mRNA 5'非翻译区（UTR）的保守切割信号进行优先加工。该酶还参与sRNA介导的沉默，例如通过反义RNA asNifK与nifK mRNA的碱基配对促进切割，以及通过反式sRNA AbcR1与dctA mRNA上预测的切割位点相互作用调控基因表达。",
+      "engineering": "本研究未涉及蛋白工程化改造或突变设计，但通过基因敲除和体外切割实验揭示了SmRNase III的底物识别特征（如UTR富集切割位点）及其在共生调控中的功能，为未来基于RNase III的工程化应用（如可编程RNA切割或诊断）提供了分子基础。",
+      "key_results": "SmRNase III 缺失导致共生转录组大规模重塑，超过70%的差异表达基因在微需氧条件下发生；体外和体内实验证实asNifK与nifK的碱基配对以及AbcR1与dctA的相互作用均依赖SmRNase III进行切割和沉默。"
+    }
+  },
+  {
+    "id": "41775228",
+    "title": "DEFECTIVE CHLOROPLASTS and LEAVES is essential for chloroplast ribosome RNA processing in Arabidopsis thaliana.",
+    "abstract": "Chloroplast ribosome biogenesis is essential for plastid development, yet the regulatory mechanisms underlying chloroplast rRNA maturation remain incompletely understood. Here, we characterize the role of DEFECTIVE CHLOROPLASTS AND LEAVES (DCL) in chloroplast rRNA processing in Arabidopsis thaliana. DCL is conserved in photosynthetic eukaryotes and localizes to chloroplasts, whereas its paralogs exhibit distinct localization patterns including chloroplast-mitochondrial dual localization and nuclear-specific targeting. Loss of DCL results in seedling lethality and an ivory leaf phenotype, accompanied by severely decreased accumulation of chloroplast ribosomes. RNA blotting and circularized RT-PCR analyses reveal that DCL is required for the accurate processing of the 16S rRNA and the 23S-4.5S dicistronic precursor as well as for the proper 'hidden break' processing of 23S rRNA. Yeast two-hybrid assays demonstrate that DCL physically interacts with three key factors involved in chloroplast rRNA processing including the mini-RNase III-like enzymes RNC3/RNC4, ribonuclease RNase J (RNJ), and endonuclease YbeY. Thus, our results indicate that DCL is a critical eukaryotic-specific factor that coordinates early endonucleolytic cleavage steps during chloroplast rRNA maturation, thereby enabling proper ribosome assembly and chloroplast translation.",
+    "authors": [
+      "Gao F",
+      "Li J",
+      "Xin Q",
+      "Che LP",
+      "Lu D",
+      "Li Y",
+      "Peng L"
+    ],
+    "published": "2026-04-30",
+    "journal": "Biochemical and biophysical research communications",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41775228/",
+    "score": 65,
+    "summary": {
+      "title_zh": "拟南芥中DEFECTIVE CHLOROPLASTS and LEAVES对叶绿体核糖体RNA加工至关重要",
+      "enzyme_type": "DCL蛋白（与mini-RNase III样酶RNC3/RNC4协同作用的真核特异性因子）",
+      "mechanism": "DCL定位于叶绿体，通过与mini-RNase III样酶RNC3/RNC4、核糖核酸酶RNJ及内切酶YbeY物理互作，协调16S rRNA和23S-4.5S双顺反子前体的精确加工，并参与23S rRNA的“隐藏断裂”加工。该过程依赖早期内切核酸酶切割步骤，确保叶绿体核糖体正确组装。",
+      "engineering": "未涉及蛋白优化或突变设计；但揭示了DCL作为真核特异性因子与RNase III家族成员（RNC3/RNC4）的协同作用，为未来工程化改造叶绿体rRNA加工系统或设计可编程RNA切割工具提供了潜在的靶点。",
+      "key_results": "DCL功能缺失导致幼苗致死和象牙色叶片表型，叶绿体核糖体积累严重减少；RNA印迹和环化RT-PCR证实DCL是16S rRNA和23S-4.5S前体正确加工以及23S rRNA隐藏断裂加工所必需的。"
+    }
+  },
+  {
+    "id": "42014716",
+    "title": "Functional requirement for Dicer helicase arginine methylation in 26 G siRNA biogenesis and oocyte meiotic program.",
+    "abstract": "Spatiotemporal regulation of Dicer is essential for small RNA biogenesis and fertility, yet how its helicase domain is controlled remains unclear. Using Caenorhabditis elegans, we identify a regulatory role for the arginine-rich GRARR motif within helicase domain motif VI of DCR-1. Mutating conserved arginines in this sequence disrupts maternal 26 G endo-siRNA production, impairs oocyte meiosis I and II, and reduces fertility. Biochemically, an asymmetrically dimethylated DCR-1 GRA[R495*]R peptide enhances interaction with ERI-5, a tandem-Tudor protein in the ERIC complex, while loss of DCR-1(R495) diminishes this interaction in vivo. Genetically, eri-5 deletion phenocopies the dcr-1 R495K mutant, supporting a functional partnership in 26 G siRNA biogenesis. Notably, these defects parallel those seen in DCR-1 phosphorylation mutants in the catalytic domain. AlphaFold modeling suggests that arginine methylation in the helicase domain and serine phosphorylation in catalytic domain may operate in a coordinated manner to modulate DCR-1 conformation, effector recruitment, and proper execution of the oocyte meiotic program.",
+    "authors": [
+      "Newkirk N",
+      "Chen SY",
+      "Furuta T",
+      "Trimmer KA",
+      "Shi L",
+      "Stratton S",
+      "Li H",
+      "Cheng X",
+      "Bedford MT",
+      "Arur S"
+    ],
+    "published": "2026-04-21",
+    "journal": "Nature communications",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42014716/",
+    "score": 65,
+    "summary": {
+      "title_zh": "Dicer解旋酶结构域精氨酸甲基化在26G siRNA生成及卵母细胞减数分裂程序中的功能需求",
+      "enzyme_type": "Class II RNase III（Dicer，具体为线虫DCR-1）",
+      "mechanism": "DCR-1解旋酶结构域motif VI中的GRARR基序富含精氨酸，其保守精氨酸（如R495）的甲基化修饰可增强DCR-1与含串联Tudor结构域的ERI-5蛋白的相互作用，从而促进ERIC复合体组装及母源26G内源性siRNA的生成。该甲基化修饰与催化结构域的磷酸化修饰可能协同调控DCR-1构象，进而影响效应蛋白招募及卵母细胞减数分裂程序的正确执行。",
+      "engineering": "本研究未涉及蛋白工程化改造或可编程RNA切割应用，但通过点突变（R495K）和基因敲除（eri-5缺失）揭示了Dicer解旋酶结构域精氨酸甲基化在底物识别（26G siRNA生成）中的关键调控作用，为未来基于甲基化修饰的Dicer活性调控或底物特异性重编程提供了分子基础。",
+      "key_results": "线虫中DCR-1的GRARR基序精氨酸突变（R495K）导致母源26G内源性siRNA生成缺陷、卵母细胞减数分裂I和II受损及生育力下降；生化实验证实不对称二甲基化的DCR-1 GRA[R495*]R肽段增强与ERI-5的结合，而R495K突变削弱该互作，且eri-5缺失表型与dcr-1 R495K突变体一致。"
+    }
+  },
+  {
+    "id": "41571440",
+    "title": "Uridine analogs prevent stress granule formation, not by blocking PKR recognition, but by inhibiting the synthesis of T7 RNA polymerase byproducts.",
+    "abstract": "mRNA-based therapeutics are commonly produced through T7 RNA polymerase-mediated in vitro transcription. Introducing these exogenous RNAs into human cells activates an RNA sensor protein kinase R (PKR), which suppresses translation initiation and reduces their therapeutic effectiveness. Incorporating uridine analogs into these transcripts prevents PKR activation and translation shutdown, but the underlying mechanism remains unclear. Here, we demonstrate that treating T7 RNA polymerase-produced transcripts with RNase III, which selectively degrades double-stranded RNA (dsRNA), blocks PKR activation and downstream translation-inhibition events, including eIF2α phosphorylation and stress granule formation in human cells. Interestingly, dsRNAs generated with uridine analogs robustly induce eIF2α phosphorylation and stress granules to the same extent as dsRNA containing uridine. These findings indicate that uridine analogs do not prevent PKR from detecting dsRNA. Instead, we show that uridine analogs decrease the production of T7 RNA polymerase byproducts, including antisense RNA and dsRNA, which activate PKR and downstream stress responses. Finally, we demonstrate that higher amounts of exogenous RNA, lacking T7 RNA polymerase byproducts, can induce stress granules independently of PKR and phospho-eIF2α, but dependent on stress granule scaffold proteins G3BP1 and G3BP2. Together, our findings show that uridine analogs mitigate PKR signaling not by blocking mRNA-PKR interactions but by minimizing dsRNA byproducts from T7 polymerase transcription. Furthermore, stress granule formation in response to high levels of exogenous RNA can occur through a mechanism that does not depend on PKR but relies on G3BP1 and G3BP2. These insights clarify the role of uridine analogs in PKR activation and may inform future therapeutic RNA design.",
+    "authors": [
+      "Ihn SJ",
+      "Jiang E",
+      "Kejiou NS",
+      "Wang YE",
+      "Farlam-Williams L",
+      "Palazzo AF",
+      "Lee HO"
+    ],
+    "published": "2026-04-16",
+    "journal": "RNA (New York, N.Y.)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41571440/",
+    "score": 55,
+    "summary": {
+      "title_zh": "尿苷类似物通过抑制T7 RNA聚合酶副产物的合成而非阻断PKR识别来阻止应激颗粒形成",
+      "enzyme_type": "RNase III（双链RNA特异性核糖核酸酶，用于降解体外转录产生的dsRNA副产物）",
+      "mechanism": "尿苷类似物并非通过阻断PKR对dsRNA的识别来抑制应激颗粒形成，而是通过减少T7 RNA聚合酶体外转录过程中产生的副产物（如反义RNA和dsRNA）来降低PKR激活。RNase III处理可选择性降解这些dsRNA副产物，从而阻断PKR介导的eIF2α磷酸化和应激颗粒形成。",
+      "engineering": "该研究利用RNase III对T7 RNA聚合酶转录产物进行酶学处理，以去除免疫原性dsRNA副产物，为mRNA治疗药物的工程化改造提供了策略。未涉及蛋白突变或结构域融合，但揭示了通过优化转录条件（如使用尿苷类似物）减少副产物可替代RNase III处理，具有生物技术应用价值。",
+      "key_results": "实验表明，含尿苷类似物的dsRNA仍能强烈诱导eIF2α磷酸化和应激颗粒形成，证明尿苷类似物不干扰PKR对dsRNA的识别；而尿苷类似物通过减少T7 RNA聚合酶副产物（dsRNA）来抑制PKR信号。此外，高浓度外源RNA（无T7副产物）可通过G3BP1/G3BP2依赖但PKR非依赖的途径诱导应激颗粒。"
+    }
+  },
+  {
+    "id": "42082377",
+    "title": "A microRNA generated via lysosomal processing of ribosomal RNA suppresses proinflammatory responses.",
+    "abstract": "ER stress underlies numerous severe pathologies. We have metabolically perturbed normal fibroblasts to study the biological roles of microRNAs (miRs) under mild and extended ER stress. We now report that miR-4488 quenches inflammation-associated gene expression in such metabolically perturbed cells. Remarkably, generation of miR-4488 is Drosha-independent. Furthermore, we define miR-4488 as a noncanonical miRNA derived from the expansion segment ES7L of the 28S ribosomal RNA. Moreover, its generation involves the autophagy-lysosome route and is inhibited when this pathway is blocked, thus unveiling an anti-inflammatory role for ribosomal RNA and lysosomes, engaged at the onset of stress. Mechanistically, miR-4488 suppresses the expression of NFKB2 and RELB, whose mRNAs specifically associate with miR-4488 exclusively upon stress. This selectivity suggests that miR-4488 may bear promise for treating mild ER stress-associated diseases.",
+    "authors": [
+      "Michael D",
+      "Feldmesser E",
+      "Rajan KS",
+      "Lubelsky Y",
+      "Bashan A",
+      "Damalas A",
+      "Ben Zvi S",
+      "Friedberg A",
+      "Eitan N",
+      "Erez S",
+      "Yonath A",
+      "Ulitsky I",
+      "Oren M"
+    ],
+    "published": "2026-07-01",
+    "journal": "Life science alliance",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42082377/",
+    "score": 45,
+    "summary": {
+      "title_zh": "通过核糖体RNA的溶酶体加工产生的微RNA抑制促炎反应",
+      "enzyme_type": "非经典miRNA生成途径（不依赖Drosha，涉及溶酶体加工）",
+      "mechanism": "该研究揭示miR-4488源自28S核糖体RNA的扩展片段ES7L，其生成不依赖经典的Drosha切割，而是通过自噬-溶酶体途径加工产生。在轻度内质网应激下，miR-4488特异性结合并抑制NFKB2和RELB mRNA的表达，从而发挥抗炎作用。",
+      "engineering": "未涉及蛋白优化、突变设计或底物特异性重编程等工程化改造，但提出miR-4488可能作为治疗轻度内质网应激相关疾病的潜在靶点或工具。",
+      "key_results": "miR-4488是一种非经典miRNA，其生成依赖自噬-溶酶体途径而非Drosha；该miRNA在应激条件下特异性抑制NFKB2和RELB的表达，从而抑制促炎反应。"
+    }
+  }
+]
