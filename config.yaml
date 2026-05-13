@@ -1,4 +1,4 @@
-# PubMed RNA Editing Daily Digest 配置文件
+# PubMed RNase III Daily Digest 配置文件
 
 pubmed:
   # PubMed E-utilities 基础配置
@@ -6,14 +6,22 @@ pubmed:
   retmax: 300           # 每次最多抓取 300 篇
   sort: pub+date
 
-  # 基础检索式：以 RNA 编辑工具 / gRNA 设计 / programmable RNA regulation 为核心
+  # 基础检索式：以 RNase III / 双链 RNA 切割核糖核酸酶为核心
   # 这里只是一个起点，你可以在日后根据需要自行微调。
   base_query: >
-    (("RNA editing"[Title/Abstract]) OR ("programmable RNA"[Title/Abstract]) OR
-     ("guide RNA"[Title/Abstract]) OR (gRNA[Title/Abstract]) OR
-     ("RNA base editing"[Title/Abstract]) OR ("RNA deaminase"[Title/Abstract]) OR
-     ("ADAR"[Title/Abstract]) OR ("RNA-targeting CRISPR"[Title/Abstract]) OR
-     ("Cas13"[Title/Abstract]) OR ("Cas7-11"[Title/Abstract]))
+    (("RNase III"[Title/Abstract]) OR ("RNaseIII"[Title/Abstract]) OR
+     ("ribonuclease III"[Title/Abstract]) OR ("double-stranded RNA-specific ribonuclease"[Title/Abstract]) OR
+     ("dsRNA-specific ribonuclease"[Title/Abstract]) OR ("orthodox RNase III"[Title/Abstract]) OR
+     ("canonical RNase III"[Title/Abstract]) OR ("Class I RNase III"[Title/Abstract]) OR
+     ("Class II RNase III"[Title/Abstract]) OR ("Class III RNase III"[Title/Abstract]) OR
+     ("Class IV RNase III"[Title/Abstract]) OR ("E. coli RNase III"[Title/Abstract]) OR
+     ("Escherichia coli RNase III"[Title/Abstract]) OR
+     ((Rnt1p[Title/Abstract] OR RNT1[Title/Abstract]) AND (ribonuclease[Title/Abstract] OR "RNase III"[Title/Abstract] OR dsRNA[Title/Abstract])) OR
+     (Pac1[Title/Abstract] AND (ribonuclease[Title/Abstract] OR "RNase III"[Title/Abstract] OR dsRNA[Title/Abstract] OR Schizosaccharomyces[Title/Abstract])) OR
+     (Drosha[Title/Abstract] AND ("RNase III"[Title/Abstract] OR cleavage[Title/Abstract] OR processing[Title/Abstract] OR substrate[Title/Abstract] OR catalytic[Title/Abstract] OR structure[Title/Abstract] OR engineering[Title/Abstract])) OR
+     (Dicer[Title/Abstract] AND ("RNase III"[Title/Abstract] OR cleavage[Title/Abstract] OR processing[Title/Abstract] OR substrate[Title/Abstract] OR catalytic[Title/Abstract] OR structure[Title/Abstract] OR engineering[Title/Abstract])) OR
+     ("Mini-III"[Title/Abstract]) OR (MiniIII[Title/Abstract]) OR
+     (("double-stranded RNA"[Title/Abstract] OR dsRNA[Title/Abstract]) AND (ribonuclease[Title/Abstract] OR nuclease[Title/Abstract]) AND (cleavage[Title/Abstract] OR processing[Title/Abstract] OR catalysis[Title/Abstract])))
 
   # 时间窗口：最近 30 天（由代码层面再次过滤保证）
   # 在 E-utilities 查询中也会加上类似 "last 30 days"[dp]
@@ -52,8 +60,8 @@ preference:
 
 # 站点配置
 site:
-  title: "🧬 PubMed RNA Editing Daily Digest"
-  description: "最近 30 天内可编程 RNA 编辑 / gRNA 工程工具相关论文精选"
+  title: "🧬 PubMed RNase III Daily Digest"
+  description: "最近 30 天内 RNase III / 双链 RNA 切割核糖核酸酶相关论文精选"
   author: "Graduate Student"
   base_url: ""  # 部署后可填写 GitHub Pages URL
 
