@@ -50,12 +50,12 @@ def render_paper(p: dict) -> str:
         parts.append(f"  <p class=\"authors\">{authors}</p>")
 
     blocks = []
-    if summary.get("tool_type"):
-        blocks.append(f"<div class=\"summary-block\"><strong>工具类型:</strong> {summary['tool_type']}</div>")
-    if summary.get("design"):
-        blocks.append(f"<div class=\"summary-block\"><strong>设计思路:</strong> {summary['design']}</div>")
-    if summary.get("functions"):
-        blocks.append(f"<div class=\"summary-block\"><strong>功能与应用:</strong> {summary['functions']}</div>")
+    if summary.get("enzyme_type"):
+        blocks.append(f"<div class=\"summary-block\"><strong>酶/系统类型:</strong> {summary['enzyme_type']}</div>")
+    if summary.get("mechanism"):
+        blocks.append(f"<div class=\"summary-block\"><strong>机制要点:</strong> {summary['mechanism']}</div>")
+    if summary.get("engineering"):
+        blocks.append(f"<div class=\"summary-block\"><strong>工程化与应用:</strong> {summary['engineering']}</div>")
     if summary.get("key_results"):
         blocks.append(f"<div class=\"summary-block\"><strong>关键结果:</strong> {summary['key_results']}</div>")
 
@@ -77,8 +77,8 @@ def render_paper(p: dict) -> str:
 
 def build_index_html(papers: list[dict], config: dict, date_str: str) -> str:
     site = config.get("site", {})
-    title = site.get("title", "PubMed RNA Editing Daily Digest")
-    desc = site.get("description", "最近 30 天内 RNA 编辑工具相关论文")
+    title = site.get("title", "PubMed RNase III Daily Digest")
+    desc = site.get("description", "最近 30 天内 RNase III / 双链 RNA 切割核糖核酸酶相关论文")
 
     cards = "\n\n".join(render_paper(p) for p in papers)
 
@@ -254,7 +254,7 @@ def build_index_html(papers: list[dict], config: dict, date_str: str) -> str:
 
 def build_archive_html(dates: list[str], config: dict) -> str:
     site = config.get("site", {})
-    title = site.get("title", "PubMed RNA Editing Daily Digest")
+    title = site.get("title", "PubMed RNase III Daily Digest")
 
     links = "\n".join(
         f'<a class="archive-link" href="{d}.html">{d}</a>' for d in dates
