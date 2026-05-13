@@ -19,6 +19,10 @@ except ImportError:  # 安装缺失的 openai 依赖
     from openai import OpenAI
 
 
+SEEN_IDS_FILE = "seen_ids_rnase_iii.json"
+SCORES_FILE = "scores_rnase_iii.json"
+
+
 def load_config() -> dict:
     config_path = Path(__file__).parent.parent / "config.yaml"
     with open(config_path, "r", encoding="utf-8") as f:
@@ -154,7 +158,7 @@ def filter_recent(papers: list[dict], days: int = 30) -> list[dict]:
 
 
 def load_seen_ids() -> set[str]:
-    path = Path(__file__).parent.parent / "data" / "seen_ids.json"
+    path = Path(__file__).parent.parent / "data" / SEEN_IDS_FILE
     if not path.exists():
         return set()
     try:
@@ -168,7 +172,7 @@ def load_seen_ids() -> set[str]:
 
 
 def save_seen_ids(seen: set[str]) -> None:
-    path = Path(__file__).parent.parent / "data" / "seen_ids.json"
+    path = Path(__file__).parent.parent / "data" / SEEN_IDS_FILE
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(sorted(seen), f, ensure_ascii=False, indent=2)
@@ -189,7 +193,7 @@ def select_unseen(papers: list[dict], seen: set[str], limit: int) -> tuple[list[
 
 
 def load_scores() -> dict[str, int]:
-    path = Path(__file__).parent.parent / "data" / "scores.json"
+    path = Path(__file__).parent.parent / "data" / SCORES_FILE
     if not path.exists():
         return {}
     try:
@@ -203,7 +207,7 @@ def load_scores() -> dict[str, int]:
 
 
 def save_scores(scores: dict[str, int]) -> None:
-    path = Path(__file__).parent.parent / "data" / "scores.json"
+    path = Path(__file__).parent.parent / "data" / SCORES_FILE
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(scores, f, ensure_ascii=False, indent=2)
@@ -215,14 +219,13 @@ RANK_PROMPT_TEMPLATE = """你是一个论文筛选与打分助手，请判断一
 {profile}
 
 打分标准（0-100 分）：
-- 80-100：聚焦于可编程 RNA 编辑工具 / RNA 调控系统的工程设计，例如将酶/蛋白结构域与 gRNA 结合，实现位点特异性的 RNA 修饰、切割、剪接、翻译调控、RNA 检测与追踪等；具有清晰的工具属性或平台化设计。
-- 40-79：与 RNA 编辑 / RNA 调控相关，但更多是机制研究、间接相关工具，或与可编程、工程化设计的关系不够直接；仍然可能对研究者有启发。
-- 0-39：与 RNA 编辑或可编程 RNA 调控关联很弱（例如纯临床描述、与 RNA 无关的分子生物学研究），或者完全不在该领域，应当给低分。
+- 80-100：直接研究 RNase III 或其它主要切割双链 RNA 的核糖核酸酶，且重点涉及底物识别、切割催化、切后产物释放、RNA 加工/调控机制，或对这些酶进行工程化改造、蛋白优化、结构设计、定向进化或应用开发。
+- 40-79：涉及 Drosha、Dicer、Rnt1p、Pac1、Mini-III、E. coli RNase III、dsRNA 切割或 RNA 加工调控，但主要是一般生物学功能、表达关联、通路观察或机制/工程化信息不够直接；仍可能对理解领域背景有启发。
+- 0-39：与 RNase III、双链 RNA 切割机制或相关酶工程化关系很弱，例如纯临床相关性、miRNA 表达描述、疾病标志物分析、与 RNA 切割无关的通用分子生物学研究，或者完全不在该领域。
 
-在主题相关性的基础上，如果作者列表中包含在 RNA 编辑 / RNA 工具领域有明显影响力的研究者或团队
-（例如你在相关综述、经典工具论文中经常看到的名字），可以适当上调分数（例如 +5~15 分），但总分仍需控制在 0-100 范围内。
+在主题相关性的基础上，如果论文包含结构生物学、酶学动力学、突变验证、底物谱解析、产物释放机制、蛋白工程或工具化应用，可以适当上调分数（例如 +5~15 分），但总分仍需控制在 0-100 范围内。
 
-请主要依据："是否值得向一名做 programmable RNA editing / RNA 工具开发的研究生重点推荐" 来给出最终分数。
+请主要依据："是否值得向一名系统了解 RNase III 机制、工程化改造和应用的研究者重点推荐" 来给出最终分数。
 
 论文标题: {title}
 
@@ -310,7 +313,7 @@ def main():
     config = load_config()
     pm_conf = config.get("pubmed", {})
 
-    base_query = pm_conf.get("base_query", "RNA editing")
+    base_query = pm_conf.get("base_query", "RNase III")
     retmax = pm_conf.get("retmax", 300)
 
     print(f"[pubmed] Searching with base_query: {base_query}")
@@ -369,9 +372,9 @@ def main():
     if new_seen:
         updated_seen = seen.union(new_seen)
         save_seen_ids(updated_seen)
-        print(f"[pubmed] Updated seen_ids.json with {len(new_seen)} new ids (total={len(updated_seen)})")
+        print(f"[pubmed] Updated {SEEN_IDS_FILE} with {len(new_seen)} new ids (total={len(updated_seen)})")
     else:
-        print("[pubmed] No new unseen papers to add to seen_ids.json")
+        print(f"[pubmed] No new unseen papers to add to {SEEN_IDS_FILE}")
 
 
 if __name__ == "__main__":
