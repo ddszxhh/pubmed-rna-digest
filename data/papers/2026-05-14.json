@@ -1,0 +1,150 @@
+[
+  {
+    "id": "42039442",
+    "title": "Disabling Müller Glia Preserves Retinal Function After Retinal Injury.",
+    "abstract": "We developed a physiologically relevant light damage model in pigmented mice and determine how Müller glial (MG) Dicer1/microRNA (miRNA) loss impacts retinal structure and function after injury. A moderate light damage paradigm (5,000 lux, 4 hours) was developed in pigmented mice carrying the RPE65 Leu450 variant. MG-specific Dicer1 conditional knockout (cKO) mice across three Cre lines (Rlbp1-CreER, Glast-CreER, Ascl1-CreER) were subjected to light damage at different developmental stages. Retinal structure and function were assessed longitudinally using optical coherence tomography (OCT), histology, and electroretinography (ERG). Preconditioning and double-damage paradigms were included as controls. The model induced progressive photoreceptor degeneration with early functional decline preceding structural loss and delayed inner retinal impairment. Across all MG-specific",
+    "authors": [
+      "Larbi D",
+      "Chen S",
+      "Indictor A",
+      "Gibbons LD",
+      "Kang S",
+      "Rief AM",
+      "Wohl SG"
+    ],
+    "published": "2026-04-16",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42039442/",
+    "score": 45,
+    "summary": {
+      "title_zh": "抑制Müller胶质细胞可保护视网膜损伤后的视网膜功能",
+      "enzyme_type": "Dicer（Class III RNase III家族成员，参与microRNA加工）",
+      "mechanism": "该研究通过条件性敲除Müller胶质细胞中的Dicer1基因，阻断microRNA的生物合成，从而影响Müller胶质细胞对损伤的响应。Dicer1缺失导致Müller胶质细胞无法正常加工miRNA前体，进而改变下游基因表达调控，最终在光损伤模型中减轻了视网膜结构和功能的退行性变化。",
+      "engineering": "本研究未涉及RNase III酶的工程化改造或蛋白优化，而是利用Cre-loxP系统在Müller胶质细胞中特异性敲除Dicer1，以探究其在视网膜损伤中的功能。该策略为理解Dicer/miRNA通路在神经胶质细胞调控中的作用提供了遗传学工具，具有潜在的神经保护治疗应用价值。",
+      "key_results": "在携带RPE65 Leu450变体的色素小鼠中建立的中度光损伤模型（5000 lux，4小时）诱导了进行性光感受器退变，且功能下降早于结构损失。在三种不同Cre系（Rlbp1-CreER、Glast-CreER、Ascl1-CreER）驱动的Müller胶质细胞特异性Dicer1敲除小鼠中，光损伤后视网膜结构和功能得到保护，表明抑制Müller胶质细胞中的Dicer1/miRNA通路可减轻视网膜损伤。"
+    }
+  },
+  {
+    "id": "41746718",
+    "title": "RNA-binding protein LARP6 coordinates hepatic stellate cell activation and liver fibrosis.",
+    "abstract": "Metabolic syndrome and excessive alcohol consumption (MetALD) result in liver injury and fibrosis, which are driven by increased collagen production by activated hepatic stellate cells (HSCs). Our previous studies demonstrated that LARP6, an RNA-binding protein, may facilitate collagen production. However, the expression and function of LARP6 as a regulator of fibrosis development in a disease-relevant model remain poorly understood. We demonstrated that LARP6 was upregulated in human activated HSCs in metabolic dysfunction-associated steatohepatitis (MASH) and MetALD. By using single-nucleus RNA-seq and assay for transposase-accessible chromatin sequencing, we showed that JUNB upregulated LARP6 expression in activated HSCs. Moreover, LARP6 knockdown in human HSCs suppressed fibrogenic gene expression. By integrating enhanced crosslinking and IP analysis and ribosome profiling in HSCs, we showed that LARP6 interacted with mature mRNAs comprising more than 300 genes, including RNA structural elements within COL1A1, COL1A2, and COL3A1 to regulate mRNA expression and translation. IP-mass spectrometry analysis demonstrated LARP6 protein-protein interactions with mRNA translation components and the actin cytoskeleton. Furthermore, Dicer substrate siRNA-based HSC-specific gene knockdown or pharmacological inhibition of LARP6 attenuated fibrosis development in human MASH and MetALD liver spheroids. Our results suggest LARP6 plays a key role in fibrogenic gene regulation and that targeting LARP6 in human HSCs may represent a therapeutic approach for liver fibrosis.",
+    "authors": [
+      "Kim HY",
+      "Mizrahi O",
+      "Lee W",
+      "Rosenthal SB",
+      "Han C",
+      "Yee BA",
+      "Blue SM",
+      "Diaz J",
+      "Jonnalagadda JP",
+      "Street LA",
+      "Hokutan K",
+      "Jang H",
+      "Miciano C",
+      "Ma CT",
+      "Bobkov AA",
+      "Sergienko E",
+      "Jackson MR",
+      "Jovanovic M",
+      "Stefanovic B",
+      "Kisseleva T",
+      "Yeo GW",
+      "Brenner DA"
+    ],
+    "published": "2026-04-15",
+    "journal": "The Journal of clinical investigation",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41746718/",
+    "score": 45,
+    "summary": {
+      "title_zh": "RNA结合蛋白LARP6协调肝星状细胞活化与肝纤维化",
+      "enzyme_type": "非RNase III酶，属于RNA结合蛋白（LARP6），但文中提及使用Dicer底物siRNA（Dicer为Class III RNase III）进行基因敲降，因此涉及Dicer系统。",
+      "mechanism": "LARP6通过其RNA结合结构域识别并结合COL1A1、COL1A2、COL3A1等纤维化相关mRNA的RNA结构元件，调控这些mRNA的表达和翻译。LARP6与mRNA翻译组分及肌动蛋白细胞骨架发生蛋白-蛋白相互作用，从而协调肝星状细胞活化过程中的纤维化基因表达。",
+      "engineering": "工程化与应用：利用Dicer底物siRNA实现肝星状细胞特异性基因敲降，或通过药理学抑制LARP6，在人类MASH和MetALD肝球体中减轻纤维化发展。该策略为肝纤维化治疗提供了潜在靶点。",
+      "key_results": "LARP6在活化的人肝星状细胞中上调，其敲降抑制纤维化基因表达；整合eCLIP和核糖体分析发现LARP6与超过300个成熟mRNA相互作用，包括COL1A1等纤维化基因。Dicer底物siRNA介导的LARP6敲降或药理学抑制可减轻肝纤维化。"
+    }
+  },
+  {
+    "id": "41965145",
+    "title": "In silico evaluation of DsiRNA-mediated targeting of arginase in Anopheles gambiae as a novel vector control strategy.",
+    "abstract": "The rapid increase of resistance to insecticides among Anopheles mosquitoes, the primary vectors of malaria, highlights the necessity for new approaches in controlling vectors. RNA interference (RNAi) offers a targeted and environmentally safer alternative approach. Arginase in Anopheles gambiae, involved in nitrogen metabolism, presents a compelling target due to its potential role in modulating mosquito immune responses and influencing parasite development and vectorial competency. The study focused on designing and evaluating Dicer-substrate small interfering RNA (DsiRNA) molecules targeting arginase in An. gambiae to disrupt parasite development and reduce malaria transmission. DsiRNAs were designed using Integrated DNA Technologies and optimized based on GC content, secondary structure prediction, thermodynamic parameters, and off-target screening. The derived 21-mer guide strands were further evaluated through molecular docking to assess interactions with An. gambiae Ago2. To validate the docked complex for stability, a molecular dynamics (MD) simulation using 100 ns was performed, revealing stable RMSD trajectories, sustained hydrogen bonding, maintained structural compactness, and minimal residue fluctuation, indicating persistent Ago2-guide strand interactions under physiological conditions. Eight DsiRNAs demonstrated optimal biophysical and specificity profiles, among which DsiRNA6, followed by DsiRNA8, and DsiRNA1 exhibited favorable binding energy and dynamic stability. These findings highlight the structural feasibility and functional potential of selected DsiRNAs as candidates for arginase knockdown in An. gambiae and support RNAi-based strategies as promising alternatives for vector control.",
+    "authors": [
+      "Yensii NG",
+      "Bella-Omunagbe M",
+      "Dokunmu TM",
+      "Antonio-Nkondjio C",
+      "Adebayo AH",
+      "Ogunlana OO"
+    ],
+    "published": "2026-08-01",
+    "journal": "Computational biology and chemistry",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41965145/",
+    "score": 25,
+    "summary": {
+      "title_zh": "基于计算机模拟评估靶向冈比亚按蚊精氨酸酶的DsiRNA介导的新型病媒控制策略",
+      "enzyme_type": "Dicer（属于RNase III家族，用于加工DsiRNA底物）",
+      "mechanism": "本研究设计Dicer底物小干扰RNA（DsiRNA）靶向冈比亚按蚊精氨酸酶mRNA，通过RNA干扰机制实现基因沉默。DsiRNA被Dicer识别并切割为21-mer guide链，随后与Ago2蛋白结合形成RISC复合物，引导序列特异性切割靶标mRNA，从而抑制精氨酸酶表达，影响蚊虫免疫应答和疟原虫发育。",
+      "engineering": "通过生物信息学优化DsiRNA的GC含量、二级结构、热力学参数及脱靶筛选，并利用分子对接和100 ns分子动力学模拟评估guide链与Ago2的结合稳定性，筛选出8个候选DsiRNA用于精氨酸酶敲降，支持基于RNAi的病媒控制策略开发。",
+      "key_results": "筛选出8个具有最优生物物理和特异性特征的DsiRNA，其中DsiRNA6、DsiRNA8和DsiRNA1表现出最佳结合能和动态稳定性；100 ns分子动力学模拟显示稳定的RMSD轨迹、持续氢键和最小残基波动，证实Ago2-guide链在生理条件下的稳定相互作用。"
+    }
+  },
+  {
+    "id": "41997157",
+    "title": "Cytoplasmic RNase III Drosha controls lipogenesis by noncanonical regulation of SREBP1.",
+    "abstract": "Ribonuclease (RNase) III Drosha initiates microRNA (miRNA) biogenesis. Emerging evidence suggests that Drosha modulates processes beyond miRNA biogenesis, indicative of the functional complexity of Drosha. Here, we show that Drosha facilitates activation of sterol regulatory element-binding protein 1 (SREBP1), the central player in triglyceride (TG) biosynthesis, in an RNase activity-independent manner. Mechanistically, cytoplasmic Drosha interacts with Sec31, a subunit of coat protein complex II (COPII), through its arginine/serine (RS)-rich domain. This interaction promotes COPII-mediated transport and activation of SREBP1. Moreover, Akt phosphorylates Drosha at Ser237 in the RS-rich domain, which is required for the Drosha-Sec31 interaction, SREBP1 processing, and TG accumulation in response to insulin. The Akt-Drosha-SREBP1 axis was hyperactivated in mice fed a high-fat, high-sugar diet, and hepatic Drosha deletion or administration of an interfering peptide that blocked Akt-mediated phosphorylation of Drosha ameliorated liver TG deposition and insulin resistance in this mouse model. Thus, our findings uncover a noncanonical function of Drosha involved in SREBP1 processing and lipogenesis.",
+    "authors": [
+      "Nie T",
+      "Lu J",
+      "Dong D",
+      "Gao Q",
+      "Ren D",
+      "Huang L",
+      "Zhao S",
+      "Zhu L",
+      "Shi X",
+      "Du X",
+      "Mao Z",
+      "Yang Q"
+    ],
+    "published": "2026-05-07",
+    "journal": "Molecular cell",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41997157/",
+    "score": 25,
+    "summary": {
+      "title_zh": "细胞质RNase III Drosha通过非经典调控SREBP1控制脂肪生成",
+      "enzyme_type": "Class II RNase III（Drosha）",
+      "mechanism": "Drosha通过其富含精氨酸/丝氨酸（RS）结构域与COPII复合体亚基Sec31相互作用，以不依赖RNase活性的方式促进SREBP1的COPII介导的运输和激活。胰岛素信号通过Akt磷酸化Drosha的Ser237位点，增强Drosha-Sec31相互作用，从而驱动SREBP1加工和甘油三酯积累。该机制不涉及经典的miRNA加工底物识别与切割催化，而是通过蛋白-蛋白互作调控脂质代谢。",
+      "engineering": "未涉及蛋白工程化改造或可编程RNA切割设计；但通过设计干扰肽阻断Akt介导的Drosha磷酸化，在体内验证了该调控轴的治疗潜力，提示可针对Drosha-Sec31互作或磷酸化位点开发代谢疾病干预策略。",
+      "key_results": "高脂高糖饮食小鼠肝脏中Akt-Drosha-SREBP1轴过度激活；肝脏特异性敲除Drosha或注射干扰肽可减轻肝脏甘油三酯沉积和胰岛素抵抗，证明Drosha的非经典功能在脂肪生成中的关键作用。"
+    }
+  },
+  {
+    "id": "42090844",
+    "title": "Prognostic value of DICER and CA9 expression in patients with anal squamous cell carcinoma treated with definitive chemoradiotherapy.",
+    "abstract": "The levels of the microRNA-processing enzyme DICER and the hypoxia associated marker carbonic anhydrase 9 (CA9) critically influence tumor growth, aggressiveness, and response to therapy. However, their prognostic value in patients treated with definitive chemoradiotherapy (CRT) for anal squamous cell carcinoma (ASCC) remains elusive. DICER and CA9 were scored in a cohort of a total of 95 ASCC patients by multiplex immunofluorescence and next-generation sequencing for DICER on pre-treatment biopsies. They were correlated with patients' histopathological characteristics and clinical endpoints locoregional failure-free survival (LRFFS), distant metastases-free survival (DMFS), disease-free survival (DFS) and overall survival (OS). We observed a significant inverse correlation between DICER and CA9 expression. In contrast, DICER and CA9 expression did not correlate with age, gender, T/N stage, and grading. High levels of DICER protein and mRNA were prognostic for superior LRFFS (p = 0.006) and DFS (p = 0.014), while elevated levels of CA9 were associated with decreased LRFFS (p = 0.008) and decreased DFS (p = 0.023), respectively. In multivariate analyses, DICER levels remained significant for LRFFS and DFS (p = 0.020, and p = 0.033). A combined DICER high and low CA9 variable indicated a subgroup of patients most likely to respond to CRT with improved LRFFS (p = 0.002) and DFS (p = 0.006). These data indicate that elevated pretreatment levels of CA9 and low levels of DICER are correlated with an unfavorable clinical outcome in patients with ASCC treated with definitive CRT. The superior prognostic power of DICER+ CA9 suggests that DICER and hypoxia may have non-redundant roles in these malignancies.",
+    "authors": [
+      "Onay M",
+      "de Valk AF",
+      "Weigert A",
+      "Kalinauskaite G",
+      "Tinhofer I",
+      "Gani C",
+      "Fokas E",
+      "Rödel C",
+      "Martin D",
+      "Piiper A",
+      "Rödel F"
+    ],
+    "published": "2026-04-29",
+    "journal": "European journal of cancer (Oxford, England : 1990)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42090844/",
+    "score": 25,
+    "summary": {
+      "title_zh": "DICER和CA9表达在接受根治性放化疗的肛管鳞状细胞癌患者中的预后价值",
+      "enzyme_type": "Dicer（Class III RNase III家族成员，参与miRNA加工）",
+      "mechanism": "Dicer作为miRNA加工酶，通过切割双链RNA前体生成成熟miRNA，调控基因表达；CA9是缺氧标志物，其表达受缺氧诱导因子调控。两者表达呈显著负相关，可能通过不同通路影响肿瘤生长、侵袭和治疗反应。",
+      "engineering": "本研究未涉及蛋白工程化改造或突变设计，而是通过多重免疫荧光和二代测序检测DICER蛋白/mRNA及CA9表达水平，评估其作为预后生物标志物的价值。",
+      "key_results": "高DICER表达与更好的局部无复发生存（LRFFS）和无病生存（DFS）显著相关，而高CA9表达与较差的LRFFS和DFS相关；联合DICER高/CA9低表达可识别对放化疗最敏感的患者亚群（LRFFS p=0.002，DFS p=0.006）。"
+    }
+  }
+]
