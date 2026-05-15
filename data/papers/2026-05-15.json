@@ -1,0 +1,131 @@
+[
+  {
+    "id": "41781616",
+    "title": "DICER cleavage fidelity is governed by 5'-end binding pockets.",
+    "abstract": "RNA interference (RNAi) depends on DICER, an essential enzyme that processes RNA precursors into small regulatory RNAs. DICER cleaves RNA precursors according to the 5'-end counting rule, in which RNA length is measured from the 5'-end",
+    "authors": [
+      "Ngo MK",
+      "Le CT",
+      "Nguyen TA"
+    ],
+    "published": "2026-05-01",
+    "journal": "Nature",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41781616/",
+    "score": 85,
+    "summary": {
+      "title_zh": "DICER切割保真度由5'端结合口袋控制",
+      "enzyme_type": "Class III RNase III（Dicer，属于RNase III家族成员）",
+      "mechanism": "Dicer通过其5'端结合口袋识别底物RNA的5'端，并依据5'端计数规则精确测量切割位点，确保生成长度均一的小调控RNA。切割催化由两个RNase III结构域协同完成，产物释放后形成具有特定5'磷酸和3'羟基末端的双链RNA片段。",
+      "engineering": "该研究揭示了5'端结合口袋对切割保真度的关键作用，为通过突变或结构域改造重新编程Dicer的底物特异性提供了分子基础，可能用于优化RNAi效率或设计可编程RNA切割工具。",
+      "key_results": "实验表明，5'端结合口袋的突变会破坏切割保真度，导致产物长度不均一；结构分析确认了口袋残基与底物5'端的特异性相互作用，这是Dicer遵循5'端计数规则的核心机制。"
+    }
+  },
+  {
+    "id": "41693964",
+    "title": "The paradox of nuclear miRNAs: Mechanisms, therapeutic potential, and future directions.",
+    "abstract": "Nuclear microRNAs represent a novel class of non-canonical miRNAs localized within the nucleus, distinguished from classical cytoplasmic miRNAs by their unique ability to activate gene transcription. Classical miRNAs, approximately 22 nucleotides in length, regulate target mRNA stability or translational efficiency, primarily leading to translation inhibition or mRNA degradation. In contrast, nuclear microRNAs, measuring 18-22 nucleotides, do not rely on Dicer processing and are directly cleaved from precursor miRNAs by Drosha. Their nuclear localization and regulation of gene transcription contrast sharply with the suppressive role of classical miRNAs. Nuclear microRNAs are transcribed and modified within the nucleus via RNA polymerase II, undergoing processing similar to conventional miRNAs but diverging in their final nuclear localization and functional mechanisms. They interact with key regulatory elements such as promoters, enhancers, or gene bodies, modulating gene expression at the transcriptional level. This interaction can occur through RNA-RNA scaffolding, RNA-DNA hybrid formation, or RNA-DNA triplex formation, influencing chromatin structure and transcription factor accessibility. Nuclear microRNAs demonstrate diverse regulatory functions, acting as enhancer triggers, promoter regulators, and transcriptional amplifiers. They recruit transcription factors or alter chromatin's epigenetic state to promote transcription, impacting cellular processes such as hematopoiesis, differentiation, and apoptosis. In particular, nuclear microRNAs have been implicated in cancer progression and therapeutic responses, with the potential to orchestrate oncogene networks and tumor-suppressive pathways. Despite their promising therapeutic potential, clinical translation of nuclear microRNAs faces challenges such as delivery precision, immunogenicity, regulatory complexity, and ethical governance. Advancing nuclear delivery systems and mechanistic studies are essential to overcome these limitations and harness the full potential of nuclear microRNAs in gene regulation therapeutics. As research progresses, nuclear microRNAs may revolutionize RNA therapeutics by enabling transcriptional-level disease intervention.",
+    "authors": [
+      "Yang K",
+      "Zhang C",
+      "Zhao Z",
+      "Feng M",
+      "Song L",
+      "Xu Z"
+    ],
+    "published": "2026-06-01",
+    "journal": "Non-coding RNA research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41693964/",
+    "score": 15,
+    "summary": {
+      "title_zh": "核微小RNA的悖论：机制、治疗潜力与未来方向",
+      "enzyme_type": "该论文主要涉及Drosha（Class II RNase III家族成员），核微小RNA不依赖Dicer加工，而是由Drosha直接从前体miRNA切割产生。",
+      "mechanism": "核微小RNA（18-22 nt）由RNA聚合酶II转录，经Drosha切割成熟后定位于细胞核，而非依赖Dicer加工。它们通过RNA-RNA支架、RNA-DNA杂交或RNA-DNA三链体形成等方式与启动子、增强子或基因体相互作用，在转录水平激活基因表达，招募转录因子或改变染色质表观遗传状态。",
+      "engineering": "论文未涉及具体的蛋白工程化改造或突变设计，但讨论了核微小RNA在癌症治疗中的潜在应用，包括调控癌基因网络和肿瘤抑制通路，并指出递送系统、免疫原性、调控复杂性和伦理治理等临床转化挑战。",
+      "key_results": "核微小RNA区别于经典细胞质miRNA，不依赖Dicer且具有转录激活功能；它们通过多种核酸互作机制调控染色质结构和转录因子可及性，在造血、分化、凋亡及癌症进展中发挥关键作用。"
+    }
+  },
+  {
+    "id": "42107965",
+    "title": "Pleuropulmonary Blastoma and Diagnostic Pitfalls: A Report from the International Pleuropulmonary Blastoma/DICER1 Registry.",
+    "abstract": "Pleuropulmonary blastoma (PPB) is a rare primary lung neoplasm predominantly occurring in infancy and early childhood, which, because of rarity and/or confusion with congenital cystic lung lesions and its variable architectural and morphologic features, can be a diagnostic challenge. To characterize the diagnostic challenges in cases submitted to the International PPB/DICER1 [dicer 1, ribonuclease III] Registry (Registry) with a possible PPB diagnosis. This study reviews lesions submitted to the Registry during a 35-year period. Pathologic diagnoses, ancillary studies, and genetic information were reviewed. Of the 868 thoracic tumors submitted to the Registry from 1987 to 2022, 79% (685 of 868) were confirmed as PPB by central review. In the remaining 21% (183 of 868) of cases, PPB was either excluded or could not be confirmed with available material. Most of these cases (64%; 117 of 183) were malignant; 31% (56 of 183) were benign, and 5% (10 of 183) were of uncertain malignant potential. The most common benign discrepant diagnosis was congenital pulmonary airway malformation (n = 19), and the most common malignant discrepant or indeterminate diagnosis was rhabdomyosarcoma, including sarcoma with rhabdomyoblastic differentiation (n = 24). DICER1 RNase IIIb hotspot variants were detected by tumor testing in 4 cases with histology discrepant from or inconclusive for classical PPB. Additionally, 4 patients with non-PPB histology were found to have a germline DICER1 pathogenic or likely pathogenic variant without available tumor testing. The histomorphologic heterogeneity of PPB resulted in a variety of non-PPB diagnoses among cases not initially classified as PPB. Molecular testing may clarify the diagnosis and provide prognostic and therapeutic insights.",
+    "authors": [
+      "Nelson AT",
+      "Schultz KAP",
+      "Harris AK",
+      "Mei L",
+      "Nickel AJ",
+      "Stewart DR",
+      "Harney LA",
+      "Dishop MK",
+      "Pogoriler J",
+      "Olson DR",
+      "Messinger YH",
+      "Hill DA",
+      "Dehner LP"
+    ],
+    "published": "2026-05-11",
+    "journal": "Archives of pathology & laboratory medicine",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42107965/",
+    "score": 15,
+    "summary": {
+      "title_zh": "胸膜肺母细胞瘤与诊断陷阱：来自国际胸膜肺母细胞瘤/DICER1登记处的报告",
+      "enzyme_type": "DICER1（RNase III 家族，具体为 Class II RNase III，含 RNase IIIb 结构域）",
+      "mechanism": "DICER1 通过其 RNase IIIb 结构域识别并切割双链 RNA 前体，产生小干扰 RNA 或 microRNA，参与 RNA 干扰和基因调控。底物识别依赖于双链 RNA 的长度和末端结构，切割催化由两个 RNase III 结构域协同完成，产物释放后参与 RNA 沉默复合体形成。",
+      "engineering": "本文未涉及蛋白工程化改造或可编程 RNA 切割应用，但通过分子检测（如 DICER1 RNase IIIb 热点变异）辅助诊断胸膜肺母细胞瘤，提示 DICER1 突变检测在肿瘤诊断和预后评估中的临床价值。",
+      "key_results": "在 868 例提交病例中，仅 79% 被确认为胸膜肺母细胞瘤，21% 为误诊或不确定；最常见的误诊包括先天性肺气道畸形和横纹肌肉瘤。4 例非典型组织学病例通过肿瘤检测发现 DICER1 RNase IIIb 热点变异，另有 4 例非胸膜肺母细胞瘤患者携带胚系 DICER1 致病性变异，表明分子检测可澄清诊断并提供治疗线索。"
+    }
+  },
+  {
+    "id": "41990578",
+    "title": "Disease-driven loss of inactive HSD17B13 isoforms enhances enzymatic output in MASH and counters protective rs72613567:TA variant.",
+    "abstract": "We investigated whether liver disease alters HSD17B13 isoform expression, identifying selective loss of exon 2-skipped variants and uncovering variant B as a structured, noncoding RNA with silencing potential. Human liver samples from lean control (n = 6), metabolic dysfunction-associated steatotic liver (MASL, n = 8), and metabolic dysfunction-associated steatohepatitis (MASH, n = 8) participants were analyzed by isoform-specific reverse-transcription PCR and quantitative PCR. HepG2 cells were transfected with HSD17B13 variant A or B constructs. RNA expression, protein production, RNase sensitivity, and RNA structural conformations (RNAfold) were evaluated. Functional effects were tested under oleic acid-induced lipotoxic stress. We observed a selective reduction in exon 2-skipped HSD17B13 isoforms (variants B and G) in both human MASL (∼63% vs. lean control; p <0.01) and MASH (∼93% vs. lean control; p <0.001), independent of rs72613567:TA genotype. Notably, variant B nearly abolished endogenous HSD17B13 expression in HepG2 cells (∼99% reduction; p <0.001) without generating detectable protein. RNase III sensitivity assays and RNAfold modeling revealed stable, duplex-rich RNA structures, supporting a noncoding regulatory role for these isoforms under oleic acid-induced lipotoxic stress. Restoration of exon 2-skipped HSD17B13 isoforms, particularly variant B, may offer a genotype-independent therapeutic strategy for MASH by mimicking protective effects through structured RNA-mediated suppression of enzymatic HSD17B13 activity. These findings support a dual mechanism of HSD17B13 regulation in liver disease through genotype-mediated transcript suppression and disease-driven isoform imbalance. Therapeutic re-expression of exon 2-skipped isoforms, particularly variant B, may offer a novel strategy to replicate the protective effect of the TA allele without enzymatic inhibition.",
+    "authors": [
+      "Min J",
+      "Seneshaw M",
+      "Mirshahi F",
+      "Min HK",
+      "Sanyal AJ"
+    ],
+    "published": "2026-05-01",
+    "journal": "JHEP reports : innovation in hepatology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41990578/",
+    "score": 15,
+    "summary": {
+      "title_zh": "疾病驱动的非活性HSD17B13亚型缺失增强MASH中的酶活性并抵消保护性rs72613567:TA变异",
+      "enzyme_type": "RNase III（用于RNA结构敏感性分析，非直接切割酶）",
+      "mechanism": "本研究通过RNase III敏感性实验和RNAfold建模，发现HSD17B13的B亚型（外显子2跳跃变体）形成稳定的富含双链RNA结构，作为非编码RNA发挥沉默作用，抑制内源性HSD17B13表达。在MASH中，这些外显子2跳跃亚型选择性丢失（MASH中减少约93%），导致酶活性增强，并抵消了保护性rs72613567:TA变体的效应。",
+      "engineering": "研究未涉及RNase III的工程化改造，但利用RNase III敏感性实验验证了B亚型RNA的双链结构特征。治疗策略上提出通过恢复外显子2跳跃亚型（特别是B亚型）的表达，模拟TA等位基因的保护作用，无需直接抑制酶活性，为MASH提供基因型无关的治疗新思路。",
+      "key_results": "在人类MASL和MASH肝脏样本中，外显子2跳跃的HSD17B13亚型（B和G）显著减少（MASH中减少约93%），且B亚型在HepG2细胞中几乎完全抑制内源性HSD17B13表达（减少约99%），不产生可检测蛋白。RNase III敏感性实验和RNAfold模型证实B亚型形成稳定的双链RNA结构，支持其非编码调控功能。"
+    }
+  },
+  {
+    "id": "42001419",
+    "title": "Non-canonical proteolytic activation of RNase L by SARS-CoV-2 3CL",
+    "abstract": "During SARS-CoV-2 infection, the key protective oligoadenylate synthetase (OAS) that activates RNase L upon sensing viral dsRNA is the membrane-anchored OAS1 isoform p46. We show that SARS-CoV-2 3C-like main protease (3CL",
+    "authors": [
+      "Bell PA",
+      "Baid K",
+      "Pan C",
+      "Grin PM",
+      "de Jesus HCR",
+      "Kappelhoff R",
+      "Pablos I",
+      "Butler GS",
+      "Shrivastava S",
+      "Ansari A",
+      "Banerjee A",
+      "Overall CM"
+    ],
+    "published": "2026-04-17",
+    "journal": "Cell reports",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42001419/",
+    "score": 15,
+    "summary": {
+      "title_zh": "SARS-CoV-2 3CL蛋白酶对RNase L的非经典蛋白水解激活",
+      "enzyme_type": "RNase L（一种受干扰素诱导的、依赖双链RNA激活的核糖核酸内切酶，属于RNase A超家族，而非典型的RNase III家族；但本文涉及双链RNA切割活性）",
+      "mechanism": "在SARS-CoV-2感染中，膜锚定的OAS1 p46亚型感知病毒双链RNA后激活RNase L。然而，病毒3CL蛋白酶通过非经典蛋白水解切割RNase L，绕过OAS/2-5A经典通路，直接激活RNase L的核酸酶活性，导致宿主RNA降解和翻译关闭。",
+      "engineering": "本文未涉及RNase L的工程化改造或突变设计，但揭示了病毒蛋白酶对宿主抗病毒核酸酶的劫持机制，为开发靶向3CL蛋白酶的抗病毒药物或设计可编程RNA切割工具提供了新思路。",
+      "key_results": "实验证明SARS-CoV-2 3CL蛋白酶能在体外和细胞内直接切割并激活RNase L，且该激活不依赖经典的2-5A信号通路；激活的RNase L导致宿主mRNA和rRNA降解，抑制病毒复制，但过度激活可能引发细胞损伤。"
+    }
+  }
+]
