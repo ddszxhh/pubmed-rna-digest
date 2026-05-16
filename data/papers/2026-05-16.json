@@ -1,0 +1,27 @@
+[
+  {
+    "id": "42135903",
+    "title": "Uncovering the role of the PPR protein PHOTOSYSTEM ONE BIOGENESIS FACTOR6 in splicing chloroplast group II introns.",
+    "abstract": "Nucleus-encoded proteins are involved in intron splicing in plant chloroplasts. Although many splicing factors were discovered, the mechanisms for chloroplast intron splicing remain unknown. Here, we identified a P-class pentatricopeptide repeat (PPR) protein, PHOTOSYSTEM ONE BIOGENESIS FACTOR6 (PBF6), that is essential for the accumulation of photosystem I complex. PBF6 bound to ycf3 intron 1 and clpP1 intron 2, and the introns of petB, ndhA, and ndhB transcripts, and was required for their splicing. Truncated PBF6 containing the 10 N-terminal PPR motifs bound to specific sequences to ycf3 intron 1, clpP1 intron 2, and to the introns of petB, ndhA, and ndhB. PBF6 formed two multi-subunit splicing complexes with other known splicing factors from the CRM, peptidyl-tRNA hydrolase, RNase III, PORR, APO, DEAD-box RNA helicase, and mTERF families. PBF6-containing complex I was about 600 kDa, comprising nine known splicing factors: CAF1, CAF2, CRS2, CFM3a, RNC1, WTF1, APO2, RH3, and mTERF2. PBF6-containing complex II was about 300 kDa and contained three known splicing factors: CAF1, CAF2, and CFM2. Furthermore, two known PPR-type splicing factors, PBF2 and ECD2, both of which are required for splicing the ycf3 intron 1, also formed two multi-subunit splicing complexes with other known splicing factors. Importantly, these three PPR-type splicing factors formed their splicing complexes independently. Our data suggest that a PPR-type splicing factor forms splicing complexes with other known splicing factors under transient expression conditions to facilitate intron splicing and that several PPR-type splicing factors work together to promote the splicing of the same intron through forming respective splicing complexes.",
+    "authors": [
+      "Li M",
+      "Sun M",
+      "Lv J",
+      "Song M",
+      "Lu S",
+      "Zhang A",
+      "Lu C"
+    ],
+    "published": "2026-05-14",
+    "journal": "Journal of integrative plant biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42135903/",
+    "score": 45,
+    "summary": {
+      "title_zh": "揭示PPR蛋白PBF6在剪接叶绿体II型内含子中的作用",
+      "enzyme_type": "RNase III（RNC1）作为多亚基剪接复合体组分参与叶绿体II型内含子剪接",
+      "mechanism": "PBF6通过其N端10个PPR基序特异性结合ycf3内含子1、clpP1内含子2以及petB、ndhA、ndhB转录本的内含子，并招募CRM、肽酰-tRNA水解酶、RNase III（RNC1）、PORR、APO、DEAD-box RNA解旋酶和mTERF家族等已知剪接因子，形成约600 kDa和约300 kDa的两个多亚基剪接复合体，分别包含9个和3个已知剪接因子，从而促进内含子剪接。",
+      "engineering": "未涉及蛋白优化、突变设计或底物特异性重编程；但揭示了PPR型剪接因子（PBF6、PBF2、ECD2）独立形成剪接复合体的机制，为未来工程化改造叶绿体RNA加工或设计可编程RNA剪接工具提供了潜在靶点。",
+      "key_results": "PBF6缺失导致光系统I复合体积累受阻，其与ycf3、clpP1、petB、ndhA、ndhB的内含子结合并剪接；PBF6形成两个独立的多亚基剪接复合体（600 kDa和300 kDa），且三种PPR型剪接因子（PBF6、PBF2、ECD2）通过各自复合体独立促进同一内含子的剪接。"
+    }
+  }
+]
