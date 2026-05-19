@@ -1,0 +1,25 @@
+[
+  {
+    "id": "42148733",
+    "title": "Mapping of in vivo cleavage sites uncovers a major role for yeast RNase III in regulating protein-coding genes.",
+    "abstract": "A large fraction of newly transcribed RNA is degraded in the nucleus, but nuclear mRNA degradation pathways remain largely understudied. The yeast nuclear endoribonuclease Rnt1 has a well-characterized role in the maturation of many ncRNA precursors. However, the scope and consequence of its function in mRNA degradation pathways are much less defined. Here, we take a whole-transcriptome approach to identify Rnt1 cleavage sites throughout the yeast transcriptome in vivo, at single-nucleotide resolution. We discover previously unknown Rnt1 cleavage sites in many protein-coding regions and find that the sequences and structures necessary for cleavage mirror those required for the cleavage of known targets. We show that the nuclear localization of Rnt1 functions as an additional layer of target selection control, and that cleaved mRNAs are likely exported to the cytoplasm to be degraded by Xrn1. Further, we find that several cleavage products are much more abundant in our degradome sequencing libraries than decapping products, and strikingly, mutations in one Rnt1 target,",
+    "authors": [
+      "Notice-Sarpaning LA",
+      "Catala M",
+      "Stuart C",
+      "Elela SA",
+      "van Hoof A"
+    ],
+    "published": "2026-05-18",
+    "journal": "eLife",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42148733/",
+    "score": 85,
+    "summary": {
+      "title_zh": "体内切割位点图谱揭示酵母RNase III在调控蛋白编码基因中的主要作用",
+      "enzyme_type": "Class I RNase III（酵母Rnt1p）",
+      "mechanism": "Rnt1p通过识别特定的RNA序列和茎环结构来切割双链RNA，其底物识别依赖于保守的切割位点序列和结构特征。切割后，mRNA片段被输出至细胞质，由Xrn1外切核酸酶降解，而Rnt1p的核定位作为额外的靶标选择控制层，确保仅核内RNA被加工。",
+      "engineering": "该研究未涉及蛋白工程化改造或突变设计，但通过全转录组体内切割位点图谱揭示了Rnt1p的天然底物谱，为未来基于Rnt1p的可编程RNA切割或诊断应用提供了序列和结构基础。",
+      "key_results": "在全转录组水平上以单核苷酸分辨率鉴定了Rnt1p在酵母体内的大量新切割位点，发现许多位于蛋白编码区，且切割所需序列和结构与已知靶标一致；突变一个Rnt1p靶标基因导致其切割产物在降解组测序文库中显著富集，表明Rnt1p在mRNA降解中起主要作用。"
+    }
+  }
+]
