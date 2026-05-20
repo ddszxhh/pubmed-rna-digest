@@ -1,0 +1,31 @@
+[
+  {
+    "id": "42150718",
+    "title": "Synthesis of scarless circular RNAs expressing long-acting GLP-1RAs for type 2 diabetes therapy.",
+    "abstract": "Glucagon-like peptide-1 (GLP-1) is a prominent therapeutic agent capable of normalizing fasting blood glucose levels in diabetic patients. While GLP-1-expressing mRNA encapsulated in lipid nanoparticles (LNPs) has been evaluated for diabetes treatment in primate models, circular RNAs (circRNAs) represent a more stable alternative to linear mRNA, offering significant potential for the development of next-generation GLP-1-encoding RNA therapeutics. This study aims to design and synthesize a safe, long-acting circRNA encoding a GLP-1 receptor agonist (GLP-1RA). We developed a scarless PIE (SLPIE) system that embeds essential exonic sequences within a split internal ribosome entry site (IRES), thereby minimizing immunogenicity. Scarless circRNAs expressing GLP-1RA or its analogs were synthesized using this SLPIE platform, encapsulated in LNPs, and evaluated for antidiabetic efficacy. Our SLPIE system facilitated efficient RNA circularization. Systematic optimization identified the EV-B107_IRES as highly compatible with the SLPIE strategy and superior in translational efficiency. Incorporating 5-7% m⁶A modification during RNA synthesis enhanced translation via DOPE-based LNPs while maintaining minimal immunogenicity. Notably, scarless circRNAs encoding GLP-1 or its derivative, GLP-1_FcBO (fused with an IgG-Fc affinity peptide), demonstrated potent and sustained hypoglycemic and anti-obesity effects in diabetic mice, matching the efficacy of Semaglutide over a 7-day period. Additionally, we established a scalable production platform using an RNase III-deficientE. colistrain. The SLPIE system thus offers a simple, flexible, and scalable advancement for circRNA therapeutics and opening new avenues for treating diabetes and obesity.",
+    "authors": [
+      "Lin Y",
+      "Huang Z",
+      "Xiao Z",
+      "Wang S",
+      "Liu J",
+      "Chen T",
+      "Zhang W",
+      "Gu S",
+      "Zhou R",
+      "Yao Z",
+      "Guo X"
+    ],
+    "published": "2026-05-17",
+    "journal": "Journal of advanced research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42150718/",
+    "score": 35,
+    "summary": {
+      "title_zh": "用于2型糖尿病治疗的长效GLP-1受体激动剂无痕环状RNA的合成",
+      "enzyme_type": "RNase III缺陷型大肠杆菌菌株（用于环状RNA规模化生产）",
+      "mechanism": "该研究开发了无痕PIE（SLPIE）系统，通过将外显子序列嵌入分裂的内部核糖体进入位点（IRES）中，实现RNA的环化，从而避免引入外源序列，降低免疫原性。环状RNA通过IRES介导的翻译起始机制表达GLP-1受体激动剂（GLP-1RA），其稳定性优于线性mRNA，可延长蛋白表达持续时间。",
+      "engineering": "工程化方面，系统优化了IRES元件（EV-B107_IRES）以提高翻译效率；在RNA合成中引入5-7%的m⁶A修饰，通过DOPE基脂质纳米颗粒递送增强翻译并维持低免疫原性；利用RNase III缺陷型大肠杆菌菌株建立了可规模化的生产平台。应用上，该SLPIE系统用于合成编码GLP-1或GLP-1_FcBO（与IgG-Fc亲和肽融合）的无痕环状RNA，包裹于LNP中，在糖尿病小鼠模型中展现出与司美格鲁肽相当的降糖和抗肥胖效果。",
+      "key_results": "SLPIE系统实现了高效RNA环化，EV-B107_IRES在翻译效率上表现最优；编码GLP-1或GLP-1_FcBO的无痕环状RNA在糖尿病小鼠中表现出持续7天的强效降糖和抗肥胖作用，效果与司美格鲁肽相当。"
+    }
+  }
+]
