@@ -1,0 +1,22 @@
+[
+  {
+    "id": "42167143",
+    "title": "Drosha Dice(r)ing lipid metabolism in the liver.",
+    "abstract": "SREBP transcription factors are key regulators of lipid metabolism and play a central role in metabolic dysfunction-associated steatotic liver disease (MASLD). In a recent issue of Molecular Cell, Nie et al.",
+    "authors": [
+      "Zhao LN",
+      "Kaldis P"
+    ],
+    "published": "2026-05-21",
+    "journal": "Cell chemical biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42167143/",
+    "score": 15,
+    "summary": {
+      "title_zh": "Drosha在肝脏脂质代谢中的“切割”作用",
+      "enzyme_type": "Class II RNase III（Drosha）",
+      "mechanism": "该研究揭示了Drosha通过切割双链RNA底物（如microRNA前体）参与肝脏脂质代谢调控的机制。Drosha识别并切割pri-miRNA茎环结构，释放pre-miRNA，进而影响SREBP转录因子等脂质代谢关键调控因子的表达。产物释放后，成熟的miRNA通过RNA干扰途径精细调控脂质合成相关基因。",
+      "engineering": "目前摘要未提及直接的工程化改造，但Drosha作为miRNA加工的核心酶，其底物识别和切割活性的调控为设计针对脂代谢紊乱的RNA干扰工具提供了潜在靶点。未来可通过突变或结构域融合优化其切割特异性，用于代谢疾病诊断或治疗。",
+      "key_results": "Nie等人发现Drosha在肝脏中的活性异常与代谢功能障碍相关脂肪性肝病（MASLD）密切相关，通过调控miRNA加工影响SREBP通路，从而改变脂质代谢稳态。该结果在细胞和体内模型中均得到验证。"
+    }
+  }
+]
