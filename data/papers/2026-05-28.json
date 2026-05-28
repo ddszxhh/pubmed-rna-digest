@@ -1,0 +1,23 @@
+[
+  {
+    "id": "42202036",
+    "title": "Exploring Small-Molecule Modulators of Precursor miRNA Processing Associated With Glycolysis.",
+    "abstract": "MicroRNAs (miRNAs) are single-stranded noncoding RNAs with 17-25 nucleotides in length that modulate gene expression by binding to specific mRNAs. They play a critical role in the maintenance and regulation of various physiological functions. In humans, approximately 2000 miRNAs have been identified, and they are predicted to regulate the expression of approximately 60% of all protein-coding genes. Given their broad regulatory role, small molecules targeting miRNA biogenesis can induce significant changes in cellular function. In this study, we conducted a high-throughput screening of a chemical library comprising 2320 known compounds to identify small-molecule binders to target precursor miRNAs (pre-miRNAs) using a fluorescent indicator displacement (FID) assay. Two sequential screenings using distinct fluorescent indicators identified 34 candidate compounds capable of interacting with the target pre-miRNAs. The binding of these candidate compounds to the target pre-miRNAs was further evaluated by surface plasmon resonance (SPR) analysis. We subsequently evaluated the effects of the candidate compounds on the Dicer-mediated processing of the target pre-miRNAs, leading to the identification of several compounds with the inhibitory effect.",
+    "authors": [
+      "Fujiki M",
+      "Koga D",
+      "Seike-Murata A"
+    ],
+    "published": "2026-05-27",
+    "journal": "ChemMedChem",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42202036/",
+    "score": 55,
+    "summary": {
+      "title_zh": "探索与糖酵解相关的前体miRNA加工的小分子调节剂",
+      "enzyme_type": "Dicer（Class II RNase III）",
+      "mechanism": "该研究通过高通量筛选鉴定能够结合前体miRNA（pre-miRNA）的小分子化合物，这些化合物通过荧光指示剂置换（FID）实验和表面等离子共振（SPR）分析确认结合活性。进一步评估候选化合物对Dicer介导的pre-miRNA加工的影响，发现若干化合物具有抑制Dicer切割活性的作用，从而调控miRNA成熟过程。",
+      "engineering": "本研究未涉及蛋白工程化改造或突变设计，而是聚焦于小分子化合物对Dicer加工pre-miRNA的调控。应用方面，筛选出的小分子调节剂可能用于干扰特定miRNA的生物合成，进而影响糖酵解相关基因表达，具有潜在的疾病治疗或生物技术应用价值。",
+      "key_results": "通过两轮荧光指示剂置换筛选，从2320种化合物中鉴定出34种能与靶标pre-miRNA结合的候选化合物；其中部分化合物在体外Dicer加工实验中表现出抑制pre-miRNA切割的活性。"
+    }
+  }
+]
