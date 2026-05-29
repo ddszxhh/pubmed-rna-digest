@@ -1,0 +1,70 @@
+[
+  {
+    "id": "42203527",
+    "title": "Reconstitution of antiviral Dicer activity in vitro reveals distinct contributions of RDE-4 dsRNA-binding motifs.",
+    "abstract": "In",
+    "authors": [
+      "Boyle EP",
+      "Aruscavage PJ",
+      "Consalvo CD",
+      "Bass BL"
+    ],
+    "published": "2026-05-27",
+    "journal": "RNA (New York, N.Y.)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42203527/",
+    "score": 85,
+    "summary": {
+      "title_zh": "体外重建抗病毒Dicer活性揭示RDE-4双链RNA结合基序的不同贡献",
+      "enzyme_type": "Class III RNase III（Dicer），来自秀丽隐杆线虫（C. elegans），与dsRNA结合蛋白RDE-4协同作用",
+      "mechanism": "RDE-4通过其两个dsRNA结合基序（dsRBM1和dsRBM2）识别并结合双链RNA，其中dsRBM1主要负责底物结合，dsRBM2则促进Dicer的切割催化效率。Dicer在RDE-4辅助下完成dsRNA的加工，释放21-23 nt的小干扰RNA（siRNA），产物随后进入RNA干扰通路。",
+      "engineering": "本研究通过体外重建系统，利用纯化的Dicer和RDE-4突变体，揭示了RDE-4不同dsRNA结合基序的功能分工，为设计可编程RNA切割工具或优化RNAi效率提供了结构-功能基础，但未涉及直接的蛋白工程化改造或应用开发。",
+      "key_results": "体外重建实验表明，RDE-4的dsRBM1对dsRNA结合至关重要，而dsRBM2对Dicer的切割活性具有特异性增强作用；缺失任一基序均会显著降低siRNA产生效率，证实了RDE-4在抗病毒RNAi中的双重功能。"
+    }
+  },
+  {
+    "id": "42207300",
+    "title": "DICER1 alterations in thyroid lesions: a systematic review and meta-analysis with clinicopathologic implications.",
+    "abstract": "DICER1 is a key RNase III endoribonuclease involved in microRNA biogenesis and is implicated in both constitutional DICER1-related tumor predisposition and sporadic thyroid tumorigenesis. In thyroid pathology, DICER1 alterations have been reported across a broad spectrum of lesions, but their reported frequency and clinicopathologic significance vary substantially across published series. We performed a systematic review of thyroid-focused studies published between 2020 and 2025. Studies were included in the quantitative synthesis only if they provided an interpretable lesion-level numerator and denominator for thyroid lesions harbouring DICER1 alterations. Additional thyroid-focused studies that refined the cytomorphologic, histologic, and lesion-spectrum interpretation of DICER1-associated thyroid disease, but lacked a suitable denominator for prevalence meta-analysis, were retained for qualitative clinicopathologic synthesis. Random-effects meta-analysis of logit-transformed proportions was used for the quantitative component. Seven studies met criteria for quantitative synthesis, comprising 16,831 thyroid lesions, of which 317 were reported as DICER1-altered. Study-level proportions ranged from 1.4% in a large adult consecutive molecular-testing cohort to 22.0% in a pediatric follicular-patterned tumor cohort. The pooled proportion of thyroid lesions harbouring DICER1 alterations was 5.76% (95% CI, 2.49%-12.78%), with substantial heterogeneity (I² = 96.94%). Exploratory stratification showed lower pooled proportions in predominantly adult cohorts and higher pooled proportions in pediatric or young-enriched cohorts. Qualitative synthesis showed that DICER1 alterations occur across a wide thyroid lesion spectrum, including multinodular and follicular nodular disease, follicular adenoma, NIFTP, follicular thyroid carcinoma, follicular-patterned papillary thyroid carcinoma, and rare higher-grade or primitive malignant tumors such as thyroblastoma. Cytologically and histologically, these lesions frequently show follicular-patterned architecture, often with macrofollicular or mixed follicular growth and relatively bland nuclear features.Seven studies met criteria for quantitative synthesis, comprising 16,831 thyroid lesions, of which 317 were reported as DICER1-altered. Study-level proportions ranged from 1.4% in a large adult consecutive molecular-testing cohort to 22.0% in a pediatric follicular-patterned tumor cohort. The pooled proportion of thyroid lesions harbouring DICER1 alterations was 5.76% (95% CI, 2.49%-12.78%), with substantial heterogeneity (I² = 96.94%). Exploratory stratification showed lower pooled proportions in predominantly adult cohorts and higher pooled proportions in pediatric or young-enriched cohorts. Qualitative synthesis showed that DICER1 alterations occur across a wide thyroid lesion spectrum, including multinodular and follicular nodular disease, follicular adenoma, NIFTP, follicular thyroid carcinoma, follicular-patterned papillary thyroid carcinoma, and rare higher-grade or primitive malignant tumors such as thyroblastoma. Cytologically and histologically, these lesions frequently show follicular-patterned architecture, often with macrofollicular or mixed follicular growth and relatively bland nuclear features. DICER1 alterations are uncommon in large unselected adult thyroid cohorts but enriched in pediatric, young-adult, and follicular-patterned settings. They should not be interpreted as isolated lesion-specific markers. Rather, their diagnostic significance lies in the integration of molecular findings with lesion type, cytomorphology, histology, patient age, and clinical context, including the selective recognition of cases in which constitutional DICER1-related tumor predisposition should be considered.",
+    "authors": [
+      "Straccia P",
+      "Fiorentino V",
+      "Piermattei A",
+      "Mulè A",
+      "Rossi ED",
+      "Rossi E"
+    ],
+    "published": "2026-05-28",
+    "journal": "Virchows Archiv : an international journal of pathology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42207300/",
+    "score": 25,
+    "summary": {
+      "title_zh": "甲状腺病变中的DICER1改变：系统综述与荟萃分析及其临床病理意义",
+      "enzyme_type": "Class II RNase III（Dicer）",
+      "mechanism": "DICER1是miRNA生物发生中的关键RNase III内切核糖核酸酶，负责切割双链RNA前体生成成熟miRNA。在甲状腺病变中，DICER1改变（包括突变和缺失）影响其底物识别和切割催化功能，导致miRNA加工异常，进而调控基因表达，促进肿瘤发生。产物释放和RNA调控机制涉及miRNA成熟过程的失调，影响细胞增殖和分化。",
+      "engineering": "该研究为系统综述和荟萃分析，未涉及直接的蛋白工程化改造或突变设计。但研究结果提示DICER1改变在甲状腺病变中的诊断意义需结合分子、组织学和临床背景，为未来基于DICER1的工程化应用（如诊断标志物或治疗靶点）提供了流行病学基础。",
+      "key_results": "在16,831例甲状腺病变中，DICER1改变的总合并比例为5.76%（95% CI, 2.49%-12.78%），但异质性高（I²=96.94%）。在儿科或年轻患者队列中比例更高（高达22.0%），且DICER1改变广泛存在于多种滤泡型甲状腺病变中，包括良性结节和恶性肿瘤。"
+    }
+  },
+  {
+    "id": "42206634",
+    "title": "Nuclear receptor genes HR3 and βFTZ-F1 are involved in moulting development, pupation and eclosion in Hyphantria cunea (Drury).",
+    "abstract": "Nuclear receptor genes play crucial roles in insect moulting. These genes, found in all insects, produce important proteins that control the expression of other genes, which in turn regulate the moulting process in larvae. This study investigated the roles of the nuclear receptor genes HcHR3 and HcβFTZ-F1 in the moulting development, pupation and eclosion of Hyphantria cunea. The mRNA expression of the two genes was detected at all developmental stages and in various adult tissues. A novel pET28a (+)-HT115 (DE3) RNase III-system was successfully constructed to efficiently express HcHR3-dsRNA and HcβFTZ-F1-dsRNA in bacteria. To explore the physiological functions of these genes, they were knocked down in larvae and pupae using the dsRNA extracted from bacteria, resulting in a decrease in the expression levels of HcHR3 and HcβFTZ-F1 by 13.70% and 99.01%, respectively. Moulting defects were observed in H. cunea larvae following HcHR3 and HcβFTZ-F1 silencing, with a phenotypic percentage ranging from 33.40% to 45.22%. Additionally, knockdown of these two genes in 5th instar larvae decreased weight, food intake and the survival rate, resulting in abnormal development during the larval-pupal transition. RNAi-mediated knockdown of HcHR3 and HcβFTZ-F1 prevented the eclosion of the pupae, with malformation rates ranging from 75.67% to 80.12%, and epidermal tanning defects were observed in pupae and adults. Our findings demonstrate that HcHR3 and HcβFTZ-F1 are indispensable for normal postembryonic development and provide validated molecular targets for RNAi-based pest management and insight into the outbreak mechanisms of H. cunea.",
+    "authors": [
+      "Chu J",
+      "Zhang J",
+      "Sun L",
+      "Cao C"
+    ],
+    "published": "2026-05-28",
+    "journal": "Insect molecular biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42206634/",
+    "score": 25,
+    "summary": {
+      "title_zh": "核受体基因HR3和βFTZ-F1参与美国白蛾蜕皮发育、化蛹和羽化",
+      "enzyme_type": "RNase III系统（用于dsRNA表达）",
+      "mechanism": "本研究构建了pET28a(+)-HT115(DE3) RNase III系统，利用细菌内源RNase III高效表达靶向核受体基因HcHR3和HcβFTZ-F1的双链RNA（dsRNA）。通过RNAi介导的基因沉默，dsRNA被幼虫和蛹摄取后，分别降低靶基因表达水平13.70%和99.01%，进而干扰蜕皮激素信号通路，导致蜕皮缺陷、化蛹异常和羽化受阻。",
+      "engineering": "工程化构建了pET28a(+)-HT115(DE3) RNase III表达系统，用于在细菌中高效生产dsRNA，实现靶基因的RNAi沉默。该系统可应用于基于RNAi的害虫防治，为美国白蛾的分子靶标验证和爆发机制研究提供工具。",
+      "key_results": "沉默HcHR3和HcβFTZ-F1后，幼虫蜕皮缺陷表型发生率为33.40%-45.22%，蛹羽化畸形率达75.67%-80.12%，并伴随体重、取食量和存活率下降，以及表皮鞣化缺陷。"
+    }
+  }
+]
