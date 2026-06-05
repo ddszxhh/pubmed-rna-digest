@@ -1,0 +1,51 @@
+[
+  {
+    "id": "42240309",
+    "title": "HTLV-1 Tax and HBZ cooperatively promote leukemogenesis through miR-155-mediated PTEN suppression and PI3K-Akt activation.",
+    "abstract": "Human T-cell leukemia virus type 1 (HTLV-1) causes adult T-cell leukemia/lymphoma (ATLL), but the full scope of its oncogenic mechanisms remains elusive. While the viral oncoprotein Tax drives early oncogenesis, its expression is frequently silenced in later stages of ATLL, whereas the HTLV-1 basic leucine zipper factor (HBZ) is constitutively expressed throughout infection. This shifting viral expression profile underscores the critical need to define HBZ-specific oncogenic mechanisms. Here, we identify miR-155 as a key oncogenic driver in ATLL and reveal a novel, HBZ-dependent post-transcriptional regulatory axis that sustains its overexpression. We confirm Tax-mediated transcriptional activation of miR-155 but further demonstrate that HBZ enhances miR-155 maturation by elevating Dicer expression and promoting its processing of pre-miR-155. The elevated miR-155 promotes tumorigenesis through targeting PTEN and activating PI3K-Akt pathway. Functional studies demonstrate that miR-155 overexpression drives ATLL progression by enhancing proliferation and inhibiting apoptosis, while its inhibition reverses these malignant phenotypes. Xenograft models confirm that miR-155 blockade significantly reduces tumor growth. Our results uncover a cooperative mechanism by which HTLV-1 Tax and HBZ jointly drive miR-155 overexpression to promote leukemogenesis and identify miR-155 as a potential therapeutic target in ATLL. Adult T-cell leukemia/lymphoma (ATLL) is an aggressive cancer caused by HTLV-1 with limited treatment options. We show that HTLV-1 hijacks the host microRNA miR-155 to drive tumor growth. While the viral protein Tax activates miR-155 transcription, we discovered that HBZ-constitutively expressed even when Tax is silenced-sustains miR-155 expression by upregulating Dicer and enhancing miR-155 processing. Elevated miR-155 then suppresses PTEN and activates the PI3K-Akt pathway, promoting cancer cell proliferation. Importantly, blocking miR-155 significantly reduces tumor growth in mouse models, identifying miR-155 as a promising therapeutic target for ATLL.",
+    "authors": [
+      "Xin X",
+      "Mao Y",
+      "Li Q",
+      "Wang X",
+      "Fang J",
+      "Zhao T"
+    ],
+    "published": "2026-06-04",
+    "journal": "Journal of virology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42240309/",
+    "score": 45,
+    "summary": {
+      "title_zh": "HTLV-1 Tax与HBZ通过miR-155介导的PTEN抑制和PI3K-Akt激活协同促进白血病发生",
+      "enzyme_type": "Dicer（Class III RNase III家族成员）",
+      "mechanism": "HTLV-1病毒蛋白Tax通过转录激活上调miR-155表达，而另一病毒蛋白HBZ通过上调Dicer蛋白水平并促进其对pre-miR-155的加工，增强miR-155的成熟。成熟的miR-155通过靶向抑制PTEN并激活PI3K-Akt信号通路，促进白血病细胞增殖并抑制凋亡。",
+      "engineering": "未涉及RNase III酶的工程化改造或突变设计；研究聚焦于病毒蛋白对宿主Dicer表达及miRNA加工活性的调控，以及miR-155作为治疗靶点的验证（如使用miR-155抑制剂在体内外逆转恶性表型）。",
+      "key_results": "HBZ通过上调Dicer表达并增强其加工pre-miR-155的能力，维持miR-155的持续高表达；miR-155抑制剂在异种移植模型中显著抑制肿瘤生长，证明miR-155是ATLL的潜在治疗靶点。"
+    }
+  },
+  {
+    "id": "41792996",
+    "title": "Cell-free miRNAs are pharmacodynamic biomarkers for enhanced DICER activity by enoxacin in human patients with ALS.",
+    "abstract": "The activity of the RNase III enzyme DICER is downregulated in both sporadic and genetic forms of amyotrophic lateral sclerosis (ALS). Accordingly, hundreds of microRNAs (miRNAs) are broadly downregulated, leading to de-repression of their mRNA targets. Enoxacin is a fluoroquinolone that enhances DICER activity and miRNA biogenesis. Here, we tested for the first time the molecular effect of enoxacin on miRNA biogenesis in ALS patients and demonstrated that enoxacin's engagement with DICER can be pharmacodynamically monitored via miRNA levels in human subjects. In an investigator-initiated, first-in-human study (REALS1), we explored miRNAs as pharmacodynamic biomarkers of DICER activation. Patients with sporadic ALS received oral enoxacin twice daily for 30 days in a double-blind, randomized clinical trial. The study demonstrated comparable enoxacin levels in plasma and cerebrospinal fluid (CSF). Furthermore, an increase in cell-free miRNA levels in both plasma and CSF at all time points following enoxacin treatment (400 or 800 mg/day), was measured relative to baseline. Additionally, no serious adverse events were reported. In conclusion, pharmacological enhancement of DICER activity by enoxacin increases miRNA biogenesis in patients with ALS. These results support further investigation of enoxacin efficacy in larger clinical trials.",
+    "authors": [
+      "Magen I",
+      "Kaneb HM",
+      "Masnata M",
+      "Pulimood N",
+      "Emde A",
+      "Genge A",
+      "Hornstein E"
+    ],
+    "published": "2026-06-03",
+    "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41792996/",
+    "score": 45,
+    "summary": {
+      "title_zh": "无细胞miRNA作为依诺沙星增强ALS患者DICER活性的药效学生物标志物",
+      "enzyme_type": "Class II RNase III（DICER）",
+      "mechanism": "DICER是一种RNase III酶，负责将前体miRNA（pre-miRNA）切割为成熟miRNA。在肌萎缩侧索硬化症（ALS）患者中，DICER活性下调导致miRNA广泛下调。依诺沙星通过增强DICER的切割活性促进miRNA生物合成，从而恢复miRNA对靶mRNA的抑制。",
+      "engineering": "本研究未涉及蛋白工程化改造，而是利用小分子药物依诺沙星作为DICER活性增强剂，通过检测患者血浆和脑脊液中无细胞miRNA水平作为药效学生物标志物，评估DICER激活效果，具有诊断和治疗监测应用价值。",
+      "key_results": "在ALS患者中，依诺沙星（400或800 mg/天）治疗30天后，血浆和脑脊液中无细胞miRNA水平在所有时间点均较基线显著升高，且未出现严重不良事件，证实依诺沙星可通过增强DICER活性增加miRNA生物合成。"
+    }
+  }
+]
