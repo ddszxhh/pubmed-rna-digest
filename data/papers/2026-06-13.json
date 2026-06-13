@@ -1,0 +1,61 @@
+[
+  {
+    "id": "42283406",
+    "title": "RNase III-deficient Bacillus thuringiensis enables stable dsRNA production and enhances HD1 activity against Spodoptera frugiperda.",
+    "abstract": "Spodoptera frugiperda is one of the most important invasive agricultural pests in China. Integrating RNA interference (RNAi) with Bacillus thuringiensis (Bt)-based biocontrol represents a promising strategy for pest control. However, efficient dsRNA production in Bt remains challenging as endogenous RNase activity limits dsRNA stability and accumulation. In this study, an RNase III-deficient Bt strain, DBΔrnc, was generated using an optimized CRISPR-Cas9 system. Deficiency of RNase III markedly enhanced intracellular dsRNA accumulation. A hairpin dsRNA construct exhibited higher transcript levels than the dual-promoter construct, especially in the DBΔrnc background. Oral delivery of Bt expressed hairpin dsRNA targeting the endochitinase gene SfCHI of S. frugiperda induced effective gene silencing and caused pupation defects. Moreover, co-application with Bt HD1 strain significantly increased larval mortality in both neonate and 2 Collectively, our findings highlight that the RNase III-deficient strain DBΔrnc is an efficient chassis for dsRNA expression. Furthermore, the enhanced insecticidal activity from co-application of DBΔrnc(hpdsCHI) and HD1 demonstrates the feasibility of integrating RNAi with Bt-based pest control. © 2026 Society of Chemical Industry.",
+    "authors": [
+      "Zhu Y",
+      "Cao D",
+      "Guo T",
+      "Zhang X",
+      "Luo Y",
+      "Li X",
+      "Yang H",
+      "Zhang M",
+      "Guo S",
+      "Song F"
+    ],
+    "published": "2026-06-12",
+    "journal": "Pest management science",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42283406/",
+    "score": 65,
+    "summary": {
+      "title_zh": "RNase III缺陷型苏云金芽孢杆菌实现稳定dsRNA生产并增强HD1对草地贪夜蛾的杀虫活性",
+      "enzyme_type": "Class I RNase III（由rnc基因编码的内源性RNase III）",
+      "mechanism": "通过CRISPR-Cas9敲除苏云金芽孢杆菌中的rnc基因，消除内源性RNase III对双链RNA（dsRNA）的降解活性，从而显著提高细胞内dsRNA的积累稳定性。发夹结构dsRNA（hpdsRNA）在DBΔrnc菌株中转录水平高于双启动子构建体，且口服递送靶向草地贪夜蛾内切几丁质酶基因SfCHI的hpdsRNA可有效诱导RNA干扰，导致蛹化缺陷。",
+      "engineering": "利用优化的CRISPR-Cas9系统构建RNase III缺陷型菌株DBΔrnc作为dsRNA表达底盘；通过发夹dsRNA设计优化转录效率；将DBΔrnc表达的dsRNA与Bt HD1菌株联合应用，实现RNAi与Bt生物防治的整合，增强对草地贪夜蛾的杀虫活性。",
+      "key_results": "DBΔrnc菌株中dsRNA积累量显著高于野生型；口服递送DBΔrnc表达的hpdsCHI导致草地贪夜蛾蛹化缺陷；DBΔrnc(hpdsCHI)与HD1联合应用显著提高初孵和2龄幼虫死亡率，证实了RNAi与Bt协同防治的可行性。"
+    }
+  },
+  {
+    "id": "42282545",
+    "title": "Cell-type Specific Alteration of",
+    "abstract": "MicroRNAs (miRNAs) have been widely implicated in cancer initiation and progression, yet examination of the effects of global miRNA disruption on these processes has been limited. We developed novel genetically engineered mouse models of",
+    "authors": [
+      "Wells J",
+      "Maser RS",
+      "Doty R",
+      "Tucker A",
+      "Memishian W",
+      "McGee T",
+      "Mitchell-Hutchinson N",
+      "Ramkissoon PJK",
+      "Lesbirel S",
+      "Charette JR",
+      "Munger H",
+      "Beckett T",
+      "Bult CJ"
+    ],
+    "published": "2026-06-01",
+    "journal": "bioRxiv : the preprint server for biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42282545/",
+    "score": 15,
+    "summary": {
+      "title_zh": "细胞类型特异性改变全局miRNA加工对肿瘤发生的影响",
+      "enzyme_type": "Class II RNase III（Drosha/DGCR8微处理器复合体）及Class III RNase III（Dicer）",
+      "mechanism": "该研究通过基因工程小鼠模型全局性破坏miRNA生物合成通路，涉及Drosha和Dicer对pri-miRNA和pre-miRNA的识别与切割。底物识别依赖于双链RNA结构及末端环/突出特征，切割催化由RNase III结构域完成，产物释放后进入RISC复合体调控基因表达。",
+      "engineering": "构建了条件性敲除Drosha或Dicer的基因工程小鼠模型，实现细胞类型特异性miRNA加工缺陷，用于研究miRNA在肿瘤起始和进展中的全局作用。",
+      "key_results": "在特定细胞类型中全局破坏miRNA加工显著改变了肿瘤发生过程，揭示了miRNA在癌症中的细胞类型特异性功能，但具体表型数据需参考全文。"
+    }
+  }
+]
