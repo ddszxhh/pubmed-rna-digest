@@ -1,0 +1,33 @@
+[
+  {
+    "id": "42290658",
+    "title": "ADAR1p110 promotes hepatocellular carcinoma metastasis via the miR-451a/TUBA1A axis.",
+    "abstract": "ADAR1 is overexpressed in hepatocellular carcinoma (HCC) and has been linked to poor prognosis, metastasis, and recurrence; however, its precise functions and underlying mechanisms, particularly in the context of metastasis, remain inadequately elucidated. This study seeks to elucidate the functions and underlying mechanisms of the most abundantly expressed isoform of ADAR1, ADAR1p110, in the setting of HCC metastasis. In this study, hepatocyte-specific ADAR1p110 knock-in mice and engineered HCC cell lines were utilized to investigate the function of ADAR1p110",
+    "authors": [
+      "Sun L",
+      "Yang H",
+      "Hu P",
+      "Zheng J",
+      "Du Y",
+      "Wu S",
+      "Gao H",
+      "Luo H",
+      "Wang Y",
+      "Wang F",
+      "Yan J",
+      "Guan XY",
+      "Li Y"
+    ],
+    "published": "2026-09-01",
+    "journal": "Genes & diseases",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42290658/",
+    "score": 15,
+    "summary": {
+      "title_zh": "ADAR1p110通过miR-451a/TUBA1A轴促进肝细胞癌转移",
+      "enzyme_type": "ADAR1p110（腺苷脱氨酶作用于RNA 1的p110亚型），属于双链RNA特异性腺苷脱氨酶（ADAR）家族，而非RNase III家族；该酶催化双链RNA中的腺苷-to-肌苷（A-to-I）编辑，与RNase III的切割机制不同。",
+      "mechanism": "ADAR1p110通过A-to-I编辑双链RNA底物，调控miR-451a的成熟或稳定性，进而影响其靶基因TUBA1A的表达。该轴促进肝细胞癌（HCC）转移，涉及RNA编辑介导的转录后调控，而非直接的切割催化或产物释放。",
+      "engineering": "本研究未涉及蛋白工程化改造或突变设计；主要利用肝细胞特异性ADAR1p110敲入小鼠和工程化HCC细胞系进行功能验证，未开发可编程RNA切割或诊断应用。",
+      "key_results": "在肝细胞特异性ADAR1p110敲入小鼠和HCC细胞系中，ADAR1p110过表达通过下调miR-451a并上调TUBA1A，显著促进HCC转移；该机制在体内外均得到验证，提示ADAR1p110作为转移促进因子的关键作用。"
+    }
+  }
+]
