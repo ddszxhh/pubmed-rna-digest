@@ -1,0 +1,28 @@
+[
+  {
+    "id": "42308287",
+    "title": "A conserved in-frame stop codon acts as a multipotent defense mechanism in alphaviruses.",
+    "abstract": "Most alphaviruses maintain an in-frame opal stop codon that interrupts their nonstructural polyprotein (nsP) ORF between nsP3 and nsP4 in both vertebrate and insect hosts. We show that the nsP3 opal stop codon confers a replicative advantage to Sindbis virus (SINV) in RNAi-competent",
+    "authors": [
+      "Bhattacharya T",
+      "Freeman TS",
+      "Alleman EM",
+      "Wang F",
+      "Chechik L",
+      "Emerman M",
+      "Myles KM",
+      "Malik HS"
+    ],
+    "published": "2026-06-19",
+    "journal": "Science advances",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42308287/",
+    "score": 15,
+    "summary": {
+      "title_zh": "甲病毒中一个保守的框内终止密码子作为多效防御机制",
+      "enzyme_type": "该论文主要研究甲病毒非结构蛋白（nsP）的翻译调控机制，不涉及RNase III或双链RNA切割核糖核酸酶。",
+      "mechanism": "甲病毒在nsP3与nsP4之间的开放阅读框中保留了一个框内终止密码子（opal终止密码子），该密码子在脊椎动物和昆虫宿主中均能中断非结构多蛋白的翻译。研究表明，该终止密码子赋予辛德毕斯病毒在具备RNA干扰能力的宿主中复制优势，可能通过调控nsP4（RNA依赖的RNA聚合酶）的表达水平来平衡病毒复制与宿主防御。",
+      "engineering": "不涉及RNase III的工程化改造或应用。",
+      "key_results": "实验证明，辛德毕斯病毒中nsP3的opal终止密码子缺失突变体在RNAi-competent宿主中复制能力下降，表明该终止密码子通过调控翻译通读效率帮助病毒逃避或对抗宿主RNAi防御机制。"
+    }
+  }
+]
