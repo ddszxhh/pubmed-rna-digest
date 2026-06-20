@@ -1,0 +1,29 @@
+[
+  {
+    "id": "42315362",
+    "title": "Engineered Bacillus subtilis to deliver dsRNA via extracellular vesicles against the H9N2 avian influenza virus.",
+    "abstract": "RNA interference (RNAi) is a potent antiviral approach, outperforming traditional pesticides and broad-spectrum drugs. Its use in animal disease control faces two challenges: inefficient target design relying on computer-predicted small-interfering RNAs (siRNAs) rather than virus-derived siRNAs (vsiRNAs), and the lack of cost-effective siRNA delivery systems. In this study, we address both limitations by engineering a probiotic Bacillus subtilis 168 strain, called the recombinant B. subtilis AAD (Anti-AIV-DsRNA, targeted AIV), that constitutively expresses vsiRNA-enriched dsRNA targeting the H9N2 avian influenza virus. Oral administration of AAD leads to the release of double-stranded RNA (dsRNA)-loaded extracellular vesicles (EVs), which efficiently reduce H9N2 viral loads and mitigate pathological lesions. Mechanistically, virus-derived dsRNA is processed by the enzyme Dicer into siRNAs, which then activate RNAi and interferon signaling, resulting in approximately a 70% reduction in viral burden. Overall, these findings demonstrate that integrating the probiotic properties of B. subtilis with EV-mediated dsRNA delivery constitutes a sustainable, effective, and residue-free antiviral strategy for animal disease.",
+    "authors": [
+      "Liu J",
+      "Yang Y",
+      "Ma Y",
+      "Qin X",
+      "Wu Y",
+      "Li S",
+      "Cao Y",
+      "Lin J",
+      "Yang Q"
+    ],
+    "published": "2026-06-18",
+    "journal": "Trends in biotechnology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42315362/",
+    "score": 45,
+    "summary": {
+      "title_zh": "工程化枯草芽孢杆菌通过细胞外囊泡递送双链RNA抗H9N2禽流感病毒",
+      "enzyme_type": "Dicer（Class III RNase III家族）",
+      "mechanism": "工程化枯草芽孢杆菌AAD菌株组成型表达富含病毒来源siRNA（vsiRNA）的双链RNA（dsRNA），该dsRNA通过细胞外囊泡（EVs）释放。进入宿主细胞后，dsRNA被Dicer酶切割为siRNA，进而激活RNA干扰（RNAi）和干扰素信号通路，最终抑制H9N2病毒复制。",
+      "engineering": "将编码H9N2病毒dsRNA的基因整合至益生菌枯草芽孢杆菌168基因组中，实现dsRNA的组成型表达和EV介导的递送；无需蛋白优化或突变设计，利用天然EV系统实现低成本、可口服的dsRNA递送，具有抗病毒生物技术应用价值。",
+      "key_results": "口服AAD菌株后，EV携带的dsRNA显著降低H9N2病毒载量（约70%减少）并减轻病理损伤；机制上证实病毒来源dsRNA经Dicer加工为siRNA，激活RNAi和干扰素信号通路。"
+    }
+  }
+]
