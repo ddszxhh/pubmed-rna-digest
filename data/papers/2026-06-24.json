@@ -1,0 +1,29 @@
+[
+  {
+    "id": "42333811",
+    "title": "Dual function of ERH in primary miRNA biogenesis.",
+    "abstract": "MicroRNAs are small non-coding RNAs that mediate post-transcriptional silencing of most mammalian genes. They are generated in a multi-step process initiated by the Microprocessor, a protein complex composed of DROSHA and DGCR8. Recent studies have described the phenomenon of \"cluster assistance,\" in which a prototypic primary miRNA hairpin can license the Microprocessor-mediated processing of a clustered suboptimal hairpin in cis. Genetic screening and mechanistic analyses led to the identification of two critical factors for this process, SAFB2 (scaffold attachment factor B2) and ERH (enhancer of rudimentary homolog), which have been shown to associate with the N-termini of DROSHA and DGCR8, respectively, but also form a complex with each other. However, it remains unclear how SAFB2 and ERH can alter the Microprocessor substrate specificity and whether the described protein-protein interactions are required for cluster assistance. In this study, we focused on the role of ERH and showed that its loss largely phenocopies the effect of SAFB1/2 deletion on the miRNA transcriptome, suggesting that both factors are involved in the same processes of primary miRNA biogenesis. In this context, our data demonstrate that both SAFB1/2 and ERH are required for efficient Microprocessor feedback regulation via processing of pri-miR-1306, uncovering a clear physiological function of cluster assistance. Mechanistically, our data show that ERH-mediated cluster assistance depends neither on its direct association with SAFB2 nor on its described interaction with DGCR8. In contrast, disrupting the ERH binding site within DGCR8 drives the processing of a subset of cluster assistance-unrelated pri-miRNAs. Thus, this study reveals dual roles of ERH in primary miRNA biogenesis, a largely suppressive one driven by its direct binding to DGCR8, and the other in cluster assistance that does not require DGCR8 binding.",
+    "authors": [
+      "Aschenwald S",
+      "Panda AK",
+      "Wurzer T",
+      "Baumgärtner S",
+      "Ertl VS",
+      "Hatzer J",
+      "Villunger A",
+      "Falk S",
+      "Herzog S"
+    ],
+    "published": "2026-06-22",
+    "journal": "Nucleic acids research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42333811/",
+    "score": 45,
+    "summary": {
+      "title_zh": "ERH在初级miRNA生物合成中的双重功能",
+      "enzyme_type": "Microprocessor复合物（包含DROSHA，属于Class II RNase III家族）",
+      "mechanism": "ERH通过两种机制调控Microprocessor对初级miRNA（pri-miRNA）的加工：一是通过与DGCR8直接结合，抑制部分pri-miRNA的加工；二是在不依赖DGCR8结合的情况下，参与“簇辅助”机制，促进对簇内亚优发夹的加工。SAFB2与ERH形成复合物，共同调控Microprocessor的底物特异性，并参与pri-miR-1306的反馈调节。",
+      "engineering": "本研究未涉及直接的蛋白工程化改造或可编程RNA切割应用，但通过突变分析（如破坏ERH与DGCR8的结合位点）揭示了ERH双重功能的分子基础，为未来设计基于Microprocessor的RNA加工调控工具提供了结构-功能关系参考。",
+      "key_results": "ERH缺失与SAFB1/2缺失对miRNA转录组的影响高度相似，表明两者参与相同的pri-miRNA生物合成过程；破坏ERH在DGCR8上的结合位点会增强部分与簇辅助无关的pri-miRNA的加工，而簇辅助功能不依赖于ERH与DGCR8的直接结合。"
+    }
+  }
+]
