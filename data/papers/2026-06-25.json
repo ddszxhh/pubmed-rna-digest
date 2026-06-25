@@ -1,0 +1,26 @@
+[
+  {
+    "id": "42340137",
+    "title": "Bacillus subtilis expressing double-stranded RNA induced RNA interference in Tribolium castaneum.",
+    "abstract": "RNA interference represents a promising and eco-friendly approach for pest management. As the core component of RNA biopesticides, the synthesis of double-stranded RNA (dsRNA) is the cornerstone for the further development and practical application of these biopesticides. Bacillus subtilis, with favorable characteristics (e.g., excellent safety, strong heterologous expression capability, and easy industrial fermentation), is an attractive dsRNA bio-factory for large-scale production of RNA biopesticides. An RNase-III-deficient B. subtilis strain was successfully constructed. Among the promoters screened from genes with high expression levels at each growth stage, pcotY, pcgeA, and phag exhibited high potential in driving dsRNA expression. Further optimization of the promoter phag significantly improved the yield of dsRNA. Using the mutant B. subtilis strain as the host, the optimized phag derivative phag-1 was utilized to express dsRNA targeting TcSpt5 and TcPolr2A of Tribolium castaneum. Larvae fed on an artificial diet containing these recombinant strains displayed significant reductions in survival and pupation rate, accompanied by reduced target gene expression. Collectively, B. subtilis serves as an efficient dsRNA production platform that can be employed to control pests. © 2026 Society of Chemical Industry.",
+    "authors": [
+      "He L",
+      "Zhou Y",
+      "Xie J",
+      "Gu Y",
+      "Huang Y",
+      "Tang X"
+    ],
+    "published": "2026-06-24",
+    "journal": "Pest management science",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42340137/",
+    "score": 55,
+    "summary": {
+      "title_zh": "表达双链RNA的枯草芽孢杆菌诱导赤拟谷盗的RNA干扰",
+      "enzyme_type": "RNase III（I类RNase III）缺陷型枯草芽孢杆菌菌株",
+      "mechanism": "通过敲除内源性RNase III基因，阻断宿主菌对双链RNA（dsRNA）的非特异性降解，从而稳定积累外源表达的dsRNA。筛选强启动子（如pcotY、pcgeA、phag）驱动dsRNA转录，并优化启动子phag-1进一步提高产量。表达的dsRNA被赤拟谷盗幼虫摄食后，经其自身Dicer等核酸酶加工为siRNA，引发靶基因（TcSpt5、TcPolr2A）的RNA干扰，导致基因沉默和生长发育异常。",
+      "engineering": "工程化改造包括：构建RNase III缺陷型枯草芽孢杆菌作为宿主；筛选并优化生长阶段特异性强启动子（phag-1）；利用该平台表达靶向害虫必需基因的dsRNA。应用价值在于提供一种安全、高效、可工业发酵的dsRNA生物工厂，用于开发RNA生物农药，实现害虫的绿色防控。",
+      "key_results": "成功构建RNase III缺陷型菌株，优化启动子phag-1使dsRNA产量显著提升。饲喂表达靶向TcSpt5或TcPolr2A dsRNA的重组菌后，赤拟谷盗幼虫存活率和化蛹率显著下降，靶基因表达量降低，验证了该平台用于害虫RNA干扰防控的可行性。"
+    }
+  }
+]
