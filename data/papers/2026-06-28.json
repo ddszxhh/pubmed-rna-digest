@@ -1,0 +1,33 @@
+[
+  {
+    "id": "42360582",
+    "title": "MiRNA Dysregulation in Epilepsy: Bridging Molecular Mechanisms and Therapeutic Innovation.",
+    "abstract": "MicroRNAs (miRNAs), small non-coding RNA molecules, have been considered as pivotal regulators of gene expression, influencing many biological functions, including nerve cell development, synaptic plasticity, and inflammatory responses. Their biogenesis involves a multi-step process, beginning with transcription by RNA polymerase II, followed by processing through Drosha and Dicer enzymes, culminating in the formation of mature miRNAs that integrate into the RNA-induced silencing complex [1] to control target messenger RNA (mRNA) stability and translation. In the context of epilepsy, a neurological disorder characterized by recurrent seizures, miRNAs have a role in the modulation of neuronal excitability and network synchronization. Dysregulation of specific miRNAs can disrupt the delicate balance between excitatory and inhibitory neurotransmission, contributing to the pathogenesis of epilepsy. Moreover, miRNAs influence neuroplasticity by regulating genes involved in synaptic remodeling and neuronal connectivity, processes that are often aberrant in epileptic brains. Inflammatory pathways are also modulated by miRNAs, with certain miRNAs acting as key regulators of cytokine expression and immune cell activation, thereby influencing neuroinflammation associated with epileptogenesis. Clinically, altered miRNA expression profiles have been shown in the blood and cerebrospinal fluid of epilepsy patients, suggesting their potential as non-invasive biomarkers for diagnosis and prognosis. Furthermore, therapeutic strategies targeting miRNAs are being explored, aiming to restore normal gene expression patterns and mitigate seizure activity. This review delves into the intricate roles of miRNAs in epilepsy, encompassing their biogenesis, involvement in disease pathophysiology, impact on neuroplasticity and inflammation, and their emerging clinical applications.",
+    "authors": [
+      "Mansour RM",
+      "Mohamed HH",
+      "Alam-Eldein KM",
+      "Hemdan M",
+      "Rizk NI",
+      "Mohammed OA",
+      "Doghish YA",
+      "Abbass MO",
+      "Shafey MM",
+      "Abdelaziz MM",
+      "Gadelmawla MHA",
+      "Mohamed AA",
+      "Doghish AS"
+    ],
+    "published": "2026-06-26",
+    "journal": "Molecular neurobiology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42360582/",
+    "score": 25,
+    "summary": {
+      "title_zh": "癫痫中的miRNA失调：连接分子机制与治疗创新",
+      "enzyme_type": "Drosha（Class II RNase III）和Dicer（Class III RNase III）",
+      "mechanism": "miRNA生物合成涉及Drosha在细胞核内切割pri-miRNA生成pre-miRNA，随后由Dicer在细胞质中切割pre-miRNA产生成熟miRNA双链。成熟miRNA装载至RNA诱导沉默复合体（RISC）中，通过碱基配对识别靶mRNA，调控其稳定性与翻译，从而影响神经元兴奋性、突触可塑性和炎症反应。",
+      "engineering": "本文为综述，未涉及具体的蛋白工程化改造或突变设计，但讨论了基于miRNA的治疗策略，如使用miRNA模拟物或抑制剂（antagomirs）来恢复正常基因表达模式，以及将循环miRNA作为非侵入性生物标志物用于癫痫诊断和预后评估。",
+      "key_results": "癫痫患者血液和脑脊液中miRNA表达谱发生改变，提示其作为诊断和预后生物标志物的潜力；特定miRNA失调可破坏兴奋性与抑制性神经传递的平衡，并通过调控细胞因子表达和免疫细胞激活参与神经炎症和癫痫发生。"
+    }
+  }
+]
