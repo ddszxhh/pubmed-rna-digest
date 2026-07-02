@@ -1,0 +1,71 @@
+[
+  {
+    "id": "42380670",
+    "title": "AURORA A interacts with DICER and SETD2 to promote S-phase progression.",
+    "abstract": "The oncogenic kinase AURORA A is essential for mitotic progression, and its catalytic inhibition arrests cells at the G2/M-transition. Unexpectedly, degradation of AURORA A by PROTACs (proteolysis targeting chimeras) induces profound S-phase defects, revealing a non-catalytic scaffolding function of AURORA A. To dissect this function, we profile the AURORA A S-phase interactome and identify multiple RNA-binding proteins not characterized as AURORA A substrates. Among these, the ribonuclease DICER directly associates with AURORA A to form an abundant nuclear complex. RNA degradation shifts AURORA A, DICER, and additional RNA-binding proteins from heavy to light gradient fractions, implicating RNA-dependent complex function. In contrast, PROTAC-mediated depletion of AURORA A alters the gradient migration behavior and chromatin association of the histone methyltransferase SETD2, which is known to prevent spurious transcription. These findings reveal a dual-output model for the S-phase AURORA A complex: First, RNA-binding proteins are recruited to R-loops, which may arise from transcription-replication conflicts. DICER then processes the R-loop, while AURORA A simultaneously recruits SETD2, which facilitates efficient resolution of replicative stress by preventing spurious transcription.",
+    "authors": [
+      "Müller J",
+      "Daunke T",
+      "Berner N",
+      "Bhandare P",
+      "Gebhardt A",
+      "Hoffmann L",
+      "Diebold M",
+      "Vogt M",
+      "Hofstetter J",
+      "Cruz-Garcia Y",
+      "Dudvarski-Stankovic N",
+      "Schneider K",
+      "Adhikari B",
+      "Lamer S",
+      "Schlosser A",
+      "Büchel G",
+      "Sos ML",
+      "Küster B",
+      "Knapp S",
+      "Wilhelm S",
+      "Wolf E"
+    ],
+    "published": "2026-06-30",
+    "journal": "EMBO reports",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42380670/",
+    "score": 55,
+    "summary": {
+      "title_zh": "AURORA A 与 DICER 和 SETD2 相互作用促进 S 期进程",
+      "enzyme_type": "Class II RNase III（Dicer）",
+      "mechanism": "该研究揭示了 AURORA A 的非催化支架功能：在 S 期，AURORA A 直接与核糖核酸酶 DICER 结合形成核复合物，并招募 RNA 结合蛋白至转录-复制冲突产生的 R-loop 处。DICER 加工 R-loop，同时 AURORA A 招募组蛋白甲基转移酶 SETD2 以防止异常转录，从而协同解决复制应激。",
+      "engineering": "未涉及蛋白优化、突变设计或底物特异性重编程；主要利用 PROTAC 技术降解 AURORA A 以研究其非催化功能，并鉴定其 S 期相互作用组。",
+      "key_results": "PROTAC 介导的 AURORA A 降解导致显著的 S 期缺陷，而非 G2/M 阻滞；AURORA A 与 DICER 形成核复合物，且 RNA 降解实验表明该复合物功能依赖 RNA；AURORA A 缺失改变 SETD2 的梯度迁移行为和染色质结合，提示其通过双重输出模型（DICER 加工 R-loop 与 SETD2 抑制异常转录）促进 S 期进程。"
+    }
+  },
+  {
+    "id": "42379114",
+    "title": "Integrated omics and virtual screening predict Tabularin as a dual inhibitor of the prognostic microRNAs mir-19a and mir-32 in colorectal cancer.",
+    "abstract": "Colorectal cancer (CRC) progression is driven by alterations in gene expression and post-transcriptional regulation. We conducted an integrative omics study using differential gene and miRNA expression analysis, survival profiling, miRNA-target interactions, pathway enrichment, and network topology analysis. We observed that some miRNAs and genes are uniquely dysregulated in different CRC stages, while others are expressed across all stages. We found 8, 3, 5, and 6 miRNAs and 342, 137, 102, and 350 genes are exclusively expressed in stages I-IV, respectively, indicating their roles as molecular drivers in CRC progression. We also identified 16 prognostic miRNAs and 287 gene signatures along with the enriched pathways that influence CRC prognosis across its stages. Among the 16 survival-associated miRNAs, hsa-mir-19a and hsa-mir-32 emerged as critical prognostic miRNAs, targeting several hub genes involved in apoptosis, epithelial-mesenchymal transition, immunological signaling, and cellular stress responses. These predicted miRNAs are likely associated with the crucial tumor-suppressive pathways, thereby reducing patient survival in CRC. Subsequently, our structure-based RNA-ligand docking, TD-DFT, and molecular dynamics (MD) simulation study predicted Tabularin, a phytocompound, as a dual inhibitor of these miRNAs, showing efficient binding affinity at their Dicer binding sites. This indicates that Tabularin may inhibit Dicer-mediated processing and suppress the maturation of these two prognostic miRNAs, thereby improving patient survival. In summary, this study identified stage-specific miRNAs and genes that could serve as potential biomarkers for stage-dependent diagnosis, and predicted mir-19a and mir-32 as key regulators of CRC prognosis through modulation of hub genes, which Tabularin can target to improve survival outcome in CRC.",
+    "authors": [
+      "Biswal S",
+      "Dash JJ",
+      "Patra J",
+      "Biswal P",
+      "Lalruatfela A",
+      "Sahoo S",
+      "Mishra SS",
+      "Behera SK",
+      "Behera DK",
+      "Nehra M",
+      "Pangi R",
+      "Mallick B"
+    ],
+    "published": "2026-06-25",
+    "journal": "Computational biology and chemistry",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42379114/",
+    "score": 35,
+    "summary": {
+      "title_zh": "整合组学与虚拟筛选预测Tabularin作为结直肠癌预后性微RNA mir-19a和mir-32的双重抑制剂",
+      "enzyme_type": "Dicer（Class III RNase III家族成员）",
+      "mechanism": "通过结构基础的RNA-配体对接和分子动力学模拟，预测植物化合物Tabularin能够结合到mir-19a和mir-32的Dicer结合位点，从而抑制Dicer对这两种miRNA前体的切割加工，阻止其成熟，进而调控下游靶基因表达。",
+      "engineering": "不涉及蛋白工程化改造；采用虚拟筛选和计算化学方法（TD-DFT、分子动力学模拟）预测小分子抑制剂对Dicer加工位点的阻断作用，为基于RNA靶向的miRNA抑制策略提供候选化合物。",
+      "key_results": "鉴定出16个与结直肠癌预后相关的miRNA，其中mir-19a和mir-32为关键预后标志物；Tabularin在Dicer结合位点显示出高效结合亲和力，有望通过抑制这两种miRNA的成熟来改善患者生存率。"
+    }
+  }
+]
