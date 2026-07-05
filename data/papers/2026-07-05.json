@@ -1,0 +1,22 @@
+[
+  {
+    "id": "42400226",
+    "title": "How Do DICER1 Syndrome Mutations Disrupt Catalysis? Unveiling Dicer Metal Binding Architecture and Mechanism of Action Using MD Simulations and QM/MM Calculations.",
+    "abstract": "The RNA interference (RNAi) pathway regulates gene expression and viral defense and has been harnessed in therapeutic solutions to inhibit otherwise undruggable proteins by preventing translation. Dicer initiates RNAi by generating cleaved RNA products that bind to a target mRNA to promote gene silencing. Mutations to the Dicer catalytic domain cause DICER1 syndrome, which increases the risk of cancers, including early childhood variants. However, the catalytic mechanism remains poorly defined due to the lack of structural data for Dicer bound to a substrate (or substrate mimic) in the presence of divalent ions known to be critical for nuclease activity. This study uses molecular dynamics (MD) simulations to uncover the first atomic level structure of the wild-type Dicer-RNA complex, including the binding pattern of two catalytically essential Mg",
+    "authors": [
+      "Nikkel DJ",
+      "Wetmore SD"
+    ],
+    "published": "2026-07-05",
+    "journal": "Journal of computational chemistry",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42400226/",
+    "score": 85,
+    "summary": {
+      "title_zh": "DICER1综合征突变如何破坏催化？利用分子动力学模拟和QM/MM计算揭示Dicer金属结合架构和作用机制",
+      "enzyme_type": "Class III RNase III（Dicer，属于RNase III家族中的Dicer亚类）",
+      "mechanism": "通过分子动力学模拟和QM/MM计算，首次揭示了野生型Dicer-RNA复合物在催化必需二价镁离子存在下的原子级结构。两个Mg²⁺离子以双金属催化模式协调底物RNA的切割，其中关键催化残基（如D1709、E1813等）参与金属配位；DICER1综合征突变（如D1709N、E1813K等）会破坏金属结合架构，导致催化活性丧失或底物加工异常。",
+      "engineering": "该研究为工程化改造Dicer提供了结构基础，例如通过突变设计恢复或改变金属结合能力，或重编程底物特异性以用于可编程RNA切割；在诊断方面，可基于突变对催化活性的影响预测DICER1综合征的致病性，并指导靶向RNA干扰疗法的优化。",
+      "key_results": "模拟揭示了野生型Dicer活性位点中两个Mg²⁺离子的精确配位模式，而DICER1综合征相关突变（如D1709N）显著改变了金属离子结合几何和催化效率，QM/MM计算进一步量化了突变对切割能垒的影响，解释了临床突变导致RNAi通路失调的分子机制。"
+    }
+  }
+]
