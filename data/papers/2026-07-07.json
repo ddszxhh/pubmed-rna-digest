@@ -1,0 +1,23 @@
+[
+  {
+    "id": "42406466",
+    "title": "Genetic Biosensor for Optimizing Double-Stranded RNA Production by Bacteria.",
+    "abstract": "Bacteria can be engineered to produce double-stranded RNA (dsRNA) molecules that induce a targeted RNA interference (RNAi) response in plants and animals for applications ranging from pest control to functional genomics. We developed a genetically encoded sensor that uses bimolecular fluorescence complementation to report relative dsRNA levels within bacterial cells. We tested sensor designs consisting of fusions of different dsRNA-binding domains derived from viruses to fragments of a split fluorescent protein in",
+    "authors": [
+      "Navarro-Escalante L",
+      "VanDieren AJ",
+      "Barrick JE"
+    ],
+    "published": "2026-07-06",
+    "journal": "ACS synthetic biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42406466/",
+    "score": 55,
+    "summary": {
+      "title_zh": "用于优化细菌双链RNA生产的遗传生物传感器",
+      "enzyme_type": "不涉及RNase III或dsRNA切割核糖核酸酶；该研究利用病毒来源的dsRNA结合域与分裂荧光蛋白融合构建生物传感器，用于检测细菌内dsRNA水平。",
+      "mechanism": "该生物传感器通过双分子荧光互补（BiFC）原理工作：将不同病毒dsRNA结合域与分裂荧光蛋白片段融合，当dsRNA存在时，结合域与dsRNA结合并促使荧光蛋白片段互补，产生荧光信号，从而报告细胞内相对dsRNA水平。",
+      "engineering": "工程化涉及设计并测试多种融合构建体，包括不同病毒dsRNA结合域与分裂荧光蛋白片段的组合，以优化传感器灵敏度和特异性。该传感器可用于高通量筛选或实时监测细菌dsRNA产量，从而优化dsRNA生产流程，服务于RNAi介导的害虫防治和功能基因组学等应用。",
+      "key_results": "研究测试了多种传感器设计，并验证了其报告细菌内相对dsRNA水平的能力，为优化细菌dsRNA生产提供了遗传编码工具。"
+    }
+  }
+]
