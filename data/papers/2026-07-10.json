@@ -1,0 +1,32 @@
+[
+  {
+    "id": "42420319",
+    "title": "Spliceosomal proteins direct RNA methylation to modulate gene expression and silence retrotransposons.",
+    "abstract": "RNA modifications are fundamental to gene regulation and RNA processing, yet their diversity and transcript specificity remain incompletely defined. Here, using a genetic screen in S. pombe, we identify the RNA methyltransferase Tgs1 and Coilin-related proteins as regulators of transcripts harboring inefficiently spliced cryptic introns. These factors associate to form a protein assembly, termed TEaM, which is recruited to cryptic-intron-containing RNAs, including retrotransposon-derived transcripts, by spliceosomal components, and to gametogenic gene transcripts by a YTH-family RNA-binding protein. Upon recruitment, Tgs1 catalyzes trimethylguanosine (TMG) capping, facilitating engagement of the conserved factor Pir2/ARS2, which cooperates with the DROSHA homolog Pac1 and other factors to promote RNA processing and RNAi-mediated silencing. This pathway also targets centromeric repeat RNAs containing cryptic introns, enabling de novo production of siRNAs that specify heterochromatin nucleation. Together, these findings delineate a mechanism in which Tgs1-directed TMG capping, coupled with Pir2/ARS2, specifies RNAi substrates to broadly regulate gene expression and silence retrotransposons.",
+    "authors": [
+      "Vijayakumari D",
+      "Gottfried X",
+      "Groubert B",
+      "Dhakshnamoorthy J",
+      "Jain S",
+      "Zofall M",
+      "Folco HD",
+      "Xiao H",
+      "Anil AT",
+      "Andresson T",
+      "Wheeler D",
+      "Grewal SIS"
+    ],
+    "published": "2026-07-08",
+    "journal": "Nature communications",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42420319/",
+    "score": 85,
+    "summary": {
+      "title_zh": "剪接体蛋白指导RNA甲基化以调控基因表达并沉默逆转录转座子",
+      "enzyme_type": "DROSHA同源物Pac1（Class II RNase III家族）",
+      "mechanism": "该研究揭示了一种由剪接体组分招募的蛋白复合物TEaM，其中RNA甲基转移酶Tgs1催化含隐蔽内含子的转录本（包括逆转录转座子来源的RNA）进行三甲基鸟苷（TMG）加帽。TMG加帽促进保守因子Pir2/ARS2的结合，进而与DROSHA同源物Pac1协同作用，驱动RNA加工和RNAi介导的沉默。该机制还靶向含有隐蔽内含子的着丝粒重复RNA，通过产生siRNA指定异染色质成核。",
+      "engineering": "未涉及蛋白工程化改造或突变设计；主要描述了内源性调控通路中Pac1（RNase III）与RNA甲基化及RNAi机制的协同作用，为理解可编程RNA切割和基因沉默提供了新靶点，具有潜在的生物技术应用价值（如RNAi调控和逆转录转座子沉默）。",
+      "key_results": "通过裂殖酵母遗传筛选鉴定出Tgs1和Coilin相关蛋白形成TEaM复合物，其被剪接体组分招募至含隐蔽内含子的RNA；Tgs1催化的TMG加帽与Pir2/ARS2协同指定RNAi底物，从而调控基因表达并沉默逆转录转座子，并证明该通路可驱动着丝粒重复RNA产生siRNA以建立异染色质。"
+    }
+  }
+]
