@@ -1,0 +1,32 @@
+[
+  {
+    "id": "42467802",
+    "title": "Pre-miR-21 Conformational Equilibrium Modulates the Efficacy of the Maturation Inhibitor L50.",
+    "abstract": "The cyclic peptide L50 is a promising anticancer candidate that inhibits miR-21 maturation by targeting the Dicer cleavage site of pre-miR-21. A recent study revealed that pre-miR-21 exists in equilibrium between an Ade-29-deprotonated Bulged state and a Dicer-susceptible Ade-29-protonated Paired state. However, the impact of this equilibrium on L50 efficacy remains unclear. Here, we addressed this question by conducting biochemical and structural analyses under various pH conditions. We found that L50 exhibits reduced inhibitory activity and affinity for pre-miR-21 in the Paired state. The analysis of the molecular interface suggested that changes in the L50 binding mode during the conformational transition of pre-miR-21 to the Paired state lead to the loss of key interactions required for high-affinity binding. These findings explain the limited efficacy of L50 in inhibiting miR-21 maturation, provide insights into its optimization, and highlight the importance of considering RNA conformational equilibrium in RNA-targeting drug development.",
+    "authors": [
+      "Nishimura Y",
+      "Tokunaga Y",
+      "Kofuku Y",
+      "Shiraishi Y",
+      "Imai S",
+      "Gong J",
+      "Ohara K",
+      "Okude J",
+      "Ueda T",
+      "Torizawa T",
+      "Shimada I",
+      "Takeuchi K"
+    ],
+    "published": "2026-07-17",
+    "journal": "ACS chemical biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42467802/",
+    "score": 65,
+    "summary": {
+      "title_zh": "前体miR-21的构象平衡调控成熟抑制剂L50的功效",
+      "enzyme_type": "Dicer（Class II RNase III家族成员）",
+      "mechanism": "L50通过靶向前体miR-21的Dicer切割位点抑制其成熟。前体miR-21存在两种构象平衡：Ade-29去质子化的Bulged状态和Ade-29质子化的Paired状态。在Paired状态下，L50对前体miR-21的抑制活性和亲和力降低，原因是构象转变导致L50结合模式改变，丢失了高亲和力结合所需的关键相互作用。",
+      "engineering": "该研究未涉及蛋白优化或突变设计，但通过pH条件调控RNA构象平衡，揭示了L50抑制剂优化的方向，强调了在RNA靶向药物开发中考虑RNA构象平衡的重要性，具有诊断和生物技术应用潜力。",
+      "key_results": "生化与结构分析表明，在Paired状态下L50对前体miR-21的抑制活性与亲和力显著下降；分子界面分析揭示构象转变导致L50结合模式改变，丢失关键相互作用，解释了L50抑制miR-21成熟功效有限的原因。"
+    }
+  }
+]
