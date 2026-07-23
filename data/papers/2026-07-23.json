@@ -1,0 +1,51 @@
+[
+  {
+    "id": "42484881",
+    "title": "Kinase regulation of miRNA networks in cardiometabolic disease: emerging pathways to precision therapy.",
+    "abstract": "Cardiometabolic diseases remain a major global health burden, and current therapies only partially address the persistent residual risk driven by chronic inflammation, hypoxia, metabolic overload, and mechanical stress. A critical need is to understand how these diverse stress signals are integrated at the cellular and molecular levels to determine whether tissues adapt or undergo pathological remodeling. This review presents a comprehensive framework of kinase-microRNA (miRNA) crosstalk as an emerging regulatory axis in cardiometabolic disease. We discuss how stress-activated kinase pathways, including ERK, p38/JNK, PI3K-Akt-mTOR/S6K2, AMPK, GSK-3, and EGFR, reprogram miRNA output through phosphorylation of key components of the miRNA machinery, including DROSHA/DGCR8, DICER-TRBP, and AGO2. These phosphorylation-dependent mechanisms influence miRNA processing, substrate selection, RISC assembly, and target repression in a context-dependent manner. We further highlight the reciprocal regulation whereby miRNAs modulate kinase signaling pathways, establishing feedback networks that regulate inflammation, apoptosis, fibrosis, angiogenesis, and metabolic adaptation across cardiac, vascular, and immune cells. Emerging technologies, including AGO2 eCLIP, phosphoproteomics, CRISPR-based perturbations, and single-cell/spatial profiling, allow causal mapping of kinase-miRNA networks. Collectively, these advances establish kinase-miRNA crosstalk as a promising mechanistic framework and therapeutic target for precision intervention in heart failure, atherosclerosis, diabetic cardiomyopathy, and related cardiometabolic diseases.",
+    "authors": [
+      "Ahmad F",
+      "Karim A",
+      "Kannan M",
+      "Qaisar R"
+    ],
+    "published": "2026-07-22",
+    "journal": "Journal of molecular medicine (Berlin, Germany)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42484881/",
+    "score": 45,
+    "summary": {
+      "title_zh": "激酶调控心肌代谢疾病中的miRNA网络：通向精准治疗的新兴通路",
+      "enzyme_type": "Drosha/DGCR8（Class II RNase III）、Dicer-TRBP（Class III RNase III）",
+      "mechanism": "应激激活的激酶通路（如ERK、p38/JNK、PI3K-Akt-mTOR/S6K2、AMPK、GSK-3、EGFR）通过磷酸化miRNA加工机器关键组分（DROSHA/DGCR8、DICER-TRBP、AGO2）来重编程miRNA输出。这些磷酸化依赖的机制影响miRNA的底物选择、加工效率、RISC组装及靶标抑制，同时miRNA通过反馈调控激酶信号通路，形成调控炎症、凋亡、纤维化、血管生成和代谢适应的网络。",
+      "engineering": "该综述未直接涉及RNase III的蛋白工程化改造或突变设计，但强调了利用AGO2 eCLIP、磷酸化蛋白质组学、CRISPR扰动及单细胞/空间图谱等新兴技术来因果性解析激酶-miRNA网络，为精准干预心力衰竭、动脉粥样硬化、糖尿病心肌病等疾病提供治疗靶点。",
+      "key_results": "综述系统总结了激酶通过磷酸化DROSHA/DGCR8、DICER-TRBP和AGO2调控miRNA加工与功能的机制，并揭示了miRNA与激酶信号之间的双向反馈环路在心肌代谢疾病中的关键作用。"
+    }
+  },
+  {
+    "id": "42092456",
+    "title": "Apical Enrichment of the RNA Interference Machinery in Oral Stratified Epithelia Is Disrupted in Oral Cancer.",
+    "abstract": "Head and neck squamous cell carcinoma (HNSC) is characterized by low survival rates, which exposes gaps in understanding of the disease. Although the role of several miRNAs has been described in HNSC, the status of the RNA interference (RNAi) machinery that regulates biogenesis and function of miRNAs is largely understudied. This study shows that the core RNAi components drosha ribonuclease III (DROSHA) and argonaute RISC catalytic component 2 (AGO2), together with the adherens junction component pleckstrin homology domain containing A7 (PLEKHA7), are enriched at the apical areas of cell-cell contact in fully polarized stratified oral epithelial cells and normal human tissues, but not in oral cells that have not been stratified. This apical localization of PLEKHA7, DROSHA, and AGO2 is disrupted in HNSC, whereas PLEKHA7, which has previously been shown to recruit DROSHA and AGO2 to adherens junctions, is consistently down-regulated across all HNSC stages and grades, independently of demographic factors or human papillomavirus status. Additionally, the data reveal an association of the oral pathogen Fusobacterium with PLEKHA7 loss in oral tumors, as well as high levels of Fusobacterium infiltration in the tumors with disrupted apical RNAi localization. Together, this work sheds light on the status of key RNAi components in normal oral epithelia and reveals their disruption in HNSC tumors.",
+    "authors": [
+      "Kingsley C",
+      "Nair-Menon J",
+      "McKee PR",
+      "Daulagala AC",
+      "Yoon AJ",
+      "Pandruvada S",
+      "Engevik AC",
+      "Engevik MA",
+      "Kourtidis A"
+    ],
+    "published": "2026-08-01",
+    "journal": "The American journal of pathology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42092456/",
+    "score": 35,
+    "summary": {
+      "title_zh": "口腔分层上皮中RNA干扰机制的顶端富集在口腔癌中被破坏",
+      "enzyme_type": "Class II RNase III（Drosha）与RNA诱导沉默复合体（RISC）组分AGO2",
+      "mechanism": "在完全极化的口腔分层上皮细胞中，Drosha和AGO2通过衔接蛋白PLEKHA7被招募至细胞间黏附连接的顶端区域，形成局部的RNA干扰（RNAi）加工中心，以调控miRNA的生物合成与功能。该空间组织依赖于上皮分层极化状态，且Drosha作为RNase III酶负责切割pri-miRNA发夹结构，释放pre-miRNA，而AGO2则介导miRNA沉默复合体的靶标识别与切割。",
+      "engineering": "本研究未涉及蛋白工程化改造或突变设计，但揭示了天然RNAi机器在口腔上皮中的空间组织机制，为未来基于Drosha/AGO2定位恢复或PLEKHA7表达调控的癌症诊断与治疗策略提供了分子基础。",
+      "key_results": "在正常口腔分层上皮中，Drosha、AGO2与PLEKHA7共定位于细胞间接触的顶端区域，而在口腔鳞状细胞癌（HNSC）组织中该顶端定位被破坏，且PLEKHA7在所有HNSC分期和分级中持续下调，并与口腔病原体梭杆菌的浸润水平升高相关。"
+    }
+  }
+]
