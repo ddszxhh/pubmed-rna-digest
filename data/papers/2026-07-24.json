@@ -1,0 +1,35 @@
+[
+  {
+    "id": "42486989",
+    "title": "Structural basis of the RNA-editing cascade in trypanosome mitochondria.",
+    "abstract": "The molecular mechanism of uridine insertion-and-deletion mRNA editing in trypanosome mitochondria",
+    "authors": [
+      "Liu YT",
+      "Vacas AF",
+      "Jih J",
+      "Zhao X",
+      "Yu C",
+      "Lee JKJ",
+      "Suematsu T",
+      "Solayman M",
+      "Wang H",
+      "Wang X",
+      "Huang L",
+      "Zhang L",
+      "Aphasizheva I",
+      "Zhou ZH",
+      "Aphasizhev R"
+    ],
+    "published": "2026-07-22",
+    "journal": "Nature",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42486989/",
+    "score": 15,
+    "summary": {
+      "title_zh": "锥虫线粒体中RNA编辑级联反应的结构基础",
+      "enzyme_type": "Class I RNase III（具体为锥虫线粒体中的RNA编辑复合体，涉及尿苷插入/删除机制，但非典型RNase III切割双链RNA；该论文主要聚焦于RNA编辑级联反应的结构基础，而非单一RNase III酶）",
+      "mechanism": "该研究揭示了锥虫线粒体中尿苷插入/删除mRNA编辑的分子机制，包括底物识别（通过RNA结合蛋白识别编辑位点）、切割催化（涉及内切核酸酶和末端尿苷酰转移酶的协同作用）以及产物释放（编辑完成后mRNA从复合体解离）。RNA调控机制依赖于编辑复合体中的多个蛋白亚基协调完成尿苷的添加和删除。",
+      "engineering": "论文未明确涉及RNase III的工程化改造或可编程RNA切割应用，但结构信息可能为未来设计针对锥虫线粒体RNA编辑的抑制剂或工具酶提供基础。",
+      "key_results": "通过冷冻电镜解析了锥虫线粒体RNA编辑复合体的高分辨率结构，揭示了尿苷插入和删除的分子步骤，并验证了关键蛋白（如KREPB2、KREPA6）在底物识别和催化中的功能。"
+    }
+  }
+]
