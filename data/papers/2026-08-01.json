@@ -1,0 +1,23 @@
+[
+  {
+    "id": "42535959",
+    "title": "Coronavirus Nsp15 endoribonuclease: linking viral RNA regulation to immune evasion and viral fitness.",
+    "abstract": "Coronavirus nonstructural protein 15 (Nsp15) is a conserved uridine-preferring endoribonuclease (EndoU). Studies using mouse hepatitis virus (MHV), SARS-CoV-2, and other coronaviruses have shown that Nsp15 associates with replication-transcription complexes (RTCs) and contributes to viral immune evasion. Structural studies of alpha- and beta-coronavirus Nsp15 proteins reveal a hexameric enzyme that engages viral RNA substrates and cleaves at unpaired uridines through an RNase A-like, largely metal-independent mechanism stimulated by divalent cations. The Nsp15 hexamer functions as a dynamic, cooperative platform capable of accommodating extended double-stranded and structured RNA substrates. Genetic studies in several coronaviruses indicate that EndoU activity is dispensable for viral RNA synthesis in cell culture, but critical for suppressing host antiviral responses. Loss of EndoU activity promotes accumulation of immunostimulatory RNA species and activation of dsRNA-sensing pathways, including MDA5-dependent interferon signaling, PKR-mediated translational arrest, and the OAS/RNase L system. Mechanistically, Nsp15 is proposed to suppress these responses by selectively processing uridine-rich and structurally accessible regions in viral RNA, including poly(U)-containing negative-strand RNAs, and elements within untranslated regions and transcription regulatory sequences. Beyond catalysis, Nsp15 may contribute to RTC organization and regulate viral RNA recombination or defective viral genome formation, although these roles remain less well-defined and may vary among coronavirus species. Together, these findings support a model in which Nsp15 functions as a regulator of viral RNA composition and immunogenicity rather than solely as a degradative nuclease. This review summarizes recent advances in Nsp15 structure, RNA processing, immune evasion, and antiviral targeting, and highlights key unresolved questions.",
+    "authors": [
+      "Liang X",
+      "Chi X",
+      "Deng X"
+    ],
+    "published": "2026-07-31",
+    "journal": "Journal of virology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42535959/",
+    "score": 55,
+    "summary": {
+      "title_zh": "冠状病毒Nsp15内切核糖核酸酶：连接病毒RNA调控与免疫逃逸及病毒适应性",
+      "enzyme_type": "Nsp15（冠状病毒编码的尿苷偏好性内切核糖核酸酶，EndoU），属于RNase A样内切酶，但结构上形成六聚体，与RNase III家族无直接同源性，但功能上参与双链RNA相关调控。",
+      "mechanism": "Nsp15以六聚体形式结合病毒RNA，识别未配对的尿苷位点并切割，切割活性主要不依赖金属离子，但二价阳离子可刺激其活性。该酶能处理延伸的双链和结构化RNA底物，通过选择性加工富含尿苷和结构可及区域（如负链RNA的poly(U)序列、非翻译区和转录调控序列）来调节病毒RNA的组成和免疫原性，从而抑制宿主dsRNA感应通路（如MDA5、PKR、OAS/RNase L）的激活。",
+      "engineering": "目前研究主要集中于Nsp15的结构解析和功能表征，尚未见明确的工程化改造报道。但基于其底物特异性和六聚体组装，未来可能通过突变设计改变尿苷偏好性或增强对特定RNA底物的切割，用于开发抗病毒药物靶点或RNA工具酶。",
+      "key_results": "结构研究表明α和β冠状病毒的Nsp15形成六聚体，能容纳延伸的双链RNA底物；遗传学实验显示EndoU活性在细胞培养中对病毒RNA合成非必需，但对抑制宿主抗病毒反应至关重要，其缺失导致免疫刺激RNA积累并激活MDA5、PKR和RNase L通路。"
+    }
+  }
+]
