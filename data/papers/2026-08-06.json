@@ -1,0 +1,57 @@
+[
+  {
+    "id": "40394905",
+    "title": "BmADARa cooperatively inhibits BmNPV proliferation through the interaction of its dsRBD2 with BmDcr-2-DEXHc in silkworm, Bombyx mori.",
+    "abstract": "Adenosine deaminases that act on RNA (ADARs) are RNA editing enzymes capable of converting adenosine into inosine at specific sites within double-stranded RNA (dsRNA), widely distributed across various animal species. Dicer (Dcr), a member of the RNase III family and a crucial component of the RNA-induced silencing complex (RISC), allows ADAR to participate in innate immunity through Dcr-2 in Drosophila. Bombyx mori nucleopolyhedrovirus (BmNPV) is one of the viruses that can cause substantial economic losses to the sericulture industry upon infecting silkworm. Knocking down the expression of BmDcr-2 in silkworm enhances the proliferation of BmNPV. Our previous research revealed the existence of a predominantly expressed subtype, ADARa, in silkworm (BmADARa), which shares homology with Drosophila ADAR. It remains unclear whether BmADARa can also participate in innate immunity through BmDcr-2. Initially, through bacterial challenge experiments, we found that BmADARa exhibited the highest responsiveness to BmNPV stimulation. Further studies demonstrated that BmADARa, in conjunction with BmDcr-2-DEXHc (DEAD-box helicase domain), collectively inhibits the proliferation of BmNPV. BmADARa interacts with the DEXHc domain of BmDcr-2 through its dsRNA binding domain 2 (dsRBD2), thereby enhancing its ability to inhibit BmNPV proliferation. These results lay a foundation for the study of the function and molecular mechanism of BmADARa in innate immunity, and provide a new experimental ideas for antiviral research in B. mori.",
+    "authors": [
+      "Jiang S",
+      "Ye CJ",
+      "Wu YC",
+      "Shi RY",
+      "Yu YL",
+      "Saneela S",
+      "Liang D",
+      "Huang YJ",
+      "Shi XM",
+      "Meng Y"
+    ],
+    "published": "2026-08-01",
+    "journal": "Insect science",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40394905/",
+    "score": 55,
+    "summary": {
+      "title_zh": "家蚕BmADARa通过其dsRBD2与BmDcr-2-DEXHc相互作用协同抑制BmNPV增殖",
+      "enzyme_type": "RNase III家族中的Dicer（BmDcr-2）及其相互作用蛋白ADAR（BmADARa），属于双链RNA结合蛋白和RNA编辑酶，非典型RNase III切割酶",
+      "mechanism": "BmADARa通过其dsRNA结合结构域2（dsRBD2）与BmDcr-2的DEXHc解旋酶结构域直接相互作用，形成复合物。该复合物可能通过增强BmDcr-2对病毒双链RNA的识别或加工能力，协同抑制BmNPV的增殖，从而参与家蚕的先天免疫应答。",
+      "engineering": "该研究未涉及蛋白工程化改造，但通过基因敲低和过表达实验验证了BmDcr-2和BmADARa的功能，为后续基于Dicer-ADAR相互作用的抗病毒策略提供了靶点，具有潜在的生物技术应用价值（如抗病毒家蚕品系开发）。",
+      "key_results": "细菌刺激实验显示BmADARa对BmNPV刺激响应最强；敲低BmDcr-2增强BmNPV增殖，而BmADARa与BmDcr-2-DEXHc协同抑制病毒增殖，且BmADARa的dsRBD2与DEXHc结构域的直接相互作用是协同抑制所必需的。"
+    }
+  },
+  {
+    "id": "40287948",
+    "title": "Characterization, functional exploration, and evolutionary analysis of mirtronic microRNAs reveal their origin in the invasive vector mosquito, Aedes albopictus.",
+    "abstract": "The mirtron pathway represents a distinct category of noncanonical microRNA (miRNA) biogenesis mechanisms. Current studies suggest that the mirtron pathway may be widely prevalent across various taxa, including animals and plants, but investigation of this pathway has focused mainly on mammals, particularly humans, and the biological functions and emerging roles of several mirtrons in human diseases have been elucidated. In the context of insects, mirtrons have only been comprehensively characterized and preliminarily functionally analyzed in Drosophila. The Asian tiger mosquito, Aedes albopictus, is a highly invasive species and an important vector of arbovirus transmission to humans. Although canonical miRNA function has been studied in depth in mosquitoes, the role of mirtrons in this species remains to be revealed. In this study, we identified and validated 2 novel conventional mirtrons in Ae. albopictus that are precursors of miR-11900 and miR-11893. Mirtronic miRNA biogenesis depends on the splicing of introns and cleavage by Dicer but does not necessarily correlate with intron location in host genes. The molecular evolution of mirtrons was analyzed using methods based on host genes and their exon‒intron architecture; the results indicate that mirtronic miRNAs are relatively young and that they may have appeared in Culicinae after the Anophelinae and Culicinae diverged. According to small RNA sequencing (RNA-seq) and RNA-seq data on post-mirtronic miRNA overexpression, mosquito mirtronic miRNAs are present in low abundance, and the absence of typical target genes in Ae. albopictus suggests they are not involved in post-transcriptional gene regulation. Overall, our results indicate that the emergence of 2 mirtrons in Ae. albopictus is likely due to the formation of Dicer-recognized secondary structures during the evolution of the intron sequence; these structures are similar to byproducts processed by Dicer, and their abundance is controlled by an alternative adventitious mirtron emergence-dependent mechanism. Our study identifies for the 1st time mirtrons in insect species distinct from Drosophila melanogaster, provides new insights into mirtron evolution, and provides a reference for the functional analysis of mirtrons.",
+    "authors": [
+      "Gao Y",
+      "Yang L",
+      "Guo Y",
+      "Zhou W",
+      "Ren S",
+      "Chen Y",
+      "Chen XG",
+      "Liu P",
+      "Gu J"
+    ],
+    "published": "2026-08-01",
+    "journal": "Insect science",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40287948/",
+    "score": 55,
+    "summary": {
+      "title_zh": "入侵性媒介蚊虫白纹伊蚊中mirtronic microRNA的特征、功能探索及进化分析揭示其起源",
+      "enzyme_type": "Dicer（属于RNase III家族，具体为Dicer-1介导的mirtron加工途径）",
+      "mechanism": "该研究关注非经典miRNA生物合成途径——mirtron途径，其依赖于内含子剪接产生短发夹结构，随后被Dicer识别并切割，从而生成成熟miRNA。底物识别依赖于内含子序列在剪接后形成的Dicer可识别的二级结构，切割催化由Dicer完成，产物释放后进入RNA诱导沉默复合体（RISC）发挥调控作用。本研究发现白纹伊蚊中的mirtronic miRNA（miR-11900和miR-11893）丰度较低，且缺乏典型靶基因，提示其可能不参与常规的转录后基因调控，其产生可能是一种偶然的副产物机制。",
+      "engineering": "该研究未涉及蛋白工程化改造或应用导向的优化，但通过宿主基因外显子-内含子结构分析进行了分子进化研究，并利用小RNA测序和过表达后RNA-seq进行功能探索。其发现为理解mirtron的进化起源和Dicer底物识别提供了参考，未来可能用于开发基于内含子来源的miRNA调控工具或昆虫防控策略。",
+      "key_results": "首次在白纹伊蚊中鉴定并验证了两个新型mirtronic miRNA（miR-11900和miR-11893），其生成依赖于内含子剪接和Dicer切割，但与宿主基因内含子位置无关。进化分析表明这些mirtron相对年轻，可能出现在按蚊亚科与库蚊亚科分化之后；功能数据显示其丰度低且缺乏典型靶基因，提示其可能不参与经典转录后调控，而是由内含子序列进化中偶然形成的Dicer识别结构所产生。"
+    }
+  }
+]
