@@ -1,0 +1,25 @@
+[
+  {
+    "id": "42561629",
+    "title": "DGCR8 promotes nascent transcription independently of DROSHA.",
+    "abstract": "DiGeorge syndrome critical region gene 8 (DGCR8) is best known as the RNA-binding subunit of the microprocessor complex required for canonical microRNA (miRNA) biogenesis. Whether DGCR8 also exerts a direct, microprocessor-independent function in the RNA polymerase II (Pol II) transcription cycle remains unclear. Here, we combined rapid protein degradation with nascent transcription profiling to examine the immediate role of DGCR8 in transcriptional regulation in mouse embryonic stem cells (mESCs). We found that DGCR8 broadly occupies promoters and transcription start sites (TSSs) with limited co-occupancy by its catalytic microprocessor partner DROSHA. Acute DGCR8 depletion triggered a rapid genome-wide reduction in nascent RNA synthesis as measured by TT-seq, whereas PRO-seq revealed only modest changes in Pol II occupancy and no significant alteration in promoter-proximal pausing, suggesting that DGCR8 primarily supports transcriptional output rather than Pol II pausing. Consistently, TT-seq/PRO-seq ratios were broadly reduced following DGCR8 depletion, whereas acute DROSHA depletion produced the opposite effect. Mechanistically, proteomic and biochemical analyses identified DGCR8 interactions with Enhancer of Rudimentary Homolog (ERH) and the elongation factor SPT5. DGCR8 depletion reduced ERH and SPT5 chromatin occupancy, while acute ERH depletion similarly diminished SPT5 chromatin association and nascent transcription. Together, these findings identify a non-canonical DGCR8-ERH-SPT5 regulatory module that sustains global nascent transcription independently of the canonical DGCR8-DROSHA Microprocessor complex.",
+    "authors": [
+      "Wang J",
+      "Cai Y",
+      "Wang D",
+      "Shen H",
+      "Xu W"
+    ],
+    "published": "2026-08-01",
+    "journal": "Biochemical and biophysical research communications",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42561629/",
+    "score": 35,
+    "summary": {
+      "title_zh": "DGCR8独立于DROSHA促进新生转录",
+      "enzyme_type": "DGCR8（Microprocessor复合物的RNA结合亚基，非催化亚基；其经典伴侣为DROSHA，属于RNase III家族核糖核酸酶）",
+      "mechanism": "DGCR8以非经典方式独立于DROSHA，通过与ERH和延伸因子SPT5相互作用，促进RNA聚合酶II在启动子及转录起始位点附近的新生转录延伸，而非影响启动子近端暂停。DGCR8的急性缺失导致全基因组新生RNA合成下降，而DROSHA缺失则产生相反效应，表明DGCR8在转录调控中具有独立于其miRNA加工功能的直接作用。",
+      "engineering": "该研究未涉及蛋白工程化改造或应用开发，但通过急性蛋白降解系统（如auxin-inducible degron）实现了对DGCR8和DROSHA的快速耗竭，结合TT-seq和PRO-seq等组学技术，揭示了非经典调控模块，为未来靶向DGCR8-ERH-SPT5轴的转录调控干预提供了理论基础。",
+      "key_results": "在mESCs中，DGCR8广泛占据启动子/TSS区域，但与DROSHA共定位有限；急性DGCR8缺失导致TT-seq信号和TT-seq/PRO-seq比值显著下降，而DROSHA缺失则相反。蛋白质组学显示DGCR8与ERH和SPT5互作，且DGCR8或ERH缺失均降低SPT5的染色质结合和新生转录，证明DGCR8-ERH-SPT5模块独立于Microprocessor维持全局转录。"
+    }
+  }
+]
