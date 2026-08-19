@@ -1,0 +1,26 @@
+[
+  {
+    "id": "42607531",
+    "title": "TCF7/MiR-802-5p promotes delayed graft function in cold-storage kidney transplantation by inducing mitochondrial stress.",
+    "abstract": "Cold storage and reperfusion cause acute tubular injury and delayed graft function (DGF), but how these stresses trigger mitochondrial collapse is unclear. Here we identify a Dicer-dependent microRNA program in renal tubules, centered on miR-802-5p, that links cold-storage associated kidney transplantation (CST) to loss of mitochondrial integrity. In a CST mouse model, Dicer deletion in tubules preserved mitochondrial ultrastructure, reduced tubular injury and improved graft function. miRNA profiling revealed miR-802-5p as a Dicer-processed miRNA induced by CST that is required to abolish the protection conferred by Dicer loss. miR-802-5p directly targets the 3' UTR of IMMT (mitofilin), a core organizer of mitochondrial cristae, reducing IMMT expression, disrupting cristae structure and impairing respiration, whereas IMMT overexpression restores mitochondrial function and mitigates graft injury. Upstream, the Wnt effector TCF7 binds the miR-802 promoter and activates miR-802-5p transcription; TCF7 inhibition blunts miR-802-5p induction and protects against CST-induced damage. In kidney-transplant recipients, urinary and intrarenal miR-802-5p levels are increased in DGF and correlate with impaired graft function. Thus, a TCF7-Dicer-miR-802-IMMT axis couples CST to mitochondrial stress and represents a potential diagnostic and therapeutic target.",
+    "authors": [
+      "Xue Z",
+      "Sun Y",
+      "Cheng F",
+      "Pan S",
+      "Yu W",
+      "Li C"
+    ],
+    "published": "2026-08-17",
+    "journal": "International immunopharmacology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42607531/",
+    "score": 45,
+    "summary": {
+      "title_zh": "TCF7/miR-802-5p通过诱导线粒体应激促进冷保存肾移植中的移植物功能延迟恢复",
+      "enzyme_type": "Dicer（Class III RNase III家族成员，负责将pre-miRNA加工为成熟miRNA）",
+      "mechanism": "在冷保存肾移植（CST）中，肾小管细胞通过TCF7转录因子激活miR-802-5p的转录，随后由Dicer加工为成熟miRNA。miR-802-5p直接靶向IMMT（mitofilin）的3'UTR，抑制其表达，导致线粒体嵴结构破坏和呼吸功能受损，从而引发线粒体应激和肾小管损伤。Dicer缺失或TCF7抑制可阻断该通路，保护线粒体完整性并改善移植物功能。",
+      "engineering": "该研究未涉及RNase III酶的工程化改造，但通过基因敲除（Dicer、TCF7）和过表达（IMMT）策略验证了通路功能，并利用miRNA profiling和靶基因验证揭示了miR-802-5p作为诊断标志物的潜力，提示可开发针对TCF7或miR-802-5p的干预策略（如反义寡核苷酸或小分子抑制剂）用于治疗DGF。",
+      "key_results": "在CST小鼠模型中，肾小管特异性Dicer缺失保护了线粒体超微结构、减少肾小管损伤并改善移植物功能；miR-802-5p是Dicer加工的关键miRNA，其过表达逆转了Dicer缺失的保护作用。miR-802-5p直接抑制IMMT，导致嵴结构破坏和呼吸障碍，而IMMT过表达恢复线粒体功能并减轻损伤。在肾移植受者中，DGF患者尿液和肾组织中的miR-802-5p水平升高，并与移植物功能受损相关。"
+    }
+  }
+]
