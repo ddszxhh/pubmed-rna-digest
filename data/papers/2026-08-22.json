@@ -1,0 +1,27 @@
+[
+  {
+    "id": "42625383",
+    "title": "Tudor staphylococcal nuclease promotes Bombyx mori cytoplasmic polyhedrosis virus replication through lipid metabolic reprogramming in silkworms.",
+    "abstract": "Bombyx mori cytoplasmic polyhedrosis virus (BmCPV), a double-stranded RNA reovirus, causes significant losses in sericulture; however, the host factors that support its replication remain poorly understood. Here, we identify Tudor staphylococcal nuclease (TSN) as a critical pro-viral host factor in silkworms. TSN is a multifunctional, evolutionarily conserved protein involved in transcription and RNA processing. BmTSN expression was increased markedly in BmCPV-infected midgut tissues. RNAi-mediated knockdown in BmN cells suppresses viral replication, whereas overexpression enhances it. Mechanistically, BmTSN drives a metabolic shift by enhancing lipid accumulation; knockdown of BmTSN reduces the expression of BmSREBP1 and other lipid-regulatory genes. Disruption of either BmTSN or BmSREBP1 reduces BmCPV replication. In a reciprocal effect, RNAi-mediated knockdown of BmSREBP1 also reduces BmTSN expression. Furthermore, BmSREBP1 transcriptionally activates BmTSN expression by binding to the BmTSN promoter, suggesting a regulatory loop between these factors. Together, these findings reveal a virus-induced BmTSN-BmSREBP1 axis that links host lipid metabolism to BmCPV replication. This work identifies BmTSN as a key host-dependency factor and provides new insights into virus-host interactions in insects.",
+    "authors": [
+      "Awais MM",
+      "Mehmood N",
+      "Yu W",
+      "Asif A",
+      "Zhang Y",
+      "Sun J",
+      "Yan H"
+    ],
+    "published": "2026-08-20",
+    "journal": "Insect science",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42625383/",
+    "score": 25,
+    "summary": {
+      "title_zh": "Tudor葡萄球菌核酸酶通过脂质代谢重编程促进家蚕细胞质多角体病毒复制",
+      "enzyme_type": "Tudor葡萄球菌核酸酶（TSN），属于含有SNase结构域的核酸酶，并非典型的RNase III家族成员，但具有核酸内切酶活性，参与RNA加工和调控。",
+      "mechanism": "BmTSN作为促病毒宿主因子，在BmCPV感染后表达上调，通过增强脂质积累和上调脂质调控基因（如BmSREBP1）表达，重塑宿主脂质代谢，为病毒复制提供支持。同时，BmSREBP1可转录激活BmTSN表达，形成正反馈调控环，共同促进BmCPV复制。",
+      "engineering": "本研究未涉及BmTSN的工程化改造或应用开发，主要通过RNAi敲低和过表达验证其功能，并利用启动子结合实验揭示调控机制，为未来靶向BmTSN的抗病毒策略或代谢调控工程提供理论基础。",
+      "key_results": "BmTSN在BmCPV感染中显著上调，敲低抑制病毒复制，过表达增强复制；BmTSN通过调控BmSREBP1影响脂质代谢，且BmSREBP1反向激活BmTSN转录，形成正反馈环，共同促进病毒复制。"
+    }
+  }
+]
