@@ -1,0 +1,46 @@
+[
+  {
+    "id": "42655737",
+    "title": "The L-A dsRNA Virus and Its Satellites: Totiviruses and Killers in",
+    "abstract": "A secreted protein toxin encoded by a satellite dsRNA-enabled dissection of the genetic control of replication and expression of a single-segment dsRNA virus, the first Totivirus, L-A. Among the then-novel findings were i. \"head-full replication\", ii. a supposedly forbidden \"T = 2\" capsid symmetry based on an asymmetric dimer, iii. a host N-acetyltransferase whose modification of the coat protein is necessary for packaging, iv. Kex1 and Kex2 pro-toxin peptidases leading to discovery of the pre-pro-insulin processing enzymes, and v. specific viral (+) strand sites/structures needed for RNA packaging and (-) strand synthesis. L-A viral (+) strands made in the particle are extruded to the cytoplasm. Those destined for translation are 5' 7meGMP-capped by a coat protein activity that steals the cap from cellular mRNAs. (+) strands destined for encapsidation in new coats are not capped. Three host-encoded anti-viral systems were found, one based on blocking translation of the viral non-polyA mRNAs (Ski2,3,8 complex), another a 5'->3' exoribonuclease specific for uncapped molecules (such as the viral (+) strands)(Ski1/Xrn1), and the third a mitochondrial nuclease released in cells undergoing meiosis/sporulation (Nuc1). All of these systems protect cells from virus-induced pathology and have clear animal homologs. The 3' polyA of yeast mRNAs is dispensable for translation in",
+    "authors": [
+      "Wickner RB",
+      "Edskes HK"
+    ],
+    "published": "2026-08-21",
+    "journal": "Viruses",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42655737/",
+    "score": 45,
+    "summary": {
+      "title_zh": "L-A双链RNA病毒及其卫星病毒：Totiviruses与杀伤系统",
+      "enzyme_type": "本文主要涉及L-A病毒编码的RNA依赖性RNA聚合酶（RdRp）及其与宿主RNase III类酶（如Ski复合物相关核酸酶）的相互作用，但核心并非典型的RNase III酶，而是病毒复制和宿主抗病毒核酸酶系统。",
+      "mechanism": "L-A病毒利用“头满复制”机制，在病毒颗粒内合成双链RNA基因组，并通过非对称二聚体形成T=2衣壳。病毒正链RNA在颗粒内合成后释放到细胞质，部分被衣壳蛋白的加帽活性从宿主mRNA上“偷取”5'帽，用于翻译；未被加帽的正链则被包装进新衣壳。宿主通过Ski2/3/8复合物阻断病毒非polyA mRNA翻译，Ski1/Xrn1 5'→3'外切核糖核酸酶降解未加帽病毒正链，以及线粒体核酸酶Nuc1在减数分裂/孢子形成时释放，共同构成抗病毒防御。",
+      "engineering": "本文未直接涉及RNase III的工程化改造，但通过卫星RNA编码的毒素蛋白（杀伤系统）实现了对病毒复制和表达遗传控制的解析。该研究为后续利用病毒载体或改造病毒衣壳进行RNA包装、加帽和释放的工程化应用提供了基础，并揭示了宿主核酸酶（如Xrn1）在抗病毒和RNA代谢中的潜在应用价值。",
+      "key_results": "关键发现包括：L-A病毒采用“头满复制”和T=2衣壳对称性（基于非对称二聚体）；宿主N-乙酰转移酶修饰衣壳蛋白是包装所必需；Kex1/Kex2蛋白酶参与前毒素加工，进而发现前-前-胰岛素加工酶；病毒正链RNA的特定位点/结构决定包装和负链合成；宿主Ski系统、Xrn1和Nuc1三种抗病毒机制均具有动物同源物，保护细胞免受病毒病理影响。"
+    }
+  },
+  {
+    "id": "42653364",
+    "title": "The Hidden Layer of MicroRNA Regulation in Gynecologic Cancers: IsomiRs, Arm Switching, and RNA Epitranscriptomic Modifications.",
+    "abstract": "MicroRNAs (miRNAs) are key regulators of gene expression that act primarily by binding to target messenger RNAs (mRNAs). However, the biology of miRNAs is more complex than initially thought, with functional complexity extending beyond canonical sequences. A multilayered miRNA regulatory landscape involving isomiR generation, altered 5p/3p strand usage, arm switching, A-to-I RNA editing, and epitranscriptomic RNA modifications operates in eukaryotic cells to regulate miRNA function. Collectively, these mechanisms expand the functional diversity of miRNAs by regulating their biogenesis, stability, strand selection, and target specificity, increasing their functional plasticity and contributing to regulatory heterogeneity found in cells. IsomiRs arise from alternative Drosha/Dicer processing, terminal nucleotide additions, RNA editing, and genetic variation, producing functionally distinct isoforms. Arm switching alters gene regulatory outputs through context-dependent changes in predominant 5p/3p strand usage. In addition, epitranscriptomic RNA modifications, such as m6A and m5C, together with A-to-I RNA editing, represent an additional layer of miRNA regulation. These mechanisms can act directly on miRNAs or their precursors, or indirectly by modifying circRNAs and lncRNAs, thereby altering miRNA availability and function. Together, these processes form a dynamic regulatory network that influences key cancer hallmarks, including cell proliferation, apoptosis, epithelial-mesenchymal transition, metastasis, immune evasion, and therapy resistance. However, the contribution of these non-canonical regulatory layers to tumor-specific miRNA function remains poorly understood. In this review, we explore how isomiR generation, miRNA strand selection, arm switching, and epitranscriptomic regulation expand the functional diversity of miRNAs in gynecologic cancers.",
+    "authors": [
+      "Pérez-Navarro Y",
+      "López-Camarillo C",
+      "Flores-García LC",
+      "Alvarez-Sánchez ME",
+      "Campoy Ramírez A",
+      "Salinas-Vera YM"
+    ],
+    "published": "2026-08-18",
+    "journal": "International journal of molecular sciences",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42653364/",
+    "score": 35,
+    "summary": {
+      "title_zh": "妇科癌症中microRNA调控的隐藏层面：IsomiRs、臂切换与RNA表观转录组修饰",
+      "enzyme_type": "涉及Drosha和Dicer（均为RNase III家族成员），以及RNA修饰酶（如甲基转移酶和ADAR）",
+      "mechanism": "本文综述了miRNA调控的多层机制，包括isomiR的产生（由Drosha/Dicer的替代加工、末端核苷酸添加、RNA编辑和遗传变异导致）、5p/3p臂的切换（改变基因调控输出）以及表观转录组修饰（如m6A、m5C和A-to-I编辑）。这些机制直接或间接作用于miRNA及其前体，或通过修饰circRNA和lncRNA来调节miRNA的稳定性、链选择、靶标特异性和功能多样性。",
+      "engineering": "本文为综述，未涉及具体的蛋白工程化改造或应用开发，但讨论了这些调控机制在妇科癌症中的潜在诊断和治疗应用价值，例如作为生物标志物或治疗靶点。",
+      "key_results": "本文总结了isomiR、臂切换和表观转录组修饰在妇科癌症中如何影响细胞增殖、凋亡、上皮间质转化、转移、免疫逃逸和治疗耐药等关键癌症特征，并指出这些非经典调控层在肿瘤特异性miRNA功能中的贡献仍未被充分理解。"
+    }
+  }
+]
