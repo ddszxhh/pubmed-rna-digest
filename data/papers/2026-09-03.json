@@ -1,0 +1,45 @@
+[
+  {
+    "id": "42682952",
+    "title": "Use of conformationally locking antisense oligonucleotides for the targeted inhibition of precursor microRNAs.",
+    "abstract": "Antisense oligonucleotides (ASOs) are widely used as therapeutics. One class of ASOs enhances protein expression by sequestering the mature microRNA (miRNA) in a double-stranded structure within the RNA-induced silencing complex (RISC). An alternative approach for the targeted control of gene expression is to use ASOs that bind to precursor miRNAs (pre-miRNAs) and modulate their enzymatic processing. Here, we demonstrate that ASOs that disrupt the junction of pre-miR-31, a region we previously identified as a critical regulatory element, are potent inhibitors of Dicer/TRBP processing",
+    "authors": [
+      "Westwood MN",
+      "Ma S",
+      "Saunders AJ",
+      "Howden SA",
+      "Keane SC"
+    ],
+    "published": "2026-08-24",
+    "journal": "RSC chemical biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42682952/",
+    "score": 75,
+    "summary": {
+      "title_zh": "利用构象锁定反义寡核苷酸靶向抑制前体微小RNA",
+      "enzyme_type": "Dicer（RNase III 家族成员，属于 Class III 型 RNase III 酶，与 TRBP 辅因子协同作用）",
+      "mechanism": "该研究通过设计反义寡核苷酸（ASO）结合前体 miRNA（pre-miRNA）的茎环连接区，破坏其关键构象，从而阻断 Dicer/TRBP 对 pre-miRNA 的识别与切割。ASO 的结合可能诱导 pre-miRNA 形成刚性双链结构，阻止 Dicer 正确测量底物长度或定位切割位点，最终抑制成熟 miRNA 的生成，而非依赖 RISC 中 miRNA 的隔离。",
+      "engineering": "该研究涉及 ASO 的理性设计，针对 pre-miR-31 的连接区（此前鉴定为关键调控元件）进行序列优化，以实现对 Dicer 加工的强效抑制。这种策略可推广至其他 pre-miRNA，用于靶向调控 miRNA 生物发生，具有治疗性基因沉默或恢复蛋白表达的生物技术应用潜力，尤其适用于 miRNA 过表达相关疾病。",
+      "key_results": "实验证明，靶向 pre-miR-31 连接区的 ASO 能显著抑制 Dicer/TRBP 介导的 pre-miR-31 加工，且抑制效果优于传统 ASO 策略。该结果验证了通过构象锁定干扰 pre-miRNA 加工是一种可行的靶向调控手段。"
+    }
+  },
+  {
+    "id": "42679851",
+    "title": "Noncanonical Functions of DICER-Mediated Pathways.",
+    "abstract": "Dicer has long been viewed as the RNAse III enzyme that generates small regulatory RNAs to drive RNA interference (RNAi) machinery and posttranscriptional gene silencing. However, a growing body of evidence reveals that Dicer's functional landscape extends far beyond its canonical role in the cytoplasmic RNAi pathway. In this review, we delineate the classical, RNAse III-dependent small RNA processing activities from an expanding set of noncanonical functions in which Dicer operates independently of RNAi outputs. We highlight emerging principles that underlie these functions, including structural and regulatory principles, with a focus on nuclear functions, posttranslational regulation, and noncanonical substrates. We then explore how Dicer intersects with genome integrity pathways, transcriptional programs, and cellular response to DNA damage. Finally, we propose an integrated conceptual framework in which Dicer acts as a multifunctional regulator of chromatin architecture and genome stability, as we consider how perturbations of these pathways contribute to disease.",
+    "authors": [
+      "Drula R",
+      "Arur S"
+    ],
+    "published": "2026-09-01",
+    "journal": "Annual review of genetics",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42679851/",
+    "score": 55,
+    "summary": {
+      "title_zh": "DICER介导通路的非经典功能",
+      "enzyme_type": "Dicer（RNase III 家族成员，属于 Class III RNase III 酶）",
+      "mechanism": "Dicer 通过其 RNase III 结构域切割双链 RNA 前体，产生小调节 RNA 以驱动 RNA 干扰和转录后基因沉默。此外，Dicer 还具有不依赖 RNAi 的非经典功能，涉及核内加工、翻译后调控和非经典底物识别，从而影响染色质结构、基因组稳定性和 DNA 损伤应答。",
+      "engineering": "该综述未涉及具体的蛋白工程改造，但提出了基于结构调控原理的整合框架，可能指导未来对 Dicer 进行结构域修饰或底物特异性重编程，以用于基因沉默、疾病治疗或生物技术应用。",
+      "key_results": "综述总结了 Dicer 在经典 RNAi 之外的多种非经典功能，强调其在细胞核内的作用、翻译后修饰调控以及与非经典底物的相互作用，并提出了 Dicer 作为染色质结构和基因组稳定性多功能调节因子的概念框架。"
+    }
+  }
+]
