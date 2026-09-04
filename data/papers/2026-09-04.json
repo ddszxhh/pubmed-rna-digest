@@ -1,0 +1,25 @@
+[
+  {
+    "id": "42687115",
+    "title": "Efficiency of RNAi-based gene silencing in fungi: a meta-analysis.",
+    "abstract": "RNA interference (RNAi) shows great potential to protect crops against fungal diseases, yet reported protection efficiencies vary greatly, and our understanding of the factors responsible for this variance remains limited. In this meta-analysis, we evaluated 89 studies that compare the efficiency of host-induced gene silencing (HIGS) and spray-induced gene silencing (SIGS) in controlling fungal diseases, focusing on biotrophic, hemibiotrophic, and necrotrophic fungi, the use of formulations, and the dsRNA design as explanatory factors for differences between reported efficiency values. Our results indicate that SIGS is slightly more effective, particularly against biotrophs. Surprisingly, SIGS studies using formulations did not outperform those applying naked dsRNA. We also assessed parameters of RNA design. Differences in dsRNA length and the number of constructs and number of targets showed no consistent significant effect on resistance in either HIGS or SIGS. However, HIGS studies reported significantly higher efficiency when targeting genes closer to the 3' end and SIGS when targeting genes closer to the 5' end. We discuss potential reasons for the reported patterns, such as variability in dsRNA uptake mechanisms, intercellular trafficking, and Dicer processing, and conclude that more research is needed to understand the biological mechanisms determining RNAi efficiency for fungal control.",
+    "authors": [
+      "Barth P",
+      "Drumm J",
+      "Schmidt AE",
+      "Hartig F",
+      "Koch A"
+    ],
+    "published": "2026-09-02",
+    "journal": "The New phytologist",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42687115/",
+    "score": 45,
+    "summary": {
+      "title_zh": "基于RNAi的基因沉默在真菌中的效率：一项荟萃分析",
+      "enzyme_type": "RNA干扰（RNAi）系统，涉及Dicer酶（RNase III家族成员）对双链RNA（dsRNA）的加工",
+      "mechanism": "RNAi通过宿主诱导的基因沉默（HIGS）或喷雾诱导的基因沉默（SIGS）递送dsRNA，dsRNA被真菌细胞摄取后，由Dicer酶（RNase III型核酸酶）切割为小干扰RNA（siRNA），进而引导序列特异性mRNA降解，实现靶基因沉默。该过程涉及dsRNA的细胞间运输、Dicer加工效率以及RNAi信号的系统性传播，这些因素共同影响沉默效率。",
+      "engineering": "该研究为荟萃分析，不涉及直接的蛋白工程化改造，但评估了dsRNA设计参数（如长度、靶标位置、构建体数量）对沉默效率的影响，为优化RNAi策略（如HIGS和SIGS）提供指导，具有农业生物技术应用价值，可用于真菌病害防控。",
+      "key_results": "SIGS略优于HIGS，尤其对活体营养型真菌更有效；使用制剂并未显著提高SIGS效果。dsRNA长度和靶标数量无显著影响，但靶向基因3'端在HIGS中效率更高，而靶向5'端在SIGS中效率更高，提示不同递送方式下RNA加工机制存在差异。"
+    }
+  }
+]
