@@ -1,0 +1,26 @@
+[
+  {
+    "id": "42340339",
+    "title": "Orchestration of GSM1 and MOS2 in microRNA biogenesis and plant growth in Arabidopsis.",
+    "abstract": "GSM1, a potential DEAH-box RNA helicase, is involved in the glucose-abscisic acid signaling pathway and RNA silencing. Here, MOS2 is identified as interacting with GSM1 in the nucleus, and the G-patch domain of MOS2 promoted RNA helicase activity of GSM1 in vitro. In gsm1-2, reduced levels of several microRNAs (miRNAs) and increased levels of their respective target genes were observed. The lack of MOS2 in gsm1-2 (gsm1-2 mos2-3) severely inhibited growth, resulting in seedling lethality and greater reduction of some miRNA levels, implying a genetic interaction between GSM1 and MOS2. HYL1 encodes a double-stranded RNA-binding protein that functions in the DICER-LIKE 1 complex to facilitate primary (pri)-miRNA processing. By contrast, gsm1-2 hyl1-2 strongly resembled hyl1-2 in the dwarf phenotype, and the expression levels of several mature miRNAs in gsm1-2 hyl1-2 were comparable to those in hyl1-2 but lower than in gsm1-2. Impaired subnuclear dicing body localization of HYL1 was also observed in gsm1-2, which was detected previously in mos2-2. Moreover, HYL1-pre-miR159a binding affinity was reduced in the presence of GSM1 in vitro. Collectively, these results suggest that GSM1 and MOS2 contribute to miRNA biogenesis, which is largely associated with HYL1-engaged pri-miRNA processing.",
+    "authors": [
+      "Wang L",
+      "Song Y",
+      "Yan J",
+      "Yang X",
+      "Zheng M",
+      "Hsu YF"
+    ],
+    "published": "2026-09-01",
+    "journal": "Plant physiology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42340339/",
+    "score": 55,
+    "summary": {
+      "title_zh": "拟南芥中GSM1与MOS2在microRNA生物发生及植物生长中的协同调控",
+      "enzyme_type": "该系统涉及DICER-LIKE 1（DCL1）复合物，属于RNase III家族中的Dicer类核糖核酸酶，负责将pri-miRNA加工为miRNA。",
+      "mechanism": "GSM1（DEAH-box RNA解旋酶）与MOS2（含G-patch结构域）在细胞核中相互作用，MOS2的G-patch结构域增强GSM1的RNA解旋酶活性，从而促进pri-miRNA加工。GSM1与MOS2通过影响HYL1（双链RNA结合蛋白）在Dicing小体中的定位及其与pri-miRNA的结合，调控DCL1介导的pri-miRNA切割，最终影响miRNA成熟和靶基因表达。",
+      "engineering": "该研究未涉及蛋白工程化改造或可编程RNA切割应用，但揭示了GSM1-MOS2-HYL1调控模块，为未来通过调控RNA解旋酶或G-patch蛋白来优化miRNA加工效率或设计RNA干扰工具提供了潜在靶点。",
+      "key_results": "gsm1-2突变体显示多个miRNA水平降低且靶基因上调；gsm1-2 mos2-3双突变导致幼苗致死和miRNA进一步减少，表明GSM1与MOS2遗传互作。gsm1-2 hyl1-2表型与hyl1-2相似，且GSM1缺失导致HYL1亚核定位异常并降低HYL1与pre-miR159a的结合亲和力，证明GSM1通过HYL1参与pri-miRNA加工。"
+    }
+  }
+]
