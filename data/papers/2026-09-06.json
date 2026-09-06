@@ -1,0 +1,24 @@
+[
+  {
+    "id": "41719532",
+    "title": "Challenges with Congenital Lung Cysts: When to Consider DICER1 Testing? A Narrative Review.",
+    "abstract": "Congenital pulmonary airway malformations (CPAMs), according to the Stocker classification, comprise five types, two of which are non-cystic in nature (types 0 and 3) whereas the others present as cystic lung lesions (types 1, 2 and 4). While there is consensus that symptomatic lesions should be managed surgically, the asymptomatic cases are more problematic in terms of therapeutic intervention. The dilemma is further complicated by CPAM types 1 and 4 and their preneoplastic potential. In the case of CPAM type 1, there are reports of lipidic adenocarcinoma arising from the mucinous component. Type 4 has been equated to type I or cystic pleuropulmonary blastoma (PPB), a proposition that has been challenged in the past. Pleuropulmonary blastoma is associated with a heterozygous germline or somatic variants in DICER1. It was recognized that the earliest stage of the sarcomatous progression of PPB was a multicystic lesion in the periphery of the lung whose architectural features were identical to CPAM type 4. This narrative review addresses key aspects of the pathogenetic and diagnostic issues of type I PPB/CPAM type 4, as well as the association of DICER1 and PPB, offering valuable insights for pediatricians and clinicians caring for young adults who are impacted by the presence of a germline DICER1 variant.",
+    "authors": [
+      "Rocha GM",
+      "Dehner LP",
+      "Olson DR",
+      "Schultz KAP"
+    ],
+    "published": "2026-09-01",
+    "journal": "Acta medica portuguesa",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41719532/",
+    "score": 15,
+    "summary": {
+      "title_zh": "先天性肺囊肿的挑战：何时考虑DICER1检测？——一项叙述性综述",
+      "enzyme_type": "DICER1（属于RNase III家族，为Dicer类双链RNA切割核糖核酸酶）",
+      "mechanism": "DICER1在microRNA加工中发挥关键作用，负责将前体miRNA（pre-miRNA）切割为成熟的miRNA双链体。其底物识别依赖于对双链RNA末端和结构特征的识别，切割催化通过两个RNase III结构域协同完成，产生具有特征性2核苷酸3'突出端的产物。DICER1功能异常（如胚系或体细胞突变）会导致miRNA加工失调，进而影响基因表达调控，与肿瘤发生（如胸膜肺母细胞瘤）密切相关。",
+      "engineering": "本文未涉及DICER1的工程化改造或生物技术应用，而是从临床诊断角度探讨DICER1基因检测的指征。重点在于识别与DICER1突变相关的疾病（如I型胸膜肺母细胞瘤/CPAM 4型）的病理特征，为儿科和成人临床医生提供何时进行DICER1检测的建议，以改善遗传咨询和患者管理。",
+      "key_results": "综述指出，CPAM 4型与I型胸膜肺母细胞瘤（PPB）在组织学上难以区分，而PPB与DICER1胚系或体细胞突变相关。因此，对于表现为多囊性肺病变的病例，尤其是无症状或组织学可疑的CPAM 4型，应考虑进行DICER1基因检测，以早期识别潜在的肿瘤易感综合征。"
+    }
+  }
+]
