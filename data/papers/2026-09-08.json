@@ -1,0 +1,34 @@
+[
+  {
+    "id": "42702850",
+    "title": "RNAi in the Rhizarian Phytopathogen Plasmodiophora brassicae: The Causal Agent of Clubroot Disease in Cruciferous Crops.",
+    "abstract": "Although RNA interference (RNAi) is widespread and functionally important across eukaryotes, RNAi pathways are diverse or even lost in some lineages. Rhizaria represents a major and distinct eukaryotic supergroup that includes Plasmodiophora brassicae (Pb), the causal agent of cruciferous clubroot disease, yet RNAi in this lineage remains poorly understood. Here, we characterized an unusual RNAi pathway in Pb. Small RNA sequencing across five representative Pb life stages revealed abundant siRNAs and miRNAs characterized by a predominant 21-nt length, phased genomic distribution, 2-nt 3' overhangs, and a strong 5'-cytidine bias. Three Pb miRNAs were further validated by northern blotting and stem-loop RT-qPCR. Genome analysis identified two canonical AGO homologs, PbAGO1 and PbAGO2, but no Dicer homologs, except for an RNase III-containing Drosha-like protein, PbDRL. Functional analyses showed that PbAGO1 and PbAGO2 mediate gene silencing, whereas PbDRL is required for sRNA biogenesis. Further, the cell wall component chitin was identified from Pb zoosporangia during the early infection and RNAi interfering with its biosynthesis in transgenic plants of Arabidopsis and Brassica napus blocked Pb early infection and conferred broad-spectrum resistance. Our study uncovers an unusual RNAi pathway in Rhizaria and provides a promising strategy to control cruciferous clubroot disease.",
+    "authors": [
+      "Zhang X",
+      "Wu Y",
+      "Hou J",
+      "Gao L",
+      "Pan L",
+      "Shen C",
+      "Zhao C",
+      "Gao F",
+      "Zhang Y",
+      "Ren L",
+      "Fang X",
+      "Dun X",
+      "Liu S",
+      "Liu L"
+    ],
+    "published": "2026-09-06",
+    "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42702850/",
+    "score": 55,
+    "summary": {
+      "title_zh": "根肿菌质体病原菌芸苔根肿菌中的RNA干扰：十字花科作物根肿病的致病因子",
+      "enzyme_type": "该研究涉及一种含有RNase III结构域的Drosha样蛋白（PbDRL），属于RNase III家族，但非典型的Dicer或Drosha同源物。",
+      "mechanism": "在芸苔根肿菌中，RNAi通路依赖于两个AGO蛋白（PbAGO1和PbAGO2）以及一个含有RNase III结构域的Drosha样蛋白PbDRL，而缺乏典型的Dicer同源物。PbDRL参与小RNA（sRNA）的生物发生，可能通过其RNase III结构域切割双链RNA底物，产生具有2-nt 3'突出和5'胞嘧啶偏向的21-nt sRNA，这些sRNA被AGO蛋白装载并介导基因沉默。",
+      "engineering": "该研究通过转基因拟南芥和甘蓝型油菜表达靶向Pb几丁质生物合成基因的RNAi构建体，实现了对病原菌早期感染的阻断，展示了基于RNAi的跨界抗病策略在作物保护中的应用潜力。",
+      "key_results": "小RNA测序揭示了Pb中丰富的21-nt siRNA和miRNA，具有相位的基因组分布和5'胞嘧啶偏向；功能实验证实PbAGO1/2介导基因沉默，PbDRL为sRNA生成所必需；转基因植物中干扰Pb几丁质合成基因可阻断早期感染并赋予广谱抗性。"
+    }
+  }
+]
