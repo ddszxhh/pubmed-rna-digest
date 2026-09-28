@@ -1,0 +1,26 @@
+[
+  {
+    "id": "42791328",
+    "title": "DDX3X regulates DNA repair pathway choice at double-strand breaks via RNA-DNA hybrid formation.",
+    "abstract": "DNA Double-strand breaks (DSBs) are amongst the most cytotoxic DNA lesions. During the processing of DSBs, so-called Break-Induced RNA-DNA Hybrids (BIRDHs) are generated to promote timely DSB repair. Here, we identify the DEAD-box helicase DDX3X as a positive regulator of BIRDHs and a key factor in facilitating DSB repair via homologous recombination (HR). We demonstrate that DDX3X promotes BIRDH formation by inhibiting CST (CTC1, STN1, TEN1)-Polα fill-in synthesis, through limiting 53BP1 accumulation at DSBs in a Drosha-dependent manner. Notably, depletion of DDX3X impairs both BIRDH and BRCA1 focus formation, while disabling CST-Polα mediated fill-in synthesis in DDX3X-deficient cells restores these events. This suggests a competitive interplay between BIRDH formation and fill-in synthesis that influences DNA repair pathway choice. Consistent with a role in HR, DDX3X depletion sensitizes tumor cells to cisplatin in vitro and in vivo. We conclude that DDX3X promotes genome maintenance and cell viability following DSB formation through regulation of BIRDHs.",
+    "authors": [
+      "Wu W",
+      "Lan M",
+      "Zhang J",
+      "Sun H",
+      "Liu Y",
+      "Zhang P"
+    ],
+    "published": "2026-09-25",
+    "journal": "Cell death and differentiation",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42791328/",
+    "score": 45,
+    "summary": {
+      "title_zh": "DDX3X通过形成RNA-DNA杂交链调控双链断裂修复途径选择",
+      "enzyme_type": "Drosha（Class II RNase III家族成员，参与microRNA加工及DNA损伤应答中的非经典功能）；同时涉及DEAD-box解旋酶DDX3X，而非直接切割dsRNA的RNase III酶活中心",
+      "mechanism": "DDX3X以Drosha依赖的方式限制53BP1在DNA双链断裂（DSB）位点的积累，从而抑制CST（CTC1-STN1-TEN1）-Polα介导的填补合成，促进断裂诱导的RNA-DNA杂交链（BIRDHs）形成；BIRDHs与填补合成之间存在竞争性 interplay，决定DSB修复向同源重组（HR）途径倾斜；DDX3X缺失同时损害BIRDH和BRCA1焦点形成，而抑制CST-Polα填补合成可恢复这些事件",
+      "engineering": "未涉及蛋白工程化改造、突变设计或可编程RNA切割应用；研究聚焦于DDX3X-Drosha轴作为HR修复调控节点的机制解析，并提示DDX3X缺失可增敏肿瘤细胞对顺铂的响应，具有潜在化疗增敏策略价值",
+      "key_results": "DDX3X被鉴定为BIRDHs的正调控因子和HR修复的关键促进因子；DDX3X缺失降低BIRDH与BRCA1焦点形成，而阻断CST-Polα填补合成可逆转该缺陷；DDX3X敲低在体外和体内均使肿瘤细胞对顺铂敏感，表明其通过调控BIRDHs维持基因组稳定和细胞存活"
+    }
+  }
+]
