@@ -1,0 +1,30 @@
+[
+  {
+    "id": "42809346",
+    "title": "Breaking Barriers to Mosquito RNAi Control: A dsRNA Biomanufacturing and Nanodelivery Platform for Sustainable Vector Management.",
+    "abstract": "RNA interference (RNAi) offers a promising approach for pest control but is often limited by the instability of double-stranded RNA (dsRNA) and inefficient cellular delivery. We developed a biodegradable, redox-responsive polyaminoglycoside nanocarrier (SS-HPT) to improve dsRNA stability, cellular uptake, and intracellular release. SS-HPT readily formed stable nanocomplexes (∼300 nm, positively charged) that resisted nuclease degradation under simulated gut conditions and remained stable during storage. Fluorescence imaging demonstrated efficient uptake and widespread distribution in mosquito larvae. Intracellular disulfide cleavage promoted dsRNA release, enhancing gene silencing. Delivery of β-tubulin-targeting dsRNA via SS-HPT resulted in over 95% larval mortality at substantially lower doses than unprotected dsRNA. These findings establish SS-HPT as an effective platform for RNAi-based pest management.",
+    "authors": [
+      "Wang K",
+      "Bi Z",
+      "Zhang Z",
+      "Zhao T",
+      "Liu X",
+      "Xing D",
+      "Wu J",
+      "Shen J",
+      "Xu C",
+      "Li C"
+    ],
+    "published": "2026-09-29",
+    "journal": "ACS applied materials & interfaces",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42809346/",
+    "score": 15,
+    "summary": {
+      "title_zh": "突破蚊虫RNAi防控瓶颈：用于可持续媒介管理的dsRNA生物制造与纳米递送平台",
+      "enzyme_type": "本文不涉及RNase III或dsRNA切割核糖核酸酶（如Class I RNase III、Drosha、Dicer、Mini-III、Rnt1p、Pac1等）；其核心是RNAi通路中的dsRNA递送系统，而非切割酶本身。",
+      "mechanism": "该平台利用可生物降解、氧化还原响应的聚氨基糖苷纳米载体SS-HPT与dsRNA自组装形成约300 nm的稳定正电荷纳米复合物，保护dsRNA免受核酸酶降解并促进细胞摄取。进入细胞后，胞内二硫键断裂触发dsRNA释放，从而增强RNAi基因沉默效应。",
+      "engineering": "涉及纳米载体工程化改造：设计氧化还原响应型聚氨基糖苷SS-HPT用于dsRNA包装、稳定化与可控释放，属于可编程RNA递送与生物技术应用，而非蛋白突变或底物特异性重编程。",
+      "key_results": "SS-HPT/dsRNA纳米复合物在模拟肠道条件下抗核酸酶降解且储存稳定，在蚊幼虫中实现高效摄取和广泛分布；递送靶向β-tubulin的dsRNA时，在显著更低剂量下导致超过95%幼虫死亡率。"
+    }
+  }
+]
