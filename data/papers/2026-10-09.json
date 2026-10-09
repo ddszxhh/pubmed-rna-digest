@@ -1,0 +1,24 @@
+[
+  {
+    "id": "42850029",
+    "title": "Optimization of Circle-Seq improves transcription error profiling and transcriptome representation.",
+    "abstract": "Errors in transcription generate transient RNA variants that are amplified through translation, with potential consequences for cellular phenotypes and RNA-based therapeutics. Accurate detection of these rare events relies on high-fidelity sequencing approaches such as Circle-Seq, but technical artifacts introduced during RNA preparation can distort error profiles and frequencies. Here, we systematically evaluate the impact of bacterial RNA sample preparation on Circle-Seq outputs. We show that RNA extraction and ribosomal RNA depletion introduce artifactual oxidative damage signatures, particularly C>U and G>A substitutions, that inflate apparent transcription error rates. Optimized mRNA preparation conditions substantially reduce these artifacts. In addition, we identify an RNase III fragmentation bias caused by its preference for structured RNAs, resulting in uneven transcriptome coverage. Chaotropic monovalent ions mitigate this bias and improve coverage uniformity. Finally, our optimized protocol captured, with improved accuracy, the frequency and spectrum of transcription errors in absence of the transcription fidelity factor GreA. Together, these results define the technical limitations of Circle-Seq and provide practical solutions to improve the accuracy and interpretability of transcription error measurements in bacterial systems.",
+    "authors": [
+      "Deus Ramirez L",
+      "Cooke MB",
+      "Halliday JA",
+      "Herman C"
+    ],
+    "published": "2026-10-08",
+    "journal": "RNA (New York, N.Y.)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42850029/",
+    "score": 55,
+    "summary": {
+      "title_zh": "Circle-Seq 的优化提升转录错误谱分析与转录组代表性",
+      "enzyme_type": "RNase III（用于 RNA 片段化的双链 RNA 切割核糖核酸酶，非 Class I/II/III 分类中的特定成员，也非 Drosha、Dicer、Mini-III、Rnt1p 或 Pac1）",
+      "mechanism": "RNase III 通过识别结构化 RNA 底物进行切割，导致 Circle-Seq 中转录本覆盖不均，产生片段化偏好性；该偏好性可通过离液单价离子缓解，从而改善覆盖均一性。同时，RNA 提取和 rRNA 去除会引入氧化损伤假象（C>U 和 G>A 替换），优化 mRNA 制备条件可减少这些假象，提高转录错误检测准确性。",
+      "engineering": "涉及 Circle-Seq 实验流程的工程化优化：优化 mRNA 制备条件以减少人工氧化损伤；使用离液单价离子缓解 RNase III 的结构偏好性片段化偏差；未涉及蛋白突变、结构域融合或可编程 RNA 切割设计，但优化方案可用于提高细菌转录错误谱和转录组代表性的准确性。",
+      "key_results": "RNA 提取和 rRNA 去除会引入 C>U 和 G>A 氧化损伤假象，抬高表观转录错误率；RNase III 因偏好结构化 RNA 导致覆盖不均，离液单价离子可减轻该偏差；优化后的流程在缺失转录保真因子 GreA 时，能更准确地捕获转录错误的频率和谱型。"
+    }
+  }
+]
