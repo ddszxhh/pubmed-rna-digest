@@ -1,0 +1,25 @@
+[
+  {
+    "id": "42914125",
+    "title": "Plastid tRNA-derived small RNAs associate with AGO1 and accumulate upon sulfur deprivation in Chlamydomonas.",
+    "abstract": "Transfer RNA-derived small RNAs (tDRs) represent a diverse class of noncoding RNAs with emerging regulatory roles across all domains of life. In the green alga Chlamydomonas reinhardtii, next-generation sequencing revealed abundant, specific tDRs, with a predominance of those derived from plastid-encoded tRNAs. Most of these tDRs map to the 5' ends of mature tRNAs and are 29-33 nucleotides in length, suggesting that they arise from cleavage at the anticodon loop or stem. We confirmed the plastid origin of some tDRs by engineering the chloroplast genome to replace the plastid-encoded tRNAAsn(GTT) gene with a nuclear counterpart. As reported in land plants, DICER-LIKE endonucleases play a limited role in tDR biogenesis in Chlamydomonas. However, a distinct subset of abundant tDRs, originating from both nucleus- and chloroplast-encoded tRNAs, associates with ARGONAUTE1 (AGO1). Using Gaussia luciferase reporter assays, we demonstrated that AGO1-associated tDRs can mediate RNAi-like gene silencing, and that tDRs originating from plastid-encoded tRNAs can function outside the chloroplast. Additionally, the tDR population in Chlamydomonas undergoes dynamic changes in response to nutrient availability. While nitrogen starvation causes a general decrease in both mature tRNA and tDR levels, sulfur deprivation specifically induces the accumulation of certain tDRs. Furthermore, strains in which the plastid tRNAAsn(GTT) gene was replaced by a nuclear counterpart exhibited phenotypic defects under sulfur-deprived conditions, suggesting a potential regulatory role for plastid-derived tDRs in nutrient stress responses. Collectively, these findings expand our understanding of tDR functions, particularly those of chloroplast origin, in photosynthetic eukaryotes.",
+    "authors": [
+      "Li Y",
+      "Kim EJ",
+      "Subedi B",
+      "Moriyama EN",
+      "Cerutti H"
+    ],
+    "published": "2026-10-23",
+    "journal": "Plant physiology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42914125/",
+    "score": 35,
+    "summary": {
+      "title_zh": "莱茵衣藻中质体tRNA来源小RNA与AGO1结合并在硫饥饿时积累",
+      "enzyme_type": "DICER-LIKE内切核糖核酸酶（Dicer样蛋白）；ARGONAUTE1（AGO1）效应复合体；未涉及Class I RNase III、Drosha、Mini-III、Rnt1p或Pac1等典型dsRNA切割核糖核酸酶",
+      "mechanism": "质体编码tRNA来源的tDRs主要映射于成熟tRNA的5'端、长度29–33 nt，提示其由反密码子环或茎部切割产生；DICER-LIKE内切酶在衣藻tDR生成中作用有限，但部分核编码和叶绿体编码tDRs可装载至AGO1并介导RNAi样基因沉默；tDR群体响应营养状态动态变化，氮饥饿使成熟tRNA和tDR总体下降，而硫剥夺特异性诱导某些tDR积累。",
+      "engineering": "通过叶绿体基因组工程将质体编码tRNAAsn(GTT)基因替换为核编码对应基因，验证tDR的质体来源并发现该替换株在硫剥夺下出现表型缺陷；利用Gaussia荧光素酶报告基因实验证明AGO1结合的tDRs可介导RNAi样基因沉默，且质体来源tDRs可在叶绿体外发挥功能，提示其可用于可编程RNA沉默和营养胁迫诊断/生物技术应用。",
+      "key_results": "下一代测序显示衣藻中tDRs丰富且具特异性，以质体编码tRNA来源者为主；叶绿体基因组替换实验确认部分tDRs的质体来源；AGO1相关tDRs在荧光素酶报告系统中介导基因沉默；硫剥夺特异性诱导特定tDRs积累，且质体tRNAAsn(GTT)核替换株在硫饥饿下表现表型缺陷。"
+    }
+  }
+]
