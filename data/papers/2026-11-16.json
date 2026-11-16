@@ -1,0 +1,25 @@
+[
+  {
+    "id": "43034657",
+    "title": "Exercise imprints a persistent tumor intrinsic suppressive state in colorectal cancer.",
+    "abstract": "Exercise reduces colorectal cancer (CRC) progression, yet whether it acts directly and durably on tumor cells has been difficult to establish. Using syngeneic murine models, we show that aerobic exercise training suppresses primary tumor growth, pulmonary metastasis, and cachexia, and imprints a tumor-intrinsic suppressive state that persists",
+    "authors": [
+      "Tobias GC",
+      "Gomes JLP",
+      "de Almeida NR",
+      "Dantas WS",
+      "Oliveira EM"
+    ],
+    "published": "2026-11-20",
+    "journal": "iScience",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43034657/",
+    "score": 5,
+    "summary": {
+      "title_zh": "运动在结直肠癌中留下持久的肿瘤内在抑制状态",
+      "enzyme_type": "不涉及 RNase III 或双链 RNA 切割核糖核酸酶；该论文为运动肿瘤学/结直肠癌研究，与 RNase III 家族酶无关",
+      "mechanism": "摘要未涉及底物识别、切割催化或产物释放等 RNA 酶学机制；其核心机制是有氧运动训练在肿瘤细胞中留下可持久存在的肿瘤内在抑制状态，从而抑制原发肿瘤生长、肺转移和恶病质。",
+      "engineering": "不涉及蛋白优化、突变设计、底物特异性重编程、结构域融合或可编程 RNA 切割；应用价值在于运动干预作为结直肠癌辅助策略的潜在生物学依据。",
+      "key_results": "在同系小鼠模型中，有氧运动训练抑制原发肿瘤生长、肺转移和恶病质，并留下可持久的肿瘤内在抑制状态。"
+    }
+  }
+]
